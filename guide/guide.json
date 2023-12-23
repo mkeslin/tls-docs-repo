@@ -1,0 +1,290 @@
+﻿{
+	"items": [
+		{
+			"title": "Welcome",
+			"label": "getstarted",
+			"visible": true
+		},
+		{
+			"title": "General System",
+			"visible": true,
+			"children": [
+				{
+					"title": "Navigating the Application",
+					"label": "navigating_application",
+					"visible": true
+				},
+				{
+					"title": "Managing the Browser",
+					"label": "navigating_browser",
+					"visible": true
+				},
+				{
+					"title": "Reporting",
+					"label": "system_reporting",
+					"visible": true
+				}
+			]
+		},
+		{
+			"title": "CAD",
+			"visible": true,
+			"children": [
+				{
+					"title": "Overview",
+					"label": "cad_overview",
+					"visible": true
+				},
+				{
+					"title": "Units",
+					"label": "cad_units",
+					"visible": true
+				},
+				{
+					"title": "Calls",
+					"label": "cad_calls",
+					"visible": true
+				},
+				{
+					"title": "Searching the Logs",
+					"label": "cad_searchinglogs",
+					"visible": true
+				},
+				{
+					"title": "Self Dispatch",
+					"label": "cad_selfdispatch",
+					"visible": true
+				}
+			]
+		},
+		{
+			"title": "Administration",
+			"visible": true,
+			"children": [
+				{
+					"title": "Overview",
+					"label": "admin_overview",
+					"visible": true
+				},
+				{
+					"title": "Agency",
+					"label": "admin_agency",
+					"visible": true
+				},
+				{
+					"title": "Codes",
+					"label": "admin_codes",
+					"visible": true
+				},
+				{
+					"title": "Offenses",
+					"label": "admin_offenses",
+					"visible": true
+				},
+				{
+					"title": "Users",
+					"label": "admin_users",
+					"visible": true
+				},
+				{
+					"title": "Officers",
+					"label": "admin_officers",
+					"visible": true
+				},
+				{
+					"title": "CAD",
+					"label": "admin_cad",
+					"visible": true
+				},
+				{
+					"title": "Audit History",
+					"label": "admin_audit_history",
+					"visible": true
+				}
+			]
+		},
+		{
+			"title": "Master Records",
+			"visible": true,
+			"children": [
+				{
+					"title": "Overview",
+					"label": "master_overview",
+					"visible": true
+				},
+				{
+					"title": "Persons",
+					"label": "master_persons",
+					"visible": true
+				},
+				{
+					"title": "Organizations",
+					"label": "master_organizations",
+					"visible": true
+				}
+			]
+		},
+		{
+			"title": "Incidents",
+			"visible": true,
+			"children": [
+				{
+					"title": "Overview",
+					"label": "incidents_overview",
+					"visible": true
+				},
+				{
+					"title": "Workflow",
+					"label": "incidents_workflow",
+					"visible": true
+				},
+				{
+					"title": "Property and Evidence",
+					"label": "incidents_propertyandevidence",
+					"visible": true
+				},
+				{
+					"title": "CAD Integration",
+					"label": "incidents_cadintegration",
+					"visible": true
+				},
+				{
+					"title": "PC Affidavit",
+					"label": "incidents_pcaffidavit",
+					"visible": true
+				}
+			]
+		},
+		{
+			"title": "Citations",
+			"visible": true,
+			"children": [
+				{
+					"title": "Overview",
+					"label": "citations_overview",
+					"visible": true
+				},
+				{
+					"title": "Workflow",
+					"label": "citations_workflow",
+					"visible": true
+				},
+				{
+					"title": "Racial Profiling",
+					"label": "citations_racialprofiling",
+					"visible": true
+				},
+				{
+					"title": "Mobile Citation / E-Citations",
+					"label": "citations_mobile",
+					"visible": true
+				},
+				{
+					"title": "Citation to Warrant",
+					"label": "citations_towarrant",
+					"visible": true
+				},
+				{
+					"title": "Citation to Incident / Arrest",
+					"label": "citations_toincident",
+					"visible": true
+				}
+			]
+		},
+		{
+			"title": "Notepads",
+			"visible": true,
+			"children": [
+				{
+					"title": "Overview",
+					"label": "notepads_overview",
+					"visible": true
+				},
+				{
+					"title": "Workflow",
+					"label": "notepads_workflow",
+					"visible": true
+				},
+				{
+					"title": "Search/View/Add/Update",
+					"label": "notepads_searchviewaddedit",
+					"visible": true
+				},
+				{
+					"title": "Connections",
+					"label": "notepads_connections",
+					"visible": true
+				}
+			]
+		},
+		{
+			"title": "Close Patrols",
+			"visible": true,
+			"children": [
+				{
+					"title": "Overview",
+					"label": "closepatrols_overview",
+					"visible": true
+				},
+				{
+					"title": "Search/View/Add/Update",
+					"label": "closepatrols_searchviewaddedit",
+					"visible": true
+				}
+			]
+		},
+		{
+			"title": "Warrants",
+			"visible": true,
+			"children": [
+				{
+					"title": "Overview",
+					"label": "warrants_overview",
+					"visible": true
+				},
+				{
+					"title": "Search/View/Add/Update",
+					"label": "warrants_searchviewaddedit",
+					"visible": true
+				}
+			]
+		},
+		{
+			"title": "Evidence",
+			"visible": true,
+			"children": [
+				{
+					"title": "Overview",
+					"label": "evidence_overview",
+					"visible": true
+				},
+				{
+					"title": "Chain of Custody",
+					"label": "evidence_chainofcustody",
+					"visible": true
+				}
+			]
+		},
+		{
+			"title": "IBRS",
+			"visible": true,
+			"children": [
+				{
+					"title": "Errors",
+					"label": "ibrs_errors",
+					"visible": true
+				}
+			]
+		},
+		{
+			"title": "FAQ",
+			"label": "faq",
+			"visible": true
+		},
+		{
+			"title": "Troubleshooting",
+			"label": "troubleshooting",
+			"visible": true
+		}
+	]
+}
