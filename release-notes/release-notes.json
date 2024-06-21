@@ -1,6 +1,22 @@
 ﻿{
 	"items": [
 		{
+			"title": "Version 5",
+			"visible": true,
+			"children": [
+				{
+					"title": "Version 5.1",
+					"label": "v_5_1_0",
+					"visible": false
+				},
+				{
+					"title": "Version 5.0",
+					"label": "v_5_0_0",
+					"visible": true
+				}
+			]
+		},
+		{
 			"title": "Version 4",
 			"visible": true,
 			"children": [
