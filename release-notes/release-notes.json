@@ -5,9 +5,19 @@
 			"visible": true,
 			"children": [
 				{
+					"title": "Version 5.5",
+					"label": "v_5_5_0",
+					"visible": true
+				},
+				{
+					"title": "Version 5.4",
+					"label": "v_5_4_0",
+					"visible": true
+				},
+				{
 					"title": "Version 5.3",
 					"label": "v_5_3_0",
-					"visible": false
+					"visible": true
 				},
 				{
 					"title": "Version 5.2",
