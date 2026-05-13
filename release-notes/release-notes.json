@@ -1,9 +1,50 @@
-﻿{
+{
 	"items": [
+		{
+			"title": "Version 6",
+			"visible": true,
+			"children": [
+				{
+					"title": "Version 6.3",
+					"label": "v_6_3_0",
+					"visible": true
+				},
+				{
+					"title": "Version 6.2",
+					"label": "v_6_2_0",
+					"visible": true
+				},
+				{
+					"title": "Version 6.1",
+					"label": "v_6_1_0",
+					"visible": true
+				},
+				{
+					"title": "Version 6.0",
+					"label": "v_6_0_0",
+					"visible": true
+				}
+			]
+		},
 		{
 			"title": "Version 5",
 			"visible": true,
 			"children": [
+				{
+					"title": "Version 5.8",
+					"label": "v_5_8_0",
+					"visible": true
+				},
+				{
+					"title": "Version 5.7",
+					"label": "v_5_7_0",
+					"visible": true
+				},
+				{
+					"title": "Version 5.6",
+					"label": "v_5_6_0",
+					"visible": true
+				},
 				{
 					"title": "Version 5.5",
 					"label": "v_5_5_0",
@@ -152,91 +193,23 @@
 			"title": "Version 2",
 			"visible": false,
 			"children": [
-				{
-					"title": "Version 2.16",
-					"label": "v_2_16_0",
-					"visible": true
-				},
-				{
-					"title": "Version 2.15",
-					"label": "v_2_15_0",
-					"visible": true
-				},
-				{
-					"title": "Version 2.14",
-					"label": "v_2_14_0",
-					"visible": true
-				},
-				{
-					"title": "Version 2.13",
-					"label": "v_2_13_0",
-					"visible": true
-				},
-				{
-					"title": "Version 2.12",
-					"label": "v_2_12_0",
-					"visible": true
-				},
-				{
-					"title": "Version 2.11",
-					"label": "v_2_11_0",
-					"visible": true
-				},
-				{
-					"title": "Version 2.10",
-					"label": "v_2_10_0",
-					"visible": true
-				},
-				{
-					"title": "Version 2.9",
-					"label": "v_2_9_0",
-					"visible": true
-				},
-				{
-					"title": "Version 2.8",
-					"label": "v_2_8_0",
-					"visible": true
-				},
-				{
-					"title": "Version 2.7",
-					"label": "v_2_7_0",
-					"visible": true
-				},
-				{
-					"title": "Version 2.6",
-					"label": "v_2_6_0",
-					"visible": true
-				},
-				{
-					"title": "Version 2.5",
-					"label": "v_2_5_0",
-					"visible": true
-				},
-				{
-					"title": "Version 2.4",
-					"label": "v_2_4_0",
-					"visible": true
-				},
-				{
-					"title": "Version 2.3",
-					"label": "v_2_3_0",
-					"visible": true
-				},
-				{
-					"title": "Version 2.2",
-					"label": "v_2_2_0",
-					"visible": true
-				},
-				{
-					"title": "Version 2.1",
-					"label": "v_2_1_0",
-					"visible": true
-				},
-				{
-					"title": "Version 2.0",
-					"label": "v_2_0_0",
-					"visible": true
-				}
+				{ "title": "Version 2.16", "label": "v_2_16_0", "visible": true },
+				{ "title": "Version 2.15", "label": "v_2_15_0", "visible": true },
+				{ "title": "Version 2.14", "label": "v_2_14_0", "visible": true },
+				{ "title": "Version 2.13", "label": "v_2_13_0", "visible": true },
+				{ "title": "Version 2.12", "label": "v_2_12_0", "visible": true },
+				{ "title": "Version 2.11", "label": "v_2_11_0", "visible": true },
+				{ "title": "Version 2.10", "label": "v_2_10_0", "visible": true },
+				{ "title": "Version 2.9", "label": "v_2_9_0", "visible": true },
+				{ "title": "Version 2.8", "label": "v_2_8_0", "visible": true },
+				{ "title": "Version 2.7", "label": "v_2_7_0", "visible": true },
+				{ "title": "Version 2.6", "label": "v_2_6_0", "visible": true },
+				{ "title": "Version 2.5", "label": "v_2_5_0", "visible": true },
+				{ "title": "Version 2.4", "label": "v_2_4_0", "visible": true },
+				{ "title": "Version 2.3", "label": "v_2_3_0", "visible": true },
+				{ "title": "Version 2.2", "label": "v_2_2_0", "visible": true },
+				{ "title": "Version 2.1", "label": "v_2_1_0", "visible": true },
+				{ "title": "Version 2.0", "label": "v_2_0_0", "visible": true }
 			]
 		},
 		{
