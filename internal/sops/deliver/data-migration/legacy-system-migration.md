@@ -16,7 +16,7 @@
 | **Owner** | Implementation Lead *(current incumbent: Matthew Keslin)* |
 | **Primary stakeholders** | Customer Administrator · Implementation · Engineering |
 | **Success criteria** | Data migrated · Utilities completed · Customer validated · Migration accepted |
-| **Related SOPs** | [Customer Onboarding](../customer-onboarding.md) · [Bootstrap Environment](../infrastructure/bootstrap-environment.md) · [Post-Conversion Utilities](post-conversion-utilities.md) |
+| **Related SOPs** | [Kickoff and Discovery](../kickoff.md) · [Bootstrap Environment](../infrastructure/bootstrap-environment.md) · [Post-Conversion Utilities](post-conversion-utilities.md) |
 | **Required assessment** | [Legacy System Migration Assessment](../../../assessments/legacy-system-migration-assessment.md) → Approved Conversion Plan |
 
 Migration includes more than importing records: assessment, extraction, transformation, validation, workflow transition, customer review, and final acceptance.
@@ -451,7 +451,7 @@ See also [Common risks](#common-risks).
 | Document | Relationship |
 |----------|--------------|
 | [Data conversion (CVE stage)](../../../customer-value-engine/deliver/data-conversion.md) | Stage context |
-| [Customer Onboarding](../customer-onboarding.md) | Related Deliver SOP (placeholder) |
+| [Kickoff and Discovery](../kickoff.md) | Scope / discovery |
 | [Bootstrap Environment](../infrastructure/bootstrap-environment.md) | Provision tenant before/with import (Infrastructure scripts) |
 | [Post-Conversion Utilities](post-conversion-utilities.md) | Phase 7 — Admin Data Utilities (workflow + call snapshot) |
 | [Migration Philosophy](migration-philosophy.md) | Principles |
@@ -459,7 +459,7 @@ See also [Common risks](#common-risks).
 | [Migration Decision Matrix](migration-decision-matrix.md) | Package vs configuration |
 | [Vendor Conversion Guides](vendor-packages/vendor-conversion-guides/README.md) | Phase 1 / 5 — per-vendor knowledge |
 | [Migration Package Standards](vendor-packages/migration-package-standards.md) | Manifest · VERSION · backlog |
-| [Customer Configuration Standard](migration-customer-configuration.md) | Package + config = migration |
+| [Migration Overrides & Mapping Standard](migration-customer-configuration.md) | Package + config = migration |
 | [Migration Validation Standard](migration-validation-standard.md) | Definition of success |
 | [Migration Metrics](migration-metrics.md) | Lightweight tracking |
 | [Legacy System Migration Assessment](../../../assessments/legacy-system-migration-assessment.md) | Phase 2 — required decision document |

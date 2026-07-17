@@ -1,12 +1,13 @@
-# Customer Trained
+# Training
 
-**Milestone:** Customer Trained  
+**Lifecycle step:** 6 · Training  
+**Milestone outcome:** Customer trained  
 **Document type:** Phase overview  
 **Status:** <mark style="color:red;">Placeholder</mark>  
 
 Engagement status: ☐ Not started · ☐ In progress · ☐ Complete
 
-CVE stage page: [Training](../../customer-value-engine/deliver/training.md)
+CVE stage: [Training](../../customer-value-engine/deliver/training.md)
 
 ---
 
@@ -20,20 +21,20 @@ Ensure the customer’s users can perform their jobs in Thin Line before exclusi
 
 | Input | Source |
 |-------|--------|
-| Configured (and migrated) environment | Prior milestones |
-| Audience lists / roles | Customer |
-| Training materials / guides | `customer/` docs · product |
+| Configured (and migrated) environment | Prior phases |
+| Audience lists / roles | Kickoff discovery |
+| Training materials / guides | [`customer/training/`](../../../customer/training/README.md) · product |
 
 ---
 
 ## Activities
 
 1. Agree training plan (roles, sessions, environment).  
-2. Deliver training.  
+2. Deliver training (link customer-facing curricula).  
 3. Collect questions / gaps; fix critical gaps.  
 4. Confirm readiness for go-live training sign-off.  
 
-<mark style="color:red;">**TODO:**</mark> Training SOP and curricula by role.
+<mark style="color:red;">**TODO:**</mark> Training SOP and curricula by role (map to customer guides).
 
 ---
 
@@ -47,7 +48,7 @@ Ensure the customer’s users can perform their jobs in Thin Line before exclusi
 ## Exit criteria
 
 - [ ] Agreed audiences completed planned training  
-- [ ] No training gaps that block Customer Live (or accepted with plan)  
+- [ ] No training gaps that block Go Live (or accepted with plan)  
 - [ ] Customer acknowledges readiness to proceed to go-live  
 
 ---
@@ -58,7 +59,7 @@ Ensure the customer’s users can perform their jobs in Thin Line before exclusi
 |-----|------|
 | <mark style="color:red;">**TODO:**</mark> Training SOP | Procedure |
 | [CVE — Training](../../customer-value-engine/deliver/training.md) | Stage overview |
-| Customer guides under `customer/` | Guides |
+| [Customer training](../../../customer/training/README.md) | Guides |
 
-**Previous:** [Integrations Verified](integrations.md) or [Configuration Complete](configuration.md)  
-**Next:** [Customer Live](go-live.md)
+**Previous:** [Integrations and Hardware](integrations.md) or [Configuration](configuration/README.md)  
+**Next:** [Go Live](go-live.md)

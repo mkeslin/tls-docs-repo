@@ -307,7 +307,8 @@ Goals include:
 | [Migration Architecture](../sops/deliver/data-migration/migration-architecture.md) | Assessment → pricing → package flow |
 | [Migration Package Standards](../sops/deliver/data-migration/vendor-packages/migration-package-standards.md) | Vendor package VERSION / reuse (affects effort tier) |
 | [Vendor Conversion Guides](../sops/deliver/data-migration/vendor-packages/vendor-conversion-guides/README.md) | Supported vendor catalog |
-| [Customer Onboarding](../sops/deliver/customer-onboarding.md) | Customer implementation SOP (placeholder) |
+| [Kickoff and Discovery](../sops/deliver/kickoff.md) | Implementation discovery |
+| [Data Migration](../sops/deliver/data-migration/README.md) | Migration phase |
 | [Business Systems Architecture](../operating-system/business-systems-architecture.md) | Systems of record context |
 
 ---

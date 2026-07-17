@@ -60,7 +60,7 @@ flowchart TD
 |----------|------|
 | [Migration Architecture](migration-architecture.md) | Flow |
 | [Migration Package Standards](vendor-packages/migration-package-standards.md) | Package rules |
-| [Customer Configuration Standard](migration-customer-configuration.md) | Config layer |
+| [Migration Overrides & Mapping Standard](migration-customer-configuration.md) | Config layer |
 | [Vendor Conversion Guides](vendor-packages/vendor-conversion-guides/README.md) | Per-vendor knowledge |
 
 ---

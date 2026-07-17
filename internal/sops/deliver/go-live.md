@@ -1,13 +1,14 @@
-# Customer Live
+# Go Live
 
-**Milestone:** Customer Live  
+**Lifecycle step:** 7 · Go Live  
+**Milestone outcome:** Customer live in production  
 **Document type:** Phase overview  
 **Status:** <mark style="color:red;">Placeholder</mark>  
 
 Engagement status: ☐ Not started · ☐ In progress · ☐ Complete
 
 Assessment: [Go-Live Readiness Assessment](../../assessments/go-live-readiness-assessment.md)  
-CVE stage: [Go-live / configuration](../../customer-value-engine/deliver/go-live-configuration.md)
+CVE stage: [Go Live](../../customer-value-engine/deliver/go-live.md)
 
 ---
 
@@ -21,7 +22,7 @@ Cut over to Thin Line as the system of record for agreed modules—customer is *
 
 | Input | Source |
 |-------|--------|
-| Prior milestones complete (or N/A) | Implementation board |
+| Prior lifecycle phases complete (or N/A) | Implementation board |
 | Go-live readiness | Assessment |
 | Cutover plan / communications | Kickoff / this phase |
 
@@ -34,7 +35,7 @@ Cut over to Thin Line as the system of record for agreed modules—customer is *
 3. Smoke-check production.  
 4. Open hypercare window.  
 
-<mark style="color:red;">**TODO:**</mark> Go-live SOP and communication templates.
+<mark style="color:red;">**TODO:**</mark> Go-live runbook and communication templates.
 
 ---
 
@@ -59,8 +60,8 @@ Cut over to Thin Line as the system of record for agreed modules—customer is *
 | Doc | Type |
 |-----|------|
 | [Go-Live Readiness Assessment](../../assessments/go-live-readiness-assessment.md) | Assessment |
-| <mark style="color:red;">**TODO:**</mark> Go-live SOP | Procedure |
-| [CVE — Go-live / configuration](../../customer-value-engine/deliver/go-live-configuration.md) | Stage overview |
+| <mark style="color:red;">**TODO:**</mark> Go-live runbook | Procedure |
+| [CVE — Go Live](../../customer-value-engine/deliver/go-live.md) | Stage overview |
 
-**Previous:** [Customer Trained](training.md)  
-**Next:** [Hypercare Complete](hypercare.md)
+**Previous:** [Training](training.md)  
+**Next:** [Hypercare and Transition](hypercare.md)

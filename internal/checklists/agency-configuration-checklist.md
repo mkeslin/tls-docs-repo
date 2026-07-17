@@ -2,7 +2,7 @@
 
 **Document type:** Checklist  
 **Status:** v1  
-**Use during:** [Configuration Complete](../sops/deliver/configuration.md)  
+**Use during:** [Configuration](../sops/deliver/configuration/README.md) (lifecycle 4)  
 **Primary UI:** Admin → **Agency & Module Settings** — see [Agency & Module Settings](../sops/deliver/configuration/agency-settings.md)
 
 Engagement checklist for agency **business configuration**. Does **not** replace [Environment Health Checklist](environment-health-checklist.md) (platform wiring) or migration validation.
@@ -130,7 +130,7 @@ Number patterns aligned with migration Overrides when historical data was import
 
 - [ ] CJIS Compliance Officer designated (as used by the agency)
 - [ ] Complaints / compliments email for mobile citations set or N/A
-- [ ] Hardware (mobile printers, scanners) quoted/ordered or N/A
+- [ ] Hardware (mobile printers, scanners) quoted/ordered or N/A — detail in [Hardware Readiness Checklist](hardware-readiness-checklist.md)
 
 ---
 
@@ -141,7 +141,7 @@ Number patterns aligned with migration Overrides when historical data was import
 | Implementation | | | |
 | Customer sponsor (optional) | | | |
 
-**Exit:** Sections A–E complete or N/A for in-scope agency type; Sections F–G complete enough for training and Integrations Verified.
+**Exit:** Sections A–E complete or N/A for in-scope agency type; Sections F–G complete enough for training and Integrations and Hardware.
 
 ---
 
@@ -150,6 +150,6 @@ Number patterns aligned with migration Overrides when historical data was import
 | Document | Role |
 |----------|------|
 | [Agency & Module Settings](../sops/deliver/configuration/agency-settings.md) | Field inventory |
-| [Configuration Complete](../sops/deliver/configuration.md) | Phase overview |
+| [Configuration](../sops/deliver/configuration/README.md) | Phase overview |
 | [Bootstrap vs Configuration](../sops/deliver/infrastructure/bootstrap-vs-configuration.md) | Boundary |
 | [Environment Health Checklist](environment-health-checklist.md) | Platform only |

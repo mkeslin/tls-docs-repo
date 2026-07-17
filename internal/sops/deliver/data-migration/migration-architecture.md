@@ -27,11 +27,11 @@ flowchart TD
 | **Assessment** | Can we convert? Risk, modules, package fit | [Legacy System Migration Assessment](../../../assessments/legacy-system-migration-assessment.md) |
 | **Pricing** | Quote outcomes from assessment | [Migration Pricing Policy](../../../policies/migration-pricing.md) |
 | **Package** | Choose / extend vendor Migration Package | [Migration Package Standards](vendor-packages/migration-package-standards.md) · [Vendor Guides](vendor-packages/vendor-conversion-guides/README.md) |
-| **Customer config** | Checklist + Overrides (not shared Pipeline) | [Customer Configuration Standard](migration-customer-configuration.md) |
+| **Customer config** | Checklist + Overrides (not shared Pipeline) | [Migration Overrides & Mapping Standard](migration-customer-configuration.md) |
 | **Execution** | StagingImporter + Pipeline + [Post-Conversion Utilities](post-conversion-utilities.md) | [Legacy System Migration](legacy-system-migration.md) · product `PROCESS.md` |
 | **Validation** | Counts, relationships, spot checks | [Migration Validation Standard](migration-validation-standard.md) |
 | **Acceptance** | Customer acknowledges | [Customer Validation Checklist](../../../checklists/customer-validation-checklist.md) · Acceptance form |
-| **Package improvement** | Promote reusable fixes; bump `VERSION`; backlog | [Package Standards — backlog](migration-package-standards.md#package-backlog) |
+| **Package improvement** | Promote reusable fixes; bump `VERSION`; backlog | [Package Standards — backlog](vendor-packages/migration-package-standards.md#package-backlog) |
 
 ---
 
@@ -69,7 +69,7 @@ Contract
   → Support
 ```
 
-Environment provisioning: [Bootstrap Environment](../infrastructure/bootstrap-environment.md). Broader onboarding: [Customer Onboarding](../customer-onboarding.md) *(placeholder)*.
+Environment provisioning: [Bootstrap Environment](../infrastructure/bootstrap-environment.md). Discovery: [Kickoff and Discovery](../kickoff.md).
 
 ---
 

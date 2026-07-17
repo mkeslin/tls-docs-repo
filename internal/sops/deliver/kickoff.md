@@ -1,16 +1,22 @@
-# Kickoff
+# Kickoff and Discovery
 
-**Milestone:** Kickoff Complete  
+**Lifecycle step:** 1 · Kickoff and Discovery  
+**Milestone outcome:** Kickoff complete; discovery recorded  
 **Document type:** Phase overview  
 **Status:** <mark style="color:red;">Placeholder</mark>  
 
 Engagement status: ☐ Not started · ☐ In progress · ☐ Complete
 
+CVE stage: [Kickoff and Discovery](../../customer-value-engine/deliver/kickoff-and-discovery.md)  
+Assessment: [Implementation Readiness Assessment](../../assessments/implementation-readiness-assessment.md)
+
 ---
 
 ## Purpose
 
-Align Thin Line and the customer on goals, roles, timeline, environments, and whether historical data migration is in scope—so work can start without ambiguity.
+Align Thin Line and the customer on goals, roles, timeline, environments, and scope (modules, historical data migration, integrations, hardware)—so work can start without ambiguity.
+
+This phase absorbs the former **Customer Onboarding** placeholder: kickoff through readiness to begin Infrastructure.
 
 ---
 
@@ -22,27 +28,37 @@ Align Thin Line and the customer on goals, roles, timeline, environments, and wh
 | Agency naming (slug + display name) | Customer / Sales |
 | Target go-live window | Customer |
 | Migration decision (Y/N/partial) | Assessment / handoff |
+| Integration / hardware flags | Handoff |
 
 ---
 
 ## Activities
 
-1. Internal prep (roles, draft plan).  
+1. Internal prep (roles, draft plan, readiness assessment).  
 2. Customer kickoff meeting.  
 3. Confirm AgencyName, environment tier(s), VersionBranch intent.  
-4. Confirm migration / integrations scope.  
-5. Publish initial milestone board.  
+4. Discovery: modules, migration, integrations, hardware, training audiences.  
+5. Publish initial lifecycle board (0–8).  
 
-Related placeholder to fold in: [Customer Onboarding](customer-onboarding.md).
+### Discovery scope matrix (minimum)
+
+| Area | In scope? | Notes / owner |
+|------|-----------|---------------|
+| Modules / products | | |
+| Historical data migration | Y / N / Partial | |
+| Integrations (list) | | |
+| Hardware (printers, scanners, etc.) | | |
+| Training audiences | | |
+| Target go-live window | | |
 
 ---
 
 ## Outputs
 
 - Shared kickoff notes / plan  
-- Confirmed scope (migration, integrations)  
+- Confirmed scope (migration, integrations, hardware)  
 - Named owners (Thin Line + customer)  
-- Next milestone: Infrastructure Ready (or parallel tracks agreed)  
+- Next phase: Infrastructure (or parallel tracks agreed)  
 
 ---
 
@@ -50,18 +66,19 @@ Related placeholder to fold in: [Customer Onboarding](customer-onboarding.md).
 
 - [ ] Customer and Thin Line agree on scope and approximate timeline  
 - [ ] Agency identity (slug / display name) agreed  
-- [ ] Migration and integrations marked in-scope, out-of-scope, or TBD with owner  
-- [ ] Path to Infrastructure Ready is clear  
+- [ ] Migration, integrations, and hardware marked in-scope, out-of-scope, or TBD with owner  
+- [ ] Path to Infrastructure is clear  
+- [ ] [Implementation Readiness Assessment](../../assessments/implementation-readiness-assessment.md) started or complete (as used)  
 
 ---
 
-## Referenced SOPs / standards
+## Referenced SOPs / standards / checklists
 
 | Doc | Role |
 |-----|------|
-| <mark style="color:red;">**TODO:**</mark> Kickoff SOP / agenda | Procedure |
-| [Customer Onboarding](customer-onboarding.md) | Legacy placeholder |
+| [Implementation Readiness Assessment](../../assessments/implementation-readiness-assessment.md) | Assessment |
+| [Sales Handoff Checklist](../../checklists/sales-handoff-checklist.md) | Prior checklist |
 | [Implementation Methodology](implementation-methodology.md) | Parent |
-| [Infrastructure Ready](infrastructure/README.md) | Next phase |
+| [Infrastructure](infrastructure/README.md) | Next phase |
 
-**Previous:** [Sales Handoff](sales-handoff.md) · **Next:** [Infrastructure Ready](infrastructure/README.md)
+**Previous:** [Sales Handoff](sales-handoff.md) · **Next:** [Infrastructure](infrastructure/README.md)

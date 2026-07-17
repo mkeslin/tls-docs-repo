@@ -21,16 +21,19 @@ Awareness → Cold leads → Warm leads → Hot leads → Demo → Proposal → 
 
 ## Deliver
 
-CVE stages (capability) map to implementation **milestones** in [SOPs — Deliver](../sops/deliver/README.md) (e.g. Infrastructure Ready, Customer Data Migrated, Customer Live).
+CVE stages (capability) map to the implementation lifecycle **0–8** in [SOPs — Deliver](../sops/deliver/README.md).
 
-Bootstrap → Data conversion → Training → Go-live / configuration *(CVE stage names)*
-
-| Stage | Desired outcome / milestone | Owner | Maturity |
-|-------|-----------------------------|-------|----------|
-| [Bootstrap environment](deliver/bootstrap-environment.md) | Infrastructure Ready | Keslin | 3 |
-| [Data conversion](deliver/data-conversion.md) | Customer Data Migrated | Keslin | 3 |
-| [Training](deliver/training.md) | Customer Trained | Fugate | 1 |
-| [Go-live / configuration](deliver/go-live-configuration.md) | Configuration Complete + Customer Live | **Decision needed** | 3 |
+| # | Stage | Desired outcome | Owner | Maturity |
+|:-:|-------|-----------------|-------|----------|
+| 0 | [Sales Handoff](deliver/sales-handoff.md) | Handoff accepted | **Decision needed** | 1 |
+| 1 | [Kickoff and Discovery](deliver/kickoff-and-discovery.md) | Scope / plan agreed | **Decision needed** | 1 |
+| 2 | [Infrastructure](deliver/infrastructure.md) | Infrastructure Ready | Keslin | 3 |
+| 3 | [Data Migration](deliver/data-migration.md) | Customer Data Migrated or N/A | Keslin | 3 |
+| 4 | [Configuration](deliver/configuration.md) | Configuration Complete | **Decision needed** | 2 |
+| 5 | [Integrations and Hardware](deliver/integrations-and-hardware.md) | Integrations / devices verified or N/A | **Decision needed** | 1 |
+| 6 | [Training](deliver/training.md) | Customer trained | Fugate | 1 |
+| 7 | [Go Live](deliver/go-live.md) | Customer live | **Decision needed** | 3 |
+| 8 | [Hypercare and Transition](deliver/hypercare-and-transition.md) | Operate handoff | **Decision needed** | 1 |
 
 - [Deliver overview (CVE)](deliver/README.md)
 - [Implementation Methodology](../sops/deliver/implementation-methodology.md) ★

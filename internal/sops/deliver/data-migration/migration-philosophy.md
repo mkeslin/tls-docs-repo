@@ -23,7 +23,7 @@ Migrations fail when people treat every customer as a one-off engineering projec
    Agency names, ORIs, officer maps, court maps, and one-off key fixes live in the engagement folder (checklist + Overrides). They do not belong in shared Pipeline scripts.
 
 3. **Package + configuration = migration.**  
-   Execution is: take the package, apply this customer's configuration, run, validate. See [Customer Configuration Standard](migration-customer-configuration.md).
+   Execution is: take the package, apply this customer's configuration, run, validate. See [Migration Overrides & Mapping Standard](migration-customer-configuration.md).
 
 4. **Every migration should improve the package.**  
    If the next agency would need the same fix, promote it and bump `VERSION`. Customer notes stay in the client folder; package backlog items are reusable improvements. See [Migration Package Standards](migration-package-standards.md#package-backlog).

@@ -1,7 +1,10 @@
-# Customer Configuration Standard
+# Migration Overrides & Mapping Standard
 
 **Document type:** Standard  
 **Status:** v1  
+**Also known as:** Customer configuration for migration (package + Overrides)
+
+> **Not** product Admin configuration — that is lifecycle step 4 · [Configuration](../configuration/README.md).
 
 Philosophy: [Migration Philosophy](migration-philosophy.md) — **Package + Configuration = Migration**.
 

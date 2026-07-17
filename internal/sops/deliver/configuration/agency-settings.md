@@ -1,11 +1,11 @@
 # Agency & Module Settings
 
-**Phase:** Deliver · Configuration Complete  
+**Phase:** Deliver · 4 · Configuration  
 **Document type:** Reference  
 **Status:** v1  
 **UI:** Admin → **Agency & Module Settings** (`AdminAgency`)
 
-Inventory of what Implementation configures in agency settings after [Infrastructure Ready](../infrastructure/README.md). Complements officers, users, and codes (separate Admin screens)—see [Agency Configuration Checklist](../../../checklists/agency-configuration-checklist.md).
+Inventory of what Implementation configures in agency settings after [Infrastructure](../infrastructure/README.md). Complements officers, users, and codes (separate Admin screens)—see [Agency Configuration Checklist](../../../checklists/agency-configuration-checklist.md).
 
 **Access:** Users with agency-admin claim (`canAccessAdminAgency`). Some cards require **full support** (Thin Line Support).
 
@@ -113,7 +113,7 @@ Community service / credit rate settings used by court accounting.
 | Stripe Connect Account ID | Online payments (requires online payment enabled in Mobile Citation) |
 | Processing fee percent | Online fee |
 
-Online payment / Stripe also belongs under [Integrations Verified](../integrations.md) when verifying live payment flows.
+Online payment / Stripe also belongs under [Integrations and Hardware](../integrations.md) when verifying live payment flows.
 
 ### Third-Party Collections *(court, when collections in scope)*
 
@@ -217,7 +217,7 @@ Full milestone checklist: [Agency Configuration Checklist](../../../checklists/a
 
 | Document | Role |
 |----------|------|
-| [Configuration Complete](../configuration.md) | Phase overview |
+| [Configuration](README.md) | Phase overview |
 | [Agency Configuration Checklist](../../../checklists/agency-configuration-checklist.md) | Engagement checklist |
 | [Bootstrap vs Configuration](../infrastructure/bootstrap-vs-configuration.md) | Boundary |
 | Product UI | `ThinLine.UI` → `AdminAgency*.vue` · onboarding items in `useOnboardingChecklist.ts` |

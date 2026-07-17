@@ -21,8 +21,8 @@ Referenced by:
 
 - [Legacy System Migration SOP](../legacy-system-migration.md)
 - [Vendor Conversion Guides](vendor-conversion-guides/README.md)
-- [Customer Configuration Standard](migration-customer-configuration.md)
-- [Migration Pricing Policy](../../../policies/migration-pricing.md)
+- [Migration Overrides & Mapping Standard](../migration-customer-configuration.md)
+- [Migration Pricing Policy](../../../../policies/migration-pricing.md)
 
 ---
 
@@ -50,7 +50,7 @@ A **vendor package** is a self-contained folder for one legacy product family. I
 
 **Rule:** Never leave agency-specific hardcodes in the shared vendor Pipeline. If a fix is reusable across agencies, **promote** it into the package and bump `VERSION`.
 
-Equation: [Customer Configuration Standard](migration-customer-configuration.md) — **Package + Configuration = Migration**.
+Equation: [Migration Overrides & Mapping Standard](../migration-customer-configuration.md) — **Package + Configuration = Migration**.
 
 ---
 
@@ -171,7 +171,7 @@ Reusable improvements are **package backlog**, not customer notes.
 
 ### Sources
 
-1. End of every [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md) — **Package backlog** section  
+1. End of every [Legacy System Migration Assessment](../../../../assessments/legacy-system-migration-assessment.md) — **Package backlog** section  
 2. Lessons during execution (Phase E promote in `PROCESS.md`)  
 3. Validation exceptions that imply a package gap  
 
@@ -202,7 +202,7 @@ Full steps: product-repo `PROCESS.md`. Short form:
 
 1. Identify vendor package + `VERSION`
 2. Copy template into client engagement folder
-3. Complete AgencyChecklist; fill Overrides ([configuration](migration-customer-configuration.md))
+3. Complete AgencyChecklist; fill Overrides ([configuration](../migration-customer-configuration.md))
 4. Execute StagingImporter (if any) + Pipeline order
 5. [Post-conversion utilities](../post-conversion-utilities.md); [validate](../migration-validation-standard.md); customer acceptance
 6. Promote reusable fixes; bump `VERSION`; update `ConvertedAgencies.md`; close package backlog items

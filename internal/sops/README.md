@@ -96,14 +96,14 @@ Next review date
 
 | Priority | SOP | Status |
 |----------|-----|--------|
-| 1 | [Deliver — Legacy System Migration](deliver/legacy-system-migration.md) | v1 model SOP |
-| 2 | [Deliver — Bootstrap Environment](deliver/bootstrap-environment.md) | v1 — Infrastructure PowerShell (`bootstrap-client.ps1`) |
-| 3 | [Deliver — Customer Onboarding](deliver/customer-onboarding.md) | <mark style="color:red;">Placeholder</mark> *(start of Implementation domain)* |
-| 4 | Deliver — go-live / training | Not started |
+| 1 | [Deliver — Legacy System Migration](deliver/data-migration/legacy-system-migration.md) | v1 model SOP |
+| 2 | [Deliver — Bootstrap Environment](deliver/infrastructure/bootstrap-environment.md) | v1 — Infrastructure PowerShell (`bootstrap-client.ps1`) |
+| 3 | [Deliver — Implementation Methodology](deliver/implementation-methodology.md) | v1 — lifecycle 0–8 |
+| 4 | Deliver — Training / Go Live / Hypercare SOPs | Placeholder phase overviews |
 | 5 | Acquire — demo | Not started |
 | 6 | Acquire — proposal / contract | Not started |
 | 7 | Operate — support triage | Not started |
 
-**Deliver:** Milestone-based implementation ([Implementation Methodology](deliver/implementation-methodology.md)) — phases like Infrastructure Ready and Customer Data Migrated, with SOPs/standards nested underneath.
+**Deliver:** Lifecycle-based implementation ([Implementation Methodology](deliver/implementation-methodology.md)) — steps 0–8 (Sales Handoff → Hypercare and Transition), with SOPs/standards nested underneath.
 
 Interview owners and document what is done today, then improve.

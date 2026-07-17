@@ -1,15 +1,17 @@
 # Training
 
-**Phase:** Deliver  
-**Desired outcome:** Prepare users
+**Phase:** Deliver · lifecycle 6  
+**Desired outcome:** Customer trained — users ready for production use
+
+**Phase overview:** [Training](../../sops/deliver/training.md)
 
 ## Inputs
 
-Live system, users
+Configured (and migrated) environment · audience lists · customer training guides
 
 ## Outputs
 
-Competent users
+Trained user groups by role · outstanding follow-ups listed
 
 ## Owner
 
@@ -17,7 +19,7 @@ Fugate
 
 ## Current process
 
-Live/remote sessions
+Agree plan → deliver sessions → close critical gaps → sign-off for Go Live. Customer guides: [`customer/training/`](../../../customer/training/README.md).
 
 ## Tooling
 

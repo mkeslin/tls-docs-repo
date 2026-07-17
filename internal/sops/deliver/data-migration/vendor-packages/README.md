@@ -10,7 +10,7 @@ Reusable **Migration Packages** under product-repo `Utilities/Migration Tools/<V
 | Doc | Role |
 |-----|------|
 | [Migration Package Standards](migration-package-standards.md) | Layout, VERSION, manifest, backlog |
-| [Customer Configuration Standard](../migration-customer-configuration.md) | Package + configuration = migration |
+| [Migration Overrides & Mapping Standard](../migration-customer-configuration.md) | Package + configuration = migration |
 
 ## Vendor guides
 

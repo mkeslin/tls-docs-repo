@@ -1,26 +1,15 @@
 # Implementation
 
-Internal guides for delivering Thin Line Platform to a customer.
+Implementation execution lives under **Deliver**:
 
-## Purpose
+**★ Start here:** [Implementation Methodology](../sops/deliver/implementation-methodology.md)
 
-Capture how Thin Line implements: data conversion, environment bootstrap, configuration, training coordination, and go-live.
+| Resource | Link |
+|----------|------|
+| Deliver index | [SOPs — Deliver](../sops/deliver/README.md) |
+| CVE capability view | [Customer Value Engine — Deliver](../customer-value-engine/deliver/README.md) |
+| Checklists | [Checklists](../checklists/README.md) |
+| Templates | [Templates](../templates/README.md) |
+| Customer training | [`customer/training/`](../../customer/training/README.md) |
 
-## Contents
-
-<mark style="color:red;">**TODO:**</mark> Add implementation guides and link related SOPs under [`../sops/deliver/`](../sops/deliver/README.md).
-
-Suggested future pages (do not invent content yet):
-
-- Data conversion methodology
-- Tenant / environment bootstrap
-- Configuration and agency setup
-- Training plan
-- Go-live runbook
-
-## Related
-
-- [Deliver stage](../customer-value-engine/deliver/README.md)
-- [Checklists](../checklists/README.md)
-- [Templates](../templates/README.md)
-- Customer-facing training materials: [`../../customer/training/`](../../customer/training/README.md)
+Do not maintain a parallel implementation guide tree here.

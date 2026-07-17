@@ -1,16 +1,19 @@
-# Hypercare Complete
+# Hypercare and Transition
 
-**Milestone:** Hypercare Complete  
+**Lifecycle step:** 8 · Hypercare and Transition  
+**Milestone outcome:** Hypercare complete; Operate handoff done  
 **Document type:** Phase overview  
 **Status:** <mark style="color:red;">Placeholder</mark>  
 
 Engagement status: ☐ Not started · ☐ In progress · ☐ Complete
 
+CVE stage: [Hypercare and Transition](../../customer-value-engine/deliver/hypercare-and-transition.md)
+
 ---
 
 ## Purpose
 
-Stabilize the customer after go-live with heightened support, then hand off to steady-state Operate.
+Stabilize the customer after go-live with heightened support, then **transition** to steady-state Operate (Support).
 
 ---
 
@@ -18,7 +21,7 @@ Stabilize the customer after go-live with heightened support, then hand off to s
 
 | Input | Source |
 |-------|--------|
-| Customer Live | [Customer Live](go-live.md) |
+| Go Live | [Go Live](go-live.md) |
 | Known issues / deferrals | Prior phases |
 | Support contacts / SLAs | Contract / Operate |
 
@@ -29,9 +32,9 @@ Stabilize the customer after go-live with heightened support, then hand off to s
 1. Run hypercare window (defined duration).  
 2. Triage defects and config gaps.  
 3. Daily / periodic check-ins as agreed.  
-4. Formal handoff to Operate / Support.  
+4. Formal handoff to Operate / Support (owners, open tickets, known limits).  
 
-<mark style="color:red;">**TODO:**</mark> Hypercare SOP (duration defaults, escalation, exit review).
+<mark style="color:red;">**TODO:**</mark> Hypercare SOP (duration defaults, escalation, exit review, Operate ticket handoff).
 
 ---
 
@@ -58,7 +61,8 @@ Stabilize the customer after go-live with heightened support, then hand off to s
 |-----|------|
 | <mark style="color:red;">**TODO:**</mark> Hypercare SOP | Procedure |
 | [Operate — Support](../operate.md) | Next CVE phase |
+| [CVE — Hypercare and Transition](../../customer-value-engine/deliver/hypercare-and-transition.md) | Stage overview |
 | [Implementation Methodology](implementation-methodology.md) | Parent |
 
-**Previous:** [Customer Live](go-live.md)  
+**Previous:** [Go Live](go-live.md)  
 **Next:** Operate (steady state)

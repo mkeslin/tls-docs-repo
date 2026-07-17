@@ -17,7 +17,7 @@
 | **Primary stakeholders** | Implementation · Engineering · Customer (DNS / go-live timing) |
 | **Success criteria** | [Environment Health Checklist](../../../checklists/environment-health-checklist.md) passes · naming/URLs match the Standard |
 | **Related standards** | [Bootstrap Environment Standard](bootstrap-environment-standard.md) · [Environment Inventory](environment-inventory-standard.md) · [Bootstrap vs Configuration](bootstrap-vs-configuration.md) |
-| **Related SOPs** | [Legacy System Migration](../data-migration/legacy-system-migration.md) · [Customer Onboarding](../customer-onboarding.md) · [Go-Live Readiness Assessment](../../../assessments/go-live-readiness-assessment.md) |
+| **Related SOPs** | [Legacy System Migration](../data-migration/legacy-system-migration.md) · [Kickoff and Discovery](../kickoff.md) · [Go-Live Readiness Assessment](../../../assessments/go-live-readiness-assessment.md) |
 | **Authoritative scripts** | Product monorepo `Infrastructure/` (especially `scripts/bootstrap-client.ps1`) |
 
 ---
@@ -392,7 +392,8 @@ Bootstrap is complete when the [Environment Health Checklist](../../../checklist
 | Product repo `Infrastructure/README.md` | Command-level detail, profiles, teardown |
 | [Bootstrap environment (CVE stage)](../../../customer-value-engine/deliver/bootstrap-environment.md) | Stage context |
 | [Legacy System Migration](../data-migration/legacy-system-migration.md) | Data load after/with environment |
-| [Customer Onboarding](../customer-onboarding.md) | Broader Deliver sequence |
+| [Kickoff and Discovery](../kickoff.md) | Prior phase |
+| [Configuration](../configuration/README.md) | Next typical phase after health check |
 | [Go-Live Readiness Assessment](../../../assessments/go-live-readiness-assessment.md) | Before exclusive use |
 | [Business Systems Architecture](../../../operating-system/business-systems-architecture.md) | Systems of record |
 

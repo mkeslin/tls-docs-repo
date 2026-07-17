@@ -38,7 +38,7 @@ Detailed Pipeline SQL stays versioned with the code:
 1. Confirm vendor on the [Legacy System Migration Assessment](../../../../../assessments/legacy-system-migration-assessment.md).
 2. Open the vendor guide above + product `Utilities/Migration Tools/<Vendor>/` and note `VERSION`.
 3. Follow `Utilities/Migration Tools/PROCESS.md` (copy → checklist → Overrides → promote).
-4. Configure per [Customer Configuration Standard](../../migration-customer-configuration.md).
+4. Configure per [Migration Overrides & Mapping Standard](../../migration-customer-configuration.md).
 5. Validate per [Migration Validation Standard](../../migration-validation-standard.md).
 
 Do **not** copy the last customer’s filled Overrides as the new default. Start from the vendor package templates.

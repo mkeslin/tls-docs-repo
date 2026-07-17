@@ -4,7 +4,7 @@
 
 **? Start here:** [Implementation Methodology](implementation-methodology.md)
 
-How Thin Line gets a customer from **signed** to **live**. The Customer Value Stream says *where* the customer is; this tree is the **implementation project**—milestones first, SOPs underneath.
+How Thin Line gets a customer from **signed** to **live**. The Customer Value Stream says *where* the customer is; this tree is the **implementation project**—lifecycle phases first, SOPs underneath.
 
 CVE stage overviews: [Customer Value Engine — Deliver](../../customer-value-engine/deliver/README.md).
 
@@ -19,26 +19,26 @@ Deliver
     ?
 Implementation Methodology
     ?
-Implementation phases (milestones)
+Implementation phases (0–8)
     ?
 Standards ? SOPs ? Checklists
 ```
 
 ---
 
-## Implementation milestones
+## Implementation lifecycle
 
-| | Milestone | Overview |
-|:-:|-----------|----------|
-| ? | Sales Handoff | [Sales Handoff](sales-handoff.md) |
-| ? | Kickoff Complete | [Kickoff](kickoff.md) |
-| ? | Infrastructure Ready | [Infrastructure Ready](infrastructure/README.md) |
-| ? | Customer Data Migrated | [Customer Data Migrated](data-migration/README.md) |
-| ? | Configuration Complete | [Configuration Complete](configuration.md) |
-| ? | Integrations Verified | [Integrations Verified](integrations.md) |
-| ? | Customer Trained | [Customer Trained](training.md) |
-| ? | Customer Live | [Customer Live](go-live.md) |
-| ? | Hypercare Complete | [Hypercare Complete](hypercare.md) |
+| # | Phase | Overview |
+|:-:|-------|----------|
+| 0 | Sales Handoff | [Sales Handoff](sales-handoff.md) |
+| 1 | Kickoff and Discovery | [Kickoff and Discovery](kickoff.md) |
+| 2 | Infrastructure | [Infrastructure](infrastructure/README.md) |
+| 3 | Data Migration | [Data Migration](data-migration/README.md) |
+| 4 | Configuration | [Configuration](configuration/README.md) |
+| 5 | Integrations and Hardware | [Integrations and Hardware](integrations.md) |
+| 6 | Training | [Training](training.md) |
+| 7 | Go Live | [Go Live](go-live.md) |
+| 8 | Hypercare and Transition | [Hypercare and Transition](hypercare.md) |
 
 Each phase overview uses: **Purpose · Inputs · Activities · Outputs · Exit criteria · Referenced SOPs**.
 
@@ -46,14 +46,15 @@ Each phase overview uses: **Purpose · Inputs · Activities · Outputs · Exit crite
 
 ## Supporting docs (by phase)
 
-### Infrastructure Ready
+### 2 · Infrastructure
 
 | Doc | Type |
 |-----|------|
 | [Bootstrap Environment](infrastructure/bootstrap-environment.md) | SOP |
-| Standards under [Infrastructure Ready](infrastructure/README.md) | Standards |
+| Standards under [Infrastructure](infrastructure/README.md) | Standards |
+| [Environment Health Checklist](../../checklists/environment-health-checklist.md) | Checklist |
 
-### Customer Data Migrated
+### 3 · Data Migration
 
 | Doc | Type |
 |-----|------|
@@ -63,13 +64,19 @@ Each phase overview uses: **Purpose · Inputs · Activities · Outputs · Exit crite
 | [Validation](data-migration/migration-validation-standard.md) | Standard |
 | [Customer Acceptance](data-migration/customer-acceptance.md) | Acceptance |
 
-### Configuration Complete
+### 4 · Configuration
 
 | Doc | Type |
 |-----|------|
 | [Agency & Module Settings](configuration/agency-settings.md) | Reference |
 | [Agency Configuration Checklist](../../checklists/agency-configuration-checklist.md) | Checklist |
 | [Bootstrap vs Configuration](infrastructure/bootstrap-vs-configuration.md) | Boundary |
+
+### 5 · Integrations and Hardware
+
+| Doc | Type |
+|-----|------|
+| [Hardware Readiness Checklist](../../checklists/hardware-readiness-checklist.md) | Checklist |
 
 ---
 
@@ -85,5 +92,6 @@ Each phase overview uses: **Purpose · Inputs · Activities · Outputs · Exit crite
 
 ## Related
 
-- [Customer Onboarding](customer-onboarding.md) — fold into Kickoff  
+- [Sales Handoff Checklist](../../checklists/sales-handoff-checklist.md)
 - [Migration Pricing Policy](../../policies/migration-pricing.md)
+- [Implementation hub](../../implementation/README.md) — points here

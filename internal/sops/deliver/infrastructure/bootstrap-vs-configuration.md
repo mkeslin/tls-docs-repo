@@ -45,7 +45,7 @@ Primary product surface: Admin → **Agency & Module Settings** — see [Agency 
 | Devices | Printers, scanners, mobile |
 | Comms | Email SMTP / notification settings |
 | Policies | Agency validation flags, IBRS options, sharing |
-| Integrations | OmniBase, Stripe, CAD webhooks (verify under Integrations Verified) |
+| Integrations | OmniBase, Stripe, CAD webhooks (verify under Integrations and Hardware) |
 
 These belong to **Configuration Complete** and related Admin work, not `bootstrap-client.ps1`.
 
@@ -87,10 +87,11 @@ See [Environment Lifecycle](environment-lifecycle.md).
 | Document | Role |
 |----------|------|
 | [Bootstrap Environment SOP](bootstrap-environment.md) | How to bootstrap |
-| [Configuration Complete](../configuration.md) | Phase overview |
+| [Configuration](../configuration/README.md) | Phase overview |
 | [Agency & Module Settings](../configuration/agency-settings.md) | Admin Agency inventory |
 | [Agency Configuration Checklist](../../../checklists/agency-configuration-checklist.md) | Engagement checklist |
-| [Customer Onboarding](../customer-onboarding.md) | Broader Deliver sequence *(placeholder)* |
+| [Integrations and Hardware](../integrations.md) | Devices + interfaces |
+| [Kickoff and Discovery](../kickoff.md) | Scope / discovery |
 | [Hub Environment Integration](hub-environment-integration.md) | Future Environment vs Configuration objects |
 
 ---

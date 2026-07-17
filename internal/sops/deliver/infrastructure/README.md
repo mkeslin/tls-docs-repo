@@ -1,10 +1,13 @@
-# Infrastructure Ready
+# Infrastructure
 
-**Milestone:** Infrastructure Ready  
+**Lifecycle step:** 2 · Infrastructure  
+**Milestone outcome:** Infrastructure Ready  
 **Document type:** Phase overview  
 **Status:** v1  
 
 Engagement status: ☐ Not started · ☐ In progress · ☐ Complete
+
+CVE stage: [Infrastructure](../../../customer-value-engine/deliver/infrastructure.md)
 
 ---
 
@@ -71,5 +74,5 @@ Milestone **Infrastructure Ready** when:
 | [Hub Environment Integration](hub-environment-integration.md) | Future |
 | [Environment Health Checklist](../../../checklists/environment-health-checklist.md) | Checklist |
 
-**Previous:** [Kickoff](../kickoff.md)  
-**Next:** [Customer Data Migrated](../data-migration/README.md) (if in scope) or [Configuration Complete](../configuration.md)
+**Previous:** [Kickoff and Discovery](../kickoff.md)  
+**Next:** [Data Migration](../data-migration/README.md) (if in scope) or [Configuration](../configuration/README.md)
