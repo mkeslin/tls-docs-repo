@@ -4,11 +4,15 @@ Verification lists used with SOPs and implementation work.
 
 ## Contents
 
-**TODO:** Add checklists as processes are standardized. Suggested first checklists:
+| Checklist | Status |
+|-----------|--------|
+| [Customer Validation Checklist](customer-validation-checklist.md) | Placeholder |
+| [Migration Close-Out Checklist](migration-close-out-checklist.md) | Placeholder |
+
+**TODO:** Add additional checklists as processes are standardized. Suggested next checklists:
 
 - Demo readiness
-- Data conversion sign-off
 - Go-live readiness
 - Support ticket quality / closure
 
-Link each checklist from the related SOP and value-stream stage page.
+Link each checklist from the related SOP and Customer Value Engine stage page.

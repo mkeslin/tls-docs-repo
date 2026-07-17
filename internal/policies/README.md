@@ -4,7 +4,11 @@ Governing rules for how Thin Line operates.
 
 ## Contents
 
-**TODO:** Draft and approve policies as needed. Do not invent legal or HR policy text.
+| Policy | Status |
+|--------|--------|
+| [Migration Pricing Policy](migration-pricing.md) | Placeholder — **Decision needed** before use |
+
+**TODO:** Draft and approve additional policies as needed. Do not invent legal or HR policy text.
 
 Suggested topics (create only when reviewed):
 

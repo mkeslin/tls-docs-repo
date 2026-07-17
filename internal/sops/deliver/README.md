@@ -1,14 +1,18 @@
 # SOPs — Deliver
 
-SOPs for data conversion through go-live. Stage overviews: ../../customer-value-engine/deliver/
+SOPs for data conversion through go-live. Stage overviews: [Customer Value Engine — Deliver](../../customer-value-engine/deliver/README.md).
 
 ## Procedures in this folder
 
-**TODO:** Add SOP files here as they are written. Use the standard SOP structure in [../README.md](../README.md).
+| SOP | Status |
+|-----|--------|
+| [Legacy System Migration](legacy-system-migration.md) | v1 model SOP |
+| [Customer Onboarding](customer-onboarding.md) | Placeholder |
+| [Bootstrap Environment](bootstrap-environment.md) | Placeholder |
+| [Post-Conversion Utilities](post-conversion-utilities.md) | Placeholder |
+| [Vendor Conversion Guides](vendor-conversion-guides/README.md) | Placeholder index |
 
-Suggested first SOP filenames (create only when content is available):
+## Suggested next SOPs
 
-- `sop-convert-customer-data.md`
-- `sop-bootstrap-tenant-environment.md`
-- `sop-deliver-training.md`
-- `sop-go-live.md`
+- `go-live.md`
+- `deliver-training.md`
