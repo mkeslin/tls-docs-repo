@@ -41,10 +41,12 @@ When authorized, clerks may **apply jail credit** or other adjustments from conv
 
 ## Related accounting
 
-Accepted payments flow into broader accounting processes (deposits, settlements, payouts) outside the individual case screen. Cashiers generally stop at apply + acceptance; finance staff handle deposit batches.
+Accepted payments flow into broader accounting processes (deposits, settlements, payouts) outside the individual case screen. Cashiers generally stop at apply + acceptance; finance staff use [Accounting](../accounting/README.md) for deposit batches and reconciliation. Referred balances may also appear in [Collections](../collections/README.md).
 
 ## Related
 
 - [Payment plans](payment-plans.md)
 - [Work queues](work-queues.md)
 - [Case lifecycle](case-lifecycle.md)
+- [Accounting](../accounting/README.md)
+- [Collections](../collections/README.md)

@@ -16,14 +16,16 @@ This area is **customer-safe**. Do not publish internal pricing strategy, unrele
 
 ## Products
 
-Thin Line Platform modules. Open a product for its overview; expand nested topics for day-to-day training.
-
 | Product | Purpose |
 |---------|---------|
-| [RMS](rms/README.md) | Records — Citations, Incidents, Warrants, [Evidence](rms/evidence/README.md); more modules TODO |
-| [CAD](cad/README.md) | Computer-aided dispatch and self-dispatch |
-| [Court](court/README.md) | Court Violations — municipal court case processing |
-| [Jail](jail/README.md) | Jail Intake and Command Center (booking through release) |
+| [RMS](rms/README.md) | Citations, Incidents, Warrants, Evidence, Close Patrol, Notepad, Code Enforcement |
+| [Analytics](analytics/README.md) | Charts and analytics reports |
+| [Import/Export](import-export/README.md) | IBRS, racial profiling, court statutory exports |
+| [CAD](cad/README.md) | Live CAD, self-dispatch, [CAD Records](cad/records/README.md) |
+| [Court](court/README.md) | Court Violations |
+| [Collections](collections/README.md) | Referred accounts, remittance, disbursements |
+| [Accounting](accounting/README.md) | Court deposits, ledgers, reconciliations, fees |
+| [Jail](jail/README.md) | Jail Intake and Command Center |
 
 ## Relationship to in-app Help
 

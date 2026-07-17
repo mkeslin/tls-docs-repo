@@ -16,53 +16,59 @@ Most records modules follow the same habit:
 2. Choose **Search** to find existing work, or **Add** to create new work (when your role allows Add).
 3. Open a result to work the record in the main content area.
 
-Court, Jail, Accounting, and Evidence add specialized destinations (work queues, command center, inventory, and so on) on top of this pattern.
+Court, Jail, Accounting, Collections, Evidence, Analytics, and Import/Export add specialized destinations on top of this pattern.
 
-## Modules you may see (RMS)
+## Modules you may see
 
-Labels match the product UI. Abbreviations in parentheses are the short codes used in navigation and permissions.
+Labels match the product UI. Abbreviations in parentheses are short codes used in navigation and permissions. Links go to customer guides when published.
 
-| Module | Code | Plain-language purpose |
-|--------|------|------------------------|
-| **Dashboard** | — | Tasks, What’s New, profile shortcuts, report history; optional self-dispatch / mobile citation |
-| **Analytics** | — | Charts and analytics (when licensed) |
-| **CAD Records** | — | Historical call sheets, unit logs, dispatcher notes (not the live CAD console) |
-| **Import/Export** | — | IBRS batches, racial profiling, related exports |
-| **Incidents** | INC | Incident reports and arrest search |
-| **Fire Incidents** | FIR | Fire incident records |
-| **Citations** | CIT | Citations |
-| **Court Violation** | CRT | Municipal court / court violations |
-| **Warrants** | WAR | Warrants |
-| **Criminal Trespass** | CTP | Criminal trespass |
-| **Equipment** | EQP | Equipment |
-| **Fleet** | FLM | Fleet |
-| **Collections** | COL | Collections |
-| **Close Patrol** | CLO | Close patrol |
-| **Notepad** | PAD | Notepads and lost & found |
-| **Code Enforcement** | COD | Code enforcement |
-| **Jail Intake** | JLI | Jail booking / intake (also used with JAIL mode) |
-| **Accounting** | ACC | Court accounting (court agencies) |
-| **Evidence** | EVI | Evidence search, inventory, audit |
+| Module | Code | Guide |
+|--------|------|-------|
+| **Dashboard** | — | [Getting started](README.md) |
+| **Analytics** | — | [Analytics](../analytics/README.md) |
+| **CAD Records** | — | [CAD Records](../cad/records/README.md) |
+| **Import/Export** | — | [Import/Export](../import-export/README.md) |
+| **Incidents** | INC | [Incidents](../rms/incidents/README.md) |
+| **Fire Incidents** | FIR | Enabled for some agencies; dedicated customer guide not published yet |
+| **Citations** | CIT | [Citations](../rms/citations/README.md) |
+| **Court Violation** | CRT | [Court](../court/README.md) |
+| **Warrants** | WAR | [Warrants](../rms/warrants/README.md) |
+| **Collections** | COL | [Collections](../collections/README.md) |
+| **Close Patrol** | CLO | [Close Patrol](../rms/close-patrol/README.md) |
+| **Notepad** | PAD | [Notepad](../rms/notepad/README.md) |
+| **Code Enforcement** | COD | [Code Enforcement](../rms/code-enforcement/README.md) |
+| **Jail Intake** | JLI | [Jail](../jail/README.md) |
+| **Accounting** | ACC | [Accounting](../accounting/README.md) (court agencies) |
+| **Evidence** | EVI | [Evidence](../rms/evidence/README.md) |
+| **Admin** (header) | — | [Admin](../admin/README.md) |
 
-Your agency may not enable every module. Court and Jail deep-dives live in the [Court](../court/README.md) and [Jail](../jail/README.md) guides.
+### Not covered in customer guides (yet)
+
+These may appear for some users but are **not** documented here as production training modules:
+
+| Module | Reason |
+|--------|--------|
+| **Criminal Trespass** | Not presented as product-ready in agency Admin Modules |
+| **Equipment** / **Fleet** | Hidden from agency Admin Modules until product-ready |
+| Support-only dashboards (Patrol, Investigation, Supervisor, Chief, Data Integrity, Security) | Thin Line / prototype surfaces — not agency training topics |
 
 ## CAD and JAIL vs CAD Records
 
 | Destination | What it is |
 |-------------|------------|
-| Header **CAD** | Live dispatch console |
-| Left-rail **CAD Records** | Search and review historical CAD data inside RMS |
-| Header **JAIL** | Jail Command Center / jail ops shell |
+| Header **CAD** | Live dispatch console — [CAD](../cad/README.md) |
+| Left-rail **CAD Records** | Search historical CAD data — [CAD Records](../cad/records/README.md) |
+| Header **JAIL** | Jail Command Center / jail ops shell — [Jail](../jail/README.md) |
 | Left-rail **Jail Intake** | Booking search and intake steps |
 
 ## Tips
 
-- If you expected a module and do not see it, ask your agency administrator to check **licenses and user claims**.
-- Prefer the module **Search** for day-to-day find work; use master records on the right when you need a person, vehicle, or location across modules.
+- If you expected a module and do not see it, ask your agency administrator to check **licenses and user claims** ([Admin](../admin/README.md)).
+- Prefer the module **Search** for day-to-day find work; use [master records](master-records/README.md) on the right when you need a person, vehicle, or location across modules.
 - After you open a module once, the module menu stays oriented to that module until you pick another.
 
 ## Related
 
 - [Application shell](application-shell.md)
 - [Master records](master-records/README.md)
-- [Court](../court/README.md) · [Jail](../jail/README.md)
+- [Court](../court/README.md) · [Jail](../jail/README.md) · [CAD](../cad/README.md)
