@@ -1,6 +1,6 @@
-# Go Live
+# Go live
 
-**Lifecycle step:** 7 · Go Live  
+**Lifecycle step:** 7 · Go live  
 **Milestone outcome:** Customer live in production  
 **Document type:** Phase overview  
 **Status:** <mark style="color:red;">Placeholder</mark>  
@@ -8,7 +8,7 @@
 Engagement status: ☐ Not started · ☐ In progress · ☐ Complete
 
 Assessment: [Go-Live Readiness Assessment](../../assessments/go-live-readiness-assessment.md)  
-CVE stage: [Go Live](../../customer-value-engine/deliver/go-live.md)
+CVE stage: [Go live](../../customer-value-engine/deliver/go-live.md)
 
 ---
 
@@ -64,4 +64,4 @@ Cut over to Thin Line as the system of record for agreed modules—customer is *
 | [CVE — Go Live](../../customer-value-engine/deliver/go-live.md) | Stage overview |
 
 **Previous:** [Training](training.md)  
-**Next:** [Hypercare and Transition](hypercare.md)
+**Next:** [Hypercare and transition](hypercare-and-transition.md)

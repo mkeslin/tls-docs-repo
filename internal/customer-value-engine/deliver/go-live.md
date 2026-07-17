@@ -1,4 +1,4 @@
-# Go Live
+# Go live
 
 **Phase:** Deliver · lifecycle 7  
 **Desired outcome:** Customer live — production exclusive use for agreed modules

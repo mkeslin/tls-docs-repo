@@ -25,18 +25,18 @@ CVE stages (capability) map to the implementation lifecycle **0–8** in [SOPs �
 
 | # | Stage | Desired outcome | Owner | Maturity |
 |:-:|-------|-----------------|-------|----------|
-| 0 | [Sales Handoff](deliver/sales-handoff.md) | Handoff accepted | **Decision needed** | 1 |
-| 1 | [Kickoff and Discovery](deliver/kickoff-and-discovery.md) | Scope / plan agreed | **Decision needed** | 1 |
-| 2 | [Infrastructure](deliver/infrastructure.md) | Infrastructure Ready | Keslin | 3 |
-| 3 | [Data Migration](deliver/data-migration.md) | Customer Data Migrated or N/A | Keslin | 3 |
-| 4 | [Configuration](deliver/configuration.md) | Configuration Complete | **Decision needed** | 2 |
-| 5 | [Integrations and Hardware](deliver/integrations-and-hardware.md) | Integrations / devices verified or N/A | **Decision needed** | 1 |
+| 0 | [Sales handoff](deliver/sales-handoff.md) | Handoff accepted | **Decision needed** | 1 |
+| 1 | [Kickoff and discovery](deliver/kickoff-and-discovery.md) | Scope / plan agreed | **Decision needed** | 1 |
+| 2 | [Infrastructure](deliver/infrastructure.md) | Environment healthy | Keslin | 3 |
+| 3 | [Data migration](deliver/data-migration.md) | Customer data migrated or N/A | Keslin | 3 |
+| 4 | [Configuration](deliver/configuration.md) | Configuration complete | **Decision needed** | 2 |
+| 5 | [Integrations and hardware](deliver/integrations-and-hardware.md) | Integrations / devices verified or N/A | **Decision needed** | 1 |
 | 6 | [Training](deliver/training.md) | Customer trained | Fugate | 1 |
-| 7 | [Go Live](deliver/go-live.md) | Customer live | **Decision needed** | 3 |
-| 8 | [Hypercare and Transition](deliver/hypercare-and-transition.md) | Operate handoff | **Decision needed** | 1 |
+| 7 | [Go live](deliver/go-live.md) | Customer live | **Decision needed** | 3 |
+| 8 | [Hypercare and transition](deliver/hypercare-and-transition.md) | Operate handoff | **Decision needed** | 1 |
 
 - [Deliver overview (CVE)](deliver/README.md)
-- [Implementation Methodology](../sops/deliver/implementation-methodology.md) ★
+- [Implementation overview](../sops/deliver/implementation-overview.md) ★
 
 ## Operate
 

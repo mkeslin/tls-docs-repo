@@ -2,7 +2,7 @@
 
 **Document type:** Checklist  
 **Status:** v1  
-**Use during:** [Integrations and Hardware](../sops/deliver/integrations.md) (lifecycle 5)
+**Use during:** [Integrations and Hardware](../sops/deliver/integrations-and-hardware.md) (lifecycle 5)
 
 Devices required for go-live roles. Mark **N/A** when the engagement has no hardware scope.
 
@@ -46,6 +46,6 @@ Agency settings that enable payments/printing are under [Configuration](../sops/
 
 | Document | Role |
 |----------|------|
-| [Integrations and Hardware](../sops/deliver/integrations.md) | Phase overview |
+| [Integrations and Hardware](../sops/deliver/integrations-and-hardware.md) | Phase overview |
 | [Agency Configuration Checklist](agency-configuration-checklist.md) | Related (settings / other) |
 | [Sales Handoff Checklist](sales-handoff-checklist.md) | Early hardware flag |

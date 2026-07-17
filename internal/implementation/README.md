@@ -2,7 +2,7 @@
 
 Implementation execution lives under **Deliver**:
 
-**★ Start here:** [Implementation Methodology](../sops/deliver/implementation-methodology.md)
+**★ Start here:** [Implementation overview](../sops/deliver/implementation-overview.md)
 
 | Resource | Link |
 |----------|------|

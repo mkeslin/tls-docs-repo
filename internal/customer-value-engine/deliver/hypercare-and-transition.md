@@ -1,9 +1,9 @@
-# Hypercare and Transition
+# Hypercare and transition
 
 **Phase:** Deliver · lifecycle 8  
 **Desired outcome:** Hypercare complete; handoff to Operate / Support
 
-**Phase overview:** [Hypercare and Transition](../../sops/deliver/hypercare.md)
+**Phase overview:** [Hypercare and Transition](../../sops/deliver/hypercare-and-transition.md)
 
 ## Inputs
 
@@ -42,5 +42,5 @@ Support queue · check-in cadence
 
 ## Related documents
 
-- [Hypercare and Transition](../../sops/deliver/hypercare.md)
+- [Hypercare and Transition](../../sops/deliver/hypercare-and-transition.md)
 - [Operate — Support](../operate/support.md)

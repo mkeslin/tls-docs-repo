@@ -1,9 +1,9 @@
-# Kickoff and Discovery
+# Kickoff and discovery
 
 **Phase:** Deliver · lifecycle 1  
 **Desired outcome:** Shared plan, identity, and scope (migration / integrations / hardware)
 
-**Phase overview:** [Kickoff and Discovery](../../sops/deliver/kickoff.md)
+**Phase overview:** [Kickoff and Discovery](../../sops/deliver/kickoff-and-discovery.md)
 
 ## Inputs
 
@@ -43,5 +43,5 @@ Meeting notes · Hub (future)
 
 ## Related documents
 
-- [Kickoff and Discovery](../../sops/deliver/kickoff.md)
+- [Kickoff and Discovery](../../sops/deliver/kickoff-and-discovery.md)
 - [Implementation Readiness Assessment](../../assessments/implementation-readiness-assessment.md)

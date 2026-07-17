@@ -74,5 +74,5 @@ Milestone **Infrastructure Ready** when:
 | [Hub Environment Integration](hub-environment-integration.md) | Future |
 | [Environment Health Checklist](../../../checklists/environment-health-checklist.md) | Checklist |
 
-**Previous:** [Kickoff and Discovery](../kickoff.md)  
-**Next:** [Data Migration](../data-migration/README.md) (if in scope) or [Configuration](../configuration/README.md)
+**Previous:** [Kickoff and discovery](../kickoff-and-discovery.md)  
+**Next:** [Data migration](../data-migration/README.md) (if in scope) or [Configuration](../configuration/README.md)

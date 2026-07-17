@@ -1,9 +1,9 @@
-# Integrations and Hardware
+# Integrations and hardware
 
 **Phase:** Deliver · lifecycle 5  
 **Desired outcome:** In-scope integrations and devices verified — or N/A
 
-**Phase overview:** [Integrations and Hardware](../../sops/deliver/integrations.md)
+**Phase overview:** [Integrations and Hardware](../../sops/deliver/integrations-and-hardware.md)
 
 ## Inputs
 
@@ -42,5 +42,5 @@ Vendor portals · Admin agency integration cards · device drivers
 
 ## Related documents
 
-- [Integrations and Hardware](../../sops/deliver/integrations.md)
+- [Integrations and Hardware](../../sops/deliver/integrations-and-hardware.md)
 - [Hardware Readiness Checklist](../../checklists/hardware-readiness-checklist.md)

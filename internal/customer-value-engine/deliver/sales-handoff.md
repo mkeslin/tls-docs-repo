@@ -1,4 +1,4 @@
-# Sales Handoff
+# Sales handoff
 
 **Phase:** Deliver · lifecycle 0  
 **Desired outcome:** Signed customer transferred to Implementation with clear scope

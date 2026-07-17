@@ -61,5 +61,5 @@ Ensure the customer’s users can perform their jobs in Thin Line before exclusi
 | [CVE — Training](../../customer-value-engine/deliver/training.md) | Stage overview |
 | [Customer training](../../../customer/training/README.md) | Guides |
 
-**Previous:** [Integrations and Hardware](integrations.md) or [Configuration](configuration/README.md)  
-**Next:** [Go Live](go-live.md)
+**Previous:** [Integrations and hardware](integrations-and-hardware.md) or [Configuration](configuration/README.md)  
+**Next:** [Go live](go-live.md)

@@ -90,8 +90,8 @@ See [Environment Lifecycle](environment-lifecycle.md).
 | [Configuration](../configuration/README.md) | Phase overview |
 | [Agency & Module Settings](../configuration/agency-settings.md) | Admin Agency inventory |
 | [Agency Configuration Checklist](../../../checklists/agency-configuration-checklist.md) | Engagement checklist |
-| [Integrations and Hardware](../integrations.md) | Devices + interfaces |
-| [Kickoff and Discovery](../kickoff.md) | Scope / discovery |
+| [Integrations and Hardware](../integrations-and-hardware.md) | Devices + interfaces |
+| [Kickoff and Discovery](../kickoff-and-discovery.md) | Scope / discovery |
 | [Hub Environment Integration](hub-environment-integration.md) | Future Environment vs Configuration objects |
 
 ---

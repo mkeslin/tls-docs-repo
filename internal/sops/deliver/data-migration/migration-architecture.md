@@ -69,7 +69,7 @@ Contract
   → Support
 ```
 
-Environment provisioning: [Bootstrap Environment](../infrastructure/bootstrap-environment.md). Discovery: [Kickoff and Discovery](../kickoff.md).
+Environment provisioning: [Bootstrap Environment](../infrastructure/bootstrap-environment.md). Discovery: [Kickoff and Discovery](../kickoff-and-discovery.md).
 
 ---
 

@@ -2,11 +2,11 @@
 
 **Outcome:** Customer live on Thin Line Platform (then hypercare complete).
 
-**? Start here:** [Implementation Methodology](implementation-methodology.md)
+**? Start here:** [Implementation overview](implementation-overview.md)
 
-How Thin Line gets a customer from **signed** to **live**. The Customer Value Stream says *where* the customer is; this tree is the **implementation project**—lifecycle phases first, SOPs underneath.
+How Thin Line gets a customer from **signed** to a **stable live** customer. The Customer Value Stream says *where* the customer is; this tree is the **implementation methodology**.
 
-CVE stage overviews: [Customer Value Engine — Deliver](../../customer-value-engine/deliver/README.md).
+Capability view (owners / maturity): [Customer Value Engine — Deliver](../../customer-value-engine/deliver/README.md).
 
 ---
 
@@ -17,28 +17,37 @@ Customer Value Stream
     ?
 Deliver
     ?
-Implementation Methodology
+Implementation overview · lifecycle · workspace · roles
     ?
-Implementation phases (0–8)
+Phases 0–8
     ?
 Standards ? SOPs ? Checklists
 ```
 
 ---
 
-## Implementation lifecycle
+## Contents
+
+| Page | Role |
+|------|------|
+| [Implementation overview](implementation-overview.md) | Purpose and principles |
+| [Implementation lifecycle](implementation-lifecycle.md) | Phases 0–8 sequence |
+| [Implementation workspace standard](implementation-workspace-standard.md) | Folders and naming |
+| [Roles and responsibilities](roles-and-responsibilities.md) | RACI |
+
+### Phases
 
 | # | Phase | Overview |
 |:-:|-------|----------|
-| 0 | Sales Handoff | [Sales Handoff](sales-handoff.md) |
-| 1 | Kickoff and Discovery | [Kickoff and Discovery](kickoff.md) |
+| 0 | Sales handoff | [Sales handoff](sales-handoff.md) |
+| 1 | Kickoff and discovery | [Kickoff and discovery](kickoff-and-discovery.md) |
 | 2 | Infrastructure | [Infrastructure](infrastructure/README.md) |
-| 3 | Data Migration | [Data Migration](data-migration/README.md) |
+| 3 | Data migration | [Data migration](data-migration/README.md) |
 | 4 | Configuration | [Configuration](configuration/README.md) |
-| 5 | Integrations and Hardware | [Integrations and Hardware](integrations.md) |
+| 5 | Integrations and hardware | [Integrations and hardware](integrations-and-hardware.md) |
 | 6 | Training | [Training](training.md) |
-| 7 | Go Live | [Go Live](go-live.md) |
-| 8 | Hypercare and Transition | [Hypercare and Transition](hypercare.md) |
+| 7 | Go live | [Go live](go-live.md) |
+| 8 | Hypercare and transition | [Hypercare and transition](hypercare-and-transition.md) |
 
 Each phase overview uses: **Purpose · Inputs · Activities · Outputs · Exit criteria · Referenced SOPs**.
 
@@ -46,37 +55,37 @@ Each phase overview uses: **Purpose · Inputs · Activities · Outputs · Exit crite
 
 ## Supporting docs (by phase)
 
-### 2 · Infrastructure
+### Phase 2 · Infrastructure
 
 | Doc | Type |
 |-----|------|
-| [Bootstrap Environment](infrastructure/bootstrap-environment.md) | SOP |
+| [Bootstrap environment](infrastructure/bootstrap-environment.md) | SOP |
 | Standards under [Infrastructure](infrastructure/README.md) | Standards |
-| [Environment Health Checklist](../../checklists/environment-health-checklist.md) | Checklist |
+| [Environment health checklist](../../checklists/environment-health-checklist.md) | Checklist |
 
-### 3 · Data Migration
+### Phase 3 · Data migration
 
 | Doc | Type |
 |-----|------|
-| [Legacy System Migration](data-migration/legacy-system-migration.md) | SOP |
-| [Migration Philosophy](data-migration/migration-philosophy.md) | Principles |
-| [Vendor Packages](data-migration/vendor-packages/README.md) | Standards + guides |
+| [Legacy system migration](data-migration/legacy-system-migration.md) | SOP |
+| [Migration philosophy](data-migration/migration-philosophy.md) | Principles |
+| [Vendor packages](data-migration/vendor-packages/README.md) | Standards + guides |
 | [Validation](data-migration/migration-validation-standard.md) | Standard |
-| [Customer Acceptance](data-migration/customer-acceptance.md) | Acceptance |
+| [Customer acceptance](data-migration/customer-acceptance.md) | Acceptance |
 
-### 4 · Configuration
-
-| Doc | Type |
-|-----|------|
-| [Agency & Module Settings](configuration/agency-settings.md) | Reference |
-| [Agency Configuration Checklist](../../checklists/agency-configuration-checklist.md) | Checklist |
-| [Bootstrap vs Configuration](infrastructure/bootstrap-vs-configuration.md) | Boundary |
-
-### 5 · Integrations and Hardware
+### Phase 4 · Configuration
 
 | Doc | Type |
 |-----|------|
-| [Hardware Readiness Checklist](../../checklists/hardware-readiness-checklist.md) | Checklist |
+| [Agency & module settings](configuration/agency-settings.md) | Reference |
+| [Agency configuration checklist](../../checklists/agency-configuration-checklist.md) | Checklist |
+| [Bootstrap vs configuration](infrastructure/bootstrap-vs-configuration.md) | Boundary |
+
+### Phase 5 · Integrations and hardware
+
+| Doc | Type |
+|-----|------|
+| [Hardware readiness checklist](../../checklists/hardware-readiness-checklist.md) | Checklist |
 
 ---
 
@@ -84,14 +93,14 @@ Each phase overview uses: **Purpose · Inputs · Activities · Outputs · Exit crite
 
 | Assessment | Status |
 |------------|--------|
-| [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md) | v1 |
-| [Implementation Readiness Assessment](../../assessments/implementation-readiness-assessment.md) | <mark style="color:red;">Placeholder</mark> |
-| [Go-Live Readiness Assessment](../../assessments/go-live-readiness-assessment.md) | <mark style="color:red;">Placeholder</mark> |
+| [Legacy system migration assessment](../../assessments/legacy-system-migration-assessment.md) | v1 |
+| [Implementation readiness assessment](../../assessments/implementation-readiness-assessment.md) | <mark style="color:red;">Placeholder</mark> |
+| [Go-live readiness assessment](../../assessments/go-live-readiness-assessment.md) | <mark style="color:red;">Placeholder</mark> |
 
 ---
 
 ## Related
 
-- [Sales Handoff Checklist](../../checklists/sales-handoff-checklist.md)
-- [Migration Pricing Policy](../../policies/migration-pricing.md)
-- [Implementation hub](../../implementation/README.md) — points here
+- [Sales handoff checklist](../../checklists/sales-handoff-checklist.md)
+- [Migration pricing policy](../../policies/migration-pricing.md)
+- [Implementation hub](../../implementation/README.md)

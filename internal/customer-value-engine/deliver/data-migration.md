@@ -1,4 +1,4 @@
-# Data Migration
+# Data migration
 
 **Phase:** Deliver · lifecycle 3  
 **Desired outcome:** Customer Data Migrated (historical data in Thin Line, validated and accepted) — or N/A
@@ -70,6 +70,6 @@ Typically 1–10 business days excluding customer/vendor wait states (see SOP ti
 ## Related documents
 
 - [Data Migration (phase overview)](../../sops/deliver/data-migration/README.md)
-- [Implementation Methodology](../../sops/deliver/implementation-methodology.md)
+- [Implementation overview](../../sops/deliver/implementation-overview.md)
 - [Legacy System Migration SOP](../../sops/deliver/data-migration/legacy-system-migration.md)
 - [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md)

@@ -1,13 +1,13 @@
-# Data Migration
+# Data migration
 
-**Lifecycle step:** 3 · Data Migration  
-**Milestone outcome:** Customer Data Migrated (or N/A)  
+**Lifecycle step:** 3 · Data migration  
+**Milestone outcome:** Customer data migrated (or N/A)  
 **Document type:** Phase overview  
 **Status:** v1  
 
 Engagement status: ☐ Not started · ☐ In progress · ☐ Complete · ☐ N/A (no historical migration)
 
-CVE stage: [Data Migration](../../../customer-value-engine/deliver/data-migration.md)
+CVE stage: [Data migration](../../../customer-value-engine/deliver/data-migration.md)
 
 This phase is **broader than “running conversion scripts.”** It includes assessment, pricing, vendor packages, execution, validation, acceptance, versioning, and package improvement.
 
@@ -56,7 +56,7 @@ Move agreed historical data from the customer’s legacy system into Thin Line, 
 
 ## Exit criteria
 
-Milestone **Customer Data Migrated** when:
+Milestone **Customer data migrated** when:
 
 - [ ] In-scope modules meet [Migration Validation Standard](migration-validation-standard.md)  
 - [ ] Required post-conversion utilities completed  
@@ -87,4 +87,6 @@ If migration is out of scope: mark **N/A** and proceed to Configuration.
 | [Customer Validation Checklist](../../../checklists/customer-validation-checklist.md) | Checklist |
 
 **Previous:** [Infrastructure](../infrastructure/README.md)  
-**Next:** [Configuration](../configuration/README.md)
+**Next:** [Configuration](../configuration/README.md)  
+
+Parent: [Implementation lifecycle](../implementation-lifecycle.md)

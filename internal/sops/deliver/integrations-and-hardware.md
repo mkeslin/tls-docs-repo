@@ -1,13 +1,13 @@
-# Integrations and Hardware
+# Integrations and hardware
 
-**Lifecycle step:** 5 · Integrations and Hardware  
+**Lifecycle step:** 5 · Integrations and hardware  
 **Milestone outcome:** Integrations and hardware verified (or N/A)  
 **Document type:** Phase overview  
 **Status:** <mark style="color:red;">Placeholder</mark>  
 
 Engagement status: ☐ Not started · ☐ In progress · ☐ Complete · ☐ N/A
 
-CVE stage: [Integrations and Hardware](../../customer-value-engine/deliver/integrations-and-hardware.md)
+CVE stage: [Integrations and hardware](../../customer-value-engine/deliver/integrations-and-hardware.md)
 
 ---
 
@@ -73,7 +73,7 @@ If no integrations **and** no hardware in scope: mark **N/A**.
 | [Hardware Readiness Checklist](../../checklists/hardware-readiness-checklist.md) | Checklist |
 | [Agency Configuration Checklist](../../checklists/agency-configuration-checklist.md) | Related (settings that enable integrations) |
 | <mark style="color:red;">**TODO:**</mark> Integrations SOP | Procedure |
-| [Implementation Methodology](implementation-methodology.md) | Parent |
+| [Implementation overview](implementation-overview.md) | Parent |
 
 **Previous:** [Configuration](configuration/README.md)  
 **Next:** [Training](training.md)

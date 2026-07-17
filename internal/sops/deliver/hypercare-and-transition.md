@@ -1,13 +1,13 @@
-# Hypercare and Transition
+# Hypercare and transition
 
-**Lifecycle step:** 8 · Hypercare and Transition  
+**Lifecycle step:** 8 · Hypercare and transition  
 **Milestone outcome:** Hypercare complete; Operate handoff done  
 **Document type:** Phase overview  
 **Status:** <mark style="color:red;">Placeholder</mark>  
 
 Engagement status: ☐ Not started · ☐ In progress · ☐ Complete
 
-CVE stage: [Hypercare and Transition](../../customer-value-engine/deliver/hypercare-and-transition.md)
+CVE stage: [Hypercare and transition](../../customer-value-engine/deliver/hypercare-and-transition.md)
 
 ---
 
@@ -21,7 +21,7 @@ Stabilize the customer after go-live with heightened support, then **transition*
 
 | Input | Source |
 |-------|--------|
-| Go Live | [Go Live](go-live.md) |
+| Go Live | [Go live](go-live.md) |
 | Known issues / deferrals | Prior phases |
 | Support contacts / SLAs | Contract / Operate |
 
@@ -62,7 +62,7 @@ Stabilize the customer after go-live with heightened support, then **transition*
 | <mark style="color:red;">**TODO:**</mark> Hypercare SOP | Procedure |
 | [Operate — Support](../operate.md) | Next CVE phase |
 | [CVE — Hypercare and Transition](../../customer-value-engine/deliver/hypercare-and-transition.md) | Stage overview |
-| [Implementation Methodology](implementation-methodology.md) | Parent |
+| [Implementation overview](implementation-overview.md) | Parent |
 
-**Previous:** [Go Live](go-live.md)  
+**Previous:** [Go live](go-live.md)  
 **Next:** Operate (steady state)

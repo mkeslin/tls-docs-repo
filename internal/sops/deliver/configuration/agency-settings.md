@@ -113,7 +113,7 @@ Community service / credit rate settings used by court accounting.
 | Stripe Connect Account ID | Online payments (requires online payment enabled in Mobile Citation) |
 | Processing fee percent | Online fee |
 
-Online payment / Stripe also belongs under [Integrations and Hardware](../integrations.md) when verifying live payment flows.
+Online payment / Stripe also belongs under [Integrations and Hardware](../integrations-and-hardware.md) when verifying live payment flows.
 
 ### Third-Party Collections *(court, when collections in scope)*
 

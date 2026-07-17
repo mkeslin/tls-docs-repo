@@ -1,12 +1,12 @@
-# Sales Handoff
+# Sales handoff
 
-**Lifecycle step:** 0 · Sales Handoff  
+**Lifecycle step:** 0 · Sales handoff  
 **Document type:** Phase overview  
 **Status:** <mark style="color:red;">Placeholder</mark>  
 
 Engagement status: ☐ Not started · ☐ In progress · ☐ Complete
 
-CVE stage: [Sales Handoff](../../customer-value-engine/deliver/sales-handoff.md)  
+CVE stage: [Sales handoff](../../customer-value-engine/deliver/sales-handoff.md)  
 Checklist: [Sales Handoff Checklist](../../checklists/sales-handoff-checklist.md)
 
 ---
@@ -63,7 +63,7 @@ Transfer a signed customer from Sales to Implementation with enough commercial a
 | Doc | Role |
 |-----|------|
 | [Sales Handoff Checklist](../../checklists/sales-handoff-checklist.md) | Checklist |
-| [Implementation Methodology](implementation-methodology.md) | Parent |
-| [Kickoff and Discovery](kickoff.md) | Next phase |
+| [Implementation overview](implementation-overview.md) | Parent |
+| [Kickoff and discovery](kickoff-and-discovery.md) | Next phase |
 
-**Previous:** Acquire (Contract) · **Next:** [Kickoff and Discovery](kickoff.md)
+**Previous:** Acquire (Contract) · **Next:** [Kickoff and discovery](kickoff-and-discovery.md)

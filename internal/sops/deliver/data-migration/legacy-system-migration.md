@@ -16,7 +16,7 @@
 | **Owner** | Implementation Lead *(current incumbent: Matthew Keslin)* |
 | **Primary stakeholders** | Customer Administrator · Implementation · Engineering |
 | **Success criteria** | Data migrated · Utilities completed · Customer validated · Migration accepted |
-| **Related SOPs** | [Kickoff and Discovery](../kickoff.md) · [Bootstrap Environment](../infrastructure/bootstrap-environment.md) · [Post-Conversion Utilities](post-conversion-utilities.md) |
+| **Related SOPs** | [Kickoff and Discovery](../kickoff-and-discovery.md) · [Bootstrap Environment](../infrastructure/bootstrap-environment.md) · [Post-Conversion Utilities](post-conversion-utilities.md) |
 | **Required assessment** | [Legacy System Migration Assessment](../../../assessments/legacy-system-migration-assessment.md) → Approved Conversion Plan |
 
 Migration includes more than importing records: assessment, extraction, transformation, validation, workflow transition, customer review, and final acceptance.
@@ -451,7 +451,7 @@ See also [Common risks](#common-risks).
 | Document | Relationship |
 |----------|--------------|
 | [Data Migration (CVE stage)](../../../customer-value-engine/deliver/data-migration.md) | Stage context |
-| [Kickoff and Discovery](../kickoff.md) | Scope / discovery |
+| [Kickoff and Discovery](../kickoff-and-discovery.md) | Scope / discovery |
 | [Bootstrap Environment](../infrastructure/bootstrap-environment.md) | Provision tenant before/with import (Infrastructure scripts) |
 | [Post-Conversion Utilities](post-conversion-utilities.md) | Phase 7 — Admin Data Utilities (workflow + call snapshot) |
 | [Migration Philosophy](migration-philosophy.md) | Principles |

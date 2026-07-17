@@ -63,4 +63,4 @@ Transfer packet from Sales to Implementation. Does **not** replace Kickoff disco
 | Document | Role |
 |----------|------|
 | [Sales Handoff](../sops/deliver/sales-handoff.md) | Phase overview |
-| [Kickoff and Discovery](../sops/deliver/kickoff.md) | Next phase |
+| [Kickoff and Discovery](../sops/deliver/kickoff-and-discovery.md) | Next phase |

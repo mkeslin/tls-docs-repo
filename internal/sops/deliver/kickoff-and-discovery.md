@@ -1,13 +1,13 @@
-# Kickoff and Discovery
+# Kickoff and discovery
 
-**Lifecycle step:** 1 · Kickoff and Discovery  
+**Lifecycle step:** 1 · Kickoff and discovery  
 **Milestone outcome:** Kickoff complete; discovery recorded  
 **Document type:** Phase overview  
 **Status:** <mark style="color:red;">Placeholder</mark>  
 
 Engagement status: ☐ Not started · ☐ In progress · ☐ Complete
 
-CVE stage: [Kickoff and Discovery](../../customer-value-engine/deliver/kickoff-and-discovery.md)  
+CVE stage: [Kickoff and discovery](../../customer-value-engine/deliver/kickoff-and-discovery.md)  
 Assessment: [Implementation Readiness Assessment](../../assessments/implementation-readiness-assessment.md)
 
 ---
@@ -24,7 +24,7 @@ This phase absorbs the former **Customer Onboarding** placeholder: kickoff throu
 
 | Input | Source |
 |-------|--------|
-| Handoff packet | [Sales Handoff](sales-handoff.md) |
+| Handoff packet | [Sales handoff](sales-handoff.md) |
 | Agency naming (slug + display name) | Customer / Sales |
 | Target go-live window | Customer |
 | Migration decision (Y/N/partial) | Assessment / handoff |
@@ -78,7 +78,7 @@ This phase absorbs the former **Customer Onboarding** placeholder: kickoff throu
 |-----|------|
 | [Implementation Readiness Assessment](../../assessments/implementation-readiness-assessment.md) | Assessment |
 | [Sales Handoff Checklist](../../checklists/sales-handoff-checklist.md) | Prior checklist |
-| [Implementation Methodology](implementation-methodology.md) | Parent |
+| [Implementation overview](implementation-overview.md) | Parent |
 | [Infrastructure](infrastructure/README.md) | Next phase |
 
-**Previous:** [Sales Handoff](sales-handoff.md) · **Next:** [Infrastructure](infrastructure/README.md)
+**Previous:** [Sales handoff](sales-handoff.md) · **Next:** [Infrastructure](infrastructure/README.md)

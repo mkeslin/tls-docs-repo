@@ -39,7 +39,7 @@ This phase ends when in-scope configuration is done (or deferred with owners)—
 3. Align record number patterns with migration Overrides when historical data was imported.  
 4. Work the [Agency Configuration Checklist](../../../checklists/agency-configuration-checklist.md); mark N/A where out of scope.  
 5. Smoke core workflows in the configured tenant (create/open a record in each enabled module family).  
-6. Hand off open items (payments live verify, partner webhooks, devices) to [Integrations and Hardware](../integrations.md) when needed.  
+6. Hand off open items (payments live verify, partner webhooks, devices) to [Integrations and Hardware](../integrations-and-hardware.md) when needed.  
 
 ---
 
@@ -72,7 +72,7 @@ Milestone **Configuration Complete** when:
 | [Agency & Module Settings](agency-settings.md) | Reference |
 | [Agency Configuration Checklist](../../../checklists/agency-configuration-checklist.md) | Checklist |
 | [Bootstrap vs Configuration](../infrastructure/bootstrap-vs-configuration.md) | Boundary |
-| [Implementation Methodology](../implementation-methodology.md) | Parent |
+| [Implementation overview](../implementation-overview.md) | Parent |
 
 **Previous:** [Data Migration](../data-migration/README.md) or [Infrastructure](../infrastructure/README.md)  
-**Next:** [Integrations and Hardware](../integrations.md) or [Training](../training.md)
+**Next:** [Integrations and Hardware](../integrations-and-hardware.md) or [Training](../training.md)
