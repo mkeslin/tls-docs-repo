@@ -3,7 +3,7 @@
 **Phase:** Deliver  
 **Document type:** SOP  
 **Status:** v1 — model SOP for Thin Line OS  
-**Next review:** <mark style="color:$danger;">**TODO:**</mark> Set date (suggested: 2026-10-17)
+**Next review:** <mark style="color:red;">**TODO:**</mark> Set date (suggested: 2026-10-17)
 
 ---
 
@@ -12,7 +12,7 @@
 | | |
 |--|--|
 | **Objective** | Migrate a customer's legacy data into Thin Line Platform safely and repeatably. |
-| **Typical duration** | 1–10 business days (depending on vendor and data size). <mark style="color:$danger;">**TODO:**</mark> Refine from completed migrations. |
+| **Typical duration** | 1–10 business days (depending on vendor and data size). <mark style="color:red;">**TODO:**</mark> Refine from completed migrations. |
 | **Owner** | Implementation Lead *(current incumbent: Matthew Keslin)* |
 | **Primary stakeholders** | Customer Administrator · Implementation · Engineering |
 | **Success criteria** | Data migrated · Utilities completed · Customer validated · Migration accepted |
@@ -82,7 +82,7 @@ Examples (not exhaustive): CopSync / Kologik, CrimeStar (FoxPro), Tyler / INCODE
 ### Out of scope
 
 - Routine imports performed by customers themselves after go-live
-- <mark style="color:$danger;">**TODO:**</mark> Clarify whether limited customer-driven imports need a separate SOP
+- <mark style="color:red;">**TODO:**</mark> Clarify whether limited customer-driven imports need a separate SOP
 
 ---
 
@@ -125,7 +125,7 @@ The process begins after **all** of the following are true:
 | SaaS Agreement executed | Required before any legacy access |
 | CJIS Security Addendum executed | Required before any legacy access |
 | Migration requested by customer | Trigger event |
-| Target Thin Line environment available | <mark style="color:$danger;">**TODO:**</mark> Confirm whether UAT and/or Production must exist before import |
+| Target Thin Line environment available | <mark style="color:red;">**TODO:**</mark> Confirm whether UAT and/or Production must exist before import |
 | Access path identified | On-prem remote access **or** vendor export path |
 
 ---
@@ -223,14 +223,14 @@ Where this process should operate when Thin Line OS is mature:
 
 | Risk | Why it matters | Mitigation (current / needed) |
 |------|----------------|--------------------------------|
-| Corrupt or incomplete export | Blocks or corrupts load | Validate export integrity before mapping; <mark style="color:$danger;">**TODO:**</mark> standard checks |
+| Corrupt or incomplete export | Blocks or corrupts load | Validate export integrity before mapping; <mark style="color:red;">**TODO:**</mark> standard checks |
 | Missing tables / modules | Incomplete history | Scope modules in assessment; exception report |
 | Customer delays (access, export, validation) | Extends cycle time; blocks go-live or backfill | Set expectations at trigger; track wait states |
 | Vendor export limitations | Cloud path constrained | Document vendor-specific limits in [Vendor Conversion Guides](vendor-conversion-guides/README.md) |
 | Unexpected schema changes | Breaks reused converters | Schema compare every engagement; version notes |
 | Access before agreements | CJIS / contractual exposure | **Hard stop** until SaaS + CJIS addendum signed |
-| Direct-to-Production defects | Live data risk | Prefer UAT when risk is high; <mark style="color:$danger;">**TODO:**</mark> decision matrix |
-| Mapping defects discovered late | Rework after customer validation | Earlier sample validation; <mark style="color:$danger;">**TODO:**</mark> checklist |
+| Direct-to-Production defects | Live data risk | Prefer UAT when risk is high; <mark style="color:red;">**TODO:**</mark> decision matrix |
+| Mapping defects discovered late | Rework after customer validation | Earlier sample validation; <mark style="color:red;">**TODO:**</mark> checklist |
 
 ---
 
@@ -268,23 +268,23 @@ flowchart TD
   G --> H
 ```
 
-> <mark style="color:$danger;">**TODO:**</mark> Replace the “high risk” heuristic with an approved decision matrix (risk, schedule, customer preference, data volume, go-live timing).
+> <mark style="color:red;">**TODO:**</mark> Replace the “high risk” heuristic with an approved decision matrix (risk, schedule, customer preference, data volume, go-live timing).
 
 ---
 
 ## Time expectations
 
-Starting estimates for planning and future KPIs. <mark style="color:$danger;">**TODO:**</mark> Replace with measured averages from real engagements.
+Starting estimates for planning and future KPIs. <mark style="color:red;">**TODO:**</mark> Replace with measured averages from real engagements.
 
 | Phase | Typical duration |
 |-------|------------------|
 | Assessment | 30–60 minutes |
-| Pricing / commercial alignment | <mark style="color:$danger;">**TODO:**</mark> |
+| Pricing / commercial alignment | <mark style="color:red;">**TODO:**</mark> |
 | Data acquisition (Thin Line extract) | 1–3 hours (excludes customer/vendor wait time) |
 | Customer/vendor export wait (cloud) | Customer dependent |
 | Mapping / script preparation | Variable (hours to days for new converters) |
 | Import | 15–60 minutes |
-| Post-conversion utilities | <mark style="color:$danger;">**TODO:**</mark> |
+| Post-conversion utilities | <mark style="color:red;">**TODO:**</mark> |
 | Customer validation | Customer dependent |
 | Corrections + close | Variable |
 
@@ -333,7 +333,7 @@ Do not treat pricing, schedule, or engineering commitments as final until the as
 
 Apply the [Migration Pricing Policy](../../policies/migration-pricing.md) (Draft): migration is a one-time professional service; complete the [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md) before quoting; select Tier 1–4 (or discount/waiver with documented justification).
 
-> <mark style="color:$danger;">**Decision needed:**</mark> Approve the draft policy before using tier amounts as binding customer quotes. Discounts (including multi-year SaaS) must be recorded on the assessment.
+> <mark style="color:red;">**Decision needed:**</mark> Approve the draft policy before using tier amounts as binding customer quotes. Discounts (including multi-year SaaS) must be recorded on the assessment.
 
 ### Phase 4 — Data acquisition
 
@@ -389,7 +389,7 @@ Run required utilities after import. Known examples:
 - Call workflow transition  
 - Snapshot master records  
 
-Full procedure: [Post-Conversion Utilities](post-conversion-utilities.md) (<mark style="color:$danger;">**TODO:**</mark> complete catalog).
+Full procedure: [Post-Conversion Utilities](post-conversion-utilities.md) (<mark style="color:red;">**TODO:**</mark> complete catalog).
 
 ### Phase 8 — Customer validation
 
@@ -422,10 +422,10 @@ Migration is complete when:
 
 | Situation | Current practice | Escalation |
 |-----------|------------------|------------|
-| Cannot obtain legacy access or export | <mark style="color:$danger;">**TODO:**</mark> | <mark style="color:$danger;">**TODO:**</mark> |
-| Conversion fails mid-run | <mark style="color:$danger;">**TODO:**</mark> | <mark style="color:$danger;">**TODO:**</mark> |
-| Customer rejects validation findings | <mark style="color:$danger;">**TODO:**</mark> | <mark style="color:$danger;">**TODO:**</mark> |
-| CJIS / security concern during access | **Stop.** Do not proceed without agreements and approved access | <mark style="color:$danger;">**Decision needed:**</mark> Named security / executive contact |
+| Cannot obtain legacy access or export | <mark style="color:red;">**TODO:**</mark> | <mark style="color:red;">**TODO:**</mark> |
+| Conversion fails mid-run | <mark style="color:red;">**TODO:**</mark> | <mark style="color:red;">**TODO:**</mark> |
+| Customer rejects validation findings | <mark style="color:red;">**TODO:**</mark> | <mark style="color:red;">**TODO:**</mark> |
+| CJIS / security concern during access | **Stop.** Do not proceed without agreements and approved access | <mark style="color:red;">**Decision needed:**</mark> Named security / executive contact |
 
 See also [Common risks](#common-risks).
 
@@ -433,16 +433,16 @@ See also [Common risks](#common-risks).
 
 ## 12. KPIs
 
-> <mark style="color:$danger;">**TODO:**</mark> Confirm definitions, owners, and reporting cadence.
+> <mark style="color:red;">**TODO:**</mark> Confirm definitions, owners, and reporting cadence.
 
 | KPI | Definition | Target |
 |-----|------------|--------|
-| Average migration duration | Trigger → close (business days), excluding wait states | <mark style="color:$danger;">**TODO:**</mark> |
-| Customer validation turnaround | Notification → acknowledgement | <mark style="color:$danger;">**TODO:**</mark> |
-| Corrections after migration | Post-notification defect cycles | <mark style="color:$danger;">**TODO:**</mark> |
-| Reuse rate | % using reusable vendor converter | <mark style="color:$danger;">**TODO:**</mark> |
-| Manual effort per migration | Implementation hours | <mark style="color:$danger;">**TODO:**</mark> |
-| Phase duration vs estimate | Actual vs [time expectations](#time-expectations) | <mark style="color:$danger;">**TODO:**</mark> |
+| Average migration duration | Trigger → close (business days), excluding wait states | <mark style="color:red;">**TODO:**</mark> |
+| Customer validation turnaround | Notification → acknowledgement | <mark style="color:red;">**TODO:**</mark> |
+| Corrections after migration | Post-notification defect cycles | <mark style="color:red;">**TODO:**</mark> |
+| Reuse rate | % using reusable vendor converter | <mark style="color:red;">**TODO:**</mark> |
+| Manual effort per migration | Implementation hours | <mark style="color:red;">**TODO:**</mark> |
+| Phase duration vs estimate | Actual vs [time expectations](#time-expectations) | <mark style="color:red;">**TODO:**</mark> |
 
 ---
 
@@ -505,7 +505,7 @@ How Thin Line Platform (or internal platform) improvements could **reduce or eli
 | One-click / guided post-conversion utilities | Manual utility sequencing and tribal checklists |
 | Stronger import tagging + environment tooling | Risky judgment calls on UAT vs Production |
 
-> <mark style="color:$danger;">**TODO:**</mark> Rank which items belong on the product roadmap vs. internal-only tooling.
+> <mark style="color:red;">**TODO:**</mark> Rank which items belong on the product roadmap vs. internal-only tooling.
 
 ### Process maturity
 
@@ -528,7 +528,7 @@ How Thin Line Platform (or internal platform) improvements could **reduce or eli
 
 | Field | Value |
 |-------|-------|
-| **Next review** | <mark style="color:$danger;">**TODO:**</mark> Set date (suggested 90 days from v1: **2026-10-17**) |
+| **Next review** | <mark style="color:red;">**TODO:**</mark> Set date (suggested 90 days from v1: **2026-10-17**) |
 | **Review owner** | Implementation Lead |
 | **Review questions** | Did measured phase times match estimates? Did any standard migration run without founder involvement? Which gaps closed? |
 

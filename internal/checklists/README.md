@@ -6,10 +6,10 @@ Verification lists used with SOPs and implementation work.
 
 | Checklist | Status |
 |-----------|--------|
-| [Customer Validation Checklist](customer-validation-checklist.md) | <mark style="color:$danger;">Placeholder</mark> |
-| [Migration Close-Out Checklist](migration-close-out-checklist.md) | <mark style="color:$danger;">Placeholder</mark> |
+| [Customer Validation Checklist](customer-validation-checklist.md) | <mark style="color:red;">Placeholder</mark> |
+| [Migration Close-Out Checklist](migration-close-out-checklist.md) | <mark style="color:red;">Placeholder</mark> |
 
-<mark style="color:$danger;">**TODO:**</mark> Add additional checklists as processes are standardized. Suggested next checklists:
+<mark style="color:red;">**TODO:**</mark> Add additional checklists as processes are standardized. Suggested next checklists:
 
 - Demo readiness
 - Go-live readiness

@@ -3,7 +3,7 @@
 **Phase:** Deliver  
 **Document type:** Reference / Standard  
 **Status:** v1 — aligned with product-repo Migration Tools  
-**Next review:** <mark style="color:$danger;">**TODO:**</mark> Set date (suggested: 2026-10-17)
+**Next review:** <mark style="color:red;">**TODO:**</mark> Set date (suggested: 2026-10-17)
 
 ---
 

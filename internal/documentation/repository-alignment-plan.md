@@ -19,7 +19,7 @@ Near-term goals are **two documentation areas only**:
 | `release-notes/` | **Do not move, rename, or reorganize.** Consumed by the RMS application. Leave as-is. |
 | `guide/` | **Do not move or reorganize yet.** Still consumed by in-app Help. New customer training content goes under `customer/`; existing guide pages remain at legacy paths until a later migration is approved. |
 
-Do not invent product behavior or procedures. Use `<mark style="color:$danger;">**TODO:**</mark>` and `<mark style="color:$danger;">**Decision needed:**</mark>` markers on skeleton pages.
+Do not invent product behavior or procedures. Use `<mark style="color:red;">**TODO:**</mark>` and `<mark style="color:red;">**Decision needed:**</mark>` markers on skeleton pages.
 
 ## Executive summary
 
@@ -83,7 +83,7 @@ Current URL: `https://raw.githubusercontent.com/mkeslin/tls-docs-repo/main`
 
 **Any move of `guide/` or `release-notes/` without a compatibility layer or coordinated UI change will break in-app Help.**
 
-Alternate production host referenced in UI env comments: Azure blob (`tlsdocs.blob.core.usgovcloudapi.net`). <mark style="color:$danger;">**Decision needed:**</mark> whether GitBook, GitHub raw, blob storage, or multiple targets are authoritative for customer-facing docs.
+Alternate production host referenced in UI env comments: Azure blob (`tlsdocs.blob.core.usgovcloudapi.net`). <mark style="color:red;">**Decision needed:**</mark> whether GitBook, GitHub raw, blob storage, or multiple targets are authoritative for customer-facing docs.
 
 ---
 
@@ -214,7 +214,7 @@ No playbooks for:
 
 ### Product and technical (`internal/product/`, `internal/technical/`)
 
-No internal product architecture docs, module ownership matrix, release process documentation, or environment/infrastructure runbooks in this repo. (Some technical content may live in `ThinLineSoftware` monorepo — <mark style="color:$danger;">**Decision needed:**</mark> boundary between code-repo docs and docs-repo docs.)
+No internal product architecture docs, module ownership matrix, release process documentation, or environment/infrastructure runbooks in this repo. (Some technical content may live in `ThinLineSoftware` monorepo — <mark style="color:red;">**Decision needed:**</mark> boundary between code-repo docs and docs-repo docs.)
 
 ### Policies, checklists, templates (`internal/policies/`, `checklists/`, `templates/`)
 
@@ -271,8 +271,8 @@ Organize around **how Thin Line creates and delivers customer value**, with a ha
 │   ├── getting-started/
 │   ├── rms/                          # Incidents, citations, warrants, master, IBRS, etc.
 │   ├── cad/
-│   ├── court/                        # <mark style="color:$danger;">**TODO:**</mark> new content
-│   ├── jail/                         # <mark style="color:$danger;">**TODO:**</mark> new content
+│   ├── court/                        # <mark style="color:red;">**TODO:**</mark> new content
+│   ├── jail/                         # <mark style="color:red;">**TODO:**</mark> new content
 │   └── release-notes/
 │
 ├── guide/                            # LEGACY — retain during transition (in-app Help)
@@ -296,7 +296,7 @@ Organize around **how Thin Line creates and delivers customer value**, with a ha
 | **RMS in-app Help** | Subset of `customer/**` (or legacy `guide/`) | `guide.json` until UI migrates |
 | **RMS release notes panel** | `customer/release-notes/` | `release-notes.json` until UI migrates |
 
-<mark style="color:$danger;">**Decision needed:**</mark> One GitBook space with visibility rules, or separate spaces for internal vs. customer.
+<mark style="color:red;">**Decision needed:**</mark> One GitBook space with visibility rules, or separate spaces for internal vs. customer.
 
 ---
 
@@ -465,10 +465,10 @@ GitBook root `SUMMARY.md` — two top-level parts. Pages marked *(skeleton)* are
 * [Overview](customer/cad/README.md)
 
 ### Court
-* [Overview](customer/court/README.md) *(<mark style="color:$danger;">**TODO:**</mark> new content)*
+* [Overview](customer/court/README.md) *(<mark style="color:red;">**TODO:**</mark> new content)*
 
 ### Jail
-* [Overview](customer/jail/README.md) *(<mark style="color:$danger;">**TODO:**</mark> new content)*
+* [Overview](customer/jail/README.md) *(<mark style="color:red;">**TODO:**</mark> new content)*
 ```
 
 During transition, add a **Legacy** section pointing to `guide/` paths until retired.

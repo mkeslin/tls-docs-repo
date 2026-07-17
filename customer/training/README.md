@@ -8,7 +8,7 @@ Support classroom, remote, and self-paced training for go-live and ongoing adopt
 
 ## Contents
 
-<mark style="color:$danger;">**TODO:**</mark> Add curricula, agendas, and exercise guides. Do not invent training steps that do not match the product.
+<mark style="color:red;">**TODO:**</mark> Add curricula, agendas, and exercise guides. Do not invent training steps that do not match the product.
 
 Suggested structure (create pages when ready):
 

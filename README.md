@@ -28,7 +28,7 @@ See [`SUMMARY.md`](SUMMARY.md) for the documentation table of contents (GitBook 
 
 - Prefer clear, direct language. No corporate filler.
 - Do not invent product behavior, legal requirements, customer commitments, or internal procedures.
-- When information is unknown, use a clearly labeled `<mark style="color:$danger;">**TODO:**</mark>` or `<mark style="color:$danger;">**Decision needed:**</mark>` note.
+- When information is unknown, use a clearly labeled `<mark style="color:red;">**TODO:**</mark>` or `<mark style="color:red;">**Decision needed:**</mark>` note.
 - Distinguish document types: **Policy**, **SOP**, **Guide**, **Checklist**, **Template**, **Reference**.
 - Use relative Markdown links and keep [`SUMMARY.md`](SUMMARY.md) updated when pages are added, removed, or moved.
 - Do not expose internal-only information in `customer/`.

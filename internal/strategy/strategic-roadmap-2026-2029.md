@@ -142,7 +142,7 @@ Vision and core principles are maintained in [Vision and principles](vision-and-
 
 ### Product platform
 
-<mark style="color:$danger;">**TODO:**</mark> Define 2028 product priorities.
+<mark style="color:red;">**TODO:**</mark> Define 2028 product priorities.
 
 ### Operational excellence
 
@@ -191,7 +191,7 @@ Vision and core principles are maintained in [Vision and principles](vision-and-
 
 ### Product platform
 
-<mark style="color:$danger;">**TODO:**</mark> Define 2029 product priorities.
+<mark style="color:red;">**TODO:**</mark> Define 2029 product priorities.
 
 ### Operational excellence
 

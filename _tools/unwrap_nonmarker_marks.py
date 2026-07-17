@@ -7,7 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SKIP = {".git", "release-notes", "guide", "node_modules", ".gitbook", "_tools"}
 
-MARK_RE = re.compile(r'<mark style="color:\$danger;">(.*?)</mark>', re.DOTALL)
+MARK_RE = re.compile(r'<mark style="color:red;">(.*?)</mark>', re.DOTALL)
 KEEP_RE = re.compile(
     r"""^(?:
         \*\*TODO(?:\s*/\s*Decision\ needed)?:\*\*

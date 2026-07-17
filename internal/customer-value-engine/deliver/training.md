@@ -21,7 +21,7 @@ Live/remote sessions
 
 ## Tooling
 
-<mark style="color:$danger;">**Decision needed:**</mark> Tooling not specified in source (`???`)
+<mark style="color:red;">**Decision needed:**</mark> Tooling not specified in source (`???`)
 
 ## Capacity (today)
 
@@ -59,9 +59,9 @@ Founder time
 
 ## Product responsibility
 
-<mark style="color:$danger;">**TODO / Decision needed:**</mark> Not yet assigned in the source Customer Value Engine worksheet.
+<mark style="color:red;">**TODO / Decision needed:**</mark> Not yet assigned in the source Customer Value Engine worksheet.
 
 ## Related documents
 
-- Related SOPs: <mark style="color:$danger;">**TODO:**</mark> link under `internal/sops/`
-- Checklists / templates: <mark style="color:$danger;">**TODO:**</mark>
+- Related SOPs: <mark style="color:red;">**TODO:**</mark> link under `internal/sops/`
+- Checklists / templates: <mark style="color:red;">**TODO:**</mark>

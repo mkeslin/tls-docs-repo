@@ -8,7 +8,7 @@ Help customers log in, navigate the application, and know how to get help.
 
 ## Contents
 
-<mark style="color:$danger;">**TODO:**</mark> Author or port customer-safe getting-started material here.
+<mark style="color:red;">**TODO:**</mark> Author or port customer-safe getting-started material here.
 
 Suggested topics:
 

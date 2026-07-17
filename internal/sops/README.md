@@ -12,7 +12,7 @@ SOPs are part of **Thin Line OS**: they document how work is done today, expose 
 
 ## Thin Line OS SOP standard
 
-Every SOP should follow this structure. Do not invent undocumented process detail — use `<mark style="color:$danger;">**TODO:**</mark>` or `<mark style="color:$danger;">**Decision needed:**</mark>` markers.
+Every SOP should follow this structure. Do not invent undocumented process detail — use `<mark style="color:red;">**TODO:**</mark>` or `<mark style="color:red;">**Decision needed:**</mark>` markers.
 
 ### Front matter
 
@@ -97,8 +97,8 @@ Next review date
 | Priority | SOP | Status |
 |----------|-----|--------|
 | 1 | [Deliver — Legacy System Migration](deliver/legacy-system-migration.md) | v1 model SOP |
-| 2 | [Deliver — Bootstrap Environment](deliver/bootstrap-environment.md) | <mark style="color:$danger;">Placeholder</mark> |
-| 3 | [Deliver — Customer Onboarding](deliver/customer-onboarding.md) | <mark style="color:$danger;">Placeholder</mark> |
+| 2 | [Deliver — Bootstrap Environment](deliver/bootstrap-environment.md) | <mark style="color:red;">Placeholder</mark> |
+| 3 | [Deliver — Customer Onboarding](deliver/customer-onboarding.md) | <mark style="color:red;">Placeholder</mark> |
 | 4 | Deliver — go-live | Not started |
 | 5 | Acquire — demo | Not started |
 | 6 | Acquire — proposal / contract | Not started |

@@ -8,7 +8,7 @@ Capture how Thin Line implements: data conversion, environment bootstrap, config
 
 ## Contents
 
-<mark style="color:$danger;">**TODO:**</mark> Add implementation guides and link related SOPs under [`../sops/deliver/`](../sops/deliver/README.md).
+<mark style="color:red;">**TODO:**</mark> Add implementation guides and link related SOPs under [`../sops/deliver/`](../sops/deliver/README.md).
 
 Suggested future pages (do not invent content yet):
 

@@ -6,9 +6,9 @@ Governing rules for how Thin Line operates.
 
 | Policy | Status |
 |--------|--------|
-| [Migration Pricing Policy](migration-pricing.md) | <mark style="color:$danger;">Draft</mark> — <mark style="color:$danger;">**Decision needed:**</mark> approve before binding quotes |
+| [Migration Pricing Policy](migration-pricing.md) | <mark style="color:red;">Draft</mark> — <mark style="color:red;">**Decision needed:**</mark> approve before binding quotes |
 
-<mark style="color:$danger;">**TODO:**</mark> Draft and approve additional policies as needed. Do not invent legal or HR policy text.
+<mark style="color:red;">**TODO:**</mark> Draft and approve additional policies as needed. Do not invent legal or HR policy text.
 
 Suggested topics (create only when reviewed):
 

@@ -44,7 +44,7 @@ Implementation Lead *(current incumbent: Matthew Keslin)*
 
 ## Capacity (today)
 
-2–4 / mo *(planning estimate — <mark style="color:$danger;">**TODO:**</mark> measure)*
+2–4 / mo *(planning estimate — <mark style="color:red;">**TODO:**</mark> measure)*
 
 ## Cycle time
 
@@ -82,7 +82,7 @@ Vendor packages and checklists exist; validation/close and consistent assessment
 
 ## Product responsibility
 
-<mark style="color:$danger;">**TODO / Decision needed:**</mark> Supported Vendor Catalog and Migration Registry (see SOP product impact).
+<mark style="color:red;">**TODO / Decision needed:**</mark> Supported Vendor Catalog and Migration Registry (see SOP product impact).
 
 ## Related documents
 

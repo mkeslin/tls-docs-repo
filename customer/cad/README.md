@@ -8,7 +8,7 @@ Training and day-to-day reference for dispatchers and officers using CAD.
 
 ## Contents
 
-<mark style="color:$danger;">**TODO:**</mark> Build topic pages under this folder.
+<mark style="color:red;">**TODO:**</mark> Build topic pages under this folder.
 
 Suggested topic areas:
 

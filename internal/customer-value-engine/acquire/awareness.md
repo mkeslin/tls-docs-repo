@@ -13,7 +13,7 @@ Interested prospects
 
 ## Owner
 
-<mark style="color:$danger;">**Decision needed:**</mark> Owner not assigned.
+<mark style="color:red;">**Decision needed:**</mark> Owner not assigned.
 
 ## Current process
 
@@ -59,9 +59,9 @@ Not enough inbound awareness
 
 ## Product responsibility
 
-<mark style="color:$danger;">**TODO / Decision needed:**</mark> Not yet assigned in the source Customer Value Engine worksheet.
+<mark style="color:red;">**TODO / Decision needed:**</mark> Not yet assigned in the source Customer Value Engine worksheet.
 
 ## Related documents
 
-- Related SOPs: <mark style="color:$danger;">**TODO:**</mark> link under `internal/sops/`
-- Checklists / templates: <mark style="color:$danger;">**TODO:**</mark>
+- Related SOPs: <mark style="color:red;">**TODO:**</mark> link under `internal/sops/`
+- Checklists / templates: <mark style="color:red;">**TODO:**</mark>

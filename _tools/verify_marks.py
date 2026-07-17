@@ -11,12 +11,12 @@ for path in ROOT.rglob("*.md"):
     if any(part in SKIP for part in path.parts):
         continue
     text = path.read_text(encoding="utf-8")
-    n = text.count("color:$danger")
+    n = text.count("color:red")
     mark_count += n
     if n:
         files_marked += 1
     stripped = re.sub(
-        r'<mark style="color:\$danger;">.*?</mark>',
+        r'<mark style="color:red;">.*?</mark>',
         "",
         text,
         flags=re.DOTALL,

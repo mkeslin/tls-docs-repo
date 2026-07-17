@@ -1,5 +1,5 @@
 ---
-description: Color outstanding markers (TODO, Decision needed, Placeholder, Draft, TBD) red in GitBook Markdown using $danger marks.
+description: Color outstanding markers (TODO, Decision needed, Placeholder, Draft, TBD) red in GitBook Markdown using mark style color:red.
 globs: "**/*.md"
 alwaysApply: false
 ---
@@ -8,34 +8,36 @@ alwaysApply: false
 
 When writing or editing docs in this repo, mark incomplete / outstanding work so it renders **red** in GitBook.
 
+Use `color:red` (real CSS). Do **not** use `color:$danger` — that editor token does not render via Git Sync.
+
 ## Required form
 
 Wrap **only** the marker keyword (not the rest of the sentence or table cell):
 
 ```html
-<mark style="color:$danger;">**TODO:**</mark>
-<mark style="color:$danger;">**Decision needed:**</mark>
-<mark style="color:$danger;">**TODO / Decision needed:**</mark>
-<mark style="color:$danger;">**Review needed:**</mark>
-<mark style="color:$danger;">Placeholder</mark>
-<mark style="color:$danger;">Draft</mark>
-<mark style="color:$danger;">TBD</mark>
+<mark style="color:red;">**TODO:**</mark>
+<mark style="color:red;">**Decision needed:**</mark>
+<mark style="color:red;">**TODO / Decision needed:**</mark>
+<mark style="color:red;">**Review needed:**</mark>
+<mark style="color:red;">Placeholder</mark>
+<mark style="color:red;">Draft</mark>
+<mark style="color:red;">TBD</mark>
 ```
 
 ### Examples
 
 ```markdown
 <!-- ✅ GOOD -->
-<mark style="color:$danger;">**TODO:**</mark> Set next review date.
+<mark style="color:red;">**TODO:**</mark> Set next review date.
 
-| Status | <mark style="color:$danger;">Placeholder</mark> |
+| Status | <mark style="color:red;">Placeholder</mark> |
 
 <!-- ❌ BAD — bare marker -->
 **TODO:** Set next review date.
 
 <!-- ❌ BAD — wraps whole cell/sentence (breaks Markdown tables) -->
-<mark style="color:$danger;">**TODO:** Set next review date.</mark>
-| <mark style="color:$danger;">**TODO:** Pipeline / deals closed | Acquire |</mark>
+<mark style="color:red;">**TODO:** Set next review date.</mark>
+| <mark style="color:red;">**TODO:** Pipeline / deals closed | Acquire |</mark>
 ```
 
 ## Do

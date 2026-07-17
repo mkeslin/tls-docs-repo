@@ -37,7 +37,7 @@ Everything after this—pricing, implementation schedule, and engineering effort
 | **Assessment date** | |
 | **Prepared by** | |
 | **Legacy platform** | |
-| **Migration complexity** | Low / Medium / High / <mark style="color:$danger;">**TODO:**</mark> |
+| **Migration complexity** | Low / Medium / High / <mark style="color:red;">**TODO:**</mark> |
 | **Estimated conversion fee** | |
 | **Implementation recommendation** | Proceed / Proceed with Conditions / Delay / Do Not Convert |
 | **Status** | ☐ Approved · ☐ Pending · ☐ Declined |
@@ -122,7 +122,7 @@ See [Vendor Conversion Guides](../sops/deliver/vendor-conversion-guides/README.m
 | Known issues | |
 | Estimated engineering required | hours / notes |
 
-> <mark style="color:$danger;">**TODO:**</mark> Link each assessment to a Converter Registry entry when that registry exists.
+> <mark style="color:red;">**TODO:**</mark> Link each assessment to a Converter Registry entry when that registry exists.
 
 ---
 
@@ -184,7 +184,7 @@ flowchart TD
 |-------|-------|
 | Chosen path | ☐ Cloud / vendor export · ☐ On-prem remote access · ☐ Other |
 | Who provides access/export | |
-| Expected acquisition timing | ☐ Before go-live · ☐ Backfill after go-live · ☐ <mark style="color:$danger;">TBD</mark> |
+| Expected acquisition timing | ☐ Before go-live · ☐ Backfill after go-live · ☐ <mark style="color:red;">TBD</mark> |
 | Acquisition risks / constraints | |
 
 ---
@@ -213,11 +213,11 @@ Rate each area. This protects capacity and schedule.
 
 | Decision | Choice | Notes |
 |----------|--------|-------|
-| UAT required? | ☐ Yes · ☐ No · ☐ <mark style="color:$danger;">TBD</mark> | |
-| Production direct? | ☐ Yes · ☐ No · ☐ <mark style="color:$danger;">TBD</mark> | |
-| Backfill after go-live? | ☐ Yes · ☐ No · ☐ <mark style="color:$danger;">TBD</mark> | |
-| Parallel validation? | ☐ Yes · ☐ No · ☐ <mark style="color:$danger;">TBD</mark> | |
-| Freeze legacy system? | ☐ Yes · ☐ No · ☐ <mark style="color:$danger;">TBD</mark> | |
+| UAT required? | ☐ Yes · ☐ No · ☐ <mark style="color:red;">TBD</mark> | |
+| Production direct? | ☐ Yes · ☐ No · ☐ <mark style="color:red;">TBD</mark> | |
+| Backfill after go-live? | ☐ Yes · ☐ No · ☐ <mark style="color:red;">TBD</mark> | |
+| Parallel validation? | ☐ Yes · ☐ No · ☐ <mark style="color:red;">TBD</mark> | |
+| Freeze legacy system? | ☐ Yes · ☐ No · ☐ <mark style="color:red;">TBD</mark> | |
 | Typical duration estimate | | See SOP time expectations; refine here |
 
 ---
@@ -228,7 +228,7 @@ Document the commercial recommendation so Sales can quote consistently.
 
 | Field | Value |
 |-------|-------|
-| Migration tier | ☐ Tier 1 · ☐ Tier 2 · ☐ Tier 3 · ☐ Tier 4 Custom · ☐ Bundled with multi-year SaaS · ☐ <mark style="color:$danger;">TBD</mark> |
+| Migration tier | ☐ Tier 1 · ☐ Tier 2 · ☐ Tier 3 · ☐ Tier 4 Custom · ☐ Bundled with multi-year SaaS · ☐ <mark style="color:red;">TBD</mark> |
 | Estimated hours | |
 | Recommended price | |
 | Reasoning | |
@@ -236,7 +236,7 @@ Document the commercial recommendation so Sales can quote consistently.
 | Pricing approved by | |
 | Pricing approval date | |
 
-> Apply [Migration Pricing Policy](../policies/migration-pricing.md) (Status: <mark style="color:$danger;">**Draft**</mark>). Do not treat tier amounts as binding until that policy is approved. Record tier, recommended price, reasoning, and any discount justification in this assessment.
+> Apply [Migration Pricing Policy](../policies/migration-pricing.md) (Status: <mark style="color:red;">**Draft**</mark>). Do not treat tier amounts as binding until that policy is approved. Record tier, recommended price, reasoning, and any discount justification in this assessment.
 
 ---
 
@@ -318,9 +318,9 @@ Every assessment should make the next migration easier.
 |----------|--------|
 | Did we improve a converter? | ☐ Yes · ☐ No · ☐ N/A — notes: |
 | What should be standardized? | |
-| Should this become / update a reusable vendor template? | ☐ Yes · ☐ No · ☐ <mark style="color:$danger;">TBD</mark> — promote into `Utilities/Migration Tools/<Vendor>/` and bump VERSION |
+| Should this become / update a reusable vendor template? | ☐ Yes · ☐ No · ☐ <mark style="color:red;">TBD</mark> — promote into `Utilities/Migration Tools/<Vendor>/` and bump VERSION |
 | Update `ConvertedAgencies.md` after acceptance? | ☐ Yes · ☐ N/A |
-| Should this generate a product or internal tooling feature? | ☐ Yes · ☐ No · ☐ <mark style="color:$danger;">TBD</mark> — idea: |
+| Should this generate a product or internal tooling feature? | ☐ Yes · ☐ No · ☐ <mark style="color:red;">TBD</mark> — idea: |
 | Lessons learned | |
 
 ---
@@ -349,7 +349,7 @@ Generates assessment draft
 
 That capability would be a competitive advantage and is tracked as product impact on the [Legacy System Migration SOP](../sops/deliver/legacy-system-migration.md#product-impact).
 
-<mark style="color:$danger;">**TODO:**</mark> Rank automation of assessment generation on the product / internal tooling roadmap.
+<mark style="color:red;">**TODO:**</mark> Rank automation of assessment generation on the product / internal tooling roadmap.
 
 ---
 

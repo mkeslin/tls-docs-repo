@@ -29,15 +29,15 @@ How this repository is organized and maintained.
 
 ## Outstanding items (red text)
 
-Mark incomplete work so it is visible in GitBook. Use the danger color token (renders red):
+Mark incomplete work so it is visible in GitBook. Use `color:red` (real CSS). Do **not** use `color:$danger` — Git Sync does not resolve that editor token.
 
 ```html
-<mark style="color:$danger;">**TODO:**</mark>
-<mark style="color:$danger;">**Decision needed:**</mark>
-<mark style="color:$danger;">**TODO / Decision needed:**</mark>
-<mark style="color:$danger;">Placeholder</mark>
-<mark style="color:$danger;">Draft</mark>
-<mark style="color:$danger;">TBD</mark>
+<mark style="color:red;">**TODO:**</mark>
+<mark style="color:red;">**Decision needed:**</mark>
+<mark style="color:red;">**TODO / Decision needed:**</mark>
+<mark style="color:red;">Placeholder</mark>
+<mark style="color:red;">Draft</mark>
+<mark style="color:red;">TBD</mark>
 ```
 
 Color **only** the marker keyword, not the rest of the sentence or table cell (wrapping trailing text breaks Markdown tables).

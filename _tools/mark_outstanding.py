@@ -7,8 +7,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SKIP_DIRS = {".git", "release-notes", "guide", "node_modules", ".gitbook", "_tools"}
 
-MARK_RE = re.compile(r'<mark\s+style="color:\$danger;">.*?</mark>', re.DOTALL)
-OPEN = '<mark style="color:$danger;">'
+MARK_RE = re.compile(
+    r'<mark\s+style="color:(?:red|\$danger);">.*?</mark>',
+    re.DOTALL,
+)
+# GitBook Git Sync needs a real CSS color; $danger is an editor token and does not render.
+OPEN = '<mark style="color:red;">'
 CLOSE = "</mark>"
 
 
@@ -38,7 +42,7 @@ def restore_marks(text: str, parts: list[str]) -> str:
 def process_text(original: str) -> str:
     # Fix previously mangled compound markers first (outside protect)
     text = original.replace(
-        '**TODO / <mark style="color:$danger;">**Decision needed:**</mark>**',
+        '**TODO / <mark style="color:red;">**Decision needed:**</mark>**',
         f"{OPEN}**TODO / Decision needed:**{CLOSE}",
     )
     text = text.replace(
