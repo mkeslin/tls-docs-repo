@@ -17,6 +17,7 @@ These pages capture those standards so new work compounds instead of reinventing
 | [Strategy](strategy/README.md) | Vision, principles, multi-year roadmap, and the current annual operating plan |
 | [Customer Value Engine](customer-value-engine/README.md) | The customer value stream — Acquire → Deliver → Operate → Expand → Advocate |
 | [SOPs](sops/README.md) | Step-by-step procedures tied to each value-stream phase |
+| [Assessments](assessments/README.md) | Decision documents before major Deliver work (e.g. migration assessment → Approved Conversion Plan) |
 | Playbooks and references | Implementation, customer success, product, technical, policies, checklists, and templates (see sidebar) |
 | [Documentation meta](documentation/README.md) | How this repository is organized and maintained |
 

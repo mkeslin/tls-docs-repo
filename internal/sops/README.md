@@ -4,6 +4,8 @@ Repeatable procedures organized by [Customer Value Engine](../customer-value-eng
 
 SOPs are part of **Thin Line OS**: they document how work is done today, expose gaps, and drive maturity so the company becomes less founder-dependent over time.
 
+**Before major Deliver work:** complete the relevant [Assessment](../assessments/README.md) (decision document). Example: [Legacy System Migration Assessment](../assessments/legacy-system-migration-assessment.md) → Approved Conversion Plan, then execute via the SOP.
+
 **Model SOP:** [Legacy System Migration](deliver/legacy-system-migration.md)
 
 ---

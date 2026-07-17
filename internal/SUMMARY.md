@@ -60,6 +60,13 @@
   * [SOPs — Expand](sops/expand.md)
   * [SOPs — Advocate](sops/advocate.md)
 
+## Assessments
+
+* [Assessments](assessments/README.md)
+  * [Legacy System Migration Assessment](assessments/legacy-system-migration-assessment.md)
+  * [Implementation Readiness Assessment](assessments/implementation-readiness-assessment.md)
+  * [Go-Live Readiness Assessment](assessments/go-live-readiness-assessment.md)
+
 ## Playbooks and references
 
 * [Implementation](implementation.md)
@@ -72,6 +79,5 @@
   * [Customer Validation Checklist](checklists/customer-validation-checklist.md)
   * [Migration Close-Out Checklist](checklists/migration-close-out-checklist.md)
 * [Templates](templates.md)
-  * [Conversion Assessment](templates/conversion-assessment.md)
   * [Conversion Summary](templates/conversion-summary.md)
   * [Customer Acceptance Form](templates/customer-acceptance-form.md)

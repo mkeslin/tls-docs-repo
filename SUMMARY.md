@@ -73,6 +73,13 @@
 * [Expand](internal/sops/expand/README.md)
 * [Advocate](internal/sops/advocate/README.md)
 
+### Assessments
+
+* [Assessments](internal/assessments/README.md)
+* [Legacy System Migration Assessment](internal/assessments/legacy-system-migration-assessment.md)
+* [Implementation Readiness Assessment](internal/assessments/implementation-readiness-assessment.md)
+* [Go-Live Readiness Assessment](internal/assessments/go-live-readiness-assessment.md)
+
 ### Other internal
 
 * [Implementation](internal/implementation/README.md)

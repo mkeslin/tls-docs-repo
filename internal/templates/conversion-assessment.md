@@ -1,8 +1,7 @@
-# Conversion Assessment Template
+# Conversion Assessment (moved)
 
-**Document type:** Template  
-**Status:** Placeholder
+This document has been elevated and renamed.
 
-**TODO:** Draft the conversion assessment fields used before pricing and execution (legacy platform, version, hosting model, converter availability, effort, modules, data quality risks, fee estimate, customer expectations).
+**Use instead:** [Legacy System Migration Assessment](../assessments/legacy-system-migration-assessment.md)
 
-Referenced by: [Legacy System Migration](../sops/deliver/legacy-system-migration.md) (Phase 2).
+Assessments are a first-class Deliver category (decision documents), not templates.

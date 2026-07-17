@@ -2,6 +2,16 @@
 
 SOPs for data conversion through go-live. Stage overviews: [Customer Value Engine — Deliver](../../customer-value-engine/deliver/README.md).
 
+## Before you execute
+
+| Assessment | Status |
+|------------|--------|
+| [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md) | v1 form — required before migration work / quoting |
+| [Implementation Readiness Assessment](../../assessments/implementation-readiness-assessment.md) | Placeholder |
+| [Go-Live Readiness Assessment](../../assessments/go-live-readiness-assessment.md) | Placeholder |
+
+See [Assessments](../../assessments/README.md).
+
 ## Procedures in this folder
 
 | SOP | Status |

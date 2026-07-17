@@ -7,4 +7,7 @@
 
 **TODO:** Record the approved rule, effective date, exceptions, and who may quote conversion fees.
 
-Referenced by: [Legacy System Migration](../sops/deliver/legacy-system-migration.md) (Phase 3).
+Referenced by:
+
+- [Legacy System Migration Assessment](../assessments/legacy-system-migration-assessment.md) (Section 9 — Pricing recommendation)
+- [Legacy System Migration SOP](../sops/deliver/legacy-system-migration.md) (Phase 3)

@@ -17,6 +17,7 @@
 | **Primary stakeholders** | Customer Administrator · Implementation · Engineering |
 | **Success criteria** | Data migrated · Utilities completed · Customer validated · Migration accepted |
 | **Related SOPs** | [Customer Onboarding](customer-onboarding.md) · [Bootstrap Environment](bootstrap-environment.md) · [Post-Conversion Utilities](post-conversion-utilities.md) |
+| **Required assessment** | [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md) → Approved Conversion Plan |
 
 Migration includes more than importing records: assessment, extraction, transformation, validation, workflow transition, customer review, and final acceptance.
 
@@ -188,7 +189,7 @@ Where this process should operate when Thin Line OS is mature:
 
 | Area | Target |
 |------|--------|
-| **Assessment** | Formal [Conversion Assessment](../../templates/conversion-assessment.md) → approved Conversion Plan before pricing/execution |
+| **Assessment** | Formal [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md) → **Approved Conversion Plan** before pricing/execution |
 | **Pricing** | Approved [Migration Pricing Policy](../../policies/migration-pricing.md) (tiered or hybrid — **Decision needed**) |
 | **Acquisition** | Documented cloud vs on-prem path with clear go-live timing rules |
 | **Preparation** | Vendor-centric templates (`Conversions/<Vendor>/Template/`) plus customer folders for overrides |
@@ -205,7 +206,7 @@ Where this process should operate when Thin Line OS is mature:
 
 | Gap | Current → Target | Priority |
 |-----|------------------|----------|
-| No formal assessment | Informal → Assessment template + approved plan | High |
+| No formal assessment | Informal → [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md) + Approved Conversion Plan | High |
 | Pricing not standardized | Bundled practice → Approved policy | High |
 | Folder model | Customer-centric → Vendor templates + customer config | High |
 | Validation / acceptance | Email informal → Checklist + signed acceptance | High |
@@ -319,11 +320,13 @@ Examples: Tyler, CopSync, CrimeStar.
 
 **TODO:** Maintain a living vendor/converter catalog (see [Product impact](#product-impact)).
 
-### Phase 2 — Conversion assessment
+### Phase 2 — Legacy System Migration Assessment
 
-Perform planning sufficient to proceed. **Today this is informal.**
+Perform the [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md). **Today assessment is informal;** the target is a completed assessment form with an **Approved Conversion Plan**.
 
-Target: complete [Conversion Assessment Template](../../templates/conversion-assessment.md) and produce an approved Conversion Plan covering platform, version, hosting, converter availability, effort, modules, data quality issues, fee estimate, and expectations.
+That assessment is the bridge between Sales, Implementation, and Engineering. It answers: can we convert, what to charge, how long, what risks, whether Sales can quote, what engineering is required, and whether to build or extend a reusable converter.
+
+Do not treat pricing, schedule, or engineering commitments as final until the assessment recommendation is approved.
 
 ### Phase 3 — Pricing
 
@@ -444,7 +447,7 @@ See also [Common risks](#common-risks).
 | [Bootstrap Environment](bootstrap-environment.md) | Related Deliver SOP (placeholder) |
 | [Post-Conversion Utilities](post-conversion-utilities.md) | Phase 7 |
 | [Vendor Conversion Guides](vendor-conversion-guides/README.md) | Phase 5 |
-| [Conversion Assessment Template](../../templates/conversion-assessment.md) | Phase 2 |
+| [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md) | Phase 2 — required decision document |
 | [Migration Pricing Policy](../../policies/migration-pricing.md) | Phase 3 |
 | [Customer Validation Checklist](../../checklists/customer-validation-checklist.md) | Phase 8 |
 | [Conversion Summary Template](../../templates/conversion-summary.md) | Phase 8 |
@@ -459,7 +462,7 @@ Thin Line OS SOPs are not static manuals. Each SOP ends with the same improvemen
 
 ### Weaknesses
 
-- No formal Conversion Assessment  
+- No formal Legacy System Migration Assessment (or Approved Conversion Plan)  
 - Pricing not standardized  
 - Folder organization customer-centric instead of vendor-centric  
 - Customer validation informal  
@@ -528,3 +531,4 @@ How Thin Line Platform (or internal platform) improvements could **reduce or eli
 |------|--------|--------|
 | 2026-07-17 | Initial draft — model SOP | Documentation draft |
 | 2026-07-17 | v1 enrichment — executive summary, swimlane, decision trees, current/target/gap, risks, timing, automation score, product impact, process maturity | Documentation draft |
+| 2026-07-17 | Phase 2 elevated to [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md) (Assessments category) | Documentation draft |
