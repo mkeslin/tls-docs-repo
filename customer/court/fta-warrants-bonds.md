@@ -17,6 +17,8 @@ From FTA, common next steps include issuing an **FTA warrant**, scheduling or up
 
 Court Violations coordinates with the **Warrants** module for FTA and related enforcement. Issuing or updating warrant work from a court case should follow your agency’s warrant procedures and the actions available on the case.
 
+LE-facing warrant search, service attempts, and court-owned behavior: [Warrants — Court-owned FTA and CPF](../rms/warrants/court-owned-fta-cpf.md).
+
 Post-judgment non-compliance may follow a **CPF** (capias pro fine) track, including CPF warrant and CPF failed-to-comply states. Treat those as enforcement paths after conviction / compliance failure, not as a first-appearance FTA.
 
 ## Bonds
