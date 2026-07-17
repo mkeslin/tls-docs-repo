@@ -1,31 +1,33 @@
 # Vendor Conversion Guides
 
 **Document type:** Reference index  
-**Status:** v1 — catalog (detailed per-vendor runbooks live in product Git)  
+**Status:** v1 — catalog + per-vendor guides  
 **Next review:** <mark style="color:red;">**TODO:**</mark> Set date (suggested: 2026-10-17)
 
-Referenced by: [Legacy System Migration](../legacy-system-migration.md) (Phases 1 and 5) · [Migration Package Standards](../migration-package-standards.md)
+Referenced by: [Legacy System Migration](../legacy-system-migration.md) · [Migration Package Standards](../migration-package-standards.md) · [Migration Architecture](../migration-architecture.md)
 
 ---
 
 ## Purpose
 
-Index supported legacy vendors/products, typical extract methods, and where the **Migration Package** lives in the product monorepo.
+**Vendor-specific knowledge lives here** (and in the product package)—not inside the Legacy System Migration SOP.
 
-Detailed Pipeline docs, AgencyChecklist, and Override templates are **not** duplicated here—they are versioned with the code under:
+Each guide covers: supported versions, access, known issues, schema notes, extraction, special mappings, validation emphasis, common problems, lessons learned, and **package backlog**.
+
+Detailed Pipeline SQL stays versioned with the code:
 
 `Utilities/Migration Tools/<Vendor>/`
 
 ---
 
-## Supported vendors (Migration Tools)
+## Guides
 
-| Vendor (folder) | Product / alias | Typical extract | Staging | Package notes |
-|-----------------|-----------------|-----------------|---------|---------------|
-| **CrimeStar** | CrimeStar RMS (FoxPro / DBF) | Agency DBF + FPT folder | StagingImporter → `cs_*` then adapter to `Stg_CopSync_*` | AgencyChecklist + SqlPackage helpers |
-| **CopSync** | COPsync / **Kologik** | SQL Server CopSync DB (cloud export or backup) | Stage into `Stg_CopSync_*` | Backfill pattern; officer/court Overrides |
-| **IncodeCourt** | Tyler / INCODE court; Thin Line Common V14 Access | CTFILES fixed files and/or `.accdb` set | StagingImporter (CTFILES) and/or Access→SQL | Two paths on AgencyChecklist |
-| **Xpediter** | XPEDITER (often `XPEDITER.GDB`) | Firebird/InterBase → SQL ConvTemp | ConvTemp tables (`CAGENCY`, `DFOLDER`, …) | Checklist placeholders in `01`; Override templates for duplicates / final cleanup |
+| Guide | Product / alias | Package folder |
+|-------|-----------------|----------------|
+| [CrimeStar](crimestar.md) | CrimeStar RMS (FoxPro / DBF) | `CrimeStar/` |
+| [CopSync / Kologik](copsync-kologik.md) | COPsync / Kologik | `CopSync/` |
+| [IncodeCourt (Tyler / INCODE)](incode-court.md) | Municipal court CTFILES / Access | `IncodeCourt/` |
+| [Xpediter](xpediter.md) | XPEDITER GDB | `Xpediter/` |
 
 **Converted agencies register:** each package includes `ConvertedAgencies.md` (agency, date, package `VERSION`).
 
@@ -34,11 +36,24 @@ Detailed Pipeline docs, AgencyChecklist, and Override templates are **not** dupl
 ## How to start an engagement
 
 1. Confirm vendor on the [Legacy System Migration Assessment](../../../assessments/legacy-system-migration-assessment.md).
-2. Open `Utilities/Migration Tools/<Vendor>/` and note `VERSION`.
+2. Open the vendor guide above + product `Utilities/Migration Tools/<Vendor>/` and note `VERSION`.
 3. Follow `Utilities/Migration Tools/PROCESS.md` (copy → checklist → Overrides → promote).
-4. Use that vendor’s `AgencyChecklist.md` as the agency evaluation form.
+4. Configure per [Customer Configuration Standard](../migration-customer-configuration.md).
+5. Validate per [Migration Validation Standard](../migration-validation-standard.md).
 
 Do **not** copy the last customer’s filled Overrides as the new default. Start from the vendor package templates.
+
+---
+
+## Cross-cutting migration docs
+
+| Document | Role |
+|----------|------|
+| [Migration Philosophy](../migration-philosophy.md) | Beliefs |
+| [Migration Architecture](../migration-architecture.md) | One-page flow |
+| [Migration Decision Matrix](../migration-decision-matrix.md) | Package vs config |
+| [Migration Package Standards](../migration-package-standards.md) | Manifest · versioning · backlog |
+| [Migration Metrics](../migration-metrics.md) | Lightweight tracking |
 
 ---
 
@@ -48,7 +63,7 @@ Do **not** copy the last customer’s filled Overrides as the new default. Start
 |-----|-------|
 | Full Pipeline SQL still in some `Clients/.../Conversion/` folders | Promote common steps into vendor packages over time |
 | Jail / JP CSV (e.g. Crosby County Jail) | Not a CopSync package; separate path <mark style="color:red;">**TODO**</mark> |
-| Per-vendor narrative guides in GitBook | Optional deeper pages later; package README + PIPELINE.md are source of truth for execution |
+| Supported legacy version matrices | Incomplete — fill from each engagement into the vendor guide |
 
 ---
 
@@ -57,4 +72,5 @@ Do **not** copy the last customer’s filled Overrides as the new default. Start
 | Date | Change |
 |------|--------|
 | 2026-07-17 | Placeholder index |
-| 2026-07-17 | v1 catalog — CrimeStar, CopSync/Kologik, IncodeCourt, Xpediter; links to Migration Tools |
+| 2026-07-17 | v1 catalog — CrimeStar, CopSync/Kologik, IncodeCourt, Xpediter |
+| 2026-07-17 | Per-vendor guide pages + cross-links to philosophy / validation / config |

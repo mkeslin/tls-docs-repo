@@ -7,7 +7,7 @@
 
 - Signed SaaS + CJIS (hard stop before legacy access)
 - Legacy database or vendor export
-- [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md) ? Approved Conversion Plan
+- [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md) — Approved Conversion Plan
 - Vendor Migration Package (when available)
 
 ## Outputs
@@ -16,6 +16,7 @@
 - Engagement conversion folder artifacts
 - Customer validation / acceptance
 - Updated vendor `ConvertedAgencies.md` (package VERSION)
+- Package backlog / VERSION bumps when reusable improvements ship
 
 ## Owner
 
@@ -27,32 +28,35 @@ Implementation Lead *(current incumbent: Matthew Keslin)*
 2. Acquire data (on-prem extract or cloud vendor export)  
 3. Copy vendor package ? client engagement folder; complete AgencyChecklist; fill Overrides  
 4. Execute Pipeline / StagingImporter; run post-conversion utilities  
-5. Customer validates; promote reusable fixes; register conversion  
+5. Validate per Validation Standard; customer accepts; promote reusable fixes; register conversion  
+
+**Mental model:** [Migration Architecture](../../sops/deliver/migration-architecture.md) · [Migration Philosophy](../../sops/deliver/migration-philosophy.md)
 
 **SOP:** [Legacy System Migration](../../sops/deliver/legacy-system-migration.md)  
 **Package standards:** [Migration Package Standards](../../sops/deliver/migration-package-standards.md)  
-**Vendor index:** [Vendor Conversion Guides](../../sops/deliver/vendor-conversion-guides/README.md)
+**Vendor guides:** [Vendor Conversion Guides](../../sops/deliver/vendor-conversion-guides/README.md)  
+**Validation:** [Migration Validation Standard](../../sops/deliver/migration-validation-standard.md)
 
 ## Tooling
 
 | Tool | Role |
 |------|------|
 | Product Git `Utilities/Migration Tools/` | Vendor packages, PROCESS.md, VERSION |
-| `Clients/.../Conversion/` (+ Team Drive) | Engagement working copy |
+| `Clients/.../Conversion/` (+ Team Drive) | Engagement working copy (configuration) |
 | SQL Server | Load / transform / verify |
 | Cursor | Lead PROCESS.md execution |
 
 ## Capacity (today)
 
-2â€“4 / mo *(planning estimate â€” <mark style="color:red;">**TODO:**</mark> measure)*
+2–4 / mo *(planning estimate — <mark style="color:red;">**TODO:**</mark> measure)*
 
 ## Cycle time
 
-Typically 1â€“10 business days excluding customer/vendor wait states (see SOP time expectations).
+Typically 1–10 business days excluding customer/vendor wait states (see SOP time expectations).
 
 ## Maturity
 
-**2â€“3 / 5 â€” Documented / standardizing**
+**3 / 5 — Standardized (docs + packages; metrics/automation still light)**
 
 | Score | Meaning |
 |------:|---------|
@@ -62,13 +66,12 @@ Typically 1â€“10 business days excluding customer/vendor wait states (see SOP ti
 | 4 | Automated |
 | 5 | Scalable |
 
-Vendor packages and checklists exist; validation/close and consistent assessment adoption still maturing.
-
 ## What would break first?
 
 - New / unsupported vendor with no package  
 - Agency Overrides skipped or agency hardcodes merged into shared templates  
 - Access before SaaS + CJIS  
+- Skipping validation (scripts-green ? success)
 
 ## Continuous improvement (10x ideas)
 
@@ -76,7 +79,7 @@ Vendor packages and checklists exist; validation/close and consistent assessment
 |------|------|
 | Reduce / Simplify | Fewer one-off client script forks; promote into packages |
 | Standardize | AgencyChecklist + Override templates for every vendor |
-| Automate | Schema compare + converter registry |
+| Automate | Schema compare + converter registry + MANIFEST in Hub |
 | Delegate | Implementation specialists run standard packages via PROCESS.md |
 | Scale | Customer validation portal |
 
@@ -86,8 +89,12 @@ Vendor packages and checklists exist; validation/close and consistent assessment
 
 ## Related documents
 
+- [Migration Philosophy](../../sops/deliver/migration-philosophy.md)
+- [Migration Architecture](../../sops/deliver/migration-architecture.md)
 - [Legacy System Migration SOP](../../sops/deliver/legacy-system-migration.md)
 - [Migration Package Standards](../../sops/deliver/migration-package-standards.md)
+- [Customer Configuration Standard](../../sops/deliver/migration-customer-configuration.md)
+- [Migration Validation Standard](../../sops/deliver/migration-validation-standard.md)
 - [Vendor Conversion Guides](../../sops/deliver/vendor-conversion-guides/README.md)
 - [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md)
 - [Customer Validation Checklist](../../checklists/customer-validation-checklist.md)

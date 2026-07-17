@@ -391,6 +391,8 @@ Full procedure: [Post-Conversion Utilities](post-conversion-utilities.md).
 
 ### Phase 8 — Customer validation
 
+**Thin Line first:** Complete [Migration Validation Standard](migration-validation-standard.md) Layers A–B (counts, relationships, spot checks).
+
 **Today:** Implementation Lead notifies customer by email; customer validates; corrections via follow-up; informal acceptance.
 
 **Target:** Deliver Conversion Summary, record counts, exception report, and [Customer Validation Checklist](../../checklists/customer-validation-checklist.md); obtain [Customer Acceptance Form](../../templates/customer-acceptance-form.md). Templates: [Conversion Summary](../../templates/conversion-summary.md).
@@ -452,8 +454,14 @@ See also [Common risks](#common-risks).
 | [Customer Onboarding](customer-onboarding.md) | Related Deliver SOP (placeholder) |
 | [Bootstrap Environment](bootstrap-environment.md) | Provision tenant before/with import (Infrastructure scripts) |
 | [Post-Conversion Utilities](post-conversion-utilities.md) | Phase 7 — Admin Data Utilities (workflow + call snapshot) |
-| [Vendor Conversion Guides](vendor-conversion-guides/README.md) | Phase 1 / 5 — vendor catalog |
-| [Migration Package Standards](migration-package-standards.md) | Phase 5 — package layout, VERSION, promote rules |
+| [Migration Philosophy](migration-philosophy.md) | Principles |
+| [Migration Architecture](migration-architecture.md) | One-page flow |
+| [Migration Decision Matrix](migration-decision-matrix.md) | Package vs configuration |
+| [Vendor Conversion Guides](vendor-conversion-guides/README.md) | Phase 1 / 5 — per-vendor knowledge |
+| [Migration Package Standards](migration-package-standards.md) | Manifest · VERSION · backlog |
+| [Customer Configuration Standard](migration-customer-configuration.md) | Package + config = migration |
+| [Migration Validation Standard](migration-validation-standard.md) | Definition of success |
+| [Migration Metrics](migration-metrics.md) | Lightweight tracking |
 | [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md) | Phase 2 — required decision document |
 | [Migration Pricing Policy](../../policies/migration-pricing.md) | Phase 3 |
 | [Customer Validation Checklist](../../checklists/customer-validation-checklist.md) | Phase 8 |

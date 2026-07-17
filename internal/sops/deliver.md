@@ -12,5 +12,16 @@ See the Deliver SOP index: [deliver/README.md](deliver/README.md).
 | [Customer Onboarding](deliver/customer-onboarding.md) | <mark style="color:red;">Placeholder</mark> |
 | [Bootstrap Environment](deliver/bootstrap-environment.md) | v1 — Infrastructure PowerShell (`bootstrap-client.ps1`) |
 | [Post-Conversion Utilities](deliver/post-conversion-utilities.md) | v1 — Admin Data Utilities (workflow + call snapshot) |
-| [Vendor Conversion Guides](deliver/vendor-conversion-guides/README.md) | v1 catalog |
-| [Migration Package Standards](deliver/migration-package-standards.md) | v1 — package layout / VERSION / promote rules |
+
+## Migration domain
+
+| Document | Status |
+|----------|--------|
+| [Migration Philosophy](deliver/migration-philosophy.md) | v1 |
+| [Migration Architecture](deliver/migration-architecture.md) | v1 |
+| [Migration Decision Matrix](deliver/migration-decision-matrix.md) | v1 |
+| [Migration Package Standards](deliver/migration-package-standards.md) | v1 |
+| [Customer Configuration Standard](deliver/migration-customer-configuration.md) | v1 |
+| [Migration Validation Standard](deliver/migration-validation-standard.md) | v1 |
+| [Migration Metrics](deliver/migration-metrics.md) | v1 |
+| [Vendor Conversion Guides](deliver/vendor-conversion-guides/README.md) | v1 + per-vendor guides |

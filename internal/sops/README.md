@@ -98,10 +98,12 @@ Next review date
 |----------|-----|--------|
 | 1 | [Deliver — Legacy System Migration](deliver/legacy-system-migration.md) | v1 model SOP |
 | 2 | [Deliver — Bootstrap Environment](deliver/bootstrap-environment.md) | v1 — Infrastructure PowerShell (`bootstrap-client.ps1`) |
-| 3 | [Deliver — Customer Onboarding](deliver/customer-onboarding.md) | <mark style="color:red;">Placeholder</mark> |
-| 4 | Deliver — go-live | Not started |
+| 3 | [Deliver — Customer Onboarding](deliver/customer-onboarding.md) | <mark style="color:red;">Placeholder</mark> *(start of Implementation domain)* |
+| 4 | Deliver — go-live / training | Not started |
 | 5 | Acquire — demo | Not started |
 | 6 | Acquire — proposal / contract | Not started |
 | 7 | Operate — support triage | Not started |
+
+**Migration domain (standards):** Philosophy, Architecture, Decision Matrix, Package Standards, Configuration, Validation, Metrics, and per-vendor guides are under [deliver/](deliver/README.md) — treat as complete enough to move primary effort to **Implementation**.
 
 Interview owners and document what is done today, then improve.

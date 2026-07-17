@@ -303,9 +303,10 @@ Goals include:
 |----------|--------------|
 | [Legacy System Migration SOP](../sops/deliver/legacy-system-migration.md) | Execution procedure |
 | [Legacy System Migration Assessment](../assessments/legacy-system-migration-assessment.md) | Required before pricing; records tier, fee, discounts |
+| [Migration Philosophy](../sops/deliver/migration-philosophy.md) | Price outcomes, not open-ended hours |
+| [Migration Architecture](../sops/deliver/migration-architecture.md) | Assessment → pricing → package flow |
 | [Migration Package Standards](../sops/deliver/migration-package-standards.md) | Vendor package VERSION / reuse (affects effort tier) |
 | [Vendor Conversion Guides](../sops/deliver/vendor-conversion-guides/README.md) | Supported vendor catalog |
-| [Migration Package Standards](../sops/deliver/migration-package-standards.md) | Reusable converter / package definition (placeholder) |
 | [Customer Onboarding](../sops/deliver/customer-onboarding.md) | Customer implementation SOP (placeholder) |
 | [Business Systems Architecture](../operating-system/business-systems-architecture.md) | Systems of record context |
 

@@ -325,6 +325,28 @@ Every assessment should make the next migration easier.
 
 ---
 
+## 15. Package backlog (reusable improvements)
+
+**Not customer notes.** These are improvements to the **vendor package** for the next agency. Copy durable items into the vendor GitBook guide backlog and/or package README. See [Migration Package Standards — Package backlog](../sops/deliver/migration-package-standards.md#package-backlog).
+
+Vendor package: `Utilities/Migration Tools/_______________/` · Guide: [Vendor Conversion Guides](../sops/deliver/vendor-conversion-guides/README.md)
+
+Improvements identified:
+
+- [ ] Add / expand module support: _______________
+- [ ] Improve officer mapping
+- [ ] Improve court / agency mapping
+- [ ] Automate or strengthen validation (counts / citations / …)
+- [ ] Fix / improve attachment extraction
+- [ ] Document supported legacy version: _______________
+- [ ] Other: _______________
+
+| Item | Promote into package? | VERSION bump when done? |
+|------|----------------------|-------------------------|
+| | ☐ Yes · ☐ No (customer-only) | ☐ |
+
+---
+
 ## Future automation (product impact)
 
 Eventually this document could be largely generated:
@@ -359,3 +381,4 @@ That capability would be a competitive advantage and is tracked as product impac
 |------|--------|
 | 2026-07-17 | v1 — Legacy System Migration Assessment form (elevated from Conversion Assessment placeholder) |
 | 2026-07-17 | Added Migration Tools package VERSION, vendor checkboxes, Firebird, ConvertedAgencies close-out |
+| 2026-07-17 | §15 Package backlog (reusable improvements) |
