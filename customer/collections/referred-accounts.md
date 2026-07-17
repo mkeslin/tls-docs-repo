@@ -1,20 +1,19 @@
 # Referred accounts
 
-Work the portfolio of accounts referred to collections.
+Browse the portfolio of accounts in collections.
 
-## Open referred accounts
+## Open the portfolio
 
-1. Open **Collections** from the left rail.
-2. Choose **Referred Accounts**.
-3. Search or filter the referred portfolio.
-4. Open an account to review balance and referral context.
+1. Open **Collections** → **Referred Accounts**.
+2. Filter by status (**REFERRED** / **SATISFIED** / **RECALLED**), violation #, defendant, vendor, referred-on date.
+3. Export **PDF** / **CSV** or print the grid when needed for vendor or finance review.
 
 ## Tips
 
-- Referral into collections is typically driven from Court eligibility / queues — Collections is where you work accounts **after** referral.
-- Confirm you are in the correct agency before posting remittances.
+- Referral happens in Court — see [Refer and recall](refer-and-recall.md).
+- Satisfied / recalled rows are history; remittance posting targets active referred balances.
 
 ## Related
 
-- [Payments and remittance](payments-and-remittance.md)
-- [Court — Work queues](../court/work-queues.md)
+- [Payment entry](payment-entry.md)
+- [Payment history](payment-history.md)

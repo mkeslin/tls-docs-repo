@@ -10,6 +10,7 @@ Structured curricula for go-live and ongoing adoption. Each outline links to the
 | [Master records workshop](master-records-workshop.md) | Anyone who links people, vehicles, property, or locations | ~90 minutes |
 | [Admin workshop](admin-workshop.md) | Agency administrators / IT / supervisors who maintain users and codes | ~2 hours |
 | [CAD workshop](cad-workshop.md) | Dispatchers / call-takers / self-dispatch officers | ~3 hours |
+| [Court finance workshop](court-finance-workshop.md) | Cashiers / court finance / collections clerks | ~half day |
 | [Citations workshop](citations-workshop.md) | Officers / records / supervisors | ~2–3 hours |
 | [Incidents workshop](incidents-workshop.md) | Officers / records / supervisors | ~3 hours |
 | [Warrants workshop](warrants-workshop.md) | Warrants / records / patrol service | ~2 hours |

@@ -25,7 +25,7 @@ Thin Line includes Texas-oriented reporting packs for municipal court operations
 | **DPS conviction** | Conviction reporting to DPS |
 | **State quarterly** | Quarterly state accounting / fee reporting |
 
-These reports are for authorized court staff. Filing calendars, transmission methods, and agency identifiers (including OCA court identifier on the agency) are configured during implementation — follow the schedule your court and Thin Line agreed on.
+These reports are for authorized court staff. Many packs are also launched from left-rail [Import/Export](../import-export/README.md) (**DPS Conviction**, **OCA**, **State Quarterly**). Agree one path per filing so staff do not produce conflicting files. Agency identifiers are configured during implementation.
 
 ## Analytics
 
@@ -39,6 +39,7 @@ Some environments include **court violation analytics** for volume and workload 
 
 ## Related
 
+- [Import/Export](../import-export/README.md)
 - [Payments](payments.md)
 - [Work queues](work-queues.md)
 - [Court overview](README.md)

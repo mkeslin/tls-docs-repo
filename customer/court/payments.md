@@ -46,6 +46,8 @@ Accepted payments flow into broader accounting processes (deposits, settlements,
 ## Related
 
 - [Journey: Court payment to accounting](../getting-started/journeys/court-payment-to-accounting.md)
+- [From Court payments](../accounting/from-court-payments.md)
+- [Court finance workshop](../training/court-finance-workshop.md)
 - [Payment plans](payment-plans.md)
 - [Work queues](work-queues.md)
 - [Case lifecycle](case-lifecycle.md)

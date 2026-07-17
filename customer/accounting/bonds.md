@@ -1,25 +1,46 @@
 # Bonds
 
-Bond-related accounting utilities.
+Bond refund disbursement and bond deposit export tools in Accounting.
 
 ## Bond Refund Disbursement Batches
 
-1. Open **Bond Refund Disbursement Batches**.
-2. Search or create a batch for bond refunds ready to disburse.
-3. Review included refunds and complete batch actions per your court finance process.
+Pay out exonerated cash bonds that are ready for refund.
+
+### Create a batch
+
+1. Open **Accounting** → **Bond Refund Disbursement Batches**.
+2. Choose **New Batch**.
+3. Set the resolved period and **Disbursement Date**.
+4. Choose **Find Eligible**.
+5. Select bonds (empty message: no eligible exonerated cash bonds in the period).
+6. **Create Batch**.
+
+### Post the batch
+
+1. Open the batch detail.
+2. Enter **Check #** (required) and confirm **Disbursement Date**.
+3. **Post Bond Refund Batch** — posts check-clearance GL (bond escrow / operating bank) and marks bonds **REFUNDED**.
+
+### Void
+
+**Void** reverses GL and returns bonds toward exonerated / refund-pending. **Void Reason** is required. Coordinate with court before voiding.
 
 ## Bond Deposit Export
 
-1. Open **Bond Deposit Export**.
-2. Set the export criteria (dates / filters shown).
-3. Generate the export for your bank or finance system workflow.
+Reconcile bond deposits to deposit batches.
 
-## Tips
+1. Open **Accounting** → **Bond Deposit Export**.
+2. Set **Posted Date** range (required).
+3. Optionally filter **Pending deposit only**.
+4. **Search**, then **Export CSV** as needed.
 
-- Case-level bond handling on court violations is covered under [Court — FTA, warrants, and bonds](../court/fta-warrants-bonds.md).
-- Confirm refund eligibility on the case before including a line in a disbursement batch.
+Columns typically include bond #, receipt #, deposit status, deposit batch, defendant/depositor, and linked violations. Use the pending total when not all bonds are fully deposited.
+
+## Case-level bonds
+
+Issue / exonerate / related court actions live on the court case — see [Court — FTA, warrants, and bonds](../court/fta-warrants-bonds.md).
 
 ## Related
 
-- [Ledgers and reconciliation](ledgers-and-reconciliation.md)
+- [Deposit batches](deposit-batches.md)
 - [Court — FTA, warrants, and bonds](../court/fta-warrants-bonds.md)

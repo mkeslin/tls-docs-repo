@@ -1,20 +1,19 @@
 # Racial profiling
 
-Export racial profiling data collected on citations (and related stops).
+Search and print racial profiling data collected on stops.
 
-## Steps
+## Run a search
 
-1. Open **Import/Export** → **Racial Profiling** (requires racial profiling report access).
-2. Set the report period and filters.
-3. Generate the export your agency submits to the state.
-4. Archive a copy per your records retention rules.
+1. Open **Import/Export** → **Racial Profiling**.
+2. Set event date range (often defaults to the current year) and other filters (officer, citation/incident #, type, gender, race/ethnicity fields).
+3. Search.
+4. Print **Grid** or **Summary** as your agency submits.
 
-## Tips
+## Data quality
 
-- Officers complete racial profiling fields on the citation — see [Citations — Racial profiling](../rms/citations/racial-profiling.md).
-- Incomplete citation fields are the usual cause of export failures — fix source citations, then re-run.
+Incomplete citation (or related stop) racial profiling fields are the usual cause of thin or rejected extracts. Officers complete RP on the citation — see [Citations — Racial profiling](../rms/citations/racial-profiling.md) and the [Data quality checklist](data-quality-checklist.md).
 
 ## Related
 
-- [IBRS](ibrs.md)
+- [Opening Import/Export](opening-import-export.md)
 - [Citations — Racial profiling](../rms/citations/racial-profiling.md)

@@ -1,30 +1,36 @@
 # Import/Export
 
-Customer guides for **Import/Export** — IBRS, racial profiling, and court statutory reports run from the left-rail Import/Export menu.
+Customer guides for **Import/Export** — IBRS, racial profiling, and court statutory transmission packs.
 
 ## What Import/Export is
 
-Import/Export is where authorized users generate **compliance and transmission** outputs (not day-to-day case entry). What you see depends on claims (IBRS, racial profiling, court report access).
+Left-rail **Import/Export** is for authorized users who produce **compliance files** (not day-to-day case entry). Menu items appear only when you have the matching claims (and module access).
 
-Court also has in-module [Reports](../court/reports.md); some court packs are reachable from Import/Export for staff who work exports from that rail.
+| Export | Typical owner |
+|--------|----------------|
+| [IBRS](ibrs.md) | Records / NIBRS clerk |
+| [Racial profiling](racial-profiling.md) | Records / supervisor |
+| [DPS Conviction Report](dps-conviction-report.md) | Court |
+| [OCA Report](oca-report.md) | Court |
+| [State Quarterly Report](state-quarterly-report.md) | Court |
 
-## Who this guide is for
-
-- Records staff who submit IBRS
-- Supervisors who run racial profiling extracts
-- Court staff who run DPS conviction, OCA, or state quarterly packs from this menu
+Court also has in-module [Reports](../court/reports.md). Agree one path per pack so staff do not generate conflicting files.
 
 ## Topics in this guide
 
 | Topic | When to use it |
 |-------|----------------|
-| [IBRS](ibrs.md) | NIBRS / IBRS transmission |
-| [Racial profiling](racial-profiling.md) | Racial profiling report export |
-| [Court exports](court-exports.md) | DPS conviction, OCA, state quarterly |
+| [Opening Import/Export](opening-import-export.md) | Who sees which menu item |
+| [IBRS](ibrs.md) | Monthly transmission lifecycle |
+| [Racial profiling](racial-profiling.md) | Search / grid / summary |
+| [DPS Conviction Report](dps-conviction-report.md) | Monthly DPS file |
+| [OCA Report](oca-report.md) | Monthly OCA pack |
+| [State Quarterly Report](state-quarterly-report.md) | Quarterly court stats |
+| [Data quality checklist](data-quality-checklist.md) | Fix source records before export |
 
 ## Related
 
 - [Incidents — IBRS](../rms/incidents/print-attachments-history-ibrs.md)
 - [Citations — Racial profiling](../rms/citations/racial-profiling.md)
 - [Court — Reports](../court/reports.md)
-- [Analytics](../analytics/README.md)
+- [Court finance workshop](../training/court-finance-workshop.md) (court packs portion)
