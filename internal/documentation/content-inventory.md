@@ -142,7 +142,7 @@ Folder convention: `guide/<label>/<label>.md` + co-located images. Loaded by lab
 
 | Current path | Type | Audience | Future location | Action | Notes and risks |
 |--------------|------|----------|-----------------|--------|-----------------|
-| `guide/ibrs_errors/ibrs_errors.md` | Reference | customer | `customer/rms/ibrs/errors-and-warnings.md` | Keep | Large NIBRS v2019.2.1 error/warning tables with TLS-specific notes on select codes. High value; maintain when NIBRS rules change. **Decision needed:** customer vs. internal-only sections. |
+| `guide/ibrs_errors/ibrs_errors.md` | Reference | customer | `customer/rms/ibrs/errors-and-warnings.md` | Keep | Large NIBRS v2019.2.1 error/warning tables with TLS-specific notes on select codes. High value; maintain when NIBRS rules change. <mark style="color:$danger;">**Decision needed:**</mark> customer vs. internal-only sections. |
 
 ---
 
@@ -180,7 +180,7 @@ Each version follows: `release-notes/<label>/<label>.md` + optional images.
 
 These folders exist; confirm whether they should be added to `release-notes.json` or archived:
 
-`v_0_001_01`, `v_0_001_02`, `v_0_002_01`, `v_0_004_01`, `v_0_006_01`, `v_0_007_01`, and other early versions not listed under JSON children — **Decision needed:** expose full history in UI or keep JSON curated.
+`v_0_001_01`, `v_0_001_02`, `v_0_002_01`, `v_0_004_01`, `v_0_006_01`, `v_0_007_01`, and other early versions not listed under JSON children — <mark style="color:$danger;">**Decision needed:**</mark> expose full history in UI or keep JSON curated.
 
 #### Duplicate images across release-note versions
 

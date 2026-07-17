@@ -2,7 +2,7 @@
 
 **Document type:** Reference index  
 **Status:** v1 — catalog (detailed per-vendor runbooks live in product Git)  
-**Next review:** **TODO:** Set date (suggested: 2026-10-17)
+**Next review:** <mark style="color:$danger;">**TODO:**</mark> Set date (suggested: 2026-10-17)
 
 Referenced by: [Legacy System Migration](../legacy-system-migration.md) (Phases 1 and 5) · [Migration Package Standards](../migration-package-standards.md)
 
@@ -47,7 +47,7 @@ Do **not** copy the last customer’s filled Overrides as the new default. Start
 | Gap | Notes |
 |-----|-------|
 | Full Pipeline SQL still in some `Clients/.../Conversion/` folders | Promote common steps into vendor packages over time |
-| Jail / JP CSV (e.g. Crosby County Jail) | Not a CopSync package; separate path **TODO** |
+| Jail / JP CSV (e.g. Crosby County Jail) | Not a CopSync package; separate path <mark style="color:$danger;">**TODO**</mark> |
 | Per-vendor narrative guides in GitBook | Optional deeper pages later; package README + PIPELINE.md are source of truth for execution |
 
 ---

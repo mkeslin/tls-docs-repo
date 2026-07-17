@@ -8,7 +8,7 @@ Make support channels, hours, and self-service resources easy to find.
 
 ## Contents
 
-**TODO:** Confirm and publish:
+<mark style="color:$danger;">**TODO:**</mark> Confirm and publish:
 
 - Support hours and contact channels
 - What to include in a support request
@@ -16,7 +16,7 @@ Make support channels, hours, and self-service resources easy to find.
 - Troubleshooting basics
 - Remote assistance expectations (customer-safe wording only)
 
-**Decision needed:** Canonical support contacts and after-hours policy (existing in-app getting-started content may be outdated — verify before copying).
+<mark style="color:$danger;">**Decision needed:**</mark> Canonical support contacts and after-hours policy (existing in-app getting-started content may be outdated — verify before copying).
 
 ## Existing in-app content (legacy path — do not move yet)
 

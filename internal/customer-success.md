@@ -8,7 +8,7 @@ Define how Thin Line keeps customers successful and identifies expansion opportu
 
 ## Contents
 
-**TODO:** Add playbooks after process interviews with Eric Fugate.
+<mark style="color:$danger;">**TODO:**</mark> Add playbooks after process interviews with Eric Fugate.
 
 Suggested future pages:
 

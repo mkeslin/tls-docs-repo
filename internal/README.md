@@ -32,7 +32,7 @@ These pages capture those standards so new work compounds instead of reinventing
 | Template | Reusable starting material |
 | Reference | Factual supporting information |
 
-When something is unknown or undecided, pages use `TODO:` or `Decision needed:` markers instead of inventing answers.
+When something is unknown or undecided, pages use `<mark style="color:$danger;">**TODO:**</mark>` or `<mark style="color:$danger;">**Decision needed:**</mark>` markers instead of inventing answers.
 
 ## Audience
 

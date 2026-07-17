@@ -27,6 +27,24 @@ How this repository is organized and maintained.
 | Template | Reusable starting material |
 | Reference | Factual supporting information |
 
+## Outstanding items (red text)
+
+Mark incomplete work so it is visible in GitBook. Use the danger color token (renders red):
+
+```html
+<mark style="color:$danger;">**TODO:**</mark>
+<mark style="color:$danger;">**Decision needed:**</mark>
+<mark style="color:$danger;">**TODO / Decision needed:**</mark>
+<mark style="color:$danger;">Placeholder</mark>
+<mark style="color:$danger;">Draft</mark>
+<mark style="color:$danger;">TBD</mark>
+```
+
+Color **only** the marker keyword, not the rest of the sentence or table cell (wrapping trailing text breaks Markdown tables).
+
+Helper script (re-runnable): [`_tools/mark_outstanding.py`](../../_tools/mark_outstanding.py).  
+Cursor rule (applies to `*.md`): [`.cursor/rules/outstanding-markers.mdc`](../../.cursor/rules/outstanding-markers.mdc).
+
 ## Improvement framework
 
 Evaluate every process in this order:

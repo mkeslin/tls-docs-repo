@@ -25,15 +25,15 @@ Dropbox Sign
 
 ## Capacity (today)
 
-8–10/mo
+8â€“10/mo
 
 ## Cycle time
 
-1–14 days
+1â€“14 days
 
 ## Maturity
 
-**3 / 5 — Standardized**
+**3 / 5 â€” Standardized**
 
 | Score | Meaning |
 |------:|---------|
@@ -59,9 +59,9 @@ Customer procurement delays
 
 ## Product responsibility
 
-**TODO / Decision needed:** Not yet assigned in the source Customer Value Engine worksheet.
+<mark style="color:$danger;">**TODO / Decision needed:**</mark> Not yet assigned in the source Customer Value Engine worksheet.
 
 ## Related documents
 
-- Related SOPs: **TODO:** link under `internal/sops/`
-- Checklists / templates: **TODO:**
+- Related SOPs: <mark style="color:$danger;">**TODO:**</mark> link under `internal/sops/`
+- Checklists / templates: <mark style="color:$danger;">**TODO:**</mark>

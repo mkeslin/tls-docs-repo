@@ -25,15 +25,15 @@ Pipedrive
 
 ## Capacity (today)
 
-10–20 opportunities
+10â€“20 opportunities
 
 ## Cycle time
 
-2–8 weeks
+2â€“8 weeks
 
 ## Maturity
 
-**1 / 5 — Founder-driven**
+**1 / 5 â€” Founder-driven**
 
 | Score | Meaning |
 |------:|---------|
@@ -59,9 +59,9 @@ Reactive process
 
 ## Product responsibility
 
-**TODO / Decision needed:** Not yet assigned in the source Customer Value Engine worksheet.
+<mark style="color:$danger;">**TODO / Decision needed:**</mark> Not yet assigned in the source Customer Value Engine worksheet.
 
 ## Related documents
 
-- Related SOPs: **TODO:** link under `internal/sops/`
-- Checklists / templates: **TODO:**
+- Related SOPs: <mark style="color:$danger;">**TODO:**</mark> link under `internal/sops/`
+- Checklists / templates: <mark style="color:$danger;">**TODO:**</mark>

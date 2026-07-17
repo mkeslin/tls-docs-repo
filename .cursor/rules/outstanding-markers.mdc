@@ -1,0 +1,55 @@
+---
+description: Color outstanding markers (TODO, Decision needed, Placeholder, Draft, TBD) red in GitBook Markdown using $danger marks.
+globs: "**/*.md"
+alwaysApply: false
+---
+
+# Outstanding items — red markers (GitBook)
+
+When writing or editing docs in this repo, mark incomplete / outstanding work so it renders **red** in GitBook.
+
+## Required form
+
+Wrap **only** the marker keyword (not the rest of the sentence or table cell):
+
+```html
+<mark style="color:$danger;">**TODO:**</mark>
+<mark style="color:$danger;">**Decision needed:**</mark>
+<mark style="color:$danger;">**TODO / Decision needed:**</mark>
+<mark style="color:$danger;">**Review needed:**</mark>
+<mark style="color:$danger;">Placeholder</mark>
+<mark style="color:$danger;">Draft</mark>
+<mark style="color:$danger;">TBD</mark>
+```
+
+### Examples
+
+```markdown
+<!-- ✅ GOOD -->
+<mark style="color:$danger;">**TODO:**</mark> Set next review date.
+
+| Status | <mark style="color:$danger;">Placeholder</mark> |
+
+<!-- ❌ BAD — bare marker -->
+**TODO:** Set next review date.
+
+<!-- ❌ BAD — wraps whole cell/sentence (breaks Markdown tables) -->
+<mark style="color:$danger;">**TODO:** Set next review date.</mark>
+| <mark style="color:$danger;">**TODO:** Pipeline / deals closed | Acquire |</mark>
+```
+
+## Do
+
+- Use these markers for incomplete process, policy, SOP, assessment, and checklist content.
+- Prefer `**TODO:**` / `**Decision needed:**` (bold) inside the mark for visibility.
+- Re-run [`_tools/mark_outstanding.py`](../../_tools/mark_outstanding.py) after bulk edits if many bare markers remain.
+
+## Do not
+
+- Color ordinary prose that merely contains the word “review” (e.g. “customer review”, “Next review date” as a heading).
+- Wrap trailing description text or table pipes inside the `<mark>`.
+- Invent process detail to avoid a TODO — leave a red marker instead.
+
+## Reference
+
+Narrative + examples: [`internal/documentation/README.md`](../../internal/documentation/README.md) (Outstanding items).

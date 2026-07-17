@@ -44,15 +44,15 @@ Implementation Lead *(current incumbent: Matthew Keslin)*
 
 ## Capacity (today)
 
-2–4 / mo *(planning estimate — TODO: measure)*
+2â€“4 / mo *(planning estimate â€” <mark style="color:$danger;">**TODO:**</mark> measure)*
 
 ## Cycle time
 
-Typically 1–10 business days excluding customer/vendor wait states (see SOP time expectations).
+Typically 1â€“10 business days excluding customer/vendor wait states (see SOP time expectations).
 
 ## Maturity
 
-**2–3 / 5 — Documented / standardizing**
+**2â€“3 / 5 â€” Documented / standardizing**
 
 | Score | Meaning |
 |------:|---------|
@@ -82,7 +82,7 @@ Vendor packages and checklists exist; validation/close and consistent assessment
 
 ## Product responsibility
 
-**TODO / Decision needed:** Supported Vendor Catalog and Migration Registry (see SOP product impact).
+<mark style="color:$danger;">**TODO / Decision needed:**</mark> Supported Vendor Catalog and Migration Registry (see SOP product impact).
 
 ## Related documents
 

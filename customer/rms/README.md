@@ -8,7 +8,7 @@ Training and day-to-day reference for RMS users and agency administrators.
 
 ## Contents
 
-**TODO:** Build topic pages under this folder. Prefer accurate, screenshot-backed guides.
+<mark style="color:$danger;">**TODO:**</mark> Build topic pages under this folder. Prefer accurate, screenshot-backed guides.
 
 Suggested topic areas:
 

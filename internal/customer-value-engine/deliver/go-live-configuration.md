@@ -13,7 +13,7 @@ Successful production use
 
 ## Owner
 
-**Decision needed:** Owner not assigned.
+<mark style="color:$danger;">**Decision needed:**</mark> Owner not assigned.
 
 ## Current process
 
@@ -29,11 +29,11 @@ Checklists, Pipedrive
 
 ## Cycle time
 
-1–2 days
+1â€“2 days
 
 ## Maturity
 
-**3 / 5 — Standardized**
+**3 / 5 â€” Standardized**
 
 | Score | Meaning |
 |------:|---------|
@@ -59,9 +59,9 @@ Manual coordination
 
 ## Product responsibility
 
-**TODO / Decision needed:** Not yet assigned in the source Customer Value Engine worksheet.
+<mark style="color:$danger;">**TODO / Decision needed:**</mark> Not yet assigned in the source Customer Value Engine worksheet.
 
 ## Related documents
 
-- Related SOPs: **TODO:** link under `internal/sops/`
-- Checklists / templates: **TODO:**
+- Related SOPs: <mark style="color:$danger;">**TODO:**</mark> link under `internal/sops/`
+- Checklists / templates: <mark style="color:$danger;">**TODO:**</mark>

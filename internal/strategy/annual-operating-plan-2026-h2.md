@@ -150,7 +150,7 @@ By the end of 2026, Thin Line will have proven that a unified RMS, CAD, Court, a
 
 #### Priorities
 
-<mark style="color:$danger;">**TODO:**</mark> <mark style="color:$danger;"></mark><mark style="color:$danger;">Define H2 organization priorities (blank in source plan).</mark>
+<mark style="color:$danger;">**TODO:**</mark> Define H2 organization priorities (blank in source plan).
 
 ***
 

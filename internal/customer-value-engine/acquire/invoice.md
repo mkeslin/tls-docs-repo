@@ -33,7 +33,7 @@ Stripe, Xero
 
 ## Maturity
 
-**4 / 5 — Automated**
+**4 / 5 â€” Automated**
 
 | Score | Meaning |
 |------:|---------|
@@ -59,9 +59,9 @@ Manual invoicing
 
 ## Product responsibility
 
-**TODO / Decision needed:** Not yet assigned in the source Customer Value Engine worksheet.
+<mark style="color:$danger;">**TODO / Decision needed:**</mark> Not yet assigned in the source Customer Value Engine worksheet.
 
 ## Related documents
 
-- Related SOPs: **TODO:** link under `internal/sops/`
-- Checklists / templates: **TODO:**
+- Related SOPs: <mark style="color:$danger;">**TODO:**</mark> link under `internal/sops/`
+- Checklists / templates: <mark style="color:$danger;">**TODO:**</mark>

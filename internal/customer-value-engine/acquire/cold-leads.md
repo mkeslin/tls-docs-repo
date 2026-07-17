@@ -29,11 +29,11 @@ Hundreds/mo
 
 ## Cycle time
 
-10–20 min
+10â€“20 min
 
 ## Maturity
 
-**2 / 5 — Documented**
+**2 / 5 â€” Documented**
 
 | Score | Meaning |
 |------:|---------|
@@ -59,9 +59,9 @@ Manual prospecting
 
 ## Product responsibility
 
-**TODO / Decision needed:** Not yet assigned in the source Customer Value Engine worksheet.
+<mark style="color:$danger;">**TODO / Decision needed:**</mark> Not yet assigned in the source Customer Value Engine worksheet.
 
 ## Related documents
 
-- Related SOPs: **TODO:** link under `internal/sops/`
-- Checklists / templates: **TODO:**
+- Related SOPs: <mark style="color:$danger;">**TODO:**</mark> link under `internal/sops/`
+- Checklists / templates: <mark style="color:$danger;">**TODO:**</mark>

@@ -8,14 +8,14 @@ Document how Thin Line builds, deploys, and operates the platform — for staff,
 
 ## Contents
 
-**TODO:** Add runbooks for:
+<mark style="color:$danger;">**TODO:**</mark> Add runbooks for:
 
 - Azure environments and tenant provisioning (Bicep)
 - Azure DevOps pipelines and release process
 - Database / SQL operational notes (non-destructive)
 - Access and secrets handling (no secrets in this repo)
 
-**Decision needed:** What stays in the `ThinLineSoftware` monorepo vs. this docs repo. Prefer linking to authoritative engineering docs rather than duplicating them.
+<mark style="color:$danger;">**Decision needed:**</mark> What stays in the `ThinLineSoftware` monorepo vs. this docs repo. Prefer linking to authoritative engineering docs rather than duplicating them.
 
 ## Related
 
@@ -25,4 +25,4 @@ Document how Thin Line builds, deploys, and operates the platform — for staff,
 
 ## Safety
 
-Do not commit connection strings, API keys, or customer data. Prefer `TODO:` pointers to secure stores.
+Do not commit connection strings, API keys, or customer data. Prefer `<mark style="color:$danger;">**TODO:**</mark>` pointers to secure stores.

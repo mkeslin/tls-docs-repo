@@ -25,15 +25,15 @@ Azure, Bicep scripts
 
 ## Capacity (today)
 
-4–8/mo
+4â€“8/mo
 
 ## Cycle time
 
-30–60 min
+30â€“60 min
 
 ## Maturity
 
-**3 / 5 — Standardized**
+**3 / 5 â€” Standardized**
 
 | Score | Meaning |
 |------:|---------|
@@ -59,9 +59,9 @@ Manual provisioning
 
 ## Product responsibility
 
-**TODO / Decision needed:** Not yet assigned in the source Customer Value Engine worksheet.
+<mark style="color:$danger;">**TODO / Decision needed:**</mark> Not yet assigned in the source Customer Value Engine worksheet.
 
 ## Related documents
 
-- Related SOPs: **TODO:** link under `internal/sops/`
-- Checklists / templates: **TODO:**
+- Related SOPs: <mark style="color:$danger;">**TODO:**</mark> link under `internal/sops/`
+- Checklists / templates: <mark style="color:$danger;">**TODO:**</mark>

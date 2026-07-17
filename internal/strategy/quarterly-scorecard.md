@@ -6,7 +6,7 @@ Track a small set of leading and lagging indicators that show whether Thin Line 
 
 ## How to use
 
-1. Update at the end of each quarter (or monthly if preferred — **Decision needed:** cadence).
+1. Update at the end of each quarter (or monthly if preferred — <mark style="color:$danger;">**Decision needed:**</mark> cadence).
 2. Keep metrics few and actionable.
 3. Link each metric to a value-stream stage where possible.
 
@@ -14,15 +14,15 @@ Track a small set of leading and lagging indicators that show whether Thin Line 
 
 | Metric | Stage | Target | Actual | Owner | Notes |
 |--------|-------|--------|--------|-------|-------|
-| **TODO:** Pipeline / deals closed | Acquire | | | | |
-| **TODO:** Implementations in progress / completed | Deliver | | | | |
-| **TODO:** Go-live cycle time | Deliver | | | | |
-| **TODO:** Support volume / resolution time | Operate | | | | |
-| **TODO:** Product releases shipped | Operate | | | | |
-| **TODO:** Expansion / retention signals | Expand | | | | |
-| **TODO:** References / referrals | Advocate | | | | |
+| <mark style="color:$danger;">**TODO:**</mark> Pipeline / deals closed | Acquire | | | | |
+| <mark style="color:$danger;">**TODO:**</mark> Implementations in progress / completed | Deliver | | | | |
+| <mark style="color:$danger;">**TODO:**</mark> Go-live cycle time | Deliver | | | | |
+| <mark style="color:$danger;">**TODO:**</mark> Support volume / resolution time | Operate | | | | |
+| <mark style="color:$danger;">**TODO:**</mark> Product releases shipped | Operate | | | | |
+| <mark style="color:$danger;">**TODO:**</mark> Expansion / retention signals | Expand | | | | |
+| <mark style="color:$danger;">**TODO:**</mark> References / referrals | Advocate | | | | |
 
-**Decision needed:** Final metric set for 2026 H2.
+<mark style="color:$danger;">**Decision needed:**</mark> Final metric set for 2026 H2.
 
 ## Related
 

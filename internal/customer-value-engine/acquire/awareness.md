@@ -13,7 +13,7 @@ Interested prospects
 
 ## Owner
 
-**Decision needed:** Owner not assigned.
+<mark style="color:$danger;">**Decision needed:**</mark> Owner not assigned.
 
 ## Current process
 
@@ -33,7 +33,7 @@ Continuous
 
 ## Maturity
 
-**1 / 5 — Founder-driven**
+**1 / 5 â€” Founder-driven**
 
 | Score | Meaning |
 |------:|---------|
@@ -59,9 +59,9 @@ Not enough inbound awareness
 
 ## Product responsibility
 
-**TODO / Decision needed:** Not yet assigned in the source Customer Value Engine worksheet.
+<mark style="color:$danger;">**TODO / Decision needed:**</mark> Not yet assigned in the source Customer Value Engine worksheet.
 
 ## Related documents
 
-- Related SOPs: **TODO:** link under `internal/sops/`
-- Checklists / templates: **TODO:**
+- Related SOPs: <mark style="color:$danger;">**TODO:**</mark> link under `internal/sops/`
+- Checklists / templates: <mark style="color:$danger;">**TODO:**</mark>

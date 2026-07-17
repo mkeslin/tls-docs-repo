@@ -2,10 +2,10 @@
 
 **Phase:** Deliver  
 **Document Type:** Policy  
-**Status:** Draft  
+**Status:** <mark style="color:$danger;">Draft</mark> 
 **Owner:** Matthew Keslin
 
-> **Decision needed:** Founder / commercial approval before this draft is used as binding quote guidance with customers.
+> <mark style="color:$danger;">**Decision needed:**</mark> Founder / commercial approval before this draft is used as binding quote guidance with customers.
 
 ---
 
@@ -244,7 +244,7 @@ See [Migration Package Standards](../sops/deliver/migration-package-standards.md
 | Tier 3 | Founder approval |
 | Tier 4 | Founder approval with written estimate |
 
-> **Decision needed:** Update approval authority as the organization grows.
+> <mark style="color:$danger;">**Decision needed:**</mark> Update approval authority as the organization grows.
 
 ---
 

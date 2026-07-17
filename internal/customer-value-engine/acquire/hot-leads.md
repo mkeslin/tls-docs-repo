@@ -25,15 +25,15 @@ Pipedrive, Quo
 
 ## Capacity (today)
 
-20–30/mo
+20â€“30/mo
 
 ## Cycle time
 
-1–2 weeks
+1â€“2 weeks
 
 ## Maturity
 
-**2 / 5 — Documented**
+**2 / 5 â€” Documented**
 
 | Score | Meaning |
 |------:|---------|
@@ -59,9 +59,9 @@ Fugate's time
 
 ## Product responsibility
 
-**TODO / Decision needed:** Not yet assigned in the source Customer Value Engine worksheet.
+<mark style="color:$danger;">**TODO / Decision needed:**</mark> Not yet assigned in the source Customer Value Engine worksheet.
 
 ## Related documents
 
-- Related SOPs: **TODO:** link under `internal/sops/`
-- Checklists / templates: **TODO:**
+- Related SOPs: <mark style="color:$danger;">**TODO:**</mark> link under `internal/sops/`
+- Checklists / templates: <mark style="color:$danger;">**TODO:**</mark>

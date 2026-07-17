@@ -25,15 +25,15 @@ Demo environment, Teams
 
 ## Capacity (today)
 
-8–10/mo
+8â€“10/mo
 
 ## Cycle time
 
-60–90 minutes
+60â€“90 minutes
 
 ## Maturity
 
-**1 / 5 — Founder-driven**
+**1 / 5 â€” Founder-driven**
 
 | Score | Meaning |
 |------:|---------|
@@ -59,9 +59,9 @@ Calendar capacity
 
 ## Product responsibility
 
-**TODO / Decision needed:** Not yet assigned in the source Customer Value Engine worksheet.
+<mark style="color:$danger;">**TODO / Decision needed:**</mark> Not yet assigned in the source Customer Value Engine worksheet.
 
 ## Related documents
 
-- Related SOPs: **TODO:** link under `internal/sops/`
-- Checklists / templates: **TODO:**
+- Related SOPs: <mark style="color:$danger;">**TODO:**</mark> link under `internal/sops/`
+- Checklists / templates: <mark style="color:$danger;">**TODO:**</mark>
