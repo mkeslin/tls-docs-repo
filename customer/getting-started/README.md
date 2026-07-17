@@ -1,27 +1,30 @@
 # Getting started
 
-Orientation for new Thin Line users and administrators.
+Orientation for new Thin Line users: how the application shell works, where modules live, and how to move around day to day.
 
-## Purpose
+## Start here
 
-Help customers log in, navigate the application, and know how to get help.
+| Topic | When to use it |
+|-------|----------------|
+| [Application shell](application-shell.md) | Top bar, left nav, content area, product modes (RMS / CAD / JAIL) |
+| [Modules and navigation](modules-and-navigation.md) | Left module rail, Search / Add menus, module abbreviations |
+| [Master records](master-records.md) | Right-side Persons, Organizations, Vehicles, Property, Locations |
+| [Header and user menu](header-and-user-menu.md) | Agency context, Help, Admin, notifications, profile, sign out |
 
-## Contents
+## Product guides
 
-<mark style="color:red;">**TODO:**</mark> Author or port customer-safe getting-started material here.
+After you know the shell, open the module guides for day-to-day work:
 
-Suggested topics:
-
-- Logging in and password basics
-- Navigating the application shell
-- Browser tips (bookmarks, tabs)
-- How to contact support
-
-## Existing in-app content (legacy path — do not move yet)
-
-Useful material already exists under [`../../guide/getstarted/`](../../guide/getstarted/getstarted.md) and related guide topics. Prefer linking or carefully copying into this folder later rather than inventing new procedures.
+- [RMS](../rms/README.md)
+- [CAD](../cad/README.md)
+- [Court](../court/README.md)
+- [Jail](../jail/README.md)
 
 ## Related
 
-- [Support](../support/README.md)
-- [Training](../training/README.md)
+- [Support](../support/README.md) — how to get help
+- [Training](../training/README.md) — curricula and workshops
+
+## Existing in-app Help
+
+The product also loads older User Guide topics from `/guide/` (including Getting Started and Navigating the Application). Prefer this **customer/** set for new training; do not reorganize `/guide/` without a product release.

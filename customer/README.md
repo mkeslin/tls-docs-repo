@@ -8,7 +8,7 @@ This area is **customer-safe**. Do not publish internal pricing strategy, unrele
 
 | Section | Purpose |
 |---------|---------|
-| [Getting started](getting-started/README.md) | First login, orientation, and basics |
+| [Getting started](getting-started/README.md) | Application shell, modules, master records, header |
 | [Training](training/README.md) | Structured training materials and curricula |
 | [Support](support/README.md) | How to get help, FAQ, troubleshooting |
 

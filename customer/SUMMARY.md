@@ -5,6 +5,10 @@
 ## Start here
 
 * [Getting started](getting-started/README.md)
+  * [Application shell](getting-started/application-shell.md)
+  * [Modules and navigation](getting-started/modules-and-navigation.md)
+  * [Master records](getting-started/master-records.md)
+  * [Header and user menu](getting-started/header-and-user-menu.md)
 * [Training](training/README.md)
 * [Support](support/README.md)
 
