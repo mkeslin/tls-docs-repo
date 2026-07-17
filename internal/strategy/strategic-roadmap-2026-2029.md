@@ -6,14 +6,14 @@ Vision and core principles are maintained in [Vision and principles](vision-and-
 
 ## Company phases
 
-| Year | Theme | Focus |
-|------|-------|-------|
-| **2026** | Build the Platform | Create something customers want |
+| Year     | Theme              | Focus                                                  |
+| -------- | ------------------ | ------------------------------------------------------ |
+| **2026** | Build the Platform | Create something customers want                        |
 | **2027** | Build the Business | Create systems that can repeatedly sell and deliver it |
-| **2028** | Build the Market | Earn a dominant position in West Texas |
-| **2029** | Build the Company | Create an organization that outlasts the founders |
+| **2028** | Build the Market   | Earn a dominant position in West Texas                 |
+| **2029** | Build the Company  | Create an organization that outlasts the founders      |
 
----
+***
 
 ## 2026 — Build the Platform
 
@@ -23,55 +23,57 @@ Vision and core principles are maintained in [Vision and principles](vision-and-
 
 ### Goals
 
-- $250–300K ARR
-- 10+ agencies
-- Average contract value begins
-- Win first larger regional agencies
-- Build predictable quarterly pipeline
+* $250–300K ARR
+* Add 10 agencies
+* Average contract value increases
+* Win first larger regional agencies
+* Build predictable quarterly pipeline
 
 ### Product platform
 
-- Jail
-- Fleet & Equipment
-- Criminal Trespass
-- TLETS
-- Cross-agency workflows
-- UI iteration
+* Jail
+* Court v2
+* CAD v3
+* TLETS
+* Criminal Trespass
+* Fleet & Equipment
+* Cross-agency workflows
+* UI iteration
 
 ### Operational excellence
 
-- Standard implementation process
-- Standard data conversion process
-- Azure deployment automation
-- Repeatable onboarding
-- Customer documentation
-- Internal knowledge base
+* Standard implementation process
+* Standard data conversion process
+* Azure deployment automation
+* Repeatable onboarding
+* Customer documentation
+* Internal knowledge base
 
 ### Customer experience
 
-- 30-day implementation
-- First-day success checklist
-- Consistent training
+* 30-day implementation
+* First-day success checklist
+* Consistent training
 
 ### Strategic position
 
-- 10 reference agencies
-- 5 customer case studies
-- First county
-- First 15+ user agency
+* 10 reference agencies
+* 5 customer case studies
+* First county agency
+* First 15+ user agency
 
 ### Definition of success
 
-- Thin Line Platform has been successfully demonstrated end-to-end across RMS, CAD, Court, and Jail.
-- Court is commercially proven with multiple successful agencies in production.
-- Jail has successfully completed its first production implementations.
-- Every new customer follows a documented implementation process.
-- Eric independently manages the majority of new sales opportunities.
-- Customers are actively referring new agencies without being prompted.
-- Thin Line is recognized as a credible alternative to legacy public safety vendors.
-- The company enters 2027 with a healthy, predictable sales pipeline.
+* Thin Line Platform has been successfully demonstrated end-to-end across RMS, CAD, Court, and Jail.
+* Court is commercially proven with multiple successful agencies in production.
+* Jail has successfully completed its first production implementations.
+* Every new customer follows a documented implementation process.
+* Eric independently manages the majority of new sales opportunities.
+* Customers are actively referring new agencies without being prompted.
+* Thin Line is recognized as a credible alternative to legacy public safety vendors.
+* The company enters 2027 with a healthy, predictable sales pipeline.
 
----
+***
 
 ## 2027 — Build the Business
 
@@ -81,50 +83,50 @@ Vision and core principles are maintained in [Vision and principles](vision-and-
 
 ### Goals
 
-- ~$500K ARR
-- Larger average contracts
-- Higher referral percentage
-- Predictable forecasting
+* \~$500K ARR
+* Larger average contracts
+* Higher referral percentage
+* Predictable forecasting
 
 ### Product platform
 
-- AI integration
-- TLS Academy
-- Dashboards
-- JP
+* TLS Academy
+* Dashboards
+* JP
+* AI integration
 
 ### Operational excellence
 
-- Prove concurrent implementations
-- <30 day onboarding
-- Automated tenant creation
-- Automated data conversion
-- Customer Success playbook
+* Prove concurrent implementations
+* <30 day onboarding
+* Automated tenant creation
+* Automated data conversion
+* Customer Success playbook
 
 ### Customer experience
 
-- Self-service knowledge base
-- Training videos
-- Faster support
+* Self-service knowledge base
+* Training videos
+* Faster support
 
 ### Strategic position
 
-- West Texas User Group
-- 25 reference agencies
-- 50% of new business from referrals
+* West Texas User Group
+* 25 reference agencies
+* 50% of new business from referrals
 
 ### Definition of success
 
-- The business operates without requiring direct founder involvement in every customer implementation.
-- Product development is driven primarily by the strategic roadmap instead of reactive customer requests.
-- Two or more agency implementations can occur concurrently without reducing quality.
-- Sales forecasting is consistently accurate and repeatable.
-- A significant percentage of new business comes from referrals and existing customer relationships.
-- New customers can be onboarded in less than 30 days under normal circumstances.
-- Founders spend most of their time improving the business rather than running day-to-day operations.
-- Thin Line is viewed as the default choice by many agencies evaluating modern public safety software in West Texas.
+* The business operates without requiring direct founder involvement in every customer implementation.
+* Product development is driven primarily by the strategic roadmap instead of reactive customer requests.
+* Two or more agency implementations can occur concurrently without reducing quality.
+* Sales forecasting is consistently accurate and repeatable.
+* A significant percentage of new business comes from referrals and existing customer relationships.
+* New customers can be onboarded in less than 30 days under normal circumstances.
+* Founders spend most of their time improving the business rather than running day-to-day operations.
+* Thin Line is viewed as the default choice by many agencies evaluating modern public safety software in West Texas.
 
----
+***
 
 ## 2028 — Build the Market
 
@@ -134,9 +136,9 @@ Vision and core principles are maintained in [Vision and principles](vision-and-
 
 ### Goals
 
-- ~$1M ARR
-- Larger agencies
-- Multi-product sales become standard
+* \~$1M ARR
+* Larger agencies
+* Multi-product sales become standard
 
 ### Product platform
 
@@ -144,36 +146,36 @@ Vision and core principles are maintained in [Vision and principles](vision-and-
 
 ### Operational excellence
 
-- Multiple concurrent implementations
-- Customer health metrics
-- Help Center
-- Training portal
-- Internal QA program
+* Multiple concurrent implementations
+* Customer health metrics
+* Help Center
+* Training portal
+* Internal QA program
 
 ### Customer experience
 
-- Community
-- User conference
-- Customer advisory board
+* Community
+* User conference
+* Customer advisory board
 
 ### Strategic position
 
-- Largest installed base in West Texas
-- County-wide deployments
-- Conference speaking opportunities
+* Largest installed base in West Texas
+* County-wide deployments
+* Conference speaking opportunities
 
 ### Definition of success
 
-- Thin Line is widely recognized as the leading unified public safety platform in West Texas.
-- Multi-product deployments have become the standard rather than the exception.
-- Customers regularly expand into additional Thin Line modules after initial adoption.
-- Multiple implementations occur simultaneously with consistent customer satisfaction.
-- The company has an active user community that influences product direction.
-- Customer success and support operate through defined processes rather than founder intervention.
-- Product quality and innovation have become meaningful competitive differentiators.
-- Competitors are increasingly forced to respond to Thin Line rather than the other way around.
+* Thin Line is widely recognized as the leading unified public safety platform in West Texas.
+* Multi-product deployments have become the standard rather than the exception.
+* Customers regularly expand into additional Thin Line modules after initial adoption.
+* Multiple implementations occur simultaneously with consistent customer satisfaction.
+* The company has an active user community that influences product direction.
+* Customer success and support operate through defined processes rather than founder intervention.
+* Product quality and innovation have become meaningful competitive differentiators.
+* Competitors are increasingly forced to respond to Thin Line rather than the other way around.
 
----
+***
 
 ## 2029 — Build the Company
 
@@ -183,9 +185,9 @@ Vision and core principles are maintained in [Vision and principles](vision-and-
 
 ### Goals
 
-- ~$2M ARR
-- Predictable quarterly growth
-- Strong cash generation
+* \~$2M ARR
+* Predictable quarterly growth
+* Strong cash generation
 
 ### Product platform
 
@@ -193,39 +195,39 @@ Vision and core principles are maintained in [Vision and principles](vision-and-
 
 ### Operational excellence
 
-- Standard operating procedures
-- KPI dashboards
-- Customer success metrics
-- Automated billing
-- Automated reporting
+* Standard operating procedures
+* KPI dashboards
+* Customer success metrics
+* Automated billing
+* Automated reporting
 
 ### Customer experience
 
-- Customer Success program
-- Annual business reviews
-- User groups
+* Customer Success program
+* Annual business reviews
+* User groups
 
 ### Strategic position
 
-- Texas thought leader
-- Partnership ecosystem
-- Adjacent state strategy
+* Texas thought leader
+* Partnership ecosystem
+* Adjacent state strategy
 
 ### Definition of success
 
-- The company consistently achieves predictable growth without relying on founder heroics.
-- Leadership responsibilities are distributed across the organization.
-- Founders primarily focus on vision, strategy, product direction, and key customer relationships.
-- Every major business function has documented processes, clear ownership, and measurable KPIs.
-- The company consistently generates cash that funds future growth.
-- Thin Line is recognized as a thought leader in the Texas public safety technology market.
-- The organization is capable of scaling well beyond $2M ARR without requiring a fundamental redesign.
-- Thin Line has become an enduring company rather than a founder-dependent startup.
+* The company consistently achieves predictable growth without relying on founder heroics.
+* Leadership responsibilities are distributed across the organization.
+* Founders primarily focus on vision, strategy, product direction, and key customer relationships.
+* Every major business function has documented processes, clear ownership, and measurable KPIs.
+* The company consistently generates cash that funds future growth.
+* Thin Line is recognized as a thought leader in the Texas public safety technology market.
+* The organization is capable of scaling well beyond $2M ARR without requiring a fundamental redesign.
+* Thin Line has become an enduring company rather than a founder-dependent startup.
 
----
+***
 
 ## Related
 
-- [Vision and principles](vision-and-principles.md)
-- [Annual operating plan 2026 H2](annual-operating-plan-2026-h2.md)
-- [Quarterly scorecard](quarterly-scorecard.md)
+* [Vision and principles](vision-and-principles.md)
+* [Annual operating plan 2026 H2](annual-operating-plan-2026-h2.md)
+* [Quarterly scorecard](quarterly-scorecard.md)
