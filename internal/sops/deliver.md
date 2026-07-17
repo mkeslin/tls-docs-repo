@@ -1,22 +1,23 @@
 # SOPs — Deliver
 
-Implementation delivery from handoff through hypercare.
+Implementation from signed → live → hypercare complete.
 
-**Index:** [deliver/README.md](deliver/README.md)  
 **★ Start:** [Implementation Methodology](deliver/implementation-methodology.md)  
-Stage overviews: [Customer Value Engine — Deliver](../customer-value-engine/deliver/README.md)
+**Index:** [deliver/README.md](deliver/README.md)  
+CVE stage overviews: [Customer Value Engine — Deliver](../customer-value-engine/deliver/README.md)
 
-## Structure
+## Milestones
 
-| Stage | Status |
-|-------|--------|
-| [Implementation Methodology](deliver/implementation-methodology.md) ★ | Draft |
-| [Sales Handoff](deliver/sales-handoff.md) | <mark style="color:red;">Placeholder</mark> |
-| [Kickoff](deliver/kickoff.md) | <mark style="color:red;">Placeholder</mark> |
-| [Infrastructure](deliver/infrastructure/README.md) | Bootstrap + standards |
-| [Data Migration](deliver/data-migration/README.md) | Packages · validation · acceptance |
-| [Configuration](deliver/configuration.md) | <mark style="color:red;">Placeholder</mark> |
-| [Integrations](deliver/integrations.md) | <mark style="color:red;">Placeholder</mark> |
-| [Training](deliver/training.md) | <mark style="color:red;">Placeholder</mark> |
-| [Go Live](deliver/go-live.md) | <mark style="color:red;">Placeholder</mark> |
-| [Hypercare](deliver/hypercare.md) | <mark style="color:red;">Placeholder</mark> |
+| Milestone | Overview |
+|-----------|----------|
+| Sales Handoff | [Sales Handoff](deliver/sales-handoff.md) |
+| Kickoff Complete | [Kickoff](deliver/kickoff.md) |
+| Infrastructure Ready | [Infrastructure Ready](deliver/infrastructure/README.md) |
+| Customer Data Migrated | [Customer Data Migrated](deliver/data-migration/README.md) |
+| Configuration Complete | [Configuration Complete](deliver/configuration.md) |
+| Integrations Verified | [Integrations Verified](deliver/integrations.md) |
+| Customer Trained | [Customer Trained](deliver/training.md) |
+| Customer Live | [Customer Live](deliver/go-live.md) |
+| Hypercare Complete | [Hypercare Complete](deliver/hypercare.md) |
+
+Phase overviews hold Purpose / Inputs / Activities / Outputs / Exit criteria. SOPs and standards nest underneath.

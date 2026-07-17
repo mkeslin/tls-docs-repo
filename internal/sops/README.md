@@ -104,6 +104,6 @@ Next review date
 | 6 | Acquire — proposal / contract | Not started |
 | 7 | Operate — support triage | Not started |
 
-**Deliver TOC:** Restructured around [Implementation Methodology](deliver/implementation-methodology.md) (Sales Handoff → … → Hypercare). Migration and Infrastructure content lives under [deliver/data-migration/](deliver/data-migration/README.md) and [deliver/infrastructure/](deliver/infrastructure/README.md).
+**Deliver:** Milestone-based implementation ([Implementation Methodology](deliver/implementation-methodology.md)) — phases like Infrastructure Ready and Customer Data Migrated, with SOPs/standards nested underneath.
 
 Interview owners and document what is done today, then improve.

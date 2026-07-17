@@ -21,16 +21,19 @@ Awareness → Cold leads → Warm leads → Hot leads → Demo → Proposal → 
 
 ## Deliver
 
-Data conversion → Bootstrap environment → Training → Go-live / configuration
+CVE stages (capability) map to implementation **milestones** in [SOPs — Deliver](../sops/deliver/README.md) (e.g. Infrastructure Ready, Customer Data Migrated, Customer Live).
 
-| Stage | Desired outcome | Owner | Maturity |
-|-------|-----------------|-------|----------|
-| [Data conversion](deliver/data-conversion.md) | Migrate historical data | Keslin | 1 |
-| [Bootstrap environment](deliver/bootstrap-environment.md) | Provision agency | Keslin | 3 |
-| [Training](deliver/training.md) | Prepare users | Fugate | 1 |
-| [Go-live / configuration](deliver/go-live-configuration.md) | Begin production use | **Decision needed** | 3 |
+Bootstrap → Data conversion → Training → Go-live / configuration *(CVE stage names)*
 
-- [Deliver overview](deliver/README.md)
+| Stage | Desired outcome / milestone | Owner | Maturity |
+|-------|-----------------------------|-------|----------|
+| [Bootstrap environment](deliver/bootstrap-environment.md) | Infrastructure Ready | Keslin | 3 |
+| [Data conversion](deliver/data-conversion.md) | Customer Data Migrated | Keslin | 3 |
+| [Training](deliver/training.md) | Customer Trained | Fugate | 1 |
+| [Go-live / configuration](deliver/go-live-configuration.md) | Configuration Complete + Customer Live | **Decision needed** | 3 |
+
+- [Deliver overview (CVE)](deliver/README.md)
+- [Implementation Methodology](../sops/deliver/implementation-methodology.md) ★
 
 ## Operate
 

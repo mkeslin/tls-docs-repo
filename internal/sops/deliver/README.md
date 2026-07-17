@@ -1,49 +1,71 @@
 # Deliver
 
-**Outcome:** Customer live on Thin Line Platform.
-
-Convert a signed customer into a production agency: handoff ? kickoff ? infrastructure ? (optional) data migration ? configuration ? integrations ? training ? go-live ? hypercare.
+**Outcome:** Customer live on Thin Line Platform (then hypercare complete).
 
 **? Start here:** [Implementation Methodology](implementation-methodology.md)
 
-Stage overviews (CVE): [Customer Value Engine — Deliver](../../customer-value-engine/deliver/README.md).
+How Thin Line gets a customer from **signed** to **live**. The Customer Value Stream says *where* the customer is; this tree is the **implementation project**—milestones first, SOPs underneath.
+
+CVE stage overviews: [Customer Value Engine — Deliver](../../customer-value-engine/deliver/README.md).
 
 ---
 
-## Table of contents
+## Hierarchy
 
-| Stage | Status |
-|-------|--------|
-| [Implementation Methodology](implementation-methodology.md) ? | Draft |
-| [Sales Handoff](sales-handoff.md) | <mark style="color:red;">Placeholder</mark> |
-| [Kickoff](kickoff.md) | <mark style="color:red;">Placeholder</mark> |
-| [Infrastructure](infrastructure/README.md) | Bootstrap + standards (v1) |
-| [Data Migration](data-migration/README.md) | SOP + packages + validation (v1) |
-| [Configuration](configuration.md) | <mark style="color:red;">Placeholder</mark> |
-| [Integrations](integrations.md) | <mark style="color:red;">Placeholder</mark> |
-| [Training](training.md) | <mark style="color:red;">Placeholder</mark> |
-| [Go Live](go-live.md) | <mark style="color:red;">Placeholder</mark> |
-| [Hypercare](hypercare.md) | <mark style="color:red;">Placeholder</mark> |
-
-### Infrastructure
-
-| Doc | Status |
-|-----|--------|
-| [Bootstrap Environment](infrastructure/bootstrap-environment.md) | v1 |
-
-### Data Migration
-
-| Doc | Status |
-|-----|--------|
-| [Migration Philosophy](data-migration/migration-philosophy.md) | v1 |
-| [Vendor Packages](data-migration/vendor-packages/README.md) | v1 |
-| [Validation](data-migration/migration-validation-standard.md) | v1 |
-| [Customer Acceptance](data-migration/customer-acceptance.md) | v1 index |
-| [Legacy System Migration](data-migration/legacy-system-migration.md) | v1 SOP |
+```text
+Customer Value Stream
+    ?
+Deliver
+    ?
+Implementation Methodology
+    ?
+Implementation phases (milestones)
+    ?
+Standards ? SOPs ? Checklists
+```
 
 ---
 
-## Assessments (before you execute)
+## Implementation milestones
+
+| | Milestone | Overview |
+|:-:|-----------|----------|
+| ? | Sales Handoff | [Sales Handoff](sales-handoff.md) |
+| ? | Kickoff Complete | [Kickoff](kickoff.md) |
+| ? | Infrastructure Ready | [Infrastructure Ready](infrastructure/README.md) |
+| ? | Customer Data Migrated | [Customer Data Migrated](data-migration/README.md) |
+| ? | Configuration Complete | [Configuration Complete](configuration.md) |
+| ? | Integrations Verified | [Integrations Verified](integrations.md) |
+| ? | Customer Trained | [Customer Trained](training.md) |
+| ? | Customer Live | [Customer Live](go-live.md) |
+| ? | Hypercare Complete | [Hypercare Complete](hypercare.md) |
+
+Each phase overview uses: **Purpose · Inputs · Activities · Outputs · Exit criteria · Referenced SOPs**.
+
+---
+
+## Supporting docs (by phase)
+
+### Infrastructure Ready
+
+| Doc | Type |
+|-----|------|
+| [Bootstrap Environment](infrastructure/bootstrap-environment.md) | SOP |
+| Standards under [Infrastructure Ready](infrastructure/README.md) | Standards |
+
+### Customer Data Migrated
+
+| Doc | Type |
+|-----|------|
+| [Legacy System Migration](data-migration/legacy-system-migration.md) | SOP |
+| [Migration Philosophy](data-migration/migration-philosophy.md) | Principles |
+| [Vendor Packages](data-migration/vendor-packages/README.md) | Standards + guides |
+| [Validation](data-migration/migration-validation-standard.md) | Standard |
+| [Customer Acceptance](data-migration/customer-acceptance.md) | Acceptance |
+
+---
+
+## Assessments
 
 | Assessment | Status |
 |------------|--------|
@@ -55,6 +77,5 @@ Stage overviews (CVE): [Customer Value Engine — Deliver](../../customer-value-en
 
 ## Related
 
-- [Customer Onboarding](customer-onboarding.md) — placeholder; fold into Kickoff / Methodology  
-- [SOPs index](../README.md)  
+- [Customer Onboarding](customer-onboarding.md) — fold into Kickoff  
 - [Migration Pricing Policy](../../policies/migration-pricing.md)

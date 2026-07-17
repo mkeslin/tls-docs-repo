@@ -1,7 +1,9 @@
-﻿# Bootstrap environment
+﻿# Bootstrap environment → Infrastructure Ready
 
 **Phase:** Deliver  
-**Desired outcome:** Provision agency tenant (Azure + auth + Directory + apps) to the Bootstrap Environment Standard
+**Desired outcome:** **Infrastructure Ready** — agency tenant provisioned (Azure + auth + Directory + apps) and health-checked
+
+**Milestone overview:** [Infrastructure Ready](../../sops/deliver/infrastructure/README.md)
 
 ## Inputs
 

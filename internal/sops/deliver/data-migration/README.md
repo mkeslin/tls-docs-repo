@@ -1,33 +1,87 @@
-﻿# Data Migration
+﻿# Customer Data Migrated
 
-**Phase:** Deliver  
-**Document type:** Section index  
+**Milestone:** Customer Data Migrated  
+**Document type:** Phase overview  
+**Status:** v1  
 
-Legacy â†’ Thin Line historical data. Executable SOP: [Legacy System Migration](legacy-system-migration.md).
+Engagement status: ☐ Not started · ☐ In progress · ☐ Complete · ☐ N/A (no historical migration)
 
-## In this section
+This phase is **broader than “running conversion scripts.”** It includes assessment, pricing, vendor packages, execution, validation, acceptance, versioning, and package improvement.
 
-| Doc | Role |
+---
+
+## Purpose
+
+Move agreed historical data from the customer’s legacy system into Thin Line, validate quality, and obtain acceptance—so the agency can use their history in production (or UAT, per plan).
+
+---
+
+## Inputs
+
+| Input | Source |
+|-------|--------|
+| Infrastructure Ready (or equivalent target DB) | [Infrastructure Ready](../infrastructure/README.md) |
+| Approved Conversion Plan | [Legacy System Migration Assessment](../../../assessments/legacy-system-migration-assessment.md) |
+| Vendor package + VERSION | [Vendor Packages](vendor-packages/README.md) |
+| Legacy extract / access (after SaaS + CJIS) | Customer / vendor |
+| Agency configuration for conversion (checklist / Overrides) | [Customer Configuration Standard](migration-customer-configuration.md) |
+
+---
+
+## Activities
+
+1. Assess and price (if not done).  
+2. Acquire data; copy package → engagement folder; complete checklist / Overrides.  
+3. Execute StagingImporter / Pipeline ([Legacy System Migration](legacy-system-migration.md)).  
+4. Run [Post-Conversion Utilities](post-conversion-utilities.md).  
+5. Validate per [Validation](migration-validation-standard.md); customer acceptance.  
+6. Promote reusable fixes; register conversion; close package backlog items.  
+
+---
+
+## Outputs
+
+| Output | Notes |
+|--------|--------|
+| Converted data in agreed environment | UAT and/or Production |
+| Exception report | Accepted gaps documented |
+| Customer acceptance | [Customer Acceptance](customer-acceptance.md) |
+| Updated `ConvertedAgencies.md` + package VERSION | Package hygiene |
+| Package backlog updates | Reusable improvements |
+
+---
+
+## Exit criteria
+
+Milestone **Customer Data Migrated** when:
+
+- [ ] In-scope modules meet [Migration Validation Standard](migration-validation-standard.md)  
+- [ ] Required post-conversion utilities completed  
+- [ ] Customer validation / acceptance recorded ([Customer Acceptance](customer-acceptance.md))  
+- [ ] Material exceptions dispositioned (fixed / accepted / deferred)  
+- [ ] Register / VERSION updated for accepted run  
+
+If migration is out of scope: mark **N/A** and proceed to Configuration Complete.
+
+---
+
+## Referenced SOPs / standards / checklists
+
+| Doc | Type |
 |-----|------|
 | [Migration Philosophy](migration-philosophy.md) | Principles |
-| [Vendor Packages](vendor-packages/README.md) | Package standards + vendor guides |
-| [Validation](migration-validation-standard.md) | Definition of success |
-| [Customer Acceptance](customer-acceptance.md) | Sign-off |
-| [Legacy System Migration](legacy-system-migration.md) | Full SOP |
-| [Post-Conversion Utilities](post-conversion-utilities.md) | Admin Data Utilities after import |
-| [Migration Architecture](migration-architecture.md) | One-page flow |
-| [Migration Decision Matrix](migration-decision-matrix.md) | Package vs config |
-| [Customer Configuration Standard](migration-customer-configuration.md) | Package + config = migration |
-| [Migration Metrics](migration-metrics.md) | Lightweight tracking |
+| [Legacy System Migration](legacy-system-migration.md) | SOP |
+| [Vendor Packages](vendor-packages/README.md) | Standards + guides |
+| [Migration Validation Standard](migration-validation-standard.md) | Standard |
+| [Customer Acceptance](customer-acceptance.md) | Acceptance index |
+| [Post-Conversion Utilities](post-conversion-utilities.md) | SOP |
+| [Migration Architecture](migration-architecture.md) | Overview |
+| [Migration Decision Matrix](migration-decision-matrix.md) | Reference |
+| [Customer Configuration Standard](migration-customer-configuration.md) | Standard |
+| [Migration Metrics](migration-metrics.md) | Reference |
+| [Legacy System Migration Assessment](../../../assessments/legacy-system-migration-assessment.md) | Assessment |
+| [Migration Pricing Policy](../../../policies/migration-pricing.md) | Policy |
+| [Customer Validation Checklist](../../../checklists/customer-validation-checklist.md) | Checklist |
 
-## Assessments & policy
-
-| Doc | Role |
-|-----|------|
-| [Legacy System Migration Assessment](../../../assessments/legacy-system-migration-assessment.md) | Before quoting / work |
-| [Migration Pricing Policy](../../../policies/migration-pricing.md) | Commercial |
-
-## In the Deliver sequence
-
-**Previous:** [Infrastructure](../infrastructure/README.md)  
-**Next:** [Configuration](../configuration.md)
+**Previous:** [Infrastructure Ready](../infrastructure/README.md)  
+**Next:** [Configuration Complete](../configuration.md)
