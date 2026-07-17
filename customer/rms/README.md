@@ -9,7 +9,7 @@ Customer guides for Thin Line **Records Management** modules — incidents, cita
 | [Citations](citations/README.md) | Available |
 | [Incidents](incidents/README.md) | Available |
 | [Warrants](warrants/README.md) | Available |
-| Evidence | <mark style="color:red;">**TODO**</mark> |
+| [Evidence](evidence/README.md) | Available |
 | Other RMS modules | See [Modules and navigation](../getting-started/modules-and-navigation.md) |
 
 ## Related

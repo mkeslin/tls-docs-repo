@@ -14,8 +14,10 @@ Open **Evidence** for evidence numbers / items associated to the incident. Day-t
 
 | Where | Use |
 |-------|-----|
-| **Incident → Evidence** | Case-linked evidence references |
-| **Evidence module** | Inventory, chain of custody, audits |
+| **Incident → Evidence** | Case-linked evidence references; take into custody |
+| **Evidence module** | Search, inventory, audit, custody history across cases |
+
+Full Evidence guide: [Evidence](../evidence/README.md) (intake wizard, chain of custody, inventory audit, prints).
 
 ## Tips
 
@@ -25,5 +27,6 @@ Open **Evidence** for evidence numbers / items associated to the incident. Day-t
 
 ## Related
 
+- [Evidence](../evidence/README.md)
 - [Narratives and offenses](narratives-and-offenses.md)
 - [Workflow, versions, and approval](workflow-versions-and-approval.md)
