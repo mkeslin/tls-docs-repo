@@ -1,4 +1,4 @@
-﻿# Moved
+# Moved
 
 This page has moved to **[infrastructure/bootstrap-vs-configuration.md](infrastructure/bootstrap-vs-configuration.md)**.
 

@@ -1,4 +1,4 @@
-﻿# Migration Pricing Policy
+# Migration Pricing Policy
 
 **Phase:** Deliver  
 **Document Type:** Policy  
@@ -88,7 +88,7 @@ Migration pricing should consider:
 
 ## Pricing Tiers
 
-### Tier 1 â€” Standard Migration
+### Tier 1 — Standard Migration
 
 Typical characteristics:
 
@@ -108,7 +108,7 @@ Approximately **$1,000**
 
 ---
 
-### Tier 2 â€” Enhanced Migration
+### Tier 2 — Enhanced Migration
 
 Typical characteristics:
 
@@ -128,7 +128,7 @@ Approximately **$2,500**
 
 ---
 
-### Tier 3 â€” Complex Migration
+### Tier 3 — Complex Migration
 
 Typical characteristics:
 
@@ -144,11 +144,11 @@ High
 
 Current target price:
 
-Approximately **$5,000â€“7,500**
+Approximately **$5,000–7,500**
 
 ---
 
-### Tier 4 â€” Custom Engineering
+### Tier 4 — Custom Engineering
 
 Applies when:
 
@@ -304,7 +304,7 @@ Goals include:
 | [Legacy System Migration SOP](../sops/deliver/data-migration/legacy-system-migration.md) | Execution procedure |
 | [Legacy System Migration Assessment](../assessments/legacy-system-migration-assessment.md) | Required before pricing; records tier, fee, discounts |
 | [Migration Philosophy](../sops/deliver/data-migration/migration-philosophy.md) | Price outcomes, not open-ended hours |
-| [Migration Architecture](../sops/deliver/data-migration/migration-architecture.md) | Assessment â†’ pricing â†’ package flow |
+| [Migration Architecture](../sops/deliver/data-migration/migration-architecture.md) | Assessment → pricing → package flow |
 | [Migration Package Standards](../sops/deliver/data-migration/vendor-packages/migration-package-standards.md) | Vendor package VERSION / reuse (affects effort tier) |
 | [Vendor Conversion Guides](../sops/deliver/data-migration/vendor-packages/vendor-conversion-guides/README.md) | Supported vendor catalog |
 | [Customer Onboarding](../sops/deliver/customer-onboarding.md) | Customer implementation SOP (placeholder) |

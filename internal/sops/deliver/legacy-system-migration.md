@@ -1,4 +1,4 @@
-﻿# Moved
+# Moved
 
 This page has moved to **[data-migration/legacy-system-migration.md](data-migration/legacy-system-migration.md)**.
 

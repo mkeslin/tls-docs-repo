@@ -1,4 +1,4 @@
-﻿# Infrastructure Ready
+# Infrastructure Ready
 
 **Milestone:** Infrastructure Ready  
 **Document type:** Phase overview  

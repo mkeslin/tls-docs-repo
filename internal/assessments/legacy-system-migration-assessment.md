@@ -1,4 +1,4 @@
-﻿# Legacy System Migration Assessment
+# Legacy System Migration Assessment
 
 **Document type:** Assessment  
 **Phase:** Deliver  
@@ -23,7 +23,7 @@ It determines:
 
 **Required output:** an **Approved Conversion Plan** (or an explicit Proceed with Conditions / Delay / Do Not Convert decision).
 
-Everything after thisâ€”pricing, implementation schedule, and engineering effortâ€”depends on this document.
+Everything after this—pricing, implementation schedule, and engineering effort—depends on this document.
 
 > Parts of this assessment may be shared with the customer when appropriate. Keep internal-only notes clearly marked.
 
@@ -40,7 +40,7 @@ Everything after thisâ€”pricing, implementation schedule, and engineering e
 | **Migration complexity** | Low / Medium / High / <mark style="color:red;">**TODO:**</mark> |
 | **Estimated conversion fee** | |
 | **Implementation recommendation** | Proceed / Proceed with Conditions / Delay / Do Not Convert |
-| **Status** | â˜ Approved Â· â˜ Pending Â· â˜ Declined |
+| **Status** | ★ Approved · ★ Pending · ★ Declined |
 
 **One-line recommendation summary:**
 
@@ -63,7 +63,7 @@ Everything after thisâ€”pricing, implementation schedule, and engineering e
 - [ ] SaaS Agreement signed
 - [ ] CJIS Security Addendum signed
 
-> **Hard stop:** Do not access legacy data until both are complete. See [Legacy System Migration SOP â€” Trigger](../sops/deliver/data-migration/legacy-system-migration.md#4-trigger).
+> **Hard stop:** Do not access legacy data until both are complete. See [Legacy System Migration SOP — Trigger](../sops/deliver/data-migration/legacy-system-migration.md#4-trigger).
 
 ---
 
@@ -73,7 +73,7 @@ Everything after thisâ€”pricing, implementation schedule, and engineering e
 
 | Field | Value |
 |-------|-------|
-| Vendor | â˜ CrimeStar Â· â˜ CopSync / Kologik Â· â˜ IncodeCourt (Tyler/INCODE) Â· â˜ Xpediter Â· â˜ Other: _______________ |
+| Vendor | ★ CrimeStar · ★ CopSync / Kologik · ★ IncodeCourt (Tyler/INCODE) · ★ Xpediter · ★ Other: _______________ |
 | Product | |
 | Legacy product version | |
 | Migration Tools package folder | `Utilities/Migration Tools/_______________/` |
@@ -115,7 +115,7 @@ See [Vendor Conversion Guides](../sops/deliver/data-migration/vendor-packages/ve
 
 | Field | Value |
 |-------|-------|
-| Converter / vendor package exists? | â˜ Yes Â· â˜ Partial Â· â˜ No |
+| Converter / vendor package exists? | ★ Yes · ★ Partial · ★ No |
 | Migration Tools package VERSION | |
 | AgencyChecklist path | `.../AgencyChecklist.md` |
 | Last customer on this package | *(see vendor `ConvertedAgencies.md`)* |
@@ -132,17 +132,17 @@ Capture exactly what exists and what will be converted. This is the conversion s
 
 | Module / data set | Convert? | Notes |
 |-------------------|----------|-------|
-| People / masters | â˜ | |
-| Vehicles | â˜ | |
-| Incidents | â˜ | |
-| Calls for service | â˜ | |
-| Citations | â˜ | |
-| Warrants | â˜ | |
-| Property / evidence | â˜ | |
-| Attachments / images | â˜ | |
-| Court / cases | â˜ | |
-| Jail / booking | â˜ | |
-| Other: _______________ | â˜ | |
+| People / masters | ★ | |
+| Vehicles | ★ | |
+| Incidents | ★ | |
+| Calls for service | ★ | |
+| Citations | ★ | |
+| Warrants | ★ | |
+| Property / evidence | ★ | |
+| Attachments / images | ★ | |
+| Court / cases | ★ | |
+| Jail / booking | ★ | |
+| Other: _______________ | ★ | |
 
 ---
 
@@ -152,11 +152,11 @@ Predict problems before they happen.
 
 | Factor | Rating |
 |--------|--------|
-| Duplicate persons | â˜ Low Â· â˜ Medium Â· â˜ High Â· â˜ Unknown |
-| Missing DOB / identity data | â˜ Low Â· â˜ Medium Â· â˜ High Â· â˜ Unknown |
-| Custom fields | â˜ Yes Â· â˜ No Â· â˜ Unknown |
-| Narrative quality | â˜ Good Â· â˜ Fair Â· â˜ Poor Â· â˜ Unknown |
-| Known corruption / prior failed migrations | â˜ Yes Â· â˜ No Â· â˜ Unknown |
+| Duplicate persons | ★ Low · ★ Medium · ★ High · ★ Unknown |
+| Missing DOB / identity data | ★ Low · ★ Medium · ★ High · ★ Unknown |
+| Custom fields | ★ Yes · ★ No · ★ Unknown |
+| Narrative quality | ★ Good · ★ Fair · ★ Poor · ★ Unknown |
+| Known corruption / prior failed migrations | ★ Yes · ★ No · ★ Unknown |
 
 **Data quality notes:**
 
@@ -182,9 +182,9 @@ flowchart TD
 
 | Field | Value |
 |-------|-------|
-| Chosen path | â˜ Cloud / vendor export Â· â˜ On-prem remote access Â· â˜ Other |
+| Chosen path | ★ Cloud / vendor export · ★ On-prem remote access · ★ Other |
 | Who provides access/export | |
-| Expected acquisition timing | â˜ Before go-live Â· â˜ Backfill after go-live Â· â˜ <mark style="color:red;">TBD</mark> |
+| Expected acquisition timing | ★ Before go-live · ★ Backfill after go-live · ★ <mark style="color:red;">TBD</mark> |
 | Acquisition risks / constraints | |
 
 ---
@@ -195,17 +195,17 @@ Rate each area. This protects capacity and schedule.
 
 | Area | Low | Medium | High | Notes |
 |------|:---:|:------:|:----:|-------|
-| Schema complexity | â˜ | â˜ | â˜ | |
-| Mapping complexity | â˜ | â˜ | â˜ | |
-| Data cleansing | â˜ | â˜ | â˜ | |
-| Attachments | â˜ | â˜ | â˜ | |
-| Custom logic / vendor quirks | â˜ | â˜ | â˜ | |
+| Schema complexity | ★ | ★ | ★ | |
+| Mapping complexity | ★ | ★ | ★ | |
+| Data cleansing | ★ | ★ | ★ | |
+| Attachments | ★ | ★ | ★ | |
+| Custom logic / vendor quirks | ★ | ★ | ★ | |
 
 | Field | Value |
 |-------|-------|
 | Estimated engineering hours | |
-| New converter required? | â˜ Yes Â· â˜ No Â· â˜ Extend existing |
-| Reusable template opportunity? | â˜ Yes Â· â˜ No Â· â˜ Unknown |
+| New converter required? | ★ Yes · ★ No · ★ Extend existing |
+| Reusable template opportunity? | ★ Yes · ★ No · ★ Unknown |
 
 ---
 
@@ -213,11 +213,11 @@ Rate each area. This protects capacity and schedule.
 
 | Decision | Choice | Notes |
 |----------|--------|-------|
-| UAT required? | â˜ Yes Â· â˜ No Â· â˜ <mark style="color:red;">TBD</mark> | |
-| Production direct? | â˜ Yes Â· â˜ No Â· â˜ <mark style="color:red;">TBD</mark> | |
-| Backfill after go-live? | â˜ Yes Â· â˜ No Â· â˜ <mark style="color:red;">TBD</mark> | |
-| Parallel validation? | â˜ Yes Â· â˜ No Â· â˜ <mark style="color:red;">TBD</mark> | |
-| Freeze legacy system? | â˜ Yes Â· â˜ No Â· â˜ <mark style="color:red;">TBD</mark> | |
+| UAT required? | ★ Yes · ★ No · ★ <mark style="color:red;">TBD</mark> | |
+| Production direct? | ★ Yes · ★ No · ★ <mark style="color:red;">TBD</mark> | |
+| Backfill after go-live? | ★ Yes · ★ No · ★ <mark style="color:red;">TBD</mark> | |
+| Parallel validation? | ★ Yes · ★ No · ★ <mark style="color:red;">TBD</mark> | |
+| Freeze legacy system? | ★ Yes · ★ No · ★ <mark style="color:red;">TBD</mark> | |
 | Typical duration estimate | | See SOP time expectations; refine here |
 
 ---
@@ -228,7 +228,7 @@ Document the commercial recommendation so Sales can quote consistently.
 
 | Field | Value |
 |-------|-------|
-| Migration tier | â˜ Tier 1 Â· â˜ Tier 2 Â· â˜ Tier 3 Â· â˜ Tier 4 Custom Â· â˜ Bundled with multi-year SaaS Â· â˜ <mark style="color:red;">TBD</mark> |
+| Migration tier | ★ Tier 1 · ★ Tier 2 · ★ Tier 3 · ★ Tier 4 Custom · ★ Bundled with multi-year SaaS · ★ <mark style="color:red;">TBD</mark> |
 | Estimated hours | |
 | Recommended price | |
 | Reasoning | |
@@ -262,7 +262,7 @@ Document the commercial recommendation so Sales can quote consistently.
 
 ## 11. Deliverables
 
-Customer will receive (target state â€” check what this engagement includes):
+Customer will receive (target state — check what this engagement includes):
 
 - [ ] Converted data in agreed environment
 - [ ] Validation support / checklist
@@ -282,10 +282,10 @@ Internal artifacts:
 
 | Recommendation | Select one |
 |----------------|------------|
-| **Proceed** | â˜ |
-| **Proceed with Conditions** | â˜ |
-| **Delay** | â˜ |
-| **Do Not Convert** | â˜ |
+| **Proceed** | ★ |
+| **Proceed with Conditions** | ★ |
+| **Delay** | ★ |
+| **Do Not Convert** | ★ |
 
 **Reason:**
 
@@ -304,9 +304,9 @@ Internal artifacts:
 | Implementation Lead | | | |
 | Engineering | | | |
 | Sales *(if quoting from this assessment)* | | | |
-| Customer *(optional â€” if sharing summary)* | | | |
+| Customer *(optional — if sharing summary)* | | | |
 
-**Approved Conversion Plan status:** â˜ Approved Â· â˜ Pending Â· â˜ Declined
+**Approved Conversion Plan status:** ★ Approved · ★ Pending · ★ Declined
 
 ---
 
@@ -316,34 +316,34 @@ Every assessment should make the next migration easier.
 
 | Question | Answer |
 |----------|--------|
-| Did we improve a converter? | â˜ Yes Â· â˜ No Â· â˜ N/A â€” notes: |
+| Did we improve a converter? | ★ Yes · ★ No · ★ N/A — notes: |
 | What should be standardized? | |
-| Should this become / update a reusable vendor template? | â˜ Yes Â· â˜ No Â· â˜ <mark style="color:red;">TBD</mark> â€” promote into `Utilities/Migration Tools/<Vendor>/` and bump VERSION |
-| Update `ConvertedAgencies.md` after acceptance? | â˜ Yes Â· â˜ N/A |
-| Should this generate a product or internal tooling feature? | â˜ Yes Â· â˜ No Â· â˜ <mark style="color:red;">TBD</mark> â€” idea: |
+| Should this become / update a reusable vendor template? | ★ Yes · ★ No · ★ <mark style="color:red;">TBD</mark> — promote into `Utilities/Migration Tools/<Vendor>/` and bump VERSION |
+| Update `ConvertedAgencies.md` after acceptance? | ★ Yes · ★ N/A |
+| Should this generate a product or internal tooling feature? | ★ Yes · ★ No · ★ <mark style="color:red;">TBD</mark> — idea: |
 | Lessons learned | |
 
 ---
 
 ## 15. Package backlog (reusable improvements)
 
-**Not customer notes.** These are improvements to the **vendor package** for the next agency. Copy durable items into the vendor GitBook guide backlog and/or package README. See [Migration Package Standards â€” Package backlog](../sops/deliver/data-migration/vendor-packages/migration-package-standards.md#package-backlog).
+**Not customer notes.** These are improvements to the **vendor package** for the next agency. Copy durable items into the vendor GitBook guide backlog and/or package README. See [Migration Package Standards — Package backlog](../sops/deliver/data-migration/vendor-packages/migration-package-standards.md#package-backlog).
 
-Vendor package: `Utilities/Migration Tools/_______________/` Â· Guide: [Vendor Conversion Guides](../sops/deliver/data-migration/vendor-packages/vendor-conversion-guides/README.md)
+Vendor package: `Utilities/Migration Tools/_______________/` · Guide: [Vendor Conversion Guides](../sops/deliver/data-migration/vendor-packages/vendor-conversion-guides/README.md)
 
 Improvements identified:
 
 - [ ] Add / expand module support: _______________
 - [ ] Improve officer mapping
 - [ ] Improve court / agency mapping
-- [ ] Automate or strengthen validation (counts / citations / â€¦)
+- [ ] Automate or strengthen validation (counts / citations / …)
 - [ ] Fix / improve attachment extraction
 - [ ] Document supported legacy version: _______________
 - [ ] Other: _______________
 
 | Item | Promote into package? | VERSION bump when done? |
 |------|----------------------|-------------------------|
-| | â˜ Yes Â· â˜ No (customer-only) | â˜ |
+| | ★ Yes · ★ No (customer-only) | ★ |
 
 ---
 
@@ -353,19 +353,19 @@ Eventually this document could be largely generated:
 
 ```text
 Upload / connect database
-    â†“
+    ↓
 Thin Line scans schema
-    â†“
+    ↓
 Identifies vendor / version
-    â†“
+    ↓
 Finds existing converter
-    â†“
+    ↓
 Compares schema
-    â†“
+    ↓
 Scores complexity
-    â†“
+    ↓
 Suggests price and timeline
-    â†“
+    ↓
 Generates assessment draft
 ```
 
@@ -379,6 +379,6 @@ That capability would be a competitive advantage and is tracked as product impac
 
 | Date | Change |
 |------|--------|
-| 2026-07-17 | v1 â€” Legacy System Migration Assessment form (elevated from Conversion Assessment placeholder) |
+| 2026-07-17 | v1 — Legacy System Migration Assessment form (elevated from Conversion Assessment placeholder) |
 | 2026-07-17 | Added Migration Tools package VERSION, vendor checkboxes, Firebird, ConvertedAgencies close-out |
-| 2026-07-17 | Â§15 Package backlog (reusable improvements) |
+| 2026-07-17 | §15 Package backlog (reusable improvements) |

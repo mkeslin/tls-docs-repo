@@ -1,8 +1,8 @@
-﻿# CrimeStar Migration Guide
+# CrimeStar Migration Guide
 
 **Vendor folder:** `Utilities/Migration Tools/CrimeStar/`  
 **Package VERSION:** see product-repo `CrimeStar/VERSION` (verify at engagement start)  
-**Status:** Package exists â€” GitBook guide v1  
+**Status:** Package exists — GitBook guide v1  
 
 Execution: product `PROCESS.md` + `CrimeStar/AgencyChecklist.md`. Do not duplicate Pipeline SQL here.
 
@@ -47,7 +47,7 @@ Execution: product `PROCESS.md` + `CrimeStar/AgencyChecklist.md`. Do not duplica
 ## Extraction process
 
 1. Obtain full DBF/FPT folder from agency (or vendor export).
-2. Run `CrimeStar/StagingImporter/` against that folder â†’ staging SQL DB.
+2. Run `CrimeStar/StagingImporter/` against that folder → staging SQL DB.
 3. Spot-check table counts vs checklist modules.
 4. Continue Pipeline order in `SqlPackage/PIPELINE.md` (client working copy).
 
@@ -59,9 +59,9 @@ Execution: product `PROCESS.md` + `CrimeStar/AgencyChecklist.md`. Do not duplica
 |---------|-------|
 | Agency / ORI / court | Client Overrides / ensure-agency scripts |
 | Officers / badges / usernames | Client Overrides (`21a`-style) |
-| Hist / number prefixes | Checklist â†’ Overrides |
+| Hist / number prefixes | Checklist → Overrides |
 
-Reusable mapping **logic** â†’ promote into package.
+Reusable mapping **logic** → promote into package.
 
 ---
 
@@ -81,7 +81,7 @@ Apply [Migration Validation Standard](../../migration-validation-standard.md), p
 | Problem | Likely cause |
 |---------|----------------|
 | Empty staging tables | Wrong folder / incomplete DBF set |
-| Agency hardcodes in shared Pipeline | Violates package rules â€” move to Overrides |
+| Agency hardcodes in shared Pipeline | Violates package rules — move to Overrides |
 | UI records stuck in conversion workflow | Run [Post-Conversion Utilities](../../post-conversion-utilities.md) |
 
 ---
@@ -98,7 +98,7 @@ Register: product `CrimeStar/ConvertedAgencies.md`.
 
 ## Package backlog
 
-Improvements identified (reusable â€” not customer notes):
+Improvements identified (reusable — not customer notes):
 
 - [ ] <mark style="color:red;">**TODO:**</mark> Seed from recent assessments / engagements  
 - [ ] Document supported CrimeStar build strings  
@@ -113,9 +113,9 @@ When done: implement in package, bump `VERSION`, check off here.
 | Field | Value |
 |-------|-------|
 | Vendor | CrimeStar |
-| Requires | DBF/FPT folder Â· SQL Server Â· StagingImporter |
+| Requires | DBF/FPT folder · SQL Server · StagingImporter |
 | Typical modules | Incidents, citations, CAD, vehicles, property, warrants, attachments *(confirm per export)* |
-| Entities | Persons, vehicles, locations *(via involvements / masters â€” confirm per run)* |
+| Entities | Persons, vehicles, locations *(via involvements / masters — confirm per run)* |
 
 ---
 

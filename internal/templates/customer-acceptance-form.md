@@ -1,4 +1,4 @@
-﻿# Customer Acceptance Form
+# Customer Acceptance Form
 
 **Document type:** Template  
 **Status:** <mark style="color:red;">Placeholder</mark>

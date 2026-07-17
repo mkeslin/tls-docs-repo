@@ -1,4 +1,4 @@
-﻿# Moved
+# Moved
 
 This page has moved to **[data-migration/migration-decision-matrix.md](data-migration/migration-decision-matrix.md)**.
 

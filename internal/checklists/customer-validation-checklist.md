@@ -1,8 +1,8 @@
-﻿# Customer Validation Checklist
+# Customer Validation Checklist
 
 **Document type:** Checklist  
 **Status:** v1  
-**Referenced by:** [Legacy System Migration](../sops/deliver/data-migration/legacy-system-migration.md) (Phase 8) Â· [Migration Validation Standard](../sops/deliver/data-migration/migration-validation-standard.md) (Layer C)
+**Referenced by:** [Legacy System Migration](../sops/deliver/data-migration/legacy-system-migration.md) (Phase 8) · [Migration Validation Standard](../sops/deliver/data-migration/migration-validation-standard.md) (Layer C)
 
 Thin Line completes **technical validation** (counts, relationships, spot checks) before inviting the customer. This checklist is what the **customer** walks for acceptance.
 
@@ -12,7 +12,7 @@ Thin Line completes **technical validation** (counts, relationships, spot checks
 
 Implementation confirms:
 
-- [ ] [Migration Validation Standard](../sops/deliver/data-migration/migration-validation-standard.md) Layers Aâ€“B complete for agreed scope  
+- [ ] [Migration Validation Standard](../sops/deliver/data-migration/migration-validation-standard.md) Layers A–B complete for agreed scope  
 - [ ] [Post-Conversion Utilities](../sops/deliver/data-migration/post-conversion-utilities.md) run where required  
 - [ ] Customer has URL, login, and list of sample record numbers (optional but helpful)  
 - [ ] Exception report shared for any accepted known gaps  
@@ -61,7 +61,7 @@ List anything wrong or incomplete:
 
 | # | What | Module | OK to accept? |
 |---|------|--------|---------------|
-| 1 | | | â˜ Yes Â· â˜ No â€” fix first |
+| 1 | | | ★ Yes · ★ No — fix first |
 
 ---
 
@@ -72,7 +72,7 @@ List anything wrong or incomplete:
 | Agency | |
 | Validator name | |
 | Date | |
-| Outcome | â˜ Accepted Â· â˜ Accepted with exceptions Â· â˜ Not accepted â€” rework needed |
+| Outcome | ★ Accepted · ★ Accepted with exceptions · ★ Not accepted — rework needed |
 
 Formal form (target): [Customer Acceptance Form](../templates/customer-acceptance-form.md).
 
@@ -83,4 +83,4 @@ Formal form (target): [Customer Acceptance Form](../templates/customer-acceptanc
 | Date | Change |
 |------|--------|
 | 2026-07-17 | Placeholder |
-| 2026-07-17 | v1 â€” customer-facing checks aligned with Validation Standard |
+| 2026-07-17 | v1 — customer-facing checks aligned with Validation Standard |

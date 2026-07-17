@@ -1,4 +1,4 @@
-﻿# Moved
+# Moved
 
 This page has moved to **[data-migration/vendor-packages/migration-package-standards.md](data-migration/vendor-packages/migration-package-standards.md)**.
 

@@ -1,4 +1,4 @@
-﻿# Bootstrap vs Configuration
+# Bootstrap vs Configuration
 
 **Document type:** Reference  
 **Status:** v1  
@@ -63,7 +63,7 @@ These belong to **Implementation / configuration** SOPs (and eventually Hub conf
 ## Lifecycle placement
 
 ```text
-Bootstrap  â†’  Configuration  â†’  Migration (optional)  â†’  Training  â†’  Go Live
+Bootstrap  →  Configuration  →  Migration (optional)  →  Training  →  Go Live
 ```
 
 See [Environment Lifecycle](environment-lifecycle.md).
@@ -72,7 +72,7 @@ See [Environment Lifecycle](environment-lifecycle.md).
 
 ## Why this matters
 
-- Prevents â€œbootstrapâ€ scripts from becoming a dumping ground for every agency preference.  
+- Prevents “bootstrap” scripts from becoming a dumping ground for every agency preference.  
 - Lets Implementation SOPs own configuration checklists.  
 - Clarifies Hub: Environment record (bootstrap) vs Configuration record (agency setup).
 
@@ -92,4 +92,4 @@ See [Environment Lifecycle](environment-lifecycle.md).
 
 | Date | Change |
 |------|--------|
-| 2026-07-17 | v1 â€” boundary definition |
+| 2026-07-17 | v1 — boundary definition |

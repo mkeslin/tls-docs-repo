@@ -1,4 +1,4 @@
-﻿# Baseline Database Standard
+# Baseline Database Standard
 
 **Document type:** Standard  
 **Status:** v1  
@@ -9,7 +9,7 @@ Defines the **seed databases** used when bootstrapping a new agency environment.
 
 ## Purpose
 
-A **baseline** (bacpac) is a known-good Thin Line RMS database used to create a new tenant DB quickly: schema, codes, seed agency placeholder, and platform defaults â€” **not** customer historical data.
+A **baseline** (bacpac) is a known-good Thin Line RMS database used to create a new tenant DB quickly: schema, codes, seed agency placeholder, and platform defaults — **not** customer historical data.
 
 ---
 
@@ -22,7 +22,7 @@ A **baseline** (bacpac) is a known-good Thin Line RMS database used to create a 
 | **After import** | `sql/post-import-auth-users.sql`; optional `sql/post-import-agency-name.sql` when FriendlyAgencyName is set |
 | **Elastic pool** | Per tier profile after import (prod typically moves to pool) |
 
-Special seeds (if any) must be **explicit** on the engagement â€” do not silently substitute an old customer bacpac as the â€œbase.â€
+Special seeds (if any) must be **explicit** on the engagement — do not silently substitute an old customer bacpac as the “base.”
 
 ---
 
@@ -43,7 +43,7 @@ Special seeds (if any) must be **explicit** on the engagement â€” do not si
 |-------|--------|
 | Major platform release needing new empty-tenant shape | Refresh baseline bacpac from an approved clean DB |
 | Critical seed/code fix that all new tenants need | Refresh baseline **or** ensure migrations/deploy handle it for new DBs |
-| After every customer conversion | **Do not** replace `_Base_ThinLineRMS.bacpac` with that customerâ€™s DB |
+| After every customer conversion | **Do not** replace `_Base_ThinLineRMS.bacpac` with that customer's DB |
 
 <mark style="color:red;">**TODO:**</mark> Document refresh cadence (e.g. each release train) once practice is stable.
 
@@ -55,7 +55,7 @@ Special seeds (if any) must be **explicit** on the engagement â€” do not si
 |----------|------------|
 | Global RMS baseline | `_Base_ThinLineRMS.bacpac` |
 | Future module-specific baselines | `_Base_<Product>.bacpac` under `Clients\_Base\Databases\` |
-| Customer exports / backups | **Never** under `_Base_` â€” use client / backup locations |
+| Customer exports / backups | **Never** under `_Base_` — use client / backup locations |
 
 ---
 
@@ -73,9 +73,9 @@ Special seeds (if any) must be **explicit** on the engagement â€” do not si
 
 | Action | How |
 |--------|-----|
-| **New environment** | Bootstrap Database step (SqlPackage Import) â€” see Bootstrap SOP |
+| **New environment** | Bootstrap Database step (SqlPackage Import) — see Bootstrap SOP |
 | **Rebuild DB only** | `bootstrap-client.ps1 -Steps "Database"` (destructive reimport for that DB name) |
-| **Point-in-time customer restore** | Not this standard â€” Azure SQL / backup ops <mark style="color:red;">**TODO:**</mark> link when documented |
+| **Point-in-time customer restore** | Not this standard — Azure SQL / backup ops <mark style="color:red;">**TODO:**</mark> link when documented |
 
 Import **replaces** the database for that agency tier (script deletes/recreates via import). Treat as destructive for existing data in that DB.
 
@@ -95,4 +95,4 @@ Import **replaces** the database for that agency tier (script deletes/recreates 
 
 | Date | Change |
 |------|--------|
-| 2026-07-17 | v1 â€” baseline path, ownership, restore vs bootstrap |
+| 2026-07-17 | v1 — baseline path, ownership, restore vs bootstrap |

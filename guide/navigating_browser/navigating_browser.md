@@ -1,4 +1,4 @@
-﻿# Managing the Web Browser
+# Managing the Web Browser
 
 Thin Line Software relyes on your computer/device's web browser to give you a seamless environment for presenting and updating while still supporting a wide variety of devices.  Understanding how to work with your computers web browser will help you to get the most out of your Thin Line Software system.
 

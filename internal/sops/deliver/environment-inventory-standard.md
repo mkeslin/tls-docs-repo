@@ -1,4 +1,4 @@
-﻿# Moved
+# Moved
 
 This page has moved to **[infrastructure/environment-inventory-standard.md](infrastructure/environment-inventory-standard.md)**.
 

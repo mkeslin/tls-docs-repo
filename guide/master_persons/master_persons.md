@@ -1,4 +1,4 @@
-﻿[Anchor Link Header](#anchor)
+[Anchor Link Header](#anchor)
 
 # Master Persons
 

@@ -1,4 +1,4 @@
-﻿# Conversion Summary Template
+# Conversion Summary Template
 
 **Document type:** Template  
 **Status:** <mark style="color:red;">Placeholder</mark>

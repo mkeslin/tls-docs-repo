@@ -1,10 +1,10 @@
-﻿# Environment Inventory Standard
+# Environment Inventory Standard
 
 **Document type:** Standard  
 **Status:** v1  
-**Audience:** Engineering Â· Implementation (onboarding)
+**Audience:** Engineering · Implementation (onboarding)
 
-Defines **exactly what constitutes a Thin Line agency environment** â€” the bill of materials, not how to create it.
+Defines **exactly what constitutes a Thin Line agency environment** — the bill of materials, not how to create it.
 
 Create/update via [Bootstrap Environment SOP](bootstrap-environment.md) to the [Bootstrap Environment Standard](bootstrap-environment-standard.md).
 
@@ -12,9 +12,9 @@ Create/update via [Bootstrap Environment SOP](bootstrap-environment.md) to the [
 
 ## Definition
 
-An **environment** is one agency Ã— one tier (`dev` | `test` | `prod`) with a complete set of platform components that make Thin Line usable for that tenant.
+An **environment** is one agency × one tier (`dev` | `test` | `prod`) with a complete set of platform components that make Thin Line usable for that tenant.
 
-It is **not** the shared SQL server, App Service Plan, or Application Gateway appliance alone â€” those are **platform shared resources** that many environments attach to.
+It is **not** the shared SQL server, App Service Plan, or Application Gateway appliance alone — those are **platform shared resources** that many environments attach to.
 
 ---
 
@@ -32,7 +32,7 @@ flowchart TD
   E --> DIR[Directory API configuration]
   E --> DNS[DNS / App Gateway hostnames]
   E --> VER[Deployed app version]
-  S -.->|uses| SHR[Shared: SQL server Â· storage Â· App Gateway Â· plans]
+  S -.->|uses| SHR[Shared: SQL server · storage · App Gateway · plans]
 ```
 
 | Component | Required? | Notes |
@@ -99,4 +99,4 @@ Until Hub owns this, record at least:
 
 | Date | Change |
 |------|--------|
-| 2026-07-17 | v1 â€” environment bill of materials |
+| 2026-07-17 | v1 — environment bill of materials |

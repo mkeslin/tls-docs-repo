@@ -1,4 +1,4 @@
-﻿# Master Records
+# Master Records
 
 Master records correlate and aggregate information and eliminate redundant data entry.
 

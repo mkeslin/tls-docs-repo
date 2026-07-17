@@ -1,4 +1,4 @@
-﻿# Vendor Conversion Guides
+# Vendor Conversion Guides
 
 **Document type:** Reference index  
 **Status:** v1 — catalog + per-vendor guides  

@@ -1,4 +1,4 @@
-﻿# Moved
+# Moved
 
 This page has moved to **[infrastructure/bootstrap-environment.md](infrastructure/bootstrap-environment.md)**.
 

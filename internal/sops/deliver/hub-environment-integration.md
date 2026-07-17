@@ -1,4 +1,4 @@
-﻿# Moved
+# Moved
 
 This page has moved to **[infrastructure/hub-environment-integration.md](infrastructure/hub-environment-integration.md)**.
 

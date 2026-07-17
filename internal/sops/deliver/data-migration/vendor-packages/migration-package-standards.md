@@ -1,4 +1,4 @@
-﻿# Migration Package Standards
+# Migration Package Standards
 
 **Phase:** Deliver  
 **Document type:** Reference / Standard  
@@ -15,7 +15,7 @@ Define what a **Thin Line Migration Package** is, how it is versioned, what meta
 `Utilities/Migration Tools/`  
 Process file: `Utilities/Migration Tools/PROCESS.md`
 
-**Principles:** [Migration Philosophy](../migration-philosophy.md) Â· **Flow:** [Migration Architecture](../migration-architecture.md)
+**Principles:** [Migration Philosophy](../migration-philosophy.md) · **Flow:** [Migration Architecture](../migration-architecture.md)
 
 Referenced by:
 
@@ -28,7 +28,7 @@ Referenced by:
 
 ## What is a Migration Package?
 
-A **vendor package** is a self-contained folder for one legacy product family. It contains everything needed to start a **standard** conversion for that vendorâ€”except agency-specific values.
+A **vendor package** is a self-contained folder for one legacy product family. It contains everything needed to start a **standard** conversion for that vendor—except agency-specific values.
 
 | Included | Not included |
 |----------|--------------|
@@ -50,7 +50,7 @@ A **vendor package** is a self-contained folder for one legacy product family. I
 
 **Rule:** Never leave agency-specific hardcodes in the shared vendor Pipeline. If a fix is reusable across agencies, **promote** it into the package and bump `VERSION`.
 
-Equation: [Customer Configuration Standard](migration-customer-configuration.md) â€” **Package + Configuration = Migration**.
+Equation: [Customer Configuration Standard](migration-customer-configuration.md) — **Package + Configuration = Migration**.
 
 ---
 
@@ -58,13 +58,13 @@ Equation: [Customer Configuration Standard](migration-customer-configuration.md)
 
 ```text
 Utilities/Migration Tools/
-  PROCESS.md                      â† agent-led engagement procedure
+  PROCESS.md                      ← agent-led engagement procedure
   <Vendor>/
-    VERSION                       â† semver + notes (required today)
+    VERSION                       ← semver + notes (required today)
     README.md
     AgencyChecklist.md
     ConvertedAgencies.md
-    StagingImporter/              â† optional
+    StagingImporter/              ← optional
     SqlPackage/
       PIPELINE.md
       PARAMETERS.md
@@ -76,8 +76,8 @@ Engagement working copy:
 
 ```text
 Clients/<Client>/Conversion/<Engagement>/
-  AgencyChecklist.md              â† filled
-  Overrides/                      â† filled from templates
+  AgencyChecklist.md              ← filled
+  Overrides/                      ← filled from templates
   (copied pipeline scripts)
 ```
 
@@ -99,10 +99,10 @@ The `VERSION` file is the version authority. Capture the rest in the vendor **Gi
 | Package version | `0.3.1-draft` | `VERSION` |
 | Status | `current` / `draft` | `VERSION` notes |
 | Supported legacy versions | <mark style="color:red;">**TODO:**</mark> per vendor | Vendor guide |
-| Modules supported | Incidents, Citations, â€¦ | Vendor guide + checklist |
-| Entities supported | Persons, Vehicles, â€¦ | Vendor guide |
-| Requires | SQL Server, Firebird tools, â€¦ | Vendor guide |
-| Validation emphasis | Incident counts, â€¦ | Vendor guide â†’ [Validation Standard](../migration-validation-standard.md) |
+| Modules supported | Incidents, Citations, … | Vendor guide + checklist |
+| Entities supported | Persons, Vehicles, … | Vendor guide |
+| Requires | SQL Server, Firebird tools, … | Vendor guide |
+| Validation emphasis | Incident counts, … | Vendor guide → [Validation Standard](../migration-validation-standard.md) |
 
 ### Target (optional file)
 
@@ -122,7 +122,7 @@ validation:
   - Person counts
 ```
 
-Hub may eventually read this file. Until then, **do not** invent a second version numberâ€”`VERSION` remains canonical.
+Hub may eventually read this file. Until then, **do not** invent a second version number—`VERSION` remains canonical.
 
 ---
 
@@ -150,7 +150,7 @@ Each vendor package has a `VERSION` file (not a path segment). Prefer semver (`M
 
 - Do **not** delete historical path snapshots lightly if they document what shipped (`v1.0.0/` folders may exist for archive).  
 - New work uses the **root** vendor folder `VERSION`.  
-- `ConvertedAgencies.md` records which `VERSION` was used for acceptanceâ€”that is the audit trail.  
+- `ConvertedAgencies.md` records which `VERSION` was used for acceptance—that is the audit trail.  
 - Retire a major line only when no in-flight engagement depends on it; note retirement in the vendor guide changelog.
 
 ### Engagement rules
@@ -171,7 +171,7 @@ Reusable improvements are **package backlog**, not customer notes.
 
 ### Sources
 
-1. End of every [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md) â€” **Package backlog** section  
+1. End of every [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md) — **Package backlog** section  
 2. Lessons during execution (Phase E promote in `PROCESS.md`)  
 3. Validation exceptions that imply a package gap  
 
@@ -181,10 +181,10 @@ Track in the vendor GitBook guide (Backlog section) and/or a short list in packa
 
 ```text
 Improvements identified:
-â˜ Add property support
-â˜ Improve officer mapping
-â˜ Automate citation validation
-â˜ Fix attachment extraction
+★ Add property support
+★ Improve officer mapping
+★ Automate citation validation
+★ Fix attachment extraction
 ```
 
 | Item type | Action |
@@ -215,12 +215,12 @@ Cursor agents are expected to **lead** this procedure when a conversion is reque
 
 See [Vendor Conversion Guides](vendor-conversion-guides/README.md).
 
-| Vendor folder | Typical source | Package VERSION *(product repo â€” verify)* |
+| Vendor folder | Typical source | Package VERSION *(product repo — verify)* |
 |---------------|----------------|---------------------------------------------|
-| CrimeStar | Visual FoxPro / DBF â†’ StagingImporter | See `VERSION` |
-| CopSync | Kologik COPsync SQL â†’ `Stg_CopSync_*` | See `VERSION` |
+| CrimeStar | Visual FoxPro / DBF → StagingImporter | See `VERSION` |
+| CopSync | Kologik COPsync SQL → `Stg_CopSync_*` | See `VERSION` |
 | IncodeCourt | Tyler / INCODE CTFILES and/or Common V14 Access | See `VERSION` |
-| Xpediter | Firebird/InterBase `XPEDITER.GDB` â†’ ConvTemp | See `VERSION` |
+| Xpediter | Firebird/InterBase `XPEDITER.GDB` → ConvTemp | See `VERSION` |
 
 ---
 
@@ -239,5 +239,5 @@ See [Vendor Conversion Guides](vendor-conversion-guides/README.md).
 | Date | Change |
 |------|--------|
 | 2026-07-17 | Placeholder created |
-| 2026-07-17 | v1 â€” package definition, two-layer model, VERSION, promote rules |
+| 2026-07-17 | v1 — package definition, two-layer model, VERSION, promote rules |
 | 2026-07-17 | Manifest fields, versioning/retire rules, package backlog |

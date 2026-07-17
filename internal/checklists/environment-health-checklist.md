@@ -1,10 +1,10 @@
-﻿# Environment Health Checklist
+# Environment Health Checklist
 
 **Document type:** Checklist  
 **Status:** v1  
-**Use after:** [Bootstrap Environment SOP](../sops/deliver/infrastructure/bootstrap-environment.md) Phase 5 Â· before Configuration handoff Â· after major Upgrade  
+**Use after:** [Bootstrap Environment SOP](../sops/deliver/infrastructure/bootstrap-environment.md) Phase 5 · before Configuration handoff · after major Upgrade  
 
-Reusable verification that an environmentâ€™s **platform wiring** works. Does **not** cover agency business configuration (ORI, officers, courts) â€” see [Bootstrap vs Configuration](../sops/deliver/infrastructure/bootstrap-vs-configuration.md).
+Reusable verification that an environment's **platform wiring** works. Does **not** cover agency business configuration (ORI, officers, courts) — see [Bootstrap vs Configuration](../sops/deliver/infrastructure/bootstrap-vs-configuration.md).
 
 Naming/URLs must match [Bootstrap Environment Standard](../sops/deliver/infrastructure/bootstrap-environment-standard.md).
 
@@ -15,7 +15,7 @@ Naming/URLs must match [Bootstrap Environment Standard](../sops/deliver/infrastr
 | Field | Value |
 |-------|--------|
 | AgencyName | |
-| Environment | â˜ dev Â· â˜ test Â· â˜ prod |
+| Environment | ★ dev · ★ test · ★ prod |
 | FriendlyAgencyName | |
 | VersionBranch / BuildId | |
 | Checked by / date | |
@@ -59,9 +59,9 @@ Naming/URLs must match [Bootstrap Environment Standard](../sops/deliver/infrastr
 
 | Result | Next |
 |--------|------|
-| â˜ Pass | Proceed to **Configuration** ([Bootstrap vs Configuration](../sops/deliver/infrastructure/bootstrap-vs-configuration.md)) |
-| â˜ Pass with deferrals | List deferrals (e.g. DNS): |
-| â˜ Fail | Stop; fix via Bootstrap SOP partial `-Steps` / escalate |
+| ★ Pass | Proceed to **Configuration** ([Bootstrap vs Configuration](../sops/deliver/infrastructure/bootstrap-vs-configuration.md)) |
+| ★ Pass with deferrals | List deferrals (e.g. DNS): |
+| ★ Fail | Stop; fix via Bootstrap SOP partial `-Steps` / escalate |
 
 Deferrals / failures:
 
@@ -83,4 +83,4 @@ Deferrals / failures:
 
 | Date | Change |
 |------|--------|
-| 2026-07-17 | v1 â€” reusable environment health checks |
+| 2026-07-17 | v1 — reusable environment health checks |

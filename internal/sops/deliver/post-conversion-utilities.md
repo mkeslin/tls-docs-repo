@@ -1,4 +1,4 @@
-﻿# Moved
+# Moved
 
 This page has moved to **[data-migration/post-conversion-utilities.md](data-migration/post-conversion-utilities.md)**.
 

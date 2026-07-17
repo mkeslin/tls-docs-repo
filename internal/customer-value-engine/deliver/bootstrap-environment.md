@@ -1,4 +1,4 @@
-﻿# Bootstrap environment → Infrastructure Ready
+# Bootstrap environment → Infrastructure Ready
 
 **Phase:** Deliver  
 **Desired outcome:** **Infrastructure Ready** — agency tenant provisioned (Azure + auth + Directory + apps) and health-checked
@@ -17,7 +17,7 @@
 
 - Environment matching [inventory](../../sops/deliver/infrastructure/environment-inventory-standard.md) + [naming standard](../../sops/deliver/infrastructure/bootstrap-environment-standard.md)
 - Passed [Environment Health Checklist](../../checklists/environment-health-checklist.md)
-- Ready for **Configuration** (not done by bootstrap) â€” [boundary](../../sops/deliver/infrastructure/bootstrap-vs-configuration.md)
+- Ready for **Configuration** (not done by bootstrap) — [boundary](../../sops/deliver/infrastructure/bootstrap-vs-configuration.md)
 
 ## Owner
 
@@ -27,9 +27,9 @@ Keslin (Implementation Lead)
 
 1. Confirm parameters against Bootstrap Environment Standard  
 2. Azure US Government login; set secrets  
-3. Run `Infrastructure/scripts/bootstrap-client.ps1` (Infra â†’ Database â†’ AppGateway â†’ DescopeTenant â†’ DirectoryConfig â†’ Build â†’ Deploy)  
+3. Run `Infrastructure/scripts/bootstrap-client.ps1` (Infra → Database → AppGateway → DescopeTenant → DirectoryConfig → Build → Deploy)  
 4. Complete Environment Health Checklist  
-5. Hand off to Configuration â†’ (optional Migration) per [Environment Lifecycle](../../sops/deliver/infrastructure/environment-lifecycle.md)
+5. Hand off to Configuration → (optional Migration) per [Environment Lifecycle](../../sops/deliver/infrastructure/environment-lifecycle.md)
 
 **SOP:** [Bootstrap Environment](../../sops/deliver/infrastructure/bootstrap-environment.md)
 
@@ -37,23 +37,23 @@ Keslin (Implementation Lead)
 
 - Product repo `Infrastructure/scripts/` + `environments/*.profile.json`
 - Azure CLI (US Government), SqlPackage, Azure DevOps PAT
-- Descope Â· Directory API
+- Descope · Directory API
 
 ## Capacity (today)
 
-4â€“8/mo
+4–8/mo
 
 ## Cycle time
 
-30â€“60 min (full bootstrap; excludes DNS / customer wait)
+30–60 min (full bootstrap; excludes DNS / customer wait)
 
 ## Maturity
 
-**3 / 5 â€” Standardized**
+**3 / 5 — Standardized**
 
 ## What would break first?
 
-Missing secrets Â· wrong AgencyName/Environment Â· SqlPackage/Directory unreachable Â· treating configuration as part of bootstrap
+Missing secrets · wrong AgencyName/Environment · SqlPackage/Directory unreachable · treating configuration as part of bootstrap
 
 ## Continuous improvement (10x ideas)
 
@@ -65,7 +65,7 @@ Missing secrets Â· wrong AgencyName/Environment Â· SqlPackage/Directory unre
 
 ## Product responsibility
 
-Hub Environment as system of record â€” see [Hub Environment Integration](../../sops/deliver/infrastructure/hub-environment-integration.md).
+Hub Environment as system of record — see [Hub Environment Integration](../../sops/deliver/infrastructure/hub-environment-integration.md).
 
 ## Related documents
 

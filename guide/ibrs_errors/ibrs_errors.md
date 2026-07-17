@@ -1,4 +1,4 @@
-﻿# IBRS Warnings & Errors
+# IBRS Warnings & Errors
 
 ## NIBRS (v2019.2.1)
 

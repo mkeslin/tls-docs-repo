@@ -1,9 +1,9 @@
-﻿# Xpediter Migration Guide
+# Xpediter Migration Guide
 
 **Vendor folder:** `Utilities/Migration Tools/Xpediter/`  
 **Package VERSION:** see product-repo `Xpediter/VERSION`  
-**Source:** Firebird / InterBase `XPEDITER.GDB` â†’ SQL **ConvTemp** â†’ ThinLineRMS  
-**Status:** Package exists (`draft` typical) â€” GitBook guide v1  
+**Source:** Firebird / InterBase `XPEDITER.GDB` → SQL **ConvTemp** → ThinLineRMS  
+**Status:** Package exists (`draft` typical) — GitBook guide v1  
 
 Execution: product `PROCESS.md` + `Xpediter/AgencyChecklist.md`.
 
@@ -31,15 +31,15 @@ Execution: product `PROCESS.md` + `Xpediter/AgencyChecklist.md`.
 
 | Issue | Mitigation |
 |-------|------------|
-| Agency hardcodes in shared Pipeline | Package scrubbed â€” use Override templates (`07a`, `13`, etc.) |
-| Duplicate folders / final cleanup | Client Overrides from templates â€” not common Pipeline |
+| Agency hardcodes in shared Pipeline | Package scrubbed — use Override templates (`07a`, `13`, etc.) |
+| Duplicate folders / final cleanup | Client Overrides from templates — not common Pipeline |
 | Large GDB | Plan time; year filters on utilities |
 
 ---
 
 ## Schema notes
 
-- ConvTemp tables (`CAGENCY`, `DFOLDER`, â€¦) are the staging contract.
+- ConvTemp tables (`CAGENCY`, `DFOLDER`, …) are the staging contract.
 - Pipeline under `SqlPackage/Pipeline/` is **common only**.
 - Parameterize ConvTemp DB name in the **client** copy.
 
@@ -61,7 +61,7 @@ Execution: product `PROCESS.md` + `Xpediter/AgencyChecklist.md`.
 | Agency / ORI | Checklist + client Overrides |
 | Duplicate folder remediation | Override template `07a` (client) |
 | Final cleanup | Override template `13` (client) |
-| Officers | Checklist â†’ Overrides |
+| Officers | Checklist → Overrides |
 
 ---
 
@@ -111,9 +111,9 @@ Register: `Xpediter/ConvertedAgencies.md`.
 | Field | Value |
 |-------|-------|
 | Vendor | Xpediter |
-| Requires | Firebird/InterBase GDB access Â· SQL Server ConvTemp Â· Thin Line target |
+| Requires | Firebird/InterBase GDB access · SQL Server ConvTemp · Thin Line target |
 | Typical modules | RMS modules present in GDB *(confirm on checklist)* |
-| Validation emphasis | Module counts Â· duplicate cleanup Â· call snapshots |
+| Validation emphasis | Module counts · duplicate cleanup · call snapshots |
 
 ---
 

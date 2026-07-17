@@ -1,9 +1,9 @@
-﻿# Customer Configuration Standard
+# Customer Configuration Standard
 
 **Document type:** Standard  
 **Status:** v1  
 
-Philosophy: [Migration Philosophy](migration-philosophy.md) â€” **Package + Configuration = Migration**.
+Philosophy: [Migration Philosophy](migration-philosophy.md) — **Package + Configuration = Migration**.
 
 ---
 
@@ -20,7 +20,7 @@ Runnable migration for that agency
 | Layer | Contains | Must not contain |
 |-------|----------|------------------|
 | **Package** | Common Pipeline, StagingImporter, Override **templates**, AgencyChecklist questions, `VERSION` | Agency names, phones, ORIs, one-off key fixes, customer email domains |
-| **Configuration** | Filled checklist answers, filled Overrides, engagement parameters (DB names, TargetAgencyId) | â€œNew defaultâ€ logic that belongs in the shared package |
+| **Configuration** | Filled checklist answers, filled Overrides, engagement parameters (DB names, TargetAgencyId) | “New default” logic that belongs in the shared package |
 
 ---
 
@@ -34,7 +34,7 @@ Runnable migration for that agency
 | Officer identity maps | Client Overrides |
 | Court / agency maps | Client Overrides |
 | Duplicate-key or one-off remediations | Client Overrides |
-| Number patterns, email domain, hist prefixes | Checklist â†’ Overrides |
+| Number patterns, email domain, hist prefixes | Checklist → Overrides |
 
 ---
 
@@ -55,12 +55,12 @@ See [Migration Decision Matrix](migration-decision-matrix.md).
 
 ```text
 Clients/<Client>/Conversion/<Engagement>/
-  AgencyChecklist.md     â† filled configuration decisions
-  Overrides/             â† filled from package templates
+  AgencyChecklist.md     ← filled configuration decisions
+  Overrides/             ← filled from package templates
   (working Pipeline copy)
 ```
 
-Start from package templates every time. **Do not** copy the previous customerâ€™s filled Overrides as the new baseline.
+Start from package templates every time. **Do not** copy the previous customer's filled Overrides as the new baseline.
 
 Authoritative process: product-repo `Utilities/Migration Tools/PROCESS.md`.
 
@@ -86,4 +86,4 @@ Hub may eventually store configuration as structured data (answers + maps) and r
 
 | Date | Change |
 |------|--------|
-| 2026-07-17 | v1 â€” package + configuration model |
+| 2026-07-17 | v1 — package + configuration model |

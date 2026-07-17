@@ -1,9 +1,9 @@
-﻿# IncodeCourt (Tyler / INCODE) Migration Guide
+# IncodeCourt (Tyler / INCODE) Migration Guide
 
 **Vendor folder:** `Utilities/Migration Tools/IncodeCourt/`  
 **Package VERSION:** see product-repo `IncodeCourt/VERSION`  
-**Aliases:** Tyler Â· INCODE Â· municipal court CTFILES Â· Thin Line Common V14 Access packages  
-**Status:** Package exists â€” GitBook guide v1  
+**Aliases:** Tyler · INCODE · municipal court CTFILES · Thin Line Common V14 Access packages  
+**Status:** Package exists — GitBook guide v1  
 
 Execution: product `PROCESS.md` + `IncodeCourt/AgencyChecklist.md` (two paths).
 
@@ -13,8 +13,8 @@ Execution: product `PROCESS.md` + `IncodeCourt/AgencyChecklist.md` (two paths).
 
 | Path | Source | Notes |
 |------|--------|-------|
-| **CTFILES** | Fixed-layout court files | StagingImporter â†’ SQL staging |
-| **Common V14 Access** | `.accdb` court package set | Access â†’ SQL path on checklist |
+| **CTFILES** | Fixed-layout court files | StagingImporter → SQL staging |
+| **Common V14 Access** | `.accdb` court package set | Access → SQL path on checklist |
 | Tyler / INCODE product years | <mark style="color:red;">**TODO:**</mark> document years/builds actually converted |
 
 ---
@@ -40,24 +40,24 @@ Execution: product `PROCESS.md` + `IncodeCourt/AgencyChecklist.md` (two paths).
 
 ## Schema notes
 
-- StagingImporter owns CTFILES â†’ staging shape.
-- Court violation / citation targets in Thin Line may require post-steps beyond RMS incident packagesâ€”confirm modules on assessment.
+- StagingImporter owns CTFILES → staging shape.
+- Court violation / citation targets in Thin Line may require post-steps beyond RMS incident packages—confirm modules on assessment.
 - Breaking staging layout = **MAJOR** package bump.
 
 ---
 
 ## Extraction process
 
-### Path A â€” CTFILES
+### Path A — CTFILES
 
 1. Obtain CTFILES set.  
 2. Run `IncodeCourt/StagingImporter/`.  
 3. Pipeline / Overrides per `SqlPackage`.  
 
-### Path B â€” Access (Common V14â€“style)
+### Path B — Access (Common V14–style)
 
 1. Obtain `.accdb` set.  
-2. Follow AgencyChecklist Accessâ†’SQL steps.  
+2. Follow AgencyChecklist Access→SQL steps.  
 3. Pipeline / Overrides.  
 
 ---
@@ -67,7 +67,7 @@ Execution: product `PROCESS.md` + `IncodeCourt/AgencyChecklist.md` (two paths).
 | Mapping | Where |
 |---------|-------|
 | Court agency | Client Overrides |
-| Offense / statute maps | Checklist â†’ Overrides / package common if reusable |
+| Offense / statute maps | Checklist → Overrides / package common if reusable |
 | Person / defendant identity | Overrides + validation spot checks |
 
 ---
@@ -117,9 +117,9 @@ Register: `IncodeCourt/ConvertedAgencies.md`.
 | Field | Value |
 |-------|-------|
 | Vendor | IncodeCourt (Tyler / INCODE) |
-| Requires | CTFILES and/or Access Â· SQL Server Â· StagingImporter (CTFILES) |
+| Requires | CTFILES and/or Access · SQL Server · StagingImporter (CTFILES) |
 | Typical modules | Court / citations / violations *(confirm)* |
-| Validation emphasis | Case counts Â· defendant links Â· dispositions |
+| Validation emphasis | Case counts · defendant links · dispositions |
 
 ---
 

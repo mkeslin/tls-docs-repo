@@ -1,4 +1,4 @@
-﻿# Moved
+# Moved
 
 This page has moved to **[data-migration/migration-architecture.md](data-migration/migration-architecture.md)**.
 

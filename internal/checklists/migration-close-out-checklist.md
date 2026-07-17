@@ -1,4 +1,4 @@
-﻿# Migration Close-Out Checklist
+# Migration Close-Out Checklist
 
 **Document type:** Checklist  
 **Status:** <mark style="color:red;">Placeholder</mark>

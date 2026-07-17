@@ -1,4 +1,4 @@
-﻿# Assessments
+# Assessments
 
 Decision-making documents completed **before** major Deliver work begins.
 
@@ -10,7 +10,7 @@ Assessments are not templates for emails or reports. They are the bridge between
 
 | Assessment | Purpose | Status |
 |------------|---------|--------|
-| [Legacy System Migration Assessment](legacy-system-migration-assessment.md) | Can we convert? Fee, effort, risks, converter strategy â†’ **Approved Conversion Plan** | v1 form |
+| [Legacy System Migration Assessment](legacy-system-migration-assessment.md) | Can we convert? Fee, effort, risks, converter strategy → **Approved Conversion Plan** | v1 form |
 | [Implementation Readiness Assessment](implementation-readiness-assessment.md) | Is the agency ready to implement? | <mark style="color:red;">Placeholder</mark> |
 | [Go-Live Readiness Assessment](go-live-readiness-assessment.md) | Is the agency ready for production cutover? | <mark style="color:red;">Placeholder</mark> |
 
@@ -26,5 +26,5 @@ Assessments are not templates for emails or reports. They are the bridge between
 
 ## Related
 
-- [SOPs â€” Deliver](../sops/deliver/README.md)
+- [SOPs — Deliver](../sops/deliver/README.md)
 - [Legacy System Migration SOP](../sops/deliver/data-migration/legacy-system-migration.md)

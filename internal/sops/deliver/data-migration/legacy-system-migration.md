@@ -1,8 +1,8 @@
-﻿# Legacy System Migration
+# Legacy System Migration
 
 **Phase:** Deliver  
 **Document type:** SOP  
-**Status:** v1 â€” model SOP for Thin Line OS  
+**Status:** v1 — model SOP for Thin Line OS  
 **Next review:** <mark style="color:red;">**TODO:**</mark> Set date (suggested: 2026-10-17)
 
 ---
@@ -12,12 +12,12 @@
 | | |
 |--|--|
 | **Objective** | Migrate a customer's legacy data into Thin Line Platform safely and repeatably. |
-| **Typical duration** | 1â€“10 business days (depending on vendor and data size). <mark style="color:red;">**TODO:**</mark> Refine from completed migrations. |
+| **Typical duration** | 1–10 business days (depending on vendor and data size). <mark style="color:red;">**TODO:**</mark> Refine from completed migrations. |
 | **Owner** | Implementation Lead *(current incumbent: Matthew Keslin)* |
-| **Primary stakeholders** | Customer Administrator Â· Implementation Â· Engineering |
-| **Success criteria** | Data migrated Â· Utilities completed Â· Customer validated Â· Migration accepted |
-| **Related SOPs** | [Customer Onboarding](../customer-onboarding.md) Â· [Bootstrap Environment](../infrastructure/bootstrap-environment.md) Â· [Post-Conversion Utilities](post-conversion-utilities.md) |
-| **Required assessment** | [Legacy System Migration Assessment](../../../assessments/legacy-system-migration-assessment.md) â†’ Approved Conversion Plan |
+| **Primary stakeholders** | Customer Administrator · Implementation · Engineering |
+| **Success criteria** | Data migrated · Utilities completed · Customer validated · Migration accepted |
+| **Related SOPs** | [Customer Onboarding](../customer-onboarding.md) · [Bootstrap Environment](../infrastructure/bootstrap-environment.md) · [Post-Conversion Utilities](post-conversion-utilities.md) |
+| **Required assessment** | [Legacy System Migration Assessment](../../../assessments/legacy-system-migration-assessment.md) → Approved Conversion Plan |
 
 Migration includes more than importing records: assessment, extraction, transformation, validation, workflow transition, customer review, and final acceptance.
 
@@ -136,7 +136,7 @@ The process begins after **all** of the following are true:
 - Signed CJIS Security Addendum
 - Legacy database (or vendor export)
 - Customer credentials / access method (as applicable)
-- Existing vendor package under product-repo **Migration Tools** (if available) â€” see [Migration Package Standards](vendor-packages/migration-package-standards.md)
+- Existing vendor package under product-repo **Migration Tools** (if available) — see [Migration Package Standards](vendor-packages/migration-package-standards.md)
 
 ---
 
@@ -157,11 +157,11 @@ The process begins after **all** of the following are true:
 | SQL Server | Extraction, transformation, load, validation queries |
 | Azure | Tenant / environment context |
 | Cursor | Lead conversion execution per Migration Tools `PROCESS.md`; schema compare; mapping; SQL |
-| Product Git â€” `Utilities/Migration Tools/` | Vendor packages (common Pipeline, StagingImporter, AgencyChecklist, VERSION) |
-| Product Git / Team Drive â€” `Clients/<Client>/Conversion/` | Engagement working copy (checklist answers + agency Overrides) |
+| Product Git — `Utilities/Migration Tools/` | Vendor packages (common Pipeline, StagingImporter, AgencyChecklist, VERSION) |
+| Product Git / Team Drive — `Clients/<Client>/Conversion/` | Engagement working copy (checklist answers + agency Overrides) |
 | GitBook | This SOP, assessment, vendor guides, package standards |
 
-**Authoritative conversion tooling path (product monorepo):** `Utilities/Migration Tools/` â€” see [Migration Package Standards](vendor-packages/migration-package-standards.md).
+**Authoritative conversion tooling path (product monorepo):** `Utilities/Migration Tools/` — see [Migration Package Standards](vendor-packages/migration-package-standards.md).
 
 ---
 
@@ -174,9 +174,9 @@ How Thin Line performs legacy migrations **today**:
 | **Assessment** | [Legacy System Migration Assessment](../../../assessments/legacy-system-migration-assessment.md) exists; adoption still maturing toward consistent Approved Conversion Plans |
 | **Pricing** | [Migration Pricing Policy](../../../policies/migration-pricing.md) draft; historically often bundled with multi-year SaaS |
 | **Acquisition** | On-prem: remote server extract (often before go-live). Cloud: customer requests vendor export (may backfill after go-live) |
-| **Preparation** | **Vendor packages** in product Git (`Utilities/Migration Tools/<Vendor>/`) with common Pipeline + agency checklist; engagement copies under `Clients/<Client>/Conversion/` (and Team Drive). Agents follow `PROCESS.md` (copy template â†’ checklist â†’ Overrides â†’ promote reusable fixes) |
-| **Execution** | Either UAT-then-Production **or** direct Production with tagged converted records â€” choice is judgment-based |
-| **Utilities** | Admin â†’ Data Utilities: module workflow transitions + CAD call master snapshot ([Post-Conversion Utilities](post-conversion-utilities.md)) |
+| **Preparation** | **Vendor packages** in product Git (`Utilities/Migration Tools/<Vendor>/`) with common Pipeline + agency checklist; engagement copies under `Clients/<Client>/Conversion/` (and Team Drive). Agents follow `PROCESS.md` (copy template → checklist → Overrides → promote reusable fixes) |
+| **Execution** | Either UAT-then-Production **or** direct Production with tagged converted records — choice is judgment-based |
+| **Utilities** | Admin → Data Utilities: module workflow transitions + CAD call master snapshot ([Post-Conversion Utilities](post-conversion-utilities.md)) |
 | **Validation** | Implementation Lead emails customer; customer validates; corrections via follow-up. Acceptance is informal (typically email) |
 | **Close** | Informal when corrections and acknowledgement are done; vendor `ConvertedAgencies.md` should record agency, date, and package VERSION |
 | **Visibility** | Limited customer visibility into migration progress |
@@ -190,8 +190,8 @@ Where this process should operate when Thin Line OS is mature:
 
 | Area | Target |
 |------|--------|
-| **Assessment** | Formal [Legacy System Migration Assessment](../../../assessments/legacy-system-migration-assessment.md) â†’ **Approved Conversion Plan** before pricing/execution |
-| **Pricing** | [Migration Pricing Policy](../../../policies/migration-pricing.md) (Draft â€” professional service tiers; assessment required before quote) |
+| **Assessment** | Formal [Legacy System Migration Assessment](../../../assessments/legacy-system-migration-assessment.md) → **Approved Conversion Plan** before pricing/execution |
+| **Pricing** | [Migration Pricing Policy](../../../policies/migration-pricing.md) (Draft — professional service tiers; assessment required before quote) |
 | **Acquisition** | Documented cloud vs on-prem path with clear go-live timing rules |
 | **Preparation** | Vendor packages in `Utilities/Migration Tools/<Vendor>/` (common only) + client engagement folders for checklist answers and Overrides; promote reusable fixes and bump package `VERSION` |
 | **Execution** | Explicit decision matrix for UAT vs Production |
@@ -205,17 +205,17 @@ Where this process should operate when Thin Line OS is mature:
 
 ## Gap analysis
 
-| Gap | Current â†’ Target | Priority |
+| Gap | Current → Target | Priority |
 |-----|------------------|----------|
-| No formal assessment | Informal â†’ [Legacy System Migration Assessment](../../../assessments/legacy-system-migration-assessment.md) + Approved Conversion Plan | High |
-| Pricing not standardized | Bundled practice â†’ Approved policy | High |
-| Folder model | Customer-only copies â†’ Vendor packages + client Overrides (**in progress** via Migration Tools) | High |
-| Validation / acceptance | Email informal â†’ Checklist + signed acceptance | High |
-| Close-out | Informal â†’ Close-out checklist | Medium |
-| Decision clarity | Tribal knowledge â†’ Decision diagrams + UAT/Prod matrix | High |
-| Progress visibility | Opaque â†’ Status tracking | Medium |
-| Utility catalog | Partial examples â†’ Full SOP | High |
-| Delegation | Founder-dependent â†’ Role-based ownership for standard paths | High |
+| No formal assessment | Informal → [Legacy System Migration Assessment](../../../assessments/legacy-system-migration-assessment.md) + Approved Conversion Plan | High |
+| Pricing not standardized | Bundled practice → Approved policy | High |
+| Folder model | Customer-only copies → Vendor packages + client Overrides (**in progress** via Migration Tools) | High |
+| Validation / acceptance | Email informal → Checklist + signed acceptance | High |
+| Close-out | Informal → Close-out checklist | Medium |
+| Decision clarity | Tribal knowledge → Decision diagrams + UAT/Prod matrix | High |
+| Progress visibility | Opaque → Status tracking | Medium |
+| Utility catalog | Partial examples → Full SOP | High |
+| Delegation | Founder-dependent → Role-based ownership for standard paths | High |
 
 ---
 
@@ -236,7 +236,7 @@ Where this process should operate when Thin Line OS is mature:
 
 ## Decision trees
 
-### Decision 1 â€” Acquisition path and converter reuse
+### Decision 1 — Acquisition path and converter reuse
 
 ```mermaid
 flowchart TD
@@ -254,7 +254,7 @@ flowchart TD
   B -->|No| K[Convert before go-live - typical]
 ```
 
-### Decision 2 â€” UAT versus Production import
+### Decision 2 — UAT versus Production import
 
 ```mermaid
 flowchart TD
@@ -268,7 +268,7 @@ flowchart TD
   G --> H
 ```
 
-> <mark style="color:red;">**TODO:**</mark> Replace the â€œhigh riskâ€ heuristic with an approved decision matrix (risk, schedule, customer preference, data volume, go-live timing).
+> <mark style="color:red;">**TODO:**</mark> Replace the “high risk” heuristic with an approved decision matrix (risk, schedule, customer preference, data volume, go-live timing).
 
 ---
 
@@ -278,23 +278,23 @@ Starting estimates for planning and future KPIs. <mark style="color:red;">**TODO
 
 | Phase | Typical duration |
 |-------|------------------|
-| Assessment | 30â€“60 minutes |
+| Assessment | 30–60 minutes |
 | Pricing / commercial alignment | <mark style="color:red;">**TODO:**</mark> |
-| Data acquisition (Thin Line extract) | 1â€“3 hours (excludes customer/vendor wait time) |
+| Data acquisition (Thin Line extract) | 1–3 hours (excludes customer/vendor wait time) |
 | Customer/vendor export wait (cloud) | Customer dependent |
 | Mapping / script preparation | Variable (hours to days for new converters) |
-| Import | 15â€“60 minutes |
-| Post-conversion utilities | Minutesâ€“hours (volume / year filters); see [Post-Conversion Utilities](post-conversion-utilities.md) |
+| Import | 15–60 minutes |
+| Post-conversion utilities | Minutes–hours (volume / year filters); see [Post-Conversion Utilities](post-conversion-utilities.md) |
 | Customer validation | Customer dependent |
 | Corrections + close | Variable |
 
-**Overall engagement:** typically **1â€“10 business days** excluding extended customer or vendor wait states.
+**Overall engagement:** typically **1–10 business days** excluding extended customer or vendor wait states.
 
 ---
 
 ## Automation score
 
-Score each major process step **1â€“5** (1 = fully manual / founder-driven, 5 = scalable automation). Aligns with Customer Value Engine maturity language.
+Score each major process step **1–5** (1 = fully manual / founder-driven, 5 = scalable automation). Aligns with Customer Value Engine maturity language.
 
 | Process | Automation level | Notes |
 |---------|-----------------:|-------|
@@ -307,13 +307,13 @@ Score each major process step **1â€“5** (1 = fully manual / founder-driven,
 | Validation | 1 / 5 | Email + ad hoc customer review |
 | Close | 2 / 5 | Still informal; `ConvertedAgencies.md` register started |
 
-**Investment signal:** Validation, assessment, and close are the lowest-scoring steps â€” highest leverage for standardization before heavy automation.
+**Investment signal:** Validation, assessment, and close are the lowest-scoring steps — highest leverage for standardization before heavy automation.
 
 ---
 
 ## 9. Procedure
 
-### Phase 1 â€” Identify legacy platform
+### Phase 1 — Identify legacy platform
 
 Determine vendor, product version, cloud vs on-prem, modules in scope, and whether an existing converter exists.
 
@@ -321,7 +321,7 @@ Examples: CopSync / Kologik, CrimeStar, Tyler / INCODE (IncodeCourt), Xpediter.
 
 Living catalog: [Vendor Conversion Guides](vendor-packages/vendor-conversion-guides/README.md). Package layout: [Migration Package Standards](vendor-packages/migration-package-standards.md).
 
-### Phase 2 â€” Legacy System Migration Assessment
+### Phase 2 — Legacy System Migration Assessment
 
 Perform the [Legacy System Migration Assessment](../../../assessments/legacy-system-migration-assessment.md). **Today assessment is informal;** the target is a completed assessment form with an **Approved Conversion Plan**.
 
@@ -329,20 +329,20 @@ That assessment is the bridge between Sales, Implementation, and Engineering. It
 
 Do not treat pricing, schedule, or engineering commitments as final until the assessment recommendation is approved.
 
-### Phase 3 â€” Pricing
+### Phase 3 — Pricing
 
-Apply the [Migration Pricing Policy](../../../policies/migration-pricing.md) (Draft): migration is a one-time professional service; complete the [Legacy System Migration Assessment](../../../assessments/legacy-system-migration-assessment.md) before quoting; select Tier 1â€“4 (or discount/waiver with documented justification).
+Apply the [Migration Pricing Policy](../../../policies/migration-pricing.md) (Draft): migration is a one-time professional service; complete the [Legacy System Migration Assessment](../../../assessments/legacy-system-migration-assessment.md) before quoting; select Tier 1–4 (or discount/waiver with documented justification).
 
 > <mark style="color:red;">**Decision needed:**</mark> Approve the draft policy before using tier amounts as binding customer quotes. Discounts (including multi-year SaaS) must be recorded on the assessment.
 
-### Phase 4 â€” Data acquisition
+### Phase 4 — Data acquisition
 
 Follow [Decision 1](#decision-1--acquisition-path-and-converter-reuse).
 
 - **On-prem (e.g. Tyler):** remote access; extract directly; usually before go-live.
 - **Cloud (e.g. CopSync):** customer requests vendor export; may go live first and backfill.
 
-### Phase 5 â€” Prepare conversion
+### Phase 5 — Prepare conversion
 
 Follow product-repo **`Utilities/Migration Tools/PROCESS.md`** (agents **lead** this phase):
 
@@ -355,49 +355,49 @@ Follow product-repo **`Utilities/Migration Tools/PROCESS.md`** (agents **lead** 
 **Folder model (authoritative):**
 
 ```text
-Utilities/Migration Tools/          â† vendor packages (common only)
+Utilities/Migration Tools/          ← vendor packages (common only)
   <Vendor>/
     VERSION
     AgencyChecklist.md
     ConvertedAgencies.md
-    StagingImporter/                â† when applicable
+    StagingImporter/                ← when applicable
     SqlPackage/
       Pipeline/ or Common/scripts/
       Overrides/*.TEMPLATE.sql
 
-Clients/<Client>/Conversion/...     â† engagement working copy
-  AgencyChecklist.md                â† filled
-  Overrides/                        â† filled agency SQL
+Clients/<Client>/Conversion/...     ← engagement working copy
+  AgencyChecklist.md                ← filled
+  Overrides/                        ← filled agency SQL
   (pipeline scripts customized for this run)
 ```
 
 See [Vendor Conversion Guides](vendor-packages/vendor-conversion-guides/README.md) and [Migration Package Standards](vendor-packages/migration-package-standards.md).
 
-### Phase 6 â€” Execute conversion
+### Phase 6 — Execute conversion
 
 Follow [Decision 2](#decision-2--uat-versus-production-import).
 
-- **Option A:** Import to UAT â†’ validate â†’ Production  
+- **Option A:** Import to UAT → validate → Production  
 - **Option B:** Import to Production with converted-record tags  
 
-### Phase 7 â€” Run post-conversion utilities
+### Phase 7 — Run post-conversion utilities
 
-After import, use **Admin â†’ Data Utilities** to:
+After import, use **Admin → Data Utilities** to:
 
 - Advance converted **Incident / Citation / Warrant / Notepad** workflow statuses  
 - **Snapshot** CAD call master records (`ConvertedOn` pending marker)  
 
 Full procedure: [Post-Conversion Utilities](post-conversion-utilities.md).
 
-### Phase 8 â€” Customer validation
+### Phase 8 — Customer validation
 
-**Thin Line first:** Complete [Migration Validation Standard](migration-validation-standard.md) Layers Aâ€“B (counts, relationships, spot checks).
+**Thin Line first:** Complete [Migration Validation Standard](migration-validation-standard.md) Layers A–B (counts, relationships, spot checks).
 
 **Today:** Implementation Lead notifies customer by email; customer validates; corrections via follow-up; informal acceptance.
 
 **Target:** Deliver Conversion Summary, record counts, exception report, and [Customer Validation Checklist](../../../checklists/customer-validation-checklist.md); obtain [Customer Acceptance Form](../../../templates/customer-acceptance-form.md). Templates: [Conversion Summary](../../../templates/conversion-summary.md).
 
-### Phase 9 â€” Close migration
+### Phase 9 — Close migration
 
 Complete when corrections are done, customer has acknowledged, and internal documentation is updated.
 
@@ -437,8 +437,8 @@ See also [Common risks](#common-risks).
 
 | KPI | Definition | Target |
 |-----|------------|--------|
-| Average migration duration | Trigger â†’ close (business days), excluding wait states | <mark style="color:red;">**TODO:**</mark> |
-| Customer validation turnaround | Notification â†’ acknowledgement | <mark style="color:red;">**TODO:**</mark> |
+| Average migration duration | Trigger → close (business days), excluding wait states | <mark style="color:red;">**TODO:**</mark> |
+| Customer validation turnaround | Notification → acknowledgement | <mark style="color:red;">**TODO:**</mark> |
 | Corrections after migration | Post-notification defect cycles | <mark style="color:red;">**TODO:**</mark> |
 | Reuse rate | % using reusable vendor converter | <mark style="color:red;">**TODO:**</mark> |
 | Manual effort per migration | Implementation hours | <mark style="color:red;">**TODO:**</mark> |
@@ -453,16 +453,16 @@ See also [Common risks](#common-risks).
 | [Data conversion (CVE stage)](../../../customer-value-engine/deliver/data-conversion.md) | Stage context |
 | [Customer Onboarding](../customer-onboarding.md) | Related Deliver SOP (placeholder) |
 | [Bootstrap Environment](../infrastructure/bootstrap-environment.md) | Provision tenant before/with import (Infrastructure scripts) |
-| [Post-Conversion Utilities](post-conversion-utilities.md) | Phase 7 â€” Admin Data Utilities (workflow + call snapshot) |
+| [Post-Conversion Utilities](post-conversion-utilities.md) | Phase 7 — Admin Data Utilities (workflow + call snapshot) |
 | [Migration Philosophy](migration-philosophy.md) | Principles |
 | [Migration Architecture](migration-architecture.md) | One-page flow |
 | [Migration Decision Matrix](migration-decision-matrix.md) | Package vs configuration |
-| [Vendor Conversion Guides](vendor-packages/vendor-conversion-guides/README.md) | Phase 1 / 5 â€” per-vendor knowledge |
-| [Migration Package Standards](vendor-packages/migration-package-standards.md) | Manifest Â· VERSION Â· backlog |
+| [Vendor Conversion Guides](vendor-packages/vendor-conversion-guides/README.md) | Phase 1 / 5 — per-vendor knowledge |
+| [Migration Package Standards](vendor-packages/migration-package-standards.md) | Manifest · VERSION · backlog |
 | [Customer Configuration Standard](migration-customer-configuration.md) | Package + config = migration |
 | [Migration Validation Standard](migration-validation-standard.md) | Definition of success |
 | [Migration Metrics](migration-metrics.md) | Lightweight tracking |
-| [Legacy System Migration Assessment](../../../assessments/legacy-system-migration-assessment.md) | Phase 2 â€” required decision document |
+| [Legacy System Migration Assessment](../../../assessments/legacy-system-migration-assessment.md) | Phase 2 — required decision document |
 | [Migration Pricing Policy](../../../policies/migration-pricing.md) | Phase 3 |
 | [Customer Validation Checklist](../../../checklists/customer-validation-checklist.md) | Phase 8 |
 | [Conversion Summary Template](../../../templates/conversion-summary.md) | Phase 8 |
@@ -500,11 +500,11 @@ Thin Line OS SOPs are not static manuals. Each SOP ends with the same improvemen
 
 ### Product impact
 
-How Thin Line Platform (or internal platform) improvements could **reduce or eliminate** work in this SOP â€” input to product planning, not a commitment list.
+How Thin Line Platform (or internal platform) improvements could **reduce or eliminate** work in this SOP — input to product planning, not a commitment list.
 
-| If we buildâ€¦ | Work removed or reduced in this SOP |
+| If we build… | Work removed or reduced in this SOP |
 |--------------|-------------------------------------|
-| Supported Vendor Catalog | Manual â€œdoes a converter exist?â€ research |
+| Supported Vendor Catalog | Manual “does a converter exist?” research |
 | Migration Registry | Ad hoc status tracking and artifact hunting |
 | Schema Comparison + Mapping Engine | Cursor-only / tribal mapping cycles |
 | Customer Migration Portal | Email-driven validation and opaque progress |
@@ -517,10 +517,10 @@ How Thin Line Platform (or internal platform) improvements could **reduce or eli
 
 | | |
 |--|--|
-| **Current level** | **2â€“3 / 5** |
+| **Current level** | **2–3 / 5** |
 | **Description** | Documented SOP + vendor Migration Tools packages with checklist-driven engagements. Assessment/pricing forms exist; validation and close still informal; founder still involved for many runs. |
-| **Next milestone** | Delegate **standard** migrations (known vendor + existing package) to an Implementation specialist using this SOP, `PROCESS.md`, and vendor AgencyChecklist â€” without founder involvement. |
-| **Future goal** | Any implementation specialist can complete a standard migration using documented tooling, with formal assessment, validation, and acceptance â€” without founder involvement. |
+| **Next milestone** | Delegate **standard** migrations (known vendor + existing package) to an Implementation specialist using this SOP, `PROCESS.md`, and vendor AgencyChecklist — without founder involvement. |
+| **Future goal** | Any implementation specialist can complete a standard migration using documented tooling, with formal assessment, validation, and acceptance — without founder involvement. |
 
 | Score | Meaning |
 |------:|---------|
@@ -544,7 +544,7 @@ How Thin Line Platform (or internal platform) improvements could **reduce or eli
 
 | Date | Change | Author |
 |------|--------|--------|
-| 2026-07-17 | Initial draft â€” model SOP | Documentation draft |
-| 2026-07-17 | v1 enrichment â€” executive summary, swimlane, decision trees, current/target/gap, risks, timing, automation score, product impact, process maturity | Documentation draft |
+| 2026-07-17 | Initial draft — model SOP | Documentation draft |
+| 2026-07-17 | v1 enrichment — executive summary, swimlane, decision trees, current/target/gap, risks, timing, automation score, product impact, process maturity | Documentation draft |
 | 2026-07-17 | Phase 2 elevated to [Legacy System Migration Assessment](../../../assessments/legacy-system-migration-assessment.md) (Assessments category) | Documentation draft |
 | 2026-07-17 | Aligned with product-repo Migration Tools: vendor packages, PROCESS.md, checklist/Overrides, ConvertedAgencies, package standards | Documentation draft |

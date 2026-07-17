@@ -1,4 +1,4 @@
-﻿# Customer Data Migrated
+# Customer Data Migrated
 
 **Milestone:** Customer Data Migrated  
 **Document type:** Phase overview  

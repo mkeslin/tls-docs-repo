@@ -1,4 +1,4 @@
-﻿# Post-Conversion Utilities
+# Post-Conversion Utilities
 
 **Phase:** Deliver  
 **Document type:** SOP  
@@ -14,10 +14,10 @@
 | **Objective** | After legacy import, move converted module records out of conversion/draft workflow and snapshot CAD call master records so the tenant is usable for validation and go-live. |
 | **Typical duration** | Minutes to hours depending on volume (year filters recommended for large agencies). |
 | **Owner** | Implementation Lead *(current incumbent: Matthew Keslin)* |
-| **Primary stakeholders** | Implementation Â· Engineering (support claim) |
-| **Success criteria** | Converted incidents/citations/warrants/notepads are in expected end statuses Â· Converted calls have master snapshots Â· Sample records open correctly in UI |
-| **Related SOPs** | [Legacy System Migration](legacy-system-migration.md) Â· [Bootstrap Environment](../infrastructure/bootstrap-environment.md) |
-| **Authoritative UI** | Thin Line Admin â†’ **Data Utilities** (`/admin/data-utilities`) |
+| **Primary stakeholders** | Implementation · Engineering (support claim) |
+| **Success criteria** | Converted incidents/citations/warrants/notepads are in expected end statuses · Converted calls have master snapshots · Sample records open correctly in UI |
+| **Related SOPs** | [Legacy System Migration](legacy-system-migration.md) · [Bootstrap Environment](../infrastructure/bootstrap-environment.md) |
+| **Authoritative UI** | Thin Line Admin → **Data Utilities** (`/admin/data-utilities`) |
 
 ---
 
@@ -57,7 +57,7 @@ Legacy conversion scripts typically leave records in a **conversion** or **draft
 ### In scope
 
 - **Module Data Conversion Workflow** (Admin): Incident, Citation, Warrant, Notepad
-- **Data Conversion Snapshot** (Admin): CAD Calls â€” snapshot masters; optional restore `ConvertedOn`
+- **Data Conversion Snapshot** (Admin): CAD Calls — snapshot masters; optional restore `ConvertedOn`
 - Optional helpers on the same page: Location acronym sync; Incident deserialize test
 
 ### Out of scope
@@ -109,10 +109,10 @@ Legacy conversion scripts typically leave records in a **conversion** or **draft
 
 ## 7. Outputs
 
-- Incidents â†’ **Approved** (for matching filter)
-- Citations â†’ **Issued / Completed**
-- Warrants / Notepads in **Draft** â†’ **Completed**
-- Calls with `ConvertedOn` set â†’ new master snapshots (location, vehicle, person, organization); `ConvertedOn` cleared (import/conversion source tags preserved)
+- Incidents → **Approved** (for matching filter)
+- Citations → **Issued / Completed**
+- Warrants / Notepads in **Draft** → **Completed**
+- Calls with `ConvertedOn` set → new master snapshots (location, vehicle, person, organization); `ConvertedOn` cleared (import/conversion source tags preserved)
 - Optional: `ConvertedOn` restored from `ImportedOn` for audit after snapshot
 
 ---
@@ -121,7 +121,7 @@ Legacy conversion scripts typically leave records in a **conversion** or **draft
 
 | Tool | Use |
 |------|-----|
-| Admin â†’ **Data Utilities** | Primary UI (`AdminDataUtilities` / `AdminDataUtilityWorkflow`) |
+| Admin → **Data Utilities** | Primary UI (`AdminDataUtilities` / `AdminDataUtilityWorkflow`) |
 | API `PUT /tlsapi/utilities/...` | Same operations (support claim required) |
 | Spot-check in module UIs | Incidents, Citations, Warrants, Notepads, CAD Calls |
 
@@ -131,7 +131,7 @@ Legacy conversion scripts typically leave records in a **conversion** or **draft
 
 | Area | Today |
 |------|-------|
-| **Entry point** | Admin nav â†’ Data Utilities (error-styled support tool) |
+| **Entry point** | Admin nav → Data Utilities (error-styled support tool) |
 | **Workflow** | Bulk year-scoped transition via module services |
 | **Call masters** | Snapshot only rows with `ConvertedOn` set |
 | **Failures** | Per-record exceptions are caught and skipped; toast success does not mean every row succeeded |
@@ -151,11 +151,11 @@ Legacy conversion scripts typically leave records in a **conversion** or **draft
 
 ## 11. Gap analysis
 
-| Gap | Current â†’ Target | Priority |
+| Gap | Current → Target | Priority |
 |-----|------------------|----------|
-| Silent skip on errors | Toast-only â†’ counts / log | High |
-| Tribal sequencing | This SOP â†’ checklist-driven | Medium |
-| Call â€œworkflowâ€ wording | Legacy notes said call workflow; product uses **snapshot** for calls | Done (documented) |
+| Silent skip on errors | Toast-only → counts / log | High |
+| Tribal sequencing | This SOP → checklist-driven | Medium |
+| Call “workflow” wording | Legacy notes said call workflow; product uses **snapshot** for calls | Done (documented) |
 
 ---
 
@@ -211,9 +211,9 @@ flowchart TD
 | Phase | Typical duration |
 |-------|------------------|
 | Prep / access check | 5 min |
-| Workflow utilities (per module/year) | Minutesâ€“tens of minutes |
+| Workflow utilities (per module/year) | Minutes–tens of minutes |
 | Call snapshot (large CAD history) | Often the longest step |
-| Spot-check | 10â€“20 min |
+| Spot-check | 10–20 min |
 
 ---
 
@@ -229,18 +229,18 @@ flowchart TD
 
 ## 16. Procedure
 
-### Phase 0 â€” Confirm readiness
+### Phase 0 — Confirm readiness
 
 1. Confirm StagingImporter / Pipeline finished for this tenant.
 2. Note which modules and years were loaded (agency checklist / conversion notes).
 3. Sign in with Thin Line Support access.
-4. Open **Admin â†’ Data Utilities** (`/admin/data-utilities`).
+4. Open **Admin → Data Utilities** (`/admin/data-utilities`).
 
-### Phase 1 â€” Module Data Conversion Workflow
+### Phase 1 — Module Data Conversion Workflow
 
 Run only for modules that were converted. Defaults are usually correct for conversion: year **ALL** (or a specific year), filter **CONVERSION (0)** where offered, **Bypass Validations** on.
 
-#### Incident â€” Mark Approved
+#### Incident — Mark Approved
 
 | Control | Typical conversion value |
 |---------|--------------------------|
@@ -251,7 +251,7 @@ Run only for modules that were converted. Defaults are usually correct for conve
 
 **Effect:** For matching incidents, advances workflow to **Approved** (skips failing rows).
 
-#### Citation â€” Mark Issued
+#### Citation — Mark Issued
 
 | Control | Typical conversion value |
 |---------|--------------------------|
@@ -260,29 +260,29 @@ Run only for modules that were converted. Defaults are usually correct for conve
 | Bypass Validations | On |
 | Action | **Mark Issued** |
 
-**Effect:** Matching citations â†’ **Issued / Completed**.
+**Effect:** Matching citations → **Issued / Completed**.
 
-#### Warrant â€” Mark Completed
-
-| Control | Typical conversion value |
-|---------|--------------------------|
-| Reported Year | `ALL` or specific year |
-| Action | **Mark Completed** |
-
-**Effect:** Warrants still in **Draft** â†’ **Completed**.
-
-#### Notepad â€” Mark Completed
+#### Warrant — Mark Completed
 
 | Control | Typical conversion value |
 |---------|--------------------------|
 | Reported Year | `ALL` or specific year |
 | Action | **Mark Completed** |
 
-**Effect:** Notepads still in **Draft** â†’ **Completed**.
+**Effect:** Warrants still in **Draft** → **Completed**.
+
+#### Notepad — Mark Completed
+
+| Control | Typical conversion value |
+|---------|--------------------------|
+| Reported Year | `ALL` or specific year |
+| Action | **Mark Completed** |
+
+**Effect:** Notepads still in **Draft** → **Completed**.
 
 Wait for each request to finish (loading state) before starting the next.
 
-### Phase 2 â€” Data Conversion Snapshot (CAD Calls)
+### Phase 2 — Data Conversion Snapshot (CAD Calls)
 
 Converted calls are flagged with **`ConvertedOn`**. Until masters are snapshotted, call-linked persons/vehicles/locations/organizations may not behave like live records.
 
@@ -297,7 +297,7 @@ Converted calls are flagged with **`ConvertedOn`**. Until masters are snapshotte
 2. Clear `ConvertedOn` (pending-snapshot marker)  
 3. Preserve `ImportSource` / conversion tagging  
 
-#### Optional â€” Restore ConvertedOn
+#### Optional — Restore ConvertedOn
 
 If audit needs `ConvertedOn` populated again after snapshot:
 
@@ -307,14 +307,14 @@ If audit needs `ConvertedOn` populated again after snapshot:
 
 **Effect:** Sets `ConvertedOn` from `ImportedOn` where applicable; toast reports count updated.
 
-### Phase 3 â€” Optional helpers (same page)
+### Phase 3 — Optional helpers (same page)
 
 | Utility | When |
 |---------|------|
-| **Acronym Sync â†’ Locations** | Location acronyms need refresh after conversion |
-| **Deserialize Test** (Incident) | Engineering/support diagnostic only â€” not a standard go-live step |
+| **Acronym Sync → Locations** | Location acronyms need refresh after conversion |
+| **Deserialize Test** (Incident) | Engineering/support diagnostic only — not a standard go-live step |
 
-### Phase 4 â€” Verify
+### Phase 4 — Verify
 
 - [ ] Sample converted **incidents** open and show Approved (or expected) workflow  
 - [ ] Sample **citations** show Issued/Completed  
@@ -348,7 +348,7 @@ Utilities are done when Phase 4 checks pass for every module that was imported. 
 
 | KPI | Definition | Target |
 |-----|------------|--------|
-| Time to utilities complete | Import done â†’ Phase 4 pass | <mark style="color:red;">**TODO:**</mark> measure |
+| Time to utilities complete | Import done → Phase 4 pass | <mark style="color:red;">**TODO:**</mark> measure |
 | Re-run rate | Utilities needing second pass | <mark style="color:red;">**TODO:**</mark> |
 
 ---
@@ -360,7 +360,7 @@ Utilities are done when Phase 4 checks pass for every module that was imported. 
 | [Legacy System Migration](legacy-system-migration.md) | Phase 7 calls this SOP |
 | [Bootstrap Environment](../infrastructure/bootstrap-environment.md) | Tenant must exist before utilities |
 | [Migration Package Standards](vendor-packages/migration-package-standards.md) | What Pipeline left in conversion state |
-| Product UI | `ThinLine.UI` â†’ Admin Data Utilities |
+| Product UI | `ThinLine.UI` → Admin Data Utilities |
 | Product API | `UtilityController` (`/tlsapi/utilities`) |
 
 ---
@@ -381,10 +381,10 @@ Utilities are done when Phase 4 checks pass for every module that was imported. 
 
 ### Product impact
 
-| If we buildâ€¦ | Work reduced |
+| If we build… | Work reduced |
 |--------------|--------------|
 | Progress + failure report on Data Utilities | Blind re-runs and spot-check guessing |
-| â€œRun all for conversion tagâ€ | Per-module clicking |
+| “Run all for conversion tag” | Per-module clicking |
 
 ### Process maturity
 
@@ -410,4 +410,4 @@ Utilities are done when Phase 4 checks pass for every module that was imported. 
 | Date | Change |
 |------|--------|
 | 2026-07-17 | Placeholder stub |
-| 2026-07-17 | v1 â€” Admin Data Utilities: workflow transitions + call master snapshot procedure |
+| 2026-07-17 | v1 — Admin Data Utilities: workflow transitions + call master snapshot procedure |

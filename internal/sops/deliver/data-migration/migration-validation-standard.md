@@ -1,8 +1,8 @@
-﻿# Migration Validation Standard
+# Migration Validation Standard
 
 **Document type:** Standard  
 **Status:** v1  
-**Audience:** Implementation Â· Engineering Â· anyone signing off a conversion
+**Audience:** Implementation · Engineering · anyone signing off a conversion
 
 This document answers: **How do we know a migration succeeded?**
 
@@ -16,13 +16,13 @@ Reusable for **every** vendor package.
 
 A migration is successful when **all** of the following are true for the agreed scope:
 
-1. **Coverage** â€” In-scope modules have expected record presence (not empty when source had data).  
-2. **Integrity** â€” Critical relationships hold; orphans and broken FKs are understood or fixed.  
-3. **Usability** â€” Sample records open in Thin Line UI after [post-conversion utilities](post-conversion-utilities.md) where required.  
-4. **Traceability** â€” Converted rows carry agreed import / conversion tagging where the package uses it.  
-5. **Acceptance** â€” Customer has had a chance to validate and has acknowledged (informal today; formal form in target state).
+1. **Coverage** — In-scope modules have expected record presence (not empty when source had data).  
+2. **Integrity** — Critical relationships hold; orphans and broken FKs are understood or fixed.  
+3. **Usability** — Sample records open in Thin Line UI after [post-conversion utilities](post-conversion-utilities.md) where required.  
+4. **Traceability** — Converted rows carry agreed import / conversion tagging where the package uses it.  
+5. **Acceptance** — Customer has had a chance to validate and has acknowledged (informal today; formal form in target state).
 
-â€œPipeline finished without SQL errorsâ€ is **necessary but not sufficient**.
+“Pipeline finished without SQL errors” is **necessary but not sufficient**.
 
 ---
 
@@ -43,7 +43,7 @@ Run against the **target** database (UAT or Production per engagement decision).
 
 ### A1. Record counts
 
-Compare **source (or staging)** vs **Thin Line** for each in-scope entity. Exact 1:1 is not always required (filters, voids, duplicates)â€”document deltas.
+Compare **source (or staging)** vs **Thin Line** for each in-scope entity. Exact 1:1 is not always required (filters, voids, duplicates)—document deltas.
 
 | Entity (examples) | Source / staging count | Thin Line count | Delta / notes |
 |-------------------|------------------------:|----------------:|---------------|
@@ -65,10 +65,10 @@ Spot-query or script checks for critical links (examples; vendor packages may ad
 
 | Check | Intent |
 |-------|--------|
-| Incident â†’ primary offense / involvements | No silent loss of core case structure |
-| Citation â†’ person / violation where expected | Court / RMS usability |
-| Call â†’ location / units when source had them | CAD usability |
-| Converted row â†’ AgencyId | Correct tenant agency |
+| Incident → primary offense / involvements | No silent loss of core case structure |
+| Citation → person / violation where expected | Court / RMS usability |
+| Call → location / units when source had them | CAD usability |
+| Converted row → AgencyId | Correct tenant agency |
 | Master snapshot FKs on calls after utilities | Post-snapshot integrity |
 
 **Pass:** No material orphan rate without documented exception list.
@@ -149,7 +149,7 @@ Every engagement should produce a short exception list:
 
 | Item | Module | Severity | Disposition |
 |------|--------|----------|-------------|
-| â€¦ | â€¦ | Blocker / Major / Minor | Fixed / Accepted / Deferred |
+| … | … | Blocker / Major / Minor | Fixed / Accepted / Deferred |
 
 Blockers prevent acceptance. Accepted exceptions need customer awareness.
 
@@ -157,7 +157,7 @@ Blockers prevent acceptance. Accepted exceptions need customer awareness.
 
 ## Vendor-specific additions
 
-Vendor guides may add checks (e.g. court docket fields, FoxPro memo quirks). Those **add to** this standard; they do not replace layers Aâ€“D.
+Vendor guides may add checks (e.g. court docket fields, FoxPro memo quirks). Those **add to** this standard; they do not replace layers A–D.
 
 See [Vendor Conversion Guides](vendor-packages/vendor-conversion-guides/README.md).
 
@@ -165,7 +165,7 @@ See [Vendor Conversion Guides](vendor-packages/vendor-conversion-guides/README.m
 
 ## What we do not require (yet)
 
-Leave these as future maturityâ€”not blockers for v1 of this standard:
+Leave these as future maturity—not blockers for v1 of this standard:
 
 - Fully automated schema-diff scorecard in Hub  
 - Perfect person-dedup across the entire master index  
@@ -190,4 +190,4 @@ Track package improvements that close these gaps in the [package backlog](migrat
 
 | Date | Change |
 |------|--------|
-| 2026-07-17 | v1 â€” reusable success criteria and check layers |
+| 2026-07-17 | v1 — reusable success criteria and check layers |

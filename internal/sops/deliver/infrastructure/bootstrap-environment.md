@@ -1,4 +1,4 @@
-﻿# Bootstrap Environment
+# Bootstrap Environment
 
 **Phase:** Deliver  
 **Document type:** SOP  
@@ -12,12 +12,12 @@
 | | |
 |--|--|
 | **Objective** | Provision a new agency tenant **according to the [Bootstrap Environment Standard](bootstrap-environment-standard.md)** so platform wiring exists and health checks pass. |
-| **Typical duration** | 30â€“90 minutes for a standard full bootstrap (excluding credential wait / DNS). |
+| **Typical duration** | 30–90 minutes for a standard full bootstrap (excluding credential wait / DNS). |
 | **Owner** | Implementation Lead *(current incumbent: Matthew Keslin)* |
-| **Primary stakeholders** | Implementation Â· Engineering Â· Customer (DNS / go-live timing) |
-| **Success criteria** | [Environment Health Checklist](../../../checklists/environment-health-checklist.md) passes Â· naming/URLs match the Standard |
-| **Related standards** | [Bootstrap Environment Standard](bootstrap-environment-standard.md) Â· [Environment Inventory](environment-inventory-standard.md) Â· [Bootstrap vs Configuration](bootstrap-vs-configuration.md) |
-| **Related SOPs** | [Legacy System Migration](../data-migration/legacy-system-migration.md) Â· [Customer Onboarding](../customer-onboarding.md) Â· [Go-Live Readiness Assessment](../../../assessments/go-live-readiness-assessment.md) |
+| **Primary stakeholders** | Implementation · Engineering · Customer (DNS / go-live timing) |
+| **Success criteria** | [Environment Health Checklist](../../../checklists/environment-health-checklist.md) passes · naming/URLs match the Standard |
+| **Related standards** | [Bootstrap Environment Standard](bootstrap-environment-standard.md) · [Environment Inventory](environment-inventory-standard.md) · [Bootstrap vs Configuration](bootstrap-vs-configuration.md) |
+| **Related SOPs** | [Legacy System Migration](../data-migration/legacy-system-migration.md) · [Customer Onboarding](../customer-onboarding.md) · [Go-Live Readiness Assessment](../../../assessments/go-live-readiness-assessment.md) |
 | **Authoritative scripts** | Product monorepo `Infrastructure/` (especially `scripts/bootstrap-client.ps1`) |
 
 ---
@@ -67,14 +67,14 @@ Bootstrap does **not** perform agency business configuration (ORI, officers, cou
 - New agency environments: `dev`, `test`, or `prod` ([Environment Classification](environment-classification.md))
 - Full or partial runs of `Infrastructure/scripts/bootstrap-client.ps1`
 - Standalone re-runs of individual steps (idempotent)
-- Teardown via `teardown-client.ps1` when retiring a tenant ([Environment Lifecycle](environment-lifecycle.md) â€” Destroy)
+- Teardown via `teardown-client.ps1` when retiring a tenant ([Environment Lifecycle](environment-lifecycle.md) — Destroy)
 
 ### Out of scope
 
 - Agency **configuration** after infra is healthy ([Bootstrap vs Configuration](bootstrap-vs-configuration.md))
 - Legacy data conversion ([Legacy System Migration](../data-migration/legacy-system-migration.md))
 - Day-to-day support after go-live
-- Changing shared platform resources (SQL server host, App Service Plan, shared App Gateway appliance itself)â€”bootstrap **adds** client entries and databases
+- Changing shared platform resources (SQL server host, App Service Plan, shared App Gateway appliance itself)—bootstrap **adds** client entries and databases
 - Owning / refreshing baseline bacpacs ([Baseline Database Standard](baseline-database-standard.md))
 
 ---
@@ -103,7 +103,7 @@ Bootstrap does **not** perform agency business configuration (ORI, officers, cou
 - Access to the product Git repo (`Infrastructure/` folder)
 - SqlPackage available (repo `Clients\__DAC\SqlPackage.exe` or installed DAC)
 - For Build/Deploy steps: Azure DevOps CLI extension + PAT with Build/Release execute
-- Secrets available as environment variables (see [Tools](#8-tools))â€”do not commit secrets
+- Secrets available as environment variables (see [Tools](#8-tools))—do not commit secrets
 
 ---
 
@@ -143,7 +143,7 @@ Bootstrap does **not** perform agency business configuration (ORI, officers, cou
 | Directory API | Tenant config create/merge |
 | SqlPackage | Bacpac import |
 
-**Authoritative command reference:** product monorepo `Infrastructure/README.md` â€” keep this SOP aligned when scripts change; do not duplicate every parameter flag here.
+**Authoritative command reference:** product monorepo `Infrastructure/README.md` — keep this SOP aligned when scripts change; do not duplicate every parameter flag here.
 
 ---
 
@@ -167,18 +167,18 @@ Bootstrap does **not** perform agency business configuration (ORI, officers, cou
 | **Delegation** | Implementation specialists run full bootstrap from this SOP without founder involvement |
 | **CI/CD** | Non-interactive service principal / OIDC; approval gates for prod |
 | **Secrets** | Org secret store (not local defaults) |
-| **Visibility** | Hub / status for â€œenvironment readyâ€ |
+| **Visibility** | Hub / status for “environment ready” |
 
 ---
 
 ## 11. Gap analysis
 
-| Gap | Current â†’ Target | Priority |
+| Gap | Current → Target | Priority |
 |-----|------------------|----------|
-| Founder-dependent secrets/knowledge | Documented env vars + profiles â†’ specialist-runnable | High |
-| Interactive Azure login | Manual `az login` â†’ service principal / OIDC | Medium |
-| Prod approval | Honor system â†’ formal gate | Medium |
-| Hub status | None â†’ environment readiness signal | Low |
+| Founder-dependent secrets/knowledge | Documented env vars + profiles → specialist-runnable | High |
+| Interactive Azure login | Manual `az login` → service principal / OIDC | Medium |
+| Prod approval | Honor system → formal gate | Medium |
+| Hub status | None → environment readiness signal | Low |
 
 ---
 
@@ -234,9 +234,9 @@ Bootstrap (or at least Infra + Database) must exist before importing conversion 
 
 | Phase | Typical duration |
 |-------|------------------|
-| Prerequisites / secrets | 5â€“15 min |
-| Full `bootstrap-client.ps1` | 30â€“60 min |
-| Verification / smoke login | 10â€“15 min |
+| Prerequisites / secrets | 5–15 min |
+| Full `bootstrap-client.ps1` | 30–60 min |
+| Verification / smoke login | 10–15 min |
 | DNS / customer wait | Customer dependent |
 
 ---
@@ -254,13 +254,13 @@ Bootstrap (or at least Infra + Database) must exist before importing conversion 
 
 ## 16. Procedure
 
-### Phase 0 â€” Confirm parameters
+### Phase 0 — Confirm parameters
 
 1. Agree **AgencyName** (slug), **FriendlyAgencyName**, **Environment** (`dev`|`test`|`prod`), **VersionBranch**.
 2. Confirm bacpac source (default base RMS bacpac unless a special seed is required).
 3. Record parameters on the engagement notes / assessment.
 
-### Phase 1 â€” Machine / cloud setup
+### Phase 1 — Machine / cloud setup
 
 From a machine with the product repo:
 
@@ -272,7 +272,7 @@ az account set --subscription "<subscription-from-profile-or-override>"
 
 Install/verify Azure CLI, SqlPackage, and (for pipelines) `az extension add --name azure-devops`.
 
-### Phase 2 â€” Set secrets (session)
+### Phase 2 — Set secrets (session)
 
 Set only what the chosen Steps require. Prefer environment variables over embedding secrets in command history.
 
@@ -287,7 +287,7 @@ Set only what the chosen Steps require. Prefer environment variables over embedd
 
 Defaults for subscription, resource group, region, SQL server, and App Gateway come from **`Infrastructure/environments/<Environment>.profile.json`** and **`shared.profile.json`** when `-Environment` is set.
 
-### Phase 3 â€” Full bootstrap (standard path)
+### Phase 3 — Full bootstrap (standard path)
 
 From the **product repo root**:
 
@@ -304,7 +304,7 @@ Default **Steps** (in order):
 
 | Step | Script(s) | What it does |
 |------|-----------|--------------|
-| **Infra** | `01-bootstrap.ps1` â†’ `02-deploy.ps1` | Cloud/subscription/RG; Bicep deploy (SQL DB shell, API/UI apps, file share) |
+| **Infra** | `01-bootstrap.ps1` → `02-deploy.ps1` | Cloud/subscription/RG; Bicep deploy (SQL DB shell, API/UI apps, file share) |
 | **Database** | `03-deploy-database.ps1` | Import bacpac; post-import auth/agency SQL; optional elastic pool |
 | **AppGateway** | `04-update-app-gateway.ps1` | Backend pools, HTTPS listeners, routes (`-AutoPriority` when via bootstrap) |
 | **DescopeTenant** | `05-create-descope-tenant.ps1` | Create (or resolve) Descope tenant |
@@ -314,7 +314,7 @@ Default **Steps** (in order):
 
 Convenience: `BuildAndDeploy` runs Build then Deploy in one step list entry.
 
-### Phase 4 â€” Partial / repair runs
+### Phase 4 — Partial / repair runs
 
 Examples:
 
@@ -329,15 +329,15 @@ Examples:
 .\Infrastructure\scripts\bootstrap-client.ps1 ... -Steps "Deploy" -BuildId <id>
 ```
 
-Individual scripts under `Infrastructure/scripts/01-â€¦` through `07-â€¦` may also be run standalone; see product `Infrastructure/README.md`.
+Individual scripts under `Infrastructure/scripts/01-…` through `07-…` may also be run standalone; see product `Infrastructure/README.md`.
 
-### Phase 5 â€” Verify (health)
+### Phase 5 — Verify (health)
 
 Complete the [Environment Health Checklist](../../../checklists/environment-health-checklist.md).
 
-Confirm naming and URLs against the [Bootstrap Environment Standard](bootstrap-environment-standard.md). On pass, hand off to **Configuration** ([Bootstrap vs Configuration](bootstrap-vs-configuration.md)) â€” do not treat bootstrap as agency setup complete.
+Confirm naming and URLs against the [Bootstrap Environment Standard](bootstrap-environment-standard.md). On pass, hand off to **Configuration** ([Bootstrap vs Configuration](bootstrap-vs-configuration.md)) — do not treat bootstrap as agency setup complete.
 
-### Phase 6 â€” Teardown (only when retiring)
+### Phase 6 — Teardown (only when retiring)
 
 ```powershell
 .\Infrastructure\scripts\teardown-client.ps1 `
@@ -346,13 +346,13 @@ Confirm naming and URLs against the [Bootstrap Environment Standard](bootstrap-e
     -FriendlyAgencyName "<Display Name>"
 ```
 
-Default teardown steps: DirectoryConfig â†’ DescopeTenant â†’ AppGateway â†’ Database â†’ Infra (client apps/share). Shared SQL server / App Service Plan / gateway appliance remain.
+Default teardown steps: DirectoryConfig → DescopeTenant → AppGateway → Database → Infra (client apps/share). Shared SQL server / App Service Plan / gateway appliance remain.
 
 ---
 
 ## 17. Verification
 
-Bootstrap is complete when the [Environment Health Checklist](../../../checklists/environment-health-checklist.md) passes and the environment matches the [Bootstrap Environment Standard](bootstrap-environment-standard.md). Next lifecycle stages: Configuration â†’ (optional Migration) â†’ Training â†’ Go Live â€” see [Environment Lifecycle](environment-lifecycle.md).
+Bootstrap is complete when the [Environment Health Checklist](../../../checklists/environment-health-checklist.md) passes and the environment matches the [Bootstrap Environment Standard](bootstrap-environment-standard.md). Next lifecycle stages: Configuration → (optional Migration) → Training → Go Live — see [Environment Lifecycle](environment-lifecycle.md).
 
 ---
 
@@ -361,7 +361,7 @@ Bootstrap is complete when the [Environment Health Checklist](../../../checklist
 | Situation | Action |
 |-----------|--------|
 | Script throws on a step | Fix precondition (secret, path, Azure login); re-run **that** step or `-Steps` subset (idempotent) |
-| App Gateway / DNS not ready | Complete Infra/Database/Directory; run AppGateway later; optional `-SkipListeners` on `04-â€¦` when used standalone |
+| App Gateway / DNS not ready | Complete Infra/Database/Directory; run AppGateway later; optional `-SkipListeners` on `04-…` when used standalone |
 | Deploy pipeline fails | Confirm Directory config + BuildId; check DevOps PAT and branch |
 | Suspected shared-resource impact | **Stop.** Do not delete shared SQL server / plans; escalate to Engineering |
 
@@ -371,7 +371,7 @@ Bootstrap is complete when the [Environment Health Checklist](../../../checklist
 
 | KPI | Definition | Target |
 |-----|------------|--------|
-| Bootstrap duration | Start Phase 1 â†’ Phase 5 pass | <mark style="color:red;">**TODO:**</mark> measure |
+| Bootstrap duration | Start Phase 1 → Phase 5 pass | <mark style="color:red;">**TODO:**</mark> measure |
 | First-time success rate | Full run without rework | <mark style="color:red;">**TODO:**</mark> |
 | Specialist-run share | Bootstraps without founder | <mark style="color:red;">**TODO:**</mark> |
 
@@ -381,9 +381,9 @@ Bootstrap is complete when the [Environment Health Checklist](../../../checklist
 
 | Document | Relationship |
 |----------|--------------|
-| [Bootstrap Environment Standard](bootstrap-environment-standard.md) | What â€œdoneâ€ looks like (naming, DNS, tiers) |
+| [Bootstrap Environment Standard](bootstrap-environment-standard.md) | What “done” looks like (naming, DNS, tiers) |
 | [Environment Inventory Standard](environment-inventory-standard.md) | Bill of materials |
-| [Environment Lifecycle](environment-lifecycle.md) | Request â†’ destroy |
+| [Environment Lifecycle](environment-lifecycle.md) | Request → destroy |
 | [Environment Classification](environment-classification.md) | dev / test / prod / demo / training |
 | [Baseline Database Standard](baseline-database-standard.md) | Seed bacpac |
 | [Bootstrap vs Configuration](bootstrap-vs-configuration.md) | Boundary |
@@ -412,11 +412,11 @@ Bootstrap is complete when the [Environment Health Checklist](../../../checklist
 |-------------|----------|
 | Service principal / OIDC for Azure + DevOps | Interactive login / PAT churn |
 | Post-bootstrap smoke test script | Manual Phase 5 |
-| Hub â€œenvironment readyâ€ status | Ad hoc tracking |
+| Hub “environment ready” status | Ad hoc tracking |
 
 ### Product impact
 
-| If we buildâ€¦ | Work reduced |
+| If we build… | Work reduced |
 |--------------|--------------|
 | One-click / guided tenant provision in Hub | Manual PowerShell orchestration for standard cases |
 | Built-in smoke checks | Manual verification |
@@ -445,5 +445,5 @@ Bootstrap is complete when the [Environment Health Checklist](../../../checklist
 | Date | Change |
 |------|--------|
 | 2026-07-17 | Placeholder stub |
-| 2026-07-17 | v1 â€” documented current `Infrastructure/scripts/bootstrap-client.ps1` process (steps, profiles, secrets, verify, teardown) |
+| 2026-07-17 | v1 — documented current `Infrastructure/scripts/bootstrap-client.ps1` process (steps, profiles, secrets, verify, teardown) |
 | 2026-07-17 | Linked Bootstrap Standard, health checklist, lifecycle, config boundary |

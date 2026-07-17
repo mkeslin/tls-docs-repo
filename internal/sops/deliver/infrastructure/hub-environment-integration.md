@@ -1,10 +1,10 @@
-﻿# Hub Environment Integration
+# Hub Environment Integration
 
 **Document type:** Future-state design  
 **Status:** v1 draft (not implemented)  
-**Audience:** Product Â· Engineering Â· Implementation  
+**Audience:** Product · Engineering · Implementation  
 
-Bootstrap should eventually create more than Azure resources â€” it should create a **Thin Line Hub Environment** record so status, version, and health are visible without tribal knowledge.
+Bootstrap should eventually create more than Azure resources — it should create a **Thin Line Hub Environment** record so status, version, and health are visible without tribal knowledge.
 
 ---
 
@@ -33,7 +33,7 @@ flowchart TD
 |-------|---------|
 | AgencyName / FriendlyAgencyName | Identity |
 | Classification / tier | `dev` \| `test` \| `prod` (+ demo/training when formalized) |
-| Status | Requested Â· Bootstrapping Â· Ready Â· Configuring Â· Live Â· Retiring Â· Destroyed |
+| Status | Requested · Bootstrapping · Ready · Configuring · Live · Retiring · Destroyed |
 | UI / API URLs | From [Bootstrap Standard](bootstrap-environment-standard.md) |
 | SQL database name | Inventory |
 | Descope tenant id | Auth |
@@ -42,17 +42,17 @@ flowchart TD
 | Last health check | [Environment Health Checklist](../../../checklists/environment-health-checklist.md) |
 | Lifecycle stage | [Environment Lifecycle](environment-lifecycle.md) |
 
-Keep **agency business configuration** on a separate Hub object (or section) â€” see [Bootstrap vs Configuration](bootstrap-vs-configuration.md).
+Keep **agency business configuration** on a separate Hub object (or section) — see [Bootstrap vs Configuration](bootstrap-vs-configuration.md).
 
 ---
 
 ## Bootstrap integration (future)
 
-1. Start bootstrap â†’ Hub status **Bootstrapping**  
-2. Steps succeed â†’ upsert resource identifiers  
-3. Health checklist pass â†’ status **Ready**  
-4. Deploy pipeline â†’ append **Deployment history**  
-5. Teardown â†’ status **Destroyed** (retain record for audit)
+1. Start bootstrap → Hub status **Bootstrapping**  
+2. Steps succeed → upsert resource identifiers  
+3. Health checklist pass → status **Ready**  
+4. Deploy pipeline → append **Deployment history**  
+5. Teardown → status **Destroyed** (retain record for audit)
 
 Non-goals for v1 Hub: replacing Azure Portal; storing secrets.
 
@@ -84,4 +84,4 @@ Non-goals for v1 Hub: replacing Azure Portal; storing secrets.
 
 | Date | Change |
 |------|--------|
-| 2026-07-17 | v1 draft â€” future Hub Environment shape |
+| 2026-07-17 | v1 draft — future Hub Environment shape |

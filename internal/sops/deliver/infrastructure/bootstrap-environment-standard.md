@@ -1,15 +1,15 @@
-﻿# Bootstrap Environment Standard
+# Bootstrap Environment Standard
 
 **Document type:** Standard  
 **Status:** v1  
-**Audience:** Implementation Â· Engineering  
+**Audience:** Implementation · Engineering  
 
 Defines **what every Thin Line agency environment must look like** after bootstrap (and what names/URLs mean).
 
-**How to execute:** [Bootstrap Environment SOP](bootstrap-environment.md) â€” bootstrap **according to this standard**.  
+**How to execute:** [Bootstrap Environment SOP](bootstrap-environment.md) — bootstrap **according to this standard**.  
 **Authoritative code:** product monorepo `Infrastructure/` (`main.bicep`, `TlsBicepResourceNames.ps1`, `environments/*.profile.json`).
 
-Related: [Environment Inventory Standard](environment-inventory-standard.md) Â· [Environment Classification](environment-classification.md) Â· [Bootstrap vs Configuration](bootstrap-vs-configuration.md)
+Related: [Environment Inventory Standard](environment-inventory-standard.md) · [Environment Classification](environment-classification.md) · [Bootstrap vs Configuration](bootstrap-vs-configuration.md)
 
 ---
 
@@ -18,7 +18,7 @@ Related: [Environment Inventory Standard](environment-inventory-standard.md) Â�
 | Rule | Value |
 |------|--------|
 | Azure cloud | **Azure US Government** (`AzureUSGovernment`) |
-| Supported script tiers | `dev` Â· `test` Â· `prod` (see [Environment Classification](environment-classification.md)) |
+| Supported script tiers | `dev` · `test` · `prod` (see [Environment Classification](environment-classification.md)) |
 | Defaults | Per-tier `Infrastructure/environments/<tier>.profile.json` (`location`, subscription, RG, SQL server, Directory/Descope URLs) |
 | Shared App Gateway | `environments/shared.profile.json` (`appGatewayResourceGroup`, `appGatewayName`) |
 
@@ -74,7 +74,7 @@ Default hostname suffix: **`thinline.app`**
 | UI | `{AgencyName}.thinline.app` |
 | API | `{AgencyName}-api.thinline.app` |
 
-Test-tier Directory / auth hosts use test platform URLs from the **test** profile (e.g. `directory-api-test.thinline.app`, `auth-test.thinline.app`)â€”agency UI/API hostnames still follow the pattern above unless a profile/Directory override says otherwise.
+Test-tier Directory / auth hosts use test platform URLs from the **test** profile (e.g. `directory-api-test.thinline.app`, `auth-test.thinline.app`)—agency UI/API hostnames still follow the pattern above unless a profile/Directory override says otherwise.
 
 App Gateway: HTTPS listeners + SNI for both hostnames (`04-update-app-gateway.ps1`). Optional `-SkipListeners` only when DNS is intentionally deferred.
 
@@ -96,7 +96,7 @@ App Gateway: HTTPS listeners + SNI for both hostnames (`04-update-app-gateway.ps
 
 | Rule | Today |
 |------|--------|
-| Required Azure tags on per-agency resources | <mark style="color:red;">**TODO:**</mark> Confirm whether Bicep applies standard tags (`Agency`, `Environment`, `ManagedBy`) â€” if not, add to platform backlog |
+| Required Azure tags on per-agency resources | <mark style="color:red;">**TODO:**</mark> Confirm whether Bicep applies standard tags (`Agency`, `Environment`, `ManagedBy`) — if not, add to platform backlog |
 
 Until confirmed, do not assume tags exist for cost allocation.
 
@@ -133,7 +133,7 @@ Secrets are **never** in profiles: use session env vars (`TLS_DESCOPE_*`, `TLS_D
 
 ---
 
-## Definition of â€œbootstrap completeâ€
+## Definition of “bootstrap complete”
 
 An environment meets this standard when:
 
@@ -144,7 +144,7 @@ An environment meets this standard when:
 5. Apps deployed for the chosen VersionBranch  
 6. [Environment Health Checklist](../../../checklists/environment-health-checklist.md) passes  
 
-**Bootstrap stops** at infrastructure + platform wiring. Agency business configuration is **not** part of this standard â€” see [Bootstrap vs Configuration](bootstrap-vs-configuration.md).
+**Bootstrap stops** at infrastructure + platform wiring. Agency business configuration is **not** part of this standard — see [Bootstrap vs Configuration](bootstrap-vs-configuration.md).
 
 ---
 
@@ -154,7 +154,7 @@ An environment meets this standard when:
 |----------|------|
 | [Bootstrap Environment SOP](bootstrap-environment.md) | How to run scripts |
 | [Environment Inventory Standard](environment-inventory-standard.md) | What an environment contains |
-| [Environment Lifecycle](environment-lifecycle.md) | Request â†’ destroy |
+| [Environment Lifecycle](environment-lifecycle.md) | Request → destroy |
 | Product `Infrastructure/README.md` | Command detail |
 
 ---
@@ -163,4 +163,4 @@ An environment meets this standard when:
 
 | Date | Change |
 |------|--------|
-| 2026-07-17 | v1 â€” naming, DNS, tiers, completion criteria |
+| 2026-07-17 | v1 — naming, DNS, tiers, completion criteria |
