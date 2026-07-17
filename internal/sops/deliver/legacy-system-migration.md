@@ -176,7 +176,7 @@ How Thin Line performs legacy migrations **today**:
 | **Acquisition** | On-prem: remote server extract (often before go-live). Cloud: customer requests vendor export (may backfill after go-live) |
 | **Preparation** | **Vendor packages** in product Git (`Utilities/Migration Tools/<Vendor>/`) with common Pipeline + agency checklist; engagement copies under `Clients/<Client>/Conversion/` (and Team Drive). Agents follow `PROCESS.md` (copy template → checklist → Overrides → promote reusable fixes) |
 | **Execution** | Either UAT-then-Production **or** direct Production with tagged converted records — choice is judgment-based |
-| **Utilities** | Run known post-import utilities (incident / citation / call workflow transition; snapshot masters). Full catalog not yet documented |
+| **Utilities** | Admin → Data Utilities: module workflow transitions + CAD call master snapshot ([Post-Conversion Utilities](post-conversion-utilities.md)) |
 | **Validation** | Implementation Lead emails customer; customer validates; corrections via follow-up. Acceptance is informal (typically email) |
 | **Close** | Informal when corrections and acknowledgement are done; vendor `ConvertedAgencies.md` should record agency, date, and package VERSION |
 | **Visibility** | Limited customer visibility into migration progress |
@@ -284,7 +284,7 @@ Starting estimates for planning and future KPIs. <mark style="color:red;">**TODO
 | Customer/vendor export wait (cloud) | Customer dependent |
 | Mapping / script preparation | Variable (hours to days for new converters) |
 | Import | 15–60 minutes |
-| Post-conversion utilities | <mark style="color:red;">**TODO:**</mark> |
+| Post-conversion utilities | Minutes–hours (volume / year filters); see [Post-Conversion Utilities](post-conversion-utilities.md) |
 | Customer validation | Customer dependent |
 | Corrections + close | Variable |
 
@@ -382,14 +382,12 @@ Follow [Decision 2](#decision-2--uat-versus-production-import).
 
 ### Phase 7 — Run post-conversion utilities
 
-Run required utilities after import. Known examples:
+After import, use **Admin → Data Utilities** to:
 
-- Incident workflow transition  
-- Citation workflow transition  
-- Call workflow transition  
-- Snapshot master records  
+- Advance converted **Incident / Citation / Warrant / Notepad** workflow statuses  
+- **Snapshot** CAD call master records (`ConvertedOn` pending marker)  
 
-Full procedure: [Post-Conversion Utilities](post-conversion-utilities.md) (<mark style="color:red;">**TODO:**</mark> complete catalog).
+Full procedure: [Post-Conversion Utilities](post-conversion-utilities.md).
 
 ### Phase 8 — Customer validation
 
@@ -453,7 +451,7 @@ See also [Common risks](#common-risks).
 | [Data conversion (CVE stage)](../../customer-value-engine/deliver/data-conversion.md) | Stage context |
 | [Customer Onboarding](customer-onboarding.md) | Related Deliver SOP (placeholder) |
 | [Bootstrap Environment](bootstrap-environment.md) | Provision tenant before/with import (Infrastructure scripts) |
-| [Post-Conversion Utilities](post-conversion-utilities.md) | Phase 7 |
+| [Post-Conversion Utilities](post-conversion-utilities.md) | Phase 7 — Admin Data Utilities (workflow + call snapshot) |
 | [Vendor Conversion Guides](vendor-conversion-guides/README.md) | Phase 1 / 5 — vendor catalog |
 | [Migration Package Standards](migration-package-standards.md) | Phase 5 — package layout, VERSION, promote rules |
 | [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md) | Phase 2 — required decision document |
