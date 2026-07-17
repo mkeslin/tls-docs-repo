@@ -98,6 +98,7 @@
     * [Customer Configuration Standard](internal/sops/deliver/data-migration/migration-customer-configuration.md)
     * [Migration Metrics](internal/sops/deliver/data-migration/migration-metrics.md)
   * [Configuration Complete](internal/sops/deliver/configuration.md)
+    * [Agency & Module Settings](internal/sops/deliver/configuration/agency-settings.md)
   * [Integrations Verified](internal/sops/deliver/integrations.md)
   * [Customer Trained](internal/sops/deliver/training.md)
   * [Customer Live](internal/sops/deliver/go-live.md)
@@ -123,6 +124,7 @@
 * [Policies](internal/policies/README.md)
 * [Checklists](internal/checklists/README.md)
   * [Environment Health Checklist](internal/checklists/environment-health-checklist.md)
+  * [Agency Configuration Checklist](internal/checklists/agency-configuration-checklist.md)
   * [Customer Validation Checklist](internal/checklists/customer-validation-checklist.md)
 * [Templates](internal/templates/README.md)
 

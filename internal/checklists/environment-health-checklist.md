@@ -4,7 +4,7 @@
 **Status:** v1  
 **Use after:** [Bootstrap Environment SOP](../sops/deliver/infrastructure/bootstrap-environment.md) Phase 5 · before Configuration handoff · after major Upgrade  
 
-Reusable verification that an environment's **platform wiring** works. Does **not** cover agency business configuration (ORI, officers, courts) — see [Bootstrap vs Configuration](../sops/deliver/infrastructure/bootstrap-vs-configuration.md).
+Reusable verification that an environment's **platform wiring** works. Does **not** cover agency business configuration (ORI, officers, courts) — see [Agency Configuration Checklist](agency-configuration-checklist.md) and [Bootstrap vs Configuration](../sops/deliver/infrastructure/bootstrap-vs-configuration.md).
 
 Naming/URLs must match [Bootstrap Environment Standard](../sops/deliver/infrastructure/bootstrap-environment-standard.md).
 
@@ -59,7 +59,7 @@ Naming/URLs must match [Bootstrap Environment Standard](../sops/deliver/infrastr
 
 | Result | Next |
 |--------|------|
-| ★ Pass | Proceed to **Configuration** ([Bootstrap vs Configuration](../sops/deliver/infrastructure/bootstrap-vs-configuration.md)) |
+| ★ Pass | Proceed to **Configuration** ([Agency Configuration Checklist](agency-configuration-checklist.md) · [Bootstrap vs Configuration](../sops/deliver/infrastructure/bootstrap-vs-configuration.md)) |
 | ★ Pass with deferrals | List deferrals (e.g. DNS): |
 | ★ Fail | Stop; fix via Bootstrap SOP partial `-Steps` / escalate |
 

@@ -31,7 +31,7 @@ flowchart TD
 |-------|---------|--------------|
 | **Request** | Agency slug, tier, VersionBranch, commercial readiness agreed | Onboarding / assessment |
 | **Bootstrap** | Infra + DB seed + auth + Directory + gateway + deploy | [Bootstrap SOP](bootstrap-environment.md) · [Standard](bootstrap-environment-standard.md) |
-| **Configuration** | Agency settings, ORI, officers, courts, codes, printers, email, policies | [Bootstrap vs Configuration](bootstrap-vs-configuration.md) · future Implementation SOPs |
+| **Configuration** | Agency settings, ORI, officers, courts, codes, printers, email, policies | [Configuration Complete](../configuration.md) · [Agency Configuration Checklist](../../../checklists/agency-configuration-checklist.md) · [Bootstrap vs Configuration](bootstrap-vs-configuration.md) |
 | **Migration** | Historical data (if in scope) | [Legacy System Migration](../data-migration/legacy-system-migration.md) |
 | **Training** | Customer enablement | CVE Training *(placeholder SOP)* |
 | **Go Live** | Exclusive / production use | Go-Live Readiness Assessment |

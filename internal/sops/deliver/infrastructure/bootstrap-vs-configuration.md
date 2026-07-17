@@ -32,18 +32,22 @@ Bootstrap **stops** when the [Bootstrap Environment Standard](bootstrap-environm
 
 ## Configuration begins (not bootstrap)
 
+Primary product surface: Admin → **Agency & Module Settings** — see [Agency & Module Settings](../configuration/agency-settings.md) and [Agency Configuration Checklist](../../../checklists/agency-configuration-checklist.md).
+
 | Area | Examples |
 |------|----------|
-| Agency profile | ORI, addresses, time zone, branding beyond display name |
-| People | Officers, users, roles, shifts |
-| Courts | Court agencies, judges, dockets setup |
+| Agency profile | ORI, addresses, branding, theme, report/document headers |
+| Modules | Enable modules; record number patterns; next numbers |
+| Workflow | Dashboard notifications; IBRS validate on submit/approve |
+| People | Officers, users, roles (separate Admin screens) |
+| Courts | Court settings, appearance defaults, program due dates, payments |
 | Codes | Violation / offense / local code lists beyond baseline |
 | Devices | Printers, scanners, mobile |
 | Comms | Email SMTP / notification settings |
-| Policies | Agency validation flags, IBRS options, workflow policy toggles |
-| Integrations | Third-party endpoints specific to the customer |
+| Policies | Agency validation flags, IBRS options, sharing |
+| Integrations | OmniBase, Stripe, CAD webhooks (verify under Integrations Verified) |
 
-These belong to **Implementation / configuration** SOPs (and eventually Hub configuration), not `bootstrap-client.ps1`.
+These belong to **Configuration Complete** and related Admin work, not `bootstrap-client.ps1`.
 
 ---
 
@@ -83,6 +87,9 @@ See [Environment Lifecycle](environment-lifecycle.md).
 | Document | Role |
 |----------|------|
 | [Bootstrap Environment SOP](bootstrap-environment.md) | How to bootstrap |
+| [Configuration Complete](../configuration.md) | Phase overview |
+| [Agency & Module Settings](../configuration/agency-settings.md) | Admin Agency inventory |
+| [Agency Configuration Checklist](../../../checklists/agency-configuration-checklist.md) | Engagement checklist |
 | [Customer Onboarding](../customer-onboarding.md) | Broader Deliver sequence *(placeholder)* |
 | [Hub Environment Integration](hub-environment-integration.md) | Future Environment vs Configuration objects |
 
@@ -93,3 +100,4 @@ See [Environment Lifecycle](environment-lifecycle.md).
 | Date | Change |
 |------|--------|
 | 2026-07-17 | v1 — boundary definition |
+| 2026-07-17 | Linked Agency & Module Settings + configuration checklist |

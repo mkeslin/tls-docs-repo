@@ -63,6 +63,14 @@ Each phase overview uses: **Purpose · Inputs · Activities · Outputs · Exit crite
 | [Validation](data-migration/migration-validation-standard.md) | Standard |
 | [Customer Acceptance](data-migration/customer-acceptance.md) | Acceptance |
 
+### Configuration Complete
+
+| Doc | Type |
+|-----|------|
+| [Agency & Module Settings](configuration/agency-settings.md) | Reference |
+| [Agency Configuration Checklist](../../checklists/agency-configuration-checklist.md) | Checklist |
+| [Bootstrap vs Configuration](infrastructure/bootstrap-vs-configuration.md) | Boundary |
+
 ---
 
 ## Assessments

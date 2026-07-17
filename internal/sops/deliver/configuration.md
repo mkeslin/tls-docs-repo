@@ -2,7 +2,7 @@
 
 **Milestone:** Configuration Complete  
 **Document type:** Phase overview  
-**Status:** <mark style="color:red;">Placeholder</mark>  
+**Status:** v1  
 
 Engagement status: ☐ Not started · ☐ In progress · ☐ Complete
 
@@ -10,7 +10,9 @@ Engagement status: ☐ Not started · ☐ In progress · ☐ Complete
 
 ## Purpose
 
-Finish agency **business setup** so the customer can work in Thin Line: ORI, officers, courts, codes, devices, email, policies. Distinct from Infrastructure Ready ([Bootstrap vs Configuration](infrastructure/bootstrap-vs-configuration.md)).
+Finish agency **business setup** so the customer can work in Thin Line: Admin → **Agency & Module Settings**, officers, users, codes, and related Admin areas. Distinct from Infrastructure Ready ([Bootstrap vs Configuration](infrastructure/bootstrap-vs-configuration.md)).
+
+This phase ends when in-scope configuration is done (or deferred with owners)—not when integrations are live or training is finished.
 
 ---
 
@@ -21,34 +23,42 @@ Finish agency **business setup** so the customer can work in Thin Line: ORI, off
 | Infrastructure Ready | [Infrastructure Ready](infrastructure/README.md) |
 | Customer Data Migrated (or N/A) | [Customer Data Migrated](data-migration/README.md) |
 | Agency preferences / worksheets | Kickoff / customer |
+| Module / license scope | Contract / Kickoff |
 | Baseline codes already in bacpac | Seed DB |
+| Migration Overrides (if migrated) | Number patterns / code maps |
 
 ---
 
 ## Activities
 
-1. Agency profile (ORI, addresses, branding beyond display name).  
-2. Officers, users, roles.  
-3. Courts / dockets as required.  
-4. Local codes and policy toggles.  
-5. Printers, email, other agency settings.  
-
-<mark style="color:red;">**TODO:**</mark> Configuration checklist and SOP.
+1. Complete [Agency & Module Settings](configuration/agency-settings.md) for the agency type and licensed modules (General, Modules, Notifications & Workflow, Reports, Documents; Record Sharing if multi-agency).  
+2. Configure related Admin areas: officers, users/roles, codes, CAD dispatch agencies, evidence locations as in scope.  
+3. Align record number patterns with migration Overrides when historical data was imported.  
+4. Work the [Agency Configuration Checklist](../../checklists/agency-configuration-checklist.md); mark N/A where out of scope.  
+5. Smoke core workflows in the configured tenant (create/open a record in each enabled module family).  
+6. Hand off open items (payments live verify, partner webhooks) to [Integrations Verified](integrations.md) when needed.  
 
 ---
 
 ## Outputs
 
-- Configured agency ready for integrations and/or training  
-- Documented remaining config debt (if any)  
+| Output | Notes |
+|--------|--------|
+| Configured agency settings | Identity, modules, headers, workflow toggles |
+| People / codes ready for go-live cohort | Officers, users, required codes |
+| Completed (or N/A) configuration checklist | Required |
+| Config debt list | Deferred items with owners |
 
 ---
 
 ## Exit criteria
 
-- [ ] Agreed configuration checklist items complete for go-live scope  
-- [ ] Customer can perform core workflows in a configured tenant (smoke)  
-- [ ] Open config items listed with owners / deferrals  
+Milestone **Configuration Complete** when:
+
+- [ ] [Agency Configuration Checklist](../../checklists/agency-configuration-checklist.md) complete for go-live scope (or items deferred with owners)  
+- [ ] Agency & Module Settings match [Agency & Module Settings](configuration/agency-settings.md) exit criteria for in-scope cards  
+- [ ] Customer (or Implementation) can perform core workflows in a configured tenant (smoke)  
+- [ ] Platform health remains green — not re-run as configuration; see [Environment Health Checklist](../../checklists/environment-health-checklist.md) if infra changed  
 
 ---
 
@@ -56,8 +66,9 @@ Finish agency **business setup** so the customer can work in Thin Line: ORI, off
 
 | Doc | Type |
 |-----|------|
+| [Agency & Module Settings](configuration/agency-settings.md) | Reference |
+| [Agency Configuration Checklist](../../checklists/agency-configuration-checklist.md) | Checklist |
 | [Bootstrap vs Configuration](infrastructure/bootstrap-vs-configuration.md) | Boundary |
-| <mark style="color:red;">**TODO:**</mark> Configuration SOP / checklist | Procedure |
 | [Implementation Methodology](implementation-methodology.md) | Parent |
 
 **Previous:** [Customer Data Migrated](data-migration/README.md) or [Infrastructure Ready](infrastructure/README.md)  

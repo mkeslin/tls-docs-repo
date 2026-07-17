@@ -7,6 +7,7 @@ Verification lists used with SOPs and implementation work.
 | Checklist | Status |
 |-----------|--------|
 | [Environment Health Checklist](environment-health-checklist.md) | v1 — after bootstrap / upgrade |
+| [Agency Configuration Checklist](agency-configuration-checklist.md) | v1 — Configuration Complete |
 | [Customer Validation Checklist](customer-validation-checklist.md) | v1 — after migration |
 | [Migration Close-Out Checklist](migration-close-out-checklist.md) | <mark style="color:red;">Placeholder</mark> |
 
@@ -15,6 +16,5 @@ Verification lists used with SOPs and implementation work.
 - Demo readiness
 - Go-live readiness
 - Support ticket quality / closure
-- Agency configuration checklist (post-bootstrap)
 
 Link each checklist from the related SOP and Customer Value Engine stage page.
