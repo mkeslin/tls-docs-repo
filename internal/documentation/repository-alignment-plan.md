@@ -1,9 +1,25 @@
 # Repository alignment plan
 
 **Repository:** `tls-docs-repo` (`c:\TLS2\tls-docs-repo`)  
-**Phase:** 1 — Audit and plan (no content moves in this phase)  
-**Date:** 2026-07-16  
-**Status:** Draft for founder review
+**Phase:** 1 audit complete; Phase 2 scoped for near-term build  
+**Date:** 2026-07-16 (updated 2026-07-17)  
+**Status:** Near-term scope approved — see refined direction below
+
+## Refined direction (2026-07-17)
+
+Near-term goals are **two documentation areas only**:
+
+1. **`internal/`** — Company information, policies, and procedures (staff-only).
+2. **`customer/`** — External resources for training and supporting customers.
+
+### Explicit out of scope for now
+
+| Path | Rule |
+|------|------|
+| `release-notes/` | **Do not move, rename, or reorganize.** Consumed by the RMS application. Leave as-is. |
+| `guide/` | **Do not move or reorganize yet.** Still consumed by in-app Help. New customer training content goes under `customer/`; existing guide pages remain at legacy paths until a later migration is approved. |
+
+Do not invent product behavior or procedures. Use `TODO:` and `Decision needed:` markers on skeleton pages.
 
 ## Executive summary
 
@@ -11,10 +27,10 @@
 
 The highest-value near-term work is to:
 
-1. **Preserve and reorganize existing customer content** without breaking the RMS in-app Help experience.
-2. **Stand up the `internal/` tree** around the customer value stream and SOP framework.
-3. **Replace the GitBook onboarding template** in `gitbook/` with a real repository entry point and navigation.
-4. **Close product documentation gaps** (court, jail/corrections, citations, incidents, evidence) where pages are placeholders or missing.
+1. **Stand up `internal/`** for company strategy, policies, operating system, and SOPs.
+2. **Stand up `customer/`** for training and support resources (new content; do not disturb `guide/` or `release-notes/`).
+3. **Add root `README.md` and `SUMMARY.md`** so GitBook (or similar) can navigate the two areas.
+4. **Defer** migration of `guide/` and any change to `release-notes/` until explicitly approved.
 
 ---
 

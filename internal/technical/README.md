@@ -1,0 +1,28 @@
+# Technical
+
+Internal technical runbooks and references for environments, releases, and infrastructure.
+
+## Purpose
+
+Document how Thin Line builds, deploys, and operates the platform — for staff, not customers.
+
+## Contents
+
+**TODO:** Add runbooks for:
+
+- Azure environments and tenant provisioning (Bicep)
+- Azure DevOps pipelines and release process
+- Database / SQL operational notes (non-destructive)
+- Access and secrets handling (no secrets in this repo)
+
+**Decision needed:** What stays in the `ThinLineSoftware` monorepo vs. this docs repo. Prefer linking to authoritative engineering docs rather than duplicating them.
+
+## Related
+
+- [Product](../product/README.md)
+- [Operate — product updates](../operating-system/operate/product-updates.md)
+- [Deliver — bootstrap environment](../operating-system/deliver/bootstrap-environment.md)
+
+## Safety
+
+Do not commit connection strings, API keys, or customer data. Prefer `TODO:` pointers to secure stores.

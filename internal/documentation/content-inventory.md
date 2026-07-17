@@ -2,8 +2,14 @@
 
 **Repository:** `tls-docs-repo`  
 **Phase:** 1 — Audit only  
-**Date:** 2026-07-16  
+**Date:** 2026-07-16 (note added 2026-07-17)  
 **Related:** [repository-alignment-plan.md](repository-alignment-plan.md)
+
+## Near-term scope note (2026-07-17)
+
+- **`release-notes/`** — Do not move, rename, or reorganize (application-consumed). Inventory rows below remain for reference only.
+- **`guide/`** — Do not reorganize yet. New external training/support content is authored under `customer/`.
+- **`internal/`** and **`customer/`** — Foundational skeletons added; fill with real process and training content over time.
 
 ## Legend
 
