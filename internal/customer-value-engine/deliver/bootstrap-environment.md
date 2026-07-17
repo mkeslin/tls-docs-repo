@@ -1,27 +1,40 @@
 # Bootstrap environment
 
 **Phase:** Deliver  
-**Desired outcome:** Provision agency
+**Desired outcome:** Provision agency tenant (Azure + auth + Directory + apps)
 
 ## Inputs
 
-Customer configuration
+- Agency slug (`AgencyName`) and display name (`FriendlyAgencyName`)
+- Environment tier: `dev` | `test` | `prod`
+- Release / version branch (e.g. `release/6.1.0`)
+- Session secrets (SQL, Descope, DevOps PAT, Directory API as required)
 
 ## Outputs
 
-Live tenant
+- Live tenant: SQL DB, API/UI apps, App Gateway hostnames, Descope tenant, Directory config, deployed build
 
 ## Owner
 
-Keslin
+Keslin (Implementation Lead)
 
 ## Current process
 
-Deploy tenant with scripts
+Orchestrated PowerShell from the product monorepo:
+
+1. Azure US Government login (`az cloud set` / `az login`)
+2. Set required env vars (`TLS_SQL_*`, `TLS_DESCOPE_*`, `TLS_DEVOPS_PAT`, Directory overrides as needed)
+3. Run `Infrastructure/scripts/bootstrap-client.ps1` with `-Environment`, `-AgencyName`, `-FriendlyAgencyName`, `-VersionBranch` (default Steps: Infra → Database → AppGateway → DescopeTenant → DirectoryConfig → Build → Deploy)
+4. Verify URLs and smoke login
+5. Proceed to configuration / training / [Legacy System Migration](../../sops/deliver/legacy-system-migration.md) when historical data is in scope
+
+Partial re-runs use `-Steps`. Teardown: `teardown-client.ps1`.
 
 ## Tooling
 
-Azure, Bicep scripts
+- Product repo `Infrastructure/scripts/` (`bootstrap-client.ps1`, `01`–`07`, profiles under `environments/`)
+- Azure CLI (US Government), SqlPackage, Azure DevOps PAT for Build/Deploy
+- Descope management API · Directory API
 
 ## Capacity (today)
 
@@ -29,7 +42,7 @@ Azure, Bicep scripts
 
 ## Cycle time
 
-30–60 min
+30–60 min (full bootstrap; excludes DNS / customer wait)
 
 ## Maturity
 
@@ -45,17 +58,17 @@ Azure, Bicep scripts
 
 ## What would break first?
 
-Manual provisioning
+Missing secrets / PAT · wrong AgencyName or Environment · SqlPackage or Directory API unreachable · Deploy without BuildId
 
 ## Continuous improvement (10x ideas)
 
 | Lens | Idea |
 |------|------|
-| Reduce / Simplify | Manual setup |
-| Standardize | Deployment templates |
-| Automate | One-click provisioning |
-| Delegate | Implementation |
-| Scale | Fully automated tenant creation |
+| Reduce / Simplify | Fewer manual secret steps |
+| Standardize | Profiles + this SOP (done for orchestration) |
+| Automate | OIDC / service principal; post-bootstrap smoke script |
+| Delegate | Implementation specialists run from SOP alone |
+| Scale | Hub-triggered tenant provision with prod approval gates |
 
 ## Product responsibility
 
@@ -63,5 +76,7 @@ Manual provisioning
 
 ## Related documents
 
-- Related SOPs: <mark style="color:red;">**TODO:**</mark> link under `internal/sops/`
-- Checklists / templates: <mark style="color:red;">**TODO:**</mark>
+- **SOP (executable procedure):** [Bootstrap Environment](../../sops/deliver/bootstrap-environment.md)
+- Product monorepo: `Infrastructure/README.md`
+- [Legacy System Migration](../../sops/deliver/legacy-system-migration.md) — data after/with environment
+- [Customer Onboarding](../../sops/deliver/customer-onboarding.md)

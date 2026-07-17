@@ -18,7 +18,7 @@ See [Assessments](../../assessments/README.md).
 |-----|--------|
 | [Legacy System Migration](legacy-system-migration.md) | v1 model SOP (aligned with Migration Tools) |
 | [Customer Onboarding](customer-onboarding.md) | <mark style="color:red;">Placeholder</mark> |
-| [Bootstrap Environment](bootstrap-environment.md) | <mark style="color:red;">Placeholder</mark> |
+| [Bootstrap Environment](bootstrap-environment.md) | v1 — Infrastructure PowerShell (`bootstrap-client.ps1`) |
 | [Post-Conversion Utilities](post-conversion-utilities.md) | <mark style="color:red;">Placeholder</mark> |
 | [Vendor Conversion Guides](vendor-conversion-guides/README.md) | v1 catalog |
 | [Migration Package Standards](migration-package-standards.md) | v1 â€” package layout / VERSION / promote rules |

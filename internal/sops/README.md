@@ -97,7 +97,7 @@ Next review date
 | Priority | SOP | Status |
 |----------|-----|--------|
 | 1 | [Deliver — Legacy System Migration](deliver/legacy-system-migration.md) | v1 model SOP |
-| 2 | [Deliver — Bootstrap Environment](deliver/bootstrap-environment.md) | <mark style="color:red;">Placeholder</mark> |
+| 2 | [Deliver — Bootstrap Environment](deliver/bootstrap-environment.md) | v1 — Infrastructure PowerShell (`bootstrap-client.ps1`) |
 | 3 | [Deliver — Customer Onboarding](deliver/customer-onboarding.md) | <mark style="color:red;">Placeholder</mark> |
 | 4 | Deliver — go-live | Not started |
 | 5 | Acquire — demo | Not started |

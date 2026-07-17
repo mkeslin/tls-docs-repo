@@ -452,7 +452,7 @@ See also [Common risks](#common-risks).
 |----------|--------------|
 | [Data conversion (CVE stage)](../../customer-value-engine/deliver/data-conversion.md) | Stage context |
 | [Customer Onboarding](customer-onboarding.md) | Related Deliver SOP (placeholder) |
-| [Bootstrap Environment](bootstrap-environment.md) | Related Deliver SOP (placeholder) |
+| [Bootstrap Environment](bootstrap-environment.md) | Provision tenant before/with import (Infrastructure scripts) |
 | [Post-Conversion Utilities](post-conversion-utilities.md) | Phase 7 |
 | [Vendor Conversion Guides](vendor-conversion-guides/README.md) | Phase 1 / 5 — vendor catalog |
 | [Migration Package Standards](migration-package-standards.md) | Phase 5 — package layout, VERSION, promote rules |
