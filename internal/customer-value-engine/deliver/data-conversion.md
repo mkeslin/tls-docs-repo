@@ -1,4 +1,4 @@
-# Data conversion
+ï»¿# Data conversion
 
 **Phase:** Deliver  
 **Desired outcome:** Migrate historical data into Thin Line Platform
@@ -7,7 +7,7 @@
 
 - Signed SaaS + CJIS (hard stop before legacy access)
 - Legacy database or vendor export
-- [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md) — Approved Conversion Plan
+- [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md) â€” Approved Conversion Plan
 - Vendor Migration Package (when available)
 
 ## Outputs
@@ -30,12 +30,12 @@ Implementation Lead *(current incumbent: Matthew Keslin)*
 4. Execute Pipeline / StagingImporter; run post-conversion utilities  
 5. Validate per Validation Standard; customer accepts; promote reusable fixes; register conversion  
 
-**Mental model:** [Migration Architecture](../../sops/deliver/migration-architecture.md) · [Migration Philosophy](../../sops/deliver/migration-philosophy.md)
+**Mental model:** [Migration Architecture](../../sops/deliver/data-migration/migration-architecture.md) Â· [Migration Philosophy](../../sops/deliver/data-migration/migration-philosophy.md)
 
-**SOP:** [Legacy System Migration](../../sops/deliver/legacy-system-migration.md)  
-**Package standards:** [Migration Package Standards](../../sops/deliver/migration-package-standards.md)  
-**Vendor guides:** [Vendor Conversion Guides](../../sops/deliver/vendor-conversion-guides/README.md)  
-**Validation:** [Migration Validation Standard](../../sops/deliver/migration-validation-standard.md)
+**SOP:** [Legacy System Migration](../../sops/deliver/data-migration/legacy-system-migration.md)  
+**Package standards:** [Migration Package Standards](../../sops/deliver/data-migration/vendor-packages/migration-package-standards.md)  
+**Vendor guides:** [Vendor Conversion Guides](../../sops/deliver/data-migration/vendor-packages/vendor-conversion-guides/README.md)  
+**Validation:** [Migration Validation Standard](../../sops/deliver/data-migration/migration-validation-standard.md)
 
 ## Tooling
 
@@ -48,15 +48,15 @@ Implementation Lead *(current incumbent: Matthew Keslin)*
 
 ## Capacity (today)
 
-2–4 / mo *(planning estimate — <mark style="color:red;">**TODO:**</mark> measure)*
+2â€“4 / mo *(planning estimate â€” <mark style="color:red;">**TODO:**</mark> measure)*
 
 ## Cycle time
 
-Typically 1–10 business days excluding customer/vendor wait states (see SOP time expectations).
+Typically 1â€“10 business days excluding customer/vendor wait states (see SOP time expectations).
 
 ## Maturity
 
-**3 / 5 — Standardized (docs + packages; metrics/automation still light)**
+**3 / 5 â€” Standardized (docs + packages; metrics/automation still light)**
 
 | Score | Meaning |
 |------:|---------|
@@ -89,13 +89,13 @@ Typically 1–10 business days excluding customer/vendor wait states (see SOP time
 
 ## Related documents
 
-- [Migration Philosophy](../../sops/deliver/migration-philosophy.md)
-- [Migration Architecture](../../sops/deliver/migration-architecture.md)
-- [Legacy System Migration SOP](../../sops/deliver/legacy-system-migration.md)
-- [Migration Package Standards](../../sops/deliver/migration-package-standards.md)
-- [Customer Configuration Standard](../../sops/deliver/migration-customer-configuration.md)
-- [Migration Validation Standard](../../sops/deliver/migration-validation-standard.md)
-- [Vendor Conversion Guides](../../sops/deliver/vendor-conversion-guides/README.md)
+- [Migration Philosophy](../../sops/deliver/data-migration/migration-philosophy.md)
+- [Migration Architecture](../../sops/deliver/data-migration/migration-architecture.md)
+- [Legacy System Migration SOP](../../sops/deliver/data-migration/legacy-system-migration.md)
+- [Migration Package Standards](../../sops/deliver/data-migration/vendor-packages/migration-package-standards.md)
+- [Customer Configuration Standard](../../sops/deliver/data-migration/migration-customer-configuration.md)
+- [Migration Validation Standard](../../sops/deliver/data-migration/migration-validation-standard.md)
+- [Vendor Conversion Guides](../../sops/deliver/data-migration/vendor-packages/vendor-conversion-guides/README.md)
 - [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md)
 - [Customer Validation Checklist](../../checklists/customer-validation-checklist.md)
 - [Migration Close-Out Checklist](../../checklists/migration-close-out-checklist.md)

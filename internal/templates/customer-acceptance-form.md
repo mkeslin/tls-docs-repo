@@ -1,4 +1,4 @@
-# Customer Acceptance Form
+﻿# Customer Acceptance Form
 
 **Document type:** Template  
 **Status:** <mark style="color:red;">Placeholder</mark>
@@ -7,4 +7,4 @@
 
 <mark style="color:red;">**Decision needed:**</mark> Whether legal/compliance review is required before this form is used with customers.
 
-Referenced by: [Legacy System Migration](../sops/deliver/legacy-system-migration.md) (Phase 8).
+Referenced by: [Legacy System Migration](../sops/deliver/data-migration/legacy-system-migration.md) (Phase 8).

@@ -104,8 +104,6 @@ Next review date
 | 6 | Acquire — proposal / contract | Not started |
 | 7 | Operate — support triage | Not started |
 
-**Migration domain (standards):** Philosophy, Architecture, Decision Matrix, Package Standards, Configuration, Validation, Metrics, and per-vendor guides are under [deliver/](deliver/README.md).
-
-**Bootstrap / environment domain (standards):** Bootstrap Standard, Inventory, Lifecycle, Classification, Baseline DB, Bootstrap vs Configuration, Hub draft, and [Environment Health Checklist](../checklists/environment-health-checklist.md) — treat as complete enough to move primary effort to **Implementation** (configuration after bootstrap).
+**Deliver TOC:** Restructured around [Implementation Methodology](deliver/implementation-methodology.md) (Sales Handoff → … → Hypercare). Migration and Infrastructure content lives under [deliver/data-migration/](deliver/data-migration/README.md) and [deliver/infrastructure/](deliver/infrastructure/README.md).
 
 Interview owners and document what is done today, then improve.

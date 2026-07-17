@@ -1,9 +1,9 @@
-# CopSync / Kologik Migration Guide
+﻿# CopSync / Kologik Migration Guide
 
 **Vendor folder:** `Utilities/Migration Tools/CopSync/`  
 **Package VERSION:** see product-repo `CopSync/VERSION`  
-**Product labels:** COPsync · **Kologik** (same family; staging uses `Stg_CopSync_*`)  
-**Status:** Package exists (often `draft`) — GitBook guide v1  
+**Product labels:** COPsync Â· **Kologik** (same family; staging uses `Stg_CopSync_*`)  
+**Status:** Package exists (often `draft`) â€” GitBook guide v1  
 
 Execution: product `PROCESS.md` + `CopSync/AgencyChecklist.md`.
 
@@ -33,7 +33,7 @@ Execution: product `PROCESS.md` + `CopSync/AgencyChecklist.md`.
 |-------|------------|
 | Jail / JP CSV is **not** this package | Separate path (e.g. Crosby County Jail) |
 | Partial historical backfills | Track status Partial on `ConvertedAgencies.md`; re-validate counts |
-| Officer / court maps differ per agency | Client Overrides — never bake last customer into common scripts |
+| Officer / court maps differ per agency | Client Overrides â€” never bake last customer into common scripts |
 | <mark style="color:red;">**TODO:**</mark> | Schema drift across Kologik versions |
 
 ---
@@ -50,7 +50,7 @@ Execution: product `PROCESS.md` + `CopSync/AgencyChecklist.md`.
 
 1. Obtain CopSync SQL backup or cloud export.
 2. Restore / attach to a working SQL instance.
-3. Run staging → Pipeline in `SqlPackage` order (client copy).
+3. Run staging â†’ Pipeline in `SqlPackage` order (client copy).
 4. Apply Overrides from checklist (officers, courts, agency).
 
 ---
@@ -67,7 +67,7 @@ Execution: product `PROCESS.md` + `CopSync/AgencyChecklist.md`.
 
 ## Validation checklist
 
-Apply [Migration Validation Standard](../migration-validation-standard.md), plus:
+Apply [Migration Validation Standard](../../migration-validation-standard.md), plus:
 
 - [ ] Incident / person / citation counts vs source (document deltas)  
 - [ ] Backfill: confirm no unintended overwrite of live Thin Line rows  
@@ -81,8 +81,8 @@ Apply [Migration Validation Standard](../migration-validation-standard.md), plus
 | Problem | Likely cause |
 |---------|----------------|
 | Wrong agency Id on converted rows | TargetAgencyId / ensure-agency misconfigured |
-| Live data damaged on backfill | Missing conversion tags / wrong filter — stop and escalate |
-| “Copy Crosbyton Overrides” | Forbidden as package default — start from templates |
+| Live data damaged on backfill | Missing conversion tags / wrong filter â€” stop and escalate |
+| â€œCopy Crosbyton Overridesâ€ | Forbidden as package default â€” start from templates |
 
 ---
 
@@ -90,7 +90,7 @@ Apply [Migration Validation Standard](../migration-validation-standard.md), plus
 
 | Date | Lesson |
 |------|--------|
-| 2026 | Crosby COSO completed pre-package; Crosbyton / Petersburg used as backfill patterns — promote only reusable bits |
+| 2026 | Crosby COSO completed pre-package; Crosbyton / Petersburg used as backfill patterns â€” promote only reusable bits |
 | <mark style="color:red;">**TODO:**</mark> | Add post-acceptance lessons with package VERSION |
 
 Register: `CopSync/ConvertedAgencies.md`.
@@ -113,7 +113,7 @@ Register: `CopSync/ConvertedAgencies.md`.
 | Vendor | CopSync / Kologik |
 | Requires | SQL Server (source + target) |
 | Typical modules | RMS / incidents, citations, related masters *(confirm per DB)* |
-| Validation emphasis | Incident counts · person counts · backfill safety |
+| Validation emphasis | Incident counts Â· person counts Â· backfill safety |
 
 ---
 
