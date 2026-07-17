@@ -14,7 +14,7 @@ Exact claim names vary; your administrator assigns them. Incident modify rights 
 
 ## Admin utilities
 
-**Admin → Evidence** may show a placeholder (“utilities coming soon”) depending on build. Day-to-day room work does not depend on that screen.
+**Admin → Evidence** may show a placeholder (“utilities coming soon”) depending on build. Day-to-day room work does not depend on that screen — see [Admin — Audit, security, and jobs](../../admin/audit-security-jobs.md).
 
 ## Tips
 

@@ -346,6 +346,7 @@ Until that workspace is available, Thin Line will keep an implementation record 
 - [Implementation kickoff agenda](implementation-kickoff-agenda.md)  
 - [Preliminary implementation plan](preliminary-implementation-plan.md)  
 - [Implementation action register](implementation-action-register.md)  
+- [Go-live and hypercare brief](go-live-and-hypercare-brief.md)  
 - [Implementation working session workbook](implementation-working-session-workbook.md)  
 - [Configuration discovery workbook](configuration-discovery-workbook.md)  
 - [Getting started](../getting-started/README.md)  

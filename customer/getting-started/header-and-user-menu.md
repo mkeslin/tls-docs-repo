@@ -29,7 +29,7 @@ To change agency (when allowed):
 | **Notifications** | In-app notices when your role receives them |
 | **Offense Search** | Look up offense codes without opening a module first |
 | **Help** | Support, User Guide, Release Notes, CJIS / Document Vault / NIBRS links, About |
-| **Admin** | Agency administration tools (administrators only) |
+| **Admin** | Agency administration tools (administrators only) — see [Admin](../admin/README.md) |
 | **User avatar** | Opens the user menu |
 
 ## User menu
@@ -51,4 +51,5 @@ After log out, close the browser window on shared computers.
 ## Related
 
 - [Application shell](application-shell.md)
+- [Admin](../admin/README.md)
 - [Support](../support/README.md)

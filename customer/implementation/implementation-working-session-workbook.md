@@ -1,7 +1,7 @@
 # Implementation working session workbook
 
-**Agency:** Levelland Police Department  
-**Reusable template:** Replace the agency name and blank fields for future customers.  
+**Agency:** _(customer name)_  
+**Reusable template:** Fill agency-specific fields during the session; leave unused rows blank.
 
 This workbook guides an **in-person (or live remote) working session**. It is a shared agenda and capture sheet—not a homework packet or a test. Skip sections that do not apply. Prefer conversation first; write only what we need to remember and act on.
 
@@ -11,7 +11,7 @@ This workbook guides an **in-person (or live remote) working session**. It is a 
 
 | Field | Notes |
 |-------|--------|
-| **Customer** | Levelland Police Department |
+| **Customer** | |
 | **Thin Line contacts** | |
 | **Meeting date** | |
 | **Products under consideration or purchased** | |
@@ -43,8 +43,8 @@ We will not try to finish every detail today. Firm migration scope, pricing, and
 
 | Name | Organization | Role | Area of expertise | Follow-up responsibility |
 |------|--------------|------|-------------------|--------------------------|
-| | Levelland PD | | | |
-| | Levelland PD | | | |
+| | | | | |
+| | | | | |
 | | Thin Line | | | |
 | | Thin Line | | | |
 | | | | | |

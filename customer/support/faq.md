@@ -4,7 +4,7 @@ Common questions. If something here is wrong for your agency, ask your administr
 
 ## Can I add a user if I do not know their final email yet?
 
-**Yes.** You can enter a temporary or personal email and change it later in user administration when the permanent address is known. See your Admin documentation or ask your agency administrator.
+**Yes.** You can enter a temporary or personal email and change it later in [Users, roles, and claims](../admin/users-roles-claims.md) when the permanent address is known. Ask your agency administrator if you do not have Admin access.
 
 ## Can I retrieve a report that was run in the past?
 
@@ -17,10 +17,11 @@ Common questions. If something here is wrong for your agency, ask your administr
 
 ## Why don’t some dropdowns have the values I need?
 
-Most agency-configurable codes (non–NIBRS-fixed lists) are maintained by your administrator. Request new or updated codes through your agency’s process — see also the code-description standards your agency uses in Admin.
+Most agency-configurable codes (non–NIBRS-fixed lists) are maintained under [Admin — Codes](../admin/codes.md). Request new or updated codes through your agency’s process. Descriptions should be ALL UPPERCASE.
 
 ## Related
 
 - [Troubleshooting](troubleshooting.md)
+- [Admin](../admin/README.md)
 - [Modules and navigation](../getting-started/modules-and-navigation.md)
 - [Logging in](../getting-started/logging-in.md)

@@ -66,7 +66,7 @@ Product gaps may spawn implementation workarounds (separate **action** rows). Ke
 
 ### Review open actions in every implementation meeting
 
-- Standing agenda item: walk **Not started**, **Waiting on …**, **In progress**, **Blocked**, and **Ready for review**.  
+- Standing agenda item: walk **Not started**, **Waiting on …**, **In progress**, **Blocked**, and **Ready for validation**.  
 - Update **Status**, **Due date**, and **Owner** in the meeting when they change.  
 - Call out anything **Waiting on customer** or **Waiting on Thin Line** older than its due date.  
 - **Complete**, **Deferred**, and **Not applicable** rows stay in the register for history; filter them out of the live review view if your tool allows.
@@ -133,10 +133,12 @@ Use one per row:
 | **Waiting on Thin Line** | Customer (or joint work) cannot proceed until Thin Line acts |
 | **In progress** | Owner is actively working it |
 | **Blocked** | Cannot proceed because of a dependency or **Blocker** (name it in Dependency) |
-| **Ready for review** | Owner believes it is done; needs confirmation from the other party or lead. *(Internal workspace synonym: **Ready for validation**—prefer one label per engagement and stick to it.)* |
+| **Ready for validation** | Owner believes it is done; awaiting check, UAT, or acceptance from the other party or lead |
 | **Complete** | Finished; Decision types also have the outcome recorded |
 | **Deferred** | Intentionally postponed with owner and reason in Notes |
 | **Not applicable** | No longer relevant; reason in Notes |
+
+These match the [Implementation workspace standard](../../internal/sops/deliver/implementation-workspace-standard.md) engagement statuses. Do not use document maturity labels (Placeholder, Draft, v1) as row statuses.
 
 ---
 
@@ -181,6 +183,7 @@ Number sequentially within the engagement. Do not reuse IDs after closure.
 Use at every implementation meeting:
 
 - [ ] Open items reviewed (all statuses except Complete / Deferred / Not applicable, unless reopened)  
+- [ ] **Deferred** items still have owners and reasons  
 - [ ] Each open item still has **one** owner  
 - [ ] Overdue items have a new due date or an explicit Blocked/Deferred reason  
 - [ ] **Waiting on customer** / **Waiting on Thin Line** called out  

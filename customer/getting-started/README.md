@@ -23,6 +23,8 @@ After you know the shell, open the module guides for day-to-day work:
 
 ## Related
 
+- [Admin](../admin/README.md) — users, codes, agency settings
+- [Implementation](../implementation/README.md) — kickoff and workbooks
 - [Support](../support/README.md) — how to get help
 - [Training](../training/README.md) — curricula and workshops
 
