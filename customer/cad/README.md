@@ -1,4 +1,4 @@
-# CAD overview
+# CAD
 
 Customer guides for Thin Line CAD and self-dispatch.
 

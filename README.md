@@ -22,7 +22,14 @@ These paths are loaded by Thin Line RMS in-app Help. Leave them alone unless a c
 
 ## Navigation
 
-See [`SUMMARY.md`](SUMMARY.md) for the documentation table of contents (GitBook and similar).
+GitBook spaces sync **folder roots**, not the whole-repo TOC:
+
+| Space | Sync root | TOC file |
+|-------|-----------|----------|
+| Documentation (customer) | [`customer/`](customer/) | [`customer/SUMMARY.md`](customer/SUMMARY.md) |
+| Internal Docs | [`internal/`](internal/) | [`internal/SUMMARY.md`](internal/SUMMARY.md) |
+
+Root [`SUMMARY.md`](SUMMARY.md) is a combined index for local browsing; it does **not** drive the customer GitBook space.
 
 ## Documentation standards
 

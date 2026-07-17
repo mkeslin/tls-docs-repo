@@ -1,4 +1,4 @@
-# Jail overview
+# Jail
 
 Customer guides for Thin Line jail management (JLM) and related corrections workflows.
 

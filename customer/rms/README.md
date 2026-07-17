@@ -1,4 +1,4 @@
-# RMS overview
+# RMS
 
 Customer guides for Thin Line RMS modules (incidents, citations, warrants, master records, evidence, administration, reporting, and related workflows).
 
