@@ -34,7 +34,13 @@ Ensure the customer’s users can perform their jobs in Thin Line before exclusi
 3. Collect questions / gaps; fix critical gaps.  
 4. Confirm readiness for go-live training sign-off.  
 
-<mark style="color:red;">**TODO:**</mark> Training SOP and curricula by role (map to customer guides).
+Customer-facing curricula (use in training delivery):
+
+- [New user orientation](../../../customer/training/new-user-orientation.md)
+- [Court clerk workshop](../../../customer/training/court-clerk-workshop.md)
+- [Jail operations workshop](../../../customer/training/jail-operations-workshop.md)
+
+<mark style="color:red;">**TODO:**</mark> Staff facilitation SOP (room setup, sign-off form, make-up sessions).
 
 ---
 
@@ -57,9 +63,9 @@ Ensure the customer’s users can perform their jobs in Thin Line before exclusi
 
 | Doc | Type |
 |-----|------|
-| <mark style="color:red;">**TODO:**</mark> Training SOP | Procedure |
+| [Customer training](../../../customer/training/README.md) | Curricula hub |
 | [CVE — Training](../../customer-value-engine/deliver/training.md) | Stage overview |
-| [Customer training](../../../customer/training/README.md) | Guides |
+| <mark style="color:red;">**TODO:**</mark> Staff facilitation SOP | Procedure |
 
 **Previous:** [Integrations and hardware](integrations-and-hardware.md) or [Configuration](configuration/README.md)  
 **Next:** [Go live](go-live.md)

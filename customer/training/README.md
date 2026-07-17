@@ -1,23 +1,27 @@
 # Training
 
-Structured training resources for Thin Line Platform (RMS, CAD, court, jail, and related modules).
+Structured curricula for go-live and ongoing adoption. Each outline links to the customer guides — use those pages as the teaching script; do not invent product steps that are not documented there.
 
-## Purpose
+## Curricula
 
-Support classroom, remote, and self-paced training for go-live and ongoing adoption.
+| Curriculum | Audience | Typical length |
+|------------|----------|----------------|
+| [New user orientation](new-user-orientation.md) | Any new Thin Line user | ~2 hours |
+| [Court clerk workshop](court-clerk-workshop.md) | Court clerks / cashiers / court admin | ~half day |
+| [Jail operations workshop](jail-operations-workshop.md) | Intake + floor / Command Center staff | ~half day |
 
-## Contents
+## How to use these outlines
 
-<mark style="color:red;">**TODO:**</mark> Add curricula, agendas, and exercise guides. Do not invent training steps that do not match the product.
+1. Deliver in a **configured training environment** (not production, when possible).
+2. Follow the session agenda; open linked guide pages for demos and exercises.
+3. Capture gaps (missing screenshots, unclear steps) and send them to Thin Line for doc updates.
+4. Confirm readiness against your go-live training sign-off (implementation team).
 
-Suggested structure (create pages when ready):
-
-- New user orientation
-- Administrator training
-- Module workshops (RMS, CAD, court, jail)
-- Trainer / agency admin facilitation notes (customer-safe only)
+Staff delivery process: internal Deliver training SOP (Thin Line staff only).
 
 ## Related
 
-- Module guides: [RMS](../rms/README.md), [CAD](../cad/README.md), [Court](../court/README.md), [Jail](../jail/README.md)
-- Internal training delivery SOP (staff): [`../../internal/sops/deliver/`](../../internal/sops/deliver/README.md)
+- [Getting started](../getting-started/README.md)
+- [Court](../court/README.md)
+- [Jail](../jail/README.md)
+- [Support](../support/README.md)

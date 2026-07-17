@@ -8,9 +8,9 @@ This area is **customer-safe**. Do not publish internal pricing strategy, unrele
 
 | Section | Purpose |
 |---------|---------|
-| [Getting started](getting-started/README.md) | Application shell, modules, master records, header |
-| [Training](training/README.md) | Structured training materials and curricula |
-| [Support](support/README.md) | How to get help, FAQ, troubleshooting |
+| [Getting started](getting-started/README.md) | Login, application shell, modules, master records, header |
+| [Training](training/README.md) | Orientation and Court / Jail workshop curricula |
+| [Support](support/README.md) | Contact, tickets, remote assistance, FAQ, troubleshooting |
 
 ## Products
 

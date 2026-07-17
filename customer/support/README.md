@@ -1,30 +1,25 @@
 # Support
 
-How customers get help with Thin Line Software products.
+How to get help with Thin Line Software products.
 
-## Purpose
+## Topics
 
-Make support channels, hours, and self-service resources easy to find.
+| Topic | When to use it |
+|-------|----------------|
+| [Contact Thin Line](contact.md) | Hours, phone, email |
+| [What to include in a support request](support-request.md) | Faster, clearer tickets |
+| [Remote assistance](remote-assistance.md) | Screen-sharing sessions with Thin Line |
+| [In-app Feedback](feedback.md) | Product comments from inside the application |
+| [FAQ](faq.md) | Common questions |
+| [Troubleshooting](troubleshooting.md) | Login and access basics |
 
-## Contents
+## Before you contact Thin Line
 
-<mark style="color:red;">**TODO:**</mark> Confirm and publish:
-
-- Support hours and contact channels
-- What to include in a support request
-- FAQ
-- Troubleshooting basics
-- Remote assistance expectations (customer-safe wording only)
-
-<mark style="color:red;">**Decision needed:**</mark> Canonical support contacts and after-hours policy (existing in-app getting-started content may be outdated — verify before copying).
-
-## Existing in-app content (legacy path — do not move yet)
-
-- [`../../guide/faq/`](../../guide/faq/faq.md)
-- [`../../guide/troubleshooting/`](../../guide/troubleshooting/troubleshooting.md)
-- [`../../guide/getstarted/`](../../guide/getstarted/getstarted.md) (contact and remote assistance sections)
+1. Confirm you are in the **correct agency** (header agency name / logo).
+2. Ask your **agency administrator** about passwords, locked accounts, and missing modules or codes — many issues are local permissions or configuration.
+3. Check [FAQ](faq.md) and [Troubleshooting](troubleshooting.md).
 
 ## Related
 
 - [Getting started](../getting-started/README.md)
-- Staff support process: [`../../internal/customer-value-engine/operate/support.md`](../../internal/customer-value-engine/operate/support.md) (internal only — do not link from published customer GitBook if spaces are separated)
+- [Logging in](../getting-started/logging-in.md)

@@ -148,12 +148,22 @@
 ### Start here
 
 * [Getting started](customer/getting-started/README.md)
+  * [Logging in](customer/getting-started/logging-in.md)
   * [Application shell](customer/getting-started/application-shell.md)
   * [Modules and navigation](customer/getting-started/modules-and-navigation.md)
   * [Master records](customer/getting-started/master-records.md)
   * [Header and user menu](customer/getting-started/header-and-user-menu.md)
 * [Training](customer/training/README.md)
+  * [New user orientation](customer/training/new-user-orientation.md)
+  * [Court clerk workshop](customer/training/court-clerk-workshop.md)
+  * [Jail operations workshop](customer/training/jail-operations-workshop.md)
 * [Support](customer/support/README.md)
+  * [Contact Thin Line](customer/support/contact.md)
+  * [What to include in a support request](customer/support/support-request.md)
+  * [Remote assistance](customer/support/remote-assistance.md)
+  * [In-app Feedback](customer/support/feedback.md)
+  * [FAQ](customer/support/faq.md)
+  * [Troubleshooting](customer/support/troubleshooting.md)
 
 ### Products
 
