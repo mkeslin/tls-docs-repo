@@ -20,4 +20,6 @@ Requires CAD Records access (LETS Queries also needs LETS query access).
 ## Related
 
 - [Live CAD overview](../live-cad-overview.md)
+- [Dispatcher notes (live)](../dispatcher-notes.md)
 - [CAD](../README.md)
+- [CAD workshop](../../training/cad-workshop.md)

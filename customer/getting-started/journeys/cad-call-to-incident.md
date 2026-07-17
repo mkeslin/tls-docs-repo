@@ -12,12 +12,12 @@ From a live call for service through unit response and into an RMS incident repo
 ```mermaid
 flowchart LR
   A[Create / open call] --> B[Assign units]
-  B --> C[Update status / notes]
+  B --> C[Notes / parties]
   C --> D{Reportable?}
-  D -->|No| E[Clear / close call]
-  D -->|Yes| F[Create / open Incident]
+  D -->|No| E[Clear units → Disposition]
+  D -->|Yes| F[Create Incident]
   F --> G[Complete & approve report]
-  E --> H[Research later in CAD Records]
+  E --> H[CAD Records later]
   G --> H
 ```
 
@@ -26,52 +26,50 @@ flowchart LR
 ### 1. Work the live call
 
 1. Switch header mode to **CAD** ([Live CAD overview](../../cad/live-cad-overview.md)).
-2. Create or select the call for service.
-3. Enter location, call type, and priority.
-4. Assign units; update status as they respond, arrive, and clear.
-5. Add people / vehicles / notes on the call as information arrives — prefer [master records](../master-records/README.md) when linking known parties.
+2. **Add Call** or open an existing call ([Create and update a call](../../cad/create-and-update-a-call.md)).
+3. Set **Call Type**, **Priority**, **How Reported**, and **Location**.
+4. Assign units; update En Route / Arrived / Clear as your agency enables ([Assign and clear units](../../cad/assign-and-clear-units.md)).
+5. Add notes, persons, and vehicles on the call sheet ([Call sheet activity](../../cad/call-sheet-activity.md)).
 
 ### 2. Officer self-dispatch (alternate start)
 
-When policy allows officers to start their own calls:
-
-1. Open [Dashboard](../dashboard.md) → **Self-Dispatch**, or use the self-dispatch path in CAD.
-2. Follow [Self-dispatch](../../cad/self-dispatch.md).
-3. Continue from unit status updates as in step 1.
+1. Open [Dashboard](../dashboard.md) → **Self-Dispatch**.
+2. Follow [Self-dispatch](../../cad/self-dispatch.md) (unit must be assigned to the user).
+3. Continue status updates for your own unit.
 
 ### 3. Decide whether an incident is required
 
 Follow your agency’s reportable-event rules. Not every cleared call needs an incident.
 
-### 4. Create or open the incident
+### 4. Create or link the incident
 
-1. Use the product action on the call to create / open a related [Incident](../../rms/incidents/README.md) (wording varies by build — see [CAD and incidents](../../cad/cad-and-incidents.md)).
-2. Complete narratives, offenses, and involved persons in RMS.
-3. Add property / evidence when taken ([Law enforcement journey](law-enforcement-stop-to-report.md) steps 3).
-4. Submit for approval ([Workflow, versions, and approval](../../rms/incidents/workflow-versions-and-approval.md)).
+1. On the call sheet, open **Related Incidents & Citations**.
+2. Choose **Create Incident** (agency unit must be on the call) — or **Link Existing Record** if the incident already exists.
+3. Complete the incident in RMS ([Related incidents and citations](../../cad/related-incidents-and-citations.md), [Incidents](../../rms/incidents/README.md)).
+4. Add property / evidence when taken ([Law enforcement journey](law-enforcement-stop-to-report.md)).
 
-Keep call number and incident number associated so records can find both later.
+### 5. Dispose the call
 
-### 5. Clear the call
+1. Clear all units.
+2. Set **Disposition** ([Dispose and close a call](../../cad/dispose-and-close-a-call.md)).
 
-1. Update final unit status and disposition codes on the call.
-2. Close / dispose the call per agency practice.
-
-### 6. Research later (do not use live CAD)
+### 6. Research later
 
 1. Switch back to **RMS**.
-2. Use [CAD Records](../../cad/records/README.md) — Call Sheets, Unit Logs, Dispatcher Notes — for history and public information requests.
+2. Use [CAD Records](../../cad/records/README.md) — not the live board.
 
 ## Common failure points
 
 | Symptom | What to check |
 |---------|----------------|
-| Cannot open CAD | Claims + agency CAD enablement; correct header mode |
-| Incident has wrong location / person | Masters not linked; edited only on the call copy |
-| Cannot find old call | Searching live CAD instead of CAD Records |
-| Duplicate incidents for one call | Confirm whether an incident already exists before creating another |
+| Cannot open CAD | Claims + agency CAD enablement; header mode |
+| Create Incident disabled | No unit from that agency on the call |
+| Disposition missing | Units still active on the call |
+| Cannot find old call | Use CAD Records, not live CAD |
+| Self-dispatch blocked | User not assigned to a CAD unit |
 
-## Related journeys
+## Related
 
+- [CAD](../../cad/README.md)
+- [CAD workshop](../../training/cad-workshop.md)
 - [Law enforcement: stop to report](law-enforcement-stop-to-report.md)
-- [CAD](../../cad/README.md) · [Incidents](../../rms/incidents/README.md) · [Dashboard](../dashboard.md)
