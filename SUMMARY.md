@@ -136,31 +136,20 @@
 * [Training](customer/training/README.md)
 * [Support](customer/support/README.md)
 
-### Product guides
+### Products
 
-#### RMS
-
-* [Overview](customer/rms/README.md)
-
-#### CAD
-
-* [Overview](customer/cad/README.md)
-
-#### Court
-
-* [Overview](customer/court/README.md)
-* [Getting around](customer/court/getting-around.md)
-* [Create and import cases](customer/court/create-and-import.md)
-* [Case lifecycle](customer/court/case-lifecycle.md)
-* [Pleas and judgment](customer/court/pleas-and-judgment.md)
-* [Court programs](customer/court/court-programs.md)
-* [Calendar and appearances](customer/court/calendar-and-appearances.md)
-* [FTA, warrants, and bonds](customer/court/fta-warrants-bonds.md)
-* [Payments](customer/court/payments.md)
-* [Payment plans](customer/court/payment-plans.md)
-* [Work queues](customer/court/work-queues.md)
-* [Reports](customer/court/reports.md)
-
-#### Jail
-
-* [Overview](customer/jail/README.md)
+* [RMS](customer/rms/README.md)
+* [CAD](customer/cad/README.md)
+* [Court](customer/court/README.md)
+  * [Getting around](customer/court/getting-around.md)
+  * [Create and import cases](customer/court/create-and-import.md)
+  * [Case lifecycle](customer/court/case-lifecycle.md)
+  * [Pleas and judgment](customer/court/pleas-and-judgment.md)
+  * [Court programs](customer/court/court-programs.md)
+  * [Calendar and appearances](customer/court/calendar-and-appearances.md)
+  * [FTA, warrants, and bonds](customer/court/fta-warrants-bonds.md)
+  * [Payments](customer/court/payments.md)
+  * [Payment plans](customer/court/payment-plans.md)
+  * [Work queues](customer/court/work-queues.md)
+  * [Reports](customer/court/reports.md)
+* [Jail](customer/jail/README.md)

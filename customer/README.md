@@ -12,12 +12,12 @@ This area is **customer-safe**. Do not publish internal pricing strategy, unrele
 | [Training](training/README.md) | Structured training materials and curricula |
 | [Support](support/README.md) | How to get help, FAQ, troubleshooting |
 
-## Product guides
+## Products
 
-Day-to-day reference by module. Start with the overview for each product area, then open topic pages as needed.
+Thin Line Platform modules. Open a product for its overview; expand Court (and later RMS/CAD/Jail) for topic guides.
 
-| Module | Purpose |
-|--------|---------|
+| Product | Purpose |
+|---------|---------|
 | [RMS](rms/README.md) | Records management (incidents, citations, warrants, evidence, and related workflows) |
 | [CAD](cad/README.md) | Computer-aided dispatch and self-dispatch |
 | [Court](court/README.md) | Court Violations — municipal court case processing |
