@@ -21,7 +21,7 @@ Thin Line Platform modules. Open a product for its overview; expand Court (and l
 | [RMS](rms/README.md) | Records management (incidents, citations, warrants, evidence, and related workflows) |
 | [CAD](cad/README.md) | Computer-aided dispatch and self-dispatch |
 | [Court](court/README.md) | Court Violations — municipal court case processing |
-| [Jail](jail/README.md) | Jail / corrections |
+| [Jail](jail/README.md) | Jail Intake and Command Center (booking through release) |
 
 ## Relationship to in-app Help
 
