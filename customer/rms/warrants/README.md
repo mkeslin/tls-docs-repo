@@ -39,4 +39,4 @@ Look for a **COURT OWNED** indicator on court-generated warrants. Day-to-day cou
 - [Court — FTA, warrants, and bonds](../../court/fta-warrants-bonds.md)
 - [Incidents — related records](../incidents/related-records.md)
 - [Jail](../../jail/README.md)
-- [Master records](../../getting-started/master-records.md)
+- [Master records](../../getting-started/master-records/README.md)

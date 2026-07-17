@@ -38,5 +38,5 @@ One citation can produce one or more court violations (for example multiple offe
 ## Related
 
 - [Court](../../court/README.md)
-- [Master records](../../getting-started/master-records.md)
+- [Master records](../../getting-started/master-records/README.md)
 - [Modules and navigation](../../getting-started/modules-and-navigation.md)

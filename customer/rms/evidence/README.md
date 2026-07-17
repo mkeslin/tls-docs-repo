@@ -38,5 +38,5 @@ Nav abbreviation is **EVI** (module code may show as EVC in technical contexts).
 ## Related
 
 - [Incidents — Property and evidence](../incidents/property-and-evidence.md)
-- [Master records](../../getting-started/master-records.md)
+- [Master records](../../getting-started/master-records/README.md)
 - [Modules and navigation](../../getting-started/modules-and-navigation.md)

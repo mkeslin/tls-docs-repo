@@ -6,7 +6,7 @@ Victims, suspects, arrestees, and organizations on the **Involved** tab.
 
 1. Open **Involved** on the incident detail.
 2. Add a **Person**, **Organization**, or **Unknown Suspect** as needed.
-3. Prefer linking an existing **master person** or organization — see [Master records](../../getting-started/master-records.md).
+3. Prefer linking an existing **master person** or organization — see [Master records](../../getting-started/master-records/README.md).
 4. Assign the correct **role** for this incident.
 
 ## Roles (common)

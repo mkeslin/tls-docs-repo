@@ -6,7 +6,7 @@ Linking people and vehicles to a citation and recording where the stop occurred.
 
 Open **Person & Vehicle** on the citation detail.
 
-1. Search or select the **person** from master records (prefer an existing master — see [Master records](../../getting-started/master-records.md)).
+1. Search or select the **person** from master records (prefer an existing master — see [Master records](../../getting-started/master-records/README.md)).
 2. Search or select the **vehicle** when the stop involves one.
 3. Use **Associate Person & Vehicle** (or the equivalent action) so the citation stores the correct linked snapshots.
 

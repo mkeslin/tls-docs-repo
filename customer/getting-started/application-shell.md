@@ -43,5 +43,5 @@ Use the **hamburger** control at the left of the header to collapse or expand th
 ## Related
 
 - [Modules and navigation](modules-and-navigation.md)
-- [Master records](master-records.md)
+- [Master records](master-records/README.md)
 - [Header and user menu](header-and-user-menu.md)

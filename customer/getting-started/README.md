@@ -9,7 +9,7 @@ Orientation for new Thin Line users: how the application shell works, where modu
 | [Logging in](logging-in.md) | First login, everyday login, passwords, sign out |
 | [Application shell](application-shell.md) | Top bar, left nav, content area, product modes (RMS / CAD / JAIL) |
 | [Modules and navigation](modules-and-navigation.md) | Left module rail, Search / Add menus, module abbreviations |
-| [Master records](master-records.md) | Right-side Persons, Organizations, Vehicles, Property, Locations |
+| [Master records](master-records/README.md) | Shared Persons, Organizations, Vehicles, Property, Locations — search, link, snapshots, merge |
 | [Header and user menu](header-and-user-menu.md) | Agency context, Help, Admin, notifications, profile, sign out |
 
 ## Product guides

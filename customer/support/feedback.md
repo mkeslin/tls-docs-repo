@@ -4,7 +4,7 @@ Send product comments to Thin Line from inside the application.
 
 ## Where to find it
 
-In the RMS shell, open **Feedback** from the lower part of the **right master records rail** (see [Master records](../getting-started/master-records.md)).
+In the RMS shell, open **Feedback** from the lower part of the **right master records rail** (see [Master records](../getting-started/master-records/README.md)).
 
 ## When to use Feedback vs a support call
 

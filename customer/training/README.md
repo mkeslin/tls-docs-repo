@@ -7,6 +7,7 @@ Structured curricula for go-live and ongoing adoption. Each outline links to the
 | Curriculum | Audience | Typical length |
 |------------|----------|----------------|
 | [New user orientation](new-user-orientation.md) | Any new Thin Line user | ~2 hours |
+| [Master records workshop](master-records-workshop.md) | Anyone who links people, vehicles, property, or locations | ~90 minutes |
 | [Citations workshop](citations-workshop.md) | Officers / records / supervisors | ~2–3 hours |
 | [Incidents workshop](incidents-workshop.md) | Officers / records / supervisors | ~3 hours |
 | [Warrants workshop](warrants-workshop.md) | Warrants / records / patrol service | ~2 hours |

@@ -12,7 +12,7 @@ From a **master property** card, you can typically see linked **evidence numbers
 
 - **Search before add** when creating property that may become evidence — duplicates split chain of custody across masters.
 - Correct description/brand fields carefully; labels and inventory prints use them.
-- Use [Master records](../../getting-started/master-records.md) habits (Persons, Vehicles, Property, Locations) consistently.
+- Use [Master records](../../getting-started/master-records/README.md) habits (Persons, Vehicles, Property, Locations) consistently.
 
 ## Tips
 

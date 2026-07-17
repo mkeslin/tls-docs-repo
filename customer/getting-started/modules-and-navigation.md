@@ -64,5 +64,5 @@ Your agency may not enable every module. Court and Jail deep-dives live in the [
 ## Related
 
 - [Application shell](application-shell.md)
-- [Master records](master-records.md)
+- [Master records](master-records/README.md)
 - [Court](../court/README.md) · [Jail](../jail/README.md)

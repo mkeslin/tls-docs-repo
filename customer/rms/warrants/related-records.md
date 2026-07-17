@@ -14,7 +14,7 @@ The warrant **General** tab tags a **master person**. Keep that link accurate so
 - Jail intake can reference warrant identity
 - Court-owned warrants stay tied to the correct defendant
 
-See [Master records](../../getting-started/master-records.md).
+See [Master records](../../getting-started/master-records/README.md).
 
 ## Jail intake
 
