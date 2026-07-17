@@ -37,7 +37,7 @@ An **incident** is the primary investigative / case report record: what happened
 ## Related
 
 - [Citations](../citations/README.md)
-- [CAD](../../cad/README.md) (orientation stub until CAD guide expands)
+- [CAD](../../cad/README.md) · [Journey: CAD call to incident](../../getting-started/journeys/cad-call-to-incident.md)
 - [Jail](../../jail/README.md)
 - [Master records](../../getting-started/master-records/README.md)
 - [Modules and navigation](../../getting-started/modules-and-navigation.md)

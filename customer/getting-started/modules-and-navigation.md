@@ -24,7 +24,7 @@ Labels match the product UI. Abbreviations in parentheses are short codes used i
 
 | Module | Code | Guide |
 |--------|------|-------|
-| **Dashboard** | — | [Getting started](README.md) |
+| **Dashboard** | — | [Dashboard](dashboard.md) |
 | **Analytics** | — | [Analytics](../analytics/README.md) |
 | **CAD Records** | — | [CAD Records](../cad/records/README.md) |
 | **Import/Export** | — | [Import/Export](../import-export/README.md) |

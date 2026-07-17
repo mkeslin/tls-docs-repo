@@ -19,4 +19,6 @@ Officer-initiated CAD work when your agency enables self-dispatch (often from th
 ## Related
 
 - [Live CAD overview](live-cad-overview.md)
+- [Journey: CAD call to incident](../getting-started/journeys/cad-call-to-incident.md)
+- [Dashboard](../getting-started/dashboard.md)
 - [Getting started — Modules and navigation](../getting-started/modules-and-navigation.md)

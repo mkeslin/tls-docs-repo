@@ -8,7 +8,7 @@ This area is **customer-safe**. Do not publish internal pricing strategy, unrele
 
 | Section | Purpose |
 |---------|---------|
-| [Getting started](getting-started/README.md) | Login, application shell, modules, master records, header |
+| [Getting started](getting-started/README.md) | Login, shell, Dashboard, journeys, master records, header |
 | [Admin](admin/README.md) | Users, officers, codes, offenses, agency settings |
 | [Implementation](implementation/README.md) | Kickoff agenda, workbooks, go-live / hypercare brief |
 | [Training](training/README.md) | Orientation and module workshop curricula |

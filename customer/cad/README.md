@@ -33,6 +33,8 @@ Older CAD User Guide topics may still load from `/guide/` (`cad_*`). Prefer this
 
 ## Related
 
+- [Journey: CAD call to incident](../getting-started/journeys/cad-call-to-incident.md)
+- [Dashboard](../getting-started/dashboard.md)
 - [Modules and navigation](../getting-started/modules-and-navigation.md)
 - [Incidents](../rms/incidents/README.md)
 - [Analytics — Call Analytics](../analytics/charts.md)

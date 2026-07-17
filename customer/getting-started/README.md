@@ -8,17 +8,20 @@ Orientation for new Thin Line users: how the application shell works, where modu
 |-------|----------------|
 | [Logging in](logging-in.md) | First login, everyday login, passwords, sign out |
 | [Application shell](application-shell.md) | Top bar, left nav, content area, product modes (RMS / CAD / JAIL) |
+| [Dashboard](dashboard.md) | Tasks, What’s New, self-dispatch, mobile citations, profile, report history |
 | [Modules and navigation](modules-and-navigation.md) | Left module rail, Search / Add menus, module abbreviations |
+| [Journeys](journeys/README.md) | Cross-module paths (stop→report, payment→accounting, CAD→incident) |
 | [Master records](master-records/README.md) | Shared Persons, Organizations, Vehicles, Property, Locations — search, link, snapshots, merge |
 | [Header and user menu](header-and-user-menu.md) | Agency context, Help, Admin, notifications, profile, sign out |
 
 ## Product guides
 
-After you know the shell, open the module guides for day-to-day work:
+After you know the shell, walk a [journey](journeys/README.md) or open a module guide:
 
 - [RMS](../rms/README.md)
 - [CAD](../cad/README.md)
 - [Court](../court/README.md)
+- [Collections](../collections/README.md) · [Accounting](../accounting/README.md)
 - [Jail](../jail/README.md)
 
 ## Related

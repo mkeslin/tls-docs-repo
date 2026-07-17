@@ -27,6 +27,7 @@ The Accounting rail appears when you have accounting access **and** you are in a
 
 ## Related
 
+- [Journey: Court payment to accounting](../getting-started/journeys/court-payment-to-accounting.md)
 - [Court — Payments](../court/payments.md)
 - [Court — Payment plans](../court/payment-plans.md)
 - [Collections](../collections/README.md)
