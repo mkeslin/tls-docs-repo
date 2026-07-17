@@ -15,6 +15,10 @@
 * [Annual operating plan 2026 H2](internal/strategy/annual-operating-plan-2026-h2.md)
 * [Quarterly scorecard](internal/strategy/quarterly-scorecard.md)
 
+### Company Operating System
+
+* [Business Systems Architecture](internal/operating-system/business-systems-architecture.md)
+
 ### Customer Value Engine
 
 * [Overview](internal/customer-value-engine/overview.md)
