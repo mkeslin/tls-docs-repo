@@ -71,6 +71,13 @@
   * [Legacy System Migration](internal/sops/deliver/legacy-system-migration.md)
   * [Customer Onboarding](internal/sops/deliver/customer-onboarding.md)
   * [Bootstrap Environment](internal/sops/deliver/bootstrap-environment.md)
+  * [Bootstrap Environment Standard](internal/sops/deliver/bootstrap-environment-standard.md)
+  * [Environment Inventory Standard](internal/sops/deliver/environment-inventory-standard.md)
+  * [Environment Lifecycle](internal/sops/deliver/environment-lifecycle.md)
+  * [Environment Classification](internal/sops/deliver/environment-classification.md)
+  * [Baseline Database Standard](internal/sops/deliver/baseline-database-standard.md)
+  * [Bootstrap vs Configuration](internal/sops/deliver/bootstrap-vs-configuration.md)
+  * [Hub Environment Integration](internal/sops/deliver/hub-environment-integration.md)
   * [Post-Conversion Utilities](internal/sops/deliver/post-conversion-utilities.md)
   * [Migration Philosophy](internal/sops/deliver/migration-philosophy.md)
   * [Migration Architecture](internal/sops/deliver/migration-architecture.md)
@@ -103,6 +110,8 @@
 * [Technical](internal/technical/README.md)
 * [Policies](internal/policies/README.md)
 * [Checklists](internal/checklists/README.md)
+  * [Environment Health Checklist](internal/checklists/environment-health-checklist.md)
+  * [Customer Validation Checklist](internal/checklists/customer-validation-checklist.md)
 * [Templates](internal/templates/README.md)
 
 ## Customer

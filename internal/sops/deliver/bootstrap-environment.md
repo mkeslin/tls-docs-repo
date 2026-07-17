@@ -11,11 +11,12 @@
 
 | | |
 |--|--|
-| **Objective** | Provision a new agency tenant (Azure infra, database, auth, Directory, App Gateway, app deploy) so the customer can use Thin Line Platform. |
+| **Objective** | Provision a new agency tenant **according to the [Bootstrap Environment Standard](bootstrap-environment-standard.md)** so platform wiring exists and health checks pass. |
 | **Typical duration** | 30–90 minutes for a standard full bootstrap (excluding credential wait / DNS). |
 | **Owner** | Implementation Lead *(current incumbent: Matthew Keslin)* |
 | **Primary stakeholders** | Implementation · Engineering · Customer (DNS / go-live timing) |
-| **Success criteria** | Agency URLs resolve · apps deployed · Directory config present · Descope tenant ready · database imported · smoke login works |
+| **Success criteria** | [Environment Health Checklist](../../checklists/environment-health-checklist.md) passes · naming/URLs match the Standard |
+| **Related standards** | [Bootstrap Environment Standard](bootstrap-environment-standard.md) · [Environment Inventory](environment-inventory-standard.md) · [Bootstrap vs Configuration](bootstrap-vs-configuration.md) |
 | **Related SOPs** | [Legacy System Migration](legacy-system-migration.md) · [Customer Onboarding](customer-onboarding.md) · [Go-Live Readiness Assessment](../../assessments/go-live-readiness-assessment.md) |
 | **Authoritative scripts** | Product monorepo `Infrastructure/` (especially `scripts/bootstrap-client.ps1`) |
 
@@ -53,7 +54,9 @@ flowchart LR
 
 ## 1. Purpose
 
-Create a working Thin Line tenant for an agency: Azure resources (SQL DB, API/UI apps, file share), base database import, Descope tenant, Directory API configuration, Application Gateway routing, and Build/Deploy of the chosen release branch.
+Create a working Thin Line tenant for an agency **to the [Bootstrap Environment Standard](bootstrap-environment-standard.md)**: Azure resources (SQL DB, API/UI apps, file share), baseline database import, Descope tenant, Directory API configuration, Application Gateway routing, and Build/Deploy of the chosen release branch.
+
+Bootstrap does **not** perform agency business configuration (ORI, officers, courts, codes, printers, policies). See [Bootstrap vs Configuration](bootstrap-vs-configuration.md).
 
 ---
 
@@ -61,16 +64,18 @@ Create a working Thin Line tenant for an agency: Azure resources (SQL DB, API/UI
 
 ### In scope
 
-- New agency environments: `dev`, `test`, or `prod`
+- New agency environments: `dev`, `test`, or `prod` ([Environment Classification](environment-classification.md))
 - Full or partial runs of `Infrastructure/scripts/bootstrap-client.ps1`
 - Standalone re-runs of individual steps (idempotent)
-- Teardown via `teardown-client.ps1` when retiring a tenant
+- Teardown via `teardown-client.ps1` when retiring a tenant ([Environment Lifecycle](environment-lifecycle.md) — Destroy)
 
 ### Out of scope
 
+- Agency **configuration** after infra is healthy ([Bootstrap vs Configuration](bootstrap-vs-configuration.md))
 - Legacy data conversion ([Legacy System Migration](legacy-system-migration.md))
 - Day-to-day support after go-live
 - Changing shared platform resources (SQL server host, App Service Plan, shared App Gateway appliance itself)—bootstrap **adds** client entries and databases
+- Owning / refreshing baseline bacpacs ([Baseline Database Standard](baseline-database-standard.md))
 
 ---
 
@@ -326,14 +331,11 @@ Examples:
 
 Individual scripts under `Infrastructure/scripts/01-…` through `07-…` may also be run standalone; see product `Infrastructure/README.md`.
 
-### Phase 5 — Verify
+### Phase 5 — Verify (health)
 
-- [ ] Azure resources exist with expected `tls-{agency}-{env}-*` names
-- [ ] `{agency}.thinline.app` and `{agency}-api.thinline.app` configured on App Gateway (unless intentionally deferred)
-- [ ] Descope tenant exists for FriendlyAgencyName
-- [ ] Directory API returns config for the agency/environment
-- [ ] UI loads; smoke login / agency context works
-- [ ] Database has expected seed agency name when FriendlyAgencyName was applied
+Complete the [Environment Health Checklist](../../checklists/environment-health-checklist.md).
+
+Confirm naming and URLs against the [Bootstrap Environment Standard](bootstrap-environment-standard.md). On pass, hand off to **Configuration** ([Bootstrap vs Configuration](bootstrap-vs-configuration.md)) — do not treat bootstrap as agency setup complete.
 
 ### Phase 6 — Teardown (only when retiring)
 
@@ -350,7 +352,7 @@ Default teardown steps: DirectoryConfig → DescopeTenant → AppGateway → Dat
 
 ## 17. Verification
 
-Bootstrap is complete when Phase 5 checks pass and Implementation is ready for configuration, training, and (if applicable) [Legacy System Migration](legacy-system-migration.md).
+Bootstrap is complete when the [Environment Health Checklist](../../checklists/environment-health-checklist.md) passes and the environment matches the [Bootstrap Environment Standard](bootstrap-environment-standard.md). Next lifecycle stages: Configuration → (optional Migration) → Training → Go Live — see [Environment Lifecycle](environment-lifecycle.md).
 
 ---
 
@@ -379,6 +381,14 @@ Bootstrap is complete when Phase 5 checks pass and Implementation is ready for c
 
 | Document | Relationship |
 |----------|--------------|
+| [Bootstrap Environment Standard](bootstrap-environment-standard.md) | What “done” looks like (naming, DNS, tiers) |
+| [Environment Inventory Standard](environment-inventory-standard.md) | Bill of materials |
+| [Environment Lifecycle](environment-lifecycle.md) | Request → destroy |
+| [Environment Classification](environment-classification.md) | dev / test / prod / demo / training |
+| [Baseline Database Standard](baseline-database-standard.md) | Seed bacpac |
+| [Bootstrap vs Configuration](bootstrap-vs-configuration.md) | Boundary |
+| [Hub Environment Integration](hub-environment-integration.md) | Future Hub record |
+| [Environment Health Checklist](../../checklists/environment-health-checklist.md) | Phase 5 |
 | Product repo `Infrastructure/README.md` | Command-level detail, profiles, teardown |
 | [Bootstrap environment (CVE stage)](../../customer-value-engine/deliver/bootstrap-environment.md) | Stage context |
 | [Legacy System Migration](legacy-system-migration.md) | Data load after/with environment |
@@ -436,3 +446,4 @@ Bootstrap is complete when Phase 5 checks pass and Implementation is ready for c
 |------|--------|
 | 2026-07-17 | Placeholder stub |
 | 2026-07-17 | v1 — documented current `Infrastructure/scripts/bootstrap-client.ps1` process (steps, profiles, secrets, verify, teardown) |
+| 2026-07-17 | Linked Bootstrap Standard, health checklist, lifecycle, config boundary |

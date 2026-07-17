@@ -1,18 +1,21 @@
 # Bootstrap environment
 
 **Phase:** Deliver  
-**Desired outcome:** Provision agency tenant (Azure + auth + Directory + apps)
+**Desired outcome:** Provision agency tenant (Azure + auth + Directory + apps) to the Bootstrap Environment Standard
 
 ## Inputs
 
 - Agency slug (`AgencyName`) and display name (`FriendlyAgencyName`)
-- Environment tier: `dev` | `test` | `prod`
+- Environment tier: `dev` | `test` | `prod` ([classification](../../sops/deliver/environment-classification.md))
 - Release / version branch (e.g. `release/6.1.0`)
 - Session secrets (SQL, Descope, DevOps PAT, Directory API as required)
+- Approved baseline bacpac ([Baseline Database Standard](../../sops/deliver/baseline-database-standard.md))
 
 ## Outputs
 
-- Live tenant: SQL DB, API/UI apps, App Gateway hostnames, Descope tenant, Directory config, deployed build
+- Environment matching [inventory](../../sops/deliver/environment-inventory-standard.md) + [naming standard](../../sops/deliver/bootstrap-environment-standard.md)
+- Passed [Environment Health Checklist](../../checklists/environment-health-checklist.md)
+- Ready for **Configuration** (not done by bootstrap) — [boundary](../../sops/deliver/bootstrap-vs-configuration.md)
 
 ## Owner
 
@@ -20,21 +23,19 @@ Keslin (Implementation Lead)
 
 ## Current process
 
-Orchestrated PowerShell from the product monorepo:
+1. Confirm parameters against Bootstrap Environment Standard  
+2. Azure US Government login; set secrets  
+3. Run `Infrastructure/scripts/bootstrap-client.ps1` (Infra → Database → AppGateway → DescopeTenant → DirectoryConfig → Build → Deploy)  
+4. Complete Environment Health Checklist  
+5. Hand off to Configuration → (optional Migration) per [Environment Lifecycle](../../sops/deliver/environment-lifecycle.md)
 
-1. Azure US Government login (`az cloud set` / `az login`)
-2. Set required env vars (`TLS_SQL_*`, `TLS_DESCOPE_*`, `TLS_DEVOPS_PAT`, Directory overrides as needed)
-3. Run `Infrastructure/scripts/bootstrap-client.ps1` with `-Environment`, `-AgencyName`, `-FriendlyAgencyName`, `-VersionBranch` (default Steps: Infra → Database → AppGateway → DescopeTenant → DirectoryConfig → Build → Deploy)
-4. Verify URLs and smoke login
-5. Proceed to configuration / training / [Legacy System Migration](../../sops/deliver/legacy-system-migration.md) when historical data is in scope
-
-Partial re-runs use `-Steps`. Teardown: `teardown-client.ps1`.
+**SOP:** [Bootstrap Environment](../../sops/deliver/bootstrap-environment.md)
 
 ## Tooling
 
-- Product repo `Infrastructure/scripts/` (`bootstrap-client.ps1`, `01`–`07`, profiles under `environments/`)
-- Azure CLI (US Government), SqlPackage, Azure DevOps PAT for Build/Deploy
-- Descope management API · Directory API
+- Product repo `Infrastructure/scripts/` + `environments/*.profile.json`
+- Azure CLI (US Government), SqlPackage, Azure DevOps PAT
+- Descope · Directory API
 
 ## Capacity (today)
 
@@ -48,35 +49,28 @@ Partial re-runs use `-Steps`. Teardown: `teardown-client.ps1`.
 
 **3 / 5 — Standardized**
 
-| Score | Meaning |
-|------:|---------|
-| 1 | Founder-driven |
-| 2 | Documented |
-| 3 | Standardized |
-| 4 | Automated |
-| 5 | Scalable |
-
 ## What would break first?
 
-Missing secrets / PAT · wrong AgencyName or Environment · SqlPackage or Directory API unreachable · Deploy without BuildId
+Missing secrets · wrong AgencyName/Environment · SqlPackage/Directory unreachable · treating configuration as part of bootstrap
 
 ## Continuous improvement (10x ideas)
 
 | Lens | Idea |
 |------|------|
-| Reduce / Simplify | Fewer manual secret steps |
-| Standardize | Profiles + this SOP (done for orchestration) |
-| Automate | OIDC / service principal; post-bootstrap smoke script |
-| Delegate | Implementation specialists run from SOP alone |
-| Scale | Hub-triggered tenant provision with prod approval gates |
+| Standardize | Bootstrap Environment Standard + health checklist (done) |
+| Automate | Hub Environment record + probes ([Hub integration](../../sops/deliver/hub-environment-integration.md)) |
+| Delegate | Specialists run SOP + Standard without founder |
 
 ## Product responsibility
 
-<mark style="color:red;">**TODO / Decision needed:**</mark> Not yet assigned in the source Customer Value Engine worksheet.
+Hub Environment as system of record — see [Hub Environment Integration](../../sops/deliver/hub-environment-integration.md).
 
 ## Related documents
 
-- **SOP (executable procedure):** [Bootstrap Environment](../../sops/deliver/bootstrap-environment.md)
-- Product monorepo: `Infrastructure/README.md`
-- [Legacy System Migration](../../sops/deliver/legacy-system-migration.md) — data after/with environment
-- [Customer Onboarding](../../sops/deliver/customer-onboarding.md)
+- [Bootstrap Environment SOP](../../sops/deliver/bootstrap-environment.md)
+- [Bootstrap Environment Standard](../../sops/deliver/bootstrap-environment-standard.md)
+- [Environment Inventory Standard](../../sops/deliver/environment-inventory-standard.md)
+- [Environment Lifecycle](../../sops/deliver/environment-lifecycle.md)
+- [Bootstrap vs Configuration](../../sops/deliver/bootstrap-vs-configuration.md)
+- [Environment Health Checklist](../../checklists/environment-health-checklist.md)
+- [Legacy System Migration](../../sops/deliver/legacy-system-migration.md)

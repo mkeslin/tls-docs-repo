@@ -13,6 +13,19 @@ See the Deliver SOP index: [deliver/README.md](deliver/README.md).
 | [Bootstrap Environment](deliver/bootstrap-environment.md) | v1 — Infrastructure PowerShell (`bootstrap-client.ps1`) |
 | [Post-Conversion Utilities](deliver/post-conversion-utilities.md) | v1 — Admin Data Utilities (workflow + call snapshot) |
 
+## Bootstrap / environment domain
+
+| Document | Status |
+|----------|--------|
+| [Bootstrap Environment Standard](deliver/bootstrap-environment-standard.md) | v1 |
+| [Environment Inventory Standard](deliver/environment-inventory-standard.md) | v1 |
+| [Environment Lifecycle](deliver/environment-lifecycle.md) | v1 |
+| [Environment Classification](deliver/environment-classification.md) | v1 |
+| [Baseline Database Standard](deliver/baseline-database-standard.md) | v1 |
+| [Bootstrap vs Configuration](deliver/bootstrap-vs-configuration.md) | v1 |
+| [Hub Environment Integration](deliver/hub-environment-integration.md) | v1 draft |
+| [Environment Health Checklist](../checklists/environment-health-checklist.md) | v1 |
+
 ## Migration domain
 
 | Document | Status |

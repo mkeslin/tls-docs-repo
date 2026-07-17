@@ -21,6 +21,19 @@ See [Assessments](../../assessments/README.md).
 | [Bootstrap Environment](bootstrap-environment.md) | v1 — Infrastructure PowerShell (`bootstrap-client.ps1`) |
 | [Post-Conversion Utilities](post-conversion-utilities.md) | v1 — Admin Data Utilities (workflow + call snapshot) |
 
+## Bootstrap / environment domain (standards)
+
+| Document | Status |
+|----------|--------|
+| [Bootstrap Environment Standard](bootstrap-environment-standard.md) | v1 — naming, DNS, completion criteria |
+| [Environment Inventory Standard](environment-inventory-standard.md) | v1 — bill of materials |
+| [Environment Lifecycle](environment-lifecycle.md) | v1 — request ? destroy |
+| [Environment Classification](environment-classification.md) | v1 — dev/test/prod/demo/training |
+| [Baseline Database Standard](baseline-database-standard.md) | v1 — seed bacpac |
+| [Bootstrap vs Configuration](bootstrap-vs-configuration.md) | v1 — boundary |
+| [Hub Environment Integration](hub-environment-integration.md) | v1 draft — future Hub |
+| [Environment Health Checklist](../../checklists/environment-health-checklist.md) | v1 |
+
 ## Migration domain (standards & guides)
 
 | Document | Status |
