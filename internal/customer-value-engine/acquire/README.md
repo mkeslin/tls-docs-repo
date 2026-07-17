@@ -8,7 +8,7 @@ Convert awareness into a contracted, invoiced customer ready for delivery.
 
 | Stage | Desired outcome | Owner | Maturity |
 |-------|-----------------|-------|----------|
-| [Awareness](awareness.md) | Generate interest | Annie | 1 |
+| [Awareness](awareness.md) | Generate interest | **Decision needed** | 1 |
 | [Cold leads](cold-leads.md) | Identify prospects | Fugate | 2 |
 | [Warm leads](warm-leads.md) | Qualify interest | Fugate | 2 |
 | [Hot leads](hot-leads.md) | Confirm interest | Fugate | 2 |

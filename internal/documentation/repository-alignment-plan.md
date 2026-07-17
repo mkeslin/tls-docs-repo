@@ -482,17 +482,17 @@ During transition, add a **Legacy** section pointing to `guide/` paths until ret
 | **P0** | Founder review of this plan + decisions (Section 9) | Matthew, Eric F | — |
 | **P0** | Root `README.md` and documentation standards policy | Matthew | P0 decisions |
 | **P1** | Phase 2 internal skeleton (`internal/strategy`, `customer-value-engine`, `sops` indexes) | Matthew | Plan approval |
-| **P1** | Replace GitBook template; publish root `SUMMARY.md` | Matthew / Annie | GitBook space decision |
-| **P1** | Fix broken `master_persons.md`; hide or stub placeholder guide pages | Eric Gibson / Annie | — |
-| **P2** | Author **Deliver** stage SOPs (data conversion, bootstrap, go-live) | Matthew + Annie | Interviews with founders |
+| **P1** | Replace GitBook template; publish root `SUMMARY.md` | Matthew | GitBook space decision |
+| **P1** | Fix broken `master_persons.md`; hide or stub placeholder guide pages | Eric Gibson | — |
+| **P2** | Author **Deliver** stage SOPs (data conversion, bootstrap, go-live) | Matthew | Interviews with founders |
 | **P2** | Author **Acquire** stage SOPs (demo, proposal, contract) | Eric Fugate | Pipedrive / process audit |
-| **P2** | Create `customer/` tree; copy guide content | Annie | Path mapping approved |
+| **P2** | Create `customer/` tree; copy guide content | **Decision needed** | Path mapping approved |
 | **P3** | Court and jail customer guides (new) | Eric Gibson + product | Product readiness |
 | **P3** | Citations and incidents guide authoring | Eric Gibson | Screen captures |
 | **P3** | RMS Help UI path migration (`versionHelper.ts`) | Matthew | `customer/` stable |
 | **P4** | **Operate** SOPs (support, releases) | Eric Gibson + Matthew | Tooling decisions |
-| **P4** | **Expand** and **Advocate** playbooks | Eric Fugate + Annie | CRM data |
-| **P5** | Deduplicate shared images; editorial pass on legacy typos | Annie | Low risk anytime |
+| **P4** | **Expand** and **Advocate** playbooks | Eric Fugate | CRM data |
+| **P5** | Deduplicate shared images; editorial pass on legacy typos | **Decision needed** | Low risk anytime |
 | **P5** | Retire `guide/` and top-level `release-notes/` legacy paths | Matthew | UI + blob verified |
 
 ---
@@ -520,24 +520,23 @@ During transition, add a **Legacy** section pointing to `guide/` paths until ret
 
 ### Operating model
 
-11. **Confirm or correct ownership** per value-stream stage (Matthew, Eric Fugate, Eric Gibson, Annie).
-12. **Annie's role boundaries:** implementation PM, marketing, customer success — which docs does she own first?
-13. **Eric Fugate vs. Matthew on strategic sales:** where does strategic sales end and product/architecture begin in documentation?
+11. **Confirm or correct ownership** per value-stream stage (Matthew, Eric Fugate, Eric Gibson).
+12. **Eric Fugate vs. Matthew on strategic sales:** where does strategic sales end and product/architecture begin in documentation?
 
 ### Process detail (do not invent — need input)
 
-14. **Data conversion:** standard methodology, tools, sign-off criteria, typical cycle time?
-15. **Tenant bootstrap:** manual steps today (Azure, Bicep, SQL scripts) — what is documented vs. tribal knowledge?
-16. **Demo environment:** golden tenant? refresh cadence?
-17. **Contract and billing:** Dropbox Sign + Stripe + Xero workflow — what is the canonical procedure?
-18. **Support tiers:** hours, escalation paths, after-hours policy (getstarted mentions after-hours message — is that still accurate)?
-19. **Release communication:** who writes release notes, review cycle, customer notification channel?
+13. **Data conversion:** standard methodology, tools, sign-off criteria, typical cycle time?
+14. **Tenant bootstrap:** manual steps today (Azure, Bicep, SQL scripts) — what is documented vs. tribal knowledge?
+15. **Demo environment:** golden tenant? refresh cadence?
+16. **Contract and billing:** Dropbox Sign + Stripe + Xero workflow — what is the canonical procedure?
+17. **Support tiers:** hours, escalation paths, after-hours policy (getstarted mentions after-hours message — is that still accurate)?
+18. **Release communication:** who writes release notes, review cycle, customer notification channel?
 
 ### Content quality
 
-20. **`master_persons.md`:** repair from source material or rewrite from scratch?
-21. **IBRS errors page:** customer-facing, internal reference, or both?
-22. **Release notes versioning:** keep `v_6_4_0` folder convention or adopt semver folders?
+19. **`master_persons.md`:** repair from source material or rewrite from scratch?
+20. **IBRS errors page:** customer-facing, internal reference, or both?
+21. **Release notes versioning:** keep `v_6_4_0` folder convention or adopt semver folders?
 
 ---
 

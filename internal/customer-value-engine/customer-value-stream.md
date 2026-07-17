@@ -8,7 +8,7 @@ Awareness → Cold leads → Warm leads → Hot leads → Demo → Proposal → 
 
 | Stage | Desired outcome | Owner | Maturity |
 |-------|-----------------|-------|----------|
-| [Awareness](acquire/awareness.md) | Generate interest | Annie | 1 |
+| [Awareness](acquire/awareness.md) | Generate interest | **Decision needed** | 1 |
 | [Cold leads](acquire/cold-leads.md) | Identify prospects | Fugate | 2 |
 | [Warm leads](acquire/warm-leads.md) | Qualify interest | Fugate | 2 |
 | [Hot leads](acquire/hot-leads.md) | Confirm interest | Fugate | 2 |
@@ -28,7 +28,7 @@ Data conversion → Bootstrap environment → Training → Go-live / configurati
 | [Data conversion](deliver/data-conversion.md) | Migrate historical data | Keslin | 1 |
 | [Bootstrap environment](deliver/bootstrap-environment.md) | Provision agency | Keslin | 3 |
 | [Training](deliver/training.md) | Prepare users | Fugate | 1 |
-| [Go-live / configuration](deliver/go-live-configuration.md) | Begin production use | Annie | 3 |
+| [Go-live / configuration](deliver/go-live-configuration.md) | Begin production use | **Decision needed** | 3 |
 
 - [Deliver overview](deliver/README.md)
 
@@ -49,7 +49,7 @@ Customer success → Expansion
 
 | Stage | Desired outcome | Owner | Maturity |
 |-------|-----------------|-------|----------|
-| [Customer success](expand/customer-success.md) | Ensure adoption | Fugate / Annie | 1 |
+| [Customer success](expand/customer-success.md) | Ensure adoption | Fugate | 1 |
 | [Expansion](expand/expansion.md) | Sell additional modules | Fugate | 1 |
 
 - [Expand overview](expand/README.md)
@@ -60,9 +60,9 @@ Reference → Referral → Community
 
 | Stage | Desired outcome | Owner | Maturity |
 |-------|-----------------|-------|----------|
-| [Reference](advocate/reference.md) | Create champions | Fugate / Annie | 1 |
-| [Referral](advocate/referral.md) | Generate new leads | Fugate / Annie | 1 |
-| [Community](advocate/community.md) | Strengthen ecosystem | Fugate / Annie | 1 |
+| [Reference](advocate/reference.md) | Create champions | Fugate | 1 |
+| [Referral](advocate/referral.md) | Generate new leads | Fugate | 1 |
+| [Community](advocate/community.md) | Strengthen ecosystem | Fugate | 1 |
 
 - [Advocate overview](advocate/README.md)
 

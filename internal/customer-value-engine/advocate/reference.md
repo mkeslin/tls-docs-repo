@@ -13,7 +13,7 @@ Reference agency
 
 ## Owner
 
-Fugate / Annie
+Fugate
 
 ## Current process
 

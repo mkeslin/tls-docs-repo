@@ -8,7 +8,7 @@ Ensure customers succeed, then grow ARR through additional products and sites.
 
 | Stage | Desired outcome | Owner | Maturity |
 |-------|-----------------|-------|----------|
-| [Customer success](customer-success.md) | Ensure adoption | Fugate / Annie | 1 |
+| [Customer success](customer-success.md) | Ensure adoption | Fugate | 1 |
 | [Expansion](expansion.md) | Sell additional modules | Fugate | 1 |
 
 ## Related

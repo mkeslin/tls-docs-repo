@@ -11,7 +11,7 @@ Convert a signed customer into a production agency with converted data, a provis
 | [Data conversion](data-conversion.md) | Migrate historical data | Keslin | 1 |
 | [Bootstrap environment](bootstrap-environment.md) | Provision agency | Keslin | 3 |
 | [Training](training.md) | Prepare users | Fugate | 1 |
-| [Go-live / configuration](go-live-configuration.md) | Begin production use | Annie | 3 |
+| [Go-live / configuration](go-live-configuration.md) | Begin production use | **Decision needed** | 3 |
 
 ## Related
 

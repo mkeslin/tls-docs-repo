@@ -13,7 +13,7 @@ Qualified lead
 
 ## Owner
 
-Fugate / Annie
+Fugate
 
 ## Current process
 

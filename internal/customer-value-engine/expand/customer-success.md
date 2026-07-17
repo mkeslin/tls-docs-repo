@@ -13,7 +13,7 @@ Healthy customer
 
 ## Owner
 
-Fugate / Annie
+Fugate
 
 ## Current process
 

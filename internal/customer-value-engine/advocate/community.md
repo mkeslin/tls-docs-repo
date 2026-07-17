@@ -13,7 +13,7 @@ Ecosystem and product feedback
 
 ## Owner
 
-Fugate / Annie
+Fugate
 
 ## Current process
 

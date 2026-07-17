@@ -8,9 +8,9 @@ Turn successful customers into champions who create the next wave of demand.
 
 | Stage | Desired outcome | Owner | Maturity |
 |-------|-----------------|-------|----------|
-| [Reference](reference.md) | Create champions | Fugate / Annie | 1 |
-| [Referral](referral.md) | Generate new leads | Fugate / Annie | 1 |
-| [Community](community.md) | Strengthen ecosystem | Fugate / Annie | 1 |
+| [Reference](reference.md) | Create champions | Fugate | 1 |
+| [Referral](referral.md) | Generate new leads | Fugate | 1 |
+| [Community](community.md) | Strengthen ecosystem | Fugate | 1 |
 
 ## Related
 
