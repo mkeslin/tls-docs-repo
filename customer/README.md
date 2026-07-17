@@ -9,6 +9,7 @@ This area is **customer-safe**. Do not publish internal pricing strategy, unrele
 | Section | Purpose |
 |---------|---------|
 | [Getting started](getting-started/README.md) | Login, application shell, modules, master records, header |
+| [Implementation](implementation/README.md) | Shared workbook for implementation meetings |
 | [Training](training/README.md) | Orientation and Court / Jail workshop curricula |
 | [Support](support/README.md) | Contact, tickets, remote assistance, FAQ, troubleshooting |
 
@@ -18,7 +19,7 @@ Thin Line Platform modules. Open a product for its overview; expand Court (and l
 
 | Product | Purpose |
 |---------|---------|
-| [RMS](rms/README.md) | Records management — [Citations](rms/citations/README.md) available; more modules TODO |
+| [RMS](rms/README.md) | Records — [Citations](rms/citations/README.md) and [Incidents](rms/incidents/README.md); more modules TODO |
 | [CAD](cad/README.md) | Computer-aided dispatch and self-dispatch |
 | [Court](court/README.md) | Court Violations — municipal court case processing |
 | [Jail](jail/README.md) | Jail Intake and Command Center (booking through release) |
