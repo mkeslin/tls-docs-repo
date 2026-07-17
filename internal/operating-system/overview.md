@@ -6,13 +6,13 @@ Thin Line’s operating model is how the company acquires customers, delivers th
 
 See [Customer value stream](customer-value-stream.md) for the five phases and stage list.
 
-| Phase | Outcome |
-|-------|---------|
-| **Acquire** | Signed customer ready to implement |
-| **Deliver** | Customer live on Thin Line Unity |
-| **Operate** | Reliable support and product updates |
-| **Expand** | Deeper adoption and additional modules/sites |
-| **Advocate** | References, referrals, and community |
+| Phase        | Outcome                                      |
+| ------------ | -------------------------------------------- |
+| **Acquire**  | Signed customer ready to implement           |
+| **Deliver**  | Customer live on Thin Line Unity             |
+| **Operate**  | Reliable support and product updates         |
+| **Expand**   | Deeper adoption and additional modules/sites |
+| **Advocate** | References, referrals, and community         |
 
 ## Improvement framework
 
@@ -26,13 +26,13 @@ Every process should be evaluated in this order:
 
 ## Where procedures live
 
-| Need | Location |
-|------|----------|
-| Stage purpose, owners, KPIs, bottlenecks | [`operating-system/`](./) stage pages |
-| Step-by-step procedures | [`../sops/`](../sops/) |
-| Checklists and templates | [`../checklists/`](../checklists/), [`../templates/`](../templates/) |
+| Need                                     | Location                                                    |
+| ---------------------------------------- | ----------------------------------------------------------- |
+| Stage purpose, owners, KPIs, bottlenecks | [`operating-system/`](./) stage pages                       |
+| Step-by-step procedures                  | [`../sops/`](../sops/)                                      |
+| Checklists and templates                 | [`../checklists/`](../), [`../templates/`](../templates.md) |
 
 ## Related
 
-- [Vision and principles](../strategy/vision-and-principles.md)
-- [SOP index](../sops/README.md)
+* [Vision and principles](../strategy/vision-and-principles.md)
+* [SOP index](../sops/)
