@@ -133,13 +133,14 @@ See [Implementation workspace standard](implementation-workspace-standard.md).
 
 ## Customer-facing materials stay derived—and limited
 
-Customer guides under `customer/` (training, getting started, product help) should **align** with how we implement, but they must **not** expose internal-only procedures: bootstrap scripts, package internals, RACI, pricing policy, Hub/ops shortcuts, or founder-only decisions.
+Customer guides under `customer/` (training, getting started, product help, and the **implementation pack**) should **align** with how we implement, but they must **not** expose internal-only procedures: bootstrap scripts, package internals, internal RACI detail, pricing policy, Hub/ops shortcuts, or founder-only decisions.
 
 | OK for customers | Keep internal |
 |------------------|---------------|
 | How to use modules after go-live | Bootstrap SOP and Azure naming |
 | What to expect in training | Sales handoff packet fields |
 | Validation they participate in | Migration package promotion rules |
+| Implementation pack under [`customer/implementation/`](../../../customer/implementation/README.md) (kickoff agenda, preliminary plan, action register, workbooks) | Internal SOPs, package internals, pricing policy, CVE maturity notes |
 
 When you write or update customer docs, pull outcomes and language from the methodology—do not paste SOP steps into the customer book.
 
@@ -179,9 +180,10 @@ Bootstrap alone is not complete. First login is not complete. “Training happen
 | Document | Use when |
 |----------|----------|
 | [Implementation lifecycle](implementation-lifecycle.md) | You need the phase sequence, outcomes, and flow |
-| [Implementation workspace standard](implementation-workspace-standard.md) | You need folder layout, naming, and where artifacts live |
+| [Implementation workspace standard](implementation-workspace-standard.md) | You need where status is tracked and what belongs in the workspace |
 | [Implementation roles and responsibilities](implementation-roles-and-responsibilities.md) | You need who is accountable for each phase |
-| [Deliver index](README.md) | You need the full TOC and supporting SOPs by phase |
+| [Deliver index](README.md) | You need the full TOC, supporting SOPs, and customer pack links |
+| [Customer — Implementation](../../../customer/implementation/README.md) | You need customer-facing templates |
 | [Customer Value Engine — Deliver](../../customer-value-engine/deliver/README.md) | You need owners, capacity, and maturity |
 
 ---

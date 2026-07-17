@@ -37,9 +37,9 @@ This phase ends when in-scope configuration is done (or deferred with owners)—
 1. Complete [Agency & Module Settings](agency-settings.md) for the agency type and licensed modules (General, Modules, Notifications & Workflow, Reports, Documents; Record Sharing if multi-agency).  
 2. Configure related Admin areas: officers, users/roles, codes, CAD dispatch agencies, evidence locations as in scope.  
 3. Align record number patterns with migration Overrides when historical data was imported.  
-4. Work the [Agency Configuration Checklist](../../../checklists/agency-configuration-checklist.md); mark N/A where out of scope.  
+4. Work customer decisions with the [Configuration discovery workbook](../../../../customer/implementation/configuration-discovery-workbook.md); keep internal verification on the [Agency configuration checklist](../../../checklists/agency-configuration-checklist.md).  
 5. Smoke core workflows in the configured tenant (create/open a record in each enabled module family).  
-6. Hand off open items (payments live verify, partner webhooks, devices) to [Integrations and Hardware](../integrations-and-hardware.md) when needed.  
+6. Hand off open items (payments live verify, partner webhooks, devices) to [Integrations and hardware](../integrations-and-hardware.md) when needed.  
 
 ---
 
@@ -70,9 +70,11 @@ Milestone **Configuration Complete** when:
 | Doc | Type |
 |-----|------|
 | [Agency & Module Settings](agency-settings.md) | Reference |
-| [Agency Configuration Checklist](../../../checklists/agency-configuration-checklist.md) | Checklist |
+| [Configuration discovery workbook](../../../../customer/implementation/configuration-discovery-workbook.md) | Customer-facing decisions |
+| [Agency configuration checklist](../../../checklists/agency-configuration-checklist.md) | Internal verification |
 | [Bootstrap vs Configuration](../infrastructure/bootstrap-vs-configuration.md) | Boundary |
 | [Implementation overview](../implementation-overview.md) | Parent |
+| [Legacy onboarding questionnaire mapping](../legacy-onboarding-questionnaire-mapping.md) | Source→destination crosswalk |
 
 **Previous:** [Data Migration](../data-migration/README.md) or [Infrastructure](../infrastructure/README.md)  
 **Next:** [Integrations and Hardware](../integrations-and-hardware.md) or [Training](../training.md)

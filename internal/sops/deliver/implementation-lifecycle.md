@@ -145,8 +145,9 @@ High. Sponsor and operational leads should attend kickoff and answer discovery q
 
 - [Kickoff and discovery](kickoff-and-discovery.md)  
 - [Implementation roles and responsibilities](implementation-roles-and-responsibilities.md)  
-- [Implementation readiness assessment](../../assessments/implementation-readiness-assessment.md)  
 - [Implementation workspace standard](implementation-workspace-standard.md)  
+- [Implementation readiness assessment](../../assessments/implementation-readiness-assessment.md)  
+- Customer: [Kickoff agenda](../../../customer/implementation/implementation-kickoff-agenda.md) · [Preliminary plan](../../../customer/implementation/preliminary-implementation-plan.md) · [Action register](../../../customer/implementation/implementation-action-register.md) · [Implementation workbook](../../../customer/implementation/customer-implementation-workbook.md) · [Working session workbook](../../../customer/implementation/implementation-working-session-workbook.md)  
 
 ---
 
@@ -304,6 +305,7 @@ High. Workflow owners decide codes, numbering, court defaults, and who gets whic
 - [Agency & module settings](configuration/agency-settings.md)  
 - [Agency configuration checklist](../../checklists/agency-configuration-checklist.md)  
 - [Bootstrap vs configuration](infrastructure/bootstrap-vs-configuration.md)  
+- Customer: [Configuration discovery workbook](../../../customer/implementation/configuration-discovery-workbook.md)  
 
 ---
 

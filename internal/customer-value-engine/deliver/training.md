@@ -65,5 +65,6 @@ Founder time
 
 ## Related documents
 
-- Related SOPs: <mark style="color:red;">**TODO:**</mark> link under `internal/sops/`
-- Checklists / templates: <mark style="color:red;">**TODO:**</mark>
+- Phase overview: [Training](../../sops/deliver/training.md)
+- Customer guides: [Training](../../../customer/training/README.md) · [Getting started](../../../customer/getting-started/README.md)
+- Checklists / facilitation SOP: still TBD (see phase overview TODO)

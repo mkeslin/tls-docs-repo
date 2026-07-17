@@ -78,6 +78,8 @@ Track phases **0–8** from the [Implementation lifecycle](implementation-lifecy
 
 ### 7. Tasks and owners
 
+Customer-facing field model and rules: [Implementation action register](../../../customer/implementation/implementation-action-register.md).
+
 - Work items with a single owner  
 - Due date when a date matters  
 - Link to the phase they serve  
