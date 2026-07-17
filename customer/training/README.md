@@ -1,6 +1,6 @@
 # Training
 
-Structured training resources for Thin Line Unity (RMS, CAD, court, jail, and related modules).
+Structured training resources for Thin Line Platform (RMS, CAD, court, jail, and related modules).
 
 ## Purpose
 

@@ -10,7 +10,7 @@ Give staff a single place for product intent and boundaries.
 
 **TODO:**
 
-* Module / capability index for Thin Line Unity (RMS, CAD, court, jail, mobile, admin)
+* Module / capability index for Thin Line Platform (RMS, CAD, court, jail, mobile, admin)
 * Product decision log (or link to Azure DevOps / Cursor plans)
 * What is documented in the `ThinLineSoftware` monorepo vs. this docs repo
 

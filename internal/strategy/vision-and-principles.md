@@ -6,7 +6,7 @@ Build the leading unified public safety platform for small and mid-sized Texas a
 
 ## Product
 
-**Thin Line Unity** — a unified platform spanning RMS, CAD, mobile workflows, courts, jails/corrections, and related administrative functions.
+**Thin Line Platform** — a unified platform spanning RMS, CAD, mobile workflows, courts, jails/corrections, and related administrative functions.
 
 ## Core principles
 

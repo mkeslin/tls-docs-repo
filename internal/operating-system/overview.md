@@ -9,7 +9,7 @@ See [Customer value stream](customer-value-stream.md) for the five phases and st
 | Phase        | Outcome                                      |
 | ------------ | -------------------------------------------- |
 | **Acquire**  | Signed customer ready to implement           |
-| **Deliver**  | Customer live on Thin Line Unity             |
+| **Deliver**  | Customer live on Thin Line Platform             |
 | **Operate**  | Reliable support and product updates         |
 | **Expand**   | Deeper adoption and additional modules/sites |
 | **Advocate** | References, referrals, and community         |

@@ -1,6 +1,6 @@
 # Thin Line Software — Documentation
 
-Durable documentation for Thin Line Software and the Thin Line Unity platform.
+Durable documentation for Thin Line Software and the Thin Line Platform.
 
 This repository is organized around how Thin Line creates and delivers customer value — not as a general company wiki.
 

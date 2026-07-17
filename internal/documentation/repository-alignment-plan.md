@@ -502,7 +502,7 @@ During transition, add a **Legacy** section pointing to `guide/` paths until ret
 ### Strategy and scope
 
 1. **Is `tls-docs-repo` the single documentation source of truth**, or do `ThinLineSoftware` repo docs (`AGENTS.md`, `API-ARCHITECTURE.md`, etc.) remain authoritative for technical content with this repo linking to them?
-2. **Confirm product name for customer-facing docs:** Thin Line Unity vs. Thin Line RMS/CAD (both appear in existing content).
+2. **Confirm product name for customer-facing docs:** Thin Line Platform vs. Thin Line RMS/CAD (both appear in existing content).
 3. **Geographic and module scope for customer docs:** Texas-only assumptions? Which modules are in scope for 2026 H2 (court, jail, mobile)?
 
 ### Publishing and access

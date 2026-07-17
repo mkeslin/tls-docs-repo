@@ -6,7 +6,7 @@ This space is the durable source of truth for how Thin Line runs the business â€
 
 ## Why this exists
 
-Thin Line is building a unified public safety platform (Thin Line Unity) for small and mid-sized Texas agencies. Scaling that work depends less on heroics and more on shared standards: one way to sell, implement, support, and expand.
+Thin Line is building a unified public safety platform (Thin Line Platform) for small and mid-sized Texas agencies. Scaling that work depends less on heroics and more on shared standards: one way to sell, implement, support, and expand.
 
 These pages capture those standards so new work compounds instead of reinventing process each time.
 

@@ -1,6 +1,6 @@
 # Implementation
 
-Internal guides for delivering Thin Line Unity to a customer.
+Internal guides for delivering Thin Line Platform to a customer.
 
 ## Purpose
 
