@@ -289,27 +289,31 @@ Examples:
 - Migration scripts
 - Mapping definitions
 
-Migration tools should eventually become their own repository.
+Migration tooling currently lives in the **product monorepo** under `Utilities/Migration Tools/` (may become its own repository later).
 
-Example:
+Canonical layout (see [Migration Package Standards](../sops/deliver/migration-package-standards.md)):
 
 ```
-MigrationTools/
+Utilities/Migration Tools/
 
-    Vendors/
+    PROCESS.md                 ← agent-led engagement procedure
 
-        Tyler/
+    CrimeStar/
+    CopSync/                   ← COPsync / Kologik
+    IncodeCourt/               ← Tyler / INCODE + Common V14 court
+    Xpediter/
 
-        CopSync/
-
-        CrimeStar/
-
-    Common/
-
-    Utilities/
-
-    Tests/
+    <each Vendor>/
+        VERSION
+        AgencyChecklist.md
+        ConvertedAgencies.md
+        StagingImporter/       ← when applicable
+        SqlPackage/
+            Pipeline/ or Common/
+            Overrides/*.TEMPLATE.sql
 ```
+
+Agency-specific filled scripts and checklist answers live under `Clients/<Client>/Conversion/` (and/or Team Drive)—not in the shared vendor Pipeline.
 
 ---
 
@@ -320,7 +324,7 @@ MigrationTools/
 | How do we perform a migration? | GitBook |
 | What stage is Levelland currently in? | Thin Line Hub |
 | Where is the signed SaaS agreement? | OneDrive |
-| What SQL converts Tyler incidents? | Git |
+| What SQL converts a CopSync / CrimeStar / Xpediter agency? | Product Git — Migration Tools + client Conversion folder |
 | Has the invoice been paid? | Xero / Stripe |
 | What is our payroll expense? | Gusto |
 

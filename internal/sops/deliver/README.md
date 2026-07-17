@@ -16,12 +16,12 @@ See [Assessments](../../assessments/README.md).
 
 | SOP | Status |
 |-----|--------|
-| [Legacy System Migration](legacy-system-migration.md) | v1 model SOP |
+| [Legacy System Migration](legacy-system-migration.md) | v1 model SOP (aligned with Migration Tools) |
 | [Customer Onboarding](customer-onboarding.md) | Placeholder |
 | [Bootstrap Environment](bootstrap-environment.md) | Placeholder |
 | [Post-Conversion Utilities](post-conversion-utilities.md) | Placeholder |
-| [Vendor Conversion Guides](vendor-conversion-guides/README.md) | Placeholder index |
-| [Migration Package Standards](migration-package-standards.md) | Placeholder |
+| [Vendor Conversion Guides](vendor-conversion-guides/README.md) | v1 catalog |
+| [Migration Package Standards](migration-package-standards.md) | v1 — package layout / VERSION / promote rules |
 
 ## Suggested next SOPs
 

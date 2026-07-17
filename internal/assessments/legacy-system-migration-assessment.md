@@ -73,9 +73,13 @@ Everything after this—pricing, implementation schedule, and engineering effort
 
 | Field | Value |
 |-------|-------|
-| Vendor | |
+| Vendor | ☐ CrimeStar · ☐ CopSync / Kologik · ☐ IncodeCourt (Tyler/INCODE) · ☐ Xpediter · ☐ Other: _______________ |
 | Product | |
-| Version | |
+| Legacy product version | |
+| Migration Tools package folder | `Utilities/Migration Tools/_______________/` |
+| Migration Tools package VERSION | *(from vendor `VERSION` file; or `pre-package` / N/A)* |
+
+See [Vendor Conversion Guides](../sops/deliver/vendor-conversion-guides/README.md).
 
 **Hosting**
 
@@ -89,8 +93,9 @@ Everything after this—pricing, implementation schedule, and engineering effort
 - [ ] SQL Server
 - [ ] MySQL
 - [ ] Oracle
-- [ ] FoxPro
+- [ ] FoxPro / DBF
 - [ ] Access
+- [ ] Firebird / InterBase (`.GDB`)
 - [ ] Unknown
 - [ ] Other: _______________
 
@@ -110,9 +115,10 @@ Everything after this—pricing, implementation schedule, and engineering effort
 
 | Field | Value |
 |-------|-------|
-| Converter exists? | ☐ Yes · ☐ Partial · ☐ No |
-| Converter version / label | |
-| Last customer using converter | |
+| Converter / vendor package exists? | ☐ Yes · ☐ Partial · ☐ No |
+| Migration Tools package VERSION | |
+| AgencyChecklist path | `.../AgencyChecklist.md` |
+| Last customer on this package | *(see vendor `ConvertedAgencies.md`)* |
 | Known issues | |
 | Estimated engineering required | hours / notes |
 
@@ -312,7 +318,8 @@ Every assessment should make the next migration easier.
 |----------|--------|
 | Did we improve a converter? | ☐ Yes · ☐ No · ☐ N/A — notes: |
 | What should be standardized? | |
-| Should this become / update a reusable vendor template? | ☐ Yes · ☐ No · ☐ TBD |
+| Should this become / update a reusable vendor template? | ☐ Yes · ☐ No · ☐ TBD — promote into `Utilities/Migration Tools/<Vendor>/` and bump VERSION |
+| Update `ConvertedAgencies.md` after acceptance? | ☐ Yes · ☐ N/A |
 | Should this generate a product or internal tooling feature? | ☐ Yes · ☐ No · ☐ TBD — idea: |
 | Lessons learned | |
 
@@ -351,3 +358,4 @@ That capability would be a competitive advantage and is tracked as product impac
 | Date | Change |
 |------|--------|
 | 2026-07-17 | v1 — Legacy System Migration Assessment form (elevated from Conversion Assessment placeholder) |
+| 2026-07-17 | Added Migration Tools package VERSION, vendor checkboxes, Firebird, ConvertedAgencies close-out |
