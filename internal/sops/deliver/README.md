@@ -65,6 +65,7 @@ Document maturity (Placeholder, Draft, v1) is separate from engagement statuses 
 
 | Doc | Type |
 |-----|------|
+| [Discovery brief template](../../../customer/implementation/discovery-brief-template.md) | Customer template (customize in engagement workspace) |
 | [Implementation kickoff agenda](../../../customer/implementation/implementation-kickoff-agenda.md) | Customer template |
 | [Preliminary implementation plan](../../../customer/implementation/preliminary-implementation-plan.md) | Customer template |
 | [Implementation action register](../../../customer/implementation/implementation-action-register.md) | Customer template |
@@ -147,6 +148,7 @@ Shared with the agency (no internal SOPs or pricing):
 
 | Document | Purpose |
 |----------|---------|
+| [Discovery brief template](../../../customer/implementation/discovery-brief-template.md) | Agency-specific pre-read (customize in engagement workspace) |
 | [Implementation kickoff agenda](../../../customer/implementation/implementation-kickoff-agenda.md) | First formal kickoff (60-90 min) |
 | [Preliminary implementation plan](../../../customer/implementation/preliminary-implementation-plan.md) | Working plan after discovery |
 | [Implementation action register](../../../customer/implementation/implementation-action-register.md) | Actions, decisions, risks, gaps |

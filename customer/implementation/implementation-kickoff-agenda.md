@@ -35,7 +35,7 @@
 - Prefer **decisions and owners** over filling every blank during the meeting.  
 - Deep workflow discovery, full configuration, and migration assessment happen in **later sessions**—this kickoff sets direction.  
 - Capture notes in [Meeting notes](#meeting-notes) and close with the [Action register](#action-register).  
-- Related materials: [Preliminary implementation plan](preliminary-implementation-plan.md) · [Customer implementation workbook](customer-implementation-workbook.md) · [Configuration discovery workbook](configuration-discovery-workbook.md) · [Working session workbook](implementation-working-session-workbook.md)
+- Related materials: [Discovery brief template](discovery-brief-template.md) · [Preliminary implementation plan](preliminary-implementation-plan.md) · [Customer implementation workbook](customer-implementation-workbook.md) · [Working session workbook](implementation-working-session-workbook.md)
 
 **Timing guide:** Suggested times below total about **75 minutes**. For a **60-minute** kickoff, shorten discussion on items 8–12. For **90 minutes**, expand items 5, 8, 9, and 12.
 
@@ -404,6 +404,7 @@ Complete before ending the meeting. Copy incomplete items into the living [Imple
 
 ## Related
 
+- [Discovery brief template](discovery-brief-template.md)  
 - [Preliminary implementation plan](preliminary-implementation-plan.md)  
 - [Implementation action register](implementation-action-register.md)  
 - [Customer implementation workbook](customer-implementation-workbook.md)  

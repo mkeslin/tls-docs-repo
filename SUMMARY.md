@@ -178,6 +178,7 @@
   * [Agency settings](customer/admin/agency-settings.md)
   * [Audit, security, and jobs](customer/admin/audit-security-jobs.md)
 * [Implementation](customer/implementation/README.md)
+  * [Discovery brief template](customer/implementation/discovery-brief-template.md)
   * [Implementation kickoff agenda](customer/implementation/implementation-kickoff-agenda.md)
   * [Preliminary implementation plan](customer/implementation/preliminary-implementation-plan.md)
   * [Implementation action register](customer/implementation/implementation-action-register.md)
