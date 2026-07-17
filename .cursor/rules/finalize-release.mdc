@@ -1,0 +1,30 @@
+---
+description: Finalize / cut / ship a product release — docs half (customer + internal GitBook, release-notes.json). Lead with product-repo Docs/RELEASE-FINALIZATION.md.
+alwaysApply: false
+---
+
+# Finalize release (docs repo)
+
+When the user asks to **finalize a release**, **cut a release**, **ship a release**, or update docs for a release while in this repo, treat documentation as a **required gate**, not optional polish.
+
+## Canonical checklist
+
+Product monorepo: `Docs/RELEASE-FINALIZATION.md`  
+Product rule: `.cursor/rules/finalize-release.mdc`
+
+If the product repo is available locally (typical: `C:\TLS\Thin Line Software`), **lead the full checklist** there (version, tests, engineering notes) and complete the docs steps below. If only this repo is open, complete the docs gates and report that version/tests must be finished in the product repo.
+
+## Docs gates (this repo)
+
+1. Confirm version `X.Y.Z` and docs folder label (`v_X_Y_Z`, matching UI `currentVersionUrlParameter`).
+2. **Customer release notes:** `release-notes/v_X_Y_Z/` (+ patch sections in the markdown as needed) and `release-notes/release-notes.json` navigation.
+3. **Customer guides:** Update `customer/` for user-visible behavior in the release (not notes-only).
+4. **Internal docs:** Update `internal/` when SOPs, standards, or operating process changed.
+5. Use red outstanding markers for real gaps; do not invent process.
+6. Report what was updated and what remains.
+
+## Do not
+
+- Ship docs that contradict the product versionHelper / engineering release notes.
+- Reorganize application-consumed `release-notes/` paths without an explicit UI migration plan.
+- Skip internal/customer doc updates when the release changed behavior or process.

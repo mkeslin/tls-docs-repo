@@ -16,6 +16,10 @@ How this repository is organized and maintained.
 - Do **not** reorganize [`release-notes/`](../../release-notes/) (application-consumed).
 - Do **not** reorganize [`guide/`](../../guide/) until a later migration is approved.
 
+## Finalize a release
+
+When preparing a product release, the Cursor rule [`.cursor/rules/finalize-release.mdc`](../../.cursor/rules/finalize-release.mdc) applies. Customer release notes (`release-notes/` + `release-notes.json`) and relevant `customer/` / `internal/` updates are **required gates**. Full checklist (tests, version bump): product monorepo `Docs/RELEASE-FINALIZATION.md`.
+
 ## Document types
 
 | Type | Meaning |
