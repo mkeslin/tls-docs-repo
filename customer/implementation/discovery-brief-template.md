@@ -67,7 +67,7 @@ Add or remove rows to match the engagement. Do not promise priced migration or f
 - Separate contacts from application users  
 - Deep technical or extract work becomes follow-up tasks  
 
-Link the session workbook / kickoff agenda / action register you will use.
+Thin Line will use an internal working session notebook during the meeting. Afterward you will see clear next steps (actions, and a preliminary plan when ready).
 
 ---
 

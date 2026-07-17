@@ -147,7 +147,8 @@ High. Sponsor and operational leads should attend kickoff and answer discovery q
 - [Implementation roles and responsibilities](implementation-roles-and-responsibilities.md)  
 - [Implementation workspace standard](implementation-workspace-standard.md)  
 - [Implementation readiness assessment](../../assessments/implementation-readiness-assessment.md)  
-- Customer: [Kickoff agenda](../../../customer/implementation/implementation-kickoff-agenda.md) · [Preliminary plan](../../../customer/implementation/preliminary-implementation-plan.md) · [Action register](../../../customer/implementation/implementation-action-register.md) · [Implementation workbook](../../../customer/implementation/customer-implementation-workbook.md) · [Working session workbook](../../../customer/implementation/implementation-working-session-workbook.md)  
+- Customer: [Discovery brief](../../../customer/implementation/discovery-brief-template.md) · [Kickoff agenda](../../../customer/implementation/implementation-kickoff-agenda.md) · [Preliminary plan](../../../customer/implementation/preliminary-implementation-plan.md) · [Action register](../../../customer/implementation/implementation-action-register.md) · [Implementation workbook](../../../customer/implementation/customer-implementation-workbook.md)  
+- Thin Line: [Working session workbook](../../templates/working-session-workbook.md)  
 
 ---
 

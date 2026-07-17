@@ -11,7 +11,7 @@ Related destinations:
 | Destination | Path |
 |-------------|------|
 | Customer implementation workbook | [`customer/implementation/customer-implementation-workbook.md`](../../../customer/implementation/customer-implementation-workbook.md) |
-| Working session workbook | [`customer/implementation/implementation-working-session-workbook.md`](../../../customer/implementation/implementation-working-session-workbook.md) |
+| Working session workbook (Thin Line) | [`internal/templates/working-session-workbook.md`](../../templates/working-session-workbook.md) |
 | Configuration discovery workbook | [`customer/implementation/configuration-discovery-workbook.md`](../../../customer/implementation/configuration-discovery-workbook.md) |
 | Agency configuration checklist (internal) | [`checklists/agency-configuration-checklist.md`](../../checklists/agency-configuration-checklist.md) |
 | Hardware readiness checklist | [`checklists/hardware-readiness-checklist.md`](../../checklists/hardware-readiness-checklist.md) |

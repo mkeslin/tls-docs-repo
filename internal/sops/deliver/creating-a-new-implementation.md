@@ -44,10 +44,10 @@ Copy reusable templates **into the workspace** (do not fill agency answers in Gi
 
 | Copy from | Into workspace as |
 |-----------|-------------------|
-| [Discovery brief template](../../../customer/implementation/discovery-brief-template.md) | Agency discovery brief *(when discovery/kickoff needs a pre-read)* |
+| [Discovery brief template](../../../customer/implementation/discovery-brief-template.md) | Agency discovery brief *(customer pre-read)* |
+| [Working session workbook template](../../templates/working-session-workbook.md) | Thin Line meeting notebook *(not customer-facing)* |
 | [Implementation kickoff agenda](../../../customer/implementation/implementation-kickoff-agenda.md) | Kickoff agenda |
 | [Customer implementation workbook](../../../customer/implementation/customer-implementation-workbook.md) | Implementation workbook *(or section copies)* |
-| [Implementation working session workbook](../../../customer/implementation/implementation-working-session-workbook.md) | Working session notes |
 | [Configuration discovery workbook](../../../customer/implementation/configuration-discovery-workbook.md) | Configuration decisions *(later)* |
 | [Preliminary implementation plan](../../../customer/implementation/preliminary-implementation-plan.md) | Preliminary plan *(after discovery)* |
 | [Implementation action register](../../../customer/implementation/implementation-action-register.md) | Living action register |

@@ -66,12 +66,12 @@ Document maturity (Placeholder, Draft, v1) is separate from engagement statuses 
 
 | Doc | Type |
 |-----|------|
-| [Discovery brief template](../../../customer/implementation/discovery-brief-template.md) | Customer template (customize in engagement workspace) |
+| [Discovery brief template](../../../customer/implementation/discovery-brief-template.md) | Customer pre-read |
+| [Working session workbook](../../templates/working-session-workbook.md) | Thin Line meeting notebook |
 | [Implementation kickoff agenda](../../../customer/implementation/implementation-kickoff-agenda.md) | Customer template |
 | [Preliminary implementation plan](../../../customer/implementation/preliminary-implementation-plan.md) | Customer template |
 | [Implementation action register](../../../customer/implementation/implementation-action-register.md) | Customer template |
 | [Customer implementation workbook](../../../customer/implementation/customer-implementation-workbook.md) | Customer template |
-| [Implementation working session workbook](../../../customer/implementation/implementation-working-session-workbook.md) | Customer template |
 | [Implementation readiness assessment](../../assessments/implementation-readiness-assessment.md) | Assessment (Placeholder) |
 
 ### Phase 2 - Infrastructure
@@ -149,14 +149,15 @@ Shared with the agency (no internal SOPs or pricing):
 
 | Document | Purpose |
 |----------|---------|
-| [Discovery brief template](../../../customer/implementation/discovery-brief-template.md) | Agency-specific pre-read (customize in engagement workspace) |
+| [Discovery brief template](../../../customer/implementation/discovery-brief-template.md) | Customer pre-read (short) |
 | [Implementation kickoff agenda](../../../customer/implementation/implementation-kickoff-agenda.md) | First formal kickoff (60-90 min) |
 | [Preliminary implementation plan](../../../customer/implementation/preliminary-implementation-plan.md) | Working plan after discovery |
 | [Implementation action register](../../../customer/implementation/implementation-action-register.md) | Actions, decisions, risks, gaps |
 | [Customer implementation workbook](../../../customer/implementation/customer-implementation-workbook.md) | What to collect, when, who |
-| [Implementation working session workbook](../../../customer/implementation/implementation-working-session-workbook.md) | Live discovery capture |
 | [Configuration discovery workbook](../../../customer/implementation/configuration-discovery-workbook.md) | Configuration decisions by product |
 | [Go-live and hypercare brief](../../../customer/implementation/go-live-and-hypercare-brief.md) | Customer notice for cutover and hypercare |
+
+Thin Line only (not customer pack): [Working session workbook](../../templates/working-session-workbook.md).
 
 Index: [Customer - Implementation](../../../customer/implementation/README.md).
 

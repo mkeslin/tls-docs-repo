@@ -367,7 +367,6 @@ Thin Line acknowledgment: _________________________ Date: ________
 ## Related
 
 - [Customer implementation workbook](customer-implementation-workbook.md) — when to collect what  
-- [Implementation working session workbook](implementation-working-session-workbook.md) — live session capture  
 - [Getting started](../getting-started/README.md) · [Training](../training/README.md)  
 
 *Thin Line Software · Configuration discovery workbook · Customer-facing · Reusable*

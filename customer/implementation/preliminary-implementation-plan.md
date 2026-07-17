@@ -327,7 +327,6 @@ Immediate actions only. Prefer owners and dates that are real; otherwise mark **
 - [Implementation kickoff agenda](implementation-kickoff-agenda.md)  
 - [Implementation action register](implementation-action-register.md)  
 - [Customer implementation workbook](customer-implementation-workbook.md)  
-- [Implementation working session workbook](implementation-working-session-workbook.md)  
 - [Configuration discovery workbook](configuration-discovery-workbook.md)  
 - [Getting started](../getting-started/README.md) · [Training](../training/README.md)  
 

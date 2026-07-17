@@ -6,6 +6,7 @@ Reusable starting material for internal and customer-facing work.
 
 | Template | Status |
 |----------|--------|
+| [Working session workbook](templates/working-session-workbook.md) | v1 (Thin Line only) |
 | [Go-live decision record](templates/go-live-decision-record.md) | v1 |
 | [Conversion Summary](templates/conversion-summary.md) | <mark style="color:red;">Placeholder</mark> |
 | [Customer Acceptance Form](templates/customer-acceptance-form.md) | <mark style="color:red;">Placeholder</mark> |

@@ -128,6 +128,7 @@
   * [Customer Validation Checklist](checklists/customer-validation-checklist.md)
   * [Migration Close-Out Checklist](checklists/migration-close-out-checklist.md)
 * [Templates](templates.md)
+  * [Working session workbook](templates/working-session-workbook.md)
   * [Go-live decision record](templates/go-live-decision-record.md)
   * [Conversion Summary](templates/conversion-summary.md)
   * [Customer Acceptance Form](templates/customer-acceptance-form.md)
