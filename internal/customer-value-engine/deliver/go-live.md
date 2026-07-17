@@ -46,5 +46,8 @@ Manual coordination · incomplete readiness
 
 ## Related documents
 
-- [Go Live](../../sops/deliver/go-live.md)
-- [Go-Live Readiness Assessment](../../assessments/go-live-readiness-assessment.md)
+- [Go live](../../sops/deliver/go-live.md)
+- [Go-live readiness assessment](../../assessments/go-live-readiness-assessment.md)
+- [Go-live runbook](../../sops/deliver/go-live-runbook.md)
+- [Go-live decision record](../../templates/go-live-decision-record.md)
+- [Customer go-live and hypercare brief](../../../customer/implementation/go-live-and-hypercare-brief.md)

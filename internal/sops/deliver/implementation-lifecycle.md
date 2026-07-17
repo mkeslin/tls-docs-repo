@@ -446,6 +446,9 @@ High. Sponsor owns go/no-go; supervisors run the first production shift with Thi
 
 - [Go live](go-live.md)  
 - [Go-live readiness assessment](../../assessments/go-live-readiness-assessment.md)  
+- [Go-live runbook](go-live-runbook.md)  
+- [Go-live decision record](../../templates/go-live-decision-record.md)  
+- Customer: [Go-live and hypercare brief](../../../customer/implementation/go-live-and-hypercare-brief.md)  
 
 ---
 

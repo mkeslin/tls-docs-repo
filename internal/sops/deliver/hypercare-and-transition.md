@@ -22,7 +22,8 @@ Stabilize the customer after go-live with heightened support, then **transition*
 | Input | Source |
 |-------|--------|
 | Go Live | [Go live](go-live.md) |
-| Known issues / deferrals | Prior phases |
+| Hypercare window / contacts | [Customer go-live and hypercare brief](../../../customer/implementation/go-live-and-hypercare-brief.md) · decision record |
+| Known issues / deferrals | Prior phases · action register |
 | Support contacts / SLAs | Contract / Operate |
 
 ---

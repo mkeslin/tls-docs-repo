@@ -6,17 +6,10 @@ Reusable starting material for internal and customer-facing work.
 
 | Template | Status |
 |----------|--------|
+| [Go-live decision record](templates/go-live-decision-record.md) | v1 |
 | [Conversion Summary](templates/conversion-summary.md) | <mark style="color:red;">Placeholder</mark> |
 | [Customer Acceptance Form](templates/customer-acceptance-form.md) | <mark style="color:red;">Placeholder</mark> |
 
-Migration decision documents live under [Assessments](assessments/README.md) (e.g. [Legacy System Migration Assessment](assessments/legacy-system-migration-assessment.md)), not Templates.
+Migration and go-live **assessments** live under [Assessments](assessments/README.md). Customer-safe go-live notice: [Go-live and hypercare brief](../customer/implementation/go-live-and-hypercare-brief.md).
 
-<mark style="color:red;">**TODO:**</mark> Add additional templates as processes are standardized. Suggested next templates:
-
-- Discovery / demo notes
-- Proposal outline
-- Implementation project plan
-- Training agenda
-- Customer success check-in notes
-
-Store customer-safe templates that customers fill out under [`../customer/`](../customer/README.md) when appropriate; keep internal-only templates here.
+Store customer-safe templates that customers fill out under [`../customer/`](../customer/README.md) when appropriate; keep internal-only templates here. Detail index: [templates/README.md](templates/README.md).

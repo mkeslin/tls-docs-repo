@@ -6,6 +6,20 @@
 
 Who owns what across Deliver. Names change per engagement; **roles** do not. One person may hold multiple Thin Line roles on a small project—record that explicitly at kickoff.
 
+### Specialist responsibilities (hats)
+
+Lifecycle pages may name **Infrastructure**, **Migration**, **Configuration**, **Integrations / hardware**, or **Training** work. Those are **responsibilities (hats)**, not separate mandatory headcount.
+
+| Hat | Typical accountabilities | Default assignee |
+|-----|--------------------------|------------------|
+| Infrastructure | Bootstrap, environment health, cutover backups | Implementation lead unless a Technical/engineering owner is assigned |
+| Data migration | Package, Overrides, validation support | Data migration owner when named; else Implementation lead |
+| Configuration | Agency & module settings, users/roles, device *software settings* | Implementation lead unless delegated |
+| Integrations / hardware | Live integration proof; device install, connectivity, compatibility, end-to-end tests | Implementation lead and/or Technical owner; customer IT for on-site devices |
+| Training | Plan, delivery, readiness gaps | Training owner when named; else Implementation lead |
+
+Always record the real person wearing each hat in the workspace. Do not leave ownership as “the configuration team.”
+
 ---
 
 ## Principles
@@ -256,3 +270,4 @@ See [Implementation workspace standard](implementation-workspace-standard.md) ·
 |------|--------|
 | 2026-07-17 | Initial RACI stub |
 | 2026-07-17 | Full Thin Line + customer roles, principles, RACI matrix |
+| 2026-07-17 | Specialist responsibilities as hats; default to Implementation lead |

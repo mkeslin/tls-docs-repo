@@ -6,7 +6,7 @@
 
 Devices required for go-live roles. Mark **N/A** when the engagement has no hardware scope.
 
-Agency settings that enable payments/printing are under [Configuration](../sops/deliver/configuration/README.md); this checklist is physical device readiness.
+**Boundary:** [Configuration](../sops/deliver/configuration/README.md) owns device **software settings** in Admin. This checklist covers **installation, connectivity, compatibility, and end-to-end proof** (Phase 5). See [Bootstrap vs configuration](../sops/deliver/infrastructure/bootstrap-vs-configuration.md).
 
 ---
 

@@ -12,7 +12,7 @@ Assessments are not templates for emails or reports. They are the bridge between
 |------------|---------|--------|
 | [Legacy System Migration Assessment](legacy-system-migration-assessment.md) | Can we convert? Fee, effort, risks, converter strategy → **Approved Conversion Plan** | v1 form |
 | [Implementation Readiness Assessment](implementation-readiness-assessment.md) | Is the agency ready to implement? | <mark style="color:red;">Placeholder</mark> |
-| [Go-Live Readiness Assessment](go-live-readiness-assessment.md) | Is the agency ready for production cutover? | <mark style="color:red;">Placeholder</mark> |
+| [Go-live readiness assessment](go-live-readiness-assessment.md) | Formal phase gate before production use; Thin Line recommendation + customer authorization | v1 |
 
 ## How assessments relate to other docs
 

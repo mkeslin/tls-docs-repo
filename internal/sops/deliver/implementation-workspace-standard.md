@@ -161,9 +161,18 @@ Customer-facing field model and rules: [Implementation action register](../../..
 
 ---
 
+## Document maturity vs engagement status
+
+| Kind | Examples | Where used |
+|------|----------|------------|
+| **Document maturity** | Placeholder · Draft · v1 | GitBook page headers only—describes how finished the *methodology page* is |
+| **Engagement status** | Values in the table below | Phases, tasks, assessment rows, action register for *this customer* |
+
+Do not put Placeholder or Draft on engagement boards.
+
 ## Required status values
 
-Use these values for **phases**, **tasks**, and other work items unless a field truly needs a narrower set. Do not invent synonyms (e.g. “Done” vs “Complete”).
+Use these values for **phases**, **tasks**, and other work items unless a field truly needs a narrower set. Do not invent synonyms (e.g. “Done” vs “Complete”, or “Ready for review” vs “Ready for validation”).
 
 | Status | Meaning |
 |--------|---------|
@@ -174,9 +183,11 @@ Use these values for **phases**, **tasks**, and other work items unless a field 
 | **Blocked** | Cannot proceed; blocker must be recorded under risks/blockers |
 | **Ready for validation** | Build/config done; awaiting check, UAT, or acceptance |
 | **Complete** | Exit criteria met (or task acceptance criteria met) |
+| **Deferred** | Intentionally postponed with owner, reason, and follow-up; not a silent skip |
 | **Not applicable** | Out of scope for this engagement; do not leave blank |
 
 **Blocked** always requires a linked risk/blocker.  
+**Deferred** always requires an owner and a reason (and, at phase gates, authorized exception when it would otherwise block).  
 **Complete** on a **phase** means lifecycle exit criteria are met—not that “most tasks are done.”
 
 ---

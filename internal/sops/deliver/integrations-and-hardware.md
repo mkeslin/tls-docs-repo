@@ -13,7 +13,9 @@ CVE stage: [Integrations and hardware](../../customer-value-engine/deliver/integ
 
 ## Purpose
 
-Connect and prove customer-required **integrations** (TLETS, payments, partners, exports, CAD webhooks, etc.) and confirm **hardware** (mobile printers, scanners, workstations) so go-live is not blocked by unknown interface or device failures.
+Connect and prove customer-required **integrations** (TLETS, payments, partners, exports, CAD webhooks, etc.) and confirm **hardware** so go-live is not blocked by unknown interface or device failures.
+
+**Boundary:** [Configuration](configuration/README.md) owns device and integration **software settings** in Admin. This phase owns **installation, connectivity, compatibility, and end-to-end proof**. See [Bootstrap vs configuration](infrastructure/bootstrap-vs-configuration.md).
 
 ---
 

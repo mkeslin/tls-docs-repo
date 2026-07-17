@@ -12,7 +12,7 @@ Keeps the boundary crisp for Implementation: **what bootstrap creates** vs **wha
 | | |
 |--|--|
 | **Bootstrap** | Infrastructure and platform wiring exist; apps run; someone can log in. |
-| **Configuration** | The agency is set up to do **their** work (ORI, officers, courts, codes, devices, policies). |
+| **Configuration** | The agency is set up to do **their** work (ORI, officers, courts, codes, device *software settings*, policies). |
 
 Bootstrap **stops** when the [Bootstrap Environment Standard](bootstrap-environment-standard.md) and [Environment Health Checklist](../../../checklists/environment-health-checklist.md) are satisfied.
 
@@ -42,12 +42,22 @@ Primary product surface: Admin → **Agency & Module Settings** — see [Agency 
 | People | Officers, users, roles (separate Admin screens) |
 | Courts | Court settings, appearance defaults, program due dates, payments |
 | Codes | Violation / offense / local code lists beyond baseline |
-| Devices | Printers, scanners, mobile |
+| Device software settings | Admin enables, print routes, mobile citation options—**not** physical install |
 | Comms | Email SMTP / notification settings |
 | Policies | Agency validation flags, IBRS options, sharing |
-| Integrations | OmniBase, Stripe, CAD webhooks (verify under Integrations and Hardware) |
+| Integration *settings* in Admin | OmniBase, Stripe, CAD webhook configuration cards |
 
 These belong to **Configuration Complete** and related Admin work, not `bootstrap-client.ps1`.
+
+### Configuration vs Integrations and Hardware (devices and interfaces)
+
+| Owns | Phase | Examples |
+|------|-------|----------|
+| **Device software settings** | 4 · Configuration | Turn on printing/payments features; select printers in Admin; citation mobile options |
+| **Installation, connectivity, compatibility, end-to-end proof** | 5 · Integrations and hardware | Drivers, pairing, network path, print/scan/mobile smoke tests, partner API live test |
+| **Integration Admin cards** | Configured in 4; **proven** in 5 | Stripe/OmniBase/CAD webhooks: settings may be entered in Configuration; live verify is Phase 5 |
+
+See [Integrations and hardware](../integrations-and-hardware.md) · [Hardware readiness checklist](../../../checklists/hardware-readiness-checklist.md).
 
 ---
 
@@ -67,10 +77,11 @@ These belong to **Configuration Complete** and related Admin work, not `bootstra
 ## Lifecycle placement
 
 ```text
-Bootstrap  →  Configuration  →  Migration (optional)  →  Training  →  Go Live
+Infrastructure (bootstrap) → Data migration (optional) → Configuration
+  → Integrations and hardware (optional) → Training → Go live → Hypercare
 ```
 
-See [Environment Lifecycle](environment-lifecycle.md).
+See [Implementation lifecycle](../implementation-lifecycle.md) · [Environment lifecycle](environment-lifecycle.md).
 
 ---
 
@@ -102,3 +113,4 @@ See [Environment Lifecycle](environment-lifecycle.md).
 |------|--------|
 | 2026-07-17 | v1 — boundary definition |
 | 2026-07-17 | Linked Agency & Module Settings + configuration checklist |
+| 2026-07-17 | Device settings vs Phase 5 proof; corrected lifecycle order |

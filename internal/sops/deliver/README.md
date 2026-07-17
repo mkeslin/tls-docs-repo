@@ -6,7 +6,7 @@
 
 How Thin Line gets a customer from **signed** to a **stable live** customer. The Customer Value Stream says *where* the customer is; this tree is the **implementation methodology**.
 
-Capability view (owners / maturity): [Customer Value Engine ? Deliver](../../customer-value-engine/deliver/README.md).
+Capability view (owners / maturity): [Customer Value Engine - Deliver](../../customer-value-engine/deliver/README.md).
 
 ---
 
@@ -14,14 +14,10 @@ Capability view (owners / maturity): [Customer Value Engine ? Deliver](../../cus
 
 ```text
 Customer Value Stream
-    ?
-Deliver
-    ?
-Implementation overview ? lifecycle ? workspace ? roles
-    ?
-Phases 0?8
-    ?
-Standards ? SOPs ? Checklists ? Assessments ? Customer templates
+  -> Deliver
+    -> Implementation overview / lifecycle / workspace / roles
+      -> Phases 0-8
+        -> Standards / SOPs / Checklists / Assessments / Customer templates
 ```
 
 ---
@@ -31,10 +27,10 @@ Standards ? SOPs ? Checklists ? Assessments ? Customer templates
 | Page | Role |
 |------|------|
 | [Implementation overview](implementation-overview.md) | Purpose and principles |
-| [Implementation lifecycle](implementation-lifecycle.md) | Phases 0?8 sequence |
+| [Implementation lifecycle](implementation-lifecycle.md) | Phases 0-8 sequence |
 | [Implementation workspace standard](implementation-workspace-standard.md) | Where status is tracked (tool-neutral) |
 | [Implementation roles and responsibilities](implementation-roles-and-responsibilities.md) | RACI |
-| [Legacy onboarding questionnaire mapping](legacy-onboarding-questionnaire-mapping.md) | Old Word form ? this methodology |
+| [Legacy onboarding questionnaire mapping](legacy-onboarding-questionnaire-mapping.md) | Old Word form to this methodology |
 
 ### Phases
 
@@ -47,23 +43,25 @@ Standards ? SOPs ? Checklists ? Assessments ? Customer templates
 | 4 | Configuration | [Configuration](configuration/README.md) | v1 |
 | 5 | Integrations and hardware | [Integrations and hardware](integrations-and-hardware.md) | Placeholder |
 | 6 | Training | [Training](training.md) | Placeholder |
-| 7 | Go live | [Go live](go-live.md) | Placeholder |
+| 7 | Go live | [Go live](go-live.md) | v1 |
 | 8 | Hypercare and transition | [Hypercare and transition](hypercare-and-transition.md) | Placeholder |
 
-Each phase overview uses: **Purpose ? Inputs ? Activities ? Outputs ? Exit criteria ? Referenced SOPs**.
+Each phase overview uses: **Purpose / Inputs / Activities / Outputs / Exit criteria / Referenced SOPs**.
+
+Document maturity (Placeholder, Draft, v1) is separate from engagement statuses (Not started, Complete, Deferred, and so on). See [Workspace standard](implementation-workspace-standard.md).
 
 ---
 
 ## Supporting docs (by phase)
 
-### Phase 0 ? Sales handoff
+### Phase 0 - Sales handoff
 
 | Doc | Type |
 |-----|------|
 | [Sales handoff checklist](../../checklists/sales-handoff-checklist.md) | Checklist |
 | [Migration pricing policy](../../policies/migration-pricing.md) | Policy |
 
-### Phase 1 ? Kickoff and discovery
+### Phase 1 - Kickoff and discovery
 
 | Doc | Type |
 |-----|------|
@@ -74,7 +72,7 @@ Each phase overview uses: **Purpose ? Inputs ? Activities ? Outputs ? Exit crite
 | [Implementation working session workbook](../../../customer/implementation/implementation-working-session-workbook.md) | Customer template |
 | [Implementation readiness assessment](../../assessments/implementation-readiness-assessment.md) | Assessment (Placeholder) |
 
-### Phase 2 ? Infrastructure
+### Phase 2 - Infrastructure
 
 | Doc | Type |
 |-----|------|
@@ -82,7 +80,7 @@ Each phase overview uses: **Purpose ? Inputs ? Activities ? Outputs ? Exit crite
 | Standards under [Infrastructure](infrastructure/README.md) | Standards |
 | [Environment health checklist](../../checklists/environment-health-checklist.md) | Checklist |
 
-### Phase 3 ? Data migration
+### Phase 3 - Data migration
 
 | Doc | Type |
 |-----|------|
@@ -94,7 +92,7 @@ Each phase overview uses: **Purpose ? Inputs ? Activities ? Outputs ? Exit crite
 | [Legacy system migration assessment](../../assessments/legacy-system-migration-assessment.md) | Assessment |
 | [Customer validation checklist](../../checklists/customer-validation-checklist.md) | Checklist |
 
-### Phase 4 ? Configuration
+### Phase 4 - Configuration
 
 | Doc | Type |
 |-----|------|
@@ -103,26 +101,29 @@ Each phase overview uses: **Purpose ? Inputs ? Activities ? Outputs ? Exit crite
 | [Agency configuration checklist](../../checklists/agency-configuration-checklist.md) | Checklist |
 | [Bootstrap vs configuration](infrastructure/bootstrap-vs-configuration.md) | Boundary |
 
-### Phase 5 ? Integrations and hardware
+### Phase 5 - Integrations and hardware
 
 | Doc | Type |
 |-----|------|
 | [Hardware readiness checklist](../../checklists/hardware-readiness-checklist.md) | Checklist |
 
-### Phase 6 ? Training
+### Phase 6 - Training
 
 | Doc | Type |
 |-----|------|
 | [Customer training](../../../customer/training/README.md) | Customer guides |
 | [Getting started](../../../customer/getting-started/README.md) | Customer guides |
 
-### Phase 7 ? Go live
+### Phase 7 - Go live
 
 | Doc | Type |
 |-----|------|
-| [Go-live readiness assessment](../../assessments/go-live-readiness-assessment.md) | Assessment (Placeholder) |
+| [Go-live readiness assessment](../../assessments/go-live-readiness-assessment.md) | Assessment |
+| [Go-live runbook](go-live-runbook.md) | SOP |
+| [Go-live decision record](../../templates/go-live-decision-record.md) | Template |
+| [Customer go-live and hypercare brief](../../../customer/implementation/go-live-and-hypercare-brief.md) | Customer template |
 
-### Phase 8 ? Hypercare and transition
+### Phase 8 - Hypercare and transition
 
 | Doc | Type |
 |-----|------|
@@ -136,7 +137,7 @@ Each phase overview uses: **Purpose ? Inputs ? Activities ? Outputs ? Exit crite
 |------------|--------|
 | [Legacy system migration assessment](../../assessments/legacy-system-migration-assessment.md) | v1 |
 | [Implementation readiness assessment](../../assessments/implementation-readiness-assessment.md) | Placeholder |
-| [Go-live readiness assessment](../../assessments/go-live-readiness-assessment.md) | Placeholder |
+| [Go-live readiness assessment](../../assessments/go-live-readiness-assessment.md) | v1 |
 
 ---
 
@@ -146,14 +147,15 @@ Shared with the agency (no internal SOPs or pricing):
 
 | Document | Purpose |
 |----------|---------|
-| [Implementation kickoff agenda](../../../customer/implementation/implementation-kickoff-agenda.md) | First formal kickoff (60?90 min) |
+| [Implementation kickoff agenda](../../../customer/implementation/implementation-kickoff-agenda.md) | First formal kickoff (60-90 min) |
 | [Preliminary implementation plan](../../../customer/implementation/preliminary-implementation-plan.md) | Working plan after discovery |
 | [Implementation action register](../../../customer/implementation/implementation-action-register.md) | Actions, decisions, risks, gaps |
 | [Customer implementation workbook](../../../customer/implementation/customer-implementation-workbook.md) | What to collect, when, who |
 | [Implementation working session workbook](../../../customer/implementation/implementation-working-session-workbook.md) | Live discovery capture |
 | [Configuration discovery workbook](../../../customer/implementation/configuration-discovery-workbook.md) | Configuration decisions by product |
+| [Go-live and hypercare brief](../../../customer/implementation/go-live-and-hypercare-brief.md) | Customer notice for cutover and hypercare |
 
-Index: [Customer ? Implementation](../../../customer/implementation/README.md).
+Index: [Customer - Implementation](../../../customer/implementation/README.md).
 
 ---
 
