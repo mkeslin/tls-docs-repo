@@ -13,7 +13,7 @@ CVE capability view: [Customer Value Engine — Deliver](../customer-value-engin
 | Implementation overview | [implementation-overview.md](deliver/implementation-overview.md) |
 | Implementation lifecycle | [implementation-lifecycle.md](deliver/implementation-lifecycle.md) |
 | Implementation workspace standard | [implementation-workspace-standard.md](deliver/implementation-workspace-standard.md) |
-| Roles and responsibilities | [roles-and-responsibilities.md](deliver/roles-and-responsibilities.md) |
+| Implementation roles and responsibilities | [implementation-roles-and-responsibilities.md](deliver/implementation-roles-and-responsibilities.md) |
 
 ## Phases (0–8)
 

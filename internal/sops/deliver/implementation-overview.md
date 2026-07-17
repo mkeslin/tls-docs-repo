@@ -150,7 +150,7 @@ When you write or update customer docs, pull outcomes and language from the meth
 1. **Collaborate rather than merely configure** — Sit in the agency’s workflow. Defaults and codes should match how they work, not only what the UI allows.  
 2. **Understand workflows before making decisions** — Number patterns, court defaults, and sharing settings are cheap to get wrong and expensive after go-live.  
 3. **Collect information when it is needed** — Do not demand every ORI, printer model, and code list at kickoff if Phase 4 or 5 is the right time.  
-4. **Define clear ownership** — One accountable person per phase outcome. See [Roles and responsibilities](roles-and-responsibilities.md).  
+4. **Define clear ownership** — One accountable person per phase outcome. See [Implementation roles and responsibilities](implementation-roles-and-responsibilities.md).  
 5. **Make progress visible** — Keep a simple 0–8 board. Founders and the customer sponsor should see the same status Implementation sees.  
 6. **Use explicit exit criteria** — Each phase page lists what “done” means. Meet them or document a deferral with an owner.  
 7. **Validate before advancing** — Especially after migration and before go-live. Green scripts are not acceptance.  
@@ -180,7 +180,7 @@ Bootstrap alone is not complete. First login is not complete. “Training happen
 |----------|----------|
 | [Implementation lifecycle](implementation-lifecycle.md) | You need the phase sequence, outcomes, and flow |
 | [Implementation workspace standard](implementation-workspace-standard.md) | You need folder layout, naming, and where artifacts live |
-| [Roles and responsibilities](roles-and-responsibilities.md) | You need who is accountable for each phase |
+| [Implementation roles and responsibilities](implementation-roles-and-responsibilities.md) | You need who is accountable for each phase |
 | [Deliver index](README.md) | You need the full TOC and supporting SOPs by phase |
 | [Customer Value Engine — Deliver](../../customer-value-engine/deliver/README.md) | You need owners, capacity, and maturity |
 

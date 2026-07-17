@@ -7,6 +7,7 @@ Structured curricula for go-live and ongoing adoption. Each outline links to the
 | Curriculum | Audience | Typical length |
 |------------|----------|----------------|
 | [New user orientation](new-user-orientation.md) | Any new Thin Line user | ~2 hours |
+| [Citations workshop](citations-workshop.md) | Officers / records / supervisors | ~2–3 hours |
 | [Court clerk workshop](court-clerk-workshop.md) | Court clerks / cashiers / court admin | ~half day |
 | [Jail operations workshop](jail-operations-workshop.md) | Intake + floor / Command Center staff | ~half day |
 

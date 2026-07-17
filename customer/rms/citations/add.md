@@ -1,0 +1,38 @@
+# Add a citation
+
+Create a new citation from the desktop Citations module.
+
+## Who can add
+
+**Add** appears when your role allows manual citation create (agency claim / setting). If Add is missing, ask your administrator — some agencies issue only from mobile.
+
+## Create steps
+
+1. Open **Citations → Add**.
+2. Enter or **generate** a **Citation number** per your agency’s numbering rules.
+3. Select the **Citing officer**.
+4. Confirm create (**Add Citation** or equivalent).
+5. The citation **detail** opens so you can complete General, Person & Vehicle, Offenses, and other tabs.
+
+New desktop citations typically start in **Draft** workflow status until someone marks them **Issued**.
+
+## After create
+
+Work through:
+
+1. [General and notes](general-and-notes.md)
+2. [Person, vehicle, and location](person-vehicle-location.md)
+3. [Offenses and warnings](offenses-and-warnings.md)
+4. [Racial profiling](racial-profiling.md) when your agency requires it
+5. [Draft to Issued](draft-to-issued.md)
+
+## Tips
+
+- Do not reuse citation numbers. If generate is available, prefer it over inventing a number.
+- Search first if you might already have a draft for the same stop.
+- Mobile-originated citations follow [Mobile citations](mobile-citations.md), not this Add path.
+
+## Related
+
+- [Search citations](search.md)
+- [Draft to Issued](draft-to-issued.md)

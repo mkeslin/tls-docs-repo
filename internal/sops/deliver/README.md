@@ -33,7 +33,7 @@ Standards ? SOPs ? Checklists
 | [Implementation overview](implementation-overview.md) | Purpose and principles |
 | [Implementation lifecycle](implementation-lifecycle.md) | Phases 0–8 sequence |
 | [Implementation workspace standard](implementation-workspace-standard.md) | Folders and naming |
-| [Roles and responsibilities](roles-and-responsibilities.md) | RACI |
+| [Implementation roles and responsibilities](implementation-roles-and-responsibilities.md) | RACI |
 
 ### Phases
 

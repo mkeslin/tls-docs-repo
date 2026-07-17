@@ -1,32 +1,23 @@
 # RMS
 
-Customer guides for Thin Line RMS modules (incidents, citations, warrants, master records, evidence, administration, reporting, and related workflows).
+Customer guides for Thin Line **Records Management** modules — incidents, citations, warrants, evidence, and related day-to-day records work.
 
-## Purpose
+## Module guides
 
-Training and day-to-day reference for RMS users and agency administrators.
-
-## Contents
-
-<mark style="color:red;">**TODO:**</mark> Build topic pages under this folder. Prefer accurate, screenshot-backed guides.
-
-Suggested topic areas:
-
-- Incidents
-- Citations
-- Warrants
-- Master records
-- Evidence
-- Notepads and close patrols
-- Administration (agency, users, codes)
-- Reporting
-- IBRS / NIBRS (customer-appropriate reference)
-
-## Existing in-app content (legacy path — do not move yet)
-
-Many RMS topics already live under [`../../guide/`](../../guide/) and are loaded by in-app Help via `guide.json`. New or revised training content can be authored here without disturbing those paths.
+| Module | Status |
+|--------|--------|
+| [Citations](citations/README.md) | Available |
+| Incidents | <mark style="color:red;">**TODO**</mark> |
+| Warrants | <mark style="color:red;">**TODO**</mark> |
+| Evidence | <mark style="color:red;">**TODO**</mark> |
+| Other RMS modules | See [Modules and navigation](../getting-started/modules-and-navigation.md) |
 
 ## Related
 
+- [Getting started](../getting-started/README.md) — shell and module rail
+- [Court](../court/README.md) — court violations often start from citations
 - [Training](../training/README.md)
-- [Getting started](../getting-started/README.md)
+
+## Existing in-app Help
+
+Older User Guide stubs for citations still live under `/guide/citations_*`. Prefer this **customer/** set for training; do not reorganize `/guide/` without a product release.

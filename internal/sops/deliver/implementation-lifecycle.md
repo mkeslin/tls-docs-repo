@@ -144,7 +144,7 @@ High. Sponsor and operational leads should attend kickoff and answer discovery q
 **Supporting documents**
 
 - [Kickoff and discovery](kickoff-and-discovery.md)  
-- [Roles and responsibilities](roles-and-responsibilities.md)  
+- [Implementation roles and responsibilities](implementation-roles-and-responsibilities.md)  
 - [Implementation readiness assessment](../../assessments/implementation-readiness-assessment.md)  
 - [Implementation workspace standard](implementation-workspace-standard.md)  
 
@@ -491,7 +491,7 @@ Medium. Daily users report issues; sponsor agrees transition is done.
 
 - [Hypercare and transition](hypercare-and-transition.md)  
 - [Operate — Support](../../customer-value-engine/operate/support.md)  
-- [Roles and responsibilities](roles-and-responsibilities.md)  
+- [Implementation roles and responsibilities](implementation-roles-and-responsibilities.md)  
 
 ---
 
@@ -519,7 +519,7 @@ Use this table as the engagement board. A phase exits only when the gate is met 
 |----------|------|
 | [Implementation overview](implementation-overview.md) | Why Deliver works this way |
 | [Implementation workspace standard](implementation-workspace-standard.md) | Where engagement work lives |
-| [Roles and responsibilities](roles-and-responsibilities.md) | RACI detail |
+| [Implementation roles and responsibilities](implementation-roles-and-responsibilities.md) | RACI detail |
 | [Deliver index](README.md) | Full TOC and supporting SOPs |
 
 ---

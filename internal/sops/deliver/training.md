@@ -37,6 +37,7 @@ Ensure the customer’s users can perform their jobs in Thin Line before exclusi
 Customer-facing curricula (use in training delivery):
 
 - [New user orientation](../../../customer/training/new-user-orientation.md)
+- [Citations workshop](../../../customer/training/citations-workshop.md)
 - [Court clerk workshop](../../../customer/training/court-clerk-workshop.md)
 - [Jail operations workshop](../../../customer/training/jail-operations-workshop.md)
 

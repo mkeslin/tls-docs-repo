@@ -63,7 +63,7 @@
     * [Implementation overview](sops/deliver/implementation-overview.md)
     * [Implementation lifecycle](sops/deliver/implementation-lifecycle.md)
     * [Implementation workspace standard](sops/deliver/implementation-workspace-standard.md)
-    * [Roles and responsibilities](sops/deliver/roles-and-responsibilities.md)
+    * [Implementation roles and responsibilities](sops/deliver/implementation-roles-and-responsibilities.md)
     * [Phase 0 - Sales handoff](sops/deliver/sales-handoff.md)
     * [Phase 1 - Kickoff and discovery](sops/deliver/kickoff-and-discovery.md)
     * [Phase 2 - Infrastructure](sops/deliver/infrastructure/README.md)

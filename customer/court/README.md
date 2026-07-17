@@ -34,7 +34,7 @@ Court Violations is not a general civil case-management system. It is built for 
 
 Court cases often connect to other Thin Line areas:
 
-- **Citations** (RMS) — source tickets that become court violations
+- **[Citations](../rms/citations/README.md)** (RMS) — source tickets that become court violations
 - **Warrants** — FTA and CPF paths may create or update warrant work
 - **Collections** — eligible cases can be referred for third-party collections
 - **Accounting** — accepted payments flow into deposits and settlement
