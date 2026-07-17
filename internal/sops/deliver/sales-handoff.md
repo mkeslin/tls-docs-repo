@@ -34,7 +34,8 @@ Transfer a signed customer from Sales to Implementation with enough commercial a
 1. Package handoff packet (scope, dates, contacts, risks) per [Sales Handoff Checklist](../../checklists/sales-handoff-checklist.md).  
 2. Confirm Implementation owner and capacity.  
 3. Flag migration / integration / hardware / go-live constraints.  
-4. Schedule kickoff.  
+4. Implementation opens the engagement per [Creating a new implementation](creating-a-new-implementation.md) (workspace, templates, metadata).  
+5. Schedule kickoff.  
 
 <mark style="color:red;">**TODO:**</mark> Detail RACI and CRM field map for the handoff packet.
 

@@ -34,11 +34,12 @@ This phase absorbs the former **Customer Onboarding** placeholder: kickoff throu
 
 ## Activities
 
-1. Internal prep (roles, draft plan, readiness assessment).  
-2. Copy the [Discovery brief template](../../../customer/implementation/discovery-brief-template.md) into the engagement workspace, customize it for the agency, and send it before the meeting. Run kickoff with the [Implementation kickoff agenda](../../../customer/implementation/implementation-kickoff-agenda.md); capture discovery with the [Implementation working session workbook](../../../customer/implementation/implementation-working-session-workbook.md) and [Customer implementation workbook](../../../customer/implementation/customer-implementation-workbook.md); share a [Preliminary implementation plan](../../../customer/implementation/preliminary-implementation-plan.md) after discovery (before assessments are complete).  
-3. Confirm AgencyName, environment tier(s), VersionBranch intent.  
-4. Discovery: modules, migration, integrations, hardware, training audiences.  
-5. Publish initial lifecycle board (0–8).  
+1. Confirm the engagement was opened per [Creating a new implementation](creating-a-new-implementation.md) (workspace, copied templates, metadata).  
+2. Internal prep (roles, draft plan, readiness assessment).  
+3. Customize and send the discovery brief; run kickoff with the [Implementation kickoff agenda](../../../customer/implementation/implementation-kickoff-agenda.md); capture discovery with the [Implementation working session workbook](../../../customer/implementation/implementation-working-session-workbook.md) and [Customer implementation workbook](../../../customer/implementation/customer-implementation-workbook.md); share a [Preliminary implementation plan](../../../customer/implementation/preliminary-implementation-plan.md) after discovery (before assessments are complete).  
+4. Confirm AgencyName, environment tier(s), VersionBranch intent.  
+5. Discovery: modules, migration, integrations, hardware, training audiences.  
+6. Publish initial lifecycle board (0–8).  
 
 ### Discovery scope matrix (minimum)
 

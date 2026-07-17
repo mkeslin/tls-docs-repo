@@ -34,6 +34,7 @@ Stabilize the customer after go-live with heightened support, then **transition*
 2. Triage defects and config gaps.  
 3. Daily / periodic check-ins as agreed.  
 4. Formal handoff to Operate / Support (owners, open tickets, known limits).  
+5. Archive the engagement workspace; run the implementation retrospective; feed reusable improvements into GitBook per [Creating a new implementation](creating-a-new-implementation.md).  
 
 <mark style="color:red;">**TODO:**</mark> Hypercare SOP (duration defaults, escalation, exit review, Operate ticket handoff).
 
@@ -43,7 +44,8 @@ Stabilize the customer after go-live with heightened support, then **transition*
 
 - Hypercare log / closed critical issues  
 - Handoff to Operate  
-- Lessons learned (optional → product / methodology)  
+- Archived workspace + retrospective notes  
+- Lessons learned promoted to methodology / packages when reusable  
 
 ---
 

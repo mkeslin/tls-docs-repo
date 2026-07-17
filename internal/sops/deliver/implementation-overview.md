@@ -179,6 +179,7 @@ Bootstrap alone is not complete. First login is not complete. “Training happen
 
 | Document | Use when |
 |----------|----------|
+| [Creating a new implementation](creating-a-new-implementation.md) | You are opening a new customer engagement workspace |
 | [Implementation lifecycle](implementation-lifecycle.md) | You need the phase sequence, outcomes, and flow |
 | [Implementation workspace standard](implementation-workspace-standard.md) | You need where status is tracked and what belongs in the workspace |
 | [Implementation roles and responsibilities](implementation-roles-and-responsibilities.md) | You need who is accountable for each phase |

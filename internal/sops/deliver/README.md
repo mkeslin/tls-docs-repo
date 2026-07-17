@@ -15,7 +15,7 @@ Capability view (owners / maturity): [Customer Value Engine - Deliver](../../cus
 ```text
 Customer Value Stream
   -> Deliver
-    -> Implementation overview / lifecycle / workspace / roles
+    -> Overview / creating a new implementation / lifecycle / workspace / roles
       -> Phases 0-8
         -> Standards / SOPs / Checklists / Assessments / Customer templates
 ```
@@ -27,6 +27,7 @@ Customer Value Stream
 | Page | Role |
 |------|------|
 | [Implementation overview](implementation-overview.md) | Purpose and principles |
+| [Creating a new implementation](creating-a-new-implementation.md) | Open the workspace; copy templates; start Phase 1; close and improve |
 | [Implementation lifecycle](implementation-lifecycle.md) | Phases 0-8 sequence |
 | [Implementation workspace standard](implementation-workspace-standard.md) | Where status is tracked (tool-neutral) |
 | [Implementation roles and responsibilities](implementation-roles-and-responsibilities.md) | RACI |

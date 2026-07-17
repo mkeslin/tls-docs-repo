@@ -311,6 +311,7 @@ Never leave agency-specific hardcodes in shared vendor packages. Promote reusabl
 | Document | Role |
 |----------|------|
 | [Implementation overview](implementation-overview.md) | Knowledge vs execution |
+| [Creating a new implementation](creating-a-new-implementation.md) | How to open, run, archive, and improve from a workspace |
 | [Implementation lifecycle](implementation-lifecycle.md) | Phases and gates |
 | [Implementation roles and responsibilities](implementation-roles-and-responsibilities.md) | Who owns what |
 | [Sales handoff checklist](../../checklists/sales-handoff-checklist.md) | Early packet fields |

@@ -61,6 +61,7 @@
   * [SOPs — Acquire](sops/acquire.md)
   * [Deliver](sops/deliver/README.md)
     * [Implementation overview](sops/deliver/implementation-overview.md)
+    * [Creating a new implementation](sops/deliver/creating-a-new-implementation.md)
     * [Implementation lifecycle](sops/deliver/implementation-lifecycle.md)
     * [Implementation workspace standard](sops/deliver/implementation-workspace-standard.md)
     * [Implementation roles and responsibilities](sops/deliver/implementation-roles-and-responsibilities.md)
