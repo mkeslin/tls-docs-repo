@@ -1,6 +1,6 @@
 # Standard operating procedures (SOPs)
 
-Repeatable procedures organized by customer value-stream phase.
+Repeatable procedures organized by [Customer Value Engine](../customer-value-engine/README.md) phase.
 
 ## SOP structure
 

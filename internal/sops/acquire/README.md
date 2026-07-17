@@ -1,6 +1,6 @@
-﻿# SOPs — Acquire
+# SOPs � Acquire
 
-SOPs for awareness through invoice. Stage overviews: ../../operating-system/acquire/
+SOPs for awareness through invoice. Stage overviews: ../../customer-value-engine/acquire/
 
 ## Procedures in this folder
 

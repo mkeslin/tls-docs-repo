@@ -19,6 +19,6 @@ Suggested future pages:
 
 ## Related
 
-* [Expand stage](operating-system/expand/)
+* [Expand stage](customer-value-engine/expand/)
 * [SOPs — Expand](sops/expand.md)
 * Customer support resources: [`../../customer/support/`](../customer/support/)

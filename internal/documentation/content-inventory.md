@@ -197,7 +197,7 @@ These are required by the target IA but have no equivalent in the repository.
 | `README.md` (root) | Meta | internal + customer | Create | Repo landing page |
 | `SUMMARY.md` (root) | Config | — | Create | GitBook navigation |
 | `internal/strategy/*` | Policy / Reference | internal | Create | Seed from approved brief |
-| `internal/operating-system/**` | Guide / Reference | internal | Create | Value stream stages |
+| `internal/customer-value-engine/**` | Guide / Reference | internal | Create | Value stream stages |
 | `internal/sops/**` | SOP | internal | Create | All stages |
 | `internal/implementation/**` | Guide | internal | Create | |
 | `internal/customer-success/**` | Guide | internal | Create | |

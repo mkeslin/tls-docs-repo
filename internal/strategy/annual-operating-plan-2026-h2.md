@@ -187,4 +187,4 @@ Turn satisfied customers into the primary growth engine.
 * [Vision and principles](vision-and-principles.md)
 * [Strategic roadmap 2026–2029](strategic-roadmap-2026-2029.md)
 * [Quarterly scorecard](quarterly-scorecard.md)
-* [Customer value stream](../operating-system/customer-value-stream.md)
+* [Customer value stream](../customer-value-engine/customer-value-stream.md)

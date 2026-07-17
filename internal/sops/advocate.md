@@ -1,6 +1,6 @@
 # SOPs — Advocate
 
-SOPs for reference, referral, and community. Stage overviews: ../../operating-system/advocate/
+SOPs for reference, referral, and community. Stage overviews: ../../customer-value-engine/advocate/
 
 ## Procedures in this folder
 

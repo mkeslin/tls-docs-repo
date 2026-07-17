@@ -27,7 +27,7 @@ Do not invent product behavior or procedures. Use `TODO:` and `Decision needed:`
 
 The highest-value near-term work is to:
 
-1. **Stand up `internal/`** for company strategy, policies, operating system, and SOPs.
+1. **Stand up `internal/`** for company strategy, policies, Customer Value Engine, and SOPs.
 2. **Stand up `customer/`** for training and support resources (new content; do not disturb `guide/` or `release-notes/`).
 3. **Add root `README.md` and `SUMMARY.md`** so GitBook (or similar) can navigate the two areas.
 4. **Defer** migration of `guide/` and any change to `release-notes/` until explicitly approved.
@@ -187,7 +187,7 @@ No customer guide content found for:
 
 ## 4. Missing foundational documents
 
-### Strategy and operating system (`internal/strategy/`, `internal/operating-system/`)
+### Strategy and Customer Value Engine (`internal/strategy/`, `internal/customer-value-engine/`)
 
 | Document | Status |
 |----------|--------|
@@ -253,7 +253,7 @@ Organize around **how Thin Line creates and delivers customer value**, with a ha
 │
 ├── internal/                         # Staff-only (GitBook private space / access-controlled)
 │   ├── strategy/
-│   ├── operating-system/
+│   ├── customer-value-engine/
 │   │   ├── customer-value-stream.md
 │   │   ├── acquire/ … advocate/     # Stage pages + links to SOPs
 │   ├── sops/
@@ -395,48 +395,48 @@ GitBook root `SUMMARY.md` — two top-level parts. Pages marked *(skeleton)* are
 * [Annual operating plan 2026 H2](internal/strategy/annual-operating-plan-2026-h2.md)
 * [Quarterly scorecard](internal/strategy/quarterly-scorecard.md)
 
-### Operating system
+### Customer Value Engine
 
-* [Overview](internal/operating-system/overview.md)
-* [Customer value stream](internal/operating-system/customer-value-stream.md)
+* [Overview](internal/customer-value-engine/overview.md)
+* [Customer value stream](internal/customer-value-engine/customer-value-stream.md)
 
 #### Acquire
-* [Stage overview](internal/operating-system/acquire/README.md)
-* [Awareness](internal/operating-system/acquire/awareness.md)
-* [Cold leads](internal/operating-system/acquire/cold-leads.md)
-* [Warm leads](internal/operating-system/acquire/warm-leads.md)
-* [Hot leads](internal/operating-system/acquire/hot-leads.md)
-* [Demo](internal/operating-system/acquire/demo.md)
-* [Proposal](internal/operating-system/acquire/proposal.md)
-* [Contract](internal/operating-system/acquire/contract.md)
-* [Invoice](internal/operating-system/acquire/invoice.md)
+* [Stage overview](internal/customer-value-engine/acquire/README.md)
+* [Awareness](internal/customer-value-engine/acquire/awareness.md)
+* [Cold leads](internal/customer-value-engine/acquire/cold-leads.md)
+* [Warm leads](internal/customer-value-engine/acquire/warm-leads.md)
+* [Hot leads](internal/customer-value-engine/acquire/hot-leads.md)
+* [Demo](internal/customer-value-engine/acquire/demo.md)
+* [Proposal](internal/customer-value-engine/acquire/proposal.md)
+* [Contract](internal/customer-value-engine/acquire/contract.md)
+* [Invoice](internal/customer-value-engine/acquire/invoice.md)
 
 #### Deliver
-* [Stage overview](internal/operating-system/deliver/README.md)
-* [Data conversion](internal/operating-system/deliver/data-conversion.md)
-* [Bootstrap environment](internal/operating-system/deliver/bootstrap-environment.md)
-* [Training](internal/operating-system/deliver/training.md)
-* [Go-live / configuration](internal/operating-system/deliver/go-live-configuration.md)
+* [Stage overview](internal/customer-value-engine/deliver/README.md)
+* [Data conversion](internal/customer-value-engine/deliver/data-conversion.md)
+* [Bootstrap environment](internal/customer-value-engine/deliver/bootstrap-environment.md)
+* [Training](internal/customer-value-engine/deliver/training.md)
+* [Go-live / configuration](internal/customer-value-engine/deliver/go-live-configuration.md)
 
 #### Operate
-* [Stage overview](internal/operating-system/operate/README.md)
-* [Support](internal/operating-system/operate/support.md)
-* [Product updates](internal/operating-system/operate/product-updates.md)
+* [Stage overview](internal/customer-value-engine/operate/README.md)
+* [Support](internal/customer-value-engine/operate/support.md)
+* [Product updates](internal/customer-value-engine/operate/product-updates.md)
 
 #### Expand
-* [Stage overview](internal/operating-system/expand/README.md)
-* [Customer success](internal/operating-system/expand/customer-success.md)
-* [Expansion](internal/operating-system/expand/expansion.md)
+* [Stage overview](internal/customer-value-engine/expand/README.md)
+* [Customer success](internal/customer-value-engine/expand/customer-success.md)
+* [Expansion](internal/customer-value-engine/expand/expansion.md)
 
 #### Advocate
-* [Stage overview](internal/operating-system/advocate/README.md)
-* [Reference](internal/operating-system/advocate/reference.md)
-* [Referral](internal/operating-system/advocate/referral.md)
-* [Community](internal/operating-system/advocate/community.md)
+* [Stage overview](internal/customer-value-engine/advocate/README.md)
+* [Reference](internal/customer-value-engine/advocate/reference.md)
+* [Referral](internal/customer-value-engine/advocate/referral.md)
+* [Community](internal/customer-value-engine/advocate/community.md)
 
 ### SOPs
 * [SOP index](internal/sops/README.md)
-* Acquire … Advocate subfolders mirror operating-system stages
+* Acquire … Advocate subfolders mirror Customer Value Engine stages
 
 ### Implementation & customer success
 * [Implementation index](internal/implementation/README.md) *(skeleton)*
@@ -481,7 +481,7 @@ During transition, add a **Legacy** section pointing to `guide/` paths until ret
 |----------|-----------|-------------------|------------|
 | **P0** | Founder review of this plan + decisions (Section 9) | Matthew, Eric F | — |
 | **P0** | Root `README.md` and documentation standards policy | Matthew | P0 decisions |
-| **P1** | Phase 2 internal skeleton (`internal/strategy`, `operating-system`, `sops` indexes) | Matthew | Plan approval |
+| **P1** | Phase 2 internal skeleton (`internal/strategy`, `customer-value-engine`, `sops` indexes) | Matthew | Plan approval |
 | **P1** | Replace GitBook template; publish root `SUMMARY.md` | Matthew / Annie | GitBook space decision |
 | **P1** | Fix broken `master_persons.md`; hide or stub placeholder guide pages | Eric Gibson / Annie | — |
 | **P2** | Author **Deliver** stage SOPs (data conversion, bootstrap, go-live) | Matthew + Annie | Interviews with founders |

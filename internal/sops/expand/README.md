@@ -1,6 +1,6 @@
-﻿# SOPs — Expand
+# SOPs � Expand
 
-SOPs for customer success and expansion. Stage overviews: ../../operating-system/expand/
+SOPs for customer success and expansion. Stage overviews: ../../customer-value-engine/expand/
 
 ## Procedures in this folder
 

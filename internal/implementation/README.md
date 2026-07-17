@@ -20,7 +20,7 @@ Suggested future pages (do not invent content yet):
 
 ## Related
 
-- [Deliver stage](../operating-system/deliver/README.md)
+- [Deliver stage](../customer-value-engine/deliver/README.md)
 - [Checklists](../checklists/README.md)
 - [Templates](../templates/README.md)
 - Customer-facing training materials: [`../../customer/training/`](../../customer/training/README.md)

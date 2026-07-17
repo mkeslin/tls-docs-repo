@@ -27,4 +27,4 @@ Make support channels, hours, and self-service resources easy to find.
 ## Related
 
 - [Getting started](../getting-started/README.md)
-- Staff support process: [`../../internal/operating-system/operate/support.md`](../../internal/operating-system/operate/support.md) (internal only — do not link from published customer GitBook if spaces are separated)
+- Staff support process: [`../../internal/customer-value-engine/operate/support.md`](../../internal/customer-value-engine/operate/support.md) (internal only — do not link from published customer GitBook if spaces are separated)

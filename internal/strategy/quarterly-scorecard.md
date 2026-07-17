@@ -27,4 +27,4 @@ Track a small set of leading and lagging indicators that show whether Thin Line 
 ## Related
 
 - [Annual operating plan 2026 H2](annual-operating-plan-2026-h2.md)
-- [Customer value stream](../operating-system/customer-value-stream.md)
+- [Customer value stream](../customer-value-engine/customer-value-stream.md)

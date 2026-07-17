@@ -2,7 +2,7 @@
 
 Staff-only operating documentation for Thin Line Software.
 
-This space is the durable source of truth for how Thin Line runs the business — not a general wiki, and not customer-facing Help. Use it to find strategy, the customer value stream, procedures, and playbooks that should stay consistent as the company grows.
+This space is the durable source of truth for how Thin Line runs the business — not a general wiki, and not customer-facing Help. Use it to find strategy, the Customer Value Engine, procedures, and playbooks that should stay consistent as the company grows.
 
 ## Why this exists
 
@@ -15,7 +15,7 @@ These pages capture those standards so new work compounds instead of reinventing
 | Section | What you’ll find |
 |---------|------------------|
 | [Strategy](strategy/README.md) | Vision, principles, multi-year roadmap, and the current annual operating plan |
-| [Operating system](operating-system/README.md) | The customer value stream — Acquire → Deliver → Operate → Expand → Advocate |
+| [Customer Value Engine](customer-value-engine/README.md) | The customer value stream — Acquire → Deliver → Operate → Expand → Advocate |
 | [SOPs](sops/README.md) | Step-by-step procedures tied to each value-stream phase |
 | Playbooks and references | Implementation, customer success, product, technical, policies, checklists, and templates (see sidebar) |
 | [Documentation meta](documentation/README.md) | How this repository is organized and maintained |

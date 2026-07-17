@@ -15,49 +15,49 @@
 * [Annual operating plan 2026 H2](internal/strategy/annual-operating-plan-2026-h2.md)
 * [Quarterly scorecard](internal/strategy/quarterly-scorecard.md)
 
-### Operating system
+### Customer Value Engine
 
-* [Overview](internal/operating-system/overview.md)
-* [Customer value stream](internal/operating-system/customer-value-stream.md)
+* [Overview](internal/customer-value-engine/overview.md)
+* [Customer value stream](internal/customer-value-engine/customer-value-stream.md)
 
 #### Acquire
 
-* [Acquire overview](internal/operating-system/acquire/README.md)
-* [Awareness](internal/operating-system/acquire/awareness.md)
-* [Cold leads](internal/operating-system/acquire/cold-leads.md)
-* [Warm leads](internal/operating-system/acquire/warm-leads.md)
-* [Hot leads](internal/operating-system/acquire/hot-leads.md)
-* [Demo](internal/operating-system/acquire/demo.md)
-* [Proposal](internal/operating-system/acquire/proposal.md)
-* [Contract](internal/operating-system/acquire/contract.md)
-* [Invoice](internal/operating-system/acquire/invoice.md)
+* [Acquire overview](internal/customer-value-engine/acquire/README.md)
+* [Awareness](internal/customer-value-engine/acquire/awareness.md)
+* [Cold leads](internal/customer-value-engine/acquire/cold-leads.md)
+* [Warm leads](internal/customer-value-engine/acquire/warm-leads.md)
+* [Hot leads](internal/customer-value-engine/acquire/hot-leads.md)
+* [Demo](internal/customer-value-engine/acquire/demo.md)
+* [Proposal](internal/customer-value-engine/acquire/proposal.md)
+* [Contract](internal/customer-value-engine/acquire/contract.md)
+* [Invoice](internal/customer-value-engine/acquire/invoice.md)
 
 #### Deliver
 
-* [Deliver overview](internal/operating-system/deliver/README.md)
-* [Data conversion](internal/operating-system/deliver/data-conversion.md)
-* [Bootstrap environment](internal/operating-system/deliver/bootstrap-environment.md)
-* [Training](internal/operating-system/deliver/training.md)
-* [Go-live / configuration](internal/operating-system/deliver/go-live-configuration.md)
+* [Deliver overview](internal/customer-value-engine/deliver/README.md)
+* [Data conversion](internal/customer-value-engine/deliver/data-conversion.md)
+* [Bootstrap environment](internal/customer-value-engine/deliver/bootstrap-environment.md)
+* [Training](internal/customer-value-engine/deliver/training.md)
+* [Go-live / configuration](internal/customer-value-engine/deliver/go-live-configuration.md)
 
 #### Operate
 
-* [Operate overview](internal/operating-system/operate/README.md)
-* [Support](internal/operating-system/operate/support.md)
-* [Product updates](internal/operating-system/operate/product-updates.md)
+* [Operate overview](internal/customer-value-engine/operate/README.md)
+* [Support](internal/customer-value-engine/operate/support.md)
+* [Product updates](internal/customer-value-engine/operate/product-updates.md)
 
 #### Expand
 
-* [Expand overview](internal/operating-system/expand/README.md)
-* [Customer success](internal/operating-system/expand/customer-success.md)
-* [Expansion](internal/operating-system/expand/expansion.md)
+* [Expand overview](internal/customer-value-engine/expand/README.md)
+* [Customer success](internal/customer-value-engine/expand/customer-success.md)
+* [Expansion](internal/customer-value-engine/expand/expansion.md)
 
 #### Advocate
 
-* [Advocate overview](internal/operating-system/advocate/README.md)
-* [Reference](internal/operating-system/advocate/reference.md)
-* [Referral](internal/operating-system/advocate/referral.md)
-* [Community](internal/operating-system/advocate/community.md)
+* [Advocate overview](internal/customer-value-engine/advocate/README.md)
+* [Reference](internal/customer-value-engine/advocate/reference.md)
+* [Referral](internal/customer-value-engine/advocate/referral.md)
+* [Community](internal/customer-value-engine/advocate/community.md)
 
 ### SOPs
 

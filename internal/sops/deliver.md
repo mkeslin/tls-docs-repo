@@ -1,6 +1,6 @@
 # SOPs — Deliver
 
-SOPs for data conversion through go-live. Stage overviews: ../../operating-system/deliver/
+SOPs for data conversion through go-live. Stage overviews: ../../customer-value-engine/deliver/
 
 ## Procedures in this folder
 

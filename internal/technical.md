@@ -20,8 +20,8 @@ Document how Thin Line builds, deploys, and operates the platform — for staff,
 ## Related
 
 * [Product](product.md)
-* [Operate — product updates](operating-system/operate/product-updates.md)
-* [Deliver — bootstrap environment](operating-system/deliver/bootstrap-environment.md)
+* [Operate — product updates](customer-value-engine/operate/product-updates.md)
+* [Deliver — bootstrap environment](customer-value-engine/deliver/bootstrap-environment.md)
 
 ## Safety
 

@@ -1,6 +1,6 @@
-﻿# SOPs — Operate
+# SOPs � Operate
 
-SOPs for support and product updates. Stage overviews: ../../operating-system/operate/
+SOPs for support and product updates. Stage overviews: ../../customer-value-engine/operate/
 
 ## Procedures in this folder
 

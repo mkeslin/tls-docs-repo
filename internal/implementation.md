@@ -20,7 +20,7 @@ Suggested future pages (do not invent content yet):
 
 ## Related
 
-* [Deliver stage](operating-system/deliver/)
+* [Deliver stage](customer-value-engine/deliver/)
 * [Checklists](./)
 * [Templates](templates.md)
 * Customer-facing training materials: [`../../customer/training/`](../customer/training/)
