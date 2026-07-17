@@ -390,7 +390,7 @@ Bootstrap is complete when the [Environment Health Checklist](../../../checklist
 | [Hub Environment Integration](hub-environment-integration.md) | Future Hub record |
 | [Environment Health Checklist](../../../checklists/environment-health-checklist.md) | Phase 5 |
 | Product repo `Infrastructure/README.md` | Command-level detail, profiles, teardown |
-| [Bootstrap environment (CVE stage)](../../../customer-value-engine/deliver/bootstrap-environment.md) | Stage context |
+| [Infrastructure (CVE stage)](../../../customer-value-engine/deliver/infrastructure.md) | Stage context |
 | [Legacy System Migration](../data-migration/legacy-system-migration.md) | Data load after/with environment |
 | [Kickoff and Discovery](../kickoff.md) | Prior phase |
 | [Configuration](../configuration/README.md) | Next typical phase after health check |

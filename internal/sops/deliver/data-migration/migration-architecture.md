@@ -79,7 +79,7 @@ Environment provisioning: [Bootstrap Environment](../infrastructure/bootstrap-en
 |----------|------|
 | [Migration Philosophy](migration-philosophy.md) | Why |
 | [Migration Decision Matrix](migration-decision-matrix.md) | Where work goes |
-| [CVE — Data conversion](../../../customer-value-engine/deliver/data-conversion.md) | Stage overview |
+| [CVE — Data Migration](../../../customer-value-engine/deliver/data-migration.md) | Stage overview |
 | [Migration Metrics](migration-metrics.md) | Lightweight tracking |
 
 ---

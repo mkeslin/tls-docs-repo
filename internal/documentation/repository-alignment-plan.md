@@ -413,10 +413,11 @@ GitBook root `SUMMARY.md` — two top-level parts. Pages marked *(skeleton)* are
 
 #### Deliver
 * [Stage overview](internal/customer-value-engine/deliver/README.md)
-* [Data conversion](internal/customer-value-engine/deliver/data-conversion.md)
-* [Bootstrap environment](internal/customer-value-engine/deliver/bootstrap-environment.md)
+* [Data Migration](internal/customer-value-engine/deliver/data-migration.md)
+* [Infrastructure](internal/customer-value-engine/deliver/infrastructure.md)
 * [Training](internal/customer-value-engine/deliver/training.md)
-* [Go-live / configuration](internal/customer-value-engine/deliver/go-live-configuration.md)
+* [Go Live](internal/customer-value-engine/deliver/go-live.md)
+* [Configuration](internal/customer-value-engine/deliver/configuration.md)
 
 #### Operate
 * [Stage overview](internal/customer-value-engine/operate/README.md)

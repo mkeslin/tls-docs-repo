@@ -171,7 +171,7 @@ Leave these as future maturity—not blockers for v1 of this standard:
 - Perfect person-dedup across the entire master index  
 - Bit-identical binary parity for every historical attachment when the vendor export was incomplete  
 
-Track package improvements that close these gaps in the [package backlog](migration-package-standards.md#package-backlog).
+Track package improvements that close these gaps in the [package backlog](vendor-packages/migration-package-standards.md#package-backlog).
 
 ---
 

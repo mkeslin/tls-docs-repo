@@ -21,7 +21,7 @@ Document how Thin Line builds, deploys, and operates the platform — for staff,
 
 * [Product](product.md)
 * [Operate — product updates](customer-value-engine/operate/product-updates.md)
-* [Deliver — bootstrap environment](customer-value-engine/deliver/bootstrap-environment.md)
+* [Deliver — Infrastructure](customer-value-engine/deliver/infrastructure.md)
 
 ## Safety
 

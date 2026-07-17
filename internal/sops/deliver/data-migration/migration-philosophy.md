@@ -26,7 +26,7 @@ Migrations fail when people treat every customer as a one-off engineering projec
    Execution is: take the package, apply this customer's configuration, run, validate. See [Migration Overrides & Mapping Standard](migration-customer-configuration.md).
 
 4. **Every migration should improve the package.**  
-   If the next agency would need the same fix, promote it and bump `VERSION`. Customer notes stay in the client folder; package backlog items are reusable improvements. See [Migration Package Standards](migration-package-standards.md#package-backlog).
+   If the next agency would need the same fix, promote it and bump `VERSION`. Customer notes stay in the client folder; package backlog items are reusable improvements. See [Migration Package Standards](vendor-packages/migration-package-standards.md#package-backlog).
 
 5. **We validate before acceptance.**  
    Success is defined by the [Migration Validation Standard](migration-validation-standard.md), not by “the scripts finished.”

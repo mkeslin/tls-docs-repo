@@ -291,7 +291,7 @@ Examples:
 
 Migration tooling currently lives in the **product monorepo** under `Utilities/Migration Tools/` (may become its own repository later).
 
-Canonical layout (see [Migration Package Standards](../sops/deliver/migration-package-standards.md)):
+Canonical layout (see [Migration Package Standards](../sops/deliver/data-migration/vendor-packages/migration-package-standards.md)):
 
 ```
 Utilities/Migration Tools/
