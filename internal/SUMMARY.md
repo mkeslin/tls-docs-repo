@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Internal documentation](README.md)
+* [Home](README.md)
 
 ## Documentation meta
 
