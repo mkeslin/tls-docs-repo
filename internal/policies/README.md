@@ -6,7 +6,7 @@ Governing rules for how Thin Line operates.
 
 | Policy | Status |
 |--------|--------|
-| [Migration Pricing Policy](migration-pricing.md) | Placeholder — **Decision needed** before use |
+| [Migration Pricing Policy](migration-pricing.md) | Draft — **Decision needed:** approve before binding quotes |
 
 **TODO:** Draft and approve additional policies as needed. Do not invent legal or HR policy text.
 

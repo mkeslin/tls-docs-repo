@@ -60,6 +60,7 @@
     * [Bootstrap Environment](sops/deliver/bootstrap-environment.md)
     * [Post-Conversion Utilities](sops/deliver/post-conversion-utilities.md)
     * [Vendor Conversion Guides](sops/deliver/vendor-conversion-guides/README.md)
+    * [Migration Package Standards](sops/deliver/migration-package-standards.md)
   * [SOPs — Operate](sops/operate.md)
   * [SOPs — Expand](sops/expand.md)
   * [SOPs — Advocate](sops/advocate.md)

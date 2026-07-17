@@ -230,7 +230,7 @@ Document the commercial recommendation so Sales can quote consistently.
 | Pricing approved by | |
 | Pricing approval date | |
 
-> **Decision needed (company):** Final pricing model is not yet approved policy. Do not treat illustrative tiers as quotes until [Migration Pricing Policy](../policies/migration-pricing.md) is approved.
+> Apply [Migration Pricing Policy](../policies/migration-pricing.md) (Status: **Draft**). Do not treat tier amounts as binding until that policy is approved. Record tier, recommended price, reasoning, and any discount justification in this assessment.
 
 ---
 

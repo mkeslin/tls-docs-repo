@@ -73,6 +73,7 @@
   * [Bootstrap Environment](internal/sops/deliver/bootstrap-environment.md)
   * [Post-Conversion Utilities](internal/sops/deliver/post-conversion-utilities.md)
   * [Vendor Conversion Guides](internal/sops/deliver/vendor-conversion-guides/README.md)
+  * [Migration Package Standards](internal/sops/deliver/migration-package-standards.md)
 * [Operate](internal/sops/operate/README.md)
 * [Expand](internal/sops/expand/README.md)
 * [Advocate](internal/sops/advocate/README.md)

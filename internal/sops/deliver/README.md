@@ -21,6 +21,7 @@ See [Assessments](../../assessments/README.md).
 | [Bootstrap Environment](bootstrap-environment.md) | Placeholder |
 | [Post-Conversion Utilities](post-conversion-utilities.md) | Placeholder |
 | [Vendor Conversion Guides](vendor-conversion-guides/README.md) | Placeholder index |
+| [Migration Package Standards](migration-package-standards.md) | Placeholder |
 
 ## Suggested next SOPs
 

@@ -190,7 +190,7 @@ Where this process should operate when Thin Line OS is mature:
 | Area | Target |
 |------|--------|
 | **Assessment** | Formal [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md) → **Approved Conversion Plan** before pricing/execution |
-| **Pricing** | Approved [Migration Pricing Policy](../../policies/migration-pricing.md) (tiered or hybrid — **Decision needed**) |
+| **Pricing** | [Migration Pricing Policy](../../policies/migration-pricing.md) (Draft — professional service tiers; assessment required before quote) |
 | **Acquisition** | Documented cloud vs on-prem path with clear go-live timing rules |
 | **Preparation** | Vendor-centric templates (`Conversions/<Vendor>/Template/`) plus customer folders for overrides |
 | **Execution** | Explicit decision matrix for UAT vs Production |
@@ -330,9 +330,9 @@ Do not treat pricing, schedule, or engineering commitments as final until the as
 
 ### Phase 3 — Pricing
 
-Apply current commercial practice (historically bundled with multi-year SaaS) until [Migration Pricing Policy](../../policies/migration-pricing.md) is approved.
+Apply the [Migration Pricing Policy](../../policies/migration-pricing.md) (Draft): migration is a one-time professional service; complete the [Legacy System Migration Assessment](../../assessments/legacy-system-migration-assessment.md) before quoting; select Tier 1–4 (or discount/waiver with documented justification).
 
-> **Decision needed:** Bundled vs tiered vs hybrid. Illustrative future tiers ($1k / $2.5k / $5–7.5k / custom) must not be quoted as policy until approved.
+> **Decision needed:** Approve the draft policy before using tier amounts as binding customer quotes. Discounts (including multi-year SaaS) must be recorded on the assessment.
 
 ### Phase 4 — Data acquisition
 
