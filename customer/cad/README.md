@@ -1,4 +1,4 @@
-# CAD — Computer-Aided Dispatch
+# CAD overview
 
 Customer guides for Thin Line CAD and self-dispatch.
 
