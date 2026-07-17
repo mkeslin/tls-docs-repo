@@ -1,14 +1,14 @@
-# Checklists
+# Internal documentation
 
-Verification lists used with SOPs and implementation work.
+Staff-only documentation for Thin Line Software: strategy, operating model, procedures, and playbooks.
 
-## Contents
+## Start here
 
-**TODO:** Add checklists as processes are standardized. Suggested first checklists:
+| Area | Purpose |
+|------|---------|
+| [Strategy](strategy/README.md) | Vision, multi-year roadmap, and current operating plan |
+| [Operating system](operating-system/README.md) | Customer value stream and stage playbooks |
+| [SOPs](sops/README.md) | Step-by-step procedures by phase |
+| [Documentation meta](documentation/README.md) | How this repository is organized |
 
-- Demo readiness
-- Data conversion sign-off
-- Go-live readiness
-- Support ticket quality / closure
-
-Link each checklist from the related SOP and value-stream stage page.
+Do not expose this content in customer-facing spaces.
