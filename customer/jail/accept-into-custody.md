@@ -1,42 +1,54 @@
-# Accept Into Custody
+# Accept into Custody
 
-Moving a completed booking from intake into live custody on the Command Center.
+Move a completed booking from intake into live custody on the Command Center.
+
+## Who can accept
+
+**Accept into Custody** is available when:
+
+- The current header agency is a **jail facility** agency (not a typical PD-only partner login)
+- You have jail modify rights as your agency assigns them
+- The booking is **Ready for Acceptance** (or equivalent)
+
+Partner agencies that only create bookings generally **cannot** accept.
 
 ## What “ready” means
 
-A booking becomes **Ready for acceptance** when required intake work is satisfied under your agency’s rules (required steps complete; conditional steps completed, deferred, or marked not applicable as allowed).
+Required intake steps are complete. Conditional steps are completed, deferred, skipped, or marked not applicable as your rules allow.
 
-Until then, **Accept Into Custody** stays blocked. Use the booking status banner and step list to see what remains.
+| Where you check readiness | Note |
+|---------------------------|------|
+| Booking sidebar / banner | Full readiness messaging |
+| Command Center checklist rail | May emphasize required steps — if Accept fails, return to booking details |
 
 ## Accept
 
-1. Open the booking (from **In Booking Process** or Booking Search).
-2. Confirm person, charges, and custody details are correct.
-3. Choose **Accept Into Custody**.
-4. Complete any final confirmation the dialog requires.
+1. Open the booking (**In Booking Process** → **Open booking**, or Booking Search).
+2. Confirm person, charges, and custody details.
+3. Choose **Accept into Custody**.
+4. Confirm any final prompt.
 
-On success:
+On success you typically see that the booking was accepted (for example **Accepted on {datetime}** / toast **Booking accepted**):
 
-- Booking status moves to **Accepted** (product language may also show related event wording).
-- A **custody episode** appears on the **Jail Command Center**.
-- The booking leaves the active “in booking process” queue for acceptance work.
+- A **custody episode** appears on the Command Center
+- The booking leaves active acceptance work in **In Booking Process**
 
 ## After accept
 
-- Assign or confirm **housing** on the board (see [Housing and moves](housing-and-moves.md)).
-- Review **flags / alerts** that should follow the person onto the floor.
-- Continue medical or observation tasks from the Command Center work queue as needed.
+1. Assign housing if still **Unassigned** ([Housing and moves](housing-and-moves.md)).
+2. Set **Critical Flags** / **Alerts** as needed ([Flags, alerts, and medication](flags-alerts-medication.md)).
+3. Watch **Passes** and **Medications** queues on the board.
 
 ## If Accept fails
 
-Common causes:
+| Check | Action |
+|-------|--------|
+| Required step incomplete | Finish and **Mark Complete** |
+| Conditional step still blocking | Complete, defer with reason, or skip per policy |
+| Not a jail facility agency | Switch agency or hand off to facility staff |
+| Concurrent edit | Coordinate and retry |
 
-- A required step is still incomplete
-- A deferred conditional step still blocks readiness
-- Missing custody or charge information
-- Permission or concurrent edit lock
-
-Fix the listed issue and try again. Do not create a second booking to bypass a blocked accept.
+Do **not** create a second booking to bypass a blocked accept.
 
 ## Related
 

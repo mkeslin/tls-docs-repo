@@ -1,46 +1,33 @@
 # Housing and moves
 
-Assigning and moving people between jail locations on the Command Center.
+Assign and change locations for people in custody.
 
 ## Locations
 
-Your facility configures locations such as:
-
-- Holding / intake areas
-- Housing cells or pods
-- Gym / recreation
-- Visitation (when used)
-- Court
-- Offsite / offsite holding
-
-If a destination is missing, a jail administrator adds it under **Jail Intake → Manage Locations** (wording may vary). Empty or misconfigured locations block clean drag-and-drop moves.
+Housing destinations come from [Manage locations](manage-locations.md) (cells, holding, intake, court, visitation, offsite, and other configured types). If a destination is missing, a facility admin adds it — empty or misconfigured locations block clean moves and can block cell-check scope.
 
 ## Assign or move
 
-Typical paths:
+1. Open the Command Center (**JAIL**).
+2. Select the person (episode drawer) or drag from roster/layout per your training.
+3. Choose **Move** (or a typed move such as **Move to Visitation**, **Move to Court**, **Move to Offsite**).
+4. Complete required fields for that move type.
+5. Confirm **Move**.
 
-1. **Drag** an episode card/chip onto a location or cell target.
-2. Or open the episode and use the **move / location picker** when drag is not practical.
-3. Confirm any **move prompt** for special destinations (court, visitation, offsite) — extra context fields may be required.
+People in **Unassigned** need a housing location before some floor tasks (including certain cell checks) can proceed.
 
-Invalid targets are rejected with a message; fix the target or choose another location.
+## Undo
 
-## Unassigned
-
-People without a current housing assignment appear under **unassigned** (or the equivalent filter). Prioritize assigning them so cell checks and roster prints stay accurate.
-
-## Onsite vs offsite
-
-Filters and board sections distinguish people physically at the facility from those marked **offsite**. Offsite status often comes from a transfer path — see [Offsite transfer](offsite-transfer.md).
+A short undo window may appear after a move (toast). Use it immediately if the wrong destination was selected; otherwise move again to the correct location.
 
 ## Tips
 
-- After a move, confirm the person appears in the new location on both roster and layout if you use both views.
-- Rapid double-drops can be ignored by design — wait for the first move to finish.
-- Some moves support a short **undo** toast; use it immediately if you dropped on the wrong cell.
+- Confirm **Onsite** vs **Offsite** section after transfer-style moves.
+- Court / visitation moves are operational locations — they do not replace [Court](../court/README.md) case scheduling.
+- For leaving the facility with a packet, use [Offsite transfer](offsite-transfer.md) rather than an informal move when policy requires the wizard.
 
 ## Related
 
 - [Command Center basics](command-center.md)
+- [Manage locations](manage-locations.md)
 - [Offsite transfer](offsite-transfer.md)
-- [Cell checks and observation](observation-and-cell-checks.md)

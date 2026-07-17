@@ -11,7 +11,7 @@ This area is **customer-safe**. Do not publish internal pricing strategy, unrele
 | [Getting started](getting-started/README.md) | Login, shell, Dashboard, journeys, master records, header |
 | [Admin](admin/README.md) | Users, officers, codes, offenses, agency settings |
 | [Implementation](implementation/README.md) | Kickoff agenda, workbooks, go-live / hypercare brief |
-| [Training](training/README.md) | Orientation and module workshop curricula |
+| [Training](training/README.md) | [By role](training/roles/README.md) + module workshops |
 | [Support](support/README.md) | Contact, tickets, remote assistance, FAQ, troubleshooting |
 
 ## Products

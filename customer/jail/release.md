@@ -1,36 +1,30 @@
 # Release
 
-Releasing a person from custody through the Jail Command Center / booking release flow.
+Release a person from custody using the Command Center release wizard.
 
-## Before you release
+## Prerequisites
 
-Confirm:
+- Jail Intake **Modify**
+- Person is in custody on the board (accepted episode)
+- Charge/hold release decisions ready per court / agency authority
 
-- Identity matches the custody episode
-- Charges / holds allow release under your agency’s rules
-- Property, medication, and trust / valuables disposition are addressed per checklist
-- Any required supervisor approval for your role
+## Release wizard
 
-## Release flow
+1. Open the episode → **Release** (dialog title **Release from Custody**).
+2. **Charge / Hold Release Codes** — for each charge/hold, set **Release code** and **Release notes** as required; **Save** per row → **Next**.
+3. **Release Checklist** — complete every checklist item (wording is ALL CAPS in the product).
+4. Choose **Release**.
 
-1. Open the **custody episode** on the Command Center (or the related accepted booking).
-2. Choose **Release**.
-3. Complete the **release checklist** and required fields.
-4. Record **release reason** codes (including per-charge notes when the UI requires them).
-5. Submit. Confirm the person leaves the active roster / layout.
+On success the person leaves active onsite custody lists. Confirm the roster after release.
 
-On success, booking / episode status moves to a released outcome and the person no longer appears as in-custody on the board.
+## Tips
 
-## Property and related disposition
-
-Release dialogs commonly prompt for property bag and related disposition language. Seal/open bag state from intake should already be consistent before release — resolve property exceptions before finishing when policy requires it.
-
-## Permissions
-
-Release may require **Modify** (and in some agencies stronger approve-style rights). If Release is disabled, you likely lack permission or the episode is not in a releasable state (for example already transferred).
+- Do not use **Delete booking** for people already accepted — that path is for pre-accept drafts only.
+- If release is blocked, check modify rights, open checklist items, and whether another user has the episode open.
+- Keep release codes consistent with court/hold authority.
 
 ## Related
 
-- [Command Center basics](command-center.md)
 - [Offsite transfer](offsite-transfer.md)
+- [Command Center basics](command-center.md)
 - [Reports and printouts](reports.md)

@@ -1,40 +1,48 @@
 # Start a booking
 
-How to create a jail booking and open intake.
+Create a jail booking and open intake.
 
 ## Ways to start
 
 | Path | When to use it |
 |------|----------------|
-| **Command Center → Add Booking** | Floor / intake starting from the live board |
-| **Jail Intake → Add** | Starting from Booking Search / intake navigation |
+| Header **JAIL** → **Add Booking** | Starting from the live Command Center |
+| **Jail Intake** → **Booking Add** | Starting from intake navigation |
 
-Both paths create a **booking** that appears under **In Booking Process** on the Command Center (draft / in process / ready for acceptance, depending on progress).
+Both create a **booking** that appears under **In Booking Process** on the Command Center.
 
-## Typical create flow
+## Create Booking wizard
 
-1. Choose **Add Booking**.
-2. Identify the **person** (search master records, scan a license when configured, or enter required identity fields).
-3. Confirm **arresting agency** and other custody context your facility requires.
-4. Save / continue so a booking id is created.
-5. Open **full intake** (booking details) to complete steps — from the booking drawer on the board or from Booking Search.
+1. Choose **Add Booking** or **Booking Add**.
+2. Walk the wizard steps:
+   1. **Select Person** — **Scan Driver License** (when configured), or **PERSON LOOKUP (LAST FIRST)...** with **Search/Add** ([Master records](../getting-started/master-records/README.md)).
+   2. **Enter Arrest Details**
+   3. **Enter Facility Details**
+   4. **Review Information**
+3. Choose **Create Booking**.
+4. Continue into booking details to complete [intake steps](intake-steps.md).
 
-Agencies may also start from an incident / arrestee path when that integration is used. Follow the fields your training environment shows.
+Agencies may also start from an incident / arrestee path when that integration is used.
 
 ## After create
 
-- The booking starts in an early status (commonly **Draft** or **In process**).
-- It remains visible in **In Booking Process** until accepted, voided, or otherwise closed.
-- Complete the intake steps described in [Complete intake steps](intake-steps.md).
+| Status (typical) | Meaning |
+|------------------|---------|
+| **Draft** | Just created / early |
+| **In Progress** | Intake steps underway |
+| **Ready for Acceptance** | Required work satisfied — ready for [Accept into Custody](accept-into-custody.md) |
 
-## Void or cancel a draft
+The booking stays in **In Booking Process** until accepted or removed.
 
-If a booking should not proceed, use the **void / cancel** path available for your role (often from booking details). Voiding should remove the booking from active “in process” lists without creating a live custody episode.
+## Delete a draft booking
 
-Only void when policy allows — do not void to “fix” an accepted custody episode; use release or supervisor procedures instead.
+If a booking should not proceed **before** accept, use **Delete booking** (not labeled “void” in the product). Success feedback is typically that the booking was removed.
+
+- Only delete when policy allows.
+- Do **not** delete to “fix” an accepted custody episode — use [Release](release.md) or supervisor procedures.
 
 ## Related
 
 - [Complete intake steps](intake-steps.md)
-- [Accept Into Custody](accept-into-custody.md)
+- [Accept into Custody](accept-into-custody.md)
 - [Command Center basics](command-center.md)

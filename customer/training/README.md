@@ -1,8 +1,15 @@
 # Training
 
-Structured curricula for go-live and ongoing adoption. Each outline links to the customer guides — use those pages as the teaching script; do not invent product steps that are not documented there.
+Structured curricula for go-live and ongoing adoption. Prefer **[Training by role](roles/README.md)** to pick a path; workshop outlines below are the detailed session scripts.
 
-## Curricula
+## Start with role
+
+| If the trainee is… | Open |
+|--------------------|------|
+| Any role | [Training by role](roles/README.md) |
+| Unsure | [New user orientation](new-user-orientation.md), then ask which products they use |
+
+## Workshop catalog
 
 | Curriculum | Audience | Typical length |
 |------------|----------|----------------|
@@ -20,16 +27,16 @@ Structured curricula for go-live and ongoing adoption. Each outline links to the
 
 ## How to use these outlines
 
-1. Deliver in a **configured training environment** (not production, when possible).
-2. Follow the session agenda; open linked guide pages for demos and exercises.
-3. Capture gaps (missing screenshots, unclear steps) and send them to Thin Line for doc updates.
-4. Confirm readiness against your go-live training sign-off (implementation team).
+1. Select the [role plan](roles/README.md) first so claims and agenda match the job.
+2. Deliver in a **configured training environment** (not production, when possible).
+3. Follow the session agenda; open linked guide pages for demos and exercises.
+4. Capture gaps and send them to Thin Line for doc updates.
+5. Confirm readiness against your go-live training sign-off (implementation team).
 
 Staff delivery process: internal Deliver training SOP (Thin Line staff only).
 
 ## Related
 
-- [Getting started](../getting-started/README.md)
-- [Court](../court/README.md)
-- [Jail](../jail/README.md)
-- [Support](../support/README.md)
+- [Getting started](../getting-started/README.md) · [Journeys](../getting-started/journeys/README.md)
+- [Jail](../jail/README.md) · [Court](../court/README.md) · [CAD](../cad/README.md)
+- [Support — FAQ](../support/faq.md) · [Troubleshooting](../support/troubleshooting.md)

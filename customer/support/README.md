@@ -10,8 +10,8 @@ How to get help with Thin Line Software products.
 | [What to include in a support request](support-request.md) | Faster, clearer tickets |
 | [Remote assistance](remote-assistance.md) | Screen-sharing sessions with Thin Line |
 | [In-app Feedback](feedback.md) | Product comments from inside the application |
-| [FAQ](faq.md) | Common questions |
-| [Troubleshooting](troubleshooting.md) | Login and access basics |
+| [FAQ](faq.md) | Access, masters, court/finance, CAD, jail, exports |
+| [Troubleshooting](troubleshooting.md) | Symptom → check tables before opening a ticket |
 
 ## Before you contact Thin Line
 
@@ -22,4 +22,5 @@ How to get help with Thin Line Software products.
 ## Related
 
 - [Getting started](../getting-started/README.md)
+- [Training by role](../training/roles/README.md)
 - [Logging in](../getting-started/logging-in.md)

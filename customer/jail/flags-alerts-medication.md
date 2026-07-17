@@ -1,43 +1,48 @@
 # Flags, alerts, and medication
 
-Critical attention markers and medication administration in jail ops.
+Critical attention flags, operational alerts, and medication administration.
 
-## Flags and alerts
+## Critical Flags
 
-Custody episodes can show **flags** and **alerts** on the Command Center (for example suicide watch or other critical attention). These help the floor prioritize housing, checks, and handoffs.
+On the episode drawer:
 
-| Concept | How you use it |
-|---------|----------------|
-| **Flag** | Persistent marker on the episode / person context for the shift |
-| **Alert** | Notable condition surfaced on the board or in the episode drawer |
+| Flag | Use |
+|------|-----|
+| **Suicide Watch** | Heightened observation; drives suicide-check scope |
+| **Escape Risk** | Heightened security attention |
 
-Follow your facility’s policy for who may set, clear, or acknowledge flags. Do not clear a clinical or suicide-related flag without authorized process.
+Changing a critical flag may require **Confirm Critical Flag Change**. Follow facility policy for who may set or clear these flags.
 
-## Medication on the floor
+## Alerts
 
-Medication work typically appears in two places:
+1. Open the episode drawer → **Alerts**.
+2. **Add Alert** / **Edit** / **Remove** as needed.
+3. Keep alert text factual and actionable for the next shift.
 
-| Place | Use |
-|-------|-----|
-| **Command Center work queue** | Due administration tasks during the shift |
-| **Medication Log** | Search and review administration history (`/jail/medication-logs`) |
+## Medications on the episode
 
-When administering from a due task:
+1. Open **Medications** on the episode.
+2. **Add medication** / **Edit** when you have jail **Approve** rights (medication catalog changes are controlled).
+3. Floor staff administer from the board queue even when they cannot edit the catalog.
 
-1. Open the task / person context.
-2. Record **administered** or **unable to administer** (with reason when required).
-3. Confirm the task clears from the due queue.
+## Log administration (Command Center)
 
-Intake **Medical** screening and ongoing episode medications are related but not identical — screening happens during booking; administration continues while the person is in custody.
+1. Open **Medications** on the left panel (**Next scheduled** / **Upcoming (next 90 minutes)**).
+2. Open the due item → dialog **Log medication administration**.
+3. Set status **ADMINISTERED** or **UNABLE TO ADMINISTER**.
+4. Confirm **Administration date/time**.
+5. **Log administration**.
+
+## Medication Log (history)
+
+**Jail Intake** → **Medication Log** — search past administrations for audit.
 
 ## Tips
 
-- Enable or respect in-app **notification sounds** for jail tasks if your agency uses them — overdue meds and checks are easy to miss on a busy board.
-- Use Medication Log search when reconstructing “was this dose given?” after the fact.
-- Pair medical flags with housing and observation intervals so the whole shift sees the same priority.
+- Suicide Watch changes should be coordinated with medical / supervisory policy immediately.
+- “Unable to administer” still creates a record — do not skip logging.
 
 ## Related
 
 - [Cell checks and observation](observation-and-cell-checks.md)
-- [Complete intake steps](intake-steps.md)
 - [Command Center basics](command-center.md)

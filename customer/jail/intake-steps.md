@@ -1,49 +1,56 @@
 # Complete intake steps
 
-Working through the Jail Intake booking wizard.
+Work the Jail Intake booking step list until the booking is ready for acceptance.
 
 ## How steps work
 
-Booking details show a **step list** (sidebar) and a panel for the selected step. Values typically **autosave** as you work. Step status shows whether work is complete, in progress, deferred, skipped, or not applicable — depending on the step and your agency rules.
+Booking details show a **sidebar step list** and a panel for the selected step. Values typically **autosave**. Use:
 
-## Steps you will commonly see
+| Action | Purpose |
+|--------|---------|
+| **Mark Complete** | Finish a step when required fields are valid |
+| **Re-open for Edit** | Correct a completed step (permissions may limit) |
+| **Skip** / **Skip step** | Mark not applicable when allowed |
+| **Set step status** | Advanced statuses (for example DEFERRED, BLOCKED, NOT APPLICABLE, PRELIMINARY, TEMPORARY, SKIPPED, REOPEN) |
 
-Exact visibility can vary by product configuration. In current Thin Line builds, **Identity** and **Search** steps may be hidden from the sidebar while still affecting acceptance rules behind the scenes.
+## Steps in the sidebar
 
 | Step | Role | Notes |
 |------|------|-------|
-| **Person** | Required | Demographics, aliases, marks/scars/tattoos, mugshot-related work as configured |
-| **Custody** | Required | Hold type, times, arresting context — must be complete before Accept; no skip |
-| **Charges** | Required | Add/edit charges; hold-only scenarios when no new charge applies |
-| **Property** | Conditional | Bags and items; seal/open; “none collected” / retained paths |
-| **Mental Health** | Conditional | Screening; defer usually requires a reason |
-| **Medical** | Conditional | Screening, medications, withdrawal notes; defer with reason when allowed |
-| **Classification** | Conditional | Factors and recommended custody level; preliminary / deferred options when allowed |
+| **Person** | Required | Demographics, aliases, SMTs, mugshot-related work |
+| **Custody** | Required | Hold type, times, arresting context — complete before Accept; do not skip |
+| **Charges** | Required | Charges; hold-only when no new charge applies |
+| **Property** | Conditional | **Add Property Bag**, seal/open; none-collected paths |
+| **Mental Health** | Conditional | Screening; defer usually needs a reason |
+| **Medical** | Conditional | Screening, meds, withdrawal notes |
+| **Classification** | Conditional | Factors and recommended custody level |
+
+**Identity** and **Search** steps exist in the product model but are **hidden** from the current sidebar. Person work may still require an identity snapshot — if you see a message to complete Identity first, finish Person thoroughly and escalate if Accept still blocks.
 
 ## Completing a step
 
 1. Open the step from the sidebar.
 2. Fill required fields until validation is clear.
-3. Mark the step **complete** (or follow the status control your UI provides).
-4. Move to the next incomplete required step.
+3. Choose **Mark Complete** (or the status your process requires).
+4. Move to the next incomplete **required** step.
 
 ## Defer, skip, reopen
 
 | Action | Typical use |
 |--------|-------------|
-| **Defer** | Screening cannot finish yet; capture a **reason** when required |
-| **Not applicable / skip** | Step does not apply for this booking (when the product allows it) |
-| **Reopen** | Correct or finish a previously completed step (permissions may limit this) |
+| **Defer** (status) | Screening cannot finish; capture a **reason** when required |
+| **Skip** / NOT APPLICABLE | Step does not apply |
+| **Re-open for Edit** | Fix a completed step |
 
-Deferred or incomplete **required** work blocks **Accept Into Custody**. Conditional steps may block accept depending on agency readiness rules — resolve banners on the booking before accepting.
+Incomplete **required** steps block **Accept into Custody**. Conditional steps may also block depending on readiness rules — resolve banners before accepting.
 
 ## Tips
 
-- Watch the **status banner** on the booking — it explains what still blocks acceptance.
-- Print or preview step PDFs after key sections when your agency keeps paper packets (see [Reports and printouts](reports.md)).
-- If another user is editing the same booking, you may see lock / takeover behavior for supervisors — coordinate before overwriting.
+- Watch the booking **status banner** for what still blocks acceptance.
+- Print step PDFs when your agency keeps paper packets ([Reports](reports.md)).
+- Coordinate if another user has the booking open (lock / supervisor takeover).
 
 ## Related
 
 - [Start a booking](start-a-booking.md)
-- [Accept Into Custody](accept-into-custody.md)
+- [Accept into Custody](accept-into-custody.md)

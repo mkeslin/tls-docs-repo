@@ -1,38 +1,34 @@
 # Reports and printouts
 
-Common jail PDFs and prints from Intake and the Command Center.
+Common Jail prints and PDFs.
 
-## Intake / booking prints
+## Booking / intake
 
-From booking details or booking search (when enabled), agencies commonly generate:
+| Output | Where |
+|--------|-------|
+| **Booking detail** PDF | Booking header — **View PDF** / **Download PDF** |
+| Step / packet PDFs | From intake steps when your agency uses paper packets |
 
-- Booking detail / custody summary style reports
-- Identity and charges prints
-- Property inventory
-- Medical / mental health screening reports
-- Classification notice
-- Search-related prints (when that step is used)
-- Texas Uniform Health Status Update style forms (when configured for transfer packets)
+## Command Center
 
-Many step reports validate that required fields exist before PDF generation — complete the step first if print is blocked.
+| Output | Where |
+|--------|-------|
+| **Roster PDF** | Board — **View PDF** / **Download PDF** |
 
-## Command Center prints
+## History searches
 
-| Print | Typical use |
-|-------|-------------|
-| **Print Roster** | Current in-custody roster for the facility context |
-| **Transfer Log** | Movements for a selected date range |
-| **Cell-check / observation pass report** | Audit of rounds from Pass History or pass detail |
-| **Medication Log export/print** | Administration history from medication search |
+| Output | Where |
+|--------|-------|
+| Pass prints | **Pass History** grid / print actions |
+| Medication prints | **Medication Log** grid / print actions |
+| Offsite packet forms | [Offsite transfer](offsite-transfer.md) — Texas uniform health / mental health PDFs |
 
 ## Tips
 
-- Confirm **agency / facility** filters before printing so another jail’s people are not included.
-- Re-print after correcting intake data — PDFs reflect stored values at generation time.
-- Keep a known-good sample packet in training so new staff can compare layout and required pages.
+- Prefer training-tenant prints during class; production prints follow retention rules.
+- If roster PDF is empty, confirm facility agency and filters on the board.
 
 ## Related
 
-- [Complete intake steps](intake-steps.md)
-- [Command Center basics](command-center.md)
-- [Offsite transfer](offsite-transfer.md)
+- [Getting around](getting-around.md)
+- [Dashboard — Report History](../getting-started/dashboard.md) for non-jail module reports

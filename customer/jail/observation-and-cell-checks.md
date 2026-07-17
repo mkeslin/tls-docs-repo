@@ -1,48 +1,41 @@
 # Cell checks and observation
 
-Welfare rounds, observation passes, and pass history.
+Run observation passes from the Command Center and review history.
 
-## Pass types
+## Pass types (current product)
 
-Thin Line observation work commonly includes:
+| Pass type | Typical use |
+|-----------|-------------|
+| **CELL CHECK** | Routine cell / welfare checks for in-scope housing |
+| **SUICIDE CHECK** | Checks scoped to people on **Suicide Watch** |
 
-| Type | Typical meaning |
-|------|-----------------|
-| **Cell check** | Scheduled or due welfare / security round for locations included in checks |
-| **Suicide check** | Heightened observation interval for people on suicide watch or related flags |
+## Start a pass
 
-Exact schedules follow your facility’s configured jail schedules and who is included in cell-check locations.
+1. On the Command Center left panel, open **Passes**.
+2. Choose **Start Pass**.
+3. Select **Pass type**, **Group** (as configured), then **Start**.
+4. Work the **Pass Runner**: **Next unchecked**, mark observations, resolve “need assignment” blockers.
+5. **Complete Pass** when finished, or **Cancel Pass** if the run must be aborted per policy.
 
-## Work queue and Pass Runner
+Progress shows counts such as complete / remaining.
 
-On the Command Center:
+## Who appears on a cell check
 
-1. Open the **work queue** for due observation / check tasks.
-2. Use **Pass Runner** (or the equivalent check UI) to conduct the round.
-3. Record outcomes as the product prompts (completed check, observations, exceptions).
+Locations with **Include in cell checks** participate ([Manage locations](manage-locations.md)). Inmates may be **blocked** from check until housing is assigned.
 
-Stay on the facility board context so the right people and locations are in scope.
+Suicide checks focus on people with the **Suicide Watch** critical flag.
 
 ## Pass History
 
-Use **Pass History** (`/jail/observation` search) to:
+1. Open **Jail Intake** → **Pass History** (requires observation access).
+2. Search past passes for audit or supervisor review.
 
-- Find past passes by person, date, or pass id
-- Open a pass for review or print
-- Support audits after a shift
+## Permissions
 
-## Location include-in-cell-checks
-
-Not every location participates in cell-check rounds. If someone is housed in a location that is **not** included in checks, they may not appear on expected pass work — confirm location settings with a jail administrator.
-
-## Tips
-
-- Clear due checks promptly; overdue tasks drive alerts and sounds when your agency enabled them.
-- Pair checks with **flags** (suicide watch, critical medical) so the right interval is obvious on the board.
-- Print or export pass reports when your agency keeps paper or external audit copies — see [Reports and printouts](reports.md).
+**Start Pass** / modify the runner requires **Jail Observation — Modify**. History requires observation access.
 
 ## Related
 
 - [Flags, alerts, and medication](flags-alerts-medication.md)
 - [Command Center basics](command-center.md)
-- [Housing and moves](housing-and-moves.md)
+- [Reports and printouts](reports.md)
