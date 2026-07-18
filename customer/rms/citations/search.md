@@ -2,26 +2,41 @@
 
 Find and open citation records from the Citations module.
 
+![Citations Search — filters and results](images/citation-search.png)
+
 ## Open Search
 
 1. In RMS, open **Citations** from the left module rail.
-2. Choose **Search** from the module menu.
+2. Choose **Search** from the module menu (Citations opens to Search by default).
+
+![Citations module menu — Search and Add](images/citation-module-menu.png)
 
 ## Common filters
 
-Filters vary by agency configuration. Typical options include:
+Filters vary slightly by agency configuration. Typical options:
 
 | Filter | Use |
 |--------|-----|
-| **Citation number** | Exact or partial ticket number |
-| **Citation type** | e.g. motor vehicle stop, parking, ordinance |
-| **Workflow status** | Draft, Issued, or mobile statuses such as SYNCED |
-| **Source** | Application (desktop) vs Mobile |
-| **Citing officer** | Officer of record |
-| **Offense / offense type** | Charge on the citation; citation vs warning mix |
-| **Cited date** | Date range for the stop / citation |
+| **Citation Number** | Exact or partial ticket number |
+| **Type** | Citation type codes (e.g. motor vehicle stop) — `_CIT` |
+| **Source** | **Mobile** vs **Application** (desktop) |
+| **Workflow** | Commonly **DRAFT** and **ISSUED** in the filter list |
+| **Citing Officer** | Officer of record |
+| **Offense** | Free-text match on offense description |
+| **Offense Type** | Citation vs warning mix on the ticket |
+| **Cited Date** | Date range for the stop / citation |
 
 Run the search, then open a row to the citation **detail** page.
+
+### Workflow tip
+
+The Workflow dropdown commonly lists **DRAFT** and **ISSUED**. Mobile import backlog (**SYNCED**) may not appear in that short list — use **Source = Mobile**, citation number, or an unfiltered search when hunting for **SYNCED** rows. See [Mobile citations](mobile-citations.md).
+
+## Results grid
+
+Typical columns include citation number, source, workflow status, citing officer, type, and offense summary. Status values appear as **DRAFT**, **ISSUED**, **SYNCED**, and related mobile labels.
+
+![Citation search results grid](images/citation-search-results.png)
 
 ## Print from search
 
@@ -29,11 +44,12 @@ When available, print or export the **search results** list (grid print / PDF) f
 
 ## Tips
 
-- Prefer citation number when you have it; use officer + date when you do not.
-- **SYNCED** results are mobile citations waiting for import — see [Mobile citations](mobile-citations.md).
+- Prefer citation number when you have it; use officer + cited date when you do not.
 - Confirm you are in the correct **agency** before searching.
+- Empty results usually mean wrong agency, wrong number, or filters that are too narrow — clear Workflow / Source and retry.
 
 ## Related
 
 - [Add a citation](add.md)
 - [Draft to Issued](draft-to-issued.md)
+- [Mobile citations](mobile-citations.md)
