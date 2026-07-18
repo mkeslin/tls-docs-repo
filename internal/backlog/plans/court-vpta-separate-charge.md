@@ -1,22 +1,7 @@
 ﻿---
-name: court-vpta-separate-charge
-overview: "Optional agency-gated workflow for Texas municipal courts that file Violate Promise to Appear (VPTA) as a separate criminal charge when a defendant fails to appear on a Rules of the Road citation—distinct from ThinLine’s existing procedural FTA / FTA_WARRANT posture on the original case."
+backlog: "Court · VPTA separate charge"
 status: draft
 created: 2026-07-13
-todos:
-  - id: confirm-new-deal-behavior
-    content: "Confirm with New Deal what they mean by VPTA (new case, labeling, fee, or combo)"
-    status: pending
-  - id: agency-preference-shape
-    content: "Decide Agency flag name/location and admin UI for VPTA filing enablement"
-    status: pending
-  - id: domain-model
-    content: "Sketch case link, offense code, complaint/affidavit, and state-machine touchpoints"
-    status: pending
-  - id: mvp-scope
-    content: "Define MVP vs later (batch create, plea bargain dismiss-pair, fee Art. 45A.264)"
-    status: pending
-isProject: false
 ---
 
 # Court VPTA — separate charge (design notes)

@@ -1,44 +1,7 @@
 ﻿---
-name: Equipment Fleet Modules
-overview: Add two new Law Enforcement RMS modules — Equipment (EQP) and Fleet (FLM) — as operational records layered on Master Property Index (optional) and Master Vehicle Index (required). **Primary implementation template: Notepad module (`FCS`)** — root + child entities, child controllers, master snapshot FKs, tabbed details, `useSearchBase` / `useModuleBase`. MVP covers CRUD, assignment/checkout, maintenance, damage (fleet), retire/dispose, cross-module equipment-on-vehicle visibility, and basic search/report views. Fuel log and formal audit sessions deferred to Phase 2.
-todos:
-  - id: pr1-foundation
-    content: "PR1: SystemModules, code seeds, agency flags, auth claims (Access+Modify×2), EF entities + migration + views"
-    status: completed
-  - id: pr2-equipment-api
-    content: "PR2: Equipment backend CRUD (service, root, controller, view models, unit tests)"
-    status: completed
-  - id: pr3-equipment-ui
-    content: "PR3: Equipment UI routes, nav, search, detail General tab"
-    status: completed
-  - id: pr4-equipment-assign
-    content: "PR4: Equipment assignment/checkout/check-in/return API + UI tabs"
-    status: completed
-  - id: pr5-equipment-maint
-    content: "PR5: Equipment maintenance + disposal"
-    status: completed
-  - id: pr6-fleet-api
-    content: "PR6: Fleet backend CRUD with required MVI link"
-    status: completed
-  - id: pr7-fleet-ui
-    content: "PR7: Fleet UI routes, nav, search, detail General tab"
-    status: completed
-  - id: pr8-fleet-assign
-    content: "PR8: Fleet assignment + odometer tracking"
-    status: completed
-  - id: pr9-fleet-maint-damage
-    content: "PR9: Fleet maintenance, damage, disposal"
-    status: completed
-  - id: pr10-cross-module
-    content: "PR10: Installed equipment on fleet + vehicle panel on equipment"
-    status: completed
-  - id: pr11-reports
-    content: "PR11: Grid print and saved search views for both modules"
-    status: completed
-  - id: pr12-admin-polish
-    content: "PR12: Agency admin flags, role claims UI, API feature index, final verification"
-    status: completed
-isProject: false
+backlog: "Equipment · Fleet modules"
+status: done
+created: 2026-03-30
 ---
 
 # Equipment and Fleet Modules — Implementation Plan
