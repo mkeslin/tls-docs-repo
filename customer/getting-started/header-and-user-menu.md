@@ -2,7 +2,7 @@
 
 Agency context, Help, Admin, and account actions in the top header bar.
 
-![Header user menu — agency, theme, Profile & Settings, and Log Out](images/header-user-menu.png)
+![User menu — agency, theme, Profile & Settings, and Log Out](images/header-user-menu.png)
 
 ## Left side of the header
 
@@ -36,7 +36,7 @@ To change agency (when allowed):
 
 ## User menu
 
-The screenshot above shows the avatar menu open. From there you can typically:
+The screenshot above is the avatar menu itself (opened from the user initials in the header). From there you can typically:
 
 - Switch **Agency**
 - Change **Theme** (light / dark style options your build offers)
