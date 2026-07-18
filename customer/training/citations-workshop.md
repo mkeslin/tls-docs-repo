@@ -2,8 +2,8 @@
 
 **Audience:** Officers, records staff, and supervisors who create or finish citations  
 **Goal:** Add or import a citation, complete tabs, issue, and understand court handoff  
-**Typical length:** ~2–3 hours  
-**Environment:** Training tenant; mobile devices optional  
+**Typical length:** ~2.5–3.5 hours (longer when practicing mobile Issue end-to-end)  
+**Environment:** Training tenant; browser or device with Mobile Citations enabled  
 
 ## Prerequisites
 
@@ -22,9 +22,12 @@
 | General / person / vehicle | 30 | [General](../rms/citations/general-and-notes.md) · [Person & Vehicle](../rms/citations/person-vehicle-location.md) | Complete header + associate masters |
 | Offenses & RP | 30 | [Offenses](../rms/citations/offenses-and-warnings.md) · [Racial profiling](../rms/citations/racial-profiling.md) | Add offense; complete RP if required |
 | Issue & print | 25 | [Draft to Issued](../rms/citations/draft-to-issued.md) · [Print](../rms/citations/print-and-attachments.md) | Mark as Issued (citing officer); print |
-| Mobile / SYNCED | 20 | [Mobile citations](../rms/citations/mobile-citations.md) | Walk SYNCED import (demo or live) |
+| Mobile write & Issue | 25 | [Write and issue](../rms/citations/mobile-citations/write-and-issue.md) · [List / sync](../rms/citations/mobile-citations/list-sync-and-offline.md) | Add draft; walk sections; Issue or Sync Now |
+| SYNCED import | 15 | [Import SYNCED](../rms/citations/mobile-citations/import-synced.md) | Walk Mobile Citation Import (demo or live) |
 | Court handoff | 15 | [Citation to court](../rms/citations/citation-to-court.md) | Open resulting court violation if configured |
 | Wrap | 5 | [Support](../support/README.md) | Questions |
+
+> **Timing note:** With mobile Issue + SYNCED import, plan closer to **3–3.5 hours**.
 
 ## Role split (optional)
 
@@ -39,10 +42,12 @@
 - [ ] Create or open a citation and complete Person & Vehicle + Offenses
 - [ ] Mark as Issued (or explain citing-officer certify and when Reset for Edit applies)
 - [ ] Explain how a charging offense relates to a court violation (and that warnings usually do not)
+- [ ] Create a mobile draft, name the main form sections, and Issue (or explain Sync Now)
 - [ ] Find or describe **SYNCED** Mobile Citation Import steps
-- [ ] Know where Citations docs live for self-serve
+- [ ] Know where Citations and Mobile Citations docs live for self-serve
 
 ## Related
 
 - [Court clerk workshop](court-clerk-workshop.md) — next for court-bound agencies
 - [Citations](../rms/citations/README.md)
+- [Mobile citations](../rms/citations/mobile-citations/README.md)

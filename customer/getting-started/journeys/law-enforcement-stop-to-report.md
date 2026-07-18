@@ -30,7 +30,7 @@ flowchart LR
 
 ### 2A. Issue a citation (ticket path)
 
-1. Open [Citations](../../rms/citations/README.md) → **Add** (or [Mobile Citations](../../rms/citations/mobile-citations.md) from the [Dashboard](../dashboard.md)).
+1. Open [Citations](../../rms/citations/README.md) → **Add** (or [Mobile Citations](../../rms/citations/mobile-citations/README.md) from the [Dashboard](../dashboard.md)).
 2. Link person, vehicle, and location ([Person, vehicle, and location](../../rms/citations/person-vehicle-location.md)).
 3. Add offenses and complete racial profiling when required ([Offenses](../../rms/citations/offenses-and-warnings.md), [Racial profiling](../../rms/citations/racial-profiling.md)).
 4. Move **Draft → Issued** ([Draft to Issued](../../rms/citations/draft-to-issued.md)).

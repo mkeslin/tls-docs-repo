@@ -52,7 +52,7 @@ Also available from header **Help** → Release Notes in many builds.
 | Path | Guide |
 |------|-------|
 | Dashboard → **Self-Dispatch** | [CAD — Self-dispatch](../cad/self-dispatch.md) · [CAD workshop](../training/cad-workshop.md) |
-| Dashboard → **Mobile Citations** | [Citations — Mobile citations](../rms/citations/mobile-citations.md) |
+| Dashboard → **Mobile Citations** | [Citations — Mobile citations](../rms/citations/mobile-citations/README.md) |
 
 These appear as Dashboard menu items and as tabs on the Dashboard home when enabled. If missing, you lack claims or the agency has not enabled that mobile path.
 

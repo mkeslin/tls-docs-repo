@@ -9,7 +9,7 @@ Header and stop details on the citation **General** tab.
 1. Open a citation from [Search](search.md) or after [Add](add.md).
 2. Select the **General** tab (first tab on detail for **DRAFT** / **ISSUED** records).
 
-**SYNCED** mobile imports use the [Mobile Citation Import](mobile-citations.md) stepper instead of these tabs until import finishes.
+**SYNCED** mobile imports use the [Mobile Citation Import](mobile-citations/import-synced.md) stepper instead of these tabs until import finishes.
 
 ## Typical General fields
 

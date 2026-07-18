@@ -10,7 +10,7 @@ Citation workflow status and how a ticket becomes official.
 |--------|---------|
 | **DRAFT** | Desktop citation still being completed |
 | **ISSUED** | Citing officer has certified / issued the citation |
-| **SYNCED** | Mobile citation waiting for RMS import (see [Mobile citations](mobile-citations.md)) |
+| **SYNCED** | Mobile citation waiting for RMS import (see [Import SYNCED](mobile-citations/import-synced.md)) |
 | **MOBILE-DRAFT** / **MOBILE-ISSUED** | Mobile-side statuses before or as part of sync |
 
 Exact labels come from your agency’s workflow codes (`_WFC`).
@@ -55,4 +55,4 @@ Voiding a case in **Court** voids the **court violation**, not the LE citation w
 
 - [Print and attachments](print-and-attachments.md)
 - [Citation to court](citation-to-court.md)
-- [Mobile citations](mobile-citations.md)
+- [Mobile citations](mobile-citations/README.md)

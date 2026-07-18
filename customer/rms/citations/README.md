@@ -52,6 +52,14 @@ Always prefer these labels in training materials so they match Search results an
 4. [Mark as Issued](draft-to-issued.md).  
 5. [Print](print-and-attachments.md) and, when Court is used, confirm [handoff](citation-to-court.md).
 
+## Happy path (mobile)
+
+1. [Mobile citations](mobile-citations/README.md) → **Add** a draft.  
+2. [Write and issue](mobile-citations/write-and-issue.md) — complete sections → **Issue**.  
+3. If sync fails, [Sync Now](mobile-citations/list-sync-and-offline.md).  
+4. Records: [Import SYNCED](mobile-citations/import-synced.md) when the RMS status is **SYNCED**.  
+5. [Citation to court](citation-to-court.md) when Court is used.
+
 ## Topics in this guide
 
 | Topic | When to use it |
@@ -64,7 +72,7 @@ Always prefer these labels in training materials so they match Search results an
 | [Racial profiling](racial-profiling.md) | Stop demographic / RP data |
 | [Draft to Issued](draft-to-issued.md) | Mark as Issued; Reset for Edit |
 | [Print and attachments](print-and-attachments.md) | PDFs, files, history |
-| [Mobile citations](mobile-citations.md) | Issue on mobile; SYNCED import |
+| [Mobile citations](mobile-citations/README.md) | Officer Issue on Dashboard/patrol; Sync Now; SYNCED import |
 | [Citation to court](citation-to-court.md) | How citations become court violations |
 
 ## Detail tabs (after import)

@@ -21,11 +21,11 @@ Record the stop / violation **location** using the fields shown on General and/o
 ## Tips
 
 - Search masters before adding a new person or vehicle to avoid duplicates.
-- If the citation arrived from mobile as **SYNCED**, use the [Mobile Citation Import](mobile-citations.md) stepper to verify person/vehicle/location against masters before the record becomes a normal **DRAFT** / **ISSUED** citation.
+- If the citation arrived from mobile as **SYNCED**, use the [Mobile Citation Import](mobile-citations/import-synced.md) stepper to verify person/vehicle/location against masters before the record becomes a normal **DRAFT** / **ISSUED** citation.
 - Update person/vehicle before **Mark as Issued** when possible.
 
 ## Related
 
 - [General and notes](general-and-notes.md)
 - [Offenses and warnings](offenses-and-warnings.md)
-- [Mobile citations](mobile-citations.md)
+- [Mobile citations](mobile-citations/README.md)

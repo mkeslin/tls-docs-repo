@@ -30,7 +30,7 @@ Run the search, then open a row to the citation **detail** page.
 
 ### Workflow tip
 
-The Workflow dropdown commonly lists **DRAFT** and **ISSUED**. Mobile import backlog (**SYNCED**) may not appear in that short list — use **Source = Mobile**, citation number, or an unfiltered search when hunting for **SYNCED** rows. See [Mobile citations](mobile-citations.md).
+The Workflow dropdown commonly lists **DRAFT** and **ISSUED**. Mobile import backlog (**SYNCED**) may not appear in that short list — use **Source = Mobile**, citation number, or an unfiltered search when hunting for **SYNCED** rows. See [Import SYNCED](mobile-citations/import-synced.md).
 
 ## Results grid
 
@@ -52,4 +52,4 @@ When available, print or export the **search results** list (grid print / PDF) f
 
 - [Add a citation](add.md)
 - [Draft to Issued](draft-to-issued.md)
-- [Mobile citations](mobile-citations.md)
+- [Mobile citations](mobile-citations/README.md)

@@ -21,7 +21,7 @@ If your agency requires RP for the citation type, incomplete data can block issu
 
 - Complete RP data while the stop details are fresh — do not wait until after print if your agency requires RP for issued tickets.
 - Ask an administrator if a dropdown is missing a value; codes are maintained in Admin.
-- **SYNCED** imports collect or verify stop data during [Mobile Citation Import](mobile-citations.md); finish RP on the normal tabs after import when required.
+- **SYNCED** imports collect or verify stop data during [Mobile Citation Import](mobile-citations/import-synced.md); finish RP on the normal tabs after import when required. On mobile Issue, officers complete **Stop Information** — see [Write and issue](mobile-citations/write-and-issue.md).
 
 ## Related
 

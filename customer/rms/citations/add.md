@@ -32,7 +32,7 @@ Work through:
 
 - Do not reuse citation numbers. If generate is available, prefer it over inventing a number.
 - Search first if you might already have a draft for the same stop.
-- Mobile-originated citations follow [Mobile citations](mobile-citations.md), not this Add path.
+- Mobile-originated citations follow [Mobile citations](mobile-citations/README.md), not this Add path.
 - Support-only **Analyze / Import** (paper OCR) is not the normal officer Add path.
 
 ## Related

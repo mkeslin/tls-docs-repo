@@ -12,7 +12,7 @@ On an open citation:
 2. For mobile-enabled agencies, **Print Mobile Citation** may appear in the detail toolbar.
 3. Prefer printing **after** required fields are complete; for official defendant copies, print after **ISSUED** when your policy requires it.
 
-Report actions are hidden while status is **SYNCED** (finish [Mobile Citation Import](mobile-citations.md) first).
+Report actions are hidden while status is **SYNCED** (finish [Mobile Citation Import](mobile-citations/import-synced.md) first).
 
 Search-grid print is covered in [Search citations](search.md).
 
