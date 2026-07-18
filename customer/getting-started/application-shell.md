@@ -2,6 +2,8 @@
 
 How the Thin Line window is laid out, and what **RMS**, **CAD**, and **JAIL** mean in the header.
 
+![Application shell — header, left rail, module menu, main content, and master records rail](images/application-shell.png)
+
 ## The five zones
 
 In the standard (classic) layout you will see these areas:

@@ -2,6 +2,8 @@
 
 Your home base after login: tasks, optional self-dispatch and mobile citations, profile, and report history.
 
+![Dashboard Tasks — home base after login](images/dashboard-tasks.png)
+
 ## Open the Dashboard
 
 1. Sign in (or choose **Dashboard** from the left module rail).
