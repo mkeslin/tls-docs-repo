@@ -45,6 +45,8 @@ Typical resolution patterns (availability depends on state):
 
 ## Related
 
+- [Journey — Court warrant to LE service](../getting-started/journeys/court-warrant-to-le-service.md)
+- [Working across agencies](../getting-started/working-across-agencies.md)
 - [Case lifecycle](case-lifecycle.md)
 - [Calendar and appearances](calendar-and-appearances.md)
 - [Work queues](work-queues.md)

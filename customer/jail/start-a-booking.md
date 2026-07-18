@@ -22,7 +22,7 @@ Both create a **booking** that appears under **In Booking Process** on the Comma
 3. Choose **Create Booking**.
 4. Continue into booking details to complete [intake steps](intake-steps.md).
 
-Agencies may also start from an incident / arrestee path when that integration is used.
+Agencies may also start from an incident / arrestee path when that integration is used. Full path from street arrest: [Arrest to jail booking](../getting-started/journeys/arrest-to-jail-booking.md). Confirm the header agency is the **jail facility** before Accept — [Working across agencies](../getting-started/working-across-agencies.md).
 
 ## After create
 

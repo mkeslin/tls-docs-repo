@@ -43,7 +43,7 @@ Changing **Available / Inactive / Meal** (and similar) is covered in [Unit statu
 ## Tips
 
 - Clear units before you expect **Disposition** to appear — see [Dispose and close a call](dispose-and-close-a-call.md).
-- Do not clear another agency’s unit unless your policy and permissions allow it.
+- Do not clear another agency’s unit unless your policy and permissions allow it — see [Multi-agency CAD](multi-agency-and-related-records.md).
 - If drag-assign fails, check the unit is Available (or otherwise assignable) and not already on a call.
 
 ## Related

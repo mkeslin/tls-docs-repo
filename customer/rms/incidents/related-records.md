@@ -28,12 +28,16 @@ Citations can create or link an incident through record association. Officer cit
 
 Suspect **Booked in Jail** on the incident is a case indicator. Booking, housing, and release are done in [Jail](../../jail/README.md). Jail Intake may reference incident arrestee information during booking.
 
+End-to-end path (including **facility agency** for Accept): [Journey — Arrest to jail booking](../../getting-started/journeys/arrest-to-jail-booking.md).
+
 ## Court
 
 Court cases usually come from **citations** or other charging paths, not a first-class Incidents tab. See [Citation to court](../citations/citation-to-court.md) and [Court](../../court/README.md).
 
 ## Related
 
+- [Working across agencies](../../getting-started/working-across-agencies.md)
+- [Journey — Arrest to jail booking](../../getting-started/journeys/arrest-to-jail-booking.md)
 - [Add an incident](add.md)
 - [Arrests and affidavit](arrests-and-affidavit.md)
 - [Citations](../citations/README.md)

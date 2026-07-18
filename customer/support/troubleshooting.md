@@ -23,6 +23,8 @@ Quick checks before escalating to Thin Line. Gather [support request](support-re
 1. Check the **agency name** in the header.
 2. Switch agency from the user menu if you have more than one.
 3. On Jail Command Center / CAD, empty boards usually mean wrong facility/agency — not “no data forever.”
+4. Confirm **RMS / CAD / JAIL** mode matches the task (mode ≠ agency).
+5. Full guide: [Working across agencies](../getting-started/working-across-agencies.md) (symptoms table, LE vs court vs facility, linking another agency’s record).
 
 ## Missing module, button, or menu
 

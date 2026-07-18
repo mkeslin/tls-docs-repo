@@ -24,6 +24,8 @@ To change agency (when allowed):
 2. Use the **Agency** selector.
 3. Confirm the header updates before continuing work.
 
+Multi-agency users (PD + court, jail facility, shared CAD): read [Working across agencies](working-across-agencies.md) for which agency to use for Accounting, Accept into Custody, Create Incident, and empty-list symptoms.
+
 ## Right side of the header
 
 | Control | Purpose |
@@ -52,6 +54,7 @@ After log out, close the browser window on shared computers.
 
 ## Related
 
+- [Working across agencies](working-across-agencies.md)
 - [Application shell](application-shell.md)
 - [Admin](../admin/README.md)
 - [Support](../support/README.md)

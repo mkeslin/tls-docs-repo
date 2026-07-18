@@ -30,13 +30,16 @@ Customer guides for Thin Line **CAD** — the live dispatch console — plus **s
 | [Call sheet activity](call-sheet-activity.md) | Notes, persons, vehicles, organizations, timeline |
 | [Dispose and close a call](dispose-and-close-a-call.md) | Clear all units → Disposition |
 | [Related incidents and citations](related-incidents-and-citations.md) | Create Incident, link existing records |
+| [Multi-agency CAD and related records](multi-agency-and-related-records.md) | Shared boards, units by agency, Create/Link rules |
 | [Self-dispatch](self-dispatch.md) | Dashboard officer path |
 | [Dispatcher notes](dispatcher-notes.md) | Agency-wide notes (not call notes) |
 | [CAD Records](records/README.md) | Historical search after the call is over |
 
-## Journey
+## Journeys and agency context
 
-Walk the end-to-end path: [CAD call to incident](../getting-started/journeys/cad-call-to-incident.md).
+- [CAD call to incident](../getting-started/journeys/cad-call-to-incident.md)
+- [Working across agencies](../getting-started/working-across-agencies.md)
+- [Multi-agency CAD and related records](multi-agency-and-related-records.md)
 
 ## Existing in-app Help
 

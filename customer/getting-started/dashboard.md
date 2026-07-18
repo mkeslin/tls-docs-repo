@@ -39,6 +39,17 @@ What appears depends on your **roles, claims, and agency notification settings**
 
 Tasks send you into the owning module (incidents awaiting approval, court work, and similar). They do not replace module Search for finding arbitrary records.
 
+### Tasks across modules and agencies
+
+| Idea | What to do |
+|------|------------|
+| **Owning module** | Opening a task jumps into Incidents, Court, Citations, Jail, etc. — finish work there, then return to Tasks and **Refresh** |
+| **Agency filter** | If you can access more than one agency, filter Tasks so you are not clearing another agency’s queue by mistake |
+| **Different people, different lists** | Claims and notification settings hide whole task groups — compare with a coworker only after confirming the same agency |
+| **Empty Tasks** | Often wrong agency or you are caught up — see [Working across agencies](working-across-agencies.md) |
+
+Common task themes (labels vary by agency): incident / report approval, court review queues, citation or mobile sync follow-up, jail intake readiness. Your go-live training names the exact groups your site uses.
+
 ## What's New
 
 1. Open **What's New** when it appears (often highlighted after an upgrade).
@@ -87,6 +98,7 @@ For new statutory / transmission exports, start in [Import/Export](../import-exp
 ## Related
 
 - [Application shell](application-shell.md)
+- [Working across agencies](working-across-agencies.md)
 - [Journeys](journeys/README.md)
 - [CAD — Self-dispatch](../cad/self-dispatch.md)
 - [Support — FAQ](../support/faq.md)

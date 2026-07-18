@@ -39,6 +39,8 @@ A **booking** is the intake unit of work. After accept, a **custody episode** ap
 
 ## Related
 
+- [Journey — Arrest to jail booking](../getting-started/journeys/arrest-to-jail-booking.md)
+- [Working across agencies](../getting-started/working-across-agencies.md)
 - [Jail operations workshop](../training/jail-operations-workshop.md)
 - [Training by role](../training/roles/README.md)
 - [Master records](../getting-started/master-records/README.md)

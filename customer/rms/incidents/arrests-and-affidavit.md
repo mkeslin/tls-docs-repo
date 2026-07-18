@@ -31,6 +31,8 @@ On a **Suspect** role, authorized users can enter **Arrest Affidavit** / PC narr
 
 Suspect / arrest contexts may include **Booked in Jail** (or similar) to reflect jail booking. For full jail intake, see [Jail](../../jail/README.md); the incident flag does not replace Jail Intake booking steps.
 
+Walk the full handoff (PD vs facility agency): [Arrest to jail booking](../../getting-started/journeys/arrest-to-jail-booking.md).
+
 ## Tips
 
 - Coordinate affidavit prints with your magistrate / prosecutor process.
@@ -39,5 +41,6 @@ Suspect / arrest contexts may include **Booked in Jail** (or similar) to reflect
 
 ## Related
 
+- [Arrest to jail booking](../../getting-started/journeys/arrest-to-jail-booking.md)
 - [Involved persons](involved-persons.md)
 - [Related records](related-records.md)

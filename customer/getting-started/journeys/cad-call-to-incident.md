@@ -25,7 +25,7 @@ flowchart LR
 
 ### 1. Work the live call
 
-1. Switch header mode to **CAD** ([Live CAD overview](../../cad/live-cad-overview.md)).
+1. Switch header mode to **CAD** ([Live CAD overview](../../cad/live-cad-overview.md)). Confirm the correct agency if you work a shared board ([Multi-agency CAD](../../cad/multi-agency-and-related-records.md)).
 2. **Add Call** or open an existing call ([Create and update a call](../../cad/create-and-update-a-call.md)).
 3. Set **Call Type**, **Priority**, **How Reported**, and **Location**.
 4. Assign units; update En Route / Arrived / Clear as your agency enables ([Assign and clear units](../../cad/assign-and-clear-units.md)).

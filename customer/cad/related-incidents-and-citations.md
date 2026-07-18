@@ -45,6 +45,8 @@ Follow agency reportable-event rules. Many calls clear with Disposition only —
 
 ## Related
 
+- [Multi-agency CAD and related records](multi-agency-and-related-records.md)
+- [Working across agencies](../getting-started/working-across-agencies.md)
 - [Dispose and close a call](dispose-and-close-a-call.md)
 - [Incidents](../rms/incidents/README.md)
 - [Call sheet activity](call-sheet-activity.md)
