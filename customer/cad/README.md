@@ -2,6 +2,8 @@
 
 Customer guides for Thin Line **CAD** — the live dispatch console — plus **self-dispatch** and **CAD Records** for historical search.
 
+![Live CAD console — Units, Calls, Call Sheet](images/cad-live-console.png)
+
 ## What CAD is
 
 **CAD** (computer-aided dispatch) is the real-time console for calls for service and unit status. Open it from the header **CAD** product mode (not from the left-rail module list).

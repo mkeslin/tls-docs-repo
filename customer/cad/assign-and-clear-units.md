@@ -1,5 +1,7 @@
 # Assign and clear units
 
+![Call sheet / units](images/cad-call-sheet.png)
+
 Put units on a call and move them through response statuses.
 
 ## Assign a unit to a call

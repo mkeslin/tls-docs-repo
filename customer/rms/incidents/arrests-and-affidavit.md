@@ -1,5 +1,7 @@
 # Arrests and affidavit
 
+![Arrest Search](images/rms-incident-arrest-search.png)
+
 Arrest information, Arrest Search, and suspect arrest affidavits.
 
 ## Arrest information (arrestee)

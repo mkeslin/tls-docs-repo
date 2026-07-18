@@ -1,5 +1,7 @@
 # Logging in
 
+![Application after login](images/getting-started-application-shell.png)
+
 First-time and everyday access to Thin Line, passwords, and signing out.
 
 ## What you need

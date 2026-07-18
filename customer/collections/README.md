@@ -1,5 +1,7 @@
 # Collections
 
+![Collections referred portfolio](images/collections-portfolio.png)
+
 Customer guides for the **Collections (COL)** module — referring court cases, remitting vendor payments, and disbursing the vendor share.
 
 ## What Collections is

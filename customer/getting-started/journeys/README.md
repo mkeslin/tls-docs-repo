@@ -1,5 +1,7 @@
 # Journeys
 
+![Modules](images/getting-started-modules-rail.png)
+
 Cross-module (and often cross-agency) paths that show how everyday work moves through Thin Line. Use these after [Dashboard](../dashboard.md), [Modules and navigation](../modules-and-navigation.md), and [Working across agencies](../working-across-agencies.md); open the linked module guides for screen-level detail.
 
 ## Journeys in this guide

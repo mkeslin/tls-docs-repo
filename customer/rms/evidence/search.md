@@ -1,5 +1,7 @@
 # Search evidence
 
+![Evidence Search](images/rms-evidence-search.png)
+
 Find evidence records from the Evidence module.
 
 ## Open Search

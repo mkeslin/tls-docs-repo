@@ -1,5 +1,7 @@
 # Incidents
 
+![Incident detail](images/rms-incident-detail.png)
+
 Customer guides for the **Incidents (INC)** module — creating and managing law-enforcement incident reports in Thin Line RMS, including involved persons, arrests, property/evidence links, workflow approval, and IBRS validation.
 
 ## What an incident is

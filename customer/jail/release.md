@@ -1,5 +1,7 @@
 # Release
 
+![Command Center release](images/jail-command-center.png)
+
 Release a person from custody using the Command Center release wizard.
 
 ## Prerequisites

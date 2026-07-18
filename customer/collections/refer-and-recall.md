@@ -1,5 +1,7 @@
 # Refer and recall
 
+![Collections portfolio](images/collections-portfolio.png)
+
 Move eligible court violations into (or out of) third-party collections from **Court**.
 
 ## Eligibility indicators

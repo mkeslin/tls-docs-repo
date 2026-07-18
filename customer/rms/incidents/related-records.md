@@ -1,5 +1,7 @@
 # Related records
 
+![Incident detail](images/rms-incident-detail.png)
+
 How incidents connect to CAD, citations, warrants, and jail.
 
 ## Manage Associated Records

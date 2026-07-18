@@ -1,5 +1,7 @@
 # Working a code enforcement case
 
+![Code Enforcement](images/rms-code-enforcement-search.png)
+
 ## Tabs
 
 | Tab | Purpose |

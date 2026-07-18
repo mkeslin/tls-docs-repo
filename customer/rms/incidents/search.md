@@ -1,5 +1,7 @@
 # Search incidents
 
+![Incident Search](images/rms-incident-search.png)
+
 Find incidents and arrest records from the Incidents module.
 
 ## Incident Search

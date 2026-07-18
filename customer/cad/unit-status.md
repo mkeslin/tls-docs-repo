@@ -1,5 +1,7 @@
 # Unit status
 
+![CAD unit status records](images/cad-unit-status.png)
+
 Free-unit status on the Units panel (not the same as En Route / Arrived on a call).
 
 ## Open unit controls

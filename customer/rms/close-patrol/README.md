@@ -1,5 +1,7 @@
 # Close Patrol
 
+![Close Patrol search](images/rms-close-patrol-search.png)
+
 Customer guides for the **Close Patrol (CLO)** module — short records for property checks, vacation watches, and similar close-patrol activity.
 
 ## What Close Patrol is

@@ -1,5 +1,7 @@
 # Agency settings
 
+![Agency settings](images/admin-agency.png)
+
 Configure agency identity, notifications, and print headers under **Agency & Module Settings**.
 
 ## Open Agency settings

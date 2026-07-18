@@ -1,5 +1,7 @@
 # IBRS
 
+![IBRS transmission](images/import-export-ibrs.png)
+
 Create, validate, download, and complete a monthly IBRS / NIBRS transmission.
 
 ## Create a transmission

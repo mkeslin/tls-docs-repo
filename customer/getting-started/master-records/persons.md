@@ -1,5 +1,7 @@
 # Persons
 
+![Masters — open Persons from the right rail](images/getting-started-modules-rail.png)
+
 The shared **Persons** master for people across Thin Line.
 
 ## Open and edit

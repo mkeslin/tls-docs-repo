@@ -1,5 +1,7 @@
 # Print, attachments, and history
 
+![Warrant detail](images/rms-warrant-detail.png)
+
 Reports, files, and audit trail on a warrant.
 
 ## Print / reports

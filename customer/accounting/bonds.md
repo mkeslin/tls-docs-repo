@@ -1,5 +1,7 @@
 # Bonds
 
+![Accounting bonds](images/accounting-bonds.png)
+
 Bond refund disbursement and bond deposit export tools in Accounting.
 
 ## Bond Refund Disbursement Batches

@@ -1,5 +1,7 @@
 # Accounts, fees, and plans
 
+![Accounts](images/accounting-accounts.png)
+
 Configuration and inquiry screens used by court finance.
 
 ## Accounts

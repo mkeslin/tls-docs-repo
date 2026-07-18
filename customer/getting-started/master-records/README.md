@@ -1,5 +1,7 @@
 # Master records
 
+![Module shell (masters on right rail)](images/getting-started-modules-rail.png)
+
 Shared **Persons**, **Organizations**, **Vehicles**, **Property**, and **Locations** used across Thin Line modules.
 
 ## What master records are

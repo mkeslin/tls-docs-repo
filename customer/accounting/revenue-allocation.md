@@ -1,5 +1,7 @@
 # Revenue allocation
 
+![Revenue allocation batches](images/accounting-revenue-allocation.png)
+
 Distribute court trust liability into revenue using fee allocation percentages.
 
 ## What revenue allocation does

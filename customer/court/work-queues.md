@@ -1,5 +1,7 @@
 # Work queues
 
+![Court work queues / dashboard](images/court-dashboard.png)
+
 Exception-driven lists of court violations that need clerk or judge attention.
 
 ## Why use queues

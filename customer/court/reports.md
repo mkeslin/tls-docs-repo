@@ -1,5 +1,7 @@
 # Reports
 
+![Court dashboard](images/court-dashboard.png)
+
 Court reporting and operational prints commonly used with Court Violations.
 
 ## Operational reports and documents

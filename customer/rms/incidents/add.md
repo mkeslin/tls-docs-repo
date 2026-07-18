@@ -1,5 +1,7 @@
 # Add an incident
 
+![Add incident](images/rms-incident-add.png)
+
 Create a new incident from RMS or from CAD.
 
 ## Manual Add (desktop)

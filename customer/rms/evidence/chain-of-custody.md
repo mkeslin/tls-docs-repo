@@ -1,5 +1,7 @@
 # Chain of custody
 
+![Chain of custody](images/rms-evidence-chain.png)
+
 Recording **IN**, **OUT**, and **TRANSFER** history on an evidence item.
 
 ## History types

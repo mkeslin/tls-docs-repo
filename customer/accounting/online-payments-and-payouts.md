@@ -1,5 +1,7 @@
 # Online payments and payouts
 
+![Accounting transactions](images/accounting-transactions.png)
+
 Track card/online payments (Stripe) from intent through bank payout.
 
 ## Payment Ledger

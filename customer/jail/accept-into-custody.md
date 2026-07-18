@@ -1,5 +1,7 @@
 # Accept into Custody
 
+![Booking / accept path](images/jail-intake-add.png)
+
 Move a completed booking from intake into live custody on the Command Center.
 
 ## Who can accept

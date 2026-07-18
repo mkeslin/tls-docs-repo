@@ -1,5 +1,7 @@
 # Start a booking
 
+![Start a booking](images/jail-intake-add.png)
+
 Create a jail booking and open intake.
 
 ## Ways to start

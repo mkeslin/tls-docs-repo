@@ -1,5 +1,7 @@
 # From incident property
 
+![Evidence](images/rms-evidence-detail.png)
+
 How incident **Property** relates to **Evidence**, and when to take property into custody.
 
 ## Property vs evidence

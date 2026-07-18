@@ -1,5 +1,7 @@
 # Referred accounts
 
+![Referred accounts portfolio](images/collections-portfolio.png)
+
 Browse the portfolio of accounts in collections.
 
 ## Open the portfolio

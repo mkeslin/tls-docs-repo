@@ -1,5 +1,7 @@
 # DPS Conviction Report
 
+![Import/Export reports](images/import-export-ibrs.png)
+
 Monthly DPS-style conviction reporting pack for court agencies.
 
 ## Prerequisites

@@ -1,5 +1,7 @@
 # Warrants
 
+![Warrant detail](images/rms-warrant-detail.png)
+
 Customer guides for the **Warrants (WAR)** module — creating and maintaining law-enforcement warrant records, recording service attempts, and working with **court-owned** warrants created from Court Violations (FTA / CPF).
 
 ## What a warrant is

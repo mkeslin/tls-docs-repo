@@ -1,5 +1,7 @@
 # Inventory audit
 
+![Inventory audit](images/rms-evidence-inventory-audit.png)
+
 Print a random sample of property-room evidence for physical audit.
 
 ## Run an audit

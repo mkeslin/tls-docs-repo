@@ -1,5 +1,7 @@
 # Opening Admin
 
+![Admin](images/admin-agency.png)
+
 How to reach Admin and what controls what you see.
 
 ## Open Admin

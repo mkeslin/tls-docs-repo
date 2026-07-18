@@ -1,5 +1,7 @@
 # General
 
+![Warrant General](images/rms-warrant-general.png)
+
 Header facts on the warrant **General** tab.
 
 ## Typical General fields

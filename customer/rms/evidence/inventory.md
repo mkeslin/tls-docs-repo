@@ -1,5 +1,7 @@
 # Inventory
 
+![Evidence inventory](images/rms-evidence-inventory.png)
+
 View what is currently in evidence / property-room inventory.
 
 ## Open Inventory

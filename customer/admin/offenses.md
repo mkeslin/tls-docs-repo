@@ -1,5 +1,7 @@
 # Offenses
 
+![Admin offenses](images/admin-offenses.png)
+
 Maintain the offense / ordinance catalog used on citations, incidents, warrants, and court cases.
 
 ## Open Offenses

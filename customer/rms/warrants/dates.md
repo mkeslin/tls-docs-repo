@@ -1,5 +1,7 @@
 # Dates
 
+![Warrant detail](images/rms-warrant-detail.png)
+
 Important dates and court-related timing on the warrant **Dates** tab.
 
 ## Typical date fields

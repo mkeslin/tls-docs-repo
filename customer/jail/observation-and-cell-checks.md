@@ -1,5 +1,7 @@
 # Cell checks and observation
 
+![Jail Command Center](images/jail-command-center.png)
+
 Run observation passes from the Command Center and review history.
 
 ## Pass types (current product)

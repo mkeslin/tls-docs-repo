@@ -1,5 +1,7 @@
 # Payment import
 
+![Collections remittance / import](images/collections-payment-entry.png)
+
 Import a vendor remittance CSV (requires Collections **modify**).
 
 ## Expected columns

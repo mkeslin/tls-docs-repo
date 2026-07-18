@@ -2,6 +2,8 @@
 
 Create a call for service and keep the header fields accurate.
 
+![Add Call — new call on the board](images/cad-add-call.png)
+
 ## Add a call
 
 1. Open [live CAD](live-cad-overview.md).

@@ -1,5 +1,7 @@
 # Related incidents and citations
 
+![Related incidents on call sheet](images/cad-call-sheet.png)
+
 Create or link RMS incidents (and link citations) from the live call sheet.
 
 ## Open Related Incidents & Citations

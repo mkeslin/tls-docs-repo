@@ -1,5 +1,7 @@
 # Journey: Law enforcement — stop to report
 
+![Incident report](images/rms-incident-detail.png)
+
 From a traffic stop or call for service through records, evidence, and (when applicable) court.
 
 ## When to use this journey

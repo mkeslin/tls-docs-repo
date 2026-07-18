@@ -1,5 +1,7 @@
 # Offenses
 
+![Warrant offenses](images/rms-warrant-offenses.png)
+
 Charges listed on the warrant **Offenses** tab.
 
 ## Add offenses

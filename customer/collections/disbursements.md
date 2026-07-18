@@ -1,5 +1,7 @@
 # Disbursements
 
+![Collections disbursement batches](images/collections-disbursements.png)
+
 Pay the collections vendor their share and document the outbound check.
 
 ## Disbursement Report

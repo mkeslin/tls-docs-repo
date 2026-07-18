@@ -1,5 +1,7 @@
 # Print and labels
 
+![Evidence](images/rms-evidence-detail.png)
+
 Evidence prints from the Evidence module and from the incident.
 
 ## From Search / Inventory

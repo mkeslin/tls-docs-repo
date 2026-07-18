@@ -1,5 +1,7 @@
 # Working across agencies
 
+![Modules and agency context](images/getting-started-modules-rail.png)
+
 How **agency context** differs from **product mode** (RMS / CAD / JAIL), when to switch agencies, and how to recover when lists look empty or actions are missing.
 
 Use this page if your login can open more than one agency (PD + court, shared dispatch, jail facility, multi-city CAD, and similar). Single-agency users can skim the checklist and skip the rest.

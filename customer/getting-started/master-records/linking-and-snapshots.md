@@ -1,5 +1,7 @@
 # Linking and snapshots
 
+![Masters linking](images/getting-started-modules-rail.png)
+
 How modules attach to masters, and why you sometimes see “module record” data.
 
 ## Linking from a module

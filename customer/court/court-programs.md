@@ -1,5 +1,7 @@
 # Court programs
 
+![Court dashboard](images/court-dashboard.png)
+
 Deferred disposition and related diversion-style **court programs**.
 
 ## What a court program is

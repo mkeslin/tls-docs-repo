@@ -1,5 +1,7 @@
 # Getting around
 
+![Jail intake search](images/jail-intake-search.png)
+
 How to navigate **Jail Intake** and the **Jail Command Center**.
 
 ## Two places to work

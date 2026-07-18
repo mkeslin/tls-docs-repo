@@ -1,5 +1,7 @@
 # Service attempts
 
+![Service attempts](images/rms-warrant-service-attempts.png)
+
 Recording an officer’s return / service activity on a warrant.
 
 ## Service Attempts tab

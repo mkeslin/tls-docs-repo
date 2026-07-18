@@ -1,5 +1,7 @@
 # Import/Export
 
+![Import/Export — IBRS](images/import-export-ibrs.png)
+
 Customer guides for **Import/Export** — IBRS, racial profiling, and court statutory transmission packs.
 
 ## What Import/Export is

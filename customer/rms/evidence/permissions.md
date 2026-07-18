@@ -1,5 +1,7 @@
 # Permissions
 
+![Evidence](images/rms-evidence-detail.png)
+
 Who can see and change evidence.
 
 ## Common claims (plain language)

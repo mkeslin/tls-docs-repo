@@ -1,5 +1,7 @@
 # Charts
 
+![Analytics charts context](images/analytics-reports.png)
+
 Interactive analytics views (labels match the product menu).
 
 | Menu item | Typical use |

@@ -1,5 +1,7 @@
 # Related records
 
+![Warrant detail](images/rms-warrant-detail.png)
+
 How warrants connect to incidents, jail, and master persons.
 
 ## Module record groups

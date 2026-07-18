@@ -1,5 +1,7 @@
 # Reconciliation and disputes
 
+![Deposit batches / reconciliation](images/accounting-deposit-batches.png)
+
 Verify Thin Line settlement data against the card processor, and track chargebacks.
 
 ## Payment Reconciliation

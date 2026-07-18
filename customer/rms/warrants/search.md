@@ -1,5 +1,7 @@
 # Search warrants
 
+![Warrant Search](images/rms-warrant-search.png)
+
 Find and open warrant records from the Warrants module.
 
 ## Open Search

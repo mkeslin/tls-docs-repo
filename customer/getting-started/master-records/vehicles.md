@@ -1,5 +1,7 @@
 # Vehicles
 
+![Masters — open Vehicles from the right rail](images/getting-started-modules-rail.png)
+
 The shared **Vehicles** master for plates, VINs, and vehicle identity.
 
 ## Open and edit

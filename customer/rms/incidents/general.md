@@ -1,5 +1,7 @@
 # General
 
+![Incident General tab](images/rms-incident-general.png)
+
 Header and case facts on the incident **General** tab.
 
 ## Typical General fields

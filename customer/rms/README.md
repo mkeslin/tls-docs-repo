@@ -1,5 +1,7 @@
 # RMS
 
+![RMS Incidents](images/rms-incident-search.png)
+
 Customer guides for Thin Line **Records Management** modules — day-to-day records work in the left module rail.
 
 ## Module guides

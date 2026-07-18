@@ -1,5 +1,7 @@
 # Codes
 
+![Codes](images/admin-codes.png)
+
 Maintain agency **code lists** (dropdown values) used across Thin Line.
 
 ## Open Codes

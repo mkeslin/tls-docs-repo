@@ -1,5 +1,7 @@
 # Narratives and offenses
 
+![Incident detail](images/rms-incident-detail.png)
+
 Writing the report narrative and recording offenses on the incident.
 
 ## Narratives

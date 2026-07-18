@@ -2,6 +2,8 @@
 
 Notes, people, vehicles, and organizations on the live call sheet.
 
+![Call sheet — header, quick entry, activity](images/cad-call-sheet.png)
+
 ## Call sheet layout
 
 The call sheet is **not** a classic tab strip. You get:

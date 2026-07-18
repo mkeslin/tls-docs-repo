@@ -2,6 +2,10 @@
 
 How court violations enter the system and become active court work.
 
+![Court citation search](images/court-citation-search.png)
+
+![Add court violation](images/court-violation-add.png)
+
 ## How cases usually start
 
 Most court violations are created from a **citation** issued in the field or entered in RMS. One citation can produce one or more court violations (for example multiple offenses).
@@ -45,3 +49,4 @@ Once a case is active:
 - [Case lifecycle](case-lifecycle.md)
 - [Calendar and appearances](calendar-and-appearances.md)
 - [Work queues](work-queues.md)
+

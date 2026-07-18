@@ -1,5 +1,7 @@
 # Users, roles, and claims
 
+![Users roles claims](images/admin-users.png)
+
 Create and maintain Thin Line accounts and permissions.
 
 ## Open Users

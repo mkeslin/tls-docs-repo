@@ -1,5 +1,7 @@
 # Audit, security, and jobs
 
+![Audit history](images/admin-audit-history.png)
+
 Optional Admin screens for compliance review and operations. Most agencies use these less often than Users, Codes, or Agency settings.
 
 ## Audit History

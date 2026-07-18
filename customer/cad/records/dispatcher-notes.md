@@ -1,5 +1,7 @@
 # Dispatcher notes
 
+![Dispatcher notes search](images/cad-dispatcher-notes.png)
+
 1. Open **CAD Records** → **Dispatcher Notes**.
 2. Search by date, call, or text criteria shown.
 3. Open a note to review context.

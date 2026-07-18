@@ -1,5 +1,7 @@
 # Dispatcher notes
 
+![Dispatcher notes](images/cad-dispatcher-notes.png)
+
 Agency-wide notes on the live CAD console — separate from notes on a single call sheet.
 
 ## Open Dispatcher Notes

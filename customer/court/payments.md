@@ -1,5 +1,7 @@
 # Payments
 
+![Court payments context](images/court-violation-detail.png)
+
 Collecting payments on court violations and accepting them into the court accounting flow.
 
 ## Important concept: apply vs accept

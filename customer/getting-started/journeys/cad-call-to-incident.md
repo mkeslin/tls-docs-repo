@@ -1,5 +1,7 @@
 # Journey: CAD call to incident
 
+![Live CAD](images/cad-live-console.png)
+
 From a live call for service through unit response and into an RMS incident report.
 
 ## When to use this journey

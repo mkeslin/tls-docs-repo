@@ -1,5 +1,7 @@
 # Jail
 
+![Jail Command Center](images/jail-command-center.png)
+
 Customer guides for **Jail Intake** and the **Jail Command Center** — booking through housing, observation, medication, release, and transfer.
 
 ## What Jail is

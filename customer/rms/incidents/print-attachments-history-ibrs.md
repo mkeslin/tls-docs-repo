@@ -1,5 +1,7 @@
 # Print, attachments, history, and IBRS
 
+![Incident detail](images/rms-incident-detail.png)
+
 Reports, files, audit history, and state reporting readiness.
 
 ## Print / reports

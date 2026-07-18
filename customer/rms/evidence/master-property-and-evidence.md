@@ -1,5 +1,7 @@
 # Master property and evidence
 
+![Evidence](images/rms-evidence-detail.png)
+
 How evidence links to **master property** records.
 
 ## Relationship

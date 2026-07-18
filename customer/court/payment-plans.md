@@ -1,5 +1,7 @@
 # Payment plans
 
+![Court violation detail](images/court-violation-detail.png)
+
 Installment plans for court violation balances.
 
 ## When to use a payment plan

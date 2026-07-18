@@ -1,5 +1,7 @@
 # Racial profiling
 
+![Import/Export reports](images/import-export-ibrs.png)
+
 Search and print racial profiling data collected on stops.
 
 ## Run a search

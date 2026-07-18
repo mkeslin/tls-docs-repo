@@ -2,6 +2,8 @@
 
 Open the full dispatch console and understand the three panels.
 
+![Live CAD console — Units, Calls, Call Sheet](images/cad-live-console.png)
+
 ## Open live CAD
 
 1. Confirm you are in the correct **agency** (header).

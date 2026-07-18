@@ -1,5 +1,7 @@
 # Modules and navigation
 
+![Module rail](images/getting-started-modules-rail.png)
+
 How to open modules from the left rail and use each module’s menu.
 
 ## Left module rail

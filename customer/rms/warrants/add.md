@@ -1,5 +1,7 @@
 # Add a warrant
 
+![Add warrant](images/rms-warrant-add.png)
+
 Create a **local** agency warrant in RMS (not the Court “Issue FTA/CPF warrant” path).
 
 ## Who can add

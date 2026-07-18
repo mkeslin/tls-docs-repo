@@ -1,5 +1,7 @@
 # Journey: Arrest to jail booking
 
+![Jail intake](images/jail-intake-add.png)
+
 From an RMS arrest on an incident through jail intake and **Accept into Custody**.
 
 ## When to use this journey

@@ -1,5 +1,7 @@
 # Command Center basics
 
+![Jail Command Center](images/jail-command-center.png)
+
 Day-to-day use of the **Jail Command Center** (header **JAIL**).
 
 ## Open the board

@@ -1,5 +1,7 @@
 # Duplicates and merge
 
+![Masters merge](images/getting-started-modules-rail.png)
+
 Cleaning up duplicate master records.
 
 ## Prevent first

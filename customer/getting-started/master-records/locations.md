@@ -1,5 +1,7 @@
 # Locations
 
+![Masters — locations](images/getting-started-modules-rail.png)
+
 The shared **Locations** master for addresses and places.
 
 ## Open and edit

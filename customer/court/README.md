@@ -1,5 +1,7 @@
 # Court
 
+![Court dashboard](images/court-dashboard.png)
+
 Customer guides for **Court Violations** — Thin Line’s municipal court module for processing citation-based cases from intake through disposition, payments, compliance, and reporting.
 
 ## What Court Violations is

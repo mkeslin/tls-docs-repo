@@ -2,6 +2,8 @@
 
 Officer-initiated CAD from the Dashboard when your agency enables mobile / self-dispatch.
 
+![Self-Dispatch — officer unit and calls](images/cad-self-dispatch.png)
+
 ## Open Self-Dispatch
 
 1. Sign in with an account that can access CAD self-dispatch.

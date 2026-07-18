@@ -1,5 +1,7 @@
 # Flags, alerts, and medication
 
+![Jail Command Center](images/jail-command-center.png)
+
 Critical attention flags, operational alerts, and medication administration.
 
 ## Critical Flags

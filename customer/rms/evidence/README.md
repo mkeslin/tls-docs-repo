@@ -1,5 +1,7 @@
 # Evidence
 
+![Evidence detail](images/rms-evidence-detail.png)
+
 Customer guides for the **Evidence (EVI)** module and incident-based evidence custody in Thin Line RMS.
 
 ## What Evidence is

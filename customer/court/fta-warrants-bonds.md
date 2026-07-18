@@ -1,5 +1,7 @@
 # FTA, warrants, and bonds
 
+![Court violation detail](images/court-violation-detail.png)
+
 Failure to appear, warrant-related paths, and bond handling on court violations.
 
 ## Failure to appear (FTA)

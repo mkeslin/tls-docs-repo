@@ -1,5 +1,7 @@
 # Add a close patrol
 
+![Add Close Patrol](images/rms-close-patrol-add.png)
+
 Create a new close-patrol record.
 
 ## Steps

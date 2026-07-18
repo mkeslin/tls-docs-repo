@@ -1,5 +1,7 @@
 # Payment entry
 
+![Collections payment entry](images/collections-payment-entry.png)
+
 Manually post a remittance received from the collections vendor (requires Collections **modify**).
 
 ## Steps

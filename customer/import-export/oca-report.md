@@ -1,5 +1,7 @@
 # OCA Report
 
+![Import/Export reports](images/import-export-ibrs.png)
+
 Monthly Office of Court Administration–style reporting pack.
 
 ## Prerequisites

@@ -1,5 +1,7 @@
 # Complete intake steps
 
+![Intake booking](images/jail-intake-add.png)
+
 Work the Jail Intake booking step list until the booking is ready for acceptance.
 
 ## How steps work

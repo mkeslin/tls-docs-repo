@@ -78,6 +78,8 @@ Agency-wide settings live under [Admin](../admin/README.md), not Profile.
 
 ## Report History
 
+![Report History](images/getting-started-dashboard-report-history.png)
+
 1. Open **Dashboard** → **Report History**.
 2. Search by date, report type, or other filters shown.
 3. Open or re-download a past report when your retention window still includes it.

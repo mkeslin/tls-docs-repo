@@ -1,5 +1,7 @@
 # Deposit batches
 
+![Deposit batches](images/accounting-deposit-batches.png)
+
 Group accepted payment transaction sets for bank deposit and post them.
 
 ## What a deposit batch does

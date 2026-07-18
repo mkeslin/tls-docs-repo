@@ -1,5 +1,7 @@
 # Data quality checklist
 
+![Import/Export](images/import-export-ibrs.png)
+
 Fix source records **before** Create / Rebuild / Download. Exports do not invent missing facts.
 
 ## IBRS

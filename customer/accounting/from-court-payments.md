@@ -1,5 +1,7 @@
 # From Court payments
 
+![Accounting transactions](images/accounting-transactions.png)
+
 How money on a court case becomes work in Accounting.
 
 ## Cashier path (Court)

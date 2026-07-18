@@ -1,5 +1,7 @@
 # Calendar and appearances
 
+![Court calendar](images/court-calendar.png)
+
 Scheduling appearances, show-cause hearings, pre-trial, and trial dates.
 
 ## Calendar

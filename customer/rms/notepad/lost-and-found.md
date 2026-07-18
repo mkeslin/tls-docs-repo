@@ -1,5 +1,7 @@
 # Lost and found
 
+![Notepad / lost and found context](images/rms-notepad-search.png)
+
 Search lost-and-found style items associated with Notepad.
 
 ## Open Lost & Found

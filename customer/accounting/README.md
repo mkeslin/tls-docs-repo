@@ -1,5 +1,7 @@
 # Accounting
 
+![Accounting dashboard](images/accounting-dashboard.png)
+
 Customer guides for the **Accounting (ACC)** module — court finance close-out after payments are applied and accepted on cases.
 
 ## What Accounting is

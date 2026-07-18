@@ -1,5 +1,7 @@
 # Accounting dashboard
 
+![Accounting dashboard](images/accounting-dashboard.png)
+
 1. Open **Accounting** from the left rail (court agency + accounting access).
 2. Choose **Dashboard**.
 3. Use the summary for the selected date to see close-out posture (pending work, day status — as your build shows).

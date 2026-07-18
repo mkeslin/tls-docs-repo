@@ -1,5 +1,7 @@
 # Getting around
 
+![Court violation search](images/court-violation-search.png)
+
 How to navigate Court Violations day to day.
 
 ## Open the module

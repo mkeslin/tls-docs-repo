@@ -1,5 +1,7 @@
 # Involved persons
 
+![Incident detail](images/rms-incident-detail.png)
+
 Victims, suspects, arrestees, and organizations on the **Involved** tab.
 
 ## Add involved parties

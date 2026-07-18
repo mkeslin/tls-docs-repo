@@ -1,5 +1,7 @@
 # Getting started
 
+![Thin Line modules](images/getting-started-modules-rail.png)
+
 Orientation for new Thin Line users: how the application shell works, where modules live, and how to move around day to day.
 
 ## Start here

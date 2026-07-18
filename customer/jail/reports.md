@@ -1,5 +1,7 @@
 # Reports and printouts
 
+![Jail Command Center](images/jail-command-center.png)
+
 Common Jail prints and PDFs.
 
 ## Booking / intake

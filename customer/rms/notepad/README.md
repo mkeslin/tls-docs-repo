@@ -1,5 +1,7 @@
 # Notepad
 
+![Notepad search](images/rms-notepad-search.png)
+
 Customer guides for the **Notepad (PAD)** module — field contacts / notepad records and **Lost & Found** search.
 
 ## What Notepad is

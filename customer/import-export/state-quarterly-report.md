@@ -1,5 +1,7 @@
 # State Quarterly Report
 
+![Import/Export reports](images/import-export-ibrs.png)
+
 Quarterly court statistical pack.
 
 ## Create and download

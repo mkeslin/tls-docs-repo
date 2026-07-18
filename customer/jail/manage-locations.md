@@ -1,5 +1,7 @@
 # Manage locations
 
+![Jail locations](images/jail-locations.png)
+
 Configure housing and movement locations for the Jail Command Center.
 
 ## Open Manage Locations

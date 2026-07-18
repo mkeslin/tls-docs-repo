@@ -1,5 +1,7 @@
 # Working a close patrol
 
+![Close Patrol](images/rms-close-patrol-search.png)
+
 Day-to-day work on an open close-patrol detail.
 
 ## Tabs

@@ -1,5 +1,7 @@
 # Property
 
+![Masters — property](images/getting-started-modules-rail.png)
+
 The shared **Property** master for items — distinct from Evidence room custody workflows.
 
 ## Open and edit

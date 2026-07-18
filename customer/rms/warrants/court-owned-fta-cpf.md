@@ -1,5 +1,7 @@
 # Court-owned FTA and CPF
 
+![Warrant detail](images/rms-warrant-detail.png)
+
 How Court Violations create and update warrants, and how LE records service.
 
 ## Two systems, one warrant

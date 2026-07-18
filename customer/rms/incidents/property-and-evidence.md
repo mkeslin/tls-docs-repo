@@ -1,5 +1,7 @@
 # Property and evidence
 
+![Incident detail](images/rms-incident-detail.png)
+
 Property on the incident and links to Evidence room records.
 
 ## Property tab

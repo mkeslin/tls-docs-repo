@@ -1,5 +1,7 @@
 # Search and add
 
+![Application shell — open masters from the right rail](images/getting-started-modules-rail.png)
+
 Finding an existing master record before creating a new one.
 
 ## Open a master search

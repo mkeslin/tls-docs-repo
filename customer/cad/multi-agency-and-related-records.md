@@ -1,5 +1,7 @@
 # Multi-agency CAD and related records
 
+![Call sheet related records](images/cad-call-sheet.png)
+
 How live CAD behaves when more than one agency’s units share a board, and how Create / Link incident work stays agency-scoped.
 
 Single-agency dispatch can skim: the same Create Incident and Link rules apply with one agency.

@@ -1,5 +1,7 @@
 # Opening Analytics
 
+![Analytics](images/analytics-reports.png)
+
 1. Open **Analytics** from the left module rail (requires analytics access).
 2. Choose a destination from the Analytics menu.
 3. Set date ranges and filters on the chart or report screen.

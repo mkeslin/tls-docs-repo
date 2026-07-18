@@ -2,6 +2,8 @@
 
 Search historical CAD call sheets.
 
+![CAD Records — Call Sheets search](../images/cad-records-call-sheets.png)
+
 ## Steps
 
 1. Open **CAD Records** from the left rail.

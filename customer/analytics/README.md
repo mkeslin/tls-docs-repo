@@ -1,5 +1,7 @@
 # Analytics
 
+![Analytics reports](images/analytics-reports.png)
+
 Customer guides for **Analytics** — charts and analytics reports across CAD, RMS, code enforcement, and court (when licensed and permitted).
 
 ## What Analytics is

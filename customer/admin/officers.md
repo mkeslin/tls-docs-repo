@@ -1,5 +1,7 @@
 # Officers
 
+![Officers](images/admin-officers.png)
+
 Maintain the officer roster used on citations, incidents, and related records.
 
 ## Open Officers

@@ -1,5 +1,7 @@
 # Add evidence wizard
 
+![Evidence detail](images/rms-evidence-detail.png)
+
 Creating evidence from an incident using the property / evidence stepper.
 
 ## Where it starts

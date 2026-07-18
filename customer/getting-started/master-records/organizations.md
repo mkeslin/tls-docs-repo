@@ -1,5 +1,7 @@
 # Organizations
 
+![Masters — organizations](images/getting-started-modules-rail.png)
+
 The shared **Organizations** master for businesses and other organizations.
 
 ## Open and edit

@@ -1,5 +1,7 @@
 # Impound and LETS
 
+![Impound logs](images/cad-impound-logs.png)
+
 ## Impound Logs
 
 1. Open **CAD Records** → **Impound Logs** (when your agency enables this destination).

@@ -1,5 +1,7 @@
 # Workflow, versions, and approval
 
+![Incident detail](images/rms-incident-detail.png)
+
 How incident drafts become approved reports and supplements.
 
 ## Editing rules (typical)

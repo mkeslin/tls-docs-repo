@@ -1,5 +1,7 @@
 # Journey: Court payment to accounting
 
+![Accounting dashboard](images/accounting-dashboard.png)
+
 From a court case payment at the window through acceptance, deposit, and optional collections.
 
 ## When to use this journey

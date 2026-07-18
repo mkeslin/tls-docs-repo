@@ -1,5 +1,7 @@
 # Pleas and judgment
 
+![Court violation detail](images/court-violation-detail.png)
+
 Recording pleas, judgments, dismissals, transfers, and related disposition actions.
 
 ## Enter a plea

@@ -1,5 +1,7 @@
 # Unit status and logs
 
+![Unit status and logs](images/cad-unit-status.png)
+
 ## Unit Status & Duty Logs
 
 1. Open **CAD Records** → **Unit Status & Duty Logs**.

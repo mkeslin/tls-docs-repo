@@ -1,5 +1,7 @@
 # Working a notepad
 
+![Add notepad](images/rms-notepad-add.png)
+
 ## Tabs
 
 | Tab | Purpose |

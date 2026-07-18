@@ -1,5 +1,7 @@
 # Code Enforcement
 
+![Code Enforcement search](images/rms-code-enforcement-search.png)
+
 Customer guides for the **Code Enforcement (COD)** module — ordinance / code cases with involved parties, offenses, narratives, and a case timeline.
 
 ## What Code Enforcement is

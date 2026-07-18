@@ -1,5 +1,7 @@
 # Case lifecycle
 
+![Court violation detail](images/court-violation-detail.png)
+
 How a court violation moves from intake through disposition and compliance.
 
 ## Two ways to think about status

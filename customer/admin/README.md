@@ -1,5 +1,7 @@
 # Admin
 
+![Admin agency](images/admin-agency.png)
+
 Agency administration for Thin Line: users and permissions, officers, codes, offenses, and agency settings.
 
 ## What Admin is

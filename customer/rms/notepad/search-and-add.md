@@ -1,5 +1,7 @@
 # Search and add notepads
 
+![Notepad search](images/rms-notepad-search.png)
+
 ## Search
 
 1. Open **Notepad** from the left rail.

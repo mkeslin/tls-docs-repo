@@ -1,5 +1,7 @@
 # CAD Records
 
+![CAD Records](images/cad-records-call-sheets.png)
+
 Historical CAD search inside the RMS shell (left-rail **CAD Records**).
 
 ## What CAD Records is

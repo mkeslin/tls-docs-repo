@@ -1,5 +1,7 @@
 # Dispose and close a call
 
+![Call sheet](images/cad-call-sheet.png)
+
 Finish the call when units are clear and a disposition is set.
 
 ## Clear every unit first

@@ -1,5 +1,7 @@
 # Search close patrols
 
+![Close Patrol search](images/rms-close-patrol-search.png)
+
 Find and open existing close-patrol records.
 
 ## Steps

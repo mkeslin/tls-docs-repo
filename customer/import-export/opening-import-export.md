@@ -1,5 +1,7 @@
 # Opening Import/Export
 
+![Import/Export](images/import-export-ibrs.png)
+
 1. Open **Import/Export** from the left module rail.
 2. Choose the export you are authorized to run.
 3. If an item is missing, you lack the claim or module access — ask your administrator ([Admin — Users](../admin/users-roles-claims.md)).

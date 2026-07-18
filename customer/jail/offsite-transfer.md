@@ -1,5 +1,7 @@
 # Offsite transfer
 
+![Jail Command Center](images/jail-command-center.png)
+
 Move a person to an offsite holding arrangement with a transfer packet.
 
 ## When to use

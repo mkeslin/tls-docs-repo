@@ -1,5 +1,7 @@
 # Journey: Court warrant to LE service
 
+![Warrant for service](images/rms-warrant-detail.png)
+
 How a court-issued FTA or CPF warrant reaches law enforcement for service, and how each side keeps status aligned.
 
 ## When to use this journey

@@ -1,5 +1,7 @@
 # Search and add code enforcement cases
 
+![Code Enforcement search](images/rms-code-enforcement-search.png)
+
 ## Search
 
 1. Open **Code Enforcement** from the left rail.

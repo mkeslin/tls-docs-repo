@@ -1,5 +1,7 @@
 # Housing and moves
 
+![Command Center housing](images/jail-command-center.png)
+
 Assign and change locations for people in custody.
 
 ## Locations
