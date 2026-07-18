@@ -18,6 +18,7 @@ These pages capture those standards so new work compounds instead of reinventing
 | [Customer Value Engine](customer-value-engine/README.md) | The customer value stream — Acquire → Deliver → Operate → Expand → Advocate |
 | [SOPs](sops/README.md) | Step-by-step procedures tied to each value-stream phase |
 | [Assessments](assessments/README.md) | Decision documents before major Deliver work (e.g. migration assessment → Approved Conversion Plan) |
+| [Backlog & design](backlog/README.md) | Product work items (`BL-###`), implementation plans, design docs, and field feedback (CAD, Jail, Court, and all modules) |
 | Playbooks and references | Implementation, customer success, product, technical, policies, checklists, and templates (see sidebar) |
 | [Documentation meta](documentation/README.md) | How this repository is organized and maintained |
 

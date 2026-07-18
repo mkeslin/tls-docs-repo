@@ -8,8 +8,10 @@ This repository is organized around how Thin Line creates and delivers customer 
 
 | Area | Path | Audience | Purpose |
 |------|------|----------|---------|
-| **Internal** | [`internal/`](internal/) | Staff only | Company strategy, policies, operating procedures, implementation and customer-success playbooks |
+| **Internal** | [`internal/`](internal/) | Staff only | Company strategy, policies, operating procedures, implementation and customer-success playbooks, product backlog and design docs |
 | **Customer** | [`customer/`](customer/) | Customers and partners | Training and support resources for Thin Line products |
+
+Product **work items**, **plans**, and **design documents** (CAD, Jail, Court, and all modules): [`internal/backlog/`](internal/backlog/README.md).
 
 ## Application-consumed content (do not reorganize without a product release)
 
