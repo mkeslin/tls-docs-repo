@@ -66,11 +66,12 @@ Hub manages Directory **tenants** and **tenant environments** (including deploye
 4. [x] Config edits → Directory `…/config` PUT via Hub proxy (JSON editor).
 5. [x] Directory metadata responses include non-secret `UrlApi` / `UrlUi1` for probes and links.
 
-### Phase 4 — Retire Hub `ClientEnvironments` SoT
+### Phase 4 — Retire Hub `ClientEnvironments` SoT ✅
 
-1. Stop catalog create/edit against Hub `ClientEnvironments`.
-2. Ignore unused Hub `Client` URL/DB columns.
-3. Later drop/archive Hub env table when unused.
+1. [x] Removed Hub `tlsapi/environments` catalog API, store, view model, and orphan UI `environmentApi`.
+2. [x] Clients no longer load/count Hub `ClientEnvironments`; `EnvironmentCount` removed from CRM DTO.
+3. [x] Documented Hub `Client` Settings URL/DB columns and `ClientEnvironments` nav as legacy (ignored; Directory is SoT).
+4. [ ] Later (Phase 5+): EF migration to drop/archive `ClientEnvironments` (+ optional Client Settings columns).
 
 ### Phase 5 — Cutover
 
