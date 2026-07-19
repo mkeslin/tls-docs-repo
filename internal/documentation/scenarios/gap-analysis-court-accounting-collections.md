@@ -21,7 +21,6 @@ Focus: happy path + critical fail paths. Out of scope here: BL-023 item-level co
 
 | Priority | Gap | Why |
 |----------|-----|-----|
-| **P0** | `collections-refer` / `collections-recall` HTTP | Unit-strong; no integration facts |
 | **P1** | Scenario ids + thin Cancel e2e for activate, judgment, FTA | API already strong; flywheel alignment |
 | **P1** | Bond HTTP integration | Unit-heavy; no Court bond HTTP IT |
 | **P1** | Work-queue / calendar HTTP (thin) | Docs + screenshots exist; API surface thin |
@@ -29,7 +28,7 @@ Focus: happy path + critical fail paths. Out of scope here: BL-023 item-level co
 | **P2** | Deposit/revenue/disbursement **post** HTTP | Unit exists; full Create & Post HTTP thin |
 | — | `accounting-payment-refund-batch` (BL-009) | Backlog / not customer day-to-day — do not treat as shipped P0 |
 
-**Already in good shape:** Court state-machine unit + integration (activate, plea, dismiss, judgment, FTA cycle); clerk apply + accept payment HTTP; collections remittance HTTP; customer GitBook for most P0 topics; docs screenshots for many **surfaces** (not Save mutations); PRE-PLEA Cancel e2e pilot.
+**Already in good shape:** Court state-machine unit + integration (activate, plea, dismiss, judgment, FTA cycle); clerk apply + accept payment HTTP; collections remittance + refer/recall HTTP; customer GitBook for most P0 topics; docs screenshots for many **surfaces** (not Save mutations); PRE-PLEA Cancel e2e pilot.
 
 ---
 
@@ -76,9 +75,9 @@ Focus: happy path + critical fail paths. Out of scope here: BL-023 item-level co
 | Scenario id | Journey | API unit | API IT | Playwright | Screenshots | Customer docs | Internal scenario map | Notes |
 |-------------|---------|----------|--------|------------|-------------|---------------|----------------------|-------|
 | `collections-past-due-eligible` | Eligibility / ELIGIBLE queue | YES | NO | NO | NO | YES | plans (collections module / TPC) | Case-level today; BL-023 = future item-level |
-| `collections-refer` | Refer → IN COLLECTIONS | YES | **NO** | NO | NO | YES | YES (plans) | Unit-strong; add HTTP |
+| `collections-refer` | Refer → IN COLLECTIONS | YES | YES | NO | NO | YES | YES (plans) | Locked: unit + `CourtViolationCollectionsReferRecall_HttpTests` |
 | `collections-batch-refer` | Batch refer from queues | YES | NO | NO | NO | YES | YES | |
-| `collections-recall` | Recall from collections | YES | NO | NO | NO | YES | BL-023 interim recall/re-refer | |
+| `collections-recall` | Recall from collections | YES | YES | NO | NO | YES | BL-023 interim recall/re-refer | Locked: unit + `CourtViolationCollectionsReferRecall_HttpTests` |
 | `collections-remittance-entry` | Remittance entry → CLR post | YES | YES | NO | YES | YES | YES | Best financial lock in Collections |
 | `collections-remittance-import` | CSV vendor remittance import | NO | NO | NO | NO | YES | Phase 4 in TPC plan | Docs ahead of tests |
 | `collections-disbursement-batch` | Vendor disbursement create/post/void | YES | NO | NO | YES | YES | YES | |
@@ -92,7 +91,7 @@ Focus: happy path + critical fail paths. Out of scope here: BL-023 item-level co
 |-------|-------|------------|-------------|
 | Customer GitBook | Strong | Strong | Strong |
 | API unit | Strong (state machine); uneven elsewhere | Apply + accept locked; uneven elsewhere | Strong refer/remit/disburse units |
-| API integration | Strong state machine; weak bond/queues/calendar HTTP | PayIt/plan pay/apply/accept OK; post batches thin | Remittance YES; refer/recall NO |
+| API integration | Strong state machine; weak bond/queues/calendar HTTP | PayIt/plan pay/apply/accept OK; post batches thin | Remittance + refer/recall YES; batch-refer/disburse thin |
 | Playwright e2e | PRE-PLEA Cancel only | None | None |
 | Docs screenshots | Many surfaces | Many surfaces | Portfolio/remit/disburse surfaces |
 | Internal scenario maps | PRE-PLEA pilot only | None | Plans exist; no scenario-id map |
@@ -116,7 +115,7 @@ Policy: **unit = mocks/InMemory**; **integration = Docker SQL**. See product-rep
 
 1. ~~**Lock `court-payment-accept`** (unit + HTTP)~~ — done; optional thin Cancel e2e on accept queue if stable.  
 2. ~~**Clerk `court-payment-apply`** integration (owned fixture)~~ — done; clerk `POST accounting/transactions` (not only PayIt).  
-3. **`collections-refer` / `collections-recall` HTTP** — mirror existing unit cases.  
+3. ~~**`collections-refer` / `collections-recall` HTTP**~~ — done (`CourtViolationCollectionsReferRecall_HttpTests`).  
 4. **Flywheel maps** for activate + judgment (API already ready) using the PRE-PLEA pilot template.  
 5. Bond / deposit-post / disbursement HTTP as capacity allows.  
 6. Playwright only for journeys that docs promise and API already locks — keep canary non-destructive.
