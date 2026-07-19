@@ -70,6 +70,6 @@ Respect product-repo **`AGENTS.md` risk boundaries** when prioritizing (e.g. do 
 
 Ask in chat. The agent should read [prioritized.md](prioritized.md), respect P0 first, and call out **dependencies** and **verification** (build/test commands from product-repo `AGENTS.md`).
 
-## Product monorepo stubs
+## Product monorepo boundary
 
-Historical links under the Thin Line Software repo still point at `Backlog/PRIORITIZED.md` and `Backlog/plans/…`. Those paths are **redirect stubs** to this section. Edit content here, not in the stubs.
+The Thin Line Software monorepo keeps **CSV intake only** (`Backlog/raw/`, `Backlog/archive/`). Plans, design docs, and the prioritized backlog are **not** duplicated there. Edit content in this docs repo only. When migrating a document from the monorepo into GitBook, delete the full body from the product repo in the same change.

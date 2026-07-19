@@ -22,6 +22,15 @@ This section is internal-only. It is the durable place to capture what we will b
 3. **Design when the shape is large** — Use [design/](design/README.md) for cross-cutting or multi-phase designs that are not a single implementation checklist.
 4. **CSV dumps** — Drop files in the product monorepo `Backlog/raw/`, then process into [prioritized.md](prioritized.md) (see [how we capture work](how-we-capture-work.md)).
 
+## Source of truth (no duplication)
+
+| Lives here (GitBook / this repo) | Stays in product monorepo |
+|----------------------------------|---------------------------|
+| Prioritized backlog, plans, design docs, feedback notes | `Backlog/raw/` and `Backlog/archive/` (CSV intake only) |
+| Customer training and implementation templates under `customer/` | `AGENTS.md`, API/UI architecture, CAD engineering audits, release finalization, compliance packets, migration tool `PROCESS.md` |
+
+When migrating content from the product monorepo into this repo: **delete the full document from the product repo in the same change**. Do not leave parallel full copies or “stub farms” that rot. Optional: one short pointer README in the old folder.
+
 ## Related
 
 - Product monorepo agent guide: `AGENTS.md` (Thin Line Software repo)
