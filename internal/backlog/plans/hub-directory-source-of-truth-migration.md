@@ -1,6 +1,6 @@
 ---
 backlog: "Hub / Directory · Source-of-truth migration (no BL-### yet)"
-status: in-progress
+status: complete
 created: 2026-07-19
 ---
 
@@ -70,14 +70,31 @@ Hub manages Directory **tenants** and **tenant environments** (including deploye
 
 1. [x] Removed Hub `tlsapi/environments` catalog API, store, view model, and orphan UI `environmentApi`.
 2. [x] Clients no longer load/count Hub `ClientEnvironments`; `EnvironmentCount` removed from CRM DTO.
-3. [x] Documented Hub `Client` Settings URL/DB columns and `ClientEnvironments` nav as legacy (ignored; Directory is SoT).
-4. [ ] Later (Phase 5+): EF migration to drop/archive `ClientEnvironments` (+ optional Client Settings columns).
+3. [x] Documented Hub `Client` Settings URL/DB columns as legacy (ignored; Directory is SoT).
+4. [x] App code no longer reads/writes Hub env catalog (table drop in Phase 5 migration).
 
-### Phase 5 — Cutover
+### Phase 5 — Cutover ✅
 
-1. Inventory tenant slug ↔ Client mapping (1→many).
-2. Dual-run then remove Hub env writes.
-3. Deploy order: Directory API → Hub UI/proxy → pipeline version write → retire.
+1. [x] Inventory script: `TLS-Hub/Scripts/inventory-tenant-slug-clients.sql` (slug ↔ agencies; legacy env count).
+2. [x] Hub env writes already removed (Phase 4); dual-run ended by Directory-backed Environments UI.
+3. [x] EF migration `DropClientEnvironments` drops Hub `ClientEnvironments` table (CLI-scaffolded).
+4. [x] Soft-validate: Client save with a non-empty tenant slug must exist in Directory.
+5. [x] Deploy order documented below.
+
+#### Deploy order
+
+1. **Directory API** (Phase 1 metadata + `UrlApi`/`UrlUi1`) — Test then Prod.
+2. **Hub API + UI** (Phases 2–5) — Test then Prod; apply Hub EF migrations including `DropClientEnvironments`.
+3. **Pipelines** — unchanged: continue `…/config` with `X-API-Key` only.
+4. **Optional later:** EF migration to drop unused Hub `Client` Settings URL/DB columns (not required for cutover).
+
+#### Cutover checklist
+
+- [ ] Run inventory SQL on Test Hub DB; reconcile slugs with Directory `Tenants`.
+- [ ] Deploy Directory → Hub (Test); smoke Tenants + Environments + Client slug save.
+- [ ] Apply Hub migration `DropClientEnvironments` on Test.
+- [ ] Repeat inventory + deploy on Prod.
+- [ ] Confirm pipelines still fetch Directory config only.
 
 ## Files / areas (expected)
 
@@ -87,20 +104,22 @@ Hub manages Directory **tenants** and **tenant environments** (including deploye
 | 1 | `TLS-Directory` … `Endpoints.cs`, view models, auth, tests |
 | 2–4 | `TLS-Hub` API services/controllers, UI Clients/Tenants/Environments |
 | 3 | Thin Line Software deploy pipelines (version bump) |
+| 5 | Hub EF `DropClientEnvironments`; `Scripts/inventory-tenant-slug-clients.sql` |
 
 ## Verification
 
-- [ ] Directory: build + `ThinLine.Directory.WebAPI.Tests`
-- [ ] Hub: build + relevant API/UI checks for touched screens
+- [x] Directory: build + `ThinLine.Directory.WebAPI.Tests` (Phase 1)
+- [x] Hub: build after Phase 5 model/migration changes
 - [ ] Manual: Tenants list matches Directory; Environments for `crosbytx` / `slatontx` are tenant-scoped; multiple Clients share one slug
 - [ ] Pipelines still fetch config from Directory only
 
 ## Open questions
 
 - Rename `FriendlyName` → `TenantSlug` timing (API break vs label-only).
-- Soft-validate slug exists in Directory on Client save.
+- Soft-validate slug exists in Directory on Client save — **done** (non-empty slug must exist).
 
 ## Notes
 
 - Do not invent Hub tables that mirror Directory current-state.
 - Hub `tlsapi/tenants` (Descope) ≠ Directory installs — keep UI naming distinct.
+- All Hub DB schema changes ship via EF migrations (never ad-hoc DDL).
