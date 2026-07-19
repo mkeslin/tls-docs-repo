@@ -22,11 +22,11 @@ Freeze who owns **install (tenant)**, **agency (client)**, and **environment** d
 
 ## Decisions
 
-1. **Tenant = install (Directory)** — Logical Azure/resource install identified by a **slug** (`TenantCode`, e.g. `crosbytx`). Directory owns name, resource name, active flag, and all `TenantEnvironment` rows (config bag, `CurrentVersion`, env type/resource, etc.).
+1. **Tenant = install (Directory)** — Logical Azure/resource install identified by a **slug** (`TenantCode`, e.g. `crosbytx`). Directory owns name, resource name, active flag, and all `TenantEnvironment` rows (config bag, env type/resource, Azure account, etc.). **Deployed version** is observed by probing the running environment API (not maintained as Hub-editable Directory metadata).
 2. **Client = agency (Hub)** — One Hub `Clients` row per agency. Hub owns CRM: display name, ORI, contact organization, ARR, contract date, invoices, work-item linkage, active flag for CRM purposes.
 3. **Tenant 1 → many Clients** — Each agency references exactly one tenant slug. Shared installs (Crosby, Slaton, New Deal, …) keep multiple Hub clients under one Directory tenant.
 4. **Environments belong to the tenant** — Not to the agency. Hub’s Environments UI is driven by Directory `TenantEnvironments`. Hub must not remain the source of truth for env current-state.
-5. **No mirrored current-state in Hub** — Do not add or expand Hub columns that copy Directory tenant/env config. Hub may **link** and **display** via API. Optional live “AutoVersion” probes are operational checks, not a second write store.
+5. **No mirrored current-state in Hub** — Do not add or expand Hub columns that copy Directory tenant/env config. Hub may **link** and **display** via API. **Deployed version** comes from live AutoVersion probes of each environment’s running API — not from Directory/Hub stored version fields.
 6. **RMS agencies stay in RMS** — Runtime agencies inside a shared customer DB remain product data. Hub `Clients` is the **internal ops catalog** of agencies we sell to / support, linked to the install slug — not a sync of every RMS `Agencies` row.
 7. **Tenant slug on Client** — Today’s Hub `Client.FriendlyName` **is** the tenant slug (maps to Directory `TenantCode`). Later phases may rename the property for clarity; until then, treat `FriendlyName` as the slug in product language and UI labels where practical.
 
@@ -43,7 +43,7 @@ Freeze who owns **install (tenant)**, **agency (client)**, and **environment** d
 - New Hub **Tenants** page (Directory-backed); existing **Clients** page stays agency CRM.
 - **Environments** page keeps similar UX but reads/writes Directory.
 - `ClientEnvironments` is legacy and will be retired after cutover.
-- Directory APIs must expose tenant + env metadata (including `CurrentVersion`) with service auth Hub can use.
+- Directory APIs must expose tenant + env metadata with service auth Hub can use. Version display uses live environment probes.
 
 ## Scope
 

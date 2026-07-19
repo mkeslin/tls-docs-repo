@@ -42,12 +42,13 @@ Hub manages Directory **tenants** and **tenant environments** (including deploye
 - [x] Canvas updated to match.
 - [x] Hub `Client.FriendlyName` documented in code as tenant slug.
 
-### Phase 1 — Directory Hub-ready APIs
+### Phase 1 — Directory Hub-ready APIs ✅
 
-1. Tenant metadata GET/PUT (Name, ResourceName, IsActive); optional POST.
-2. Environments list/update including `CurrentVersion`, `EnvironmentType`, Azure/resource fields.
-3. Keep `…/config` for deploy settings only.
-4. Apply `ConfigAuth` (JWT or API key) to tenant/env list + write.
+1. [x] Tenant metadata: `GET/POST /tenants`, `GET/PUT /tenants/{tenantCode}` (`ConfigAuth`).
+2. [x] Environments: `GET /environments`, `GET/POST /tenants/{code}/environments`, `GET/PUT …/environments/{resource}` (no `CurrentVersion` — Hub probes live apps).
+3. [x] Keep `…/config` for deploy settings only.
+4. [x] `ConfigAuth` on `/tenants`, `/directory`, and new metadata routes (JWT or API key).
+5. [x] Directory WebAPI tests passing.
 
 ### Phase 2 — Hub proxy + Clients + Tenants (read-first)
 
@@ -58,11 +59,10 @@ Hub manages Directory **tenants** and **tenant environments** (including deploye
 
 ### Phase 3 — Environments → Directory + writes
 
-1. Environments page reads Directory `TenantEnvironments`.
-2. Writes for env metadata / `CurrentVersion` → Directory.
-3. Config edits → existing config PUT.
-4. Pipelines bump Directory `CurrentVersion` on deploy.
-5. Optional: keep live AutoVersion probe as “running” only.
+1. Environments page reads Directory `TenantEnvironments` for catalog metadata.
+2. **Version** = live probe of each environment’s running API (existing AutoVersion pattern) — not stored/edited in Directory for Hub.
+3. Writes for env metadata (type, Azure, name) → Directory.
+4. Config edits → existing config PUT.
 
 ### Phase 4 — Retire Hub `ClientEnvironments` SoT
 
