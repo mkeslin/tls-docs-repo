@@ -1,14 +1,26 @@
 # Work queues
 
-![Court work queues / dashboard](images/court-dashboard.png)
+![Court work queues](images/court-work-queues.png)
 
 Exception-driven lists of court violations that need clerk or judge attention.
+
+Step-by-step: [Work your queues](how-tos/work-your-queues.md).
 
 ## Why use queues
 
 Search is for finding a known case. **Work queues** answer: “What should we work next?” Counts on the dashboard help you prioritize the day.
 
 In navigation you may see **Work Queues** (older builds may have said Court Proceedings).
+
+## Day-one triage (recommended order)
+
+For a typical clerk morning, clear in this order unless your court administrator sets a different priority:
+
+1. **Payment — accept new** — so receipts and deposits stay current
+2. **New case review** — activate today’s intake so cases hit the docket
+3. **FTA / show cause** — enforcement and bond work
+4. **Missed payment / compliance** — notices and show-cause
+5. Everything else (program queues, collections eligible, follow-ups)
 
 ## Common queues
 
@@ -25,7 +37,7 @@ Names in your environment may vary slightly; these are the usual work areas:
 | **Follow-up — past due** | Follow-up date passed | Contact, reschedule, or clear follow-up |
 | **Compliance — missed payment** | Installment or payment compliance missed | Notice; failed to comply / show cause; accept payments |
 | **Payment plan — fee eligible** | Time-payment fee assessment candidate | Assess fee per policy |
-| **Collections — eligible** | Candidate for collections referral | Refer per agency process |
+| **Collections — eligible** | Candidate for collections referral | Refer per agency process (see [Collections](../collections/README.md)) |
 | **Payment — accept new** | Payments awaiting court acceptance | Accept (or correct) pending payments |
 
 ## How to work a queue
@@ -43,6 +55,7 @@ Names in your environment may vary slightly; these are the usual work areas:
 
 ## Related
 
+- [How-to: Work your queues](how-tos/work-your-queues.md)
 - [Getting around](getting-around.md)
 - [Create and import cases](create-and-import.md)
 - [Payments](payments.md)

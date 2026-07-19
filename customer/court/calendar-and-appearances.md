@@ -1,14 +1,24 @@
 # Calendar and appearances
 
-![Court calendar](images/court-calendar.png)
+![Court calendar with docket activity](images/court-calendar.png)
 
 Scheduling appearances, show-cause hearings, pre-trial, and trial dates.
+
+Step-by-step for a busy day: [Run a docket day](how-tos/run-a-docket-day.md).
 
 ## Calendar
 
 Open **Calendar** in Court Violations to see scheduled court activity. Use it to plan a docket day, confirm who is set to appear, and jump into individual cases.
 
 The **dashboard** also surfaces a day agenda so you can start from “today” without opening the full calendar first.
+
+## Docket-day flow
+
+1. Open **Calendar** (or today’s agenda on the dashboard).
+2. Filter or focus on the session you are calling.
+3. Open each case from the calendar entry.
+4. Record the outcome (appearance, plea, continuance, FTA, etc.).
+5. If the court continues the case, use a **modify date** action so the next setting appears on the calendar and in queues.
 
 ## Date types you will use
 
@@ -46,6 +56,7 @@ Show-cause dates are central after missed appearances or failed compliance. Sett
 
 ## Related
 
+- [How-to: Run a docket day](how-tos/run-a-docket-day.md)
 - [Getting around](getting-around.md)
 - [FTA, warrants, and bonds](fta-warrants-bonds.md)
 - [Court programs](court-programs.md)

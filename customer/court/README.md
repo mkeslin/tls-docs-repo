@@ -16,6 +16,14 @@ Court Violations is not a general civil case-management system. It is built for 
 - Judges and court administrators
 - Agency staff who search, schedule, or accept payments on court cases
 
+## Start here for training
+
+| Path | Use when |
+|------|----------|
+| [How-tos](how-tos/README.md) | Step-by-step clerk tasks (activate, docket day, plea, payment, FTA, queues) |
+| [Court clerk workshop](../training/court-clerk-workshop.md) | Half-day training agenda that links these guides |
+| Topic pages below | Concepts, state rules, and reference tables |
+
 ## Topics in this guide
 
 | Topic | When to use it |
@@ -36,13 +44,15 @@ Court Violations is not a general civil case-management system. It is built for 
 
 Court cases often connect to other Thin Line areas:
 
-- **[Citations](../rms/citations/README.md)** (RMS) — source tickets that become court violations
-- **Warrants** — FTA and CPF paths may create or update warrant work
-- **Collections** — eligible cases can be referred for third-party collections
-- **Accounting** — accepted payments flow into deposits and settlement
+- **[Citations](../rms/citations/README.md)** (RMS) — source tickets that become court violations ([Citation to court](../rms/citations/citation-to-court.md))
+- **[Warrants](../rms/warrants/README.md)** — FTA and CPF paths may create or update warrant work ([Court-owned FTA and CPF](../rms/warrants/court-owned-fta-cpf.md))
+- **[Collections](../collections/README.md)** — eligible cases can be referred for third-party collections
+- **[Accounting](../accounting/README.md)** — accepted payments flow into deposits and settlement ([From Court payments](../accounting/from-court-payments.md))
 
 ## Related
 
+- [How-tos](how-tos/README.md)
 - [Training](../training/README.md)
+- [Court clerk workshop](../training/court-clerk-workshop.md)
 - [Getting started](../getting-started/README.md)
 - [Support](../support/README.md)

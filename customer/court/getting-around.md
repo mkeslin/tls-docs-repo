@@ -6,9 +6,13 @@ How to navigate Court Violations day to day.
 
 ## Open the module
 
-From the main navigation, open **Court Violations**. Your access depends on agency permissions (view, modify, and report claims). If you cannot see a menu item, ask your agency administrator.
+From the main navigation, open **Court Violations** (module code **CRT**). Confirm the header agency is your **court** agency. Your access depends on agency permissions (view, modify, and report claims). If you cannot see a menu item, ask your agency administrator.
+
+For click-path training tasks, start with [How-tos](how-tos/README.md).
 
 ## Main areas
+
+![Court dashboard](images/court-dashboard.png)
 
 | Area | What it is for |
 |------|----------------|

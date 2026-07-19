@@ -17,11 +17,11 @@
 |-------|--------:|-------|----------|
 | Court overview | 15 | [Court overview](../court/README.md) | Map Court vs Citations / Warrants / Accounting |
 | Getting around | 20 | [Getting around](../court/getting-around.md) | Open search, calendar, a case detail |
-| Create / activate | 25 | [Create and import](../court/create-and-import.md) | Work New Case Review → Pre-plea |
-| Lifecycle & pleas | 40 | [Case lifecycle](../court/case-lifecycle.md) · [Pleas and judgment](../court/pleas-and-judgment.md) | Enter plea; enter judgment **or** grant court program |
-| Calendar / FTA | 25 | [Calendar](../court/calendar-and-appearances.md) · [FTA, warrants, bonds](../court/fta-warrants-bonds.md) | Set appearance; walk FTA path in training data |
-| Payments | 30 | [Payments](../court/payments.md) · [Payment plans](../court/payment-plans.md) | Apply payment; accept from work queue |
-| Work queues | 25 | [Work queues](../court/work-queues.md) | Clear one pending-payment and one other queue item |
+| Create / activate | 25 | [Activate a new case](../court/how-tos/activate-a-new-case.md) · [Create and import](../court/create-and-import.md) | Work New Case Review → Pre-plea |
+| Lifecycle & pleas | 40 | [Record a plea and judgment](../court/how-tos/record-a-plea-and-judgment.md) · [Grant a court program](../court/how-tos/grant-a-court-program.md) | Enter plea; enter judgment **or** grant court program |
+| Calendar / FTA | 25 | [Run a docket day](../court/how-tos/run-a-docket-day.md) · [Handle FTA and court warrant](../court/how-tos/handle-fta-and-court-warrant.md) | Set appearance; walk FTA path in training data |
+| Payments | 30 | [Take and accept a payment](../court/how-tos/take-and-accept-a-payment.md) · [Set up a payment plan](../court/how-tos/set-up-a-payment-plan.md) | Apply payment; accept from work queue |
+| Work queues | 25 | [Work your queues](../court/how-tos/work-your-queues.md) | Clear one pending-payment and one other queue item |
 | Reports (overview) | 15 | [Reports](../court/reports.md) | Name OCA / DPS packs your agency will file |
 | Support & wrap | 10 | [Support](../support/README.md) | How to escalate a stuck case |
 
@@ -30,9 +30,10 @@
 - [ ] Activate a new case and record a plea
 - [ ] Apply and accept a payment (or explain apply vs accept)
 - [ ] Find work in at least two queues
-- [ ] Know where Court topic docs live for self-serve later
+- [ ] Know where Court topic docs and [how-tos](../court/how-tos/README.md) live for self-serve later
 
 ## Related
 
 - [Court](../court/README.md)
+- [Court how-tos](../court/how-tos/README.md)
 - [New user orientation](new-user-orientation.md)

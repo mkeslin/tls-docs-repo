@@ -1,8 +1,10 @@
 # Payments
 
-![Court payments context](images/court-violation-detail.png)
+![Court case with balance](images/court-payments.png)
 
 Collecting payments on court violations and accepting them into the court accounting flow.
+
+Step-by-step: [Take and accept a payment](how-tos/take-and-accept-a-payment.md).
 
 ## Important concept: apply vs accept
 
@@ -15,19 +17,24 @@ A payment can be successfully taken (including card processor success) and still
 
 ## Apply a payment
 
-1. Open the court violation (or select multiple related violations when paying together).
-2. Choose **Apply payment**.
-3. Enter amount, method, and date.
-4. Submit. The payment is pending until accepted.
+1. Open the court violation (search by case number or defendant).
+2. Confirm the **balance** on the case header / payments area.
+3. Choose **Apply payment** (button wording may vary slightly).
+4. Enter amount, method, and date.
+5. Submit. The payment is pending until accepted.
 
 Common payment methods include cash, check, money order, card, and other — use the method your agency supports at the window or online.
 
+When paying multiple related violations for the same defendant, select the cases your court allows to combine before applying.
+
 ## Accept pending payments
 
-1. Open **Work queues**.
+1. Open **Work queues** (or the payment-accept shortcut your court uses).
 2. Open the queue for **new / pending payments** (payment acceptance).
-3. Review each payment.
+3. Review each payment (amount, method, case).
 4. Accept (or follow your agency’s reject / correct process if something is wrong).
+
+Clear this queue daily so receipts and deposits stay current.
 
 Until acceptance, do not treat the payment as fully posted for close-out or official receipt purposes.
 
@@ -39,7 +46,7 @@ Until acceptance, do not treat the payment as fully posted for close-out or offi
 
 ## Jail credit and adjustments
 
-When authorized, clerks may **apply jail credit** or other adjustments from convicted / compliance contexts. These can change balances and may contribute to closure. Use only with proper court authority.
+When authorized, clerks may **apply jail credit** or other adjustments from convicted / compliance contexts. These can change balances and may contribute to closure. Use only with proper court authority; document the reason when the dialog requires it.
 
 ## Related accounting
 
@@ -47,6 +54,7 @@ Accepted payments flow into broader accounting processes (deposits, settlements,
 
 ## Related
 
+- [How-to: Take and accept a payment](how-tos/take-and-accept-a-payment.md)
 - [Journey: Court payment to accounting](../getting-started/journeys/court-payment-to-accounting.md)
 - [From Court payments](../accounting/from-court-payments.md)
 - [Court finance workshop](../training/court-finance-workshop.md)

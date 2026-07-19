@@ -1,12 +1,14 @@
 # Payment plans
 
-![Court violation detail](images/court-violation-detail.png)
+![Court case with payment plan](images/court-payment-plan.png)
 
 Installment plans for court violation balances.
 
+Step-by-step: [Set up a payment plan](how-tos/set-up-a-payment-plan.md).
+
 ## When to use a payment plan
 
-After judgment (typically in **Convicted**), when the court allows the defendant to pay over time instead of paying in full immediately.
+After judgment (typically in **Convicted**), when the court allows the defendant to pay over time instead of paying in full immediately. Some courts also allow plans earlier — follow local policy and the actions enabled on the case.
 
 ## Create or view a plan
 
@@ -46,6 +48,7 @@ Before considering a case complete:
 
 ## Related
 
+- [How-to: Set up a payment plan](how-tos/set-up-a-payment-plan.md)
 - [Payments](payments.md)
 - [Work queues](work-queues.md)
 - [Pleas and judgment](pleas-and-judgment.md)

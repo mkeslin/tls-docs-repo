@@ -1,8 +1,10 @@
 # Pleas and judgment
 
-![Court violation detail](images/court-violation-detail.png)
+![Plea recorded on court case](images/court-pleas-judgment.png)
 
 Recording pleas, judgments, dismissals, transfers, and related disposition actions.
+
+Step-by-step: [Record a plea and judgment](how-tos/record-a-plea-and-judgment.md).
 
 ## Enter a plea
 
@@ -63,6 +65,7 @@ When your role and state allow it:
 
 ## Related
 
+- [How-to: Record a plea and judgment](how-tos/record-a-plea-and-judgment.md)
 - [Case lifecycle](case-lifecycle.md)
 - [Court programs](court-programs.md)
 - [Payments](payments.md)

@@ -1,8 +1,10 @@
 # Court programs
 
-![Court dashboard](images/court-dashboard.png)
+![Court program on a case](images/court-programs.png)
 
 Deferred disposition and related diversion-style **court programs**.
+
+Step-by-step: [Grant a court program](how-tos/grant-a-court-program.md).
 
 ## What a court program is
 
@@ -50,6 +52,7 @@ If the defendant does not comply:
 
 ## Related
 
+- [How-to: Grant a court program](how-tos/grant-a-court-program.md)
 - [Pleas and judgment](pleas-and-judgment.md)
 - [Calendar and appearances](calendar-and-appearances.md)
 - [Work queues](work-queues.md)
