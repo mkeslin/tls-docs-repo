@@ -50,12 +50,13 @@ Hub manages Directory **tenants** and **tenant environments** (including deploye
 4. [x] `ConfigAuth` on `/tenants`, `/directory`, and new metadata routes (JWT or API key).
 5. [x] Directory WebAPI tests passing.
 
-### Phase 2 — Hub proxy + Clients + Tenants (read-first)
+### Phase 2 — Hub proxy + Clients + Tenants (read-first) ✅
 
-1. Real Directory HTTP client in Hub (replace stale `/clients` DirectoryStore).
-2. Clients page stays; treat `FriendlyName` as tenant slug (label/validate).
-3. New Tenants page — Directory-backed, start read-only.
-4. Show agencies under a tenant via Clients filtered by slug.
+1. [x] `IDirectoryApiClient` → Directory with Descope service JWT (same as Logs); pipelines keep `X-API-Key`.
+2. [x] Hub proxy: `tlsapi/directory/tenants`, `tlsapi/directory/environments` (avoids clash with Descope `tlsapi/tenants`).
+3. [x] Clients page: Tenant slug column + dialog label; filter `?tenantSlug=`.
+4. [x] New Tenants page (`/directory-tenants`) read-only from Directory; Agencies link filters Clients.
+5. [x] Obsolete stale `DirectoryStore` (`/clients`); removed from DI.
 
 ### Phase 3 — Environments → Directory + writes
 
