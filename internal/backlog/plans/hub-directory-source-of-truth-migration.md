@@ -58,12 +58,13 @@ Hub manages Directory **tenants** and **tenant environments** (including deploye
 4. [x] New Tenants page (`/directory-tenants`) read-only from Directory; Agencies link filters Clients.
 5. [x] Obsolete stale `DirectoryStore` (`/clients`); removed from DI.
 
-### Phase 3 — Environments → Directory + writes
+### Phase 3 — Environments → Directory + writes ✅
 
-1. Environments page reads Directory `TenantEnvironments` for catalog metadata.
-2. **Version** = live probe of each environment’s running API (existing AutoVersion pattern) — not stored/edited in Directory for Hub.
-3. Writes for env metadata (type, Azure, name) → Directory.
-4. Config edits → existing config PUT.
+1. [x] Environments page reads Directory `TenantEnvironments` for catalog metadata.
+2. [x] **Version** = live probe of each environment’s running API (`UrlApi` or `{tenant}-api` fallback) — not stored/edited in Directory for Hub.
+3. [x] Writes for env metadata (resource, type, Azure, name) → Directory via Hub proxy.
+4. [x] Config edits → Directory `…/config` PUT via Hub proxy (JSON editor).
+5. [x] Directory metadata responses include non-secret `UrlApi` / `UrlUi1` for probes and links.
 
 ### Phase 4 — Retire Hub `ClientEnvironments` SoT
 
