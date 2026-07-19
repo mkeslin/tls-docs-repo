@@ -24,6 +24,7 @@ Design docs may cover **any** product area — CAD, Jail, Court, Accounting, RMS
 | [Supervisor command center](supervisor-command-center.md) | Supervisor command center |
 | [Data integrity interface](data-integrity-interface.md) | Data integrity command center |
 | [Security command center](security-command-center.md) | CJIS / identity oversight shell |
+| [Hub / Directory tenant–agency ownership](hub-directory-tenant-agency-ownership.md) | Install vs agency vs environment SoT (Hub ↔ Directory) |
 
 ## How to add a design doc
 

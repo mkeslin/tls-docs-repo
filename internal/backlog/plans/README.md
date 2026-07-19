@@ -55,3 +55,4 @@ Copy [../templates/plan-template.md](../templates/plan-template.md) when creatin
 | [jail-intake-arresting-agency-three-mode.md](jail-intake-arresting-agency-three-mode.md) | Jail intake arresting agency |
 | [jlm-observation-pass-milestones.md](jlm-observation-pass-milestones.md) | JLM observation / cell checks |
 | [mental-health-screening-notification-rules.md](mental-health-screening-notification-rules.md) | MH screening notifications |
+| [hub-directory-source-of-truth-migration.md](hub-directory-source-of-truth-migration.md) | Hub ↔ Directory tenants/envs SoT (Phase 0 done) |
