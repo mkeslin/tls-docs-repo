@@ -7,6 +7,7 @@
 * [Documentation meta](documentation/README.md)
   * [Behavior contract flywheel](documentation/behavior-contract-flywheel.md)
   * [Pilot: Court PRE-PLEA scenarios](documentation/scenarios/court-preplea-pilot.md)
+  * [Gap analysis: Court / Accounting / Collections](documentation/scenarios/gap-analysis-court-accounting-collections.md)
   * [Repository alignment plan](documentation/repository-alignment-plan.md)
   * [Content inventory](documentation/content-inventory.md)
 

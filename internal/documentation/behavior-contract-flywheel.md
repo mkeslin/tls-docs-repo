@@ -12,17 +12,23 @@ This page defines how **product code**, **automated tests**, and **GitBook** (cu
 2. **Shared scenario ids.** Name a behavior once and reuse that id across test titles/annotations, customer doc sections, docs-screenshot shot ids, and (when useful) internal notes. Prefer kebab-case: `court-preplea-enter-plea-cancel`.
 3. **Put assertions in the right layer** (testing diamond — fat middle, thin e2e tip):
 
-| Layer | Asserts | Lives in |
-|-------|---------|----------|
-| API unit | Pure rules, mappers, serializers, edge cases | `ThinLine.API.UnitTests` |
-| API integration | Persist / enforce / contract through API + DB | `ThinLine.API.IntegrationTests` |
-| UI unit (Vitest) | Component/composable logic without a full browser | `ThinLine.UI` Vitest |
-| Playwright e2e | Journeys: shell, navigation, dialogs open/Cancel | `ThinLine.UI/tests/e2e` |
-| Docs screenshots | Visual match for customer Help (not business rules) | `ThinLine.UI/tests/docs-screenshots` |
-| Customer GitBook | Human-facing happy path | `tls-docs-repo/customer/` |
-| Internal GitBook | Seeds, agency setup, ops edges, “why” | `tls-docs-repo/internal/` |
+| Layer | Asserts | Lives in | Persistence |
+|-------|---------|----------|-------------|
+| API unit | Pure rules, mappers, serializers, edge cases | `ThinLine.API.UnitTests` | **Mocks and/or EF InMemory** |
+| API integration | Persist / enforce / contract through API + DB | `ThinLine.API.IntegrationTests` | **Real SQL via Docker/Testcontainers** |
+| UI unit (Vitest) | Component/composable logic without a full browser | `ThinLine.UI` Vitest | N/A |
+| Playwright e2e | Journeys: shell, navigation, dialogs open/Cancel | `ThinLine.UI/tests/e2e` | Canary (non-destructive) |
+| Docs screenshots | Visual match for customer Help (not business rules) | `ThinLine.UI/tests/docs-screenshots` | Seeded demo data |
+| Customer GitBook | Human-facing happy path | `tls-docs-repo/customer/` | N/A |
+| Internal GitBook | Seeds, agency setup, ops edges, “why” | `tls-docs-repo/internal/` | N/A |
 
 Do **not** re-prove fee math or state-machine tables in Playwright. Do **not** use customer Help as the only lock on a rule — add a test.
+
+### Persistence split (API)
+
+- **Unit:** mocks / EF InMemory — keep the PR gate fast; never treat InMemory as SQL Server truth.
+- **Integration (`MsSqlIntegration`):** Docker/Testcontainers SQL Server — the fat middle of the diamond. Do not add InMemory hosts for new HTTP integration facts. LocalDB is an optional Windows escape hatch only.
+- **Scoped runnable recipes** (repo root): `npm run api:test:itest:court`, `api:test:itest:court-accounting`, `api:test:itest:collections`, or `api:test:itest:scoped`. Details: product-repo `ThinLine.API/ThinLine.API.IntegrationTests/README.md`.
 
 ## Flywheel
 
@@ -86,3 +92,4 @@ Release notes and GitBook gates for a cut still follow product-repo `Docs/RELEAS
 - Docs screenshots: `ThinLine.UI/tests/docs-screenshots/README.md`
 - Finalize release (docs + tests): product monorepo `Docs/RELEASE-FINALIZATION.md`
 - **Pilot (court PRE-PLEA):** [scenarios/court-preplea-pilot.md](scenarios/court-preplea-pilot.md) — scenario map across customer docs, API tests, and Playwright
+- **Gap analysis (Court / Accounting / Collections P0):** [scenarios/gap-analysis-court-accounting-collections.md](scenarios/gap-analysis-court-accounting-collections.md)

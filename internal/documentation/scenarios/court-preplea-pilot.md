@@ -15,6 +15,7 @@ Maps one vertical — **PRE-PLEA** court actions — across code, tests, and Git
 | Plea demo case | `DOCSCV05-01` (typical PRE-PLEA / plea dialog captures) |
 | UI e2e on canary | **Cancel only** — open dialogs, do not Save |
 | Mutations | API integration tests (owned seeds) or future local/writable e2e |
+| Run API IT (Docker) | Product-repo root: `npm run api:test:itest:court` |
 
 ## Scenario map
 

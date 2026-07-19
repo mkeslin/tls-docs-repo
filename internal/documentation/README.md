@@ -8,6 +8,7 @@ How this repository is organized and maintained.
 |----------|---------|
 | [Behavior contract flywheel](behavior-contract-flywheel.md) | Code / tests / GitBook alignment — scenario ids, assertion layers |
 | [Pilot: Court PRE-PLEA scenarios](scenarios/court-preplea-pilot.md) | First vertical mapped end-to-end (docs + API + Playwright) |
+| [Gap analysis: Court / Accounting / Collections](scenarios/gap-analysis-court-accounting-collections.md) | P0 journey inventory — what docs/tests lock vs missing |
 | [Repository alignment plan](repository-alignment-plan.md) | Audit findings, information architecture, migration plan |
 | [Content inventory](content-inventory.md) | Inventory of existing pages and recommended actions |
 
