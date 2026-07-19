@@ -93,3 +93,4 @@ Release notes and GitBook gates for a cut still follow product-repo `Docs/RELEAS
 - Finalize release (docs + tests): product monorepo `Docs/RELEASE-FINALIZATION.md`
 - **Pilot (court PRE-PLEA):** [scenarios/court-preplea-pilot.md](scenarios/court-preplea-pilot.md) — scenario map across customer docs, API tests, and Playwright
 - **Gap analysis (Court / Accounting / Collections P0):** [scenarios/gap-analysis-court-accounting-collections.md](scenarios/gap-analysis-court-accounting-collections.md)
+- **Gap analysis (Jail P0):** [scenarios/gap-analysis-jail.md](scenarios/gap-analysis-jail.md)
