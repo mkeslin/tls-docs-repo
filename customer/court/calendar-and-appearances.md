@@ -35,9 +35,11 @@ Exact fields appear in state actions and dialogs. **Enter follow-up date** is co
 
 ## Change a date without changing the path
 
+<!-- scenario: court-preplea-modify-appearance -->
+
 Many states allow a “modify date only” action, for example:
 
-- Modify appearance date (stay in Pre-plea)
+- **Modify appearance date** (stay in Pre-plea / **PRE-PLEA**)
 - Modify show-cause date (stay on FTA or FTC track)
 - Modify pre-trial or trial date
 - Modify compliance due date

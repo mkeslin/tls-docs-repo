@@ -6,11 +6,18 @@ Recording pleas, judgments, dismissals, transfers, and related disposition actio
 
 Step-by-step: [Record a plea and judgment](how-tos/record-a-plea-and-judgment.md).
 
+<!-- scenario: court-preplea-menu -->
+## Actions from Pre-plea
+
+Cases in **Pre-plea** show a procedural-state control (often labeled **PRE-PLEA** on Violations search). Opening it offers actions such as **Enter plea**, **Modify appearance date**, and **Dismiss case** when the product allows them for that case.
+
 ## Enter a plea
+
+<!-- scenario: court-preplea-enter-plea-nco -->
 
 From **Pre-plea** (and related points where plea change is allowed):
 
-1. Open the court violation.
+1. Open the court violation (from Violations search or the case itself).
 2. Choose **Enter plea** (or **Change plea** when changing an existing plea).
 3. Record the plea:
 
@@ -42,6 +49,8 @@ From post-plea, the court may instead **grant a court program** rather than ente
 | Mistrial / reset | Return toward pre-trial |
 
 ## Dismiss, transfer, void, warning
+
+<!-- scenario: court-preplea-dismiss-case -->
 
 | Action | When you typically use it |
 |--------|---------------------------|

@@ -8,19 +8,24 @@ Enter a plea on a Pre-plea case, then enter judgment when the court convicts (or
 
 ## Prerequisites
 
-- Case in **Pre-plea** (activated)
+- Case in **Pre-plea** (activated) — Violations search shows **PRE-PLEA** on the row state control
 - Modify rights on Court Violations
 - Court order / judge direction for the plea and disposition
 
 ## Steps — plea
 
-1. Open the court violation.
+<!-- scenario: court-preplea-enter-plea-nco -->
+
+1. Open the court violation (or open the **PRE-PLEA** state menu on Violations search).
 2. Choose **Enter plea** (or **Change plea** if a plea already exists).
 3. Select the plea:
    - **Guilty** or **No contest** → typically post-plea, pre-judgment
    - **Not guilty** → typically pre-trial (set pre-trial / trial dates as prompted)
 4. Complete any required appearance or scheduling fields in the dialog.
 5. Save / confirm.
+
+<!-- scenario: court-preplea-enter-plea-cancel -->
+If you open **Enter plea** by mistake, choose **Cancel** — the case stays in Pre-plea and no plea is stored.
 
 ## Steps — judgment
 
