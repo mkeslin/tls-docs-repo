@@ -21,8 +21,6 @@ Focus: happy path + critical fail paths. Out of scope here: BL-023 item-level co
 
 | Priority | Gap | Why |
 |----------|-----|-----|
-| **P0** | `court-payment-accept` — API unit + integration | Documented clerk accept path; essentially untested |
-| **P0** | Clerk `court-payment-apply` (not only PayIt) | Customer P0 is Apply dialog; tests lean public PayIt |
 | **P0** | `collections-refer` / `collections-recall` HTTP | Unit-strong; no integration facts |
 | **P1** | Scenario ids + thin Cancel e2e for activate, judgment, FTA | API already strong; flywheel alignment |
 | **P1** | Bond HTTP integration | Unit-heavy; no Court bond HTTP IT |
@@ -31,7 +29,7 @@ Focus: happy path + critical fail paths. Out of scope here: BL-023 item-level co
 | **P2** | Deposit/revenue/disbursement **post** HTTP | Unit exists; full Create & Post HTTP thin |
 | — | `accounting-payment-refund-batch` (BL-009) | Backlog / not customer day-to-day — do not treat as shipped P0 |
 
-**Already in good shape:** Court state-machine unit + integration (activate, plea, dismiss, judgment, FTA cycle); collections remittance HTTP; customer GitBook for most P0 topics; docs screenshots for many **surfaces** (not Save mutations); PRE-PLEA Cancel e2e pilot.
+**Already in good shape:** Court state-machine unit + integration (activate, plea, dismiss, judgment, FTA cycle); clerk apply + accept payment HTTP; collections remittance HTTP; customer GitBook for most P0 topics; docs screenshots for many **surfaces** (not Save mutations); PRE-PLEA Cancel e2e pilot.
 
 ---
 
@@ -50,7 +48,7 @@ Focus: happy path + critical fail paths. Out of scope here: BL-023 item-level co
 | `court-bond-enter-basics` | Enter/modify/resolve bond | YES | **NO** | NO | YES (search/detail) | YES | NO | **HTTP IT hole** |
 | `court-work-queues-triage` | Open/triage work queues | YES | **NO** | NO | YES | YES | NO | |
 | `court-calendar-docket-day` | Calendar → case → date actions | PARTIAL | PARTIAL | NO | YES | YES | NO | Appearance via state machine IT only |
-| `court-payment-apply-from-case` | Apply payment from case | PARTIAL | PARTIAL (PayIt lean) | NO | PARTIAL (dialog Escape) | YES | NO | See Accounting table |
+| `court-payment-apply-from-case` | Apply payment from case | YES (`court-payment-apply`) | YES (clerk `POST accounting/transactions`) | NO | PARTIAL (dialog Escape) | YES | NO | Same apply lock as Accounting table |
 | `court-payment-accept-queue` | Accept pending from queue | YES (`court-payment-accept`) | YES (ITCA → approve) | NO | NO | YES | NO | Queue UI still thin; accept API locked |
 | `court-dismiss-validation-fail` | Dismiss rejected without required fields | YES | PARTIAL | NO | NO | PARTIAL | NO | |
 
@@ -60,7 +58,7 @@ Focus: happy path + critical fail paths. Out of scope here: BL-023 item-level co
 
 | Scenario id | Journey | API unit | API IT | Playwright | Screenshots | Customer docs | Internal scenario map | Notes |
 |-------------|---------|----------|--------|------------|-------------|---------------|----------------------|-------|
-| `court-payment-apply` | Clerk Apply payment → pending | PARTIAL | PARTIAL (PayIt ≠ clerk Apply) | NO | PARTIAL | YES | NO | Align tests to clerk path |
+| `court-payment-apply` | Clerk Apply payment → pending | YES | YES | NO | PARTIAL | YES | NO | Locked: unit + `CourtAccounting_PaymentApply_HttpTests` (clerk route; shares `ApplyPaymentAsync` with PayIt) |
 | `court-payment-accept` | Accept pending → final receipt | YES | YES | NO | NO | YES | NO | Locked: unit + `CourtAccounting_PaymentAccept_HttpTests` |
 | `court-payment-plan-create` | Create installment plan | PARTIAL | PARTIAL (SQL-seeded plan, not create HTTP) | NO | YES | YES | NO | |
 | `court-payment-plan-installment-pay` | Pay against plan | YES | YES | NO | NO | YES | NO | Stronger than create |
@@ -93,8 +91,8 @@ Focus: happy path + critical fail paths. Out of scope here: BL-023 item-level co
 | Layer | Court | Accounting | Collections |
 |-------|-------|------------|-------------|
 | Customer GitBook | Strong | Strong | Strong |
-| API unit | Strong (state machine); uneven elsewhere | Uneven; accept missing | Strong refer/remit/disburse units |
-| API integration | Strong state machine; weak bond/queues/calendar HTTP | PayIt/plan pay OK; accept/clerk apply/post batches thin | Remittance YES; refer/recall NO |
+| API unit | Strong (state machine); uneven elsewhere | Apply + accept locked; uneven elsewhere | Strong refer/remit/disburse units |
+| API integration | Strong state machine; weak bond/queues/calendar HTTP | PayIt/plan pay/apply/accept OK; post batches thin | Remittance YES; refer/recall NO |
 | Playwright e2e | PRE-PLEA Cancel only | None | None |
 | Docs screenshots | Many surfaces | Many surfaces | Portfolio/remit/disburse surfaces |
 | Internal scenario maps | PRE-PLEA pilot only | None | Plans exist; no scenario-id map |
@@ -117,7 +115,7 @@ Policy: **unit = mocks/InMemory**; **integration = Docker SQL**. See product-rep
 ## Suggested order of work
 
 1. ~~**Lock `court-payment-accept`** (unit + HTTP)~~ — done; optional thin Cancel e2e on accept queue if stable.  
-2. **Clerk `court-payment-apply`** integration (owned fixture) — distinguish from PayIt.  
+2. ~~**Clerk `court-payment-apply`** integration (owned fixture)~~ — done; clerk `POST accounting/transactions` (not only PayIt).  
 3. **`collections-refer` / `collections-recall` HTTP** — mirror existing unit cases.  
 4. **Flywheel maps** for activate + judgment (API already ready) using the PRE-PLEA pilot template.  
 5. Bond / deposit-post / disbursement HTTP as capacity allows.  
