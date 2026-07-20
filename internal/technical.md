@@ -8,6 +8,8 @@ Document how Thin Line builds, deploys, and operates the platform — for staff,
 
 ## Contents
 
+* [Codebase size by release](technical/codebase-size-by-release.md) — POC: UI/API LOC at selected `release/**` tips
+
 <mark style="color:red;">**TODO:**</mark> Add runbooks for:
 
 * Azure environments and tenant provisioning (Bicep)
