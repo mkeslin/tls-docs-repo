@@ -15,6 +15,7 @@ These pages are **customer-safe**. They do not include Thin Line internal engine
 | [Customer implementation workbook](customer-implementation-workbook.md) | Modular framework: what to collect, when, and who |
 | [Configuration discovery workbook](configuration-discovery-workbook.md) | Approve product configuration decisions (modular by purchased products) |
 | [Go-live and hypercare brief](go-live-and-hypercare-brief.md) | Customer-facing notice of cutover and the hypercare window |
+| [TLETS interface application](tlets-interface-application.md) | <mark style="color:red;">Coming soon</mark> — agency guide for in-app TLETS/NCIC query approval |
 
 Thin Line facilitators: use the internal [Working session workbook template](../../internal/templates/working-session-workbook.md) during discovery meetings (not a customer handout).
 

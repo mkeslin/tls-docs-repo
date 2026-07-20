@@ -116,6 +116,19 @@
   * [Implementation Readiness Assessment](assessments/implementation-readiness-assessment.md)
   * [Go-Live Readiness Assessment](assessments/go-live-readiness-assessment.md)
 
+## Compliance
+
+* [Compliance](compliance/README.md)
+  * [TLETS application (internal)](compliance/tlets/README.md)
+    * [Word forms (download)](compliance/tlets/forms/README.md)
+      * [TLETS Interface Questionnaire (.docx)](compliance/tlets/forms/tlets-interface-questionnaire.docx)
+      * [CJIS Interface Approval Packet (.docx)](compliance/tlets/forms/cjis-security-office-interface-approval-packet.docx)
+    * [Interface Questionnaire answers](compliance/tlets/interface-questionnaire.md)
+    * [Interface Approval Packet answers](compliance/tlets/interface-approval-packet.md)
+    * [Direct-interface scope](compliance/tlets/direct-interface-scope.md)
+    * [Open decisions](compliance/tlets/open-decisions.md)
+    * [Agency guide (planned)](compliance/tlets/agency-guide-planned.md)
+
 ## Backlog & design
 
 * [Backlog & design](backlog/README.md)

@@ -42,6 +42,7 @@
   * [Customer implementation workbook](implementation/customer-implementation-workbook.md)
   * [Configuration discovery workbook](implementation/configuration-discovery-workbook.md)
   * [Go-live and hypercare brief](implementation/go-live-and-hypercare-brief.md)
+* [TLETS interface application](implementation/tlets-interface-application.md)
 * [Training](training/README.md)
   * [Training by role](training/roles/README.md)
     * [Patrol officer](training/roles/patrol-officer.md)

@@ -125,6 +125,19 @@
 * [Implementation Readiness Assessment](internal/assessments/implementation-readiness-assessment.md)
 * [Go-Live Readiness Assessment](internal/assessments/go-live-readiness-assessment.md)
 
+### Compliance
+
+* [Compliance](internal/compliance/README.md)
+  * [TLETS application (internal)](internal/compliance/tlets/README.md)
+    * [Word forms (download)](internal/compliance/tlets/forms/README.md)
+      * [TLETS Interface Questionnaire (.docx)](internal/compliance/tlets/forms/tlets-interface-questionnaire.docx)
+      * [CJIS Interface Approval Packet (.docx)](internal/compliance/tlets/forms/cjis-security-office-interface-approval-packet.docx)
+    * [Interface Questionnaire answers](internal/compliance/tlets/interface-questionnaire.md)
+    * [Interface Approval Packet answers](internal/compliance/tlets/interface-approval-packet.md)
+    * [Direct-interface scope](internal/compliance/tlets/direct-interface-scope.md)
+    * [Open decisions](internal/compliance/tlets/open-decisions.md)
+    * [Agency guide (planned)](internal/compliance/tlets/agency-guide-planned.md)
+
 ### Backlog & design
 
 * [Backlog & design](internal/backlog/README.md)
@@ -232,6 +245,7 @@
   * [Customer implementation workbook](customer/implementation/customer-implementation-workbook.md)
   * [Configuration discovery workbook](customer/implementation/configuration-discovery-workbook.md)
   * [Go-live and hypercare brief](customer/implementation/go-live-and-hypercare-brief.md)
+  * [TLETS interface application](customer/implementation/tlets-interface-application.md)
 * [Training](customer/training/README.md)
   * [Training by role](customer/training/roles/README.md)
     * [Patrol officer](customer/training/roles/patrol-officer.md)

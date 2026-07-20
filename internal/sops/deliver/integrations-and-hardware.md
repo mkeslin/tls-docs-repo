@@ -17,6 +17,8 @@ Connect and prove customer-required **integrations** (TLETS, payments, partners,
 
 **Boundary:** [Configuration](configuration/README.md) owns device and integration **software settings** in Admin. This phase owns **installation, connectivity, compatibility, and end-to-end proof**. See [Bootstrap vs configuration](infrastructure/bootstrap-vs-configuration.md).
 
+**TLETS / NCIC in-app queries:** Interface approval is a compliance track, not only a go-live checkbox. Internal playbook: [TLETS application](../../compliance/tlets/README.md). Customer agency guide: <mark style="color:red;">planned</mark> — [Agency guide (planned)](../../compliance/tlets/agency-guide-planned.md).
+
 ---
 
 ## Inputs
