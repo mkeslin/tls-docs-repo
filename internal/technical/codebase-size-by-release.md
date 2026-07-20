@@ -4,7 +4,7 @@ Non-blank lines of code for **ThinLine.API** and **ThinLine.UI** at selected `or
 
 Measured: **2026-07-20** (local clone tip of each remote-tracking branch).
 
-Status: <mark style="color:red;">**Draft**</mark> — major-line releases (`X.0.0`) plus current tip (`6.4.0`). Full `release/**` sweep still deferred.
+Status: Draft — major-line releases (`X.0.0`) plus current tip (`6.4.0`). Full `release/**` sweep still deferred.
 
 ## Major releases (`X.0.0`)
 

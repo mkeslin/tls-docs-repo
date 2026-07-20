@@ -172,6 +172,7 @@
 * [Customer success](internal/customer-success/README.md)
 * [Product](internal/product/README.md)
 * [Technical](internal/technical/README.md)
+  * [Codebase size by release](internal/technical/codebase-size-by-release.md)
 * [Policies](internal/policies/README.md)
   * [Migration Pricing Policy](internal/policies/migration-pricing.md)
 * [Checklists](internal/checklists/README.md)

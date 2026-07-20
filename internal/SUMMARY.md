@@ -163,6 +163,7 @@
 * [Customer success](customer-success.md)
 * [Product](product.md)
 * [Technical](technical.md)
+  * [Codebase size by release](technical/codebase-size-by-release.md)
 * [Policies](policies.md)
   * [Migration Pricing Policy](policies/migration-pricing.md)
 * [Checklists](checklists/README.md)

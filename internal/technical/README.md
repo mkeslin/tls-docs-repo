@@ -10,7 +10,7 @@ Document how Thin Line builds, deploys, and operates the platform — for staff,
 
 | Document | Purpose |
 |----------|---------|
-| [Codebase size by release](codebase-size-by-release.md) | POC: UI/API non-blank LOC at selected `release/**` tips |
+| [Codebase size by release](codebase-size-by-release.md) | UI/API non-blank LOC at selected `release/**` tips |
 
 <mark style="color:red;">**TODO:**</mark> Add runbooks for:
 
