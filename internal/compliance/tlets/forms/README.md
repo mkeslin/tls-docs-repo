@@ -31,5 +31,12 @@ Synced from Thin Line Team Development → Reference Documents → TLETS.
 | Template | When to use | Download | Instructions |
 |---|---|---|---|
 | Agency boundary equipment and software worksheet | Detailed inventory accompanying the agency network diagram | [agency-boundary-equipment-worksheet.csv](agency-boundary-equipment-worksheet.csv) | [Worksheet guide](../agency-boundary-equipment-worksheet.md) |
+| Cloud data storage and third-party vendor disclosure | Cloud storage/CSP attachment for the interface packet | [cloud-data-storage-disclosure-template.docx](cloud-data-storage-disclosure-template.docx) | [Template guide](../cloud-data-storage-disclosure-template.md) |
+
+## Monitoring attachments
+
+| Template | When to use | Download | Instructions |
+|---|---|---|---|
+| SIEM monitoring and weekly review (SI-4) | Wraps the exported SIEM report with the weekly review record | [si-4-siem-monitoring-and-weekly-review.docx](si-4-siem-monitoring-and-weekly-review.docx) · [si-4-weekly-review-log.csv](si-4-weekly-review-log.csv) | [Template guide](../si-4-siem-monitoring-and-weekly-review.md) |
 
 **Last synced / generated:** 2026-07-20

@@ -142,6 +142,24 @@ Required diagram content:
 
 ---
 
+## Cloud data storage details — **TL draft; Agency reviews**
+
+Thin Line should prepare this attachment because Thin Line controls the cloud deployment and third-party service relationships. The agency reviews it and includes the approved, agency-specific copy in its submission.
+
+**Ready-to-complete attachment:** [Cloud data storage and third-party vendor disclosure](cloud-data-storage-disclosure-template.md).
+
+At minimum, the completed attachment must identify:
+
+1. Each production database, attachment/file store, backup/replica, and log/telemetry store
+2. Exact Azure Government region for each resource and any backup/replication location
+3. Data categories, encryption, retention, deletion, and access ownership
+4. Microsoft as the primary CSP and every other third party that stores or may retain agency-related data
+5. Current evidence for configured resources—not merely capabilities available from Azure
+
+Do not finalize the attachment until the agency's file storage, log retention, identity-provider residency, enabled integrations, and proposed TLETS connector storage/logging have been verified.
+
+---
+
 ## SC-7 Boundary protection
 
 ### Checkbox rows — **Agency** for agency network; **TL** supports Azure narrative
@@ -256,8 +274,8 @@ Per device type (MDT/MDC, laptops, tablets, smartphones): agency marks **Yes / N
 |------|--------------------|----------|
 | Fully executed Addendum + FBI pages | Required | — |
 | Updated FOUO network diagram | Required | — |
-| Cloud storage / CSP details | Azure Government inventory / narrative | — |
-| SIEM + weekly review samples | Agency SIEM (and/or Thin Line Sentinel samples if shared arrangement) | <mark style="color:red;">Missing SIEM = expect kickback</mark> |
+| Cloud storage / CSP details | Completed [cloud storage and third-party disclosure](cloud-data-storage-disclosure-template.md) with current evidence | — |
+| SIEM + weekly review samples | Exported SIEM report **plus** the completed [SI-4 monitoring and weekly review](si-4-siem-monitoring-and-weekly-review.md) log | <mark style="color:red;">Report alone (no review record) = expect kickback</mark> |
 | Remote access policy + vendor remote procedure | Agency policy + Thin Line support SOP | — |
 | This packet + Interface Questionnaire | Both | — |
 

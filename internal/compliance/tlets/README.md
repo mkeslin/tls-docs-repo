@@ -19,6 +19,8 @@ Playbook for Thin Line staff applying to run **NCIC / TLETS queries from within 
 | [Agency network diagram template](agency-network-diagram-template.md) | Use when the agency needs a complete proposed CJIS/TLETS diagram |
 | [Thin Line network diagram insert](thin-line-network-diagram-insert.md) | Use when the agency already has a diagram and needs the Thin Line/Azure portion |
 | [Agency boundary equipment worksheet](agency-boundary-equipment-worksheet.md) | Inventory make/model, installed and latest versions, updates, support dates, and diagram IDs |
+| [Cloud data storage disclosure](cloud-data-storage-disclosure-template.md) | Agency-specific storage locations, backups, retention, and third-party vendor register |
+| [SIEM monitoring and weekly review (SI-4)](si-4-siem-monitoring-and-weekly-review.md) | Monitoring narrative plus weekly review log that wraps the exported SIEM report |
 | [Direct-interface scope](direct-interface-scope.md) | Working scope statement for the packet |
 | [Open decisions](open-decisions.md) | Blockers before locking Word-form answers |
 | [Agency guide (planned)](agency-guide-planned.md) | Future **customer** section — not published yet |
@@ -30,6 +32,9 @@ Playbook for Thin Line staff applying to run **NCIC / TLETS queries from within 
 - [Agency remote access policy (.docx)](forms/agency-remote-access-policy-template.docx)
 - [Thin Line remote access addendum (.docx)](forms/thin-line-remote-access-addendum-template.docx)
 - [Agency boundary equipment worksheet (.csv)](forms/agency-boundary-equipment-worksheet.csv)
+- [Cloud data storage disclosure (.docx)](forms/cloud-data-storage-disclosure-template.docx)
+- [SIEM monitoring and weekly review (.docx)](forms/si-4-siem-monitoring-and-weekly-review.docx)
+- [SIEM weekly review log (.csv)](forms/si-4-weekly-review-log.csv)
 
 **Monorepo packet sources (PDF export, evidence, agencies):**  
 `ThinLineSoftware` → `Docs/TLETS/` (phase-1, attestation-kit, application, evidence, agencies)
@@ -53,6 +58,7 @@ Playbook for Thin Line staff applying to run **NCIC / TLETS queries from within 
 - [ ] Complete **TLETS Interface Questionnaire** ([fill guide](interface-questionnaire.md))
 - [ ] Complete / coordinate **CJIS Security Office Interface Approval Questionnaire**
 - [ ] Architecture diagrams showing **TLETS query path** (UI → Thin Line interface → DPS); use the [complete agency template](agency-network-diagram-template.md) or [Thin Line insert](thin-line-network-diagram-insert.md)
+- [ ] Complete the [cloud data storage and third-party vendor disclosure](cloud-data-storage-disclosure-template.md) from current production evidence
 - [ ] Direct-interface scope ([direct-interface-scope.md](direct-interface-scope.md)) — CPSO pass before export
 - [ ] Agency attestation / addendum / fingerprint evidence
 - [ ] Agency network diagram update: Thin Line query UI + interface connector + ORI
