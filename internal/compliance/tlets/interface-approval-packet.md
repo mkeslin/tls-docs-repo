@@ -110,6 +110,10 @@ Agency completes each row. Thin Line does **not** invent agency policy answers.
 
 **Attachment:** Agency remote access policy + step-by-step process + MFA/AA + encryption for remote CJI paths. Thin Line may attach a **vendor support remote-access SOP** as a supplement.
 
+**Ready-to-adopt starting point:** [Agency remote access policy template](agency-remote-access-policy-template.md). The agency selects its actual access model, completes placeholders and the FIPS evidence register, deletes unused alternatives, and signs the approval section.
+
+**Agency already has a remote-access policy:** use the narrower [Thin Line remote access addendum](thin-line-remote-access-addendum-template.md) instead.
+
 ---
 
 ## CM-2 Network diagram — **Agency** (+ TL may draft)

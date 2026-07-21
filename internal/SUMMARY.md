@@ -125,6 +125,8 @@
       * [CJIS Interface Approval Packet (.docx)](compliance/tlets/forms/cjis-security-office-interface-approval-packet.docx)
     * [Interface Questionnaire answers](compliance/tlets/interface-questionnaire.md)
     * [Interface Approval Packet answers](compliance/tlets/interface-approval-packet.md)
+    * [Agency remote access policy template](compliance/tlets/agency-remote-access-policy-template.md)
+    * [Thin Line remote access addendum](compliance/tlets/thin-line-remote-access-addendum-template.md)
     * [Direct-interface scope](compliance/tlets/direct-interface-scope.md)
     * [Open decisions](compliance/tlets/open-decisions.md)
     * [Agency guide (planned)](compliance/tlets/agency-guide-planned.md)

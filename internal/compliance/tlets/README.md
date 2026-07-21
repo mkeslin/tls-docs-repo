@@ -14,6 +14,8 @@ Playbook for Thin Line staff applying to run **NCIC / TLETS queries from within 
 | [Word forms (download)](forms/README.md) | DPS `.docx` working copies |
 | [Interface Questionnaire answers](interface-questionnaire.md) | **Pickable answer versions** for the TLETS Interface Questionnaire |
 | [Interface Approval Packet answers](interface-approval-packet.md) | **Pickable answer versions** for the CJIS Security Office Interface Approval Packet |
+| [Agency remote access policy template](agency-remote-access-policy-template.md) | Use when the agency needs a complete policy |
+| [Thin Line remote access addendum](thin-line-remote-access-addendum-template.md) | Use when the agency already has a policy and needs Thin Line-specific language |
 | [Direct-interface scope](direct-interface-scope.md) | Working scope statement for the packet |
 | [Open decisions](open-decisions.md) | Blockers before locking Word-form answers |
 | [Agency guide (planned)](agency-guide-planned.md) | Future **customer** section — not published yet |
