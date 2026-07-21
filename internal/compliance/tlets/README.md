@@ -16,6 +16,8 @@ Playbook for Thin Line staff applying to run **NCIC / TLETS queries from within 
 | [Interface Approval Packet answers](interface-approval-packet.md) | **Pickable answer versions** for the CJIS Security Office Interface Approval Packet |
 | [Agency remote access policy template](agency-remote-access-policy-template.md) | Use when the agency needs a complete policy |
 | [Thin Line remote access addendum](thin-line-remote-access-addendum-template.md) | Use when the agency already has a policy and needs Thin Line-specific language |
+| [Agency network diagram template](agency-network-diagram-template.md) | Use when the agency needs a complete proposed CJIS/TLETS diagram |
+| [Thin Line network diagram insert](thin-line-network-diagram-insert.md) | Use when the agency already has a diagram and needs the Thin Line/Azure portion |
 | [Direct-interface scope](direct-interface-scope.md) | Working scope statement for the packet |
 | [Open decisions](open-decisions.md) | Blockers before locking Word-form answers |
 | [Agency guide (planned)](agency-guide-planned.md) | Future **customer** section — not published yet |
@@ -48,7 +50,7 @@ Playbook for Thin Line staff applying to run **NCIC / TLETS queries from within 
 
 - [ ] Complete **TLETS Interface Questionnaire** ([fill guide](interface-questionnaire.md))
 - [ ] Complete / coordinate **CJIS Security Office Interface Approval Questionnaire**
-- [ ] Architecture diagrams showing **TLETS query path** (UI → Thin Line interface → DPS)
+- [ ] Architecture diagrams showing **TLETS query path** (UI → Thin Line interface → DPS); use the [complete agency template](agency-network-diagram-template.md) or [Thin Line insert](thin-line-network-diagram-insert.md)
 - [ ] Direct-interface scope ([direct-interface-scope.md](direct-interface-scope.md)) — CPSO pass before export
 - [ ] Agency attestation / addendum / fingerprint evidence
 - [ ] Agency network diagram update: Thin Line query UI + interface connector + ORI

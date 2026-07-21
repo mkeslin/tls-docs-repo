@@ -118,7 +118,13 @@ Agency completes each row. Thin Line does **not** invent agency policy answers.
 
 ## CM-2 Network diagram — **Agency** (+ TL may draft)
 
-No multiple-choice narrative — checklist of required diagram content:
+The agency owns and approves the final diagram because it must represent the agency's actual network and controls. This is a **joint artifact**, however: Thin Line should provide and verify the Thin Line/Azure Government/interface portion rather than asking the agency to infer it.
+
+**Ready-to-adopt starting point:** [Agency network diagram template](agency-network-diagram-template.md). Use when the agency does not have a suitable current diagram; the agency replaces placeholders, removes unused alternatives, verifies its environment, and approves the result.
+
+**Agency already has a diagram:** provide the narrower [Thin Line network diagram insert](thin-line-network-diagram-insert.md) for the agency to incorporate.
+
+Required diagram content:
 
 1. Paths from agency systems through interconnection to endpoints  
 2. Logical location of firewalls, routers, switches, servers, encryption, clients (counts OK)  

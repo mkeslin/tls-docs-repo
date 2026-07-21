@@ -129,6 +129,8 @@
     * [Interface Approval Packet answers](compliance/tlets/interface-approval-packet.md)
     * [Agency remote access policy template](compliance/tlets/agency-remote-access-policy-template.md)
     * [Thin Line remote access addendum](compliance/tlets/thin-line-remote-access-addendum-template.md)
+    * [Agency network diagram template](compliance/tlets/agency-network-diagram-template.md)
+    * [Thin Line network diagram insert](compliance/tlets/thin-line-network-diagram-insert.md)
     * [Direct-interface scope](compliance/tlets/direct-interface-scope.md)
     * [Open decisions](compliance/tlets/open-decisions.md)
     * [Agency guide (planned)](compliance/tlets/agency-guide-planned.md)
