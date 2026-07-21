@@ -123,6 +123,8 @@
     * [Word forms (download)](compliance/tlets/forms/README.md)
       * [TLETS Interface Questionnaire (.docx)](compliance/tlets/forms/tlets-interface-questionnaire.docx)
       * [CJIS Interface Approval Packet (.docx)](compliance/tlets/forms/cjis-security-office-interface-approval-packet.docx)
+      * [Agency remote access policy (.docx)](compliance/tlets/forms/agency-remote-access-policy-template.docx)
+      * [Thin Line remote access addendum (.docx)](compliance/tlets/forms/thin-line-remote-access-addendum-template.docx)
     * [Interface Questionnaire answers](compliance/tlets/interface-questionnaire.md)
     * [Interface Approval Packet answers](compliance/tlets/interface-approval-packet.md)
     * [Agency remote access policy template](compliance/tlets/agency-remote-access-policy-template.md)

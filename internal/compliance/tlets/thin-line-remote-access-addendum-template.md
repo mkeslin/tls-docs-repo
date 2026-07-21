@@ -8,6 +8,11 @@
 **Effective date:** [DATE]  
 **Approved by:** [APPROVING AUTHORITY]
 
+### Download Word
+
+- **[Thin Line remote access addendum (.docx)](forms/thin-line-remote-access-addendum-template.docx)**
+- Also listed under [Word forms](forms/README.md)
+
 > Replace every bracketed field, select the applicable access model, delete unused alternatives, and obtain agency approval. The existing agency policy remains controlling; the more restrictive requirement applies if documents conflict.
 
 ## Thin Line system and support boundary

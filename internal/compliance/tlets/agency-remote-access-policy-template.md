@@ -7,6 +7,11 @@
 **Approved by:** [APPROVING AUTHORITY]  
 **Review cycle:** At least annually and after material access or architecture changes
 
+### Download Word
+
+- **[Agency remote access policy template (.docx)](forms/agency-remote-access-policy-template.docx)**
+- Also listed under [Word forms](forms/README.md)
+
 > Replace every bracketed field, select the applicable access model, delete unused alternatives, and have the agency CJISO / authorized official approve the result. This template does not replace agency counsel, DPS, or CJIS Security Office direction.
 
 ## Purpose

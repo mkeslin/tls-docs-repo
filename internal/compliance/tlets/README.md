@@ -24,6 +24,8 @@ Playbook for Thin Line staff applying to run **NCIC / TLETS queries from within 
 
 - [TLETS Interface Questionnaire (.docx)](forms/tlets-interface-questionnaire.docx)
 - [CJIS Security Office Interface Approval Packet (.docx)](forms/cjis-security-office-interface-approval-packet.docx)
+- [Agency remote access policy (.docx)](forms/agency-remote-access-policy-template.docx)
+- [Thin Line remote access addendum (.docx)](forms/thin-line-remote-access-addendum-template.docx)
 
 **Monorepo packet sources (PDF export, evidence, agencies):**  
 `ThinLineSoftware` → `Docs/TLETS/` (phase-1, attestation-kit, application, evidence, agencies)
