@@ -162,6 +162,8 @@ Required diagram content:
 
 Agency must still attach make/model/OS/firmware/EoS equipment list for **agency** devices.
 
+**Ready-to-complete attachment:** [Agency boundary equipment and software worksheet](agency-boundary-equipment-worksheet.md) · [Download CSV](forms/agency-boundary-equipment-worksheet.csv). Each row uses a Diagram ID so the inventory can be reconciled to the network diagram.
+
 ---
 
 ## SC-13 Cryptographic protection (in transit) — **TL draft; agency confirms endpoint policies**

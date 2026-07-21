@@ -26,4 +26,10 @@ Synced from Thin Line Team Development → Reference Documents → TLETS.
 | Agency remote access policy | Agency has no remote-access policy | [agency-remote-access-policy-template.docx](agency-remote-access-policy-template.docx) | [Markdown](../agency-remote-access-policy-template.md) |
 | Thin Line remote access addendum | Agency already has a policy | [thin-line-remote-access-addendum-template.docx](thin-line-remote-access-addendum-template.docx) | [Markdown](../thin-line-remote-access-addendum-template.md) |
 
+## Network diagram attachments
+
+| Template | When to use | Download | Instructions |
+|---|---|---|---|
+| Agency boundary equipment and software worksheet | Detailed inventory accompanying the agency network diagram | [agency-boundary-equipment-worksheet.csv](agency-boundary-equipment-worksheet.csv) | [Worksheet guide](../agency-boundary-equipment-worksheet.md) |
+
 **Last synced / generated:** 2026-07-20

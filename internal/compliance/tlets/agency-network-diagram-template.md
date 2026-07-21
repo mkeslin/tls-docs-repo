@@ -101,6 +101,7 @@ flowchart LR
 - [ ] Diagram shows agency name, ORI, revision date, preparer, and handling marking.
 - [ ] All agency endpoints that may display, process, transmit, or store CJI are shown by type and count.
 - [ ] Relevant routers, switches, firewalls, IDS/IPS, VPN/remote-access paths, servers, and network segments are shown.
+- [ ] Each relevant equipment/software object has a Diagram ID matching the [boundary equipment worksheet](agency-boundary-equipment-worksheet.md).
 - [ ] Trust boundaries and ownership are explicit: Agency, Thin Line/Azure Government, and DPS.
 - [ ] Every path crossing a secure boundary identifies the transport and encryption.
 - [ ] Remote-access paths match the agency's approved remote-access policy.
@@ -116,5 +117,6 @@ Export the approved diagram to PDF or the format requested by DPS. Mermaid sourc
 ## Related
 
 - [Thin Line network diagram insert](thin-line-network-diagram-insert.md)
+- [Agency boundary equipment and software worksheet](agency-boundary-equipment-worksheet.md)
 - [Interface Approval Packet answers](interface-approval-packet.md)
 - [Direct-interface scope](direct-interface-scope.md)
