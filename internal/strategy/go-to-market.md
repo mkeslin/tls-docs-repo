@@ -1,7 +1,7 @@
 # Go-to-market
 
 **Document type:** Strategy  
-**Status:** v0.1  
+**Status:** v0.2  
 **Audience:** Internal — sales, founders, customer success  
 **Related:** [Vision and principles](vision-and-principles.md) · [Annual operating plan — 2026 H2](annual-operating-plan-2026-h2.md) · [Generate new leads](../sops/acquire/generate-new-leads.md) · [Capture referral](../sops/advocate/capture-referral.md)
 
@@ -13,30 +13,99 @@ Define **where** Thin Line focuses commercially and **which channels** create ne
 
 ---
 
-## Ideal customer profile (ICP)
+## Support boundary
 
-| Dimension | Focus |
-|-----------|--------|
-| Geography | Texas agencies, with **West Texas / South Plains first** |
-| Size | Small and mid-sized agencies (aligns with vision; avoid enterprise pursuits that distract from ICP) |
-| Product fit | Agencies that can adopt Thin Line Platform modules (RMS, CAD, Court, Jail, related) as sold today |
-| Buying motion | Chief / command / court leadership relationships; association and peer influence matter |
-
-<mark style="color:red;">**TODO:**</mark> Tighten ICP with explicit size bands (officers, seats, or population) once agreed.
+**Texas only.** Thin Line does not support agencies outside Texas.
 
 ---
 
-## Geographic priority
+## Geographic priority (within Texas)
 
 Principle: **Regional dominance before national expansion** ([Vision and principles](vision-and-principles.md)).
 
-| Priority | Region | Intent |
+| Priority | Focus | Intent |
 |---------:|--------|--------|
-| 1 | West Texas / South Plains | Density of relationships, travel efficiency, reference network |
-| 2 | Adjacent Texas regions | Expand rings from a strong base |
-| 3 | Broader Texas | Only when Priority 1–2 pipeline and delivery capacity support it |
+| 1 | Close to **Lubbock** / **West Texas** (incl. South Plains) | Highest density of relationships, travel efficiency, reference network |
+| 2 | Close to **existing customers** | Build geographic **clusters** around live references |
+| — | Other Texas | Allowed when opportunity quality is high; not the default outbound focus |
 
-Outbound and field work should prefer Priority 1 unless a warm inbound or referral justifies otherwise.
+Outbound, list work, and field days should prefer Priority 1, then Priority 2. Opportunities elsewhere in Texas are open when they fit ICP and capacity.
+
+---
+
+## Disqualifiers (all segments)
+
+Walk away or pause (even if interested) when:
+
+- Budget is immovable / no realistic path to afford Thin Line  
+- The deal requires **substantial custom development** to close or implement  
+
+Warm exceptions still need founder agreement before promising custom scope.
+
+---
+
+## Module packaging (current commercial rule)
+
+| Rule | Current state |
+|------|----------------|
+| **RMS / CAD** | Primary LE entry. Almost all PD customers use RMS; CAD/RMS may sell separately if needed. |
+| **Court** | Sold to customers who use (or will use) **RMS/CAD** — existing Thin Line customers or new customers buying the LE + court path. |
+| **Jail** | Same pattern: jail with RMS/CAD path (existing or new). |
+| **Standalone court** | Desired later; **not ready** — do not pursue as primary outbound. |
+| **Legacy displacement** | Strong recent traction with **CopSync** customers — prioritize when present. |
+
+---
+
+## Ideal customer profiles (ICP)
+
+Use the matching profile when filtering lists, planning field days, or qualifying inbound. Size bands are working guidance, not hard engineering limits.
+
+### Law enforcement (municipal PD and similar)
+
+| Dimension | ICP (current) |
+|-----------|----------------|
+| **Who** | Texas municipal / local police departments (and similar LE agencies) |
+| **Size** | Core base around **~15 officers**; actively pursuing **larger** agencies (example direction: Levelland-scale and up from the ~15 core) |
+| **Products** | RMS and/or CAD; court/jail only under the packaging rules above |
+| **Strong signal** | Existing **CopSync** (or similar displaceable) customer |
+| **Buyer** | Chief / command; city stakeholders as needed |
+| **Not now** | Enterprise-sized pursuits that overwhelm delivery or force heavy custom work |
+
+<mark style="color:red;">**TODO:**</mark> Optional — set explicit min/max officer counts once leadership wants a hard cutoff.
+
+### Municipal court
+
+| Dimension | ICP (current) |
+|-----------|----------------|
+| **Who** | Texas municipal courts tied to an RMS/CAD Thin Line path (same city / agency relationship) |
+| **Size** | **One clerk and one judge** — do not pursue larger court staffing models for now |
+| **Products** | Court with RMS/CAD (existing customer expansion or new combined deal) |
+| **Buyer** | Court clerk / judge; city admin as needed; coordinate with LE relationship |
+| **Not now** | **Standalone court** (no RMS/CAD path) · multi-clerk / multi-judge courts |
+
+### County sheriff / jail
+
+| Dimension | ICP (current) |
+|-----------|----------------|
+| **Who** | Texas county jails / sheriff jail operations on an RMS/CAD Thin Line path |
+| **Size** | Current proven scale ~**15-bed** jail; larger jails are a future capability (more product/test work) — do not treat large jails as default outbound ICP yet |
+| **Products** | Jail with RMS/CAD (existing or new) |
+| **Buyer** | Sheriff / jail admin; county stakeholders as needed |
+| **Not now** | Large jail pursuits that assume unbuilt capacity · jail-only with no RMS/CAD path without founder agreement |
+
+Sheriff **LE** (RMS/CAD) opportunities follow the **Law enforcement** profile; jail module follows this jail profile.
+
+---
+
+## Commercial coverage (current vs target)
+
+| Segment | Current coverage | Target |
+|---------|------------------|--------|
+| Law enforcement | Acquire owner (Fugate) primary | Sustainable LE ownership on Acquire |
+| Municipal court | Founder-led (Keslin) today | Transition court selling into repeatable Acquire ownership — <mark style="color:red;">**TODO:**</mark> timing / handoff plan |
+| Jail / sheriff | Limited; tied to platform readiness | Expand as jail product capacity grows |
+
+This is an operating-coverage note, not an ICP substitute.
 
 ---
 

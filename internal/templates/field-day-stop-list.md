@@ -23,7 +23,7 @@ Copy into the working notes for a specific territory day (Pipedrive, shared driv
 
 ## Stops
 
-Aim for a realistic count for drive time and walk-ins. Prefer [Go-to-market](../strategy/go-to-market.md) Priority 1 geography and ICP.
+Aim for a realistic count for drive time and walk-ins. Prefer [Go-to-market](../strategy/go-to-market.md) Priority 1 (Lubbock / West Texas), then Priority 2 (near existing customers). Match the correct ICP profile (LE, court, jail).
 
 | # | Agency | City | Address / notes | Contact if known | Why this stop | Pipedrive org? | Result (visited / unavailable / follow-up) | Next activity (date) |
 |---|--------|------|-----------------|------------------|---------------|----------------|---------------------------------------------|-------------|

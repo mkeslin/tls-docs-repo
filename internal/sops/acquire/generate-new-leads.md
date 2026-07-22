@@ -99,7 +99,7 @@ Lead generation is a mix of referrals, network, research, and ad hoc outreach. A
 
 ## 10. Target state
 
-Every new conversation is created through a known channel, logged in Pipedrive the same day, tagged with origin, and has a next activity. West Texas / South Plains is the default focus. Weekly outbound and monthly field cadence are normal operating rhythm.
+Every new conversation is created through a known channel, logged in Pipedrive the same day, tagged with origin, and has a next activity. Texas only; Lubbock / West Texas first, then clusters near existing customers. Weekly outbound and monthly field cadence are normal operating rhythm.
 
 ## 11. Gap analysis
 
@@ -116,8 +116,8 @@ Every new conversation is created through a known channel, logged in Pipedrive t
 |------|------------|
 | Duplicate orgs / people in Pipedrive | Search before create |
 | Outreach without next step | No close of activity without scheduling next |
-| Spreading too thin geographically | Prefer Priority 1 region |
-| List used without ICP filter | Skip non-ICP or out-of-priority agencies unless warm exception |
+| Spreading too thin geographically | Prefer Priority 1, then Priority 2 clusters ([Go-to-market](../../strategy/go-to-market.md)) |
+| List used without ICP filter | Skip non-ICP agencies; prefer Priority 1–2 for cold outbound |
 | Conversations only in email | Log summary activity in Pipedrive |
 
 ## 13. Decision trees
@@ -129,7 +129,7 @@ New outreach opportunity
     │
     ├─ In-person territory day planned? ──► Build stop list → visit → log same day
     │
-    ├─ Working association / mailing list? ──► Filter ICP + Priority 1 → batch outreach → log each
+    ├─ Working association / mailing list? ──► Filter ICP + geo priority (P1 then P2) → batch outreach → log each
     │
     └─ Event / inbound / other? ──► Log origin → first response → schedule next
 ```
@@ -186,7 +186,7 @@ Refine estimates at next review.
 ### C. Channel — Association / mailing list (South Plains Police Chiefs Association)
 
 1. Open the list from the agreed storage location (<mark style="color:red;">**TODO:**</mark> document path / drive location).  
-2. Filter to ICP and geographic Priority 1 unless an exception is documented.  
+2. Filter to the matching ICP profile ([Go-to-market](../../strategy/go-to-market.md)); prefer geographic Priority 1, then Priority 2 clusters. Other Texas OK when quality is high.  
 3. For each target in today’s batch: Procedure A, then outreach (call, email, and/or planned visit).  
 4. Record message theme used (keep copy snippets in Pipedrive or a shared draft location — <mark style="color:red;">**TODO:**</mark> approved first-touch language).  
 5. Do not paste the full mailing list into GitBook or public tools.
