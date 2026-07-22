@@ -63,5 +63,6 @@ Not enough inbound awareness
 
 ## Related documents
 
-- Related SOPs: <mark style="color:red;">**TODO:**</mark> link under `internal/sops/`
+- Strategy: [Go-to-market](../../strategy/go-to-market.md)
+- Related SOPs: [Generate new leads](../../sops/acquire/generate-new-leads.md)
 - Checklists / templates: <mark style="color:red;">**TODO:**</mark>

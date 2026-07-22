@@ -100,9 +100,11 @@ Next review date
 | 2 | [Deliver — Bootstrap Environment](deliver/infrastructure/bootstrap-environment.md) | v1 — Infrastructure PowerShell (`bootstrap-client.ps1`) |
 | 3 | [Deliver — Implementation overview](deliver/implementation-overview.md) | v1 — lifecycle 0–8 |
 | 4 | Deliver — Training / Go live / Hypercare SOPs | Placeholder phase overviews |
-| 5 | Acquire — demo | Not started |
-| 6 | Acquire — proposal / contract | Not started |
-| 7 | Operate — support triage | Not started |
+| 5 | [Acquire — Generate new leads](acquire/generate-new-leads.md) | v0.1 — channels + Pipedrive |
+| 6 | [Advocate — Capture referral](advocate/capture-referral.md) | v0.1 |
+| 7 | Acquire — demo | Not started |
+| 8 | Acquire — proposal / contract | Not started |
+| 9 | Operate — support triage | Not started |
 
 **Deliver:** Lifecycle-based implementation ([Implementation overview](deliver/implementation-overview.md)) — phases 0–8 (Sales handoff → Hypercare and transition), with SOPs/standards nested underneath.
 

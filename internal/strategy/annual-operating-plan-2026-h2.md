@@ -49,6 +49,7 @@ By the end of 2026, Thin Line will have proven that a unified RMS, CAD, Court, a
 * Complete White River PD
 * Continue growing municipal courts
 * Build 2027 pipeline while closing 2026 opportunities
+* Execute [Go-to-market](go-to-market.md) channels via [Generate new leads](../sops/acquire/generate-new-leads.md) and [Capture referral](../sops/advocate/capture-referral.md)
 
 ### Epic 2 — Product Platform
 

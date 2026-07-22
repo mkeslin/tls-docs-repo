@@ -21,4 +21,5 @@ Build the leading unified public safety platform for small and mid-sized Texas a
 ## Related
 
 - [Strategic roadmap 2026–2029](strategic-roadmap-2026-2029.md)
+- [Go-to-market](go-to-market.md)
 - [Customer value stream](../customer-value-engine/customer-value-stream.md)

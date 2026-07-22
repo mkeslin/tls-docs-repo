@@ -1,12 +1,17 @@
 # SOPs — Advocate
 
-SOPs for reference, referral, and community. Stage overviews: ../../customer-value-engine/advocate/
+SOPs for reference, referral, and community. Stage overviews: [Customer Value Engine — Advocate](../customer-value-engine/advocate/).
+
+Detail index: [advocate/](advocate/README.md).
 
 ## Procedures in this folder
 
-<mark style="color:red;">**TODO:**</mark> Add SOP files here as they are written. Use the standard SOP structure in [../README.md](./).
+| SOP | Status |
+|-----|--------|
+| [Capture referral](advocate/capture-referral.md) | v0.1 |
 
-Suggested first SOP filenames (create only when content is available):
+## Still to write
+
+Use the standard SOP structure in [README.md](README.md).
 
 * `sop-request-customer-reference.md`
-* `sop-capture-referral.md`

@@ -63,5 +63,6 @@ No repeatable system
 
 ## Related documents
 
-- Related SOPs: <mark style="color:red;">**TODO:**</mark> link under `internal/sops/`
-- Checklists / templates: <mark style="color:red;">**TODO:**</mark>
+- Strategy: [Go-to-market](../../strategy/go-to-market.md)
+- Related SOPs: [Capture referral](../../sops/advocate/capture-referral.md) · [Generate new leads](../../sops/acquire/generate-new-leads.md)
+- Templates: [Referral ask script](../../templates/referral-ask.md)

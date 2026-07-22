@@ -18,6 +18,7 @@
   * [Vision and principles](strategy/vision-and-principles.md)
   * [Strategic roadmap 2026–2029](strategy/strategic-roadmap-2026-2029.md)
   * [Annual operating plan — 2026 H2](strategy/annual-operating-plan-2026-h2.md)
+  * [Go-to-market](strategy/go-to-market.md)
   * [Quarterly scorecard](strategy/quarterly-scorecard.md)
 
 ## Company Operating System
@@ -63,6 +64,7 @@
 
 * [Standard operating procedures (SOPs)](sops/README.md)
   * [SOPs — Acquire](sops/acquire.md)
+    * [Generate new leads](sops/acquire/generate-new-leads.md)
   * [Deliver](sops/deliver/README.md)
     * [Implementation overview](sops/deliver/implementation-overview.md)
     * [Creating a new implementation](sops/deliver/creating-a-new-implementation.md)
@@ -108,6 +110,7 @@
   * [SOPs — Operate](sops/operate.md)
   * [SOPs — Expand](sops/expand.md)
   * [SOPs — Advocate](sops/advocate.md)
+    * [Capture referral](sops/advocate/capture-referral.md)
 
 ## Assessments
 
@@ -200,6 +203,8 @@
   * [Customer Validation Checklist](checklists/customer-validation-checklist.md)
   * [Migration Close-Out Checklist](checklists/migration-close-out-checklist.md)
 * [Templates](templates.md)
+  * [Field-day stop list](templates/field-day-stop-list.md)
+  * [Referral ask script](templates/referral-ask.md)
   * [Working session workbook](templates/working-session-workbook.md)
   * [Go-live decision record](templates/go-live-decision-record.md)
   * [Conversion Summary](templates/conversion-summary.md)
