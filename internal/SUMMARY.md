@@ -205,6 +205,7 @@
 * [Templates](templates.md)
   * [Field-day stop list](templates/field-day-stop-list.md)
   * [Referral ask script](templates/referral-ask.md)
+  * [Two-week sales plan](templates/sales-plan-two-week.md)
   * [Working session workbook](templates/working-session-workbook.md)
   * [Go-live decision record](templates/go-live-decision-record.md)
   * [Conversion Summary](templates/conversion-summary.md)

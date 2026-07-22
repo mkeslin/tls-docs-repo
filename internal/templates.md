@@ -10,6 +10,7 @@ Reusable starting material for internal and customer-facing work.
 | [Go-live decision record](templates/go-live-decision-record.md) | v1 |
 | [Field-day stop list](templates/field-day-stop-list.md) | v0.1 |
 | [Referral ask script](templates/referral-ask.md) | v0.1 |
+| [Two-week sales plan](templates/sales-plan-two-week.md) | v0.1 (blank + example) |
 | [Conversion Summary](templates/conversion-summary.md) | <mark style="color:red;">Placeholder</mark> |
 | [Customer Acceptance Form](templates/customer-acceptance-form.md) | <mark style="color:red;">Placeholder</mark> |
 

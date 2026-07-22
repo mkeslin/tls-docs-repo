@@ -3,7 +3,7 @@
 **Document type:** Strategy  
 **Status:** v0.2  
 **Audience:** Internal — sales, founders, customer success  
-**Related:** [Vision and principles](vision-and-principles.md) · [Annual operating plan — 2026 H2](annual-operating-plan-2026-h2.md) · [Generate new leads](../sops/acquire/generate-new-leads.md) · [Capture referral](../sops/advocate/capture-referral.md)
+**Related:** [Vision and principles](vision-and-principles.md) · [Annual operating plan — 2026 H2](annual-operating-plan-2026-h2.md) · [Generate new leads](../sops/acquire/generate-new-leads.md) · [Capture referral](../sops/advocate/capture-referral.md) · [Two-week sales plan](../templates/sales-plan-two-week.md)
 
 ---
 
@@ -178,6 +178,7 @@ Cadence is a **company** expectation for Acquire ownership — refine numbers af
 | South Plains Police Chiefs Association mailing list | Received | Canonical storage location and refresh process <mark style="color:red;">**TODO**</mark> |
 | Customer reference / referral roster | Informal | Formalize via Advocate SOPs |
 | Field-day stop list template | [Template](../templates/field-day-stop-list.md) | Use before each territory day |
+| Two-week sales plan | [Template](../templates/sales-plan-two-week.md) | Blank plan + illustrative example for Acquire |
 
 Do not commit personal contact lists or full mailing dumps into GitBook. Store lists in the agreed secure location; document only **where** and **how** they are used.
 

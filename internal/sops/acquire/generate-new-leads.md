@@ -245,6 +245,7 @@ Refine estimates at next review.
 - [Awareness](../../customer-value-engine/acquire/awareness.md) · [Cold leads](../../customer-value-engine/acquire/cold-leads.md) · [Warm leads](../../customer-value-engine/acquire/warm-leads.md)  
 - [Capture referral](../advocate/capture-referral.md)  
 - [Field-day stop list](../../templates/field-day-stop-list.md)  
+- [Two-week sales plan](../../templates/sales-plan-two-week.md)  
 
 ---
 
