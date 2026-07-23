@@ -8,6 +8,9 @@ Reusable starting material for internal and customer-facing work.
 |----------|--------|
 | [Working session workbook](working-session-workbook.md) | v1 (Thin Line only) |
 | [Go-live decision record](go-live-decision-record.md) | v1 |
+| [Field-day stop list](field-day-stop-list.md) | v0.1 |
+| [Referral ask script](referral-ask.md) | v0.1 |
+| [Two-week sales plan](sales-plan-two-week.md) | v0.1 (blank + example) |
 | [Conversion Summary](conversion-summary.md) | <mark style="color:red;">Placeholder</mark> |
 | [Customer Acceptance Form](customer-acceptance-form.md) | <mark style="color:red;">Placeholder</mark> |
 

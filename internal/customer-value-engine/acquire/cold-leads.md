@@ -63,5 +63,6 @@ Manual prospecting
 
 ## Related documents
 
-- Related SOPs: <mark style="color:red;">**TODO:**</mark> link under `internal/sops/`
-- Checklists / templates: <mark style="color:red;">**TODO:**</mark>
+- Strategy: [Go-to-market](../../strategy/go-to-market.md)
+- Related SOPs: [Generate new leads](../../sops/acquire/generate-new-leads.md)
+- Templates: [Field-day stop list](../../templates/field-day-stop-list.md)

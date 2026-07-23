@@ -17,8 +17,11 @@ Suggested future pages:
 * Health signals and risk escalation
 * Expansion qualification
 
+Referral asks at success moments: [Capture referral](sops/advocate/capture-referral.md).
+
 ## Related
 
 * [Expand stage](customer-value-engine/expand/)
 * [SOPs — Expand](sops/expand.md)
+* [Go-to-market](strategy/go-to-market.md)
 * Customer support resources: [`../../customer/support/`](../customer/support/)
