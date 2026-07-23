@@ -22,8 +22,17 @@ Send Perdue Brandon Fulton Collins & Mott LLP (PBFCM) pipe-delimited `.TXT` file
 - Runbook: product-repo `Docs/Court/PurdueBrandon/PBFCM-VENDOR-OUTBOUND-RUNBOOK.md`
 - Samples: `sample_NEW_PLACEMENTS.txt`, `sample_PAYMENT_ADJUSTMENT.txt`, `sample_CLOSED_CASE.txt`
 
-## Remaining after PBFCM call
+## Implementation notes (post Phase C + vendor Q&A)
 
-- Confirm layout defaults (IDs, Transaction Type, dates, PII, empty-day behavior).
-- Enter SFTP host/path/credentials on the agency.
-- Optional filename-pattern tweaks if they require a specific convention.
+- Export runs archive the three pipe `.TXT` bodies on `CollectionsVendorExportBatches`; download/transmit use archived bytes.
+- Filenames: `{AgencyName}_{yyyyMMdd}_{placements|adjustments|closed}.txt`.
+- Payments negative; INCREASE → positive ADJUSTMENT; DECREASE/time-served → negative ADJUSTMENT; closed = recalled only.
+- **Generate test** / `IsTestRun` excluded from nightly watermark.
+- Nightly `CVO` uses the same runs table (`IsScheduledRun`). Batch/monthly preferred by PBFCM.
+
+## Remaining
+
+- Enter SFTP host IP + credentials when PBFCM provides them (port 22).
+- Confirm sanitized agency `Name` is acceptable as `ClientName` stem (or add a dedicated field).
+
+Canonical runbook: product-repo `Docs/Court/PurdueBrandon/PBFCM-VENDOR-OUTBOUND-RUNBOOK.md`.
