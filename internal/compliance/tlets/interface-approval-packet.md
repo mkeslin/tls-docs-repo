@@ -110,7 +110,7 @@ Agency completes each row. Thin Line does **not** invent agency policy answers.
 
 **Attachment:** Agency remote access policy + step-by-step process + MFA/AA + encryption for remote CJI paths. Thin Line may attach a **vendor support remote-access SOP** as a supplement.
 
-**Ready-to-adopt starting point:** [Agency remote access policy template](agency-remote-access-policy-template.md). The agency selects its actual access model, completes placeholders and the FIPS evidence register, deletes unused alternatives, and signs the approval section.
+**Ready-to-adopt starting point:** [Agency remote access policy template](agency-remote-access-policy-template.md). The agency completes placeholders and the FIPS evidence register for the standard Thin Line access methods (Azure Government cloud administration + attended ScreenConnect support), and signs the approval section. On-premises connector administration is out of scope for the standard topology.
 
 **Agency already has a remote-access policy:** use the narrower [Thin Line remote access addendum](thin-line-remote-access-addendum-template.md) instead.
 
@@ -148,12 +148,14 @@ Thin Line should prepare this attachment because Thin Line controls the cloud de
 
 **Ready-to-complete attachment:** [Cloud data storage and third-party vendor disclosure](cloud-data-storage-disclosure-template.md).
 
-At minimum, the completed attachment must identify:
+Row-level **Cloud Storage Inventory** and **Third-Party Vendor Register** tables live in the companion TLETS equipment and cloud worksheet workbook (Excel) and are **incorporated by reference** into the Word disclosure (the columns do not fit Word).
+
+At minimum, the completed disclosure + workbook must identify:
 
 1. Each production database, attachment/file store, backup/replica, and log/telemetry store
 2. Exact Azure Government region for each resource and any backup/replication location
 3. Data categories, encryption, retention, deletion, and access ownership
-4. Microsoft as the primary CSP and every other third party that stores or may retain agency-related data
+4. Microsoft as the primary CSP and every other third party that stores or may retain agency-related data (including always-on Descope, Maps, SendGrid, Twilio; and Stripe / Azure AI only if enabled)
 5. Current evidence for configured resources—not merely capabilities available from Azure
 
 Do not finalize the attachment until the agency's file storage, log retention, identity-provider residency, enabled integrations, and proposed TLETS connector storage/logging have been verified.

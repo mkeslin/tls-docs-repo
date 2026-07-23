@@ -31,7 +31,7 @@ Synced from Thin Line Team Development → Reference Documents → TLETS.
 | Template | When to use | Download | Instructions |
 |---|---|---|---|
 | Agency boundary equipment and software worksheet | Detailed inventory accompanying the agency network diagram | [agency-boundary-equipment-worksheet.csv](agency-boundary-equipment-worksheet.csv) | [Worksheet guide](../agency-boundary-equipment-worksheet.md) |
-| Cloud data storage and third-party vendor disclosure | Cloud storage/CSP attachment for the interface packet | [cloud-data-storage-disclosure-template.docx](cloud-data-storage-disclosure-template.docx) | [Template guide](../cloud-data-storage-disclosure-template.md) |
+| Cloud data storage and third-party vendor disclosure | Cloud storage/CSP attachment for the interface packet; inventory/vendor tables incorporated by reference from the equipment and cloud Excel workbook | [cloud-data-storage-disclosure-template.docx](cloud-data-storage-disclosure-template.docx) | [Template guide](../cloud-data-storage-disclosure-template.md) |
 
 ## Monitoring attachments
 
