@@ -20,7 +20,7 @@ Playbook for Thin Line staff applying to run **NCIC / TLETS queries from within 
 | [Thin Line network diagram insert](thin-line-network-diagram-insert.md) | Use when the agency already has a diagram and needs the Thin Line/Azure portion |
 | [Agency boundary equipment worksheet](agency-boundary-equipment-worksheet.md) | Inventory make/model, installed and latest versions, updates, support dates, and diagram IDs |
 | [Cloud data storage disclosure](cloud-data-storage-disclosure-template.md) | Storage/backup/retention narrative; inventory + vendor tables by reference to the Excel workbook |
-| [SIEM monitoring and weekly review (SI-4)](si-4-siem-monitoring-and-weekly-review.md) | Monitoring narrative plus weekly review log that wraps the exported SIEM report |
+| [SIEM monitoring and weekly review (SI-4)](si-4-siem-monitoring-and-weekly-review.md) | Thin Line Azure/Sentinel **addendum** to the agency SIEM program; weekly review log by reference |
 | [Direct-interface scope](direct-interface-scope.md) | Working scope statement for the packet |
 | [Open decisions](open-decisions.md) | Blockers before locking Word-form answers |
 | [Agency guide (planned)](agency-guide-planned.md) | Future **customer** section — not published yet |

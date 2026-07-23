@@ -37,6 +37,6 @@ Synced from Thin Line Team Development → Reference Documents → TLETS.
 
 | Template | When to use | Download | Instructions |
 |---|---|---|---|
-| SIEM monitoring and weekly review (SI-4) | Wraps the exported SIEM report with the weekly review record | [si-4-siem-monitoring-and-weekly-review.docx](si-4-siem-monitoring-and-weekly-review.docx) · [si-4-weekly-review-log.csv](si-4-weekly-review-log.csv) | [Template guide](../si-4-siem-monitoring-and-weekly-review.md) |
+| SIEM monitoring and weekly review (SI-4) | Thin Line Azure/Sentinel addendum to agency SIEM; weekly review log by reference | [si-4-siem-monitoring-and-weekly-review.docx](si-4-siem-monitoring-and-weekly-review.docx) · [si-4-weekly-review-log.csv](si-4-weekly-review-log.csv) | [Template guide](../si-4-siem-monitoring-and-weekly-review.md) |
 
 **Last synced / generated:** 2026-07-20
