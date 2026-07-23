@@ -21,7 +21,7 @@ The highest-impact **remaining** bugs are **Heather's add/edit charges pain** (r
 |----|--------|-----------------|-------------------|-----------|
 | **CROSBY-006** | **Open** | Add/correct charges without constant workflow pain (Heather) | Charges editable **only while booking is DRAFT** and Charges step unlocked; **no add/edit/delete after accept**; DPS/grade **display** fixed (**CROSBY-012**) but not post-accept workflow | **Booking Amendments** design (supervisor append-only charges after accept) was implemented in a Cursor session but **never committed to git** — see plan `booking_amendments_system_29d83260.plan.md`. Does **not** include editing/deactivating accepted-era charges (by design). |
 | **CROSBY-007** | **Fixed (verify at Crosby)** | Deputy-started drafts visible on CC Jail **In Booking Process** without manual refresh | **SignalR** `BookingInProgressChanged` on JLM facility group reloads in-progress list when deputy creates/accepts/voids/deletes (`6ecba0986`). Visibility rule unchanged: `JailAgencyId` = CC Jail. | Confirm: deputy creates draft, jail JCC open → row appears within ~1s without page refresh. |
-| **CROSBY-014** | **Open (ops/investigate)** | Heather → PC Affidavit | Access still blocked after prior fix attempt | Permission/menu/report audit |
+| **CROSBY-014** | **Deferred (future version)** | Heather → PC Affidavit | Access still blocked after prior fix attempt | **Deferred to a future version**; revisit permission/menu/report audit when scheduled |
 
 **Not in this visit but related:** Post-accept **booking amendments** (charges, property, classification/medical/MH worksheets) — planned and built in chat, **not in `wt-jail`**. Would address the **after-accept add charges** slice of **CROSBY-006** only; intake-time edit UX and correcting accepted-era charge rows remain separate.
 
@@ -68,7 +68,7 @@ The highest-impact **remaining** bugs are **Heather's add/edit charges pain** (r
 | **P3 — UX** | Sort observation codes by recent use | Reduces code lookup friction — **fixed (CROSBY-011):** quick-select buttons for top codes |
 | **P3 — display** | DPS code + offense grade on booking | Magistrate workflow |
 | **Ops** | Michael → Jail Admin | **Fixed (CROSBY-013):** `MMARSHALL` has `JMS_SUPERVISOR` |
-| **Ops / investigate** | Heather → PC Affidavit | Reported broken after prior discussion |
+| **Ops / investigate** | Heather → PC Affidavit | Reported broken after prior discussion — **deferred to a future version (CROSBY-014)** |
 
 ---
 
@@ -116,7 +116,7 @@ The highest-impact **remaining** bugs are **Heather's add/edit charges pain** (r
 | # | Type | Request | Notes |
 |---|------|---------|-------|
 | 4a | **Config** | Michael → **Jail Admin** | Heather approved — role/permission assignment. **Fixed (CROSBY-013):** `MMARSHALL` assigned **`JMS_SUPERVISOR`** (+ `JMS_OFFICER`) in `AuthUserRoles`. |
-| 4b | **Config / bug** | Heather → **PC Affidavit** access | She says prior discussion with Matt didn't fix it. Needs **permission audit**: role, feature flag, agency module, report route, or incident/court module gate. |
+| 4b | **Config / bug** | Heather → **PC Affidavit** access | She says prior discussion with Matt didn't fix it. **Deferred to a future version (CROSBY-014).** When revisited, needs a **permission audit**: role, feature flag, agency module, report route, or incident/court module gate. |
 
 ---
 
@@ -137,7 +137,7 @@ The highest-impact **remaining** bugs are **Heather's add/edit charges pain** (r
 4. ~~**CC Jail board filter** — deputy booking: `jailAgencyId`, `arrestAgencyId`, and "in booking process" query.~~ **Addressed — CROSBY-007:** SignalR refresh for in-progress list; verify at Crosby.
 5. ~~**Past cell check with released inmates** — pass snapshot vs live episode list.~~ **Done — CROSBY-009.**
 6. ~~**Cancel pass API/UI** — does abandon exist but hidden, or missing entirely?~~ **Done — CROSBY-010.**
-7. **Heather PC Affidavit** — effective permissions vs menu entry.
+7. ~~**Heather PC Affidavit** — effective permissions vs menu entry.~~ **Deferred to a future version — CROSBY-014.**
 8. ~~**Michael Jail Admin** — assign role in admin.~~ **Done — CROSBY-013:** `MMARSHALL` → `JMS_SUPERVISOR`.
 9. **CROSBY-006 charges** — confirm with Heather: pain is **during draft** vs **after accept**; prioritize restoring **Booking Amendments** (post-accept add-only) from plan if after-accept.
 
@@ -180,7 +180,7 @@ The highest-impact **remaining** bugs are **Heather's add/edit charges pain** (r
 | **CROSBY-011** | ENH: Sort cell-check observation codes by most recently used | **Fixed** (quick-select buttons) |
 | **CROSBY-012** | ENH: Show DPS code and offense grade on booking charge display | **Fixed** |
 | **CROSBY-013** | CONFIG: Grant Michael Jail Admin (Heather approved) | **Fixed** — `MMARSHALL` has `JMS_SUPERVISOR` |
-| **CROSBY-014** | CONFIG/INVESTIGATE: Heather PC Affidavit access still blocked | Open |
+| **CROSBY-014** | CONFIG/INVESTIGATE: Heather PC Affidavit access still blocked | **Deferred (future version)** |
 
 ### Flat list (copy/paste)
 
@@ -197,7 +197,7 @@ The highest-impact **remaining** bugs are **Heather's add/edit charges pain** (r
 11. ~~ENH: Sort cell-check observation codes by most recently used~~ **Fixed (CROSBY-011 — quick-select buttons)**
 12. ~~ENH: Show DPS code and offense grade on booking charge display~~ **Fixed (CROSBY-012)**
 13. ~~CONFIG: Grant Michael Jail Admin (Heather approved)~~ **Fixed (CROSBY-013 — `MMARSHALL` / `JMS_SUPERVISOR`)**
-14. CONFIG/INVESTIGATE: Heather PC Affidavit access still blocked
+14. ~~CONFIG/INVESTIGATE: Heather PC Affidavit access still blocked~~ **Deferred to a future version (CROSBY-014)**
 
 ---
 

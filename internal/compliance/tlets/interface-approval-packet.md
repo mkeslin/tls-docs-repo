@@ -277,7 +277,7 @@ Per device type (MDT/MDC, laptops, tablets, smartphones): agency marks **Yes / N
 | Fully executed Addendum + FBI pages | Required | — |
 | Updated FOUO network diagram | Required | — |
 | Cloud storage / CSP details | Completed [cloud storage and third-party disclosure](cloud-data-storage-disclosure-template.md) with current evidence | — |
-| SIEM + weekly review samples | Exported SIEM report **plus** the completed [SI-4 monitoring and weekly review](si-4-siem-monitoring-and-weekly-review.md) log | <mark style="color:red;">Report alone (no review record) = expect kickback</mark> |
+| SIEM + weekly review samples | Agency SIEM for agency network/boundary **plus** [Thin Line SI-4 Azure/Sentinel addendum](si-4-siem-monitoring-and-weekly-review.md), exported Sentinel report, and weekly review log (by reference) | <mark style="color:red;">Report alone (no review record) = expect kickback</mark> |
 | Remote access policy + vendor remote procedure | Agency policy + Thin Line support SOP | — |
 | This packet + Interface Questionnaire | Both | — |
 
