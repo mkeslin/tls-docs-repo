@@ -6,6 +6,7 @@ Verification lists used with SOPs and implementation work.
 
 | Checklist | Status | Lifecycle |
 |-----------|--------|-----------|
+| [Demo checklist](demo-checklist.md) | v0.1 | Acquire · Demo |
 | [Sales Handoff Checklist](sales-handoff-checklist.md) | v1 | 0 · Sales Handoff |
 | [Environment Health Checklist](environment-health-checklist.md) | v1 | 2 · Infrastructure |
 | [Agency Configuration Checklist](agency-configuration-checklist.md) | v1 | 4 · Configuration |
@@ -15,7 +16,6 @@ Verification lists used with SOPs and implementation work.
 
 <mark style="color:red;">**TODO:**</mark> Add additional checklists as processes are standardized. Suggested next checklists:
 
-- Demo readiness
 - Go-live readiness (operational checklist beyond the assessment)
 - Support ticket quality / closure
 

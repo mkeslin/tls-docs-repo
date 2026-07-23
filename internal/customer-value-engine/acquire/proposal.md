@@ -63,5 +63,5 @@ Proposal customization
 
 ## Related documents
 
-- Related SOPs: <mark style="color:red;">**TODO:**</mark> link under `internal/sops/`
-- Checklists / templates: <mark style="color:red;">**TODO:**</mark>
+- Related SOPs: [Prepare proposal](../../sops/acquire/prepare-proposal.md)
+- Policy: [SaaS pricing and discount guardrails](../../policies/saas-pricing-and-discount-guardrails.md) · [Acquire authority](../../policies/acquire-authority.md)

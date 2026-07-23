@@ -7,6 +7,8 @@ Governing rules for how Thin Line operates.
 | Policy | Status |
 |--------|--------|
 | [Migration Pricing Policy](policies/migration-pricing.md) | <mark style="color:red;">Draft</mark> — <mark style="color:red;">**Decision needed:**</mark> approve before binding quotes |
+| [Acquire authority matrix](policies/acquire-authority.md) | v0.1 Draft — confirm rows with founders |
+| [SaaS pricing and discount guardrails](policies/saas-pricing-and-discount-guardrails.md) | v0.1 Draft — fill list prices / floors |
 
 <mark style="color:red;">**TODO:**</mark> Draft and approve additional policies as needed. Do not invent legal or HR policy text.
 

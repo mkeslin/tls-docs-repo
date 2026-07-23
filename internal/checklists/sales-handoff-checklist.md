@@ -2,7 +2,8 @@
 
 **Document type:** Checklist  
 **Status:** v1  
-**Use during:** [Sales Handoff](../sops/deliver/sales-handoff.md) (lifecycle 0)
+**Use during:** [Sales Handoff](../sops/deliver/sales-handoff.md) (lifecycle 0)  
+**Upstream:** [Execute contract](../sops/acquire/execute-contract.md)
 
 Transfer packet from Sales to Implementation. Does **not** replace Kickoff discovery.
 

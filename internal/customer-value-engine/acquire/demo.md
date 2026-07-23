@@ -63,5 +63,6 @@ Calendar capacity
 
 ## Related documents
 
-- Related SOPs: <mark style="color:red;">**TODO:**</mark> link under `internal/sops/`
-- Checklists / templates: <mark style="color:red;">**TODO:**</mark>
+- Related SOPs: [Run product demo](../../sops/acquire/run-product-demo.md)
+- Checklists: [Demo checklist](../../checklists/demo-checklist.md)
+- Policy: [Acquire authority](../../policies/acquire-authority.md)

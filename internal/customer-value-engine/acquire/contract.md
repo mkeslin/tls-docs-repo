@@ -63,5 +63,6 @@ Customer procurement delays
 
 ## Related documents
 
-- Related SOPs: <mark style="color:red;">**TODO:**</mark> link under `internal/sops/`
-- Checklists / templates: <mark style="color:red;">**TODO:**</mark>
+- Related SOPs: [Execute contract](../../sops/acquire/execute-contract.md)
+- Downstream: [Sales handoff](../../sops/deliver/sales-handoff.md) · [Sales Handoff Checklist](../../checklists/sales-handoff-checklist.md)
+- Policy: [Acquire authority](../../policies/acquire-authority.md)
