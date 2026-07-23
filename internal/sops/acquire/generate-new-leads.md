@@ -42,7 +42,7 @@ Create a repeatable way to **generate new leads and start conversations** using 
 
 **In scope:** Choosing targets within [Go-to-market](../../strategy/go-to-market.md) priorities; association-list outreach; field / territory days; event follow-up; logging and first-touch cadence.
 
-**Out of scope:** Demo delivery, proposals, contracts, implementation handoff (separate Acquire / Deliver SOPs).
+**Out of scope:** Demo delivery, proposals, contracts, implementation handoff — see [Run product demo](run-product-demo.md), [Prepare proposal](prepare-proposal.md), [Execute contract](execute-contract.md), [Sales handoff](../deliver/sales-handoff.md).
 
 ## 3. Owner
 

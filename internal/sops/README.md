@@ -102,9 +102,10 @@ Next review date
 | 4 | Deliver — Training / Go live / Hypercare SOPs | Placeholder phase overviews |
 | 5 | [Acquire — Generate new leads](acquire/generate-new-leads.md) | v0.1 — channels + Pipedrive |
 | 6 | [Advocate — Capture referral](advocate/capture-referral.md) | v0.1 |
-| 7 | Acquire — demo | Not started |
-| 8 | Acquire — proposal / contract | Not started |
-| 9 | Operate — support triage | Not started |
+| 7 | [Acquire — Run product demo](acquire/run-product-demo.md) | v0.1 |
+| 8 | [Acquire — Prepare proposal](acquire/prepare-proposal.md) | v0.1 |
+| 9 | [Acquire — Execute contract](acquire/execute-contract.md) | v0.1 |
+| 10 | Operate — support triage | Not started |
 
 **Deliver:** Lifecycle-based implementation ([Implementation overview](deliver/implementation-overview.md)) — phases 0–8 (Sales handoff → Hypercare and transition), with SOPs/standards nested underneath.
 

@@ -194,7 +194,7 @@ Aligned with [Annual operating plan — 2026 H2](annual-operating-plan-2026-h2.m
 
 ## Out of scope for this page
 
-- Demo, proposal, and contract procedures (separate Acquire SOPs — not yet written).  
+- Demo, proposal, and contract procedures — see [Acquire SOPs](../sops/acquire/README.md) and [Acquire authority](../policies/acquire-authority.md).  
 - Implementation and training delivery.  
 - Individual performance assessments — this document defines company focus and channels only.
 
