@@ -2,7 +2,7 @@
 backlog: "TBD · Court / Accounting · Collections vendor outbound files (PBFCM / Perdue Brandon SFTP)"
 status: done
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-24
 ---
 
 # Plan: Collections vendor outbound files (PBFCM SFTP)
@@ -14,7 +14,7 @@ Send Perdue Brandon Fulton Collins & Mott LLP (PBFCM) pipe-delimited `.TXT` file
 ## Implementation progress
 
 - **Phase A (done):** pipe formatters, export service, date-window queries, API download endpoints, Collections UI page, unit tests.
-- **Phase B (done):** per-agency SFTP settings, SFTP client, export batch audit table, nightly `CVO` scheduler job, Generate & send API/UI. Upload skipped until host/credentials exist.
+- **Phase B (done):** per-agency SFTP settings, SFTP client, export batch audit table, monthly `CVO` scheduler job (5th for prior month), Generate & send API/UI. Upload skipped until host/credentials exist.
 - **Phase C (done):** last-run status UI/API, empty-file upload policy (skip header-only by default; `CollectionsVendor:UploadEmptyFiles` override), runbook + sample `.TXT` files under `Docs/Court/PurdueBrandon/`.
 
 ## Ops references
@@ -27,8 +27,8 @@ Send Perdue Brandon Fulton Collins & Mott LLP (PBFCM) pipe-delimited `.TXT` file
 - Export runs archive the three pipe `.TXT` bodies on `CollectionsVendorExportBatches`; download/transmit use archived bytes.
 - Filenames: `{AgencyName}_{yyyyMMdd}_{placements|adjustments|closed}.txt`.
 - Payments negative; INCREASE → positive ADJUSTMENT; DECREASE/time-served → negative ADJUSTMENT; closed = recalled only.
-- **Generate test** / `IsTestRun` excluded from nightly watermark.
-- Nightly `CVO` uses the same runs table (`IsScheduledRun`). Batch/monthly preferred by PBFCM.
+- **Generate test** / `IsTestRun` excluded from the export watermark.
+- Monthly `CVO` (cron `0 0 2 5 * ?`, previous calendar month) uses the same runs table (`IsScheduledRun`).
 
 ## Remaining
 
