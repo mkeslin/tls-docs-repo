@@ -317,7 +317,7 @@ Score each major process step **1–5** (1 = fully manual / founder-driven, 5 = 
 
 Determine vendor, product version, cloud vs on-prem, modules in scope, and whether an existing converter exists.
 
-Examples: CopSync / Kologik, CrimeStar, Tyler / INCODE (IncodeCourt), Xpediter.
+Examples: CopSync / Kologik, CrimeStar, Cardinal Badge, Xpediter, Tyler (INCODE CTFILES), FundView, Asyst (Common V14).
 
 Living catalog: [Vendor Conversion Guides](vendor-packages/vendor-conversion-guides/README.md). Package layout: [Migration Package Standards](vendor-packages/migration-package-standards.md).
 

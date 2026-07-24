@@ -73,7 +73,7 @@ Everything after this—pricing, implementation schedule, and engineering effort
 
 | Field | Value |
 |-------|-------|
-| Vendor | ★ CrimeStar · ★ CopSync / Kologik · ★ IncodeCourt (Tyler/INCODE) · ★ Xpediter · ★ Other: _______________ |
+| Vendor | ★ CrimeStar · ★ CopSync / Kologik · ★ Cardinal Badge · ★ Xpediter · ★ Tyler (INCODE CTFILES) · ★ FundView · ★ Asyst (Common V14) · ★ Other: _______________ |
 | Product | |
 | Legacy product version | |
 | Migration Tools package folder | `Utilities/Migration Tools/_______________/` |

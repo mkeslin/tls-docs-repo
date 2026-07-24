@@ -219,8 +219,11 @@ See [Vendor Conversion Guides](vendor-conversion-guides/README.md).
 |---------------|----------------|---------------------------------------------|
 | CrimeStar | Visual FoxPro / DBF → StagingImporter | See `VERSION` |
 | CopSync | Kologik COPsync SQL → `Stg_CopSync_*` | See `VERSION` |
-| IncodeCourt | Tyler / INCODE CTFILES and/or Common V14 Access | See `VERSION` |
+| CardinalBadge | Cardinal Tracking Badge SQL → `Stg_Badge_*` | See `VERSION` |
 | Xpediter | Firebird/InterBase `XPEDITER.GDB` → ConvTemp | See `VERSION` |
+| Tyler | Tyler / INCODE CTFILES → StagingImporter | See `VERSION` |
+| FundView | FundView municipal court *(Pipeline TBD)* | See `VERSION` |
+| Asyst | Common V14 Access → `Stg_CommonV14_*` | See `VERSION` |
 
 ---
 
@@ -241,3 +244,4 @@ See [Vendor Conversion Guides](vendor-conversion-guides/README.md).
 | 2026-07-17 | Placeholder created |
 | 2026-07-17 | v1 — package definition, two-layer model, VERSION, promote rules |
 | 2026-07-17 | Manifest fields, versioning/retire rules, package backlog |
+| 2026-07-23 | Court vendors split: Tyler, FundView, Asyst (replaced IncodeCourt); CardinalBadge listed |

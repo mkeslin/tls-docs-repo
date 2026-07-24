@@ -17,7 +17,8 @@ client: Shallowater Municipal Court
 
 **Not implementation** — operational checklist. Adjust rows to match your **actual** chart of accounts, banks, and court processes.
 
-**Related:** **BL-010** (bad images / 500) references **ShallowaterPD** — confirm image-heavy workflows during UAT if still open.
+**Related:** **BL-010** (bad images / 500) references **ShallowaterPD** — confirm image-heavy workflows during UAT if still open.  
+**Conversion package:** product-repo `Utilities/Migration Tools/Tyler/` (INCODE CTFILES); see internal vendor guide `tyler.md`.
 
 ---
 

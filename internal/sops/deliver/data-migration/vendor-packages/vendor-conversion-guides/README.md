@@ -22,12 +22,22 @@ Detailed Pipeline SQL stays versioned with the code:
 
 ## Guides
 
+### Law enforcement
+
 | Guide | Product / alias | Package folder |
 |-------|-----------------|----------------|
 | [CrimeStar](crimestar.md) | CrimeStar RMS (FoxPro / DBF) | `CrimeStar/` |
 | [CopSync / Kologik](copsync-kologik.md) | COPsync / Kologik | `CopSync/` |
-| [IncodeCourt (Tyler / INCODE)](incode-court.md) | Municipal court CTFILES / Access | `IncodeCourt/` |
+| [Cardinal Badge](cardinal-badge.md) | Cardinal Tracking Badge (BFW/CAD/CRT) | `CardinalBadge/` |
 | [Xpediter](xpediter.md) | XPEDITER GDB | `Xpediter/` |
+
+### Court
+
+| Guide | Product / alias | Package folder |
+|-------|-----------------|----------------|
+| [Tyler](tyler.md) | Tyler / INCODE CTFILES | `Tyler/` |
+| [FundView](fundview.md) | FundView municipal court | `FundView/` |
+| [Asyst](asyst.md) | Asyst / Common V14 Access | `Asyst/` |
 
 **Converted agencies register:** each package includes `ConvertedAgencies.md` (agency, date, package `VERSION`).
 
@@ -62,6 +72,7 @@ Do **not** copy the last customer’s filled Overrides as the new default. Start
 | Gap | Notes |
 |-----|-------|
 | Full Pipeline SQL still in some `Clients/.../Conversion/` folders | Promote common steps into vendor packages over time |
+| Tyler / FundView migrate SQL | Tyler StagingImporter exists; FundView Pipeline empty until recovered |
 | Jail / JP CSV (e.g. Crosby County Jail) | Not a CopSync package; separate path <mark style="color:red;">**TODO**</mark> |
 | Supported legacy version matrices | Incomplete — fill from each engagement into the vendor guide |
 
@@ -75,3 +86,4 @@ Do **not** copy the last customer’s filled Overrides as the new default. Start
 | 2026-07-17 | v1 catalog — CrimeStar, CopSync/Kologik, IncodeCourt, Xpediter |
 | 2026-07-17 | Per-vendor guide pages + cross-links |
 | 2026-07-17 | Moved under Data Migration → Vendor Packages |
+| 2026-07-23 | Split IncodeCourt → Tyler, FundView, Asyst; added Cardinal Badge guide stub |
