@@ -2,7 +2,7 @@
 
 **Document type:** SOP  
 **Phase:** Acquire · Demo  
-**Status:** v0.1  
+**Status:** v0.2  
 **Next review:** <mark style="color:red;">**TODO:**</mark> set date (owner: Acquire)  
 **Audience:** Internal — Acquire  
 **Related:** [Demo](../../customer-value-engine/acquire/demo.md) · [Demo checklist](../../checklists/demo-checklist.md) · [Acquire authority](../../policies/acquire-authority.md) · [Prepare proposal](prepare-proposal.md) · [Go-to-market](../../strategy/go-to-market.md)
@@ -56,7 +56,8 @@ Prospect is qualified enough to invest demo time (ICP fit or documented exceptio
 ## 5. Preconditions
 
 - [Go-to-market](../../strategy/go-to-market.md) ICP / packaging understood  
-- Demo environment available (<mark style="color:red;">**TODO:**</mark> name of golden demo tenant / how to verify)  
+- Demo environment ready: provision a demo tenant for the session **or** use shared **`demo` / `demo2`** when appropriate; verify login before the meeting  
+- If **Court** or **Jail** is in scope: founder invited (current rule)  
 - Pipedrive org/deal exists  
 - [Demo checklist](../../checklists/demo-checklist.md) started  
 
@@ -66,7 +67,8 @@ Prospect is qualified enough to invest demo time (ICP fit or documented exceptio
 |-------|--------|
 | Qualified prospect | Generate new leads / warm path |
 | Modules in play | Discovery / call notes |
-| Demo kit (logins, script) | <mark style="color:red;">**TODO:**</mark> storage location |
+| Demo environment | Provisioned tenant and/or **`demo` / `demo2`** |
+| Demo script / leave-behind | <mark style="color:red;">**TODO:**</mark> not maintained yet — use procedure outline below |
 | Authority / SLA | [Acquire authority](../../policies/acquire-authority.md) |
 
 ## 7. Outputs
@@ -96,9 +98,8 @@ Acquire schedules and runs standard demos from a maintained kit; founder joins b
 
 | Gap | Move toward target |
 |-----|--------------------|
-| Demo env ownership unclear | Document tenant + health check |
-| No standard script by module | Add script outline (below) + refine |
-| Court/Jail demo readiness uneven | Explicit “kit ready / not ready” gate |
+| No written module script / leave-behind | Draft RMS/CAD script; optional one-pager later |
+| Court/Jail still founder-assisted | Build Acquire-ready Court/Jail kit, then relax authority |
 | Notes inconsistent | Checklist mandatory same day |
 
 ## 12. Common risks
@@ -148,12 +149,12 @@ Ready to schedule demo?
 
 1. **Qualify** — Confirm ICP/packaging; log modules and buyer.  
 2. **Schedule** — Send calendar invite; list attendees; set Pipedrive activity.  
-3. **Prep** — Complete “Before the demo” on [Demo checklist](../../checklists/demo-checklist.md); verify env.  
+3. **Prep** — Complete “Before the demo” on [Demo checklist](../../checklists/demo-checklist.md); provision or confirm **`demo` / `demo2`** (or the session tenant); invite founder if Court/Jail in scope.  
 4. **Deliver** — Suggested flow (adjust to audience):
    1. Context & goals (5 min)  
    2. Discovery confirm (10 min)  
-   3. Core module walkthrough (RMS and/or CAD) (25–40 min)  
-   4. Court / Jail only if in scope and kit ready (15–20 min)  
+   3. Core module walkthrough (RMS and/or CAD) (25–40 min) — Acquire-led  
+   4. Court / Jail (if in scope): founder joins for now (15–20 min)  
    5. Implementation / next-step expectations (5–10 min)  
    6. Q&A and explicit ask (proposal vs follow-up)  
 5. **Close out same day** — Checklist “After”; advance stage; if proposal path, start [Prepare proposal](prepare-proposal.md) clock (48 business hours when in pricing card).  
@@ -163,10 +164,10 @@ Ready to schedule demo?
 
 | Item | Status |
 |------|--------|
-| Demo tenant URL + credentials | <mark style="color:red;">TODO</mark> |
-| Module script (RMS/CAD) | <mark style="color:red;">TODO</mark> — outline above until written |
-| Court/Jail add-on script | <mark style="color:red;">TODO</mark> |
-| One-pager / leave-behind | <mark style="color:red;">TODO</mark> |
+| Shared tenants | **`demo`** and **`demo2`** available; many demos use a **provisioned** tenant for that session |
+| Module script (RMS/CAD) | <mark style="color:red;">TODO</mark> — use procedure outline until written |
+| Court/Jail facilitation | Founder joins for now ([Acquire authority](../../policies/acquire-authority.md)) |
+| One-pager / leave-behind | None today — do not block demos on this |
 
 ## 17. Verification
 
@@ -226,4 +227,5 @@ Ready to schedule demo?
 
 | Date | Change |
 |------|--------|
+| 2026-07-26 | v0.2 — demo/demo2 + provisioned tenants; Court/Jail founder joins; no leave-behind |
 | 2026-07-22 | v0.1 — initial SOP |

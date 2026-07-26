@@ -35,6 +35,8 @@ Each work item has a stable **`BL-###`** identifier (zero-padded three digits). 
 | **BL-021** | UI | Classic layout — `TlsPage` main-column shell (Web Awesome migration seam) |
 | **BL-022** | CAD | Large-agency remediation — dispatch board, SignalR scale-out, UX/ops ([`plans/BL-022-cad-large-agency-remediation.md`](plans/BL-022-cad-large-agency-remediation.md)) |
 | **BL-023** | Court / Accounting | Collections — supplemental item-level referrals (Art. 103.0031) |
+| **BL-024** | Masters | Master search coalesce + faster person merge |
+| **BL-025** | Masters | Finish scored duplicates (Build Table + person merge-from-cluster) |
 
 ---
 
@@ -127,6 +129,8 @@ Sorted by **Priority** (asc), then **Module**, **Name**.
 | BL-021 | 11 | UI | Classic layout — `TlsPage` shell | Introduce `TlsPage` (`banners` + default slots) inside Classic `v-main` for a stable seam toward Web Awesome `wa-page`. | |
 | BL-022 | 6 | CAD | Large-agency remediation | Dispatch board, SignalR, notifier parity, UX/ops. **→ Plan:** [`plans/BL-022-cad-large-agency-remediation.md`](plans/BL-022-cad-large-agency-remediation.md) | |
 | BL-023 | 6 | Court / Accounting | Collections — supplemental item-level referrals | Art. 103.0031 per-item clocks/referral; schema today is case-level snapshot only. Interim: recall/re-refer. | |
+| BL-024 | 5 | Masters | Master search coalesce + faster person merge | Suppress + applock search refresh; set-based person merge; sync search rebuild; `MasterMergeChange` journal for future undo. **→ Plan:** [`plans/BL-024-master-search-coalesce-person-merge.md`](plans/BL-024-master-search-coalesce-person-merge.md) | |
+| BL-025 | 5 | Masters | Finish scored duplicates | Honor `fullRebuild` on Build Table; Person merge-from-cluster + Merged status. **→ Plan:** [`plans/BL-025-scored-duplicates-finish.md`](plans/BL-025-scored-duplicates-finish.md) | |
 
 ---
 
@@ -145,6 +149,8 @@ Sorted by **Priority** (asc), then **Module**, **Name**.
 | BL-021 | UI — Classic `TlsPage` shell | [`plans/BL-021-tls-page-shell-classic-layout.md`](plans/BL-021-tls-page-shell-classic-layout.md) |
 | BL-022 | CAD — large-agency remediation | [`plans/BL-022-cad-large-agency-remediation.md`](plans/BL-022-cad-large-agency-remediation.md) |
 | BL-023 | Court / Accounting — collections supplemental item referrals | [`plans/BL-022-collections-supplemental-item-referrals.md`](plans/BL-022-collections-supplemental-item-referrals.md) |
+| BL-024 | Masters — master search coalesce + faster person merge | [`plans/BL-024-master-search-coalesce-person-merge.md`](plans/BL-024-master-search-coalesce-person-merge.md) |
+| BL-025 | Masters — finish scored duplicates | [`plans/BL-025-scored-duplicates-finish.md`](plans/BL-025-scored-duplicates-finish.md) |
 
 ---
 
@@ -161,3 +167,5 @@ Sorted by **Priority** (asc), then **Module**, **Name**.
 | 2026-05-25 | — | **BL-022** added — CAD large-agency remediation aligned with product-repo `Docs/CAD-Architectural-Audit.md`; plan [`plans/BL-022-cad-large-agency-remediation.md`](plans/BL-022-cad-large-agency-remediation.md). Audit doc updated with May 2026 remediation status. |
 | 2026-07-18 | — | Migrated canonical backlog + plans to Internal Docs (`internal/backlog/`). |
 | 2026-07-15 | — | **BL-023** added — collections supplemental / per-item referrals (Art. 103.0031); interim recall/re-refer documented. (Master briefly used BL-022 for this item; renumbered on merge with CAD’s earlier BL-022.) |
+| 2026-07-26 | — | **BL-024** added — master search coalesce + faster person merge; plan [`plans/BL-024-master-search-coalesce-person-merge.md`](plans/BL-024-master-search-coalesce-person-merge.md). |
+| 2026-07-26 | — | **BL-025** added — finish scored duplicates (fullRebuild + person merge-from-cluster); plan [`plans/BL-025-scored-duplicates-finish.md`](plans/BL-025-scored-duplicates-finish.md). |

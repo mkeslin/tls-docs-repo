@@ -56,9 +56,9 @@ Prospect accepts proposal (email/verbal/written) or asks for contract, and comme
 ## 5. Preconditions
 
 - Accepted proposal (or equivalent agreed terms) in Pipedrive  
-- Standard contract templates available (<mark style="color:red;">**TODO:**</mark> paths)  
+- Standard contract templates available in **SharePoint** commercial library  
 - Dropbox Sign access for Acquire  
-- Thin Line signatory identified (<mark style="color:red;">**TODO:**</mark> who countersigns)  
+- Thin Line signatory: **Eric Fugate** (Acquire) for SaaS and CJIS Security Addendum  
 - CJIS path known if agency will have CJI exposure  
 
 ## 6. Inputs
@@ -68,8 +68,8 @@ Prospect accepts proposal (email/verbal/written) or asks for contract, and comme
 | Final commercial terms | Proposal / Pipedrive |
 | Legal entity / billing info | Prospect |
 | Signers (name, email, title) | Prospect |
-| Standard SaaS agreement | Template library |
-| CJIS / security addendum (when required) | Template library |
+| Standard SaaS agreement | SharePoint commercial library |
+| CJIS / security addendum (when required) | SharePoint commercial library |
 
 ## 7. Outputs
 
@@ -83,8 +83,8 @@ Prospect accepts proposal (email/verbal/written) or asks for contract, and comme
 | Tool | Use |
 |------|-----|
 | Dropbox Sign | E-signature |
-| Pipedrive | Stage + activities |
-| Agreed file store | Executed copies (<mark style="color:red;">TODO</mark> location) |
+| Pipedrive | Stage + activities; store/link executed copy on the deal |
+| SharePoint | Templates + executed copy in deal / commercial library |
 
 ## 9. Current state
 
@@ -98,9 +98,8 @@ Acquire sends standard packets within 24–48 business hours of accept; redlines
 
 | Gap | Move toward target |
 |-----|--------------------|
-| Template paths tribal | Document library location |
-| Signatory unclear | Name role + backup |
-| CJIS when/when-not | Decision tree below |
+| SharePoint deep links | Pin exact folder URLs |
+| CJIS when/when-not for court-only | Decision tree below |
 | Handoff incomplete | Checklist mandatory before “done” |
 
 ## 12. Common risks
@@ -139,8 +138,8 @@ CJIS / security exhibits?
 | Step | Target |
 |------|--------|
 | Accept → packet sent | **24–48 business hours** |
-| Thin Line countersign | <mark style="color:red;">TODO</mark> (e.g. same day once customer signed) |
-| Chase cadence | Every 3–5 business days until signed or lost |
+| Thin Line signs first | Eric proofs and signs in Dropbox Sign **before** agency routing |
+| Agency completion | Chase every 3–5 business days until signed or lost |
 
 ## 15. Automation score
 
@@ -155,26 +154,28 @@ CJIS / security exhibits?
 
 1. **Confirm terms frozen** — Match accepted proposal; no open pricing fights.  
 2. **Collect signer info** — Legal name of agency, signer name/email/title, billing contact.  
-3. **Assemble packet**
-   - Standard SaaS agreement (fill commercial exhibits from proposal)  
-   - Order form / pricing exhibit if separate (<mark style="color:red;">TODO</mark> naming)  
-   - CJIS Security Addendum / related exhibits when required  
-   - Any required agency forms already in the standard kit  
-4. **Internal check** — Terms within [Acquire authority](../../policies/acquire-authority.md); no custom product promises.  
-5. **Send Dropbox Sign** — Correct signer order (<mark style="color:red;">TODO:</mark> customer first vs Thin Line first).  
-6. **Pipedrive** — Stage Contract out; activity to follow up; link to signature request.  
-7. **Monitor** — Remind per cadence; answer process questions; escalate substance.  
-8. **On full execution** — Download/store executed docs; mark Won; start [Sales handoff](../deliver/sales-handoff.md) + [checklist](../../checklists/sales-handoff-checklist.md).  
-9. **Redlines path** — Paste summary of requested changes; do not verbally accept material changes; wait for founder/signatory guidance; re-send revised packet only when approved.
+3. **Assemble packet** from **SharePoint** templates:
+   - Standard SaaS agreement (commercial terms from proposal)  
+   - Pricing / order exhibit if used as a separate file  
+   - CJIS Security Addendum when required  
+4. **Internal check** — Terms within [Acquire authority](../../policies/acquire-authority.md) + pricing card; Eric **proofreads** before sending.  
+5. **Send Dropbox Sign — Thin Line first** — **Eric Fugate** signs for Thin Line first (proofread gate), then route to agency signers.  
+6. **Agency signers (typical)**  
+   - **SaaS agreement:** usually **police chief** and **mayor / superintendent** (or equivalent)  
+   - **CJIS Security Addendum:** **police chief** for the agency; Eric for Thin Line  
+7. **Pipedrive** — Stage Contract out; activity to follow up; link to signature request.  
+8. **Monitor** — Remind per cadence; answer process questions; escalate substance/redlines to founder.  
+9. **On full execution** — Store executed docs in **Pipedrive** and **SharePoint**; mark Won; start [Sales handoff](../deliver/sales-handoff.md) + [checklist](../../checklists/sales-handoff-checklist.md).  
+10. **Redlines path** — Summarize requested changes; do not verbally accept material changes; wait for founder guidance; re-send only when approved.
 
 ### Standard packet inventory
 
-| Document | When | Location |
-|----------|------|----------|
-| SaaS agreement | Always | <mark style="color:red;">TODO</mark> |
-| Pricing / order form | Always | <mark style="color:red;">TODO</mark> |
-| CJIS Security Addendum (+ cert pages as required) | When CJI path applies | <mark style="color:red;">TODO</mark> |
-| Other exhibits | As in kit | <mark style="color:red;">TODO</mark> |
+| Document | When | Thin Line signer | Typical agency signer(s) | Location |
+|----------|------|------------------|--------------------------|----------|
+| SaaS agreement | Always | Eric Fugate | Chief + mayor / superintendent (or equivalent) | SharePoint templates |
+| Pricing / order form | When used | (with SaaS packet) | (with SaaS packet) | SharePoint |
+| CJIS Security Addendum | When CJI path applies | Eric Fugate | Police chief | SharePoint |
+| Executed copies | After completion | — | — | Pipedrive **and** SharePoint |
 
 ## 17. Verification
 
@@ -215,8 +216,8 @@ CJIS / security exhibits?
 
 ### Weaknesses
 
-- Template paths and signatory still TODO  
-- CJIS default for edge cases undecided  
+- SharePoint deep links not pinned  
+- CJIS default for court-only / unclear still undecided  
 
 ### Automation opportunities
 
@@ -238,4 +239,5 @@ CJIS / security exhibits?
 
 | Date | Change |
 |------|--------|
+| 2026-07-26 | SharePoint kit, Eric signs first, SaaS/CJIS signer pattern, dual storage |
 | 2026-07-22 | v0.1 — initial SOP |

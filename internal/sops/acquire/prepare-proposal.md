@@ -56,8 +56,8 @@ Demo (or equivalent discovery) complete with go-ahead to propose; or expansion q
 ## 5. Preconditions
 
 - Discovery notes sufficient (modules, rough size, timeline)  
-- Access to proposal template (<mark style="color:red;">**TODO:**</mark> path)  
-- [SaaS pricing and discount guardrails](../../policies/saas-pricing-and-discount-guardrails.md) card filled enough to quote **or** founder approval in hand  
+- Access to proposal template in **SharePoint** (Thin Line commercial library)  
+- [SaaS pricing and discount guardrails](../../policies/saas-pricing-and-discount-guardrails.md) guidance enough to quote **or** founder approval in hand  
 - Packaging matches [Go-to-market](../../strategy/go-to-market.md)  
 
 ## 6. Inputs
@@ -65,9 +65,9 @@ Demo (or equivalent discovery) complete with go-ahead to propose; or expansion q
 | Input | Source |
 |-------|--------|
 | Demo / discovery notes | Pipedrive |
-| Pricing card | SaaS pricing policy |
-| Proposal template | <mark style="color:red;">TODO</mark> storage location |
-| Migration stance | N/A · TBD after assessment · approved tier |
+| Pricing card | SaaS pricing policy (~$1,000/officer/year anchor) |
+| Proposal template | SharePoint commercial library (<mark style="color:red;">TODO:</mark> exact folder URL) |
+| Migration stance | N/A · TBD after assessment · $2k–$5k / approved exception |
 
 ## 7. Outputs
 
@@ -96,9 +96,9 @@ Most proposals are template + pricing card within 48 business hours of demo; fou
 
 | Gap | Move toward target |
 |-----|--------------------|
-| List prices not in GitBook yet | Fill pricing card or private sheet link |
-| Template location tribal | Document path + version |
-| Migration quoted ad hoc | Force assessment language |
+| Court/Jail add-on bands still soft | Confirm flat ranges in pricing policy |
+| SharePoint folder URL not pinned | Add exact link in pricing policy |
+| Migration policy tier $ vs $2k–$5k practice | Reconcile with Migration Pricing Policy |
 
 ## 12. Common risks
 
@@ -128,7 +128,7 @@ Ready to propose?
 | Step | Target |
 |------|--------|
 | In-card proposal after demo | **48 business hours** |
-| Escalated pricing turnaround | <mark style="color:red;">TODO</mark> founder response expectation |
+| Escalated pricing turnaround | Founder usually **under 24 hours** ([Acquire authority](../../policies/acquire-authority.md)) |
 | Follow-up after send | Activity at +3 to +5 business days |
 
 ## 15. Automation score
@@ -143,11 +143,11 @@ Ready to propose?
 
 1. **Confirm scope** — Modules, agency size basis, term, go-live hopes, migration Y/N/TBD, integrations/hardware flags.  
 2. **Check authority** — [Acquire authority](../../policies/acquire-authority.md) + pricing card. Escalate before drafting if outside.  
-3. **Open template** — <mark style="color:red;">**TODO:**</mark> master proposal filename/path.  
-4. **Fill commercial section** — Prices from card; note any approved exception ID/date in Pipedrive.  
-5. **Write assumptions** — What is included / excluded; implementation expectations at high level; migration per policy.  
+3. **Open template** — Master proposal in **SharePoint** commercial library.  
+4. **Fill commercial section** — Size from officer-count anchor + modules; note discount % and any founder approval in Pipedrive.  
+5. **Write assumptions** — Included / excluded; virtual training free / in-person at cost; migration per policy.  
 6. **Internal sanity pass** — Use pricing checklist in [SaaS pricing policy](../../policies/saas-pricing-and-discount-guardrails.md).  
-7. **Send** — To buyer + cc as appropriate; store file in agreed deal folder (<mark style="color:red;">TODO</mark>).  
+7. **Send** — To buyer + cc as appropriate; store a copy in the deal’s **SharePoint** folder and link from Pipedrive.  
 8. **Pipedrive** — Stage = Proposal out; next activity = follow-up; attach or link proposal.  
 9. **Follow up** — Per activity; if accepted → [Execute contract](execute-contract.md).  
 
@@ -156,11 +156,12 @@ Ready to propose?
 | Element | Guidance |
 |---------|----------|
 | Agency / contacts | From Pipedrive |
-| Modules | Only what was demoed / agreed |
-| Pricing table | From card |
-| Term | Standard unless approved |
-| Migration | N/A · TBD after assessment · approved amount |
-| Validity | <mark style="color:red;">TODO</mark> (e.g. 30 days) |
+| Modules | Only what was demoed / agreed (à la carte) |
+| Pricing | ~$1,000/officer/year LE anchor; document math |
+| Term | Prefer multi-year (3+); longer is better |
+| Training | Virtual free; in-person at cost |
+| Migration | N/A · TBD after assessment · $2k–$5k / approved exception |
+| Validity | **90 days** |
 | Next step | Contract via Dropbox Sign |
 
 ## 17. Verification
@@ -199,7 +200,7 @@ Ready to propose?
 
 ### Weaknesses
 
-- Master template and list prices still TODO  
+- Court/Jail add-on bands and SharePoint deep links still soft  
 
 ### Automation opportunities
 
@@ -221,4 +222,5 @@ Ready to propose?
 
 | Date | Change |
 |------|--------|
+| 2026-07-26 | SharePoint locations, 90-day validity, officer-anchor pricing; founder pricing SLA under 24h |
 | 2026-07-22 | v0.1 — initial SOP |

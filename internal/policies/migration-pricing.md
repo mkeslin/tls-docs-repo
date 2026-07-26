@@ -5,7 +5,8 @@
 **Status:** <mark style="color:red;">Draft</mark> 
 **Owner:** Matthew Keslin
 
-> <mark style="color:red;">**Decision needed:**</mark> Founder / commercial approval before this draft is used as binding quote guidance with customers.
+> <mark style="color:red;">**Decision needed:**</mark> Founder / commercial approval before this draft is used as binding quote guidance with customers.  
+> **Working commercial practice (2026-07):** data conversions often quoted **$2,000–$5,000** by size — see [SaaS pricing and discount guardrails](saas-pricing-and-discount-guardrails.md). Reconcile tier dollar amounts below with that range.
 
 ---
 

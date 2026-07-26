@@ -1,7 +1,7 @@
 # Demo checklist
 
 **Document type:** Checklist  
-**Status:** v0.1  
+**Status:** v0.2  
 **Use during:** [Run product demo](../sops/acquire/run-product-demo.md)
 
 Copy into the deal’s working notes or complete against Pipedrive. Do not store prospect-specific completed copies in GitBook.
@@ -18,11 +18,11 @@ Copy into the deal’s working notes or complete against Pipedrive. Do not store
 
 ## Before the demo (T−24h or morning of)
 
-- [ ] Demo environment confirmed healthy (logins work)  
+- [ ] Demo environment confirmed healthy (logins work) — provisioned session tenant and/or **`demo` / `demo2`**  
 - [ ] Demo account / URL / backup plan ready  
 - [ ] Agenda agreed (timebox); attendees confirmed  
 - [ ] Discovery questions prepared  
-- [ ] Court / Jail sections included only if in scope **and** kit ready — else schedule specialist follow-up  
+- [ ] If Court / Jail in scope: **founder invited** (current rule)  
 
 ## During
 
