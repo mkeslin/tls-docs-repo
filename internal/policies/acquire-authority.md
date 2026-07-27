@@ -32,13 +32,14 @@ Do not promise custom product work, non-standard legal terms, or below-floor pri
 | Run standard **RMS/CAD** demo | Yes | Deep custom workflows not in kit |
 | Demo **Court** or **Jail** | Schedule / co-facilitate | **Pull in founder for now** (until Court/Jail demo kit is Acquire-ready) |
 | Discover needs / log in Pipedrive | Yes | — |
-| Issue proposal **within** pricing card + standard scope | Yes (≤ **10%** off guidance; see pricing policy) | Above 10% discount; non-standard scope; soft Court/Jail pricing |
+| Issue proposal **within** pricing card + standard scope | Yes — quote **list price**; close in **normal close range**; at/above ordinary min / band floor | Court **$5k** or custom; LE below ordinary min; Jail **41+**; hidden concessions; skip combined-package upgrade; 41+ officers |
 | Quote **migration** fee | Yes within **$2,000–$5,000** after assessment supports it | Outside range, $0 waiver, or assessment incomplete when a hard number is demanded |
 | In-person training at cost / virtual free | Yes | — |
 | Promise custom features / one-off development | **Never** | Always |
 | Send standard SaaS + CJIS packet (Dropbox Sign) | Yes — **Eric signs for Thin Line first**, then agency | Customer redlines; non-standard SLAs/terms |
 | CJIS / security addendum path | Standard packet; Eric (TLS) + chief (agency) | Unusual agency requirements |
-| Multi-year / strategic discount beyond 10% | No | Yes |
+| 3-year ≤5% / 5-year ≤8% term discount with prepay or non-cancellable | Yes if still at/above **strategic floor** | Deeper discount; waive/freeze escalator; no commitment |
+| State annual escalator on order form (default 5%) | Yes | Silent renewal pricing; 0% escalator |
 | Accept deal outside ICP (e.g. standalone court today) | No | Yes |
 | Sales handoff to Implementation | Yes (checklist) | Scope disputes after signature |
 

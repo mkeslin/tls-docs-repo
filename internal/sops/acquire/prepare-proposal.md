@@ -65,7 +65,7 @@ Demo (or equivalent discovery) complete with go-ahead to propose; or expansion q
 | Input | Source |
 |-------|--------|
 | Demo / discovery notes | Pipedrive |
-| Pricing card | SaaS pricing policy (~$1,000/officer/year anchor) |
+| Pricing card | SaaS pricing policy (**list price / normal close range / strategic floor**) |
 | Proposal template | SharePoint commercial library (<mark style="color:red;">TODO:</mark> exact folder URL) |
 | Migration stance | N/A · TBD after assessment · $2k–$5k / approved exception |
 
@@ -144,8 +144,8 @@ Ready to propose?
 1. **Confirm scope** — Modules, agency size basis, term, go-live hopes, migration Y/N/TBD, integrations/hardware flags.  
 2. **Check authority** — [Acquire authority](../../policies/acquire-authority.md) + pricing card. Escalate before drafting if outside.  
 3. **Open template** — Master proposal in **SharePoint** commercial library.  
-4. **Fill commercial section** — Size from officer-count anchor + modules; note discount % and any founder approval in Pipedrive.  
-5. **Write assumptions** — Included / excluded; virtual training free / in-person at cost; migration per policy.  
+4. **Fill commercial section** — Quote at **list price**; negotiate into **normal close range**; touch **strategic floor** only when necessary (documented). Show undiscounted value and any concessions explicitly.  
+5. **Write assumptions** — Included / excluded; training / migration / integrations per [SaaS pricing guardrails](../../policies/saas-pricing-and-discount-guardrails.md); term + annual billing + 5% escalator (or fixed year-by-year schedule).  
 6. **Internal sanity pass** — Use pricing checklist in [SaaS pricing policy](../../policies/saas-pricing-and-discount-guardrails.md).  
 7. **Send** — To buyer + cc as appropriate; store a copy in the deal’s **SharePoint** folder and link from Pipedrive.  
 8. **Pipedrive** — Stage = Proposal out; next activity = follow-up; attach or link proposal.  
@@ -157,8 +157,9 @@ Ready to propose?
 |---------|----------|
 | Agency / contacts | From Pipedrive |
 | Modules | Only what was demoed / agreed (à la carte) |
-| Pricing | ~$1,000/officer/year LE anchor; document math |
-| Term | Prefer multi-year (3+); longer is better |
+| Pricing | List price / normal close range / strategic floor; concessions explicit |
+| Term | Default **3 years**; 1-year = list; 3y ≤5% / 5y ≤8% only with prepay or non-cancellable |
+| Annual increase | **5%** default (or **3–4%** if multi-year prepaid/committed) — must appear on order form |
 | Training | Virtual free; in-person at cost |
 | Migration | N/A · TBD after assessment · $2k–$5k / approved exception |
 | Validity | **90 days** |

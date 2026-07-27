@@ -6,7 +6,7 @@
 **Owner:** Matthew Keslin
 
 > <mark style="color:red;">**Decision needed:**</mark> Founder / commercial approval before this draft is used as binding quote guidance with customers.  
-> **Working commercial practice (2026-07):** data conversions often quoted **$2,000–$5,000** by size — see [SaaS pricing and discount guardrails](saas-pricing-and-discount-guardrails.md). Reconcile tier dollar amounts below with that range.
+> **Working commercial rates (2026-07):** migration-type fee table below matches [SaaS pricing and discount guardrails](saas-pricing-and-discount-guardrails.md) — keep both docs aligned when amounts change.
 
 ---
 
@@ -89,79 +89,73 @@ Migration pricing should consider:
 
 ## Pricing Tiers
 
-### Tier 1 — Standard Migration
+Canonical one-time fees (also in [SaaS pricing and discount guardrails](saas-pricing-and-discount-guardrails.md)):
+
+| Migration type | One-time fee |
+|----------------|-------------:|
+| Customer-completed template import | $2,500 |
+| Simple structured migration | $5,000–$7,500 |
+| Standard legacy-system migration | $10,000–$15,000 |
+| Complex records and attachments | $15,000–$30,000 |
+| Multiple source systems | Custom |
+
+### Customer-completed template import — $2,500
+
+Typical characteristics:
+
+- Customer fills Thin Line import templates
+- Thin Line validates and loads
+- Minimal mapping / engineering
+- Good data quality
+
+---
+
+### Simple structured migration — $5,000–$7,500
 
 Typical characteristics:
 
 - Small agency
-- Supported vendor
-- Existing Migration Package
+- Supported vendor or clean structured export
+- Existing or light Migration Package work
 - Minimal customization
 - Good data quality
 
-Typical effort:
-
-Low
-
-Current target price:
-
-Approximately **$1,000**
-
 ---
 
-### Tier 2 — Enhanced Migration
+### Standard legacy-system migration — $10,000–$15,000
 
 Typical characteristics:
 
-- Medium-sized agency
-- Supported vendor
-- Moderate customization
-- Additional validation
-- Multiple modules
-
-Typical effort:
-
-Medium
-
-Current target price:
-
-Approximately **$2,500**
+- Supported legacy vendor
+- Established or moderate Migration Package effort
+- Multiple modules and/or moderate volume
+- Normal validation and customer coordination
 
 ---
 
-### Tier 3 — Complex Migration
+### Complex records and attachments — $15,000–$30,000
 
 Typical characteristics:
 
-- Large agency
-- Significant data volume
-- Multiple modules
-- Custom mappings
-- Extensive validation
-
-Typical effort:
-
-High
-
-Current target price:
-
-Approximately **$5,000–7,500**
+- Large attachment volumes or complex record shapes
+- Significant data volume / quality issues
+- Custom mappings and extensive validation
+- High engineering and coordination effort
 
 ---
 
-### Tier 4 — Custom Engineering
+### Multiple source systems — Custom
 
 Applies when:
 
-- No existing Migration Package exists
-- Unsupported vendor
-- Significant engineering required
-- Legacy database requires custom tooling
-- Scope cannot be reasonably categorized
+- More than one source system / vendor to consolidate
+- No existing Migration Package and significant new tooling
+- Unsupported vendor with custom engineering
+- Scope cannot be reasonably categorized in the rows above
 
 Pricing:
 
-Prepared as a custom professional services estimate.
+Prepared as a custom professional services estimate (founder / deal desk).
 
 ---
 
@@ -238,20 +232,22 @@ See [Migration Package Standards](../sops/deliver/data-migration/vendor-packages
 
 ## Approval Authority
 
-| Pricing Tier | Approval |
-|--------------|----------|
-| Tier 1 | Sales / Implementation |
-| Tier 2 | Sales / Implementation |
-| Tier 3 | Founder approval |
-| Tier 4 | Founder approval with written estimate |
+| Migration type | Approval |
+|----------------|----------|
+| Customer-completed template import | Acquire (after assessment) |
+| Simple structured migration | Acquire (after assessment) |
+| Standard legacy-system migration | Acquire (after assessment) |
+| Complex records and attachments | Acquire with caution; founder if scope is unclear |
+| Multiple source systems / custom estimate | Founder / deal desk |
+| $0 waiver or heavy discount (show full fee → net) | Founder / deal desk |
 
-> <mark style="color:red;">**Decision needed:**</mark> Update approval authority as the organization grows.
+Aligns with [SaaS pricing and discount guardrails](saas-pricing-and-discount-guardrails.md).
 
 ---
 
 ## Discounts
 
-Discounts should be documented.
+Discounts should be documented. On the proposal, show **full fee → incentive → net** (same pattern as implementation in the SaaS guardrails) — do not quote only $0.
 
 Examples include:
 
