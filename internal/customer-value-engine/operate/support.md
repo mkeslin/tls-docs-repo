@@ -5,23 +5,27 @@
 
 ## Inputs
 
-Customer issue
+Customer issue (prefer **email** or **Quo**)
 
 ## Outputs
 
-Resolved issue, knowledge gained
+Resolved issue, shared log entry, knowledge gained; product item when defect/change needed
 
 ## Owner
 
-Gibson
+**Gibson** (steady state) · **Fugate** during onboarding / training / hypercare, then transition
 
 ## Current process
 
-Phone/email/SMS support
+Phone/email/SMS; personal lists and telling each other; ScreenConnect for attended remote; almost all real defects escalate to product. Answer when reachable; otherwise ASAP.
+
+## Target process
+
+[Triage support request](../../sops/operate/triage-support-request.md) — P1–P3 severity, shared log, clear hypercare → Operate handoff.
 
 ## Tooling
 
-Lists, Email, Quo
+Email, Quo, ScreenConnect · **Target:** shared Microsoft List (or Azure Boards)
 
 ## Capacity (today)
 
@@ -29,39 +33,32 @@ Lists, Email, Quo
 
 ## Cycle time
 
-Same day
+Same day for many; P1 continuous until stable
 
 ## Maturity
 
-**1 / 5 — Founder-driven**
-
-| Score | Meaning |
-|------:|---------|
-| 1 | Founder-driven |
-| 2 | Documented |
-| 3 | Standardized |
-| 4 | Automated |
-| 5 | Scalable |
+**1 / 5 — Founder-driven** → next milestone: documented triage + shared queue (level 2–3)
 
 ## What would break first?
 
-Founder dependency
+Founder / key-person dependency; lost requests in personal lists
 
 ## Continuous improvement (10x ideas)
 
 | Lens | Idea |
 |------|------|
-| Reduce / Simplify | Repeated questions |
-| Standardize | Support workflow |
-| Automate | AI assistant, knowledge base |
+| Reduce / Simplify | Repeated questions → Help |
+| Standardize | Support workflow + severity |
+| Automate | List intake, canned acks |
 | Delegate | Support team |
 | Scale | Tiered support |
 
 ## Product responsibility
 
-<mark style="color:red;">**TODO / Decision needed:**</mark> Not yet assigned in the source Customer Value Engine worksheet.
+Product defects / changes: **Keslin** prioritizes. Support stays customer-facing. Demo/env platform health: founders / eng as needed.
 
 ## Related documents
 
-- Related SOPs: <mark style="color:red;">**TODO:**</mark> link under `internal/sops/`
-- Checklists / templates: <mark style="color:red;">**TODO:**</mark>
+- SOP: [Triage support request](../../sops/operate/triage-support-request.md)
+- Policy: [Operate authority](../../policies/operate-authority.md)
+- Upstream: [Hypercare and transition](../../sops/deliver/hypercare-and-transition.md)

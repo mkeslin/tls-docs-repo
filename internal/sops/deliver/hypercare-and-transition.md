@@ -30,13 +30,13 @@ Stabilize the customer after go-live with heightened support, then **transition*
 
 ## Activities
 
-1. Run hypercare window (defined duration).  
-2. Triage defects and config gaps.  
+1. Run hypercare window (**default ~14 days after go-live** unless the go-live brief sets another length).  
+2. Triage defects and config gaps — primary owner **Fugate** (training/onboarding-adjacent); use [Triage support request](../operate/triage-support-request.md) severity language.  
 3. Daily / periodic check-ins as agreed.  
-4. Formal handoff to Operate / Support (owners, open tickets, known limits).  
+4. Formal handoff to Operate / Support (**Gibson**): open items, known limits, severity of leftovers.  
 5. Archive the engagement workspace; run the implementation retrospective; feed reusable improvements into GitBook per [Creating a new implementation](creating-a-new-implementation.md).  
 
-<mark style="color:red;">**TODO:**</mark> Hypercare SOP (duration defaults, escalation, exit review, Operate ticket handoff).
+After handoff, **new** issues are steady-state Operate ([Operate authority](../../policies/operate-authority.md)). <mark style="color:red;">**TODO:**</mark> Full hypercare SOP (exit review checklist).
 
 ---
 

@@ -44,10 +44,11 @@ Support → Product updates
 
 | Stage | Desired outcome | Owner | Maturity |
 |-------|-----------------|-------|----------|
-| [Support](operate/support.md) | Resolve issues | Gibson | 1 |
-| [Product updates](operate/product-updates.md) | Deliver improvements | Fugate / Keslin | 1 |
+| [Support](operate/support.md) | Resolve issues | Gibson (steady); Fugate in hypercare | 1 |
+| [Product updates](operate/product-updates.md) | Deliver improvements | Keslin (priority/comms) | 1 |
 
 - [Operate overview](operate/README.md)
+- SOPs: [Triage support request](../sops/operate/triage-support-request.md) · [Publish product update](../sops/operate/publish-product-update.md)
 
 ## Expand
 

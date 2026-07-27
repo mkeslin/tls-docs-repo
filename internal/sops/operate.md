@@ -1,12 +1,10 @@
 # SOPs — Operate
 
-SOPs for support and product updates. Stage overviews: ../../customer-value-engine/operate/
+See [operate/README.md](operate/README.md) for the Operate SOP index.
 
-## Procedures in this folder
+| SOP | Stage |
+|-----|-------|
+| [Triage support request](operate/triage-support-request.md) | Support |
+| [Publish product update](operate/publish-product-update.md) | Product updates |
 
-<mark style="color:red;">**TODO:**</mark> Add SOP files here as they are written. Use the standard SOP structure in [../README.md](./).
-
-Suggested first SOP filenames (create only when content is available):
-
-* `sop-triage-support-request.md`
-* `sop-publish-product-update.md`
+Policy: [Operate authority](../policies/operate-authority.md)

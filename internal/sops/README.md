@@ -106,7 +106,8 @@ Next review date
 | 8 | [Acquire — Prepare proposal](acquire/prepare-proposal.md) | v0.2 |
 | 9 | [Acquire — Execute contract](acquire/execute-contract.md) | v0.2 |
 | 10 | [Acquire — Create invoice](acquire/create-invoice.md) | v0.1 — Finance / Keslin |
-| 11 | Operate — support triage | Not started |
+| 11 | [Operate — Triage support request](operate/triage-support-request.md) | v0.1 |
+| 12 | [Operate — Publish product update](operate/publish-product-update.md) | v0.1 |
 
 **Deliver:** Lifecycle-based implementation ([Implementation overview](deliver/implementation-overview.md)) — phases 0–8 (Sales handoff → Hypercare and transition), with SOPs/standards nested underneath.
 
