@@ -2,8 +2,8 @@
 
 **Document type:** SOP  
 **Phase:** Advocate · Referral  
-**Status:** v0.1  
-**Next review:** <mark style="color:red;">**TODO:**</mark> set date (owner: Advocate / Acquire)  
+**Status:** v0.2  
+**Next review:** 2026-10-01 (owner: Advocate / Acquire)  
 **Audience:** Internal — anyone closing success moments with customers  
 **Related:** [Referral](../../customer-value-engine/advocate/referral.md) · [Go-to-market](../../strategy/go-to-market.md) · [Generate new leads](../acquire/generate-new-leads.md) · [Referral ask script](../../templates/referral-ask.md)
 
@@ -51,14 +51,15 @@ Make asking for referrals a **repeatable** step after real customer success — 
 
 ## 4. Trigger
 
-Ask at least once when any of these occur:
+**Default (guided):** make a referral ask at **hypercare exit / go-live success** for every engagement unless the relationship is strained (then skip and note why in Pipedrive).
 
-- Go-live success / hypercare exit with a satisfied customer  
+Also ask when any of these occur:
+
 - Strong check-in or expansion conversation  
 - Customer spontaneously praises the product or support  
 - Customer offers “you should talk to…” (capture immediately)
 
-<mark style="color:red;">**TODO / Decision needed:**</mark> Whether the ask is mandatory at hypercare exit for every engagement.
+One sincere ask beats repeated pressure — if they decline, thank them and optionally re-ask after a later success moment (e.g. 90 days).
 
 ## 5. Preconditions
 

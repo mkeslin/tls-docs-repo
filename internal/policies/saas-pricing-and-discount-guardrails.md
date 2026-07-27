@@ -1,7 +1,7 @@
 # SaaS pricing and discount guardrails
 
 **Document type:** Policy  
-**Status:** v2.0 — <mark style="color:red;">Draft</mark> (working commercial guidance)  
+**Status:** v2.1 — <mark style="color:red;">Draft</mark> (working commercial guidance)  
 **Audience:** Internal — Acquire, founders (do **not** publish to customers)  
 **Related:** [Acquire authority matrix](acquire-authority.md) · [Prepare proposal](../sops/acquire/prepare-proposal.md) · [Migration Pricing Policy](migration-pricing.md) · [Go-to-market](../strategy/go-to-market.md)
 
@@ -270,12 +270,12 @@ If migration is discounted for strategic / market-share reasons, use the same **
 
 ### Training
 
-**Included** with a standard deployment (state the session count on the proposal / order form):
+**Included** with a standard deployment (aligned with current signed SaaS practice, e.g. Bloomburg-style package):
 
 - Standard remote launch training
 - Administrator training
 - Recorded materials
-- A **defined number of sessions** (document the count — do not leave “unlimited”)
+- **Up to eight (8) hours** of initial training (on-site or virtual) — state hours on the order form; typically delivered as a small number of remote sessions totaling ≤8 hours (e.g. four 2-hour sessions). Do **not** promise unlimited training.
 
 **Charge for** extras:
 
@@ -363,6 +363,18 @@ Quote **list** first. Program incentives are named concessions (full fee → inc
 
 For qualifying agencies, offer **one or more** of the following (document which program(s) in Pipedrive). Do **not** auto-stack every lever with term/bundle discounts without founder approval ([Contract terms](#contract-terms)).
 
+### Active program window (starter — H2 2026)
+
+Provisional window so Acquire can use these levers without inventing terms per deal. Extend or close by founder decision.
+
+| Program | Geography | Sign / qualify by | Notes |
+|---------|-----------|-------------------|-------|
+| **Founding-agency** | Texas ICP (prefer Priority 1–2) | **2026-12-31** | Year-1 SaaS incentive only |
+| **Competitive replacement** | Texas ICP | **2026-12-31** | One-time fee credits; keep SaaS |
+| **Regional cohort — West Texas** | Priority 1 Lubbock / West Texas | Rolling **90-day** cohorts; first cohort closes **2026-10-31** | Shared deploy/training when ≥3 agencies in cohort |
+
+Label the program on the proposal and in Pipedrive (**Market-share program** field).
+
 ### Founding-agency incentive
 
 | Element | Guidance |
@@ -380,22 +392,19 @@ For qualifying agencies, offer **one or more** of the following (document which 
 | **What** | Discount **implementation** and/or **migration** (show full fee → credit → net) |
 | **Recurring SaaS** | **Preserve** standard SaaS pricing (list / normal close) — do not permanently lower the card |
 | **Proof** | Require evidence of an **existing competing contract** |
-| **Expiry** | Incentive expires after a **defined date** (state on proposal) |
+| **Expiry** | Current window ends **2026-12-31** (state on proposal) |
 | **Authority** | Acquire for implementation/migration credits within one-time fee tables; SaaS cuts or $0 net one-times → founder |
-
-<mark style="color:red;">**TODO:**</mark> Set the current competitive-replacement **expiry date** when the program window is opened.
 
 ### Regional cohort pricing
 
 | Element | Guidance |
 |---------|----------|
-| **What** | Discount when **several nearby agencies** sign within a **set period** |
+| **What** | Discount when **several nearby agencies** sign within the cohort window |
+| **Starter shape** | West Texas Priority 1; **up to 10%** off Year-1 SaaS **or** up to **$2,500** implementation credit (not both without founder); shared training/deploy schedule |
 | **Delivery** | Shared training and deployment schedule where practical |
 | **Contracts** | **Each agency has its own contract** |
 | **Rationale** | Discount reflects lower acquisition and implementation cost — not a permanent regional list cut |
-| **Authority** | Founder sets cohort window, geography, and discount shape; Acquire executes within that package |
-
-<mark style="color:red;">**TODO:**</mark> Define active cohort regions, sign-by date, and discount % when launching a cohort.
+| **Authority** | Acquire executes within this starter package; changes to geography/discount → founder |
 
 ### Small-agency accessibility price
 
@@ -470,7 +479,7 @@ Proposal validity: **90 days** (see [Prepare proposal](../sops/acquire/prepare-p
 | Contract / CJIS templates | **SharePoint** |
 | Executed agreements | **Pipedrive** (deal) **and** **SharePoint** |
 
-<mark style="color:red;">**TODO:**</mark> Add exact SharePoint folder URLs/names when stabilized so Acquire does not rely on memory.
+SharePoint commercial library folder URLs: **deferred** until the library is reorganized.
 
 ---
 
@@ -480,7 +489,7 @@ Proposal validity: **90 days** (see [Prepare proposal](../sops/acquire/prepare-p
 2. For LE single-module: **RMS 70%** / **CAD 70–75%** of full-stack **list**; ordinary mins **$6,000** / **$7,500**; second module **upgrades to current combined package**.  
 3. For Court: citations/month bands (under-50 list **$7,500**); **$5,000** only as founder strategic floor for extremely light courts. For Jail: bed bands (11–20 list **$15,000**); booking uplifts +10–20% when applicable; interfaces/SLA priced separately.  
 4. **Custom product work is not a discount lever** — see [Acquire authority](acquire-authority.md) and GTM disqualifiers.  
-5. **Implementation / migration / training / integrations:** quote from the respective tables. Included training = remote launch + admin + recorded materials + a **defined** session count. Extra training and all integrations are separate line items. Discounts use **full fee / incentive / net** — never only $0.  
+5. **Implementation / migration / training / integrations:** quote from the respective tables. Included training = remote launch + admin + recorded materials + **up to 8 hours**. Extra training and all integrations are separate line items. Discounts use **full fee / incentive / net** — never only $0.  
 6. **Court / Jail packaging** must match [Go-to-market](../strategy/go-to-market.md).  
 7. State **term**, **annual billing in advance**, **5% escalator** (or fixed year-by-year schedule), and any **term discount** — never leave renewal pricing silent; do **not** auto-stack multi-year + bundle discounts.  
 8. Record **all concessions explicitly** (full undiscounted value + reductions) — see [Concessions](#concessions-must-be-explicit).  
@@ -507,7 +516,7 @@ Before sending a proposal:
 - [ ] **Annual increase** stated (**5%** escalator **or** fixed year-by-year schedule) — not silent  
 - [ ] Multi-year + bundle discounts **not auto-stacked**; special termination rights reflected in discount level  
 - [ ] Implementation fee from deployment table; if discounted, **full fee + incentive + net** shown (not $0 alone)  
-- [ ] Training: included package listed + **session count** stated; extras priced from training table if any  
+- [ ] Training: included package listed + **up to 8 hours** stated; extras priced from training table if any  
 - [ ] Integrations: setup + annual maintenance from table (or founder for complex/custom)  
 - [ ] Migration type + fee from table (or TBD after assessment / founder for custom or $0)  
 - [ ] If implementation / migration / integration discounted: **full fee + incentive + net** shown  
@@ -520,6 +529,7 @@ Before sending a proposal:
 
 | Date | Change |
 |------|--------|
+| 2026-07-27 | v2.1 — Training default **8 hours**; H2 2026 market-share windows (founding / competitive / West Texas cohort) |
 | 2026-07-26 | v2.0 — Adopted list summary card; market-share program (founding / competitive replacement / cohort / accessibility); ~85–90% realized vs list |
 | 2026-07-26 | v1.9 — Contract terms: 3y default, annual billing, 5% increase, term discounts, no auto-stack, gov year-by-year schedule |
 | 2026-07-26 | v1.8 — Training include/charge table; integrations setup + annual maintenance bands |

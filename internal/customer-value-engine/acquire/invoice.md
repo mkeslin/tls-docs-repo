@@ -59,9 +59,9 @@ Manual invoicing
 
 ## Product responsibility
 
-<mark style="color:red;">**TODO / Decision needed:**</mark> Not yet assigned in the source Customer Value Engine worksheet.
+N/A — commercial / finance stage. Product gaps from billing tooling escalate to founders.
 
 ## Related documents
 
-- Related SOPs: <mark style="color:red;">**TODO:**</mark> link under `internal/sops/`
-- Checklists / templates: <mark style="color:red;">**TODO:**</mark>
+- Related SOPs: [Create invoice](../../sops/acquire/create-invoice.md) · [Execute contract](../../sops/acquire/execute-contract.md)
+- Checklists / templates: none required

@@ -13,7 +13,7 @@ Interested prospects
 
 ## Owner
 
-<mark style="color:red;">**Decision needed:**</mark> Owner not assigned.
+Owner: **unassigned** for now (Acquire executes lead gen; Awareness content strategy deferred).
 
 ## Current process
 
@@ -59,10 +59,10 @@ Not enough inbound awareness
 
 ## Product responsibility
 
-<mark style="color:red;">**TODO / Decision needed:**</mark> Not yet assigned in the source Customer Value Engine worksheet.
+N/A — commercial Acquire stage. Escalate product gaps to founders / product.
 
 ## Related documents
 
 - Strategy: [Go-to-market](../../strategy/go-to-market.md)
 - Related SOPs: [Generate new leads](../../sops/acquire/generate-new-leads.md)
-- Checklists / templates: <mark style="color:red;">**TODO:**</mark>
+- Templates: [First-touch outreach](../../templates/first-touch-outreach.md)

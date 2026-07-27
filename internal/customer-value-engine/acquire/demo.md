@@ -59,7 +59,7 @@ Calendar capacity
 
 ## Product responsibility
 
-<mark style="color:red;">**TODO / Decision needed:**</mark> Not yet assigned in the source Customer Value Engine worksheet.
+Demo environment health: founders / product. Commercial facilitation: Acquire.
 
 ## Related documents
 

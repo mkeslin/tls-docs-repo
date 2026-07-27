@@ -2,10 +2,10 @@
 
 **Document type:** SOP  
 **Phase:** Acquire (Awareness → Cold / Warm leads)  
-**Status:** v0.1  
-**Next review:** <mark style="color:red;">**TODO:**</mark> set date (owner: Acquire)  
+**Status:** v0.2  
+**Next review:** 2026-10-01 (owner: Acquire)  
 **Audience:** Internal — Acquire owner and anyone creating new sales conversations  
-**Related:** [Go-to-market](../../strategy/go-to-market.md) · [Cold leads](../../customer-value-engine/acquire/cold-leads.md) · [Warm leads](../../customer-value-engine/acquire/warm-leads.md) · [Capture referral](../advocate/capture-referral.md)
+**Related:** [Go-to-market](../../strategy/go-to-market.md) · [Cold leads](../../customer-value-engine/acquire/cold-leads.md) · [Warm leads](../../customer-value-engine/acquire/warm-leads.md) · [Capture referral](../advocate/capture-referral.md) · [First-touch outreach](../../templates/first-touch-outreach.md)
 
 ---
 
@@ -63,15 +63,16 @@ Any of:
 
 - ICP and geographic priority understood ([Go-to-market](../../strategy/go-to-market.md))  
 - Access to Pipedrive  
-- For list work: access to the agreed list storage location  
+- For list work: access to Pipedrive **Leads** (association / chiefs list work)  
 - For field days: stop list prepared ([Field-day stop list](../../templates/field-day-stop-list.md))  
+- First-touch language: [First-touch outreach](../../templates/first-touch-outreach.md)  
 
 ## 6. Inputs
 
 | Input | Source |
 |-------|--------|
 | ICP / region priority | Go-to-market |
-| Association mailing list (e.g. South Plains Police Chiefs Association) | Agreed storage location <mark style="color:red;">**TODO**</mark> |
+| Association / chiefs list | Pipedrive **Leads** inbox |
 | Referral intro | Advocate SOP / Pipedrive |
 | Event attendee notes | Conference / networking |
 | Existing Pipedrive orgs (avoid duplicates) | Pipedrive |
@@ -79,8 +80,8 @@ Any of:
 ## 7. Outputs
 
 - Organization and person (contact) in Pipedrive  
-- Lead / deal as appropriate for current Pipedrive process <mark style="color:red;">**TODO:**</mark> confirm when a Deal is created vs Person/Org only  
-- **Lead origin** set  
+- **Deal** only when fit + real possibility of moving forward → usually **Dialog Established** ([Go-to-market](../../strategy/go-to-market.md))  
+- **Lead origin** (+ other custom fields when Deal exists)  
 - Activity logged + **next activity** scheduled  
 - Conversation started or documented attempt  
 
@@ -108,7 +109,7 @@ Every new conversation is created through a known channel, logged in Pipedrive t
 | List storage and usage rules unclear | Document location + quarterly touch process |
 | Origin not always recorded | Required Pipedrive field + this SOP |
 | Field days not pre-planned | Stop list template + monthly cadence |
-| Pipeline stages / Deal rules informal | Decision needed on Pipedrive hygiene |
+| Pipeline stages / Deal rules informal | Use live stages in [Acquire authority](../../policies/acquire-authority.md#pipedrive-pipeline-stages-live); first conversation → **Dialog Established** |
 
 ## 12. Common risks
 
@@ -149,7 +150,7 @@ After first touch
 | Channel | Planning | Execution (starting estimates) |
 |---------|----------|--------------------------------|
 | Referral first touch | 10–20 min | Same day when possible |
-| Association list batch | 30–60 min prep | <mark style="color:red;">**TODO:**</mark> batch size per session |
+| Association list batch | 30–60 min prep + outreach | **10–15** agencies per outbound block |
 | Field / territory day | 30–60 min stop-list prep | Full day on site / in region |
 | Event follow-up | 15–30 min | Within 5 business days of event |
 
@@ -170,26 +171,27 @@ Refine estimates at next review.
 ### A. Always — Pipedrive hygiene (every channel)
 
 1. Search Pipedrive for the agency (organization) and contact.  
-2. Create or update Organization and Person.  
+2. Create or update Organization and Person (and convert from **Leads** when working that inbox).  
 3. Set **Lead origin** (Referral, Association list, Field visit, Conference / event, Inbound, Other network).  
 4. Add a short note: why this agency, what was said or attempted.  
 5. Create or complete an **Activity**; always leave a **next Activity** with a due date.  
-6. If interest is confirmed, advance per current pipeline rules and pursue discovery / demo.
+6. **Create a Deal** only when the conversation shows **fit + real possibility of moving forward** — then stage **Dialog Established** and fill GTM custom fields ([Go-to-market](../../strategy/go-to-market.md)).  
+7. Offer **demo site access** early when helpful; set **Demo site access** = Yes when sent.
 
 ### B. Channel — Customer referral
 
 1. Complete [Capture referral](../advocate/capture-referral.md) so the intro is logged.  
-2. First touch the referred contact promptly (same day when possible).  
+2. First touch the referred contact promptly (same day when possible) using [First-touch outreach](../../templates/first-touch-outreach.md).  
 3. Mention the referring agency only if the referrer agreed to be named.  
 4. Continue from Procedure A.
 
 ### C. Channel — Association / mailing list (South Plains Police Chiefs Association)
 
-1. Open the list from the agreed storage location (<mark style="color:red;">**TODO:**</mark> document path / drive location).  
+1. Work targets from Pipedrive **Leads** (canonical list home).  
 2. Filter to the matching ICP profile ([Go-to-market](../../strategy/go-to-market.md)); prefer geographic Priority 1, then Priority 2 clusters. Other Texas OK when quality is high.  
-3. For each target in today’s batch: Procedure A, then outreach (call, email, and/or planned visit).  
-4. Record message theme used (keep copy snippets in Pipedrive or a shared draft location — <mark style="color:red;">**TODO:**</mark> approved first-touch language).  
-5. Do not paste the full mailing list into GitBook or public tools.
+3. Batch **10–15** agencies per weekly outbound block. For each: Procedure A, then outreach (call, email, and/or planned visit) using [First-touch outreach](../../templates/first-touch-outreach.md).  
+4. Record which message variant was used in the activity note.  
+5. Follow the no-response cadence in [Go-to-market](../../strategy/go-to-market.md#follow-up-cadence-no-response).
 
 ### D. Channel — Field / territory day
 
@@ -223,7 +225,7 @@ Refine estimates at next review.
 
 | Situation | Action |
 |-----------|--------|
-| No response after agreed follow-up attempts | <mark style="color:red;">**TODO / Decision needed:**</mark> max attempts / recycle timing |
+| No response after 3 touches (Day 0 / 3–5 / 10–14) | Nurture 60–90 days or close-not-now — see GTM follow-up cadence |
 | Prospect requests no contact | Honor immediately; mark accordingly in Pipedrive |
 | Capacity conflict with delivery | Escalate to founders before promising dates  
 | Messaging or pricing questions beyond Acquire authority | Escalate to founders / product as appropriate |
@@ -237,13 +239,14 @@ Refine estimates at next review.
 | Field days completed | Per go-to-market rhythm |
 | Conversion to discovery / demo | Downstream (track in Pipedrive) |
 
-<mark style="color:red;">**TODO:**</mark> Bind KPIs to quarterly scorecard if desired.
+Leading indicators also in [Go-to-market](../../strategy/go-to-market.md) (≥4 demos scheduled / ≥8 Priority 1 touches per month — refine after 60 days).
 
 ## 20. Related documents
 
 - [Go-to-market](../../strategy/go-to-market.md)  
 - [Awareness](../../customer-value-engine/acquire/awareness.md) · [Cold leads](../../customer-value-engine/acquire/cold-leads.md) · [Warm leads](../../customer-value-engine/acquire/warm-leads.md)  
 - [Capture referral](../advocate/capture-referral.md)  
+- [First-touch outreach](../../templates/first-touch-outreach.md)  
 - [Field-day stop list](../../templates/field-day-stop-list.md)  
 - [Two-week sales plan](../../templates/sales-plan-two-week.md)  
 
@@ -253,9 +256,8 @@ Refine estimates at next review.
 
 ### Weaknesses
 
-- Association list operational details incomplete  
-- Approved outreach language not yet standardized  
-- Pipedrive required fields not fully specified  
+- Custom fields must still be **created** in Pipedrive (names specified in GTM)  
+- First-touch language is v0.1 — refine from real replies  
 
 ### Automation opportunities
 

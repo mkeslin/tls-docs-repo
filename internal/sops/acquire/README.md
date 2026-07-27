@@ -8,7 +8,8 @@ SOPs for awareness through invoice. Stage overviews: [../../customer-value-engin
 2. [Run product demo](run-product-demo.md) (+ [Demo checklist](../../checklists/demo-checklist.md))  
 3. [Prepare proposal](prepare-proposal.md)  
 4. [Execute contract](execute-contract.md)  
-5. [Sales handoff](../deliver/sales-handoff.md) (Deliver lifecycle 0)
+5. [Create invoice](create-invoice.md) (Finance / Keslin)  
+6. [Sales handoff](../deliver/sales-handoff.md) (Deliver lifecycle 0)
 
 Authority and pricing: [Acquire authority](../../policies/acquire-authority.md) · [SaaS pricing guardrails](../../policies/saas-pricing-and-discount-guardrails.md)
 
@@ -16,12 +17,13 @@ Authority and pricing: [Acquire authority](../../policies/acquire-authority.md) 
 
 | SOP | Status | Stages |
 |-----|--------|--------|
-| [Generate new leads](generate-new-leads.md) | v0.1 | Awareness → Cold / Warm leads |
-| [Run product demo](run-product-demo.md) | v0.1 | Demo |
-| [Prepare proposal](prepare-proposal.md) | v0.1 | Proposal |
-| [Execute contract](execute-contract.md) | v0.1 | Contract |
+| [Generate new leads](generate-new-leads.md) | v0.2 | Awareness → Cold / Warm leads |
+| [Run product demo](run-product-demo.md) | v0.2 | Demo |
+| [Prepare proposal](prepare-proposal.md) | v0.2 | Proposal |
+| [Execute contract](execute-contract.md) | v0.2 | Contract |
+| [Create invoice](create-invoice.md) | v0.1 | Invoice |
 
-## Still to write
+## Still to write / organize
 
-- Invoice stage SOP  
-- Concrete template file paths and demo-tenant runbook once locations are agreed  
+- SharePoint commercial library folder structure (deferred)  
+- Demo-tenant runbook once locations are agreed  

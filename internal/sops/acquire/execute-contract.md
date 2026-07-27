@@ -2,8 +2,8 @@
 
 **Document type:** SOP  
 **Phase:** Acquire · Contract  
-**Status:** v0.1  
-**Next review:** <mark style="color:red;">**TODO:**</mark> set date (owner: Acquire)  
+**Status:** v0.2  
+**Next review:** 2026-10-01 (owner: Acquire)  
 **Audience:** Internal — Acquire  
 **Related:** [Contract](../../customer-value-engine/acquire/contract.md) · [Acquire authority](../../policies/acquire-authority.md) · [Prepare proposal](prepare-proposal.md) · [Sales handoff](../deliver/sales-handoff.md) · [Sales Handoff Checklist](../../checklists/sales-handoff-checklist.md)
 
@@ -17,7 +17,7 @@
 | **Typical duration** | Send in **24–48 business hours** after proposal accept; customer signature 1–14 days |
 | **Owner (role)** | Acquire |
 | **Stakeholders** | Founders (redlines / non-standard), Thin Line signatory, prospect signers, Implementation |
-| **Success criteria** | Fully executed packet stored; Pipedrive Won (or equivalent); handoff checklist started |
+| **Success criteria** | Fully executed packet stored; Pipedrive → **Onboarding Scheduled/Started**; handoff checklist started |
 | **Related** | [Sales handoff](../deliver/sales-handoff.md) |
 
 ---
@@ -42,7 +42,7 @@ Make contracting a **standard Acquire-owned workflow** (Dropbox Sign + standard 
 
 **In scope:** Preparing the signature packet from an accepted proposal; e-sign; tracking; filing; starting sales handoff.
 
-**Out of scope:** Implementation kickoff work; negotiating novel legal frameworks without counsel/founder; invoicing details beyond what contract requires (<mark style="color:red;">TODO</mark> link Invoice stage when documented).
+**Out of scope:** Implementation kickoff work; negotiating novel legal frameworks without counsel/founder; day-to-day invoicing (see [Create invoice](create-invoice.md) — Finance / Keslin).
 
 ## 3. Owner
 
@@ -75,7 +75,7 @@ Prospect accepts proposal (email/verbal/written) or asks for contract, and comme
 
 - Executed agreement(s)  
 - Stored PDF / Dropbox Sign record  
-- Pipedrive: Contract out → Won; key dates  
+- Pipedrive: stay in **Proposal Sent/Decision Pending** while signing; then **Onboarding Scheduled/Started**; key dates logged  
 - [Sales Handoff Checklist](../../checklists/sales-handoff-checklist.md) started / completed as far as Sales can  
 
 ## 8. Tools
@@ -126,11 +126,9 @@ Proposal accepted?
 ```text
 CJIS / security exhibits?
     │
-    ├─ Agency will use RMS/CAD with CJI or vendor access to CJI ──► Include standard CJIS path
+    ├─ Agency deals with criminal justice information (typical LE / Jail / Court with CJI) ──► Include standard CJIS Security Addendum path
     │
-    ├─ Court-only / unclear ──► <mark style="color:red;">TODO / Decision needed:</mark> default include vs ask founder
-    │
-    └─ Explicitly no CJI ──► Document rationale; standard SaaS only
+    └─ Explicitly no CJI exposure ──► Document rationale; standard SaaS only (rare — confirm with founder if unclear)
 ```
 
 ## 14. Time expectations
@@ -163,9 +161,9 @@ CJIS / security exhibits?
 6. **Agency signers (typical)**  
    - **SaaS agreement:** usually **police chief** and **mayor / superintendent** (or equivalent)  
    - **CJIS Security Addendum:** **police chief** for the agency; Eric for Thin Line  
-7. **Pipedrive** — Stage Contract out; activity to follow up; link to signature request.  
+7. **Pipedrive** — Keep stage **Proposal Sent/Decision Pending**; activity to follow up; link to signature request.  
 8. **Monitor** — Remind per cadence; answer process questions; escalate substance/redlines to founder.  
-9. **On full execution** — Store executed docs in **Pipedrive** and **SharePoint**; mark Won; start [Sales handoff](../deliver/sales-handoff.md) + [checklist](../../checklists/sales-handoff-checklist.md).  
+9. **On full execution** — Store executed docs in **Pipedrive** and **SharePoint**; move stage to **Onboarding Scheduled/Started**; start [Sales handoff](../deliver/sales-handoff.md) + [checklist](../../checklists/sales-handoff-checklist.md).  
 10. **Redlines path** — Summarize requested changes; do not verbally accept material changes; wait for founder guidance; re-send only when approved.
 
 ### Standard packet inventory

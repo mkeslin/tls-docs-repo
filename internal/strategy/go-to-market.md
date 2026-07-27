@@ -71,7 +71,7 @@ Use the matching profile when filtering lists, planning field days, or qualifyin
 | **Buyer** | Chief / command; city stakeholders as needed |
 | **Not now** | Enterprise-sized pursuits that overwhelm delivery or force heavy custom work |
 
-<mark style="color:red;">**TODO:**</mark> Optional — set explicit min/max officer counts once leadership wants a hard cutoff.
+Keep **soft** size guidance (no hard min/max officer cutoff) until leadership wants a hard gate.
 
 ### Municipal court
 
@@ -102,7 +102,7 @@ Sheriff **LE** (RMS/CAD) opportunities follow the **Law enforcement** profile; j
 | Segment | Current coverage | Target |
 |---------|------------------|--------|
 | Law enforcement | Acquire owner (Fugate) primary | Sustainable LE ownership on Acquire |
-| Municipal court | Founder-led (Keslin) today | Transition court selling into repeatable Acquire ownership — <mark style="color:red;">**TODO:**</mark> timing / handoff plan |
+| Municipal court | Founder-led (Keslin) today | Phased handoff to Acquire (see [Court selling handoff](#court-selling-handoff)) |
 | Jail / sheriff | Limited; tied to platform readiness | Expand as jail product capacity grows |
 
 This is an operating-coverage note, not an ICP substitute.
@@ -120,54 +120,80 @@ Rules of thumb:
 3. Next activity is always scheduled — no “orphan” leads.  
 4. Do not track pipeline only in email, notes apps, or memory.
 
-<mark style="color:red;">**TODO / Decision needed:**</mark> Confirm Pipedrive pipeline stage names and required custom fields (origin, region, association list, referring agency).
+**Deal pipeline stages** (live): **Dialog Established** → **Demo Scheduled** → **Demo Completed** → **Proposal Sent/Decision Pending** → **Onboarding Scheduled/Started**. Exit criteria: [Acquire authority](../policies/acquire-authority.md#pipedrive-pipeline-stages-live).
+
+**When to create a Deal:** when a conversation reaches **fit + real possibility of moving forward** (not at first cold touch). Until then, keep **Organization / Person** (and Pipedrive **Leads** inbox items) with next activities. Creating the Deal usually lands it in **Dialog Established**.
+
+**Pipedrive custom fields (create these):**
+
+| Field | Type | Required when | Values / notes |
+|-------|------|---------------|----------------|
+| **Lead origin** | Single select | Org or Deal created | Referral · Association list · Field visit · Conference / event · Inbound · Other network |
+| **GTM region** | Single select | Deal created | Priority 1 — Lubbock / West Texas · Priority 2 — cluster · Other Texas |
+| **ICP profile** | Single select | Deal created | LE · Court · Jail · Multi-product |
+| **Referring agency** | Text (or org link) | Origin = Referral | Who introduced us |
+| **Association source** | Text | Origin = Association list | e.g. South Plains Police Chiefs — Pipedrive Leads |
+| **Sworn officers** | Number | LE in scope | Sizing input |
+| **Rated beds** | Number | Jail in scope | Sizing input |
+| **Citations / month** | Number | Court in scope | Sizing input |
+| **Modules of interest** | Multi / text | Deal created | RMS, CAD, Court, Jail |
+| **Demo site access** | Yes/No | Before or after first deep conversation | Prospects often explore before the live call |
+| **Market-share program** | Single select | If used | None · Founding agency · Competitive replacement · Regional cohort · Accessibility |
 
 ---
 
 ## Lead origin (channels)
 
-Use these origin labels consistently in Pipedrive (exact field name <mark style="color:red;">**TODO**</mark>):
+Field name in Pipedrive: **Lead origin** (create if missing). Values:
 
 | Origin | Description | Primary phase |
 |--------|-------------|----------------|
 | Referral | Introduced by a customer or champion | Advocate → Acquire |
-| Association list | South Plains Police Chiefs Association (or similar) list outreach | Acquire |
+| Association list | South Plains Police Chiefs Association (or similar) — sourced from Pipedrive **Leads** | Acquire |
 | Field visit | In-person agency visit / territory day | Acquire |
 | Conference / event | Met or followed up from an event | Acquire / Awareness |
 | Inbound | Website, phone, email, or other inbound | Awareness → Acquire |
 | Other network | Personal or professional network not covered above | Acquire |
 
-Procedures: [Generate new leads](../sops/acquire/generate-new-leads.md) · [Capture referral](../sops/advocate/capture-referral.md).
+Procedures: [Generate new leads](../sops/acquire/generate-new-leads.md) · [Capture referral](../sops/advocate/capture-referral.md) · [First-touch outreach](../templates/first-touch-outreach.md).
 
 ---
 
 ## Channel mix (working priorities)
 
-Until mix targets are set, prioritize in this order:
+Prioritize in this order (no hard % targets until Q4 review):
 
 1. **Referrals** from successful customers (repeatable ask).  
-2. **Association and list outreach** (starting with the South Plains Police Chiefs Association mailing list).  
+2. **Association and list outreach** (Pipedrive **Leads** / South Plains chiefs).  
 3. **Scheduled field / territory days** with a pre-built stop list.  
 4. **Conference and event follow-up** into Pipedrive.  
 5. **Inbound** response and qualification.
 
-<mark style="color:red;">**TODO / Decision needed:**</mark> Set H2 or quarterly mix targets (e.g. share of new qualified leads by origin).
+**Starting mix intent (guide, not quota):** roughly half of new qualified conversations from referrals + association; field days feed the rest; inbound opportunistic.
 
 ---
 
 ## Operating rhythm (company standard)
 
-Cadence is a **company** expectation for Acquire ownership — refine numbers after the first month of use.
+| Cadence | Activity | Guided default |
+|---------|----------|----------------|
+| Weekly | Pipedrive review: open activities, stalled leads, next actions | 30–45 min |
+| Weekly | Structured **outbound block** (list, referral follow-up, or field prep) | **4 hours** (one block, same weekday when possible) |
+| Per outbound block | Association / Leads batch | **10–15** agencies researched + touched (not 50 spray-and-pray) |
+| Monthly | **Territory / field day** in Priority 1 | **1 day** (or documented skip with make-up date) |
+| Ongoing | Referral asks at success moments | See [Capture referral](../sops/advocate/capture-referral.md) |
+| Quarterly | Refresh / re-touch association segments still in ICP | — |
 
-| Cadence | Activity |
-|---------|----------|
-| Weekly | Review Pipedrive: open activities, stalled leads, next actions |
-| Weekly | At least one structured outbound block (list, referral follow-up, or field prep) |
-| Monthly | At least one **territory / field day** in Priority 1 geography (or documented reason to skip) |
-| Ongoing | Ask for referrals at defined success moments ([Capture referral](../sops/advocate/capture-referral.md)) |
-| Quarterly | Touch or refresh association-list segments still in ICP |
+### Follow-up cadence (no response)
 
-<mark style="color:red;">**TODO:**</mark> Confirm monthly field-day expectation and weekly outbound block length with Acquire owner.
+| Touch | Timing | Action |
+|------:|--------|--------|
+| 1 | Day 0 | First email and/or call + voicemail |
+| 2 | Day 3–5 | Second channel (if email first → call, or reverse) |
+| 3 | Day 10–14 | Final short bump; offer demo access or “not now is fine” |
+| — | After touch 3 | Move to **nurture**: next activity **60–90 days** out, or mark closed-not-now with reason |
+
+Honor “do not contact” immediately. Do not burn chiefs with weekly pings.
 
 ---
 
@@ -175,12 +201,28 @@ Cadence is a **company** expectation for Acquire ownership — refine numbers af
 
 | Asset | Status | Notes |
 |-------|--------|-------|
-| South Plains Police Chiefs Association mailing list | Received | Canonical storage location and refresh process <mark style="color:red;">**TODO**</mark> |
+| South Plains Police Chiefs Association / list | In Pipedrive as **Leads** | Work from Leads inbox; convert to Org/Person/Deal per rules above |
+| First-touch language | [Template](../templates/first-touch-outreach.md) | Email, voicemail, field, referral variants |
 | Customer reference / referral roster | Informal | Formalize via Advocate SOPs |
 | Field-day stop list template | [Template](../templates/field-day-stop-list.md) | Use before each territory day |
 | Two-week sales plan | [Template](../templates/sales-plan-two-week.md) | Blank plan + illustrative example for Acquire |
 
-Do not commit personal contact lists or full mailing dumps into GitBook. Store lists in the agreed secure location; document only **where** and **how** they are used.
+Do not commit full mailing dumps into GitBook.
+
+---
+
+## Court selling handoff
+
+**Suggestion (adopt until replaced):**
+
+| Phase | When | Who sells Court |
+|-------|------|-----------------|
+| **Now** | Until Court demo kit is Acquire-ready | **Keslin** leads Court conversations; Fugate may join for LE context on combined deals |
+| **Shadow** | Next 2–3 Court demos | Fugate attends; Keslin facilitates |
+| **Combined path** | Court + RMS/CAD on one deal | Acquire (Fugate) owns commercial path; founder joins Court segment of the live conversation until kit ready |
+| **Acquire-owned** | After kit + successful shadow | Acquire runs Court on standard path; founder by exception (custom, multi-judge, product-risk) |
+
+Standalone Court (no LE path) remains founder-gated per ICP packaging.
 
 ---
 
@@ -188,8 +230,7 @@ Do not commit personal contact lists or full mailing dumps into GitBook. Store l
 
 Aligned with [Annual operating plan — 2026 H2](annual-operating-plan-2026-h2.md): enter 2027 with a healthy qualified pipeline while closing named 2026 opportunities.
 
-<mark style="color:red;">**TODO / Decision needed:**</mark> Define a simple leading indicator (e.g. number of new Pipedrive leads/month in Priority 1, or number of discovery/demo commitments).
-
+**Leading indicator (starting):** each month, Acquire aims for **≥ 4 demos scheduled** and **≥ 8 new Orgs/People touched** in Priority 1 with origin set and a next activity — refine after 60 days of clean data.
 ---
 
 ## Out of scope for this page

@@ -2,8 +2,8 @@
 
 **Document type:** SOP  
 **Phase:** Acquire · Proposal  
-**Status:** v0.1  
-**Next review:** <mark style="color:red;">**TODO:**</mark> set date (owner: Acquire)  
+**Status:** v0.2  
+**Next review:** 2026-10-01 (owner: Acquire)  
 **Audience:** Internal — Acquire  
 **Related:** [Proposal](../../customer-value-engine/acquire/proposal.md) · [SaaS pricing and discount guardrails](../../policies/saas-pricing-and-discount-guardrails.md) · [Acquire authority](../../policies/acquire-authority.md) · [Execute contract](execute-contract.md) · [Migration Pricing Policy](../../policies/migration-pricing.md)
 
@@ -66,8 +66,8 @@ Demo (or equivalent discovery) complete with go-ahead to propose; or expansion q
 |-------|--------|
 | Demo / discovery notes | Pipedrive |
 | Pricing card | SaaS pricing policy (**list price / normal close range / strategic floor**) |
-| Proposal template | SharePoint commercial library (<mark style="color:red;">TODO:</mark> exact folder URL) |
-| Migration stance | N/A · TBD after assessment · $2k–$5k / approved exception |
+| Proposal template | SharePoint commercial library (folder organization TBD) |
+| Migration stance | N/A · TBD after assessment · migration-type table / approved exception |
 
 ## 7. Outputs
 
@@ -148,7 +148,7 @@ Ready to propose?
 5. **Write assumptions** — Included / excluded; training / migration / integrations per [SaaS pricing guardrails](../../policies/saas-pricing-and-discount-guardrails.md); term + annual billing + 5% escalator (or fixed year-by-year schedule).  
 6. **Internal sanity pass** — Use pricing checklist in [SaaS pricing policy](../../policies/saas-pricing-and-discount-guardrails.md).  
 7. **Send** — To buyer + cc as appropriate; store a copy in the deal’s **SharePoint** folder and link from Pipedrive.  
-8. **Pipedrive** — Stage = Proposal out; next activity = follow-up; attach or link proposal.  
+8. **Pipedrive** — Stage = **Proposal Sent/Decision Pending**; next activity = follow-up; attach or link proposal.  
 9. **Follow up** — Per activity; if accepted → [Execute contract](execute-contract.md).  
 
 ### Proposal template pointers
@@ -161,7 +161,8 @@ Ready to propose?
 | Term | Default **3 years**; 1-year = list; 3y ≤5% / 5y ≤8% only with prepay or non-cancellable |
 | Annual increase | **5%** default (or **3–4%** if multi-year prepaid/committed) — must appear on order form |
 | Training | Virtual free; in-person at cost |
-| Migration | N/A · TBD after assessment · $2k–$5k / approved exception |
+| Migration | N/A · TBD after assessment · fee from migration-type table / approved exception |
+| Training | Included up to **8 hours** + recorded materials; extras from pricing card |
 | Validity | **90 days** |
 | Next step | Contract via Dropbox Sign |
 

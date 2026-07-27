@@ -59,9 +59,9 @@ Fugate's time
 
 ## Product responsibility
 
-<mark style="color:red;">**TODO / Decision needed:**</mark> Not yet assigned in the source Customer Value Engine worksheet.
+N/A — commercial Acquire stage. Escalate product gaps to founders / product.
 
 ## Related documents
 
-- Related SOPs: <mark style="color:red;">**TODO:**</mark> link under `internal/sops/`
-- Checklists / templates: <mark style="color:red;">**TODO:**</mark>
+- Related SOPs: [Generate new leads](../../sops/acquire/generate-new-leads.md) · [Run product demo](../../sops/acquire/run-product-demo.md)
+- Checklists / templates: [Demo checklist](../../checklists/demo-checklist.md)

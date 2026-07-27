@@ -3,7 +3,7 @@
 **Document type:** SOP  
 **Phase:** Acquire · Demo  
 **Status:** v0.2  
-**Next review:** <mark style="color:red;">**TODO:**</mark> set date (owner: Acquire)  
+**Next review:** 2026-10-01 (owner: Acquire)  
 **Audience:** Internal — Acquire  
 **Related:** [Demo](../../customer-value-engine/acquire/demo.md) · [Demo checklist](../../checklists/demo-checklist.md) · [Acquire authority](../../policies/acquire-authority.md) · [Prepare proposal](prepare-proposal.md) · [Go-to-market](../../strategy/go-to-market.md)
 
@@ -13,8 +13,8 @@
 
 | Field | Value |
 |-------|--------|
-| **Objective** | Run a controlled live demo so the prospect understands Thin Line value and a clear next step is agreed |
-| **Typical duration** | 60–90 minutes live; prep 15–30 minutes |
+| **Objective** | Run a conversation-led live session (usually after demo-site access) that answers their questions and sets a clear next step |
+| **Typical duration** | 45–90 minutes live; prep 15–30 minutes |
 | **Owner (role)** | Acquire |
 | **Stakeholders** | Founders (demo env / deep product), prospect attendees |
 | **Success criteria** | Demo delivered; Pipedrive notes complete; next step set (proposal, follow-up, or disqualify) |
@@ -68,13 +68,13 @@ Prospect is qualified enough to invest demo time (ICP fit or documented exceptio
 | Qualified prospect | Generate new leads / warm path |
 | Modules in play | Discovery / call notes |
 | Demo environment | Provisioned tenant and/or **`demo` / `demo2`** |
-| Demo script / leave-behind | <mark style="color:red;">**TODO:**</mark> not maintained yet — use procedure outline below |
+| Demo agenda | Conversation-led (below) — not a slide script |
 | Authority / SLA | [Acquire authority](../../policies/acquire-authority.md) |
 
 ## 7. Outputs
 
 - Completed demo (or documented no-show / reschedule)  
-- Pipedrive notes: needs, modules, timeline, competitors, outcome  
+- Pipedrive notes: needs, modules, timeline, competitors, outcome; stage → **Demo Completed**  
 - Next activity: proposal, second session, nurture, or closed-lost reason  
 
 ## 8. Tools
@@ -88,19 +88,19 @@ Prospect is qualified enough to invest demo time (ICP fit or documented exceptio
 
 ## 9. Current state
 
-Live demos happen; process is largely founder-influenced when something breaks (env, deep Court/Jail, pricing questions). Capacity ~8–10/mo; cycle 60–90 minutes. Maturity 1 in CVE.
+Demos are **conversations**, not product tours. Prospects usually already have **demo site access** and arrive with questions. Acquire (Fugate) leans on **lived product experience** as a user. Founder joins for Court/Jail depth. Capacity ~8–10/mo; cycle often 45–90 minutes.
 
 ## 10. Target state
 
-Acquire schedules and runs standard demos from a maintained kit; founder joins by exception; every demo ends with Pipedrive hygiene and a timed next step per authority SLA.
+Same conversational model, with consistent Pipedrive hygiene, Court/Jail kit when ready, and a timed next step every time.
 
 ## 11. Gap analysis
 
 | Gap | Move toward target |
 |-----|--------------------|
-| No written module script / leave-behind | Draft RMS/CAD script; optional one-pager later |
-| Court/Jail still founder-assisted | Build Acquire-ready Court/Jail kit, then relax authority |
+| Court/Jail still founder-assisted | Shadow → kit → Acquire ownership per [Court selling handoff](../../strategy/go-to-market.md#court-selling-handoff) |
 | Notes inconsistent | Checklist mandatory same day |
+| Leave-behind | Optional later — do not block demos |
 
 ## 12. Common risks
 
@@ -148,31 +148,31 @@ Ready to schedule demo?
 ## 16. Procedure
 
 1. **Qualify** — Confirm ICP/packaging; log modules and buyer.  
-2. **Schedule** — Send calendar invite; list attendees; set Pipedrive activity.  
-3. **Prep** — Complete “Before the demo” on [Demo checklist](../../checklists/demo-checklist.md); provision or confirm **`demo` / `demo2`** (or the session tenant); invite founder if Court/Jail in scope.  
-4. **Deliver** — Suggested flow (adjust to audience):
-   1. Context & goals (5 min)  
-   2. Discovery confirm (10 min)  
-   3. Core module walkthrough (RMS and/or CAD) (25–40 min) — Acquire-led  
-   4. Court / Jail (if in scope): founder joins for now (15–20 min)  
+2. **Schedule** — Send calendar invite; list attendees; set Pipedrive activity; stage = **Demo Scheduled**.  
+3. **Prep** — Confirm they have (or send) **demo site access**; complete [Demo checklist](../../checklists/demo-checklist.md); confirm **`demo` / `demo2`** or provisioned tenant; invite founder if Court/Jail in scope; ask them to bring top questions / workflows.  
+4. **Deliver** — Conversation-led (not a scripted tour):
+   1. Confirm goals and what they already tried in the demo site (5 min)  
+   2. Work **their questions and workflows** first (majority of the call) — Acquire-led using product experience  
+   3. Fill gaps only as needed (RMS/CAD paths they did not open)  
+   4. Court / Jail (if in scope): founder joins for now  
    5. Implementation / next-step expectations (5–10 min)  
-   6. Q&A and explicit ask (proposal vs follow-up)  
-5. **Close out same day** — Checklist “After”; advance stage; if proposal path, start [Prepare proposal](prepare-proposal.md) clock (48 business hours when in pricing card).  
+   6. Explicit ask (proposal vs follow-up vs not now)  
+5. **Close out same day** — Checklist “After”; stage → **Demo Completed**; if proposal path, start [Prepare proposal](prepare-proposal.md) clock (48 business hours when in pricing card).  
 6. **Escalate** — Product gaps, custom demands, or pricing outside card → founder with written summary.
 
 ### Demo kit contents (maintain)
 
 | Item | Status |
 |------|--------|
-| Shared tenants | **`demo`** and **`demo2`** available; many demos use a **provisioned** tenant for that session |
-| Module script (RMS/CAD) | <mark style="color:red;">TODO</mark> — use procedure outline until written |
+| Shared / provisioned tenants | **`demo`**, **`demo2`**, or session tenant |
+| Style | Conversation + Q&A after self-serve demo access — no mandatory slide script |
 | Court/Jail facilitation | Founder joins for now ([Acquire authority](../../policies/acquire-authority.md)) |
-| One-pager / leave-behind | None today — do not block demos on this |
+| One-pager / leave-behind | None today — do not block demos |
 
 ## 17. Verification
 
 - [ ] Checklist complete  
-- [ ] Pipedrive notes + next activity  
+- [ ] Pipedrive notes + stage **Demo Completed** + next activity  
 - [ ] Outcome recorded  
 
 ## 18. Failure and escalation

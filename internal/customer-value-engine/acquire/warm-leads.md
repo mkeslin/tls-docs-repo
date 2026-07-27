@@ -59,10 +59,10 @@ Follow-up consistency
 
 ## Product responsibility
 
-<mark style="color:red;">**TODO / Decision needed:**</mark> Not yet assigned in the source Customer Value Engine worksheet.
+N/A — commercial Acquire stage. Escalate product gaps to founders / product.
 
 ## Related documents
 
 - Strategy: [Go-to-market](../../strategy/go-to-market.md)
 - Related SOPs: [Generate new leads](../../sops/acquire/generate-new-leads.md)
-- Checklists / templates: <mark style="color:red;">**TODO:**</mark> discovery checklist
+- Checklists / templates: [Demo checklist](../../checklists/demo-checklist.md) · [First-touch outreach](../../templates/first-touch-outreach.md)

@@ -59,7 +59,7 @@ Customer procurement delays
 
 ## Product responsibility
 
-<mark style="color:red;">**TODO / Decision needed:**</mark> Not yet assigned in the source Customer Value Engine worksheet.
+N/A — commercial Acquire stage. Escalate product gaps to founders / product.
 
 ## Related documents
 

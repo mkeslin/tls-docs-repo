@@ -49,15 +49,17 @@ R = Responsible · A = Accountable · C = Consulted · I = Informed
 
 ## Pipedrive / CRM fields (minimum)
 
-<mark style="color:red;">**TODO:**</mark> Map to exact Pipedrive field names.
+Create/use the GTM custom fields ([Go-to-market](../../strategy/go-to-market.md)). At handoff:
 
-| Concept | Required at handoff |
-|---------|---------------------|
-| Deal / org id | Yes |
-| Modules in scope | Yes |
-| Migration Y/N/TBD | Yes |
+| Field / concept | Required at handoff |
+|-----------------|---------------------|
+| Deal / org | Yes |
+| **Modules of interest** (final sold scope in notes) | Yes |
+| Migration Y/N/TBD (note + assessment link if any) | Yes |
 | Executed contract link / file location | Yes |
 | Primary customer contact | Yes |
+| **Sworn officers** / **Rated beds** / **Citations / month** as applicable | Yes when that product sold |
+| **Market-share program** used (if any) | Yes |
 | Target go-live window (if known) | Preferred |
 | Known risks | Yes (even if “none”) |
 
