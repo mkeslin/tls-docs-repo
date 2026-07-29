@@ -36,6 +36,8 @@ The Accounting rail appears only when you have accounting access **and** your cu
 | [Bonds](bonds.md) | Refund disbursement batches, deposit export |
 | [Accounts, fees, and plans](accounts-fees-and-plans.md) | Chart view, fees/schedules, transaction sets, plans |
 
+**Remittance Allocation Reconciliation** appears under Accounting when remittance / State Quarterly workflows are in use — see [State Quarterly Report](../import-export/state-quarterly-report.md).
+
 **Not for agency day-to-day use:** Payment Cleanup and transaction-set reverse/reallocate tools are Thin Line Support only — do not rely on them in training.
 
 ## Journey

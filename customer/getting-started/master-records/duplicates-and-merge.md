@@ -10,6 +10,8 @@ Use [Search and add](search-and-add.md) — **Use Existing** whenever the person
 
 ## Merge from master search (day-to-day)
 
+Duplicate cleanup applies to **person, location, organization, property, and vehicle** masters when your claims allow merge for that type.
+
 When you have **merge** rights:
 
 1. Open the master type search (for example Persons).

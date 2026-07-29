@@ -34,6 +34,7 @@ Look for a **COURT OWNED** indicator on court-generated warrants. Day-to-day cou
 | [Offenses](offenses.md) | Charges on the warrant |
 | [Print, attachments, and history](print-attachments-history.md) | Reports, files, audit |
 | [Court-owned FTA and CPF](court-owned-fta-cpf.md) | Court create/recall/execute; PD serve |
+| [Warrant Map](warrant-map.md) | Align, link, adopt, or transfer court vs LE ownership |
 | [Related records](related-records.md) | Incidents, jail intake, master person |
 
 ## Related

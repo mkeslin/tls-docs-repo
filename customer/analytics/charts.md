@@ -11,6 +11,8 @@ Interactive analytics views (labels match the product menu).
 | **Citation Analytics** | Citation activity trends |
 | **Code Enforcement Analytics** | Code enforcement case trends |
 | **Court Violation Analytics** | Court case / violation trends |
+| **Warrant Analytics** | Warrant volume and status trends (when enabled) |
+| **Accounting Analytics** | Court finance / accounting trends (when enabled) |
 
 ## How to use a chart
 

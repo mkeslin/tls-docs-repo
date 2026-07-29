@@ -111,6 +111,7 @@
     * [Offenses](rms/warrants/offenses.md)
     * [Print, attachments, and history](rms/warrants/print-attachments-history.md)
     * [Court-owned FTA and CPF](rms/warrants/court-owned-fta-cpf.md)
+    * [Warrant Map](rms/warrants/warrant-map.md)
     * [Related records](rms/warrants/related-records.md)
   * [Evidence](rms/evidence/README.md)
     * [Search evidence](rms/evidence/search.md)
