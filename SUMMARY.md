@@ -14,7 +14,7 @@
 * [Strategic roadmap 2026–2029](internal/strategy/strategic-roadmap-2026-2029.md)
 * [Annual operating plan 2026 H2](internal/strategy/annual-operating-plan-2026-h2.md)
   * [Quarterly scorecard](internal/strategy/quarterly-scorecard.md)
-  * [Epic KPIs](internal/strategy/epic-kpis.md)
+  * [Epic plan goals](internal/strategy/epic-kpis.md)
 
 ### Company Operating System
 

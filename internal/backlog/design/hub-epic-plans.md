@@ -22,8 +22,8 @@ Define one shared two-week **coaching plan** model for all CVE epics (Acquire, D
 ## Decisions
 
 1. **Shared shell** — Every epic uses the same persistence shape: period, owner, goals, named priorities, week day-blocks, check-in items, out-of-scope, notes/risks (`SalesPlanPeriod`).
-2. **Goals = KPIs** — Plan goal rows are the epic KPI set (Label / Target / Actual). Canonical list: [Epic KPIs](../../strategy/epic-kpis.md). The UI labels this section **KPIs**.
-3. **Epic-specific defaults** — Blank templates (KPI goals, check-in, unused Acquire-only header fields) are seeded per epic from [Epic KPIs](../../strategy/epic-kpis.md) and plan templates. Do not invent process in Hub.
+2. **Goals ≠ company KPIs** — Plan goal rows are period commitments (Label / Target / Actual). Canonical list: [Epic plan goals](../../strategy/epic-kpis.md). The UI labels this section **Goals**. Company / Funding RT KPIs belong on a separate Scorecard surface.
+3. **Epic-specific defaults** — Blank templates (goals, check-in, unused Acquire-only header fields) are seeded per epic from [Epic plan goals](../../strategy/epic-kpis.md) and plan templates. Do not invent process in Hub.
 4. **Plans vs desks** — A **plan** is the two-week coaching artifact on Home. A **desk** is a dedicated route for that epic’s plan (and optional catalog tools). Acquire keeps `/acquire` (plan + playbooks + email). Deliver has `/deliver` (plan only in v0.1). Operate/Expand/Advocate/Internal stay Home Plans until a desk design expands them.
 5. **SoR split by epic** — Plans are never the engagement CRM or project workspace:
    - Acquire: Pipedrive remains CRM SoR ([Acquire Desk](hub-acquire-desk.md)).

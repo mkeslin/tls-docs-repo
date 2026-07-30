@@ -1,4 +1,4 @@
-# Epic KPIs (two-week plan collection)
+# Epic plan goals (two-week plans)
 
 **Document type:** Operating metric set  
 **Status:** v0.1  
@@ -7,10 +7,12 @@
 
 ## Purpose
 
-Give every CVE epic a **small, fixed KPI set** that seeds Hub two-week plans (`SalesPlanPeriod` goals: Target / Actual). This is where we **start collecting** period-level numbers—not a BI warehouse.
+Give every CVE epic a **small, fixed goal set** that seeds Hub two-week plans (`SalesPlanPeriod` goals: Target / Actual). In the product UI these rows are labeled **Goals**, not KPIs.
+
+**Company / Funding RT KPIs** (ARR, GA %, pipeline coverage, references, etc.) are a **separate** scorecard surface — do not overload the two-week plan with that list. Plan goals are leading commitments for the period; company KPIs are health metrics for weekly/quarterly review and period postmortem.
 
 - **Cadence:** each current two-week plan period (fill Actuals by Friday check-in).
-- **Source:** rolled up from SOP KPI sections, GTM leading indicators, and the quarterly scorecard themes.
+- **Source:** rolled up from SOP metrics, GTM leading indicators, and scorecard *drivers*.
 - **Rule:** prefer few metrics you can honestly fill; refine targets after 2–3 periods.
 
 Hub blanks and plan templates must stay aligned with this page (manual sync when this doc bumps).
@@ -19,8 +21,8 @@ Hub blanks and plan templates must stay aligned with this page (manual sync when
 
 ## Acquire
 
-| KPI (plan goal label) | Definition | Source |
-|-----------------------|------------|--------|
+| Goal (plan label) | Definition | Source |
+|-------------------|------------|--------|
 | New conversations started (reply, call connect, or in-person) | First meaningful reply or in-person conversation | [Generate new leads](../sops/acquire/generate-new-leads.md) |
 | Association-list / outbound emails sent (ICP-filtered) | Count sent in period | GTM outbound rhythm · lead SOP |
 | Demos held or scheduled | Completed sessions + firm calendar holds | [Run product demo](../sops/acquire/run-product-demo.md) · GTM |
@@ -34,8 +36,8 @@ Hub blanks and plan templates must stay aligned with this page (manual sync when
 
 ## Deliver
 
-| KPI (plan goal label) | Definition | Source |
-|-----------------------|------------|--------|
+| Goal (plan label) | Definition | Source |
+|-------------------|------------|--------|
 | Engagements with a clear next action dated in the workspace | % of named priorities | [Workspace standard](../sops/deliver/implementation-workspace-standard.md) |
 | Phase exits completed (or explicitly N/A with reason) | Count of phase exits this period | [Lifecycle](../sops/deliver/implementation-lifecycle.md) |
 | Go-lives / cutovers this period | Count | [Go live](../sops/deliver/go-live.md) · scorecard |
@@ -48,8 +50,8 @@ Set numeric targets per period from the portfolio (do not invent false precision
 
 ## Operate
 
-| KPI (plan goal label) | Definition | Source |
-|-----------------------|------------|--------|
+| Goal (plan label) | Definition | Source |
+|-------------------|------------|--------|
 | Support requests logged in shared list (%) | Logged / received; target → 100% | [Triage support](../sops/operate/triage-support-request.md) |
 | P1 incidents this period | Count | Triage SOP |
 | Time to first response (P2/P3) — sample | Hours or business hours (note sample size) | Triage SOP |
@@ -60,8 +62,8 @@ Set numeric targets per period from the portfolio (do not invent false precision
 
 ## Expand
 
-| KPI (plan goal label) | Definition | Source |
-|-----------------------|------------|--------|
+| Goal (plan label) | Definition | Source |
+|-------------------|------------|--------|
 | Customer success check-ins completed | Count of structured check-ins | [Expand CVE](../customer-value-engine/expand/README.md) |
 | At-risk accounts with dated next action | Count (or 100% of known at-risk) | Customer success stage |
 | Expansion conversations started | Modules/sites/upsell talks started | [Expansion](../customer-value-engine/expand/expansion.md) |
@@ -73,8 +75,8 @@ Set numeric targets per period from the portfolio (do not invent false precision
 
 ## Advocate
 
-| KPI (plan goal label) | Definition | Source |
-|-----------------------|------------|--------|
+| Goal (plan label) | Definition | Source |
+|-------------------|------------|--------|
 | Referral asks made | Count logged on customer orgs | [Capture referral](../sops/advocate/capture-referral.md) |
 | Referrals captured | New leads with origin Referral | Referral SOP |
 | Referral → discovery / demo | Downstream conversions this period | Referral SOP |
@@ -86,8 +88,8 @@ Set numeric targets per period from the portfolio (do not invent false precision
 
 Company ops (not a CVE customer phase). Starting set until Internal SOPs exist:
 
-| KPI (plan goal label) | Definition | Source |
-|-----------------------|------------|--------|
+| Goal (plan label) | Definition | Source |
+|-------------------|------------|--------|
 | Payroll / finance ops completed on time | Period payroll and required finance closes | Hub Internal epic (board design) |
 | Employee CJIS / security items closed | Count closed this period | Internal epic |
 | Internal process / tooling blockers cleared | Count | Internal epic |
@@ -97,9 +99,9 @@ Company ops (not a CVE customer phase). Starting set until Internal SOPs exist:
 
 ## How Hub uses this
 
-1. Creating a current plan for an epic seeds these rows into **Goals** (shown as **KPIs** in the plan UI): Label, Target, Actual.
+1. Creating a current plan for an epic seeds these rows into **Goals**: Label, Target, Actual.
 2. Friday check-in: fill **Actual** and tick check-in items.
-3. Quarterly scorecard rolls up themes; this page is the **period collection** layer.
+3. Company Funding RT / quarterly KPIs live on a future Hub **Scorecard** (not this list).
 
 ## Change history
 

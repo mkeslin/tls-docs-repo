@@ -23,12 +23,12 @@ Copy the **blank template** into working notes or email for a specific period. D
 | Segment focus | LE · Court · Jail (per [ICP](../strategy/go-to-market.md)) |
 | System of record | Pipedrive |
 
-### KPIs (end of period)
+### Goals (end of period)
 
-Canonical set: [Epic KPIs — Acquire](../strategy/epic-kpis.md#acquire).
+Canonical set: [Epic plan goals — Acquire](../strategy/epic-kpis.md#acquire).
 
-| KPI | Target | Actual |
-|-----|--------|--------|
+| Goal | Target | Actual |
+|------|--------|--------|
 | New conversations started (reply, call connect, or in-person) | | |
 | Association-list / outbound emails sent (ICP-filtered) | | |
 | Demos held or scheduled | | |
@@ -95,10 +95,10 @@ Bring Pipedrive (or equivalent proof) showing:
 **Focus:** Priority 1 (Lubbock / West Texas) · LE ICP · CopSync signal when known  
 **System of record:** Pipedrive  
 
-#### KPIs (end of 2 weeks)
+#### Goals (end of 2 weeks)
 
-| KPI | Target |
-|-----|--------|
+| Goal | Target |
+|------|--------|
 | New LE conversations started (reply, call connect, or in-person) | **8** |
 | Chiefs-list emails sent (ICP-filtered) | **20** |
 | Demos held or scheduled | **2** |
