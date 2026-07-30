@@ -20,6 +20,8 @@ Agency users typically **view** the chart here. Structural chart changes are coo
 
 Fee allocation percentages drive [Revenue allocation](revenue-allocation.md).
 
+Product builds may include shared **TLS_*** helper fees (for example deferred disposition, driver safety course, and compliance-dismissal subtypes). Court screens prefer those helpers when assessing program or dismissal fees and still accept common legacy aliases your agency already uses.
+
 ## Transaction Sets
 
 1. Open **Accounting** → **Transaction Sets**.

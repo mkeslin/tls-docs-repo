@@ -35,6 +35,8 @@ First engagement: New Deal Municipal Court (`Clients/NewDealMunicipalCourt/Conve
 | Agency fines / GL / municipal codes | Use Overrides templates (`11_*`, `18b`/`18c`, `19c_MunicipalOrdinances`) — not common Pipeline hardcodes |
 | State offense missing from catalog | Leave `OffenseId` null; **do not** insert state rows into `dbo.Offenses` |
 | Municipal offenses | Conversion may create Offenses only with statute **`CO` / `CITY ORDINANCES`** |
+| DD / DSC / misc / CVC / refund legacy codes | Map to product fees (`TLS_DD`, `TLS_DSC`, `TLS_MISC`, `CVC`, `TLS_RFND`, …) — apply product EF fee migrations before conversion; do not insert duplicate fee rows |
+| Paid post-plea / appearance dates | Engagement Overrides + Conversion6-Health (e.g. New Deal `28_PaidPostPlea_*`, initial appearance / FTA show-cause) — keep agency-specific |
 
 ---
 
@@ -91,4 +93,5 @@ Register: `Asyst/ConvertedAgencies.md`.
 
 | Date | Change |
 |------|--------|
+| 2026-07-30 | Document TLS_* / CVC / TMCEC product fee mapping + New Deal paid-post-plea / appearance Override patterns (package through 0.1.14-draft) |
 | 2026-07-23 | v1 — split from IncodeCourt; Pipeline from New Deal engagement |

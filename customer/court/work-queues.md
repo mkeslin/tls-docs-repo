@@ -50,7 +50,7 @@ Names in your environment may vary slightly; these are the usual work areas:
 ## Tips
 
 - Clear **payment acceptance** daily so receipts and deposits stay current.
-- Do not ignore **ready to close** and **health** signals — they prevent stuck balances and open plans on disposed cases.
+- Do not ignore **ready to close** and **health** signals — they prevent stuck balances, open plans on disposed cases, and paid post-plea cases that still need judgment or disposition.
 - If a case will not leave a queue after you act, the action may have been dialog-only (edit without state change) or a guard blocked the transition.
 
 ## Related
