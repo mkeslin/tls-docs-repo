@@ -16,6 +16,8 @@ Reusable starting material for internal and customer-facing work.
 | [Two-week deliver plan](deliver-plan-two-week.md) | v0.1 (blank + example) |
 | [Two-week operate plan](operate-plan-two-week.md) | v0.1 (blank + example) |
 | [Two-week expand plan](expand-plan-two-week.md) | v0.1 (blank + example) |
+| [Two-week advocate plan](advocate-plan-two-week.md) | v0.1 (blank + example) |
+| [Two-week internal plan](internal-plan-two-week.md) | v0.1 (blank + example) |
 | [Conversion Summary](conversion-summary.md) | <mark style="color:red;">Placeholder</mark> |
 | [Customer Acceptance Form](customer-acceptance-form.md) | <mark style="color:red;">Placeholder</mark> |
 

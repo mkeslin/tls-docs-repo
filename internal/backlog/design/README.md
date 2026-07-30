@@ -31,6 +31,8 @@ Design docs may cover **any** product area — CAD, Jail, Court, Accounting, RMS
 | [Hub Deliver Desk](hub-deliver-desk.md) | Deliver plan + board v0.1 (workspace SoR later) |
 | [Hub Operate Desk](hub-operate-desk.md) | Operate plan + board v0.1 (support list SoR) |
 | [Hub Expand Desk](hub-expand-desk.md) | Expand plan + board v0.1 (Pipedrive opp SoR) |
+| [Hub Advocate Desk](hub-advocate-desk.md) | Advocate plan + board v0.1 (referral/reference SoR) |
+| [Hub Internal Desk](hub-internal-desk.md) | Internal plan + board v0.1 (payroll/HR/CJIS SoR outside Hub) |
 
 ## How to add a design doc
 

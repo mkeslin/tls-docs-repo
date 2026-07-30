@@ -86,7 +86,9 @@ Set numeric targets per period from the portfolio (do not invent false precision
 
 ## Internal
 
-Company ops (not a CVE customer phase). Starting set until Internal SOPs exist:
+Company ops (not a CVE customer phase). Starting set until Internal SOPs exist.
+
+Related: [Hub Internal Desk](../backlog/design/hub-internal-desk.md) · [Two-week internal plan](../templates/internal-plan-two-week.md)
 
 | Goal (plan label) | Definition | Source |
 |-------------------|------------|--------|

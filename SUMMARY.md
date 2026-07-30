@@ -198,6 +198,8 @@
     * [Hub Deliver Desk](internal/backlog/design/hub-deliver-desk.md)
     * [Hub Operate Desk](internal/backlog/design/hub-operate-desk.md)
     * [Hub Expand Desk](internal/backlog/design/hub-expand-desk.md)
+    * [Hub Advocate Desk](internal/backlog/design/hub-advocate-desk.md)
+    * [Hub Internal Desk](internal/backlog/design/hub-internal-desk.md)
   * [Feedback](internal/backlog/feedback/README.md)
     * [Crosby Jail site visit 2026-06-18](internal/backlog/feedback/2026-06-18-crosby-jail-site-visit.md)
   * [Plan template](internal/backlog/templates/plan-template.md)
