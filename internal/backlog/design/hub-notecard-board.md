@@ -42,6 +42,7 @@ Make Hub’s shared board a digital notecard system for day-to-day execution (in
 
 - Home is the week board (calendar + piles). **Today** is the personal agenda for the current user’s cards dated today. **Backlog** is a filterable table of all cards (`GET /board/tasks`).
 - Card tags and “show completed” are board display/filter concerns; tags ride on `BoardTask` like products/clients.
+- Board / Today / Backlog share one filter bar + persisted state (`useBoardFilters` / `BoardFiltersBar`).
 - Acquire Desk goals/priorities/check-in stay on `SalesPlanPeriod`; executable work lives on cards.
 - Email/Quo auto-ingest stays out of scope until quick-capture habit lands.
 
