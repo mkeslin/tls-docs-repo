@@ -30,6 +30,7 @@ Design docs may cover **any** product area — CAD, Jail, Court, Accounting, RMS
 | [Hub epic plans](hub-epic-plans.md) | Shared two-week plan shell across CVE epics |
 | [Hub Deliver Desk](hub-deliver-desk.md) | Deliver plan + board v0.1 (workspace SoR later) |
 | [Hub Operate Desk](hub-operate-desk.md) | Operate plan + board v0.1 (support list SoR) |
+| [Hub Expand Desk](hub-expand-desk.md) | Expand plan + board v0.1 (Pipedrive opp SoR) |
 
 ## How to add a design doc
 

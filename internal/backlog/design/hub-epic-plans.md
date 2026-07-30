@@ -14,9 +14,9 @@ Define one shared two-week **coaching plan** model for all CVE epics (Acquire, D
 
 ## Context
 
-- Why now: Home Plans + `SalesPlanPeriod.Epic` already surface every epic; Acquire, Deliver, and Operate have dedicated desks.
-- Related design: [Hub Acquire Desk](hub-acquire-desk.md), [Hub notecard board](hub-notecard-board.md), [Hub Deliver Desk](hub-deliver-desk.md), [Hub Operate Desk](hub-operate-desk.md)
-- Related templates: [Two-week sales plan](../../templates/sales-plan-two-week.md), [Two-week deliver plan](../../templates/deliver-plan-two-week.md), [Two-week operate plan](../../templates/operate-plan-two-week.md)
+- Why now: Home Plans + `SalesPlanPeriod.Epic` already surface every epic; Acquire, Deliver, Operate, and Expand have dedicated desks.
+- Related design: [Hub Acquire Desk](hub-acquire-desk.md), [Hub notecard board](hub-notecard-board.md), [Hub Deliver Desk](hub-deliver-desk.md), [Hub Operate Desk](hub-operate-desk.md), [Hub Expand Desk](hub-expand-desk.md)
+- Related templates: [Two-week sales plan](../../templates/sales-plan-two-week.md), [Two-week deliver plan](../../templates/deliver-plan-two-week.md), [Two-week operate plan](../../templates/operate-plan-two-week.md), [Two-week expand plan](../../templates/expand-plan-two-week.md)
 - Implementation: TLS-Hub (`SalesPlanPeriod`, `/tlsapi/acquire-desk/plans`, Home `EpicPlanDialog`)
 
 ## Decisions
@@ -24,12 +24,13 @@ Define one shared two-week **coaching plan** model for all CVE epics (Acquire, D
 1. **Shared shell** — Every epic uses the same persistence shape: period, owner, goals, named priorities, week day-blocks, check-in items, out-of-scope, notes/risks (`SalesPlanPeriod`).
 2. **Goals ≠ company KPIs** — Plan goal rows are period commitments (Label / Target / Actual). Canonical list: [Epic plan goals](../../strategy/epic-kpis.md). The UI labels this section **Goals**. Company / Funding RT KPIs belong on a separate Scorecard surface.
 3. **Epic-specific defaults** — Blank templates (goals, check-in, unused Acquire-only header fields) are seeded per epic from [Epic plan goals](../../strategy/epic-kpis.md) and plan templates. Do not invent process in Hub.
-4. **Plans vs desks** — A **plan** is the two-week coaching artifact on Home. A **desk** is a dedicated route for that epic’s plan (and optional catalog tools). Acquire keeps `/acquire` (plan + playbooks + email). Deliver has `/deliver` and Operate has `/operate` (plan only in v0.1). Expand/Advocate/Internal stay Home Plans until a desk design expands them.
+4. **Plans vs desks** — A **plan** is the two-week coaching artifact on Home. A **desk** is a dedicated route for that epic’s plan (and optional catalog tools). Acquire keeps `/acquire` (plan + playbooks + email). Deliver (`/deliver`), Operate (`/operate`), and Expand (`/expand`) are plan-only in v0.1. Advocate/Internal stay Home Plans until a desk design expands them.
 5. **SoR split by epic** — Plans are never the engagement CRM or project workspace:
    - Acquire: Pipedrive remains CRM SoR ([Acquire Desk](hub-acquire-desk.md)).
    - Deliver: per-customer [implementation workspace](../../sops/deliver/implementation-workspace-standard.md) remains engagement SoR; the two-week plan is owner execution only.
    - Operate: shared support List remains request SoR ([Operate Desk](hub-operate-desk.md)); plan is owner execution only.
-   - Expand / Advocate / Internal: follow their SOP trees; do not invent Hub SoRs in v0.1.
+   - Expand: Pipedrive remains opportunity SoR ([Expand Desk](hub-expand-desk.md)); plan is owner execution only.
+   - Advocate / Internal: follow their SOP trees; do not invent Hub SoRs in v0.1.
 6. **Board sync** — Day-blocks publish to `BoardTask` cards with the plan’s epic (Phase A in [notecard board](hub-notecard-board.md)). Reverse sync remains Acquire-first until other epics prove the habit.
 7. **Current plan** — At most one `IsCurrent` plan per epic (and owner when assigned); Home epic-plans already load via `GetCurrentForEpicAndOwnerAsync`.
 
