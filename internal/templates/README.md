@@ -13,6 +13,7 @@ Reusable starting material for internal and customer-facing work.
 | [First-touch outreach](first-touch-outreach.md) | v0.1 |
 | [Customer release email](customer-release-email.md) | v0.1 |
 | [Two-week sales plan](sales-plan-two-week.md) | v0.1 (blank + example) |
+| [Two-week deliver plan](deliver-plan-two-week.md) | v0.1 (blank + example) |
 | [Conversion Summary](conversion-summary.md) | <mark style="color:red;">Placeholder</mark> |
 | [Customer Acceptance Form](customer-acceptance-form.md) | <mark style="color:red;">Placeholder</mark> |
 

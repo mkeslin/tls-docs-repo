@@ -192,6 +192,8 @@
     * [Hub / Directory tenant–agency ownership](backlog/design/hub-directory-tenant-agency-ownership.md)
     * [Hub Acquire Desk](backlog/design/hub-acquire-desk.md)
     * [Hub notecard board](backlog/design/hub-notecard-board.md)
+    * [Hub epic plans](backlog/design/hub-epic-plans.md)
+    * [Hub Deliver Desk](backlog/design/hub-deliver-desk.md)
   * [Feedback](backlog/feedback/README.md)
     * [Crosby Jail site visit 2026-06-18](backlog/feedback/2026-06-18-crosby-jail-site-visit.md)
   * [Plan template](backlog/templates/plan-template.md)

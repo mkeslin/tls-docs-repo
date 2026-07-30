@@ -15,7 +15,7 @@ Make Hub’s shared board a digital notecard system for day-to-day execution (in
 ## Context
 
 - Why now: Physical notecards already encode the real workflow (verb title, flip-side notes, fluid target date, completed date, piles). The thin “today checklist from plan day-blocks” model is not enough.
-- Related design: [Hub Acquire Desk](hub-acquire-desk.md)
+- Related design: [Hub Acquire Desk](hub-acquire-desk.md), [Hub epic plans](hub-epic-plans.md), [Hub Deliver Desk](hub-deliver-desk.md)
 - Implementation: TLS-Hub (`BoardTask`, `/tlsapi/board`, Home week board UI)
 
 ## Decisions

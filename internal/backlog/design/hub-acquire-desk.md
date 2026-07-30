@@ -129,6 +129,7 @@ flowchart LR
 | Phase | Work item |
 |-------|-----------|
 | Board | [Hub notecard board](hub-notecard-board.md) — cards as SoR; week agenda/calendar; bi-directional plan sync |
+| Multi-epic | [Hub epic plans](hub-epic-plans.md) — shared plan shell; [Deliver Desk](hub-deliver-desk.md) v0.1 |
 | Phase 2 | Friday scorecard view; field-day stop list; light Pipedrive read |
 | Phase 3 | Proposal / contract generators using pricing + acquire-authority |
 | Pilot | See [Pilot runbook](#pilot-runbook) below |
