@@ -196,6 +196,7 @@
     * [Hub notecard board](internal/backlog/design/hub-notecard-board.md)
     * [Hub epic plans](internal/backlog/design/hub-epic-plans.md)
     * [Hub Deliver Desk](internal/backlog/design/hub-deliver-desk.md)
+    * [Hub Operate Desk](internal/backlog/design/hub-operate-desk.md)
   * [Feedback](internal/backlog/feedback/README.md)
     * [Crosby Jail site visit 2026-06-18](internal/backlog/feedback/2026-06-18-crosby-jail-site-visit.md)
   * [Plan template](internal/backlog/templates/plan-template.md)

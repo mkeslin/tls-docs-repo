@@ -29,6 +29,7 @@ Design docs may cover **any** product area — CAD, Jail, Court, Accounting, RMS
 | [Hub notecard board](hub-notecard-board.md) | Notecard SoR, week board, Acquire plan sync |
 | [Hub epic plans](hub-epic-plans.md) | Shared two-week plan shell across CVE epics |
 | [Hub Deliver Desk](hub-deliver-desk.md) | Deliver plan + board v0.1 (workspace SoR later) |
+| [Hub Operate Desk](hub-operate-desk.md) | Operate plan + board v0.1 (support list SoR) |
 
 ## How to add a design doc
 
