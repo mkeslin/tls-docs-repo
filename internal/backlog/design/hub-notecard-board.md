@@ -16,7 +16,7 @@ Make Hub’s shared board a digital notecard system for day-to-day execution (in
 
 - Why now: Physical notecards already encode the real workflow (verb title, flip-side notes, fluid target date, completed date, piles). The thin “today checklist from plan day-blocks” model is not enough.
 - Related design: [Hub Acquire Desk](hub-acquire-desk.md), [Hub epic plans](hub-epic-plans.md), [Hub Deliver Desk](hub-deliver-desk.md), [Hub Operate Desk](hub-operate-desk.md), [Hub Expand Desk](hub-expand-desk.md), [Hub Advocate Desk](hub-advocate-desk.md), [Hub Internal Desk](hub-internal-desk.md)
-- Implementation: TLS-Hub (`BoardTask`, `/tlsapi/board`, Home week board UI)
+- Implementation: TLS-Hub (`BoardTask`, `/tlsapi/board`, Home week board, Today agenda, Backlog table)
 
 ## Decisions
 
@@ -38,7 +38,7 @@ Make Hub’s shared board a digital notecard system for day-to-day execution (in
 
 ### Consequences
 
-- Home becomes a week board (agenda + calendar), not today-only.
+- Home is the week board (calendar + piles). **Today** is the personal agenda for the current user’s cards dated today. **Backlog** is a filterable table of all cards (`GET /board/tasks`).
 - Acquire Desk goals/priorities/check-in stay on `SalesPlanPeriod`; executable work lives on cards.
 - Email/Quo auto-ingest stays out of scope until quick-capture habit lands.
 
@@ -46,8 +46,10 @@ Make Hub’s shared board a digital notecard system for day-to-day execution (in
 
 ### In scope
 
-- Evolved `BoardTask` notecard fields + week/pile APIs
-- Home: week arrows, agenda/calendar, quick inbox create, card detail (notes / complete / successor)
+- Evolved `BoardTask` notecard fields + week/pile / today / list APIs
+- Home: week arrows, calendar, quick inbox create, card detail (notes / complete / successor)
+- Today: personal agenda for cards targeted today
+- Backlog: table of all cards with owner / epic / done filters
 - Bi-directional sync with current Acquire plan (Phase A)
 
 ### Out of scope
