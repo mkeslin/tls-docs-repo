@@ -25,8 +25,10 @@ Make Hub’s shared board a digital notecard system for day-to-day execution (in
 3. **Epic** (Acquire, Deliver, Operate, Expand, Advocate, Internal; legacy Development) drives card accent color; completed date always renders in neutral/black. Internal is for company ops (payroll, employee CJIS, etc.), not a CVE customer phase.
 4. **Rewrite vs spawn** — evolve title on the same card (notes kept), or complete and create a linked successor (`SuccessorOfTaskId`).
 5. **Board is personal-first** (filter by Hub user); “All people” remains a manager view.
-6. **Acquire plan sync (Phase A)** — plan day-blocks publish to cards; saving an Acquire-epic card with a target date inside the owner’s current plan window upserts a day-block linked by `BoardTaskId`. Last write wins on the card. Forward sync must not delete non–plan-sourced cards.
-7. **Phase B (later)** — plan week grid becomes a view of cards; day-block JSON becomes a read-only mirror or is removed.
+6. **Tags are Gmail-style labels** — zero-to-many freeform strings on each card (`TagsJson`); not exclusive folders. Filterable on Board and Backlog. No separate tag catalog in v1 (suggestions come from tags already in use).
+7. **Completed visibility** — Board settings toggle (`hub-board-show-completed`); default hidden. Done cards still load for the week window when completed in-range; UI filters them unless the toggle is on.
+8. **Acquire plan sync (Phase A)** — plan day-blocks publish to cards; saving an Acquire-epic card with a target date inside the owner’s current plan window upserts a day-block linked by `BoardTaskId`. Last write wins on the card. Forward sync must not delete non–plan-sourced cards.
+9. **Phase B (later)** — plan week grid becomes a view of cards; day-block JSON becomes a read-only mirror or is removed.
 
 ### Alternatives considered
 
@@ -39,6 +41,7 @@ Make Hub’s shared board a digital notecard system for day-to-day execution (in
 ### Consequences
 
 - Home is the week board (calendar + piles). **Today** is the personal agenda for the current user’s cards dated today. **Backlog** is a filterable table of all cards (`GET /board/tasks`).
+- Card tags and “show completed” are board display/filter concerns; tags ride on `BoardTask` like products/clients.
 - Acquire Desk goals/priorities/check-in stay on `SalesPlanPeriod`; executable work lives on cards.
 - Email/Quo auto-ingest stays out of scope until quick-capture habit lands.
 
@@ -76,12 +79,12 @@ flowchart TB
 
 ## Open questions
 
-- <mark style="color:red;">**TODO:**</mark> Client/Contact FK tags vs free-text tags (v1 uses optional `ClientTag` string).
 - <mark style="color:red;">**TODO:**</mark> When to deprecate editable day-blocks in Acquire Desk UI (Phase B).
+- <mark style="color:red;">**TODO:**</mark> Whether tags need a managed catalog (rename/color) vs staying freeform `TagsJson`.
 
 ## Follow-on work
 
 | Phase | Work |
 |-------|------|
 | Phase B | Plan week grid = card projection only |
-| Later | Capture shortcuts from email/Quo; richer person/client tags |
+| Later | Capture shortcuts from email/Quo; richer person/client tags; optional tag catalog |
