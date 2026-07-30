@@ -22,7 +22,7 @@ Make Hub’s shared board a digital notecard system for day-to-day execution (in
 
 1. **Cards are the system of record** for title, notes, target date, completed date, blocked state, epic, owner, and successor links.
 2. **Piles** — Inbox and Blocked are explicit (`TargetDate == null` / `IsBlocked`); This week / Next week / Future are **derived** from `TargetDate` relative to the viewed week (Monday start).
-3. **Epic** (Acquire, Deliver, Development, …) drives card accent color; completed date always renders in neutral/black.
+3. **Epic** (Acquire, Deliver, Operate, Expand, Advocate, Internal; legacy Development) drives card accent color; completed date always renders in neutral/black. Internal is for company ops (payroll, employee CJIS, etc.), not a CVE customer phase.
 4. **Rewrite vs spawn** — evolve title on the same card (notes kept), or complete and create a linked successor (`SuccessorOfTaskId`).
 5. **Board is personal-first** (filter by Hub user); “All people” remains a manager view.
 6. **Acquire plan sync (Phase A)** — plan day-blocks publish to cards; saving an Acquire-epic card with a target date inside the owner’s current plan window upserts a day-block linked by `BoardTaskId`. Last write wins on the card. Forward sync must not delete non–plan-sourced cards.
