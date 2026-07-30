@@ -53,6 +53,9 @@ Give the Acquire owner (Fugate) a Hub workspace for day-of execution — two-wee
 - Email draft fill + copy from first-touch / referral templates.
 - Deep links / source pointers back to docs templates.
 - Pilot runbook for Fugate's first real planning period.
+- Home dashboard: today's board tasks (shared `BoardTask` model).
+- Save/publish on two-week plan upserts Acquire day-block work onto the board.
+- `/acquire/plans` plan history (list, open, set current).
 
 ### Out of scope (v1)
 
@@ -125,6 +128,7 @@ flowchart LR
 
 | Phase | Work item |
 |-------|-----------|
+| Board | [Hub notecard board](hub-notecard-board.md) — cards as SoR; week agenda/calendar; bi-directional plan sync |
 | Phase 2 | Friday scorecard view; field-day stop list; light Pipedrive read |
 | Phase 3 | Proposal / contract generators using pricing + acquire-authority |
 | Pilot | See [Pilot runbook](#pilot-runbook) below |

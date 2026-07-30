@@ -26,6 +26,7 @@ Design docs may cover **any** product area — CAD, Jail, Court, Accounting, RMS
 | [Security command center](security-command-center.md) | CJIS / identity oversight shell |
 | [Hub / Directory tenant–agency ownership](hub-directory-tenant-agency-ownership.md) | Install vs agency vs environment SoT (Hub ↔ Directory) |
 | [Hub Acquire Desk](hub-acquire-desk.md) | Sales coaching UI in Hub (plan / calls / email drafts) |
+| [Hub notecard board](hub-notecard-board.md) | Notecard SoR, week board, Acquire plan sync |
 
 ## How to add a design doc
 
