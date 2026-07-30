@@ -22,14 +22,15 @@ Define one shared two-week **coaching plan** model for all CVE epics (Acquire, D
 ## Decisions
 
 1. **Shared shell** — Every epic uses the same persistence shape: period, owner, goals, named priorities, week day-blocks, check-in items, out-of-scope, notes/risks (`SalesPlanPeriod`).
-2. **Epic-specific defaults** — Blank templates (goals, check-in, unused Acquire-only header fields) are seeded per epic from approved docs templates. Do not invent process in Hub.
-3. **Plans vs desks** — A **plan** is the two-week coaching artifact on Home. A **desk** is optional catalog UI (playbooks, email drafts, etc.). Acquire keeps `/acquire`. Deliver/Operate/Expand/Advocate/Internal start as **plan + board** unless a desk design explicitly expands them.
-4. **SoR split by epic** — Plans are never the engagement CRM or project workspace:
+2. **Goals = KPIs** — Plan goal rows are the epic KPI set (Label / Target / Actual). Canonical list: [Epic KPIs](../../strategy/epic-kpis.md). The UI labels this section **KPIs**.
+3. **Epic-specific defaults** — Blank templates (KPI goals, check-in, unused Acquire-only header fields) are seeded per epic from [Epic KPIs](../../strategy/epic-kpis.md) and plan templates. Do not invent process in Hub.
+4. **Plans vs desks** — A **plan** is the two-week coaching artifact on Home. A **desk** is a dedicated route for that epic’s plan (and optional catalog tools). Acquire keeps `/acquire` (plan + playbooks + email). Deliver has `/deliver` (plan only in v0.1). Operate/Expand/Advocate/Internal stay Home Plans until a desk design expands them.
+5. **SoR split by epic** — Plans are never the engagement CRM or project workspace:
    - Acquire: Pipedrive remains CRM SoR ([Acquire Desk](hub-acquire-desk.md)).
    - Deliver: per-customer [implementation workspace](../../sops/deliver/implementation-workspace-standard.md) remains engagement SoR; the two-week plan is owner execution only.
    - Operate / Expand / Advocate / Internal: follow their SOP trees; do not invent Hub SoRs in v0.1.
-5. **Board sync** — Day-blocks publish to `BoardTask` cards with the plan’s epic (Phase A in [notecard board](hub-notecard-board.md)). Reverse sync remains Acquire-first until other epics prove the habit.
-6. **Current plan** — At most one `IsCurrent` plan per epic (and owner when assigned); Home epic-plans already load via `GetCurrentForEpicAndOwnerAsync`.
+6. **Board sync** — Day-blocks publish to `BoardTask` cards with the plan’s epic (Phase A in [notecard board](hub-notecard-board.md)). Reverse sync remains Acquire-first until other epics prove the habit.
+7. **Current plan** — At most one `IsCurrent` plan per epic (and owner when assigned); Home epic-plans already load via `GetCurrentForEpicAndOwnerAsync`.
 
 ### Alternatives considered
 

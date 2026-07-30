@@ -20,6 +20,7 @@
   * [Annual operating plan — 2026 H2](strategy/annual-operating-plan-2026-h2.md)
   * [Go-to-market](strategy/go-to-market.md)
   * [Quarterly scorecard](strategy/quarterly-scorecard.md)
+  * [Epic KPIs](strategy/epic-kpis.md)
 
 ## Company Operating System
 

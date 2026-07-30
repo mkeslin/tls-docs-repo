@@ -24,7 +24,10 @@ Track a small set of leading and lagging indicators that show whether Thin Line 
 
 <mark style="color:red;">**Decision needed:**</mark> Final metric set for 2026 H2.
 
+**Period collection (two-week plans):** use [Epic KPIs](epic-kpis.md). Hub plan **KPIs** (Target / Actual) seed from that page so we can collect data before the quarterly rollup is finalized.
+
 ## Related
 
+- [Epic KPIs](epic-kpis.md)
 - [Annual operating plan 2026 H2](annual-operating-plan-2026-h2.md)
 - [Customer value stream](../customer-value-engine/customer-value-stream.md)

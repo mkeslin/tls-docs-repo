@@ -23,12 +23,15 @@ Copy the **blank template** into working notes or email for a specific period. D
 | Segment focus | LE · Court · Jail (per [ICP](../strategy/go-to-market.md)) |
 | System of record | Pipedrive |
 
-### Goals (end of period)
+### KPIs (end of period)
 
-| Goal | Target | Actual |
-|------|--------|--------|
+Canonical set: [Epic KPIs — Acquire](../strategy/epic-kpis.md#acquire).
+
+| KPI | Target | Actual |
+|-----|--------|--------|
 | New conversations started (reply, call connect, or in-person) | | |
 | Association-list / outbound emails sent (ICP-filtered) | | |
+| Demos held or scheduled | | |
 | Referral asks completed + logged | | |
 | Field / territory day (half or full) | | |
 | Pipedrive: every touched org has origin + next activity | 100% | |
@@ -92,12 +95,13 @@ Bring Pipedrive (or equivalent proof) showing:
 **Focus:** Priority 1 (Lubbock / West Texas) · LE ICP · CopSync signal when known  
 **System of record:** Pipedrive  
 
-#### Goals (end of 2 weeks)
+#### KPIs (end of 2 weeks)
 
-| Goal | Target |
-|------|--------|
+| KPI | Target |
+|-----|--------|
 | New LE conversations started (reply, call connect, or in-person) | **8** |
 | Chiefs-list emails sent (ICP-filtered) | **20** |
+| Demos held or scheduled | **2** |
 | Referral asks completed + logged | **3** |
 | Field / territory half-day or full day | **1** |
 | Pipedrive: every touched org has origin + next activity | **100%** |

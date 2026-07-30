@@ -18,11 +18,11 @@ Give the Deliver epic owner a Hub **two-week coaching plan** (goals, named engag
 - Related design: [Hub epic plans](hub-epic-plans.md), [Hub notecard board](hub-notecard-board.md), [Hub Acquire Desk](hub-acquire-desk.md)
 - Related templates: [Two-week deliver plan](../../templates/deliver-plan-two-week.md)
 - Related SOPs: [Deliver](../../sops/deliver/README.md), [Implementation lifecycle](../../sops/deliver/implementation-lifecycle.md)
-- Implementation: TLS-Hub Home Plans + `SalesPlanPeriod` with `Epic = Deliver` (no `/deliver` route in v0.1)
+- Implementation: TLS-Hub `/deliver` Deliver Desk + Home Plans + `SalesPlanPeriod` with `Epic = Deliver`
 
 ## Decisions
 
-1. **v0.1 = plan + board only** — No dedicated `/deliver` desk, playbooks, or email catalog. Owner opens Deliver from Home → Plans.
+1. **v0.1 = plan + board desk** — `/deliver` hosts the two-week plan (KPIs, priorities, day-blocks). No playbooks or email catalog. Still no per-customer workspace SoR in Hub.
 2. **Productize the Deliver two-week template** — Seed blank `SalesPlanPeriod` goals / check-in from [deliver-plan-two-week](../../templates/deliver-plan-two-week.md); do not invent process.
 3. **Engagement SoR stays the workspace** — Per-customer status, phases 0–8, and exit criteria remain in the implementation workspace (whatever tool today). The Hub plan does not replace it.
 4. **Cards carry executable work** — Day-blocks sync to Deliver-epic `BoardTask` cards; use client/product tags on cards for engagement context.
@@ -40,14 +40,14 @@ Give the Deliver epic owner a Hub **two-week coaching plan** (goals, named engag
 
 - Deliver owners still maintain engagement workspaces outside Hub (or beside it) until a later workspace project.
 - Acquire-only plan fields stay empty for Deliver periods.
-- A future `/deliver` route or workspace UI should attach to the same epic plan + board concepts.
+- A future workspace UI should attach to the same `/deliver` plan + board concepts.
 
 ## Scope
 
 ### In scope (v0.1)
 
 - Docs: Deliver two-week plan template + this design
-- Hub: Deliver-shaped blank template; EpicPlanDialog labels for agency / phase
+- Hub: `/deliver` desk + `/deliver/plans` history; Deliver-shaped blank template; EpicPlanDialog labels for agency / phase
 - Home Plans: create/save current Deliver period; day-blocks → board
 
 ### Out of scope (v0.1)
@@ -55,7 +55,7 @@ Give the Deliver epic owner a Hub **two-week coaching plan** (goals, named engag
 - Per-customer implementation workspace SoR in Hub
 - Phase-gate / RACI UI
 - Replacing shared folders, spreadsheets, or project tools
-- Dedicated `/deliver` route and catalog tools
+- Playbooks / email catalog (Acquire-style tools)
 - Pipedrive or Directory sync for engagements
 
 ## Approach (high level)
@@ -63,8 +63,9 @@ Give the Deliver epic owner a Hub **two-week coaching plan** (goals, named engag
 ```mermaid
 flowchart LR
   tpl[deliver_plan_two_week] --> blank[Hub_blank_SalesPlanPeriod]
-  blank --> home[Home_Plans_Deliver]
-  home --> board[BoardTask_Deliver]
+  blank --> desk[Deliver_Desk_route]
+  desk --> board[BoardTask_Deliver]
+  desk --> home[Home_Plans_Deliver]
   workspace[Implementation_workspace] -.->|later| hubWs[Hub_workspace]
 ```
 

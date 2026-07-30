@@ -24,10 +24,12 @@ Copy the **blank template** into Hub (Home → Plans → Deliver) or working not
 | Focus this period | *(e.g. West Texas go-lives · migration-heavy · hypercare exits)* |
 | Engagement SoR | Implementation workspace (per customer) |
 
-### Goals (end of period)
+### KPIs (end of period)
 
-| Goal | Target | Actual |
-|------|--------|--------|
+Canonical set: [Epic KPIs — Deliver](../strategy/epic-kpis.md#deliver).
+
+| KPI | Target | Actual |
+|-----|--------|--------|
 | Engagements with a clear next action dated in the workspace | | |
 | Phase exits completed (or explicitly N/A with reason) | | |
 | Go-lives / cutovers this period | | |
@@ -93,10 +95,10 @@ Bring workspace (or equivalent proof) showing:
 **Focus:** Go-live readiness + one migration validation push  
 **Engagement SoR:** Implementation workspace  
 
-#### Goals (end of 2 weeks)
+#### KPIs (end of 2 weeks)
 
-| Goal | Target |
-|------|--------|
+| KPI | Target |
+|-----|--------|
 | Engagements with a clear next action dated in the workspace | **100% of named priorities** |
 | Phase exits completed (or explicitly N/A with reason) | **2** |
 | Go-lives / cutovers this period | **1** |

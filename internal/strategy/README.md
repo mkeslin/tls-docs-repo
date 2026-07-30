@@ -9,3 +9,4 @@ Company vision, multi-year roadmap, and near-term operating plans.
 | [Annual operating plan 2026 H2](annual-operating-plan-2026-h2.md) | Near-term priorities for the current half-year |
 | [Go-to-market](go-to-market.md) | ICP, geographic focus, lead channels, Pipedrive as system of record |
 | [Quarterly scorecard](quarterly-scorecard.md) | Metrics and progress tracking |
+| [Epic KPIs](epic-kpis.md) | Two-week plan KPI sets (Hub Target / Actual) |
