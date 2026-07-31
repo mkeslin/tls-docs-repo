@@ -27,6 +27,9 @@ Design docs may cover **any** product area — CAD, Jail, Court, Accounting, RMS
 | [Hub / Directory tenant–agency ownership](hub-directory-tenant-agency-ownership.md) | Install vs agency vs environment SoT (Hub ↔ Directory) |
 | [Hub Acquire Desk](hub-acquire-desk.md) | Sales coaching UI in Hub (plan / calls / email drafts) |
 | [Hub notecard board](hub-notecard-board.md) | Notecard SoR, week board, Acquire plan sync |
+| [Hub Quo tasks overlay](hub-quo-tasks.md) | Quo read/write board overlay |
+| [Hub Outlook / Teams calendar overlay](hub-outlook-calendar.md) | Outlook/Teams read-only board overlay |
+| [Hub Pipedrive overlay](hub-pipedrive-overlay.md) | Pipedrive activities + project tasks overlays |
 | [Hub epic plans](hub-epic-plans.md) | Shared two-week plan shell across CVE epics |
 | [Hub Deliver Desk](hub-deliver-desk.md) | Deliver plan + board v0.1 (workspace SoR later) |
 | [Hub Operate Desk](hub-operate-desk.md) | Operate plan + board v0.1 (support list SoR) |
