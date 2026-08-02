@@ -17,6 +17,11 @@ Verification lists used with SOPs and implementation work.
 | [Customer success check-in checklist](customer-success-check-in-checklist.md) | v0.1 target-state | Expand · Customer success |
 | [Expansion conversation checklist](expansion-conversation-checklist.md) | v0.1 target-state | Expand · Expansion |
 | [Deliver → Expand handoff checklist](deliver-to-expand-handoff-checklist.md) | v0.1 target-state | Deliver → Expand |
+| [Capture referral checklist](capture-referral-checklist.md) | v0.1 target-state | Advocate · Referral |
+| [Reference agency qualification checklist](reference-agency-qualification-checklist.md) | v0.1 target-state | Advocate · Reference |
+| [Request customer reference checklist](request-customer-reference-checklist.md) | v0.1 target-state | Advocate · Reference |
+| [Reference champion refresh checklist](reference-champion-refresh-checklist.md) | v0.1 target-state | Advocate · Reference |
+| [Community event follow-up checklist](community-event-follow-up-checklist.md) | v0.1 light | Advocate · Community |
 
 <mark style="color:red;">**TODO:**</mark> Add additional checklists as processes are standardized. Suggested next checklists:
 

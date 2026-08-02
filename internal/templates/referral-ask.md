@@ -3,7 +3,7 @@
 **Document type:** Template  
 **Status:** v0.1  
 **Audience:** Internal  
-**Related:** [Capture referral](../sops/advocate/capture-referral.md)
+**Related:** [Capture referral](../sops/advocate/capture-referral.md) · [Capture referral checklist](../checklists/capture-referral-checklist.md)
 
 Use natural language. This is a prompt, not a teleprompter.
 

@@ -1,18 +1,20 @@
 # Advocate
 
-**Outcome:** References, referrals, and community.
+**Outcome:** Champions, referred leads, and a stronger customer ecosystem.
 
-Turn successful customers into champions who create the next wave of demand.
+**Owner role:** Advocate owner
 
 ## Stages
 
 | Stage | Desired outcome | Owner | Maturity |
 |-------|-----------------|-------|----------|
-| [Reference](reference.md) | Create champions | Fugate | 1 |
-| [Referral](referral.md) | Generate new leads | Fugate | 1 |
-| [Community](community.md) | Strengthen ecosystem | Fugate | 1 |
+| [Reference](reference.md) | Create champions | Advocate owner | 2 (documented) |
+| [Referral](referral.md) | Generate new leads | Advocate owner | 2 (documented) |
+| [Community](community.md) | Strengthen ecosystem | Advocate owner | 2 (light documented) |
 
 ## Related
 
 - [SOPs — Advocate](../../sops/advocate.md)
+- [Hub Advocate Desk](../../backlog/design/hub-advocate-desk.md)
+- [Go-to-market](../../strategy/go-to-market.md)
 - [Customer value stream](../customer-value-stream.md)

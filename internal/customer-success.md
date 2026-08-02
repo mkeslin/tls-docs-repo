@@ -18,7 +18,7 @@ Define how Thin Line keeps customers successful and identifies expansion opportu
 | Deliver → Expand handoff | [Deliver → Expand handoff](sops/expand/deliver-to-expand-handoff.md) |
 | Expansion conversations | [Expand account](sops/expand/expand-account.md) · [Expansion conversation checklist](checklists/expansion-conversation-checklist.md) |
 
-Referral asks at success moments: [Capture referral](sops/advocate/capture-referral.md).
+Referral asks at success moments: [Capture referral](sops/advocate/capture-referral.md) · [Capture referral checklist](checklists/capture-referral-checklist.md). Reference champions: [Request customer reference](sops/advocate/request-customer-reference.md).
 
 ## Cadence (summary)
 

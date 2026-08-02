@@ -5,23 +5,23 @@
 
 ## Inputs
 
-Engaged customers
+Engaged customers · conferences · peer events
 
 ## Outputs
 
-Ecosystem and product feedback
+Logged contacts, speaking opportunities, product feedback
 
 ## Owner
 
-Fugate
+**Advocate owner** (today: Fugate; AOP Market Position also involves Gibson)
 
-## Current process
+## Target process
 
-Conferences
+Light: [Community event follow-up](../../sops/advocate/community-event-follow-up.md) within one business day of each event. Full user-group / newsletter program is later.
 
 ## Tooling
 
-Email, events, newsletter
+Email, events, newsletter · Pipedrive for contacts · Hub Advocate Desk checklists
 
 ## Capacity (today)
 
@@ -29,11 +29,11 @@ Unlimited
 
 ## Cycle time
 
-Continuous
+Continuous (capture ≤ 1 business day)
 
 ## Maturity
 
-**1 / 5 — Founder-driven**
+**2 / 5 — Documented** (light)
 
 | Score | Meaning |
 |------:|---------|
@@ -45,7 +45,7 @@ Continuous
 
 ## What would break first?
 
-Doesn't exist
+Event contacts never leave a notebook
 
 ## Continuous improvement (10x ideas)
 
@@ -63,5 +63,5 @@ Doesn't exist
 
 ## Related documents
 
-- Related SOPs: <mark style="color:red;">**TODO:**</mark> link under `internal/sops/`
-- Checklists / templates: <mark style="color:red;">**TODO:**</mark>
+- SOP: [Community event follow-up](../../sops/advocate/community-event-follow-up.md)
+- Checklist: [Community event follow-up](../../checklists/community-event-follow-up-checklist.md)

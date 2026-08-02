@@ -5,23 +5,23 @@
 
 ## Inputs
 
-Reference agency
+Healthy success moment (or spontaneous customer intro)
 
 ## Outputs
 
-Qualified lead
+Qualified lead (Pipedrive origin **Referral** + Acquire first touch)
 
 ## Owner
 
-Fugate
+**Advocate owner** (ask + log) · Acquire (first touch) · today: Fugate for both stages
 
-## Current process
+## Target process
 
-Informal requests
+[Capture referral](../../sops/advocate/capture-referral.md) — Deliver/Expand surface hypercare-exit / Healthy wins; Advocate owns the ask.
 
 ## Tooling
 
-Pipedrive
+Pipedrive · Hub Advocate Desk · [Referral ask script](../../templates/referral-ask.md)
 
 ## Capacity (today)
 
@@ -29,11 +29,11 @@ Unlimited
 
 ## Cycle time
 
-Continuous
+Continuous (ask 5–15 min; first touch same day when possible)
 
 ## Maturity
 
-**1 / 5 — Founder-driven**
+**2 / 5 — Documented**
 
 | Score | Meaning |
 |------:|---------|
@@ -45,14 +45,14 @@ Continuous
 
 ## What would break first?
 
-No repeatable system
+Ask without Pipedrive logging; referral never contacted
 
 ## Continuous improvement (10x ideas)
 
 | Lens | Idea |
 |------|------|
 | Reduce / Simplify | Passive waiting |
-| Standardize | Referral request process |
+| Standardize | Referral request process (done in SOP) |
 | Automate | Referral campaigns |
 | Delegate | Customer Success |
 | Scale | Predictable referral engine |
@@ -64,5 +64,6 @@ No repeatable system
 ## Related documents
 
 - Strategy: [Go-to-market](../../strategy/go-to-market.md)
-- Related SOPs: [Capture referral](../../sops/advocate/capture-referral.md) · [Generate new leads](../../sops/acquire/generate-new-leads.md)
+- SOPs: [Capture referral](../../sops/advocate/capture-referral.md) · [Generate new leads](../../sops/acquire/generate-new-leads.md)
+- Checklist: [Capture referral](../../checklists/capture-referral-checklist.md)
 - Templates: [Referral ask script](../../templates/referral-ask.md)

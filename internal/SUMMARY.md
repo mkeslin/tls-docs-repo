@@ -123,6 +123,9 @@
     * [Deliver → Expand handoff](sops/expand/deliver-to-expand-handoff.md)
   * [SOPs — Advocate](sops/advocate.md)
     * [Capture referral](sops/advocate/capture-referral.md)
+    * [Request customer reference](sops/advocate/request-customer-reference.md)
+    * [Reference champion refresh](sops/advocate/reference-champion-refresh.md)
+    * [Community event follow-up](sops/advocate/community-event-follow-up.md)
 
 ## Assessments
 
@@ -233,6 +236,11 @@
   * [Customer success check-in checklist](checklists/customer-success-check-in-checklist.md)
   * [Expansion conversation checklist](checklists/expansion-conversation-checklist.md)
   * [Deliver → Expand handoff checklist](checklists/deliver-to-expand-handoff-checklist.md)
+  * [Capture referral checklist](checklists/capture-referral-checklist.md)
+  * [Reference agency qualification checklist](checklists/reference-agency-qualification-checklist.md)
+  * [Request customer reference checklist](checklists/request-customer-reference-checklist.md)
+  * [Reference champion refresh checklist](checklists/reference-champion-refresh-checklist.md)
+  * [Community event follow-up checklist](checklists/community-event-follow-up-checklist.md)
 * [Templates](templates.md)
   * [Field-day stop list](templates/field-day-stop-list.md)
   * [Referral ask script](templates/referral-ask.md)

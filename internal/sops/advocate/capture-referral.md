@@ -2,10 +2,10 @@
 
 **Document type:** SOP  
 **Phase:** Advocate · Referral  
-**Status:** v0.2  
+**Status:** v0.3 (target-state)  
 **Next review:** 2026-10-01 (owner: Advocate / Acquire)  
-**Audience:** Internal — anyone closing success moments with customers  
-**Related:** [Referral](../../customer-value-engine/advocate/referral.md) · [Go-to-market](../../strategy/go-to-market.md) · [Generate new leads](../acquire/generate-new-leads.md) · [Referral ask script](../../templates/referral-ask.md)
+**Audience:** Internal — Advocate owner; Expand / Deliver (surface success moments)  
+**Related:** [Referral](../../customer-value-engine/advocate/referral.md) · [Go-to-market](../../strategy/go-to-market.md) · [Generate new leads](../acquire/generate-new-leads.md) · [Referral ask script](../../templates/referral-ask.md) · [Capture referral checklist](../../checklists/capture-referral-checklist.md)
 
 ---
 
@@ -15,8 +15,8 @@
 |-------|--------|
 | **Objective** | Turn customer success into named introductions logged in Pipedrive |
 | **Typical duration** | 5–15 minutes for the ask; follow-up per Acquire |
-| **Owner (role)** | Advocate (ask) · Acquire (first touch of referred lead) |
-| **Stakeholders** | Customer success / delivery (timing of ask), founders |
+| **Owner (role)** | **Advocate owner** (ask + log) · Acquire (first touch of referred lead) |
+| **Stakeholders** | Expand / Deliver (surface success moments), founders |
 | **Success criteria** | Ask made at a defined moment; outcome logged; referred contact in Pipedrive with origin **Referral** and next activity |
 | **Related SOPs** | [Generate new leads](../acquire/generate-new-leads.md) |
 
@@ -42,20 +42,21 @@ Make asking for referrals a **repeatable** step after real customer success — 
 
 **In scope:** When to ask, what to ask, how to log, handoff to first outreach.
 
-**Out of scope:** Running the full sales cycle with the referred agency (see Generate new leads and later Acquire SOPs). Formal reference calls / case studies (separate reference SOP — not yet written).
+**Out of scope:** Running the full sales cycle with the referred agency (see Generate new leads and later Acquire SOPs). Formal reference calls / case studies ([Request customer reference](request-customer-reference.md)).
 
 ## 3. Owner
 
-**Role:** Advocate for the ask and logging; Acquire for working the referred lead.  
-**Current incumbent (both stages today):** Fugate  
+**Advocate owner** — owns the ask and Pipedrive logging.  
+**Acquire** — owns first touch of the referred lead.  
+Expand / Deliver surface the success moment (hypercare exit, Healthy check-in); they do not replace Advocate on the ask unless Advocate explicitly delegates a single ask.
 
 ## 4. Trigger
 
-**Default (guided):** make a referral ask at **hypercare exit / go-live success** for every engagement unless the relationship is strained (then skip and note why in Pipedrive).
+**Default:** make a referral ask at **hypercare exit / go-live success** for every engagement unless the relationship is strained (then skip and note why in Pipedrive). Deliver/Expand flag the moment; **Advocate owner** owns scheduling and executing the ask.
 
 Also ask when any of these occur:
 
-- Strong check-in or expansion conversation  
+- Strong Healthy check-in or expansion conversation  
 - Customer spontaneously praises the product or support  
 - Customer offers “you should talk to…” (capture immediately)
 
@@ -87,6 +88,7 @@ One sincere ask beats repeated pressure — if they decline, thank them and opti
 | Tool | Use |
 |------|-----|
 | Pipedrive | System of record |
+| Hub Advocate Desk | Checklist + coaching plan |
 | Phone / email / in person | Ask and intro |
 
 ## 9. Current state
@@ -166,6 +168,8 @@ Success moment reached?
 
 ## 17. Verification
 
+Use [Capture referral checklist](../../checklists/capture-referral-checklist.md).
+
 - [ ] Ask outcome logged on referrer  
 - [ ] Referred party in Pipedrive (as complete as information allows)  
 - [ ] Origin = Referral  
@@ -202,12 +206,11 @@ Success moment reached?
 
 ### Weaknesses
 
-- Mandatory hypercare-exit ask not yet decided  
-- Pipedrive referrer-link field may not exist yet  
+- Pipedrive referrer-link / Referring organization custom field may not exist yet (notes OK until then)  
 
 ### Automation opportunities
 
-- Checklist item on hypercare exit / customer success cadence  
+- Checklist prompts on Deliver→Expand handoff and Healthy check-ins  
 - Pipedrive custom field: Referring organization  
 
 ### Product impact
@@ -218,16 +221,17 @@ Success moment reached?
 
 | Item | Value |
 |------|--------|
-| Current level | 1 |
-| Next milestone | Ask logged for each go-live success in Priority 1 |
+| Current level | 2 (documented) |
+| Next milestone | Ask logged for each go-live success / Healthy win |
 | Future goal | Material share of new qualified leads from referrals |
 
 ### Next review date
 
-Owner: Advocate · Questions: Are triggers right? Is the ask comfortable for customers? Conversion quality of referred leads?
+Owner: Advocate owner · Questions: Are triggers right? Is the ask comfortable for customers? Conversion quality of referred leads?
 
 ### Change history
 
 | Date | Change |
 |------|--------|
 | 2026-07-22 | v0.1 — initial SOP |
+| 2026-08-02 | v0.3 — Advocate owner; hypercare ask ownership; checklist link |
