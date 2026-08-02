@@ -13,6 +13,10 @@ Verification lists used with SOPs and implementation work.
 | [Hardware Readiness Checklist](hardware-readiness-checklist.md) | v1 | 5 · Integrations and Hardware |
 | [Customer Validation Checklist](customer-validation-checklist.md) | v1 | 3 · Data Migration |
 | [Migration Close-Out Checklist](migration-close-out-checklist.md) | <mark style="color:red;">Placeholder</mark> | 3 · Data Migration |
+| [Account health / risk checklist](account-health-risk-checklist.md) | v0.1 target-state | Expand · Customer success |
+| [Customer success check-in checklist](customer-success-check-in-checklist.md) | v0.1 target-state | Expand · Customer success |
+| [Expansion conversation checklist](expansion-conversation-checklist.md) | v0.1 target-state | Expand · Expansion |
+| [Deliver → Expand handoff checklist](deliver-to-expand-handoff-checklist.md) | v0.1 target-state | Deliver → Expand |
 
 <mark style="color:red;">**TODO:**</mark> Add additional checklists as processes are standardized. Suggested next checklists:
 

@@ -1,12 +1,13 @@
 # SOPs — Expand
 
-SOPs for customer success and expansion. Stage overviews: ../../customer-value-engine/expand/
+SOPs for customer success and expansion. Stage overviews: [../../customer-value-engine/expand/](../../customer-value-engine/expand/)
 
-## Procedures in this folder
+Parent index: [../expand.md](../expand.md)
 
-<mark style="color:red;">**TODO:**</mark> Add SOP files here as they are written. Use the standard SOP structure in [../README.md](../README.md).
+## Procedures
 
-Suggested first SOP filenames (create only when content is available):
-
-- `sop-customer-success-check-in.md`
-- `sop-expand-account.md`
+| SOP | Status |
+|-----|--------|
+| [Customer success check-in](customer-success-check-in.md) | v0.1 target-state |
+| [Expand account](expand-account.md) | v0.1 target-state |
+| [Deliver → Expand handoff](deliver-to-expand-handoff.md) | v0.1 target-state |

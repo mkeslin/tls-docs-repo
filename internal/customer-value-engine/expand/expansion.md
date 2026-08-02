@@ -5,23 +5,23 @@
 
 ## Inputs
 
-Healthy customer
+Healthy customer **or** customer-initiated inquiry (even if Watch/At-risk — listen; do not hard-pitch recovery)
 
 ## Outputs
 
-Additional ARR
+Additional ARR (Pipedrive opportunity + next commercial step)
 
 ## Owner
 
-Fugate
+**Expand owner** (today: Fugate)
 
-## Current process
+## Target process
 
-Opportunity-driven
+[Expand account](../../sops/expand/expand-account.md) — run during a success check-in probe or when the customer asks.
 
 ## Tooling
 
-Pipedrive
+Pipedrive (opportunity SoR) · Hub Expand Desk (coaching + checklists)
 
 ## Capacity (today)
 
@@ -33,7 +33,7 @@ Pipedrive
 
 ## Maturity
 
-**1 / 5 — Founder-driven**
+**2 / 5 — Documented** (target-state SOP; execution still opportunity-driven)
 
 | Score | Meaning |
 |------:|---------|
@@ -45,14 +45,14 @@ Pipedrive
 
 ## What would break first?
 
-Reactive process
+Interest without a Pipedrive opportunity / dated next step; pitching over open P1s
 
 ## Continuous improvement (10x ideas)
 
 | Lens | Idea |
 |------|------|
 | Reduce / Simplify | Ad hoc upselling |
-| Standardize | Expansion playbook |
+| Standardize | Expansion playbook (done in SOP) |
 | Automate | Usage-based opportunities |
 | Delegate | Sales / CS |
 | Scale | Systematic cross-selling |
@@ -63,5 +63,7 @@ Reactive process
 
 ## Related documents
 
-- Related SOPs: <mark style="color:red;">**TODO:**</mark> link under `internal/sops/`
-- Checklists / templates: <mark style="color:red;">**TODO:**</mark>
+- SOP: [Expand account](../../sops/expand/expand-account.md)
+- Checklist: [Expansion conversation](../../checklists/expansion-conversation-checklist.md)
+- Pricing: [SaaS pricing guardrails](../../policies/saas-pricing-and-discount-guardrails.md)
+- Design: [Hub Expand Desk](../../backlog/design/hub-expand-desk.md)
