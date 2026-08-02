@@ -22,11 +22,12 @@ Give the Operate epic owner a Hub **two-week coaching plan** for support triage 
 
 ## Decisions
 
-1. **v0.1 = plan + board desk** — `/operate` hosts the two-week plan (goals, named priorities, day-blocks). No ticket inbox, playbooks catalog, or email sender in Hub.
-2. **Productize Operate plan goals** — Seed blanks from [operate-plan-two-week](../../templates/operate-plan-two-week.md) / [epic plan goals](../../strategy/epic-kpis.md#operate); do not invent process.
-3. **Support SoR stays outside Hub for now** — Shared support List (or successor) remains where requests are logged; Hub plan does not replace it.
-4. **Cards carry executable work** — Day-blocks sync to Operate-epic `BoardTask` cards (triage blocks, release prep, customer follow-ups).
-5. **Do not clone Acquire Desk** — No Pipedrive/outreach tools. Do not clone a full ITSM product.
+1. **v0.1 = plan + board desk** — `/operate` hosts the two-week plan (goals, named priorities, day-blocks). No ticket inbox or email sender in Hub.
+2. **v0.2 = checklist tools** — Seeded Hub checklists from [Triage support request](../../sops/operate/triage-support-request.md), [Publish product update](../../sops/operate/publish-product-update.md), and [Customer release email](../../templates/customer-release-email.md). Session-local checks only; not the support SoR.
+3. **Productize Operate plan goals** — Seed blanks from [operate-plan-two-week](../../templates/operate-plan-two-week.md) / [epic plan goals](../../strategy/epic-kpis.md#operate); do not invent process.
+4. **Support SoR stays outside Hub for now** — Shared support List (or successor) remains where requests are logged; Hub plan does not replace it.
+5. **Cards carry executable work** — Day-blocks sync to Operate-epic `BoardTask` cards (triage blocks, release prep, customer follow-ups).
+6. **Do not clone Acquire sales tools or a full ITSM product** — Checklists are the Operate-shaped analog of Acquire playbooks / Deliver checklists.
 
 ### Alternatives considered
 
@@ -49,19 +50,26 @@ Give the Operate epic owner a Hub **two-week coaching plan** for support triage 
 - Hub: `/operate` desk + `/operate/plans` history; Operate-shaped blank template; priority labels (agency/issue · severity)
 - Home Plans: current Operate period; day-blocks → board
 
-### Out of scope (v0.1)
+### In scope (v0.2)
+
+- Hub: `/operate` **Checklists** tab; `GET tlsapi/operate-desk/checklists`; seeded from Operate SOPs + release email template
+
+### Out of scope (v0.1 / v0.2)
 
 - Ticket inbox / shared List UI in Hub
 - Auto-ingest from email/Quo
 - Company Scorecard KPI warehouse
-- Customer release email sender (template remains in docs)
+- Customer release email sender (checklist + template only; no Hub mail send)
+- Persisted per-ticket checklist instances in Hub (session-local only in v0.2)
 
 ## Approach (high level)
 
 ```mermaid
 flowchart LR
   tpl[operate_plan_two_week] --> blank[Hub_blank_SalesPlanPeriod]
+  docs[Operate_SOPs_and_templates] --> catalog[OperateDeskCatalog]
   blank --> desk[Operate_Desk_route]
+  catalog --> desk
   desk --> board[BoardTask_Operate]
   list[Shared_support_List] -.->|SoR| desk
 ```
@@ -69,7 +77,8 @@ flowchart LR
 1. Design (this doc).
 2. Docs template for Operate two-week plan.
 3. Hub desk + history + nav; catalog already seeds Operate goals.
-4. Pilot: Operate owner runs one real period in Hub.
+4. Seed Operate checklists from SOPs/templates; `/operate` Checklists tab.
+5. Pilot: Operate owner runs one real period in Hub.
 
 ## Open questions
 
@@ -81,5 +90,7 @@ flowchart LR
 | Phase | Work |
 |-------|------|
 | Pilot | One real Operate two-week period from `/operate` |
+| v0.2 | Checklists tab (triage, publish update, release email) |
 | Later | Shared List integration / ticket deep links |
 | Later | Scorecard auto-fill for support response and ships |
+| Later | Optional persisted checklist runs attached to tickets |
