@@ -22,11 +22,12 @@ Give the Deliver epic owner a Hub **two-week coaching plan** (goals, named engag
 
 ## Decisions
 
-1. **v0.1 = plan + board desk** — `/deliver` hosts the two-week plan (KPIs, priorities, day-blocks). No playbooks or email catalog. Still no per-customer workspace SoR in Hub.
-2. **Productize the Deliver two-week template** — Seed blank `SalesPlanPeriod` goals / check-in from [deliver-plan-two-week](../../templates/deliver-plan-two-week.md); do not invent process.
-3. **Engagement SoR stays the workspace** — Per-customer status, phases 0–8, and exit criteria remain in the implementation workspace (whatever tool today). The Hub plan does not replace it.
-4. **Cards carry executable work** — Day-blocks sync to Deliver-epic `BoardTask` cards; use client/product tags on cards for engagement context.
-5. **Do not clone Acquire Desk** — No Pipedrive twin, cold outreach playbooks, or proposal generators for Deliver.
+1. **v0.1 = plan + board desk** — `/deliver` hosts the two-week plan (KPIs, priorities, day-blocks). Still no per-customer workspace SoR in Hub.
+2. **v0.2 = checklist tools** — Seeded Hub checklists from [internal/checklists](../../checklists/README.md) (sales handoff, environment health, customer validation, agency configuration, hardware readiness). Session-local checks only; not engagement SoR. Skip placeholder lists (e.g. migration close-out) until docs are ready.
+3. **Productize the Deliver two-week template** — Seed blank `SalesPlanPeriod` goals / check-in from [deliver-plan-two-week](../../templates/deliver-plan-two-week.md); do not invent process.
+4. **Engagement SoR stays the workspace** — Per-customer status, phases 0–8, and exit criteria remain in the implementation workspace (whatever tool today). The Hub plan does not replace it.
+5. **Cards carry executable work** — Day-blocks sync to Deliver-epic `BoardTask` cards; use client/product tags on cards for engagement context.
+6. **Do not clone Acquire sales tools** — No Pipedrive twin, cold outreach playbooks, or proposal generators for Deliver. Checklists are the Deliver-shaped analog of Acquire playbooks.
 
 ### Alternatives considered
 
@@ -50,12 +51,17 @@ Give the Deliver epic owner a Hub **two-week coaching plan** (goals, named engag
 - Hub: `/deliver` desk + `/deliver/plans` history; Deliver-shaped blank template; EpicPlanDialog labels for agency / phase
 - Home Plans: create/save current Deliver period; day-blocks → board
 
-### Out of scope (v0.1)
+### In scope (v0.2)
+
+- Hub: `/deliver` **Checklists** tab; `GET tlsapi/deliver-desk/checklists`; seeded from GitBook checklists (not placeholders)
+
+### Out of scope (v0.1 / v0.2)
 
 - Per-customer implementation workspace SoR in Hub
 - Phase-gate / RACI UI
 - Replacing shared folders, spreadsheets, or project tools
-- Playbooks / email catalog (Acquire-style tools)
+- Acquire-style email / outreach catalog
+- Persisted per-engagement checklist instances in Hub (session-local only in v0.2)
 - Pipedrive or Directory sync for engagements
 
 ## Approach (high level)
@@ -63,7 +69,9 @@ Give the Deliver epic owner a Hub **two-week coaching plan** (goals, named engag
 ```mermaid
 flowchart LR
   tpl[deliver_plan_two_week] --> blank[Hub_blank_SalesPlanPeriod]
+  docs[GitBook_checklists] --> catalog[DeliverDeskCatalog]
   blank --> desk[Deliver_Desk_route]
+  catalog --> desk
   desk --> board[BoardTask_Deliver]
   desk --> home[Home_Plans_Deliver]
   workspace[Implementation_workspace] -.->|later| hubWs[Hub_workspace]
@@ -72,8 +80,9 @@ flowchart LR
 1. Design (this doc + [epic plans](hub-epic-plans.md)).
 2. Docs template for Deliver two-week plan.
 3. Hub catalog seeds Deliver blanks; dialog labels soften.
-4. Pilot: Deliver owner creates one real period in Hub; keep workspace SoR elsewhere.
-5. Later: workspace-in-Hub initiative when leadership picks the container.
+4. Seed Deliver checklists from GitBook; `/deliver` Checklists tab.
+5. Pilot: Deliver owner creates one real period in Hub; keep workspace SoR elsewhere.
+6. Later: workspace-in-Hub initiative when leadership picks the container.
 
 ## Open questions
 
@@ -85,5 +94,7 @@ flowchart LR
 | Phase | Work |
 |-------|------|
 | Pilot | Deliver owner runs one real two-week period from Home Plans |
+| v0.2 | Checklists tab (sales handoff, env health, customer validation, agency config, hardware) |
+| Later | Migration close-out + go-live readiness when docs leave placeholder |
 | Later | Implementation workspace in Hub (phases 0–8, exit criteria) |
-| Later | Optional Deliver desk tools (checklists pulled from SOPs) |
+| Later | Optional persisted checklist runs attached to engagements |
