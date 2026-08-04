@@ -25,7 +25,7 @@ Clear the highest-priority Court work queues in a sensible daily order so intake
 | 5 | Program / collections / follow-up | Per court priority |
 
 3. For each row: open the case, take the state action (not only an edit dialog), and confirm the case leaves the queue or moves to the correct next queue.
-4. Use batch actions only when you understand the effect; spot-check a few results.
+4. Use batch actions only when you understand the effect (activate, set show-cause date, print notices / citation details); spot-check a few results. Many print and mark actions require a show-cause date on every row on the page first.
 
 ## Expected result
 

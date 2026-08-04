@@ -25,7 +25,7 @@ When an installment is missed:
 
 - Cases appear in **missed payment / compliance** work queues.
 - Follow your court’s notice process (including late notice documents when configured).
-- Use **Mark failed to comply** / show-cause actions when enforcement is required — wording in the UI may say **Mark failed to comply** rather than older “schedule show cause” language.
+- Use **Mark "Failure to Comply"** / show-cause actions when enforcement is required — wording in the UI may use quoted Failure to Comply / CPF FTC labels rather than older “schedule show cause” language.
 
 ## Time-payment fee
 

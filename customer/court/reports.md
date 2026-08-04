@@ -9,10 +9,10 @@ Court reporting and operational prints commonly used with Court Violations.
 From a case or module reports area, clerks commonly generate:
 
 - Court violation overview / statement style reports
-- Notices (for example pre-trial setting, show cause, late notice)
+- Notices (for example pre-trial setting, show cause, late notice, missed-deadline show cause)
 - Deferred disposition / court program and installment agreement documents
 - Receipts (final receipts after payment acceptance)
-- Citation prints from a court violation when needed
+- Citation prints from a court violation when needed (including **batch** citation detail prints from work queues: full, public, or court copy)
 - Label outputs used for FTA address mailings (when configured)
 
 Use the document your court adopted in training; templates can vary by agency configuration.

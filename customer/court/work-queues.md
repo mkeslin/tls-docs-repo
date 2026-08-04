@@ -35,7 +35,7 @@ Names in your environment may vary slightly; these are the usual work areas:
 | **Surety bond — show cause** | Bond-related show cause | Bond hearing / resolve bond actions |
 | **Program — ready to close** | Program appears complete | Verify conditions; complete program / dismiss |
 | **Follow-up — past due** | Follow-up date passed | Contact, reschedule, or clear follow-up |
-| **Compliance — missed payment** | Installment or payment compliance missed | Notice; failed to comply / show cause; accept payments |
+| **Compliance — missed payment** | Installment or payment compliance missed | Notice; Failure to Comply / show cause; accept payments |
 | **Payment plan — fee eligible** | Time-payment fee assessment candidate | Assess fee per policy |
 | **Collections — eligible** | Candidate for collections referral | Refer per agency process (see [Collections](../collections/README.md)) |
 | **Payment — accept new** | Payments awaiting court acceptance | Accept (or correct) pending payments |
@@ -45,7 +45,17 @@ Names in your environment may vary slightly; these are the usual work areas:
 1. Open **Work queues** from Court Violations.
 2. Select a queue and review the list.
 3. Open a case, take the appropriate action, and confirm it leaves the queue (or moves to the correct next queue).
-4. Use batch actions only when you understand the effect (for example batch activate or batch show-cause date). Spot-check results.
+4. Use batch actions only when you understand the effect (for example batch activate, batch show-cause date, or batch print). Spot-check results.
+
+### Batch print (when the queue supports it)
+
+From the batch actions menu you can print notices and related documents for the current result set. Common options include:
+
+- **Citation details** — full, public, or court-copy citation PDFs for the selected/filtered cases
+- **Missed Deadline Show Cause** — on program / compliance missed-deadline queues; the system chooses the deferred, driver safety course, or generic program letter based on the case’s past-due conditions
+- Show-cause / Capias Pro Fine notices, late notices, and address labels where the queue enables them
+
+Many mark / print actions stay disabled until every row on the current page has a show-cause date set.
 
 ## Tips
 
