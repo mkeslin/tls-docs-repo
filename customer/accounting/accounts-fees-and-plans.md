@@ -22,6 +22,8 @@ Fee allocation percentages drive [Revenue allocation](revenue-allocation.md).
 
 Product builds may include shared **TLS_*** helper fees (for example deferred disposition, driver safety course, and compliance-dismissal subtypes). Court screens prefer those helpers when assessing program or dismissal fees and still accept common legacy aliases your agency already uses.
 
+Schedule versions should associate **State Consolidated Fee (SCF)** (and related remittance fees) without a duplicate Court Cost (**CF**) link cloned from older SCF schedule rows. Product migrations remove those erroneous associations so new assessments do not double-count CF alongside SCF.
+
 ## Transaction Sets
 
 1. Open **Accounting** → **Transaction Sets**.
