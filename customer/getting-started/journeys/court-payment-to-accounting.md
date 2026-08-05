@@ -13,15 +13,17 @@ From a court case payment at the window through acceptance, deposit, and optiona
 
 ```mermaid
 flowchart LR
-  A[Court case] --> B[Apply payment]
+  A[Court case] --> B[Apply external payment]
   B --> C[Pending acceptance]
   C --> D[Accept payment]
-  D --> E[Deposit Create and Post]
-  E --> F[Revenue allocation]
-  F --> G[Payout / reconcile]
-  A --> H{Referred?}
-  H -->|Yes| I[Collections remittance]
-  I --> J[Disbursement batch]
+  D --> E{Ledger tracked?}
+  E -->|Yes| F[Deposit Create and Post]
+  F --> G[Revenue allocation]
+  G --> H[Payout / reconcile]
+  E -->|No - external apply| I[Balance updated - no GL batch]
+  A --> J{Referred?}
+  J -->|Yes| K[Collections remittance]
+  K --> L[Disbursement batch]
 ```
 
 ## Steps
@@ -31,11 +33,14 @@ flowchart LR
 1. Work in [Court](../../court/README.md) — search or open from a [work queue](../../court/work-queues.md).
 2. Confirm the defendant, balance, and payable state ([Case lifecycle](../../court/case-lifecycle.md)).
 
-### 2. Apply payment (cashier)
+### 2. Apply external / off-platform payment
 
-1. Follow [Court — Payments](../../court/payments.md): **Apply Payment/Credit**.
-2. Enter amount, method, and date.
-3. Submit. Payment is **pending acceptance** until accepted.
+1. Follow [Court — Payments](../../court/payments.md): **Apply Payment/Credit** on Accounting (Thin Line full support on current builds).
+2. Confirm the notice: case balance only — no general ledger / deposit batch at apply time.
+3. Enter amount, method, and date.
+4. Submit. Payment is **pending acceptance** until accepted.
+
+Day-to-day window and online collection use in-person / online citation payment when those are enabled — those paths can feed Accounting batches after acceptance.
 
 Card processor success ≠ court acceptance.
 
@@ -59,7 +64,7 @@ See [From Court payments](../../accounting/from-court-payments.md).
 3. **Revenue Allocation Batch** → **Create & Post Batches** ([Revenue allocation](../../accounting/revenue-allocation.md)).
 4. For online card: [Payment Ledger / Payouts](../../accounting/online-payments-and-payouts.md) and [Reconciliation](../../accounting/reconciliation-and-disputes.md) (prefer VerifyOnly).
 
-Cashiers stop at apply + accept. Create & Post is finance.
+Cashiers stop at apply + accept for ledger-tracked paths. Create & Post is finance. External Apply Payment never joins those batches.
 
 ### 6. Collections (when referred)
 
@@ -75,7 +80,7 @@ Do not double-post the same money in Court Apply and Collections remittance.
 | Symptom | What to check |
 |---------|----------------|
 | “Paid” but no receipt | Acceptance still pending |
-| Create & Post shows no pending | Not accepted; wrong agency/date |
+| Create & Post shows no pending | External Apply Payment (no GL); not accepted; wrong agency/date |
 | Card payout missing | Sync Stripe Payouts; webhooks |
 | VerifyAndHeal surprises | Use VerifyOnly unless finance lead approved heal |
 | Collections ≠ Court | Referral status; remittance vs window payment |

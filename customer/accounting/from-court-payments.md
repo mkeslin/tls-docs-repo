@@ -4,19 +4,21 @@
 
 How money on a court case becomes work in Accounting.
 
-## Cashier path (Court)
+## External / off-platform Apply Payment (Court)
 
 1. Open the court violation ([Court](../court/README.md)).
-2. **Apply Payment/Credit** (or your build’s Apply Payment action) — amount, method, date.
-3. Payment sits **pending acceptance** until accepted.
-4. Accept from the payment acceptance work queue (**Accept Payment** / **Batch Accept Payments** as your agency uses).
+2. On **Accounting**, use **Apply Payment/Credit** for money collected outside Thin Line — amount, method, date.
+3. The payment updates the case balance and sits **pending acceptance**; it does **not** create general ledger lines or join deposit/revenue batches at apply time.
+4. Accept from the payment acceptance work queue (**Payment - Accept New** / **Batch Accept Payments** as your agency uses).
 5. Issue the **final receipt** only after acceptance.
+
+**Access:** Apply Payment/Credit on Accounting is Thin Line **full support** on current builds. In-person and online citation payment flows (when enabled) remain the day-to-day collection paths for agency cashiers.
 
 Details: [Court — Payments](../court/payments.md).
 
 ## What Accounting receives
 
-Accepted payments become **transaction sets** that appear in pending batches for:
+Online / in-person processor payments and other ledger-tracked payments become **transaction sets** that appear in pending batches for:
 
 | Accounting tool | Role |
 |-----------------|------|
@@ -24,7 +26,7 @@ Accepted payments become **transaction sets** that appear in pending batches for
 | [Revenue allocation](revenue-allocation.md) | Move court trust liability into revenue by fee allocation |
 | [Online payments and payouts](online-payments-and-payouts.md) | Track Stripe online payments and bank payouts |
 
-If a payment never appears in a pending deposit batch, check **acceptance**, **agency**, and **date** first — not the deposit screen alone.
+If a payment never appears in a pending deposit batch, check whether it was an **external Apply Payment** (balance-only, no GL), then **acceptance**, **agency**, and **date** — not the deposit screen alone.
 
 ## Payment plans
 
@@ -36,7 +38,8 @@ Court **Manage Fees/Balances** (when used) changes what is owed on the violation
 
 ## Tips
 
-- Train cashiers to stop at apply + accept; finance owns Create & Post Batches.
+- External Apply Payment does not create deposit/revenue batch work — do not expect Create & Post for those PAY rows.
+- For ledger-tracked window/online payments, cashiers stop at apply + accept; finance owns Create & Post Batches.
 - One physical drawer day should map cleanly to deposit date and agency — avoid mixing agencies in one close-out.
 
 ## Related

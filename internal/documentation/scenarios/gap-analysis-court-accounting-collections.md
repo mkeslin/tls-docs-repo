@@ -47,7 +47,7 @@ Focus: happy path + critical fail paths. Out of scope here: BL-023 item-level co
 | `court-bond-enter-basics` | Enter/modify/resolve bond | YES | **NO** | NO | YES (search/detail) | YES | NO | **HTTP IT hole** |
 | `court-work-queues-triage` | Open/triage work queues | YES | **NO** | NO | YES | YES | NO | |
 | `court-calendar-docket-day` | Calendar → case → date actions | PARTIAL | PARTIAL | NO | YES | YES | NO | Appearance via state machine IT only |
-| `court-payment-apply-from-case` | Apply payment from case | YES (`court-payment-apply`) | YES (clerk `POST accounting/transactions`) | NO | PARTIAL (dialog Escape) | YES | NO | Same apply lock as Accounting table |
+| `court-payment-apply-from-case` | Apply payment from case | YES (`court-payment-apply`) | YES (clerk `POST accounting/transactions`) | NO | PARTIAL (dialog Escape) | YES | NO | 6.4.7: UI Apply Payment is external/skip-GL + **full support** gated; jail credit split out |
 | `court-payment-accept-queue` | Accept pending from queue | YES (`court-payment-accept`) | YES (ITCA → approve) | NO | NO | YES | NO | Queue UI still thin; accept API locked |
 | `court-dismiss-validation-fail` | Dismiss rejected without required fields | YES | PARTIAL | NO | NO | PARTIAL | NO | |
 
@@ -57,7 +57,7 @@ Focus: happy path + critical fail paths. Out of scope here: BL-023 item-level co
 
 | Scenario id | Journey | API unit | API IT | Playwright | Screenshots | Customer docs | Internal scenario map | Notes |
 |-------------|---------|----------|--------|------------|-------------|---------------|----------------------|-------|
-| `court-payment-apply` | Clerk Apply payment → pending | YES | YES | NO | PARTIAL | YES | NO | Locked: unit + `CourtAccounting_PaymentApply_HttpTests` (clerk route; shares `ApplyPaymentAsync` with PayIt) |
+| `court-payment-apply` | Clerk Apply payment → pending | YES | YES | NO | PARTIAL | YES | NO | Locked: unit + `CourtAccounting_PaymentApply_HttpTests`; 6.4.7 adds `pSkipAccountingLedger` (external apply, no GL/batches) |
 | `court-payment-accept` | Accept pending → final receipt | YES | YES | NO | NO | YES | NO | Locked: unit + `CourtAccounting_PaymentAccept_HttpTests` |
 | `court-payment-plan-create` | Create installment plan | PARTIAL | PARTIAL (SQL-seeded plan, not create HTTP) | NO | YES | YES | NO | |
 | `court-payment-plan-installment-pay` | Pay against plan | YES | YES | NO | NO | YES | NO | Stronger than create |

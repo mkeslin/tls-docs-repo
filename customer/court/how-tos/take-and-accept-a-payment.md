@@ -4,21 +4,22 @@
 
 ## Goal
 
-Apply a payment on a court violation, then accept it so the final receipt and accounting handoff are complete.
+Record an external / off-platform payment on a court violation, then accept it so the final receipt is complete.
 
 ## Prerequisites
 
 - Case with an open balance
-- Cashier / clerk rights to apply payments; acceptance rights per agency practice
+- Access to **Apply Payment/Credit** on Accounting (Thin Line full support on current builds); acceptance rights per agency practice
 - Correct court agency selected
 
 ## Steps — apply
 
 1. Open **Court Violations** and find the case (search by violation number or defendant).
 2. Confirm the **balance**.
-3. Choose **Apply payment**.
-4. Enter amount, payment method, and date.
-5. Submit. Note that the payment is **pending** until accepted.
+3. Open **Accounting** and choose **Apply Payment/Credit**.
+4. Confirm the notice that this updates the case balance only (no general ledger / deposit batch posting).
+5. Enter amount, payment method, and date.
+6. Submit. Note that the payment is **pending** until accepted (queue: **Payment - Accept New**).
 
 ## Steps — accept
 
@@ -32,8 +33,8 @@ Apply a payment on a court violation, then accept it so the final receipt and ac
 ## Expected result
 
 - Payment is accepted (not left pending).
-- Balance updates.
-- Payment is ready for deposit / accounting processes — see [From Court payments](../../accounting/from-court-payments.md).
+- Case **balance** updates.
+- External Apply Payment does **not** create general ledger / deposit batch work — see [From Court payments](../../accounting/from-court-payments.md).
 
 ## Related
 

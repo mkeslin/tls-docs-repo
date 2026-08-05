@@ -10,22 +10,24 @@ Step-by-step: [Take and accept a payment](how-tos/take-and-accept-a-payment.md).
 
 | Step | Who | What it means |
 |------|-----|----------------|
-| **Apply payment** | Front desk / cashier | Payment is recorded but not final |
-| **Court acceptance** | Clerk / judge (per agency practice) | Payment becomes official — final receipt and accounting posting boundary |
+| **Apply payment** | Authorized user (see below) | External / off-platform payment is recorded on the case but not final |
+| **Court acceptance** | Clerk / judge (per agency practice) | Payment becomes official — final receipt boundary |
 
-A payment can be successfully taken (including card processor success) and still wait in **Pending acceptance**. Final receipts are produced **after** acceptance.
+A payment can be successfully recorded (including card processor success on other payment paths) and still wait in **Pending acceptance**. Final receipts are produced **after** acceptance.
 
-## Apply a payment
+## Apply an external / off-platform payment
+
+Use **Apply Payment** on the court violation **Accounting** dialog when money was collected **outside** Thin Line (for example cash or check at the counter, or a third-party processor) and you need the case balance updated without posting to the general ledger or deposit/revenue batches.
 
 1. Open the court violation (search by case number or defendant).
-2. Confirm the **balance** on the case header / payments area.
-3. Choose **Apply payment** (button wording may vary slightly).
+2. Open **Accounting** and choose **Apply Payment/Credit** (wording may vary slightly).
+3. Confirm the informational notice: balance only — no GL / deposit batch posting.
 4. Enter amount, method, and date.
-5. Submit. The payment is pending until accepted.
-
-Common payment methods include cash, check, money order, card, and other — use the method your agency supports at the window or online.
+5. Submit. The payment appears in **Payment - Accept New** until accepted.
 
 When paying multiple related violations for the same defendant, select the cases your court allows to combine before applying.
+
+**Access:** On current builds, **Apply Payment/Credit** on Accounting is available to Thin Line **full support** users. Day-to-day window and online collection continue to use your agency’s in-person / online citation payment flows when those are enabled.
 
 ## Accept pending payments
 
@@ -46,7 +48,7 @@ Until acceptance, do not treat the payment as fully posted for close-out or offi
 
 ## Jail credit and adjustments
 
-When authorized, clerks may **apply jail credit** or other adjustments from convicted / compliance contexts. These can change balances and may contribute to closure. Use only with proper court authority; document the reason when the dialog requires it.
+When authorized, clerks may **Apply Jail Credit** (separate from Apply Payment) or other adjustments from convicted / compliance contexts. These can change balances and may contribute to closure. Use only with proper court authority; document the reason when the dialog requires it.
 
 ## Related accounting
 
