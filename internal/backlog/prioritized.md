@@ -37,6 +37,7 @@ Each work item has a stable **`BL-###`** identifier (zero-padded three digits). 
 | **BL-023** | Court / Accounting | Collections — supplemental item-level referrals (Art. 103.0031) |
 | **BL-024** | Masters | Master search coalesce + faster person merge |
 | **BL-025** | Masters | Finish scored duplicates (Build Table + person merge-from-cluster) |
+| **BL-026** | API / UI | Align multi-value GET query params (comma CSV → repeated keys + collections) |
 
 ---
 
@@ -88,6 +89,7 @@ Each work item has a stable **`BL-###`** identifier (zero-padded three digits). 
 | **BL-015** | **Accounting** | **Grid prints** | All accounting module grids/tables should have grid prints. **→ Plan:** [`plans/BL-015-accounting-grid-prints.md`](plans/BL-015-accounting-grid-prints.md) |
 | BL-017 | Court Violations | OCA Report | Finish PDF (see BL-001 for February verification). |
 | BL-016 | General | Default values table | Customize defaults by agency. |
+| BL-026 | API / UI | Align multi-value GET query params | Prefer repeated keys + `List`/`T[]` over comma-separated `string` + `Split`. Inventory in plan. **→ Plan:** [`plans/BL-026-align-multivalue-get-query-params.md`](plans/BL-026-align-multivalue-get-query-params.md) |
 
 ---
 
@@ -131,6 +133,7 @@ Sorted by **Priority** (asc), then **Module**, **Name**.
 | BL-023 | 6 | Court / Accounting | Collections — supplemental item-level referrals | Art. 103.0031 per-item clocks/referral; schema today is case-level snapshot only. Interim: recall/re-refer. | |
 | BL-024 | 5 | Masters | Master search coalesce + faster person merge | Suppress + applock search refresh; set-based person merge; sync search rebuild; `MasterMergeChange` journal for future undo. **→ Plan:** [`plans/BL-024-master-search-coalesce-person-merge.md`](plans/BL-024-master-search-coalesce-person-merge.md) | |
 | BL-025 | 5 | Masters | Finish scored duplicates | Honor `fullRebuild` on Build Table; Person merge-from-cluster + Merged status. **→ Plan:** [`plans/BL-025-scored-duplicates-finish.md`](plans/BL-025-scored-duplicates-finish.md) | |
+| BL-026 | 9 | API / UI | Align multi-value GET query params | Comma-CSV `string` + `Split` → repeated keys + collections. Evidence print bugfix landed; alignment remaining. | |
 
 ---
 
@@ -151,6 +154,7 @@ Sorted by **Priority** (asc), then **Module**, **Name**.
 | BL-023 | Court / Accounting — collections supplemental item referrals | [`plans/BL-022-collections-supplemental-item-referrals.md`](plans/BL-022-collections-supplemental-item-referrals.md) |
 | BL-024 | Masters — master search coalesce + faster person merge | [`plans/BL-024-master-search-coalesce-person-merge.md`](plans/BL-024-master-search-coalesce-person-merge.md) |
 | BL-025 | Masters — finish scored duplicates | [`plans/BL-025-scored-duplicates-finish.md`](plans/BL-025-scored-duplicates-finish.md) |
+| BL-026 | API / UI — align multi-value GET query params | [`plans/BL-026-align-multivalue-get-query-params.md`](plans/BL-026-align-multivalue-get-query-params.md) |
 
 ---
 
@@ -169,3 +173,4 @@ Sorted by **Priority** (asc), then **Module**, **Name**.
 | 2026-07-15 | — | **BL-023** added — collections supplemental / per-item referrals (Art. 103.0031); interim recall/re-refer documented. (Master briefly used BL-022 for this item; renumbered on merge with CAD’s earlier BL-022.) |
 | 2026-07-26 | — | **BL-024** added — master search coalesce + faster person merge; plan [`plans/BL-024-master-search-coalesce-person-merge.md`](plans/BL-024-master-search-coalesce-person-merge.md). |
 | 2026-07-26 | — | **BL-025** added — finish scored duplicates (fullRebuild + person merge-from-cluster); plan [`plans/BL-025-scored-duplicates-finish.md`](plans/BL-025-scored-duplicates-finish.md). |
+| 2026-08-06 | — | **BL-026** added — align multi-value GET query params (comma CSV → repeated keys + collections); inventory after evidence-in-custody print truncation fix. |
