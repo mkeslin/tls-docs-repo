@@ -37,7 +37,7 @@ Names in your environment may vary slightly; these are the usual work areas:
 | **Follow-up — past due** | Follow-up date passed | Contact, reschedule, or clear follow-up |
 | **Compliance — missed payment** | Installment or payment compliance missed | Notice; Failure to Comply / show cause; accept payments |
 | **Payment plan — fee eligible** | Time-payment fee assessment candidate | Assess fee per policy |
-| **Collections — eligible** | Candidate for collections referral | Refer per agency process (see [Collections](../collections/README.md)) |
+| **Collections — eligible** | Past the statutory collections window (appearance or compliance / paid-in-full due + 60 days) with a balance, not yet referred | Refer per agency process (see [Collections](../collections/README.md) / [Refer and recall](../collections/refer-and-recall.md)) |
 | **Payment — accept new** | Payments awaiting court acceptance | Accept (or correct) pending payments |
 
 ## How to work a queue

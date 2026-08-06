@@ -38,6 +38,7 @@ Each work item has a stable **`BL-###`** identifier (zero-padded three digits). 
 | **BL-024** | Masters | Master search coalesce + faster person merge |
 | **BL-025** | Masters | Finish scored duplicates (Build Table + person merge-from-cluster) |
 | **BL-026** | API / UI | Align multi-value GET query params (comma CSV → repeated keys + collections) |
+| **BL-027** | Court / Accounting | Collections eligibility rewrite (Art. 103.0031) — appearance / compliance-due clocks ([`plans/BL-027-collections-eligibility-art-1030031.md`](plans/BL-027-collections-eligibility-art-1030031.md)) |
 
 ---
 
@@ -79,6 +80,7 @@ Each work item has a stable **`BL-###`** identifier (zero-padded three digits). 
 | BL-021 | UI | Classic layout — `TlsPage` shell | Stable main-column wrapper for Classic (`banners` + default); future `wa-page` backing. **→ Plan:** [`plans/BL-021-tls-page-shell-classic-layout.md`](plans/BL-021-tls-page-shell-classic-layout.md) |
 | BL-022 | CAD | Large-agency remediation | Dispatch board read model, SignalR scale-out, notifier parity (notes/modules), UX/ops. **→ Plan:** [`plans/BL-022-cad-large-agency-remediation.md`](plans/BL-022-cad-large-agency-remediation.md) |
 | BL-023 | Court / Accounting | Collections — supplemental item-level referrals | Per-fee/item past-due clocks + referral status under Art. 103.0031(b)/(f). **Interim today:** recall → (reverse unpaid TPC if needed) → re-refer. **→ Plan:** [`plans/BL-022-collections-supplemental-item-referrals.md`](plans/BL-022-collections-supplemental-item-referrals.md) |
+| BL-027 | Court / Accounting | Collections eligibility rewrite (Art. 103.0031) | Appearance / `ComplianceDueDateTime` clocks; amount-level aging; health allow-list. **→ Plan:** [`plans/BL-027-collections-eligibility-art-1030031.md`](plans/BL-027-collections-eligibility-art-1030031.md); **Audit:** [`plans/collections-eligibility-date-audit.md`](plans/collections-eligibility-date-audit.md) |
 
 ---
 
@@ -155,6 +157,7 @@ Sorted by **Priority** (asc), then **Module**, **Name**.
 | BL-024 | Masters — master search coalesce + faster person merge | [`plans/BL-024-master-search-coalesce-person-merge.md`](plans/BL-024-master-search-coalesce-person-merge.md) |
 | BL-025 | Masters — finish scored duplicates | [`plans/BL-025-scored-duplicates-finish.md`](plans/BL-025-scored-duplicates-finish.md) |
 | BL-026 | API / UI — align multi-value GET query params | [`plans/BL-026-align-multivalue-get-query-params.md`](plans/BL-026-align-multivalue-get-query-params.md) |
+| BL-027 | Court / Accounting — collections eligibility (Art. 103.0031) | [`plans/BL-027-collections-eligibility-art-1030031.md`](plans/BL-027-collections-eligibility-art-1030031.md) |
 
 ---
 
@@ -174,3 +177,4 @@ Sorted by **Priority** (asc), then **Module**, **Name**.
 | 2026-07-26 | — | **BL-024** added — master search coalesce + faster person merge; plan [`plans/BL-024-master-search-coalesce-person-merge.md`](plans/BL-024-master-search-coalesce-person-merge.md). |
 | 2026-07-26 | — | **BL-025** added — finish scored duplicates (fullRebuild + person merge-from-cluster); plan [`plans/BL-025-scored-duplicates-finish.md`](plans/BL-025-scored-duplicates-finish.md). |
 | 2026-08-06 | — | **BL-026** added — align multi-value GET query params (comma CSV → repeated keys + collections); inventory after evidence-in-custody print truncation fix. |
+| 2026-08-06 | — | **BL-027** added — collections eligibility rewrite (Art. 103.0031); plan + audit. |

@@ -6,14 +6,14 @@ Customer guides for the **Collections (COL)** module — referring court cases, 
 
 ## What Collections is
 
-When eligible court cases are **referred** to a third-party collections vendor (Texas CCP Art. 103.0031–style workflows), staff use:
+When eligible court cases are **referred** to a third-party collections vendor (Texas CCP Art. 103.0031), staff use:
 
 | Place | Work |
 |-------|------|
-| **Court** case / work queues | Refer, recall, see IN COLLECTIONS / ELIGIBLE |
+| **Court** case / work queues | Refer, recall, see IN COLLECTIONS / ELIGIBLE (appearance or compliance due + 60 days) |
 | **Collections** module | Portfolio, remittance entry/import, disbursement report & batches |
 
-Window payments on non-referred (or court-collected) paths still use [Court — Payments](../court/payments.md) and [Accounting](../accounting/README.md). Do not double-post the same dollars in Court and Collections remittance.
+Eligibility uses the statutory appearance / paid-in-full (compliance due) clocks — see [Refer and recall](refer-and-recall.md). Window payments on non-referred (or court-collected) paths still use [Court — Payments](../court/payments.md) and [Accounting](../accounting/README.md). Do not double-post the same dollars in Court and Collections remittance.
 
 ## Who this guide is for
 
