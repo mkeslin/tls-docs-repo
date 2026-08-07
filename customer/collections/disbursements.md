@@ -33,7 +33,7 @@ Posting narrative (conceptually): due-to-collections liability decreases; operat
 
 ### Void
 
-Void with **Void Reason** when the check must be reversed — coordinate with finance.
+Void requires a **Void Reason** (saved uppercase) when the check must be reversed — coordinate with finance.
 
 ## Tips
 

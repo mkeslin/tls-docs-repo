@@ -14,7 +14,9 @@ Provide a CSV with (headers as the import screen documents):
 |--------|---------|
 | ViolationNumber | Violation number or ID |
 | CourtCash | Court cash portion |
-| VendorTpc | Collections fee withheld |
+| VendorTpc | Collections fee withheld (TPC) — not court cash |
+
+**Court cash** on each row cannot exceed the outstanding **non-TPC** balance for that case. Put TPC in **VendorTpc** / agency fee withheld — the product rejects court cash that overstates the principal balance.
 | Note | Optional |
 
 ## Steps

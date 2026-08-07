@@ -37,6 +37,7 @@ Eligibility uses the statutory appearance / paid-in-full (compliance due) clocks
 | [Payment entry](payment-entry.md) | Manual vendor remittance |
 | [Payment import](payment-import.md) | CSV remittance import |
 | [Payment history](payment-history.md) | Find posted remittances |
+| [Vendor export](vendor-export.md) | Preview / download vendor export files |
 | [Disbursements](disbursements.md) | Report + batches to pay the vendor |
 
 **Collections Activity** (referral audit) may be routed in the product but is **hidden from the nav** until ready — do not expect it in day-to-day menus.

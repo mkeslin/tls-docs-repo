@@ -19,6 +19,14 @@ After judgment (typically in **Convicted**), when the court allows the defendant
 
 Indicators on search results help you see which cases already have an active payment plan.
 
+## Paying amounts outside the plan (off-plan)
+
+While a payment plan is open, the case balance can still include amounts that are **not** covered by remaining installments (for example fees assessed after the plan was created). On **Apply Payment**, in-person citation payment, and online citation payment, you can select those **off-plan** amounts and pay them **without** applying the money to installments.
+
+- Off-plan / direct-payable ≈ case balance minus remaining installment balances
+- Paying off-plan does not satisfy the next installment by itself — continue collecting scheduled installments per the plan
+- Receipts and statements distinguish plan installment application from direct / off-plan application
+
 ## Missed installments
 
 When an installment is missed:

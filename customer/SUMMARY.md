@@ -189,6 +189,7 @@
   * [Payment entry](collections/payment-entry.md)
   * [Payment import](collections/payment-import.md)
   * [Payment history](collections/payment-history.md)
+  * [Vendor export](collections/vendor-export.md)
   * [Disbursements](collections/disbursements.md)
 * [Accounting](accounting/README.md)
   * [From Court payments](accounting/from-court-payments.md)

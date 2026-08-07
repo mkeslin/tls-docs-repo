@@ -29,6 +29,10 @@ When paying multiple related violations for the same defendant, select the cases
 
 **Access:** On current builds, **Apply Payment/Credit** on Accounting is available to Thin Line **full support** users. Day-to-day window and online collection continue to use your agency’s in-person / online citation payment flows when those are enabled.
 
+## Off-plan amounts on a payment plan
+
+If the violation has an active payment plan and additional balance that is **not** covered by remaining installments, Apply Payment and public citation payment flows can collect that **off-plan** portion without treating it as an installment payment. See [Payment plans](payment-plans.md#paying-amounts-outside-the-plan-off-plan).
+
 ## Accept pending payments
 
 1. Open **Work queues** (or the payment-accept shortcut your court uses).
@@ -42,7 +46,8 @@ Until acceptance, do not treat the payment as fully posted for close-out or offi
 
 ## Receipts and balances
 
-- Print or provide the **final receipt** after acceptance.
+- Print or provide the **final receipt** after acceptance. Receipts summarize payment-plan installment vs direct / off-plan application when both apply.
+- Case **statements** show chronological activity with a **running balance**.
 - Case balances and closure logic update as accepted payments, jail credit, adjustments, and fees are applied.
 - Paying in full does not always close the case automatically if other conditions (compliance, plans, state rules) remain open — check the case state and any health warnings.
 

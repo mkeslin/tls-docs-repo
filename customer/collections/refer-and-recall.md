@@ -25,7 +25,9 @@ On the court violation **Collections** / **Third-Party Collections** card you ty
 | **IN COLLECTIONS** | Already referred |
 | **NOT ELIGIBLE** | Not referable under current rules |
 
-The card also shows eligibility basis / source date when available. Common blockers: indigency rules that suppress TPC, principal/balance rules, unpaid TPC preventing a new TPC, missing appearance or compliance due dates — follow your court policy and on-screen warnings.
+The card also shows eligibility **basis**, **source date**, and **eligibility date** when available. Common blockers: indigency rules that suppress TPC, principal/balance rules, **unpaid TPC already on the case** (a second TPC is not assessed until the existing unpaid TPC is reversed), missing appearance or compliance due dates — follow your court policy and on-screen warnings.
+
+Collections activity (referred, recalled, supplemental, adjusted, satisfied, and related events) also appears on the case timeline when those events occur.
 
 ## Refer a case
 

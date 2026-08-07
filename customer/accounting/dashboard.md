@@ -9,6 +9,14 @@
 
 The dashboard is an overview — day-to-day posting happens on the batch screens.
 
+## Deposit tender breakdown
+
+Deposit batch cards show a **tender matrix** (cash, checks, money orders, and other) with amounts and counts for payments, collections, and bonds. Use it to reconcile what landed in the day’s deposit before Create & Post.
+
+## Deposit vs revenue mismatch
+
+When fee totals on the deposit do not match revenue allocation, the dashboard shows a **mismatch** alert (expected, actual, and difference). **Bond escrow** in the deposit is excluded from that fee comparison — if fees match but the deposit still includes bond money, you may see an informational bond-escrow note while Create & Post remains available. Treat bond deposits separately from fee/revenue close-out.
+
 ## Related
 
 - [Deposit batches](deposit-batches.md)

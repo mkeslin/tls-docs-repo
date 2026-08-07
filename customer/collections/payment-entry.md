@@ -18,6 +18,12 @@ Use the **New payment** / **History** tabs on the screen to switch between entry
 
 Posted remittances typically use a collections remittance method (court cash posts to GL; withheld fee clears the subledger per product rules).
 
+## Court cash vs TPC
+
+- **Court cash** cannot exceed the outstanding **non-TPC** (court / principal) balance on the remittance line. The UI caps the amount; posting more is rejected.
+- Put the collections fee in **Agency fee withheld** (TPC) — do not put TPC dollars in court cash.
+- Agency reference and remittance notes are saved trimmed and uppercase for consistency.
+
 ## Tips
 
 - Keep the vendor check/batch # in Agency Reference for audit.
