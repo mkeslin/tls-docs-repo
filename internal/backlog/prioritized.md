@@ -39,6 +39,7 @@ Each work item has a stable **`BL-###`** identifier (zero-padded three digits). 
 | **BL-025** | Masters | Finish scored duplicates (Build Table + person merge-from-cluster) |
 | **BL-026** | API / UI | Align multi-value GET query params (comma CSV → repeated keys + collections) |
 | **BL-027** | Court / Accounting | Collections eligibility rewrite (Art. 103.0031) — appearance / compliance-due clocks ([`plans/BL-027-collections-eligibility-art-1030031.md`](plans/BL-027-collections-eligibility-art-1030031.md)) |
+| **BL-028** | Accounting | Cleanup unused collections chart accounts (`COLLECTIONS_EXPENSE`, `LOCAL_FEE_COLLECTIONS_FUND`) |
 
 ---
 
@@ -92,6 +93,7 @@ Each work item has a stable **`BL-###`** identifier (zero-padded three digits). 
 | BL-017 | Court Violations | OCA Report | Finish PDF (see BL-001 for February verification). |
 | BL-016 | General | Default values table | Customize defaults by agency. |
 | BL-026 | API / UI | Align multi-value GET query params | Prefer repeated keys + `List`/`T[]` over comma-separated `string` + `Split`. Inventory in plan. **→ Plan:** [`plans/BL-026-align-multivalue-get-query-params.md`](plans/BL-026-align-multivalue-get-query-params.md) |
+| BL-028 | Accounting | Cleanup unused collections chart accounts | Soft-delete / retire `COLLECTIONS_EXPENSE` (unused on all 4 court prod DBs) and handle `LOCAL_FEE_COLLECTIONS_FUND` carefully — Slaton has **9 posted RAL TPC lines** on that account; live TPC maps to `DUE_TO_COLLECTIONS_AGENCY`. Do not hard-delete fund account without history plan. Lane: **cleanup**. |
 
 ---
 
@@ -135,7 +137,8 @@ Sorted by **Priority** (asc), then **Module**, **Name**.
 | BL-023 | 6 | Court / Accounting | Collections — supplemental item-level referrals | Art. 103.0031 per-item clocks/referral; schema today is case-level snapshot only. Interim: recall/re-refer. | |
 | BL-024 | 5 | Masters | Master search coalesce + faster person merge | Suppress + applock search refresh; set-based person merge; sync search rebuild; `MasterMergeChange` journal for future undo. **→ Plan:** [`plans/BL-024-master-search-coalesce-person-merge.md`](plans/BL-024-master-search-coalesce-person-merge.md) | |
 | BL-025 | 5 | Masters | Finish scored duplicates | Honor `fullRebuild` on Build Table; Person merge-from-cluster + Merged status. **→ Plan:** [`plans/BL-025-scored-duplicates-finish.md`](plans/BL-025-scored-duplicates-finish.md) | |
-| BL-026 | 9 | API / UI | Align multi-value GET query params | Comma-CSV `string` + `Split` → repeated keys + collections. Evidence print bugfix landed; alignment remaining. | |
+| BL-026 | 9 | API / UI | Align multi-value GET query params | Comma-CSV `string` + `Split` → repeated keys + collections. Evidence print bugfix landed; alignment remaining. | |
+| BL-028 | 12 | Accounting | Cleanup unused collections chart accounts | `COLLECTIONS_EXPENSE` unused (4 court prod); `LOCAL_FEE_COLLECTIONS_FUND` has Slaton historical RAL TPC lines — soft-delete/remap carefully. | Court agencies |
 
 ---
 
@@ -178,3 +181,4 @@ Sorted by **Priority** (asc), then **Module**, **Name**.
 | 2026-07-26 | — | **BL-025** added — finish scored duplicates (fullRebuild + person merge-from-cluster); plan [`plans/BL-025-scored-duplicates-finish.md`](plans/BL-025-scored-duplicates-finish.md). |
 | 2026-08-06 | — | **BL-026** added — align multi-value GET query params (comma CSV → repeated keys + collections); inventory after evidence-in-custody print truncation fix. |
 | 2026-08-06 | — | **BL-027** added — collections eligibility rewrite (Art. 103.0031); plan + audit. |
+| 2026-08-07 | — | **BL-028** added — cleanup unused collections chart accounts (`COLLECTIONS_EXPENSE`, `LOCAL_FEE_COLLECTIONS_FUND`); Slaton historical RAL caveat. |
