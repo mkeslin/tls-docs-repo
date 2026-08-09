@@ -18,6 +18,7 @@
   * [Vision and principles](strategy/vision-and-principles.md)
   * [Strategic roadmap 2026–2029](strategy/strategic-roadmap-2026-2029.md)
   * [Annual operating plan — 2026 H2](strategy/annual-operating-plan-2026-h2.md)
+  * [2026 H2 monthly product releases](strategy/2026-h2-monthly-product-releases.md)
   * [Go-to-market](strategy/go-to-market.md)
   * [Quarterly scorecard](strategy/quarterly-scorecard.md)
   * [Epic plan goals](strategy/epic-kpis.md)

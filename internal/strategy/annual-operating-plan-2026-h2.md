@@ -187,5 +187,6 @@ Turn satisfied customers into the primary growth engine.
 
 * [Vision and principles](vision-and-principles.md)
 * [Strategic roadmap 2026–2029](strategic-roadmap-2026-2029.md)
+* [2026 H2 monthly product releases](2026-h2-monthly-product-releases.md) — even monthly ship cadence for the product platform list
 * [Quarterly scorecard](quarterly-scorecard.md)
 * [Customer value stream](../customer-value-engine/customer-value-stream.md)
