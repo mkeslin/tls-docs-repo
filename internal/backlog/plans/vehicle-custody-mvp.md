@@ -17,7 +17,11 @@ Deliver create → edit → hold → release on the existing `VCS` module shell,
 
 ## Locked decisions
 
-See Cursor plan `vehicle_custody_mvp` — required MVI; optional MLI (retrieved from), MOI (tow), MPI (owner); release requires MPI; OfficerId; free-text StorageLocation; OPEN/RELEASED; block release while hold.
+See Cursor plan `vehicle_custody_mvp` — required MVI; optional MLI (retrieved from), MOI (tow), MPI (owner); release requires MPI; OfficerId; free-text StorageLocation; persisted status codes `OPEN`/`RELEASED` with user-facing **ACTIVE**/**RELEASED**; hold is independent of status; block release while hold; generic PUT cannot change lifecycle/hold/release fields.
+
+## Attachment immutability (MVP note)
+
+Released VCS records are read-only for custody fields. The Attachments tab disables upload/delete when the record is released (`can-upload` gated). Broader shared attachment APIs were left unchanged for the MVP (no invasive framework change).
 
 ## Approach
 
