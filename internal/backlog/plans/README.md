@@ -53,6 +53,7 @@ Copy [../templates/plan-template.md](../templates/plan-template.md) when creatin
 | [court-vpta-separate-charge.md](court-vpta-separate-charge.md) | VPTA separate charge |
 | [equipment-fleet-modules.md](equipment-fleet-modules.md) | Equipment / fleet modules |
 | [five-module-foundation-stubs.md](five-module-foundation-stubs.md) | K9 / Court Civil / Civil Process / Vehicle Custody / Cases foundation stubs |
+| [vehicle-custody-mvp.md](vehicle-custody-mvp.md) | Vehicle Custody (`VCS`) MVP depth |
 | [jail-intake-arresting-agency-three-mode.md](jail-intake-arresting-agency-three-mode.md) | Jail intake arresting agency |
 | [jlm-observation-pass-milestones.md](jlm-observation-pass-milestones.md) | JLM observation / cell checks |
 | [mental-health-screening-notification-rules.md](mental-health-screening-notification-rules.md) | MH screening notifications |
