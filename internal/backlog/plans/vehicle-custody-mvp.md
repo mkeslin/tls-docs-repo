@@ -23,6 +23,14 @@ See Cursor plan `vehicle_custody_mvp` — required MVI; optional MLI (retrieved 
 
 Released VCS records are read-only for custody fields. The Attachments tab disables upload/delete when the record is released (`can-upload` gated). Broader shared attachment APIs were left unchanged for the MVP (no invasive framework change).
 
+## Module checklist alignment (post-MVP)
+
+Aligned to `Docs/NEW-RMS-MODULE.md` gaps:
+
+- Detail report: `GET vehicle-custody-records/{id}/report/full-pdf` + Details `<report-lister>`
+- Module record groups on Details + associable via `ModuleRecordGrouper` (`VCS`)
+- Admin soft-launch flag `ADMIN_MODULES_SHOW_VEHICLE_CUSTODY = true` (dev/on for now; set `false` before customer release)
+
 ## Approach
 
 1. Reshape entity + EF migration (codes, RecordNumbers, merge remaps). Search uses EF joins on master snapshots (no separate `vw_VehicleCustodySearch` mapping).
