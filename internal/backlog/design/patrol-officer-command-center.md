@@ -8,6 +8,7 @@
 Living design note for the Officer Command Center and guided **use cases** (starting with traffic stop). Captures product decisions, what is in v1, and what is deliberately deferred so future work does not re-litigate settled choices.
 
 **Status:** Active (traffic-stop use case in progress on Patrol)  
+**2026 product roadmap:** [Levelland fit — Patrol + CAD 2026 roadmap](levelland-patrol-cad-2026-roadmap.md) (**BL-030**) — **P0.0 confirmed:** Patrol is the sold field experience for 25–50 agencies; P0.1–P0.8 make it true.  
 **Related UI:** ``ThinLine.UI/src/components/dashboard/officer/`` (product monorepo: `ThinLine.UI/src/components/dashboard/officer/`)  
 **Related stores:** ``patrolUseCaseStore.ts`` (product monorepo: `ThinLine.UI/src/stores/patrolUseCaseStore.ts`), ``patrolUseCaseConfigStore.ts`` (product monorepo: `ThinLine.UI/src/stores/patrolUseCaseConfigStore.ts`)
 

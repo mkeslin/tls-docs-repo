@@ -20,6 +20,8 @@ Design docs may cover **any** product area — CAD, Jail, Court, Accounting, RMS
 | Document | Topic |
 |----------|--------|
 | [Patrol officer command center](patrol-officer-command-center.md) | Officer Patrol dashboard and use cases |
+| [Levelland fit — Patrol + CAD 2026 roadmap](levelland-patrol-cad-2026-roadmap.md) | Finish Patrol as field experience; CAD sync; P0–P2 outcomes (**BL-030**) |
+| [CAD desk arrangements & map panel](cad-desk-arrangements.md) | Quick/custom CAD layouts, prefs restore, thick CAD map |
 | [Investigation interface](investigation-interface.md) | Investigation command center |
 | [Supervisor command center](supervisor-command-center.md) | Supervisor command center |
 | [Data integrity interface](data-integrity-interface.md) | Data integrity command center |

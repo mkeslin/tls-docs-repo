@@ -43,7 +43,9 @@ Bond actions are available on most active states (typically not on brand-new una
 | **Modify bond** | Update an existing bond |
 | **Resolve bond** | Close out the bond per court outcome |
 
-Use **Bond search** (Court Violations → Search bonds) when you need to find bonds across cases. Surety bond show-cause work often appears in a dedicated work queue.
+Use **Bond search** (Court Violations → Search bonds) when you need to find bonds across cases. Surety bond show-cause work often appears in a dedicated work queue. Bond search (and work queues) can optionally **highlight rows** while you scan a long list.
+
+When you enter or resolve a bond that has a **surety person**, that person is used as the **default depositor** — change it only when the deposit belongs to someone else.
 
 Bond rules can **block** other transitions until the bond situation is consistent with the next court action. If a plea or disposition action is disabled, check for an outstanding bond requirement.
 

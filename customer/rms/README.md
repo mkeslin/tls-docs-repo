@@ -16,7 +16,7 @@ Customer guides for Thin Line **Records Management** modules — day-to-day reco
 | [Notepad](notepad/README.md) | Field contacts; Lost & Found |
 | [Code Enforcement](code-enforcement/README.md) | Ordinance / code cases |
 
-Fire Incidents may be enabled for some agencies; a dedicated customer guide is not published yet. Criminal Trespass, Equipment, and Fleet are intentionally omitted until product-ready.
+Fire Incidents may be enabled for some agencies; a dedicated customer guide is not published yet. Soft-launch modules (Criminal Trespass, Equipment, Fleet, Vehicle Custody, Civil Process, Court Civil, Cases, and K9) are intentionally omitted from customer guides until product enablement.
 
 ## Related platform areas
 

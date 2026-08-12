@@ -144,6 +144,8 @@ For each module in scope:
 
 Typical modules surfaced here: Incident, Fire Incident, Citation (paper / random / mobile patterns), Warrant, Criminal Trespass, Close Patrol, Notepad, Equipment, Fleet, Evidence, Call (CAD), Code Enforcement, Court Violation, Collections, Jail Intake.
 
+**Soft-launch modules** (Vehicle Custody, Civil Process, Court Civil, Cases, K9, plus CTP / Equipment / Fleet) may be **absent from Admin → Modules** until product flips the UI soft-launch flag. Do not enable for a customer without the [Enable soft-launch RMS module](../../operate/enable-soft-launch-rms-module.md) checklist. Agency `*Enabled` defaults remain off.
+
 Enable only licensed / contracted modules. Align number patterns with migration Overrides when historical data was imported.
 
 ---

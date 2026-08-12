@@ -20,6 +20,8 @@ Align court-owned and law-enforcement warrant records when ownership or linkage 
 
 Exact eligibility depends on warrant status, agency settings, and your claims. If an action is disabled or returns unauthorized, stop and escalate — do not create a second warrant to work around ownership.
 
+**Warrant numbers must be unique across agencies.** Transfer and map actions that would create a duplicate warrant number are blocked with a clear error — resolve the collision (or choose a different number) before retrying.
+
 ## Related
 
 - [Warrants overview](README.md)

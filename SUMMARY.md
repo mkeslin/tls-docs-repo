@@ -187,6 +187,7 @@
   * [Design documents](internal/backlog/design/README.md)
     * [Design doc template](internal/backlog/design/design-doc-template.md)
     * [Patrol officer command center](internal/backlog/design/patrol-officer-command-center.md)
+    * [Levelland fit — Patrol + CAD 2026 roadmap](internal/backlog/design/levelland-patrol-cad-2026-roadmap.md)
     * [Investigation interface](internal/backlog/design/investigation-interface.md)
     * [Supervisor command center](internal/backlog/design/supervisor-command-center.md)
     * [Data integrity interface](internal/backlog/design/data-integrity-interface.md)

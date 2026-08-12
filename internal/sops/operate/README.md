@@ -17,6 +17,7 @@ Authority: [Operate authority](../../policies/operate-authority.md)
 |-----|--------|-------|
 | [Triage support request](triage-support-request.md) | v0.1 | Support |
 | [Publish product update](publish-product-update.md) | v0.1 | Product updates |
+| [Enable soft-launch RMS module](enable-soft-launch-rms-module.md) | v0.1 | Product updates / pilots |
 
 ## Still to improve
 

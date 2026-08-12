@@ -195,7 +195,7 @@ TX complaint needs careful layout review. Cut over UI citation prints; retire CI
 | # | Feature | Backlog / notes |
 |---|---------|-----------------|
 | 1 | **Violator portal** | Propose BL-038 (public / payments) |
-| 2 | **Patrol dashboard** | Propose BL-030; [`patrol-officer-command-center.md`](../backlog/design/patrol-officer-command-center.md) |
+| 2 | **Patrol dashboard** | **BL-030** (assigned); [`levelland-patrol-cad-2026-roadmap.md`](../backlog/design/levelland-patrol-cad-2026-roadmap.md); [`patrol-officer-command-center.md`](../backlog/design/patrol-officer-command-center.md) |
 | 3 | **Improved incident workflow** | Propose BL-032 |
 | 4 | **K-9 module** | Propose BL-043 |
 | 5 | **DA access** | Propose BL-039 |
