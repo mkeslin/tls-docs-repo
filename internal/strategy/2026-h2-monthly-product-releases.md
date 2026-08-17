@@ -2,7 +2,7 @@
 title: "2026 H2 monthly product releases"
 status: draft
 created: 2026-08-09
-updated: 2026-08-09
+updated: 2026-08-13
 ---
 
 # 2026 H2 — Monthly product releases
@@ -11,7 +11,7 @@ updated: 2026-08-09
 **Cadence:** One product release per month  
 **Goal:** Allocate **every** 2027 sales feature equally across five releases (ship all before 2027). Months may be packed; balance of count matters more than keeping each month light. Each month also carries **two equal platform packages** (kebab-case + Razor/Dink → QuestPDF).
 
-**Related:** [Annual operating plan — 2026 H2](annual-operating-plan-2026-h2.md), [Strategic roadmap 2026–2029](strategic-roadmap-2026-2029.md), backlog [prioritized.md](../backlog/prioritized.md); product monorepo `Docs/ROUTE-NAMING.md`, `RouteNamingConvention_Tests`, `ThinLine.UI/src/components/sandbox/sandboxReportCatalog.ts`
+**Related:** [Annual operating plan — 2026 H2](annual-operating-plan-2026-h2.md), [Strategic roadmap 2026–2029](strategic-roadmap-2026-2029.md), backlog [prioritized.md](../backlog/prioritized.md); product monorepo `Docs/ROUTE-NAMING.md`, `Docs/MODULE-TOUCH-CHECKLIST.md` (opportunistic per-module hygiene), `RouteNamingConvention_Tests`, `ThinLine.UI/src/components/sandbox/sandboxReportCatalog.ts`
 
 ## Rules of the road
 
@@ -106,6 +106,7 @@ Long-running hygiene alongside product themes. **Two packages per month** (kebab
 | Multi-value GET query params | **BL-026** | **26.11** (kebab LE B) |
 | Device fingerprinting | **BL-008** | **26.12** (kebab closure) |
 | Layout primitives (`tls-flex` → named `tls-*`) | UI architecture | Opportunistic on touched files |
+| Per-module “what cleanup while I’m here?” | Product repo `Docs/MODULE-TOUCH-CHECKLIST.md` | Opportunistic; does not replace the monthly kebab/QuestPDF packages |
 | Web Awesome / `TlsPageWa` production | Follow-on to **BL-021** | **Parked for 2027** unless a month finishes early |
 
 ---

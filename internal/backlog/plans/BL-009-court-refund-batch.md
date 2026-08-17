@@ -1,6 +1,6 @@
 ---
 backlog: "BL-009 · Accounting · Refund Batch"
-status: ready
+status: shipped
 created: 2026-08-11
 ---
 

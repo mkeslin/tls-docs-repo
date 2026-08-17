@@ -49,13 +49,22 @@ Names in your environment may vary slightly; these are the usual work areas:
 
 ### Batch print (when the queue supports it)
 
-From the batch actions menu you can print notices and related documents for the current result set. Common options include:
+From the batch actions menu you can print notices and related documents for the current result set. Queue-to-form mapping:
 
-- **Citation details** — full, public, or court-copy citation PDFs for the selected/filtered cases
-- **Missed Deadline Show Cause** — on program / compliance missed-deadline queues; the system chooses the deferred, driver safety course, or generic program letter based on the case’s past-due conditions
-- Show-cause / Capias Pro Fine notices, late notices, and address labels where the queue enables them
+| Queue | Batch print |
+|-------|-------------|
+| **New Case Review** | Envelopes, judgments, in-person plea form, citation details (full) |
+| **FTA — Missed Appearance** | Show Cause notice, address labels |
+| **Program — Missed Deadline** | Missed Deadline Show Cause (deferred, DSC, or generic program letter from past-due conditions), address labels |
+| **Compliance — Missed Deadline** | Show Cause Capias Pro Fine, address labels |
+| **Compliance — Missed Payment** | Show Cause Capias Pro Fine, late notice letter, address labels |
+| **Surety Bond — Show Cause** | Bond company show cause, violator show cause |
+
+FTA / CPF **show-cause** queues issue **electronic warrants** instead of batch-printing warrant paper. The warrant PDF attaches on the warrant when you **Issue Warrants**.
 
 Many mark / print actions stay disabled until every row on the current page has a show-cause date set.
+
+Full catalog: [Documents and forms](documents.md).
 
 ## Tips
 
@@ -63,6 +72,8 @@ Many mark / print actions stay disabled until every row on the current page has 
 - Do not ignore **ready to close** and **health** signals — they prevent stuck balances, open plans on disposed cases, paid post-plea cases that still need judgment or disposition, and Closed cases that somehow still owe money.
 - On **Court Violation Health** search, use **Ignore closed with zero balance** when you want to hide clean Closed cases and focus on open problems (including Closed cases that still show a balance).
 - Use optional **row highlight** on work queues when scanning dense result lists.
+- Work queues can **keep selected items** when you refresh or navigate away and return.
+- When your agency uses **OmniBase**, open the **OmniBase** tab in the work queue utility drawer to review submissions and hold status.
 - If a case will not leave a queue after you act, the action may have been dialog-only (edit without state change) or a guard blocked the transition.
 
 ## Related
@@ -72,3 +83,4 @@ Many mark / print actions stay disabled until every row on the current page has 
 - [Create and import cases](create-and-import.md)
 - [Payments](payments.md)
 - [FTA, warrants, and bonds](fta-warrants-bonds.md)
+- [Documents and forms](documents.md)

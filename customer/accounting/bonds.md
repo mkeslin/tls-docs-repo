@@ -20,8 +20,10 @@ Pay out exonerated cash bonds that are ready for refund.
 ### Post the batch
 
 1. Open the batch detail.
-2. Enter **Check #** (required) and confirm **Disbursement Date**.
-3. **Post Bond Refund Batch** — posts check-clearance GL (bond escrow / operating bank) and marks bonds **REFUNDED**.
+2. Items group by **depositor payee** when one batch pays multiple people — enter **Check #** for each payee group in **DRAFT**.
+3. Confirm **Disbursement Date** and **Post Bond Refund Batch** — posts check-clearance GL (bond escrow / operating bank) and marks bonds **REFUNDED**.
+
+Posted batches support CSV, Tyler ERP, CentralSquare, **City GL**, and accountant PDF exports.
 
 ### Void
 

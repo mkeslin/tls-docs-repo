@@ -23,9 +23,11 @@ Court Violations coordinates with the **[Warrants](../rms/warrants/README.md)** 
 
 Typical clerk path:
 
-1. From the FTA case, use the enabled **issue / update warrant** action (wording varies).
-2. Confirm the warrant number and court-owned fields on the warrant record.
+1. From the FTA case (often **FTA — Missed Show Cause**), use **Issue Warrants**.
+2. Confirm the warrant number and court-owned fields on the warrant record. An **e-signed arrest warrant PDF** is attached to the warrant automatically (CPF paths attach the **Capias Pro Fine** warrant PDF).
 3. Law enforcement works service from the Warrants module — see [Court-owned FTA and CPF](../rms/warrants/court-owned-fta-cpf.md).
+
+FTA **show-cause notices** and **address labels** print from **FTA — Missed Appearance** batch print (set show-cause dates first). Case-level affidavits and related forms are on the case Documents grid — see [Documents and forms](documents.md).
 
 Post-judgment non-compliance may follow a **CPF** (capias pro fine) track, including CPF warrant and CPF failed-to-comply states. Treat those as enforcement paths after conviction / compliance failure, not as a first-appearance FTA.
 
@@ -43,7 +45,7 @@ Bond actions are available on most active states (typically not on brand-new una
 | **Modify bond** | Update an existing bond |
 | **Resolve bond** | Close out the bond per court outcome |
 
-Use **Bond search** (Court Violations → Search bonds) when you need to find bonds across cases. Surety bond show-cause work often appears in a dedicated work queue. Bond search (and work queues) can optionally **highlight rows** while you scan a long list.
+Use **Bond search** (Court Violations → Search bonds) when you need to find bonds across cases. Surety bond show-cause work often appears in a dedicated work queue; that queue can **batch print** the bond-company show-cause letter and the violator show-cause letter. Bond search (and work queues) can optionally **highlight rows** while you scan a long list.
 
 When you enter or resolve a bond that has a **surety person**, that person is used as the **default depositor** — change it only when the deposit belongs to someone else.
 
@@ -66,3 +68,4 @@ Typical resolution patterns (availability depends on state):
 - [Case lifecycle](case-lifecycle.md)
 - [Calendar and appearances](calendar-and-appearances.md)
 - [Work queues](work-queues.md)
+- [Documents and forms](documents.md)

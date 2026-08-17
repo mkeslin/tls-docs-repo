@@ -181,6 +181,7 @@
     * [BL-022 CAD state centralization](backlog/plans/BL-022-cad-state-centralization.md)
     * [BL-022-12 Call templates](backlog/plans/BL-022-12-call-templates.md)
     * [BL-023 Collections supplemental item referrals](backlog/plans/BL-022-collections-supplemental-item-referrals.md)
+    * [BL-031 Search shell improvements](backlog/plans/BL-031-search-shell-improvements.md)
     * [CAD pinned closed calls](backlog/plans/CAD-follow-up-pinned-closed-calls.md)
     * [FB-13 Scheduled calls](backlog/plans/FB-13-scheduled-calls.md)
     * [Collections module](backlog/plans/collections-module.md)

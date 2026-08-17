@@ -78,3 +78,4 @@ When your role and state allow it:
 - [Case lifecycle](case-lifecycle.md)
 - [Court programs](court-programs.md)
 - [Payments](payments.md)
+- [Documents and forms](documents.md)

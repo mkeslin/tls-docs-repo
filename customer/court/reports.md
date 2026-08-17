@@ -2,18 +2,20 @@
 
 ![Court dashboard](images/court-dashboard.png)
 
-Court reporting and operational prints commonly used with Court Violations.
+Court **regulatory reporting packs** (OCA, DPS, State Quarterly) and how they relate to day-to-day prints.
 
-## Operational reports and documents
+For the full list of case PDFs (notices, judgments, warrants, program letters, labels) and **where each is printed**, see [Documents and forms](documents.md).
 
-From a case or module reports area, clerks commonly generate:
+## Operational prints (summary)
 
-- Court violation overview / statement style reports
-- Notices (for example pre-trial setting, show cause, late notice, missed-deadline show cause)
-- Deferred disposition / court program and installment agreement documents
-- Receipts (final receipts after payment acceptance)
-- Citation prints from a court violation when needed (including **batch** citation detail prints from work queues: full, public, or court copy)
-- Label outputs used for FTA address mailings (when configured)
+Clerks print case documents from the **case utility drawer**, **work-queue batch print**, or automatic attachments. Common groups:
+
+- Court violation overview / statement
+- Notices (initial setting, pre-trial, show cause, late notice, missed-deadline show cause)
+- Deferred disposition / court program, teen court, DSC, and installment agreement documents
+- Receipts (final receipts after payment acceptance) — see [Payments](payments.md)
+- Citation copies from a court violation (including **batch** citation detail prints from New Case Review)
+- FTA / compliance **address labels** from work-queue batch print (not from the case Documents grid)
 
 Use the document your court adopted in training; templates can vary by agency configuration.
 
@@ -41,6 +43,7 @@ Some environments include **court violation analytics** for volume and workload 
 
 ## Related
 
+- [Documents and forms](documents.md)
 - [Import/Export](../import-export/README.md)
 - [Payments](payments.md)
 - [Work queues](work-queues.md)

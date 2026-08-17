@@ -32,7 +32,7 @@ While a payment plan is open, the case balance can still include amounts that ar
 When an installment is missed:
 
 - Cases appear in **missed payment / compliance** work queues.
-- Follow your court’s notice process (including late notice documents when configured).
+- Follow your court’s notice process. **Compliance — Missed Payment** can batch-print the **late notice letter**, **Show Cause Capias Pro Fine**, and **address labels** — see [Documents and forms](documents.md).
 - Use **Mark "Failure to Comply"** / show-cause actions when enforcement is required — wording in the UI may use quoted Failure to Comply / CPF FTC labels rather than older “schedule show cause” language.
 
 ## Time-payment fee
@@ -60,3 +60,4 @@ Before considering a case complete:
 - [Payments](payments.md)
 - [Work queues](work-queues.md)
 - [Pleas and judgment](pleas-and-judgment.md)
+- [Documents and forms](documents.md)

@@ -48,7 +48,7 @@ Use these when the court continues a setting but the procedural path has not cha
 
 ## Show cause
 
-Show-cause dates are central after missed appearances or failed compliance. Setting or updating the show-cause date is often required before certain enforcement actions. Show-cause information also appears on some court documents and reports.
+Show-cause dates are central after missed appearances or failed compliance. Setting or updating the show-cause date is often required before certain enforcement actions. Show-cause information also appears on court notices (FTA show cause, program missed-deadline show cause, CPF show cause). See [Documents and forms](documents.md).
 
 ## Tips
 
@@ -62,3 +62,4 @@ Show-cause dates are central after missed appearances or failed compliance. Sett
 - [Getting around](getting-around.md)
 - [FTA, warrants, and bonds](fta-warrants-bonds.md)
 - [Court programs](court-programs.md)
+- [Documents and forms](documents.md)

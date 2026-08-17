@@ -32,6 +32,10 @@ Typical row actions on posted batches:
 | Export journal entries | **Tyler ERP** or **CentralSquare Asyst** when your city uses those exports |
 | **Void Batch** | Reverse a DRAFT or POSTED batch — **Void Reason** required |
 
+## City GL export and handoff
+
+When your city uses **City GL** exports, download them from the batch row alongside Tyler ERP and CentralSquare. After importing into the city ledger, mark the export **complete** on the **GL Export Queue** so finance staff can see what still needs city-side import.
+
 ## Tips
 
 - Align deposit date with the physical bank deposit.

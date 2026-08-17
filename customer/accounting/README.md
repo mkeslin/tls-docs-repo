@@ -21,6 +21,7 @@ The Accounting rail appears only when you have accounting access **and** your cu
 - Court finance staff who create and post deposit / revenue batches
 - Staff who sync and reconcile Stripe payouts and charge disputes
 - Staff who run bond refund disbursements and deposit exports
+- Staff who run court refund disbursement batches after fee corrections or overpayments
 - Administrators who maintain fee schedules (accounts are mostly view-only)
 
 ## Topics in this guide
@@ -34,6 +35,7 @@ The Accounting rail appears only when you have accounting access **and** your cu
 | [Online payments and payouts](online-payments-and-payouts.md) | Payment ledger, payout batches, sync |
 | [Reconciliation and disputes](reconciliation-and-disputes.md) | Payment/payout reconcile, charge disputes |
 | [Bonds](bonds.md) | Refund disbursement batches, deposit export |
+| [Court refund disbursement](court-refunds.md) | Create Refund Due on cases; pay refund dues by check batch |
 | [Accounts, fees, and plans](accounts-fees-and-plans.md) | Chart view, fees/schedules, transaction sets, plans |
 
 **Remittance Allocation Reconciliation** appears under Accounting when remittance / State Quarterly workflows are in use — see [State Quarterly Report](../import-export/state-quarterly-report.md).

@@ -39,6 +39,7 @@ Copy [../templates/plan-template.md](../templates/plan-template.md) when creatin
 | BL-021 | UI — Classic `TlsPage` shell | [BL-021-tls-page-shell-classic-layout.md](BL-021-tls-page-shell-classic-layout.md) |
 | BL-022 | CAD — large-agency remediation | [BL-022-cad-large-agency-remediation.md](BL-022-cad-large-agency-remediation.md) |
 | BL-023 | Collections — supplemental item referrals | [BL-022-collections-supplemental-item-referrals.md](BL-022-collections-supplemental-item-referrals.md) |
+| BL-031 | UI — search shell improvements | [BL-031-search-shell-improvements.md](BL-031-search-shell-improvements.md) |
 
 ## Other plans
 

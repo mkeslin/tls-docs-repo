@@ -22,7 +22,7 @@ For click-path training tasks, start with [How-tos](how-tos/README.md).
 | **Calendar** | Scheduled appearances, show-cause, pre-trial, and trial dates |
 | **Bond search** | Find and manage bonds across cases |
 | **Work queues** | Exception-driven lists (missed appearance, pending payment acceptance, collections eligible, and more) |
-| **Reports** | Court reporting packs (OCA, DPS conviction, state quarterly, and related) |
+| **Reports** | Court reporting packs (OCA, DPS conviction, state quarterly). Case PDFs are listed under [Documents and forms](documents.md). |
 
 Admin and setup areas (when your role includes them) may also include offense-to-fine mapping, speeding fine tables, OmniBase submissions, and health checks.
 
@@ -55,3 +55,4 @@ Actions available on a case depend on its **current procedural state**. The acti
 - [Create and import cases](create-and-import.md)
 - [Case lifecycle](case-lifecycle.md)
 - [Work queues](work-queues.md)
+- [Documents and forms](documents.md)

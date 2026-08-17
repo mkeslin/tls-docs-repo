@@ -173,6 +173,7 @@
   * [Payments](court/payments.md)
   * [Payment plans](court/payment-plans.md)
   * [Work queues](court/work-queues.md)
+  * [Documents and forms](court/documents.md)
   * [Reports](court/reports.md)
   * [How-tos](court/how-tos/README.md)
     * [Activate a new case](court/how-tos/activate-a-new-case.md)

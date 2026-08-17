@@ -40,6 +40,8 @@ If the defendant does not comply:
 2. Case moves to a **failed to comply** program state.
 3. At show cause, record appearance and return to post-plea, reschedule show cause, move to FTA if they miss again, or revoke the program.
 
+**Program — Missed Deadline** batch print uses **Missed Deadline Show Cause**: the system chooses the deferred, driver safety course, or generic **court program** letter from the case’s past-due conditions. You can also print those letters (and deferred / DSC / teen-court orders) from the case Documents grid — see [Documents and forms](documents.md).
+
 ## Revoke without the full FTC path
 
 **Revoke court program** returns the case toward **Post-plea, pre-judgment** when the program should end without completing the failure-to-comply show-cause sequence. Use the path that matches the court’s order.
@@ -56,3 +58,4 @@ If the defendant does not comply:
 - [Pleas and judgment](pleas-and-judgment.md)
 - [Calendar and appearances](calendar-and-appearances.md)
 - [Work queues](work-queues.md)
+- [Documents and forms](documents.md)
