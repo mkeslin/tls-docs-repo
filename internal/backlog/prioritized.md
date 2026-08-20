@@ -77,7 +77,7 @@ Each work item has a stable **`BL-###`** identifier (zero-padded three digits). 
 | BL-008 | General | Device Fingerprinting | AuthDevices table and new claims. |
 | BL-011 | Masters | Add relationships to reports | Display relationships on master printouts. |
 | BL-009 | Accounting | Refund Batch | Create refund batch/export. **→ Plan:** [`plans/BL-009-court-refund-batch.md`](plans/BL-009-court-refund-batch.md) |
-| BL-010 | Data | Bad images causing 500 | Handle image errors in UI. **Client:** ShallowaterPD. |
+| BL-010 | Data | Bad images causing 500 | Handle image errors in UI. **Client:** ShallowaterPD. **→ Plan:** [`plans/BL-010-bad-images-500-ui-resilience.md`](plans/BL-010-bad-images-500-ui-resilience.md) |
 | BL-013 | Court Violations | UI for editing speeding ranges | New table + UI for fine ranges. |
 | BL-012 | Court Violations | Omnibase | **Blocked** — confirm dependency. |
 | BL-014 | Person | Criminal trespass | Best way to show on person. **→ Plan:** [`plans/BL-014-criminal-trespass.md`](plans/BL-014-criminal-trespass.md) |
@@ -172,6 +172,7 @@ Sorted by **Priority** (asc), then **Module**, **Name**.
 | BL-029 | CAD — map-first dispatch + location intelligence | [`plans/BL-029-cad-map-dispatch-location-intel.md`](plans/BL-029-cad-map-dispatch-location-intel.md) |
 | BL-030 | Patrol / CAD — Levelland fit (Patrol field experience) | [`design/levelland-patrol-cad-2026-roadmap.md`](design/levelland-patrol-cad-2026-roadmap.md) |
 | BL-031 | UI — search shell improvements | [`plans/BL-031-search-shell-improvements.md`](plans/BL-031-search-shell-improvements.md) |
+| BL-010 | Data — bad images causing 500 (ShallowaterPD) | [`plans/BL-010-bad-images-500-ui-resilience.md`](plans/BL-010-bad-images-500-ui-resilience.md) |
 
 ---
 
