@@ -21,7 +21,7 @@
 | Revenue | 20 | [Revenue allocation](../accounting/revenue-allocation.md) | Create & Post allocation (if pending exists) |
 | Online / reconcile | 25 | [Online payments](../accounting/online-payments-and-payouts.md) · [Reconciliation](../accounting/reconciliation-and-disputes.md) | Open ledger + discuss VerifyOnly vs heal |
 | Collections | 40 | [Refer and recall](../collections/refer-and-recall.md) · [Payment entry](../collections/payment-entry.md) · [Disbursements](../collections/disbursements.md) | Refer (if eligible) or walk portfolio; preview CSV columns; open disbursement report |
-| Import/Export | 30 | [IBRS](../import-export/ibrs.md) or [DPS](../import-export/dps-conviction-report.md) · [Checklist](../import-export/data-quality-checklist.md) | Create a **training** transmission; do not submit externally |
+| Import/Export | 30 | [IBRS](../import-export/ibrs.md) or [DPS](../import-export/dps-conviction-report.md) · [Checklist](../import-export/data-quality-checklist.md) | Create a **training** transmission; DPS is weekly (Sun–Sat), not monthly; do not submit externally |
 | Wrap | 10 | — | Failure points from the journey |
 
 ## Exit checklist

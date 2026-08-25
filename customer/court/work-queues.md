@@ -30,8 +30,8 @@ Names in your environment may vary slightly; these are the usual work areas:
 |-----------------|----------------------|-------------------|
 | **New case review** | Newly created cases not yet activated | Set appearance; activate to Pre-plea; transfer/void if needed |
 | **FTA — missed appearance / show cause** | Failure to appear work | Set show cause; warrant/bond path; record appearance |
-| **Program / compliance — missed deadline** | Court program or compliance date missed | Notice, show cause, fail/revoke program, or extend per court order |
-| **Program — show cause** | Program FTC show-cause set | Record appearance or next enforcement step |
+| **Program Failures — Show Cause Required** | Pre-judgment court program failed or past due (balance / unmet conditions) | Issue show cause before judgment; notice or fail/revoke per court order |
+| **Program Show Cause — Court Action Required** | Program show-cause hearing passed or unresolved | Record appearance or judicial disposition |
 | **Surety bond — show cause** | Bond-related show cause | Bond hearing / resolve bond actions |
 | **Program — ready to close** | Program appears complete | Verify conditions; complete program / dismiss |
 | **Follow-up — past due** | Follow-up date passed | Contact, reschedule, or clear follow-up |
@@ -55,7 +55,7 @@ From the batch actions menu you can print notices and related documents for the 
 |-------|-------------|
 | **New Case Review** | Envelopes, judgments, in-person plea form, citation details (full) |
 | **FTA — Missed Appearance** | Show Cause notice, address labels |
-| **Program — Missed Deadline** | Missed Deadline Show Cause (deferred, DSC, or generic program letter from past-due conditions), address labels |
+| **Program Failures — Show Cause Required** (and related program missed-deadline queues) | Missed Deadline Show Cause (deferred, DSC, or generic program letter from past-due conditions), address labels |
 | **Compliance — Missed Deadline** | Show Cause Capias Pro Fine, address labels |
 | **Compliance — Missed Payment** | Show Cause Capias Pro Fine, late notice letter, address labels |
 | **Surety Bond — Show Cause** | Bond company show cause, violator show cause |

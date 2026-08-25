@@ -40,7 +40,7 @@ If the defendant does not comply:
 2. Case moves to a **failed to comply** program state.
 3. At show cause, record appearance and return to post-plea, reschedule show cause, move to FTA if they miss again, or revoke the program.
 
-**Program — Missed Deadline** batch print uses **Missed Deadline Show Cause**: the system chooses the deferred, driver safety course, or generic **court program** letter from the case’s past-due conditions. You can also print those letters (and deferred / DSC / teen-court orders) from the case Documents grid — see [Documents and forms](documents.md).
+**Program Failures — Show Cause Required** batch print uses **Missed Deadline Show Cause**: the system chooses the deferred, driver safety course, or generic **court program** letter from the case’s past-due conditions. You can also print those letters (and deferred / DSC / teen-court orders, plus **Deferred Disposition Final Judgment**) from the case Documents grid — see [Documents and forms](documents.md).
 
 ## Revoke without the full FTC path
 
@@ -48,7 +48,7 @@ If the defendant does not comply:
 
 ## Tips
 
-- Watch the **Program / compliance** work queues for missed deadlines and cases ready to close.
+- Watch **Program Failures — Show Cause Required** and **Program Show Cause — Court Action Required** for missed deadlines and unresolved show-cause.
 - Keep condition due dates accurate — queues and health checks use them.
 - Payment plans and program conditions are related but separate; clear both when closing.
 

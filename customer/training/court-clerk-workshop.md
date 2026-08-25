@@ -22,7 +22,7 @@
 | Calendar / FTA | 25 | [Run a docket day](../court/how-tos/run-a-docket-day.md) · [Handle FTA and court warrant](../court/how-tos/handle-fta-and-court-warrant.md) | Set appearance; walk FTA path in training data |
 | Payments | 30 | [Take and accept a payment](../court/how-tos/take-and-accept-a-payment.md) · [Set up a payment plan](../court/how-tos/set-up-a-payment-plan.md) | Apply payment; accept from work queue |
 | Work queues | 25 | [Work your queues](../court/how-tos/work-your-queues.md) | Clear one pending-payment and one other queue item |
-| Reports (overview) | 15 | [Reports](../court/reports.md) · [Documents and forms](../court/documents.md) | Name OCA / DPS packs your agency will file; open one case Documents grid |
+| Reports (overview) | 15 | [Reports](../court/reports.md) · [Documents and forms](../court/documents.md) | Open **Reports** (operational rosters) and **Reporting Status**; name OCA / DPS packs your agency will file; open one case Documents grid |
 | Support & wrap | 10 | [Support](../support/README.md) | How to escalate a stuck case |
 
 ## Exit checklist

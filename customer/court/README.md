@@ -39,7 +39,7 @@ Court Violations is not a general civil case-management system. It is built for 
 | [Payment plans](payment-plans.md) | Installment plans and missed payments |
 | [Work queues](work-queues.md) | What each queue means and typical next steps |
 | [Documents and forms](documents.md) | Court PDFs: notices, judgments, warrants, programs, and where each is printed |
-| [Reports](reports.md) | OCA, DPS conviction, and related reports |
+| [Reports](reports.md) | Clerk operational rosters, Reporting Status, and OCA / DPS / State Quarterly packs |
 
 ## Related modules
 

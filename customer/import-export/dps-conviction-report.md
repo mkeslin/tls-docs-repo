@@ -2,7 +2,7 @@
 
 ![Import/Export reports](images/import-export-ibrs.png)
 
-Monthly DPS-style conviction reporting pack for court agencies.
+Weekly DPS-style conviction reporting pack for court agencies (Sunday–Saturday week).
 
 ## Prerequisites
 
@@ -11,16 +11,19 @@ Agency Admin must have DPS conviction reporting configured (location code and su
 ## Create and download
 
 1. Open **Import/Export** → **DPS Conviction Report**.
-2. **Create** — agency, **Report Year**, **Report Month** (often previous completed month).
+2. **Create** — agency and **Report Week (Sun–Sat)**. Typical clerk workflow: generate on **Monday** for the prior week; the file is **due Tuesday**.
 3. Open the report → **Rebuild** if source data changed.
 4. **Download** the file and submit per DPS instructions.
 5. Use **View History** for prior periods.
 
+Court Violations → **Reporting Status** also shows whether the current DPS week is on track — see [Court — Reports](../court/reports.md).
+
 ## Data quality
 
-Conviction / disposition completeness on court violations for the month drives the file — see [Data quality checklist](data-quality-checklist.md) and [Court — Reports](../court/reports.md).
+Conviction / disposition completeness on court violations for the week drives the file — see [Data quality checklist](data-quality-checklist.md) and [Court — Reports](../court/reports.md).
 
 ## Related
 
 - [OCA Report](oca-report.md)
 - [State Quarterly Report](state-quarterly-report.md)
+- [Court — Reporting Status](../court/reports.md)

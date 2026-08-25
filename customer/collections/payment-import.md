@@ -33,6 +33,7 @@ Provide a CSV with (headers as the import screen documents):
 
 - Agree the file layout with your vendor and Thin Line during implementation — ad-hoc columns fail matching.
 - Spot-check [Payment history](payment-history.md) after post.
+- Import follows the same rules as [Payment entry](payment-entry.md): remittance can post on **FTA warrant** / **CPF warrant** cases; full pay does not auto-close the warrant path.
 
 ## Related
 

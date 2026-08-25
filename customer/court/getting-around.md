@@ -17,12 +17,13 @@ For click-path training tasks, start with [How-tos](how-tos/README.md).
 | Area | What it is for |
 |------|----------------|
 | **Dashboard** | Today’s agenda and links into work areas / queues |
+| **Reporting Status** | Whether OCA, DPS conviction, and State Quarterly periods are on track or past due |
 | **Violation search** | Find cases by violation number, name, citation, filters |
 | **Citation search** | Find source citations when you need to create or locate related court work |
 | **Calendar** | Scheduled appearances, show-cause, pre-trial, and trial dates |
 | **Bond search** | Find and manage bonds across cases |
 | **Work queues** | Exception-driven lists (missed appearance, pending payment acceptance, collections eligible, and more) |
-| **Reports** | Court reporting packs (OCA, DPS conviction, state quarterly). Case PDFs are listed under [Documents and forms](documents.md). |
+| **Reports** | Clerk operational rosters (Court Programs, Disposed, Payment Summary, New Cases, Payment Plans). State packs (OCA, DPS, State Quarterly) are under [Import/Export](../import-export/README.md) and [Reports](reports.md). Case PDFs are listed under [Documents and forms](documents.md). |
 
 Admin and setup areas (when your role includes them) may also include offense-to-fine mapping, speeding fine tables, OmniBase submissions, and health checks.
 
@@ -55,4 +56,5 @@ Actions available on a case depend on its **current procedural state**. The acti
 - [Create and import cases](create-and-import.md)
 - [Case lifecycle](case-lifecycle.md)
 - [Work queues](work-queues.md)
+- [Reports](reports.md)
 - [Documents and forms](documents.md)

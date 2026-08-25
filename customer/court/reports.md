@@ -2,9 +2,29 @@
 
 ![Court dashboard](images/court-dashboard.png)
 
-Court **regulatory reporting packs** (OCA, DPS, State Quarterly) and how they relate to day-to-day prints.
+Two different “reports” surfaces in Court:
+
+1. **Operational rosters** — Court Violations → **Reports** (clerk lists you can filter and print)
+2. **Regulatory / state packs** — OCA, DPS conviction, and State Quarterly (filed with the state)
+
+**Reporting Status** (Court Violations navigation) shows whether current OCA, DPS, and State Quarterly periods are on track or need attention.
 
 For the full list of case PDFs (notices, judgments, warrants, program letters, labels) and **where each is printed**, see [Documents and forms](documents.md).
+
+## Operational reports (Court Violations → Reports)
+
+Open **Court Violations** → **Reports**. Each card is a preset roster (not a state filing). Bond Search is linked from the same page.
+
+| Report | What it lists | Typical filters |
+|--------|---------------|-----------------|
+| **Court Programs** | Cases with a disposition plan | Program status (defaults to ACTIVE), plan type, condition type |
+| **Disposed** | Cases with a final disposition date in range | Month (or custom range); optional terminal state |
+| **Payment Summary** | Cases with **posted** payments in the transaction-date range | Payment transaction dates (not citation date) |
+| **New Cases** | Cases cited in the selected citation date range | Citation dates |
+| **Payment Plans** | Accounting installment plans | Plan number, defendant, status, balance |
+| **Bond Search** (shortcut) | Bonds across cases | Same Bond Search screen as the main nav item |
+
+Print from the roster grid when you need a paper list. These reports are operational insight — they do not replace OCA / DPS / State Quarterly filings.
 
 ## Operational prints (summary)
 
@@ -26,7 +46,7 @@ Thin Line includes Texas-oriented reporting packs for municipal court operations
 | Report pack | Typical purpose |
 |-------------|-----------------|
 | **OCA** | Office of Court Administration style monthly court activity reporting |
-| **DPS conviction** | Conviction reporting to DPS |
+| **DPS conviction** | Weekly (Sun–Sat) conviction reporting to DPS. Generate on Monday for the prior week; due Tuesday |
 | **State quarterly** | Quarterly state accounting / fee reporting |
 
 These reports are for authorized court staff. Many packs are also launched from left-rail [Import/Export](../import-export/README.md) (**DPS Conviction**, **OCA**, **State Quarterly**). Agree one path per filing so staff do not produce conflicting files. Agency identifiers are configured during implementation.

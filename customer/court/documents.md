@@ -25,7 +25,7 @@ Many work-queue print actions stay disabled until every row on the page has a sh
 | **Citation Details (Public)** | Yes | Clerk prints the public citation copy. | Case **Print Citation**. Needs a live citation — **not** on Sample court forms. |
 | **Citation Details (Court copy)** | Yes | Clerk prints the court-copy citation. | Case **Print Citation**. Needs a live citation — **not** on Sample court forms. |
 | **Envelope** | Yes | Clerk prints a mailing envelope for the defendant. | Documents; **New Case Review** → Batch Print → Envelopes; Sample court forms. |
-| **FTA / missed-appearance address labels** | Yes | Batch-prints Avery-style address labels for mailing notices. Not a single-case Documents item. | **FTA — Missed Appearance**, **Program — Missed Deadline**, **Compliance — Missed Deadline**, and **Compliance — Missed Payment** → Batch Print → Address labels (sheet). **Not** on Documents. |
+| **FTA / missed-appearance address labels** | Yes | Batch-prints Avery-style address labels for mailing notices. Not a single-case Documents item. | **FTA — Missed Appearance**, **Program Failures — Show Cause Required**, **Compliance — Missed Deadline**, and **Compliance — Missed Payment** → Batch Print → Address labels (sheet). **Not** on Documents. |
 | **Complaint** | Yes | Clerk can print a filled complaint. The **electronically sworn** layout is auto-attached when the court violation is created from a citation with an officer certification date. Empty / filled / e-signed layouts exist. | Documents (filled); Attachments tab (e-signed auto-attach at intake); Sample court forms (including e-signed reprint). No auto-attach until the citing officer certified the citation. |
 | **Complaint (blank / empty body)** | Support / special | Empty-body complaint (header/footer from the case) for manual completion. | Sample court forms → complaint **Empty**. Not a separate Documents title. |
 | **Initial Court Setting Notice** | Yes | Clerk prints the first-appearance / setting letter. | Documents; Sample court forms. |
@@ -54,11 +54,11 @@ Many work-queue print actions stay disabled until every row on the page has a sh
 | **Deferred Disposition Order** | Yes | Clerk prints the standard deferred-disposition order when granting that program. | Documents; Sample court forms. See [Court programs](court-programs.md). |
 | **Deferred Disposition Order (Under 25)** | Yes | Clerk prints the under-25 deferred order. Hidden unless age at offense is under 25. | Documents (under 25 at offense); Sample court forms. |
 | **Deferred Disposition: Extension** | Yes | Clerk prints a deferral extension. | Documents; Sample court forms. |
-| **Deferred Disposition Show Cause** | Yes | Clerk prints the deferred show-cause letter. Also produced when **Missed Deadline Show Cause** resolves to a deferred condition. | Documents; also via **Program — Missed Deadline** → Batch Print → Missed Deadline Show Cause (when the unmet condition is deferred); Sample court forms. |
-| **Court Program Show Cause** | Yes | Clerk prints the generic (non-deferred / non-DSC) program show-cause letter. Also produced when **Missed Deadline Show Cause** resolves to a generic program condition. | Documents; also via **Program — Missed Deadline** → Batch Print → Missed Deadline Show Cause (when the unmet condition is a generic program); Sample court forms. |
-| **Missed Deadline Show Cause** | Yes | Clerk or batch print; the system picks **Deferred**, **DSC**, or **Court Program** show-cause text from the case’s past-due program conditions. | Documents; **Program — Missed Deadline** → Batch Print → Missed Deadline Show Cause; Sample court forms. |
+| **Deferred Disposition Show Cause** | Yes | Clerk prints the deferred show-cause letter. Also produced when **Missed Deadline Show Cause** resolves to a deferred condition. | Documents; also via **Program Failures — Show Cause Required** → Batch Print → Missed Deadline Show Cause (when the unmet condition is deferred); Sample court forms. |
+| **Court Program Show Cause** | Yes | Clerk prints the generic (non-deferred / non-DSC) program show-cause letter. Also produced when **Missed Deadline Show Cause** resolves to a generic program condition. | Documents; also via **Program Failures — Show Cause Required** → Batch Print → Missed Deadline Show Cause (when the unmet condition is a generic program); Sample court forms. |
+| **Missed Deadline Show Cause** | Yes | Clerk or batch print; the system picks **Deferred**, **DSC**, or **Court Program** show-cause text from the case’s past-due program conditions. | Documents; **Program Failures — Show Cause Required** → Batch Print → Missed Deadline Show Cause; Sample court forms. |
 | **DSC Request Packet** | Yes | Clerk prints the driver safety course request packet. | Documents; Sample court forms. |
-| **DSC Show Cause** | Yes | Clerk prints DSC show cause. Also produced when **Missed Deadline Show Cause** resolves to a DSC condition. | Documents; also via **Program — Missed Deadline** batch (when the unmet condition is DSC); Sample court forms. |
+| **DSC Show Cause** | Yes | Clerk prints DSC show cause. Also produced when **Missed Deadline Show Cause** resolves to a DSC condition. | Documents; also via **Program Failures — Show Cause Required** batch (when the unmet condition is DSC); Sample court forms. |
 | **DSC Final Judgment** | Yes | Clerk prints the DSC final judgment. | Documents; Sample court forms. |
 | **DSC Court Order** | No (not in clerk list) | Factory exists internally; clerks do not see it on Documents. Use DSC Request Packet, DSC Show Cause, and DSC Final Judgment instead. | Not on Documents. |
 | **Teen Court Request** | Yes | Clerk prints the teen-court request. | Documents; Sample court forms. |
@@ -79,7 +79,7 @@ Many work-queue print actions stay disabled until every row on the page has a sh
 | **Violation of Promise to Appear** | Yes | Clerk prints the violation-of-promise-to-appear form. | Documents; Sample court forms. |
 | **Warrant: Capias** (Chapter 23) | No | Retired. FTA uses **Arrest Warrant**. | Not offered in the clerk UI. |
 | **Affidavit for Probable Cause** (generic) | No | Not offered. Use the FTA affidavits above. | Not offered in the clerk UI. |
-| **Deferred Disposition Final Judgment** | No | Not offered. | Not offered in the clerk UI. |
+| **Deferred Disposition Final Judgment** | Yes | Clerk prints the deferred-disposition final judgment. | Documents; Sample court forms. See [Court programs](court-programs.md). |
 
 ---
 

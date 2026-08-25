@@ -18,6 +18,8 @@ Use the **New payment** / **History** tabs on the screen to switch between entry
 
 Posted remittances typically use a collections remittance method (court cash posts to GL; withheld fee clears the subledger per product rules).
 
+You can post remittance on a referred case even when it is in an **FTA warrant** or **CPF warrant** state. Paying the referred balance in full does **not** automatically recall the warrant or move the case out of the warrant path — handle warrant recall separately if the court orders it.
+
 ## Court cash vs TPC
 
 - **Court cash** cannot exceed the outstanding **non-TPC** (court / principal) balance on the remittance line. The UI caps the amount; posting more is rejected.

@@ -37,6 +37,7 @@ First engagement: New Deal Municipal Court (`Clients/NewDealMunicipalCourt/Conve
 | Municipal offenses | Conversion may create Offenses only with statute **`CO` / `CITY ORDINANCES`** |
 | DD / DSC / misc / CVC / refund legacy codes | Map to product fees (`TLS_DD`, `TLS_DSC`, `TLS_MISC`, `CVC`, `TLS_RFND`, …) — apply product EF fee migrations before conversion; do not insert duplicate fee rows |
 | Paid post-plea / appearance dates | Engagement Overrides + Conversion6-Health (e.g. New Deal `28_PaidPostPlea_*`, initial appearance / FTA show-cause) — keep agency-specific |
+| Convicted program fees (wrong health order) | `32_ProgramFromDdDscFees` **before** `28_PaidPostPlea_ConvictFromPayment`. If already converted wrong, run `33_Remediate_ConvictedProgramFees` (product `Asyst/SqlPackage/Health/`) |
 
 ---
 
@@ -44,7 +45,7 @@ First engagement: New Deal Municipal Court (`Clients/NewDealMunicipalCourt/Conve
 
 - Staging via Access import + `15_LegacyTables` → `Stg_CommonV14_*`.
 - Offense map: `19c` DPS crosswalk + optional municipal seed Override; `19d` creates municipal Offenses only.
-- Post-import health (`Conversion6-Health`) stays engagement-only.
+- Post-import health (`Conversion6-Health`) stays engagement-only. Copy product `Asyst/SqlPackage/Health/` (see that folder’s README): program-from-DD/DSC fees must run **before** paid-post-plea conviction; use `33_Remediate_ConvictedProgramFees` only as a one-time fix after a wrong-order run.
 
 ---
 

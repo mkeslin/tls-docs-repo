@@ -25,7 +25,7 @@ Court also has in-module [Reports](../court/reports.md). Agree one path per pack
 | [Opening Import/Export](opening-import-export.md) | Who sees which menu item |
 | [IBRS](ibrs.md) | Monthly transmission lifecycle |
 | [Racial profiling](racial-profiling.md) | Search / grid / summary |
-| [DPS Conviction Report](dps-conviction-report.md) | Monthly DPS file |
+| [DPS Conviction Report](dps-conviction-report.md) | Weekly DPS file (Sun–Sat) |
 | [OCA Report](oca-report.md) | Monthly OCA pack |
 | [State Quarterly Report](state-quarterly-report.md) | Quarterly court stats |
 | [Data quality checklist](data-quality-checklist.md) | Fix source records before export |
