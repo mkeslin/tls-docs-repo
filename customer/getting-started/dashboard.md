@@ -48,7 +48,7 @@ Tasks send you into the owning module (incidents awaiting approval, court work, 
 | **Different people, different lists** | Claims and notification settings hide whole task groups — compare with a coworker only after confirming the same agency |
 | **Empty Tasks** | Often wrong agency or you are caught up — see [Working across agencies](working-across-agencies.md) |
 
-Common task themes (labels vary by agency): incident / report approval, court review queues, citation or mobile sync follow-up, jail intake readiness. Your go-live training names the exact groups your site uses.
+Common task themes (labels vary by agency): incident / report approval, court review queues, **court reporting deadlines** (OCA, DPS conviction, State Quarterly, collections submission when past due), citation or mobile sync follow-up, jail intake readiness. Your go-live training names the exact groups your site uses.
 
 ## What's New
 

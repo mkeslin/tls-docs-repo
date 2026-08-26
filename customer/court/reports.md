@@ -22,7 +22,10 @@ Open **Court Violations** → **Reports**. Each card is a preset roster (not a s
 | **Payment Summary** | Cases with **posted** payments in the transaction-date range | Payment transaction dates (not citation date) |
 | **New Cases** | Cases cited in the selected citation date range | Citation dates |
 | **Payment Plans** | Accounting installment plans | Plan number, defendant, status, balance |
+| **Bonds** | Cases with bonds on the violation | Bond type, status, amount, bond dates |
 | **Bond Search** (shortcut) | Bonds across cases | Same Bond Search screen as the main nav item |
+
+Each roster (except the Bond Search shortcut) supports **Work** and **Report** display modes: **Work** shows a denser grid for day-to-day clerk follow-up; **Report** favors print layout. Default mode varies by report (for example Payment Summary and Bonds default to **Report**).
 
 Print from the roster grid when you need a paper list. These reports are operational insight — they do not replace OCA / DPS / State Quarterly filings.
 

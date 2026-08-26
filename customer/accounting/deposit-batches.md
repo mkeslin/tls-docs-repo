@@ -29,7 +29,7 @@ Typical row actions on posted batches:
 | Action | Use |
 |--------|-----|
 | Payment settlement report | Print / review settlement output |
-| Export journal entries | **Tyler ERP** or **CentralSquare Asyst** when your city uses those exports |
+| Export journal entries | **Tyler ERP** or **CentralSquare Asyst** when your city uses those exports. Combined **pending bundle** exports renumber transaction numbers so a single merged CentralSquare file does not reuse the same Trans Number across batches |
 | **Void Batch** | Reverse a DRAFT or POSTED batch — **Void Reason** required |
 
 ## City GL export and handoff
