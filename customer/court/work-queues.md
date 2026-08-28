@@ -60,7 +60,7 @@ From the batch actions menu you can print notices and related documents for the 
 | **Compliance — Missed Payment** | Show Cause Capias Pro Fine, late notice letter, address labels |
 | **Surety Bond — Show Cause** | Bond company show cause, violator show cause |
 
-FTA / CPF **show-cause** queues issue **electronic warrants** instead of batch-printing warrant paper. The warrant PDF attaches on the warrant when you **Issue Warrants**.
+FTA / CPF **show-cause** queues issue **electronic warrants** instead of batch-printing warrant paper. The warrant PDF attaches on the warrant when you **Issue Warrants**. Cases where the defendant was **under 17 at the offense** (or is flagged juvenile) do not appear in those warrant-issuance queues, and **Issue Warrants** is disabled.
 
 Many mark / print actions stay disabled until every row on the current page has a show-cause date set.
 

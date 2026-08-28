@@ -13,6 +13,10 @@ The dashboard is an overview — day-to-day posting happens on the batch screens
 
 From the dashboard you can open **card payments** for the selected day (and related deposit-batch transactions) to see how online card items allocated. Use this to reconcile Stripe / card activity against the day’s deposit without leaving the dashboard.
 
+## Batch detail reports
+
+Deposit and settlement batch cards can download a **batch detail** PDF for the selected posted batch (line items including card-processor **CC Fee** where applicable). Use it as a companion print when reconciling the day’s batches.
+
 ## Deposit tender breakdown
 
 Deposit batch cards show a **tender matrix** (cash, checks, money orders, and other) with amounts and counts for payments, collections, and bonds. Use it to reconcile what landed in the day’s deposit before Create & Post.

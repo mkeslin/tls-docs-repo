@@ -16,7 +16,7 @@ Left-rail **Import/Export** is for authorized users who produce **compliance fil
 | [OCA Report](oca-report.md) | Court |
 | [State Quarterly Report](state-quarterly-report.md) | Court |
 
-Court also has in-module [Reports](../court/reports.md). Agree one path per pack so staff do not generate conflicting files.
+Court also has in-module [Reports](../court/reports.md), including **preview** of OCA / DPS / State Quarterly totals without creating a filing. Agree one path per pack so staff do not generate conflicting files.
 
 ## Topics in this guide
 

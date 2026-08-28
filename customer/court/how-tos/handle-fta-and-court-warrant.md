@@ -21,7 +21,7 @@ Mark failure to appear, set show cause, and start the warrant / bond path your c
 
 ## Steps — warrant and bond
 
-1. From the FTA case, use the enabled **issue / update warrant** action when your court issues from Court.
+1. From the FTA case, use the enabled **issue / update warrant** action when your court issues from Court. The action stays disabled when the defendant was **under 17 at the offense**.
 2. Confirm court-owned warrant fields; LE works service in [Warrants](../../rms/warrants/README.md) — see [Court-owned FTA and CPF](../../rms/warrants/court-owned-fta-cpf.md).
 3. If bond is ordered, use **Enter bond** / **Modify bond** on the case, or find the bond under **Bond search**.
 

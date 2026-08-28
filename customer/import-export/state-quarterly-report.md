@@ -13,6 +13,8 @@ Quarterly court statistical pack, including remittance columns used for State fi
 5. **Download** summary/export options offered on the screen (PDF and GL formats when enabled).
 6. Submit per your state’s quarterly calendar.
 
+To inspect a quarter **without** creating a filing, use the **State Quarterly** preview card on Court Violations → **Reports**.
+
 ## Remittance on the report
 
 State Quarterly remittance depends on court fee kits and payments allocated to Due-To-State remittance fees.

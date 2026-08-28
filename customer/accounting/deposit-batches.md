@@ -36,6 +36,8 @@ Typical row actions on posted batches:
 
 When your city uses **City GL** exports, download them from the batch row alongside Tyler ERP and CentralSquare. After importing into the city ledger, mark the export **complete** on the **GL Export Queue** so finance staff can see what still needs city-side import.
 
+On the same queue you can mark a handoff **reconciled** (or **unreconciled**) after the city bank/ledger match is confirmed, and filter the list by bank-reconciliation status.
+
 ## Tips
 
 - Align deposit date with the physical bank deposit.

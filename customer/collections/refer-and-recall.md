@@ -6,7 +6,7 @@ Move eligible court violations into (or out of) third-party collections from **C
 
 ## When a case becomes eligible
 
-Under Tex. Code Crim. Proc. Art. 103.0031, eligibility is based on a **source date** plus at least **60 days** (eligible on the **61st day** after that date), not on whether a CPF warrant exists.
+Under Tex. Code Crim. Proc. Art. 103.0031, eligibility is based on a **source date** plus at least **60 days** (eligible on the **61st day** after that date), not on whether a CPF warrant exists. Day counting uses the **agency local calendar** (the court’s time zone), not UTC midnight.
 
 | Case type | Source date |
 |-----------|-------------|

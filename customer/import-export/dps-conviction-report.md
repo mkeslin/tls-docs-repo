@@ -16,7 +16,7 @@ Agency Admin must have DPS conviction reporting configured (location code and su
 4. **Download** the file and submit per DPS instructions.
 5. Use **View History** for prior periods.
 
-Court Violations → **Reporting Status** also shows whether the current DPS week is on track — see [Court — Reports](../court/reports.md).
+Court Violations → **Reporting Status** also shows whether the current DPS week is on track — see [Court — Reports](../court/reports.md). To inspect a week **without** creating a file, use the **DPS conviction** preview card on Court Violations → **Reports**.
 
 ## Data quality
 

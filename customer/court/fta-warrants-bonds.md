@@ -23,7 +23,7 @@ Court Violations coordinates with the **[Warrants](../rms/warrants/README.md)** 
 
 Typical clerk path:
 
-1. From the FTA case (often **FTA — Missed Show Cause**), use **Issue Warrants**.
+1. From the FTA case (often **FTA — Missed Show Cause**), use **Issue Warrants**. **Issue Warrants** is disabled when the defendant was under 17 at the offense (those cases also stay off the warrant-issuance work queues).
 2. Confirm the warrant number and court-owned fields on the warrant record. An **e-signed arrest warrant PDF** is attached to the warrant automatically (CPF paths attach the **Capias Pro Fine** warrant PDF).
 3. Law enforcement works service from the Warrants module — see [Court-owned FTA and CPF](../rms/warrants/court-owned-fta-cpf.md).
 

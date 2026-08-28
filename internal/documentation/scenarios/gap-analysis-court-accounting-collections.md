@@ -42,7 +42,7 @@ Focus: happy path + critical fail paths. Out of scope here: BL-023 item-level co
 | `court-enter-judgment-guilty` | Post-plea → Enter judgment → CONVICTED | YES | YES | NO | YES | YES | NO (pilot said out of scope) | Next vertical after activate |
 | `court-enter-judgment-blocked-ngl` | Judgment disabled when NGL | YES | YES | NO | NO | PARTIAL | NO | |
 | `court-fta-mark-failure` | PRE_PLEA → FTA | PARTIAL | YES | NO | YES | YES | NO | |
-| `court-fta-issue-warrant` | FTA → FTA_WARRANT | PARTIAL | YES | NO | PARTIAL | YES (+ RMS FTA warrant) | BL-018 plan ≠ scenario map | |
+| `court-fta-issue-warrant` | FTA → FTA_WARRANT | PARTIAL | YES | NO | PARTIAL | YES (+ RMS FTA warrant) | BL-018 plan ≠ scenario map | 6.4.15: juvenile / under-17-at-offense excluded from warrant-issuance queues |
 | `court-fta-clear-appearance` | Clear FTA → PRE_PLEA | PARTIAL | YES | NO | NO | YES | NO | |
 | `court-bond-enter-basics` | Enter/modify/resolve bond | YES | **NO** | NO | YES (search/detail) | YES | NO | **HTTP IT hole** |
 | `court-work-queues-triage` | Open/triage work queues | YES | **NO** | NO | YES | YES | NO | |

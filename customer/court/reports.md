@@ -20,7 +20,7 @@ Open **Court Violations** → **Reports**. Each card is a preset roster (not a s
 | **Court Programs** | Cases with a disposition plan | Program status (defaults to ACTIVE), plan type, condition type |
 | **Disposed** | Cases with a final disposition date in range | Month (or custom range); optional terminal state |
 | **Payment Summary** | Cases with **posted** payments in the transaction-date range | Payment transaction dates (not citation date) |
-| **New Cases** | Cases cited in the selected citation date range | Citation dates |
+| **New Cases** | Cases **filed** in the selected date range | Filed dates (not citation date) |
 | **Payment Plans** | Accounting installment plans | Plan number, defendant, status, balance |
 | **Bonds** | Cases with bonds on the violation | Bond type, status, amount, bond dates |
 | **Bond Search** (shortcut) | Bonds across cases | Same Bond Search screen as the main nav item |
@@ -53,6 +53,10 @@ Thin Line includes Texas-oriented reporting packs for municipal court operations
 | **State quarterly** | Quarterly state accounting / fee reporting |
 
 These reports are for authorized court staff. Many packs are also launched from left-rail [Import/Export](../import-export/README.md) (**DPS Conviction**, **OCA**, **State Quarterly**). Agree one path per filing so staff do not produce conflicting files. Agency identifiers are configured during implementation.
+
+### Preview (without filing)
+
+Court Violations → **Reports** also includes **PREVIEW** cards for OCA, DPS conviction, and State Quarterly. Use preview to inspect matrix / period totals for a selected year and month (or week / quarter) **without creating an official submission**. When a stored preview exists, the card shows last-refreshed time. Filing and download still happen from [Import/Export](../import-export/README.md) (or the official report record after create).
 
 ## Analytics
 
