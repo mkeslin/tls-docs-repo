@@ -23,7 +23,7 @@ For click-path training tasks, start with [How-tos](how-tos/README.md).
 | **Calendar** | Scheduled appearances, show-cause, pre-trial, and trial dates |
 | **Bond search** | Find and manage bonds across cases |
 | **Work queues** | Exception-driven lists (missed appearance, pending payment acceptance, collections eligible, and more) |
-| **Reports** | Clerk operational rosters (Court Programs, Disposed, Payment Summary, New Cases, Payment Plans, **Bonds**) plus **preview** cards for OCA, DPS, and State Quarterly. Official filings stay under [Import/Export](../import-export/README.md). Case PDFs are listed under [Documents and forms](documents.md). |
+| **Reports** | Clerk operational rosters (Court Programs, Disposed, Payment Summary, New Cases, Payment Plans, **Bonds**) plus **preview** cards for OCA, DPS, and State Quarterly. Official filings stay under [Import/Export](../import-export/README.md). Case PDFs are listed under [Documents and forms](documents.md). Report preview screens load OCA / DPS identifiers from **court report settings** without opening full agency admin. |
 
 Admin and setup areas (when your role includes them) may also include offense-to-fine mapping, speeding fine tables, OmniBase submissions, and health checks.
 

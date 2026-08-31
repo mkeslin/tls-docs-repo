@@ -18,7 +18,8 @@ For a typical clerk morning, clear in this order unless your court administrator
 
 1. **Payment — accept new** — so receipts and deposits stay current
 2. **New case review** — activate today’s intake so cases hit the docket
-3. **FTA / show cause** — enforcement and bond work
+3. **Complaint jurat needed** — execute court jurat on backfill cases already past New (when your court uses officer e-sign complaints)
+4. **FTA / show cause** — enforcement and bond work
 4. **Missed payment / compliance** — notices and show-cause
 5. Everything else (program queues, collections eligible, follow-ups)
 
@@ -38,6 +39,7 @@ Names in your environment may vary slightly; these are the usual work areas:
 | **Compliance — missed payment** | Installment or payment compliance missed | Notice; Failure to Comply / show cause; accept payments |
 | **Payment plan — fee eligible** | Time-payment fee assessment candidate | Assess fee per policy |
 | **Collections — eligible** | Past the statutory collections window (appearance or compliance / paid-in-full due + 60 days) with a balance, not yet referred | Refer per agency process (see [Collections](../collections/README.md) / [Refer and recall](../collections/refer-and-recall.md)) |
+| **Complaint jurat needed** | Officer-signed complaint on file, case already past New, court jurat not yet executed | Batch **Execute Complaint Jurat** (does not change case state) |
 | **Payment — accept new** | Payments awaiting court acceptance | Accept (or correct) pending payments |
 
 ## How to work a queue
