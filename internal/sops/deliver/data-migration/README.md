@@ -78,6 +78,7 @@ If migration is out of scope: mark **N/A** and proceed to Configuration.
 | [Migration Validation Standard](migration-validation-standard.md) | Standard |
 | [Customer Acceptance](customer-acceptance.md) | Acceptance index |
 | [Post-Conversion Utilities](post-conversion-utilities.md) | SOP |
+| [Master Merge — Exact Duplicates](../../operate/master-merge-exact-duplicates.md) | SOP (Support / cleanup after import) |
 | [Migration Architecture](migration-architecture.md) | Overview |
 | [Migration Decision Matrix](migration-decision-matrix.md) | Reference |
 | [Migration Overrides & Mapping Standard](migration-customer-configuration.md) | Standard |

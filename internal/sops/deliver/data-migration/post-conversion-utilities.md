@@ -63,7 +63,7 @@ Legacy conversion scripts typically leave records in a **conversion** or **draft
 ### Out of scope
 
 - Running StagingImporter / Pipeline SQL ([Legacy System Migration](legacy-system-migration.md))
-- Master merge / duplicate cleanup (separate Admin tools)
+- Master merge / duplicate cleanup — [Master Merge — Exact Duplicates](../../operate/master-merge-exact-duplicates.md) (Admin → Master Merge; not Data Utilities)
 - Court-violation work-queue utilities (different UI)
 - Day-to-day workflow changes for live (non-converted) records
 

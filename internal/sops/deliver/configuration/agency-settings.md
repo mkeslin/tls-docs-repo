@@ -90,6 +90,18 @@ Configure only what is in scope for the agency type (LE vs court) and licensed m
 | OmniBase PSID / file format | Integration identity |
 | SFTP username / password | Credentials (treat as secrets) |
 
+### Court documents — virtual appearance *(court agencies; 6.4.18+)*
+
+| Field | Notes |
+|-------|--------|
+| Enable virtual appearance | Prints standing Zoom/Teams details on setting notices when join URL or meeting ID is set |
+| Provider label | Printed after “via” (e.g. ZOOM). Blank = generic “You may attend virtually” |
+| Join URL | Case-sensitive; do not uppercase |
+| Meeting ID / Dial-in | Optional printed identifiers |
+| Continuance notice hours | Hours before a setting that a written Motion for Continuance must be filed (default 48) |
+
+Requires ThinLineCommon migration `20260915140332_AgencyVirtualAppearanceDocumentSettings`. Verify by printing **Order Setting Pretrial Hearing** or an initial setting notice from a training case.
+
 ### Court Settings
 
 | Field | Notes |

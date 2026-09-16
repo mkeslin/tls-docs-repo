@@ -18,6 +18,7 @@ Authority: [Operate authority](../../policies/operate-authority.md)
 | [Triage support request](triage-support-request.md) | v0.1 | Support |
 | [Publish product update](publish-product-update.md) | v0.1 | Product updates |
 | [Enable soft-launch RMS module](enable-soft-launch-rms-module.md) | v0.1 | Product updates / pilots |
+| [Master Merge — Exact Duplicates](master-merge-exact-duplicates.md) | v0.1 | Support / post-conversion cleanup |
 
 ## Still to improve
 

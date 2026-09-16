@@ -28,8 +28,8 @@ Many work-queue print actions stay disabled until every row on the page has a sh
 | **FTA / missed-appearance address labels** | Yes | Batch-prints Avery-style address labels for mailing notices. Not a single-case Documents item. | **FTA — Missed Appearance**, **Program Failures — Show Cause Required**, **Compliance — Missed Deadline**, and **Compliance — Missed Payment** → Batch Print → Address labels (sheet). **Not** on Documents. |
 | **Complaint** | Yes | Clerk can print a filled complaint. The **electronically sworn** layout is auto-attached when the court violation is created from a citation with an officer certification date. After officer sign, complaint text is **locked**. Cases already past **New** that still need a court jurat appear on **Complaint Jurat Needed** — use **Execute Complaint Jurat** (batch) to store the final court-signed PDF without changing case state. Empty / filled / e-signed layouts exist. | Documents (filled); Attachments tab (e-signed auto-attach at intake); **Complaint Jurat Needed** work queue; Sample court forms (including e-signed reprint). No auto-attach until the citing officer certified the citation. |
 | **Complaint (blank / empty body)** | Support / special | Empty-body complaint (header/footer from the case) for manual completion. | Sample court forms → complaint **Empty**. Not a separate Documents title. |
-| **Initial Court Setting Notice** | Yes | Clerk prints the first-appearance / setting letter. | Documents; Sample court forms. |
-| **Pre-Trial Setting Notice** | Yes | Clerk prints the pre-trial setting letter after a not-guilty / pre-trial path. | Documents; Sample court forms. |
+| **Initial Court Setting Notice** | Yes | Clerk prints the first-appearance / setting letter. When the court enables **virtual appearance** in Agency settings, the notice can include join URL / meeting ID / dial-in. | Documents; Sample court forms. |
+| **Order Setting Pretrial Hearing** | Yes | Clerk prints the order that sets the pre-trial hearing after a not-guilty / pre-trial path. Can include the same virtual-appearance block when enabled. Replaces the older Pre-Trial Setting Notice title in the clerk list. | Documents (not-guilty / pre-trial path); Sample court forms. |
 | **Summons for Defendant** | Yes | Clerk prints a defendant summons. | Documents; Sample court forms. |
 | **Jury Summons** | Yes | Clerk prints a jury summons. | Documents; Sample court forms. |
 | **School/Work Excuse** | Yes | Clerk prints an excuse letter for school or work from a court setting. | Documents; Sample court forms. |
@@ -89,6 +89,7 @@ Many work-queue print actions stay disabled until every row on the page has a sh
 - **Issue Warrants** is the issuance path — it creates the electronic warrant PDF. FTA / CPF show-cause queues do not batch-print warrant paper.
 - If a form is missing from Documents, it is usually an age-at-offense rule (adult-only warrants/CPF, juvenile jury verdict, under-21 alcohol judgment, under-25 deferred).
 - Online payment URL and related fields may appear on defendant-facing notices when configured.
+- Virtual appearance text on setting notices comes from **Admin → Agency & Module Settings → General**. If the block is missing, the setting is off or the join URL / meeting ID is blank.
 
 ## Related
 

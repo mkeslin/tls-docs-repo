@@ -18,7 +18,7 @@ Review a newly created court violation and activate it into **Pre-plea** with a 
 2. Open **Work queues** → **New case review**, or search for the violation number.
 3. Open the case.
 4. Confirm defendant name, offense, and citation link.
-5. Set or confirm the first **appearance** date (and time if your court uses it).
+5. Set or confirm the first **appearance** date (and time if your court uses it). Cases that leave **New** without an appearance date are flagged on Court Violation Health (warnings stay exempt). Converted cases may need the citation appearance or the agency appearance-day offset filled in.
 6. Choose **Activate** (or the equivalent enabled action) to move the case to **Pre-plea**.
 7. Confirm the case left New Case Review and appears on **Calendar** for the appearance date.
 

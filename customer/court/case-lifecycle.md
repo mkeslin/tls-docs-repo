@@ -26,7 +26,8 @@ Clerks mostly work from **actions** on the case. Choosing an action (Enter plea,
 | **Convicted** | Judgment entered; fines/compliance/payment work |
 | **FTA / FTA warrant** | Failure to appear; may include warrant |
 | **CPF warrant / CPF failed to comply** | Capias pro fine / post-judgment enforcement track |
-| **Dismissed / Transferred / Voided / Warning / Appealed** | Closing or exit paths |
+| **Dismissed / Transferred / Voided / Warning** | Closing or exit paths |
+| **Appealed** | Post-judgment appeal; workflow is **Closed**. Use the **Appeals** operational report — these cases are not Active/Inactive pending |
 
 Exact labels in your environment follow the product UI. Some actions are available in many states (for example bond enter/modify/resolve, or enter follow-up date).
 

@@ -70,7 +70,7 @@ Use **Reject/withdraw plea** when the plea should not stand. The case generally 
 When your role and state allow it:
 
 - **Vacate judgment** reverses a judgment path (notes may be required).
-- **File appeal** moves the case onto an appealed track.
+- **File appeal** moves the case onto an appealed track and **closes** the workflow (it is no longer Active or Inactive pending for OCA). Work those cases from Court Violations → **Reports** → **Appeals**.
 
 ## Related
 

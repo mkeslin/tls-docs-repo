@@ -9,7 +9,7 @@ Quarterly court statistical pack, including remittance columns used for State fi
 1. Open **Import/Export** → **State Quarterly Report**.
 2. **Create** — agency, **Report Year**, **Report Quarter** (`Q1`–`Q4`).
 3. Open the report → **Rebuild** if needed (generation may show progress while rows calculate).
-4. Review column totals on the report details screen before filing.
+4. Review column totals and the **posted amount** total on the report details screen before filing.
 5. **Download** summary/export options offered on the screen (PDF and GL formats when enabled).
 6. Submit per your state’s quarterly calendar.
 

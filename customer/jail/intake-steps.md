@@ -22,7 +22,7 @@ Booking details show a **sidebar step list** and a panel for the selected step. 
 | **Person** | Required | Demographics, aliases, SMTs, mugshot-related work |
 | **Custody** | Required | Hold type, times, arresting context — complete before Accept; do not skip |
 | **Charges** | Required | Charges; hold-only when no new charge applies |
-| **Property** | Conditional | **Add Property Bag**, seal/open; none-collected paths |
+| **Property** | Conditional | **Add Container**, seal/open; none-collected paths |
 | **Mental Health** | Conditional | Screening; defer usually needs a reason |
 | **Medical** | Conditional | Screening, meds, withdrawal notes |
 | **Classification** | Conditional | Factors and recommended custody level |

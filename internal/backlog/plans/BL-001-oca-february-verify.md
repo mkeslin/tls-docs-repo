@@ -97,5 +97,6 @@ These are **different reporting months and schema eras**; treat as **illustrativ
 | 2026-03-30 | Initial scope: CARD NRE + XML comparison + Thin Line `OcaXmlGenerator` pointer. |
 | 2026-03-30 | Noted: wrong-month upload (e.g. August XML as “January”) leaves Jan 2026 missing → Feb upload NRE risk. |
 | 2026-08-28 | **6.4.15:** OCA **preview** (no official submission) on Court Violations → Reports; official schema line numbers, TOTAL column, hearings-held (line 13) on agency calendar. CARD January-missing NRE is still portal-side. |
+| 2026-09-01 | **6.4.17:** **File Appeal** sets Closed workflow (not Active/Inactive pending). Migration `CloseAppealedActiveInactiveWorkflow` remediates existing APPEALED rows. After a line 3/4 reopen, a new criminal disposition can be written for the current spell without stacking on last month’s conviction. |
 
 

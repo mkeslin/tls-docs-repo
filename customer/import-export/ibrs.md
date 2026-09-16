@@ -33,6 +33,7 @@ Exclude selected incidents from a transmission only when your agency process all
 
 - Assign one primary submitter per period so two people do not overlap months.
 - Fix incidents at the source — rebuild does not invent missing NIBRS data.
+- If validate says the agency NIBRS / state IBRS version is not configured, an administrator must set those fields under **Admin → Agency & Module Settings → General** before you can validate.
 - Support-only debug downloads are not part of agency training.
 
 ## Related

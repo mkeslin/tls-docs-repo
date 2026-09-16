@@ -119,6 +119,7 @@
     * [Triage support request](sops/operate/triage-support-request.md)
     * [Publish product update](sops/operate/publish-product-update.md)
     * [Enable soft-launch RMS module](sops/operate/enable-soft-launch-rms-module.md)
+    * [Master Merge — Exact Duplicates](sops/operate/master-merge-exact-duplicates.md)
   * [SOPs — Expand](sops/expand.md)
     * [Customer success check-in](sops/expand/customer-success-check-in.md)
     * [Expand account](sops/expand/expand-account.md)

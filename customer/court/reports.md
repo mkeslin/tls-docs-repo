@@ -17,6 +17,9 @@ Open **Court Violations** → **Reports**. Each card is a preset roster (not a s
 
 | Report | What it lists | Typical filters |
 |--------|---------------|-----------------|
+| **Open Violations** | Cases whose workflow is not closed | Citation / filed dates and the usual search filters |
+| **Appeals** | Cases in **Appealed** (post-judgment; closed workflow) | Use after **File Appeal** — these cases are not Active/Inactive pending |
+| **Pre-Trials** | Cases in **Pre-trial** (not-guilty plea; awaiting trial) | Cited date; default sort is pre-trial date |
 | **Court Programs** | Cases with a disposition plan | Program status (defaults to ACTIVE), plan type, condition type |
 | **Disposed** | Cases with a final disposition date in range | Month (or custom range); optional terminal state |
 | **Payment Summary** | Cases with **posted** payments in the transaction-date range | Payment transaction dates (not citation date) |
@@ -65,7 +68,7 @@ Some environments include **court violation analytics** for volume and workload 
 ## Tips
 
 - Run a sample period in a non-production or carefully reviewed run before the first live filing deadline after go-live.
-- If totals look wrong, verify payment **acceptance**, dismissed/voided cases, and date filters before assuming a report defect.
+- If totals look wrong, verify payment **acceptance**, dismissed/voided cases, and date filters before assuming a report defect. Date ranges include the **entire last selected day** in the agency’s time zone.
 - Online payment URL and related fields may appear on defendant-facing notices when configured.
 
 ## Related

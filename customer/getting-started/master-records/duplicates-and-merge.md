@@ -33,7 +33,7 @@ You generally **cannot merge** two property masters that are tied to the **same 
 | Merge from right-rail Masters search | Users with the appropriate **Master … Merge** claims |
 | Bulk / scored duplicate tools inside Thin Line Admin | Thin Line Support only — not an agency Admin menu item |
 
-Agency administrators do **not** rely on **Admin → Master Merge** for day-to-day cleanup. That bulk tool is for Thin Line staff. Your path is Masters search → select duplicates → **Merge**.
+Agency administrators do **not** rely on **Admin → Master Merge** for day-to-day cleanup. That bulk tool is for Thin Line staff (including **Exact Duplicates** merge and exclusions). Your path is Masters search → select duplicates → **Merge**.
 
 ## Tips
 

@@ -17,6 +17,8 @@ Agency must have an **OCA court identifier** configured. If create is blocked fo
 
 To inspect OCA misdemeanor matrix totals **without** creating a filing, use the **OCA Report** preview card on Court Violations → **Reports** (pick year and month, then open preview). Preview does not replace Create / Download for CARD submission.
 
+**Appealed** cases are closed for workflow / pending inventory (they do not stay in Active or Inactive pending counts). After a case is reopened (vacated or remanded), a new disposition in that spell can be counted without stacking on the prior month’s conviction.
+
 ## Related
 
 - [DPS Conviction Report](dps-conviction-report.md)

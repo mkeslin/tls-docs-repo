@@ -46,6 +46,8 @@ Many states allow a “modify date only” action, for example:
 
 Use these when the court continues a setting but the procedural path has not changed.
 
+Setting notices (including **Order Setting Pretrial Hearing**) can print standing **virtual appearance** details when the court turns them on in Agency settings. See [Documents and forms](documents.md) and [Agency settings](../admin/agency-settings.md).
+
 ## Show cause
 
 Show-cause dates are central after missed appearances or failed compliance. Setting or updating the show-cause date is often required before certain enforcement actions. Show-cause information also appears on court notices (FTA show cause, program missed-deadline show cause, CPF show cause). See [Documents and forms](documents.md).
@@ -59,6 +61,7 @@ Show-cause dates are central after missed appearances or failed compliance. Sett
 ## Related
 
 - [How-to: Run a docket day](how-tos/run-a-docket-day.md)
+- [Reports](reports.md) — **Pre-Trials** roster for the not-guilty / pre-trial caseload
 - [Getting around](getting-around.md)
 - [FTA, warrants, and bonds](fta-warrants-bonds.md)
 - [Court programs](court-programs.md)

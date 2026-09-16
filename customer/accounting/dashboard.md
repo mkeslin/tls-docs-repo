@@ -15,7 +15,7 @@ From the dashboard you can open **card payments** for the selected day (and rela
 
 ## Batch detail reports
 
-Deposit and settlement batch cards can download a **batch detail** PDF for the selected posted batch (line items including card-processor **CC Fee** where applicable). Use it as a companion print when reconciling the day’s batches.
+Deposit and settlement batch cards can download a **batch detail** PDF for the selected posted batch (line items including card-processor **CC Fee** where applicable). Use it as a companion print when reconciling the day’s batches. The same companion PDFs are available from the matching row on the **GL Export Queue**.
 
 ## Deposit tender breakdown
 

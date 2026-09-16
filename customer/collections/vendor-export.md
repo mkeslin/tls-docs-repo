@@ -16,6 +16,8 @@ Use **Vendor Export** in the Collections module when you need to review the outb
 
 Cash / remittance decreases that already appear as payments are not duplicated as vendor ADJUSTMENT rows in the export.
 
+Export **periods** use inclusive agency calendar days: the last day of the selected range is fully included (not cut off at midnight).
+
 ## Related
 
 - [Referred accounts](referred-accounts.md)
