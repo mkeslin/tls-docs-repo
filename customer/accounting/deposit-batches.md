@@ -16,6 +16,8 @@ When posted, funds move from clearing toward your **operating bank** accounting 
 4. Select the rows to include (default is often all pending).
 5. Confirm **Create & Post Batches**.
 
+Create & Post also posts the matching **revenue allocation** in the same step. If allocation fails (for example no eligible trust balances), the deposit is rolled back so the pair stays together. Retry after you fix the allocation error, or ask Support if the message is unclear.
+
 If you see **No transactions in the pending batch**, nothing accepted is waiting — return to [From Court payments](from-court-payments.md).
 
 ## Search existing batches

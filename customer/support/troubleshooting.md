@@ -59,6 +59,8 @@ Quick checks before escalating to Thin Line. Gather [support request](support-re
 |---------|--------|
 | No final receipt | Accept pending payments |
 | Deposit Create & Post empty | Acceptance, agency, date |
+| Create & Post fails and nothing posted | Allocation error (no eligible trust / bond-only day). Fix the message and retry — deposit and allocation post together (6.4.19+) |
+| Posted deposit with no revenue allocation | Pre-6.4.19 half-post. Do not Create & Post again — escalate to Support / finance lead |
 | Payout missing | [Sync Stripe Payouts](../accounting/online-payments-and-payouts.md); Support if chronic |
 | Remittance won’t post | Collections **Modify**; CSV columns; matched lines |
 | Do not use | Payment Cleanup, VerifyAndHeal, transaction reverse — Support / finance lead only |

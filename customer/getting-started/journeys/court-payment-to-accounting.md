@@ -17,9 +17,8 @@ flowchart LR
   B --> C[Pending acceptance]
   C --> D[Accept payment]
   D --> E{Ledger tracked?}
-  E -->|Yes| F[Deposit Create and Post]
-  F --> G[Revenue allocation]
-  G --> H[Payout / reconcile]
+  E -->|Yes| F[Create and Post deposit plus allocation]
+  F --> H[Payout / reconcile]
   E -->|No - external apply| I[Balance updated - no GL batch]
   A --> J{Referred?}
   J -->|Yes| K[Collections remittance]
@@ -60,9 +59,8 @@ See [From Court payments](../../accounting/from-court-payments.md).
 ### 5. Accounting close-out (finance)
 
 1. Open [Accounting](../../accounting/README.md) (court agency + access).
-2. **Deposit Batch** → **Create & Post Batches** ([Deposit batches](../../accounting/deposit-batches.md)).
-3. **Revenue Allocation Batch** → **Create & Post Batches** ([Revenue allocation](../../accounting/revenue-allocation.md)).
-4. For online card: [Payment Ledger / Payouts](../../accounting/online-payments-and-payouts.md) and [Reconciliation](../../accounting/reconciliation-and-disputes.md) (prefer VerifyOnly).
+2. **Create & Post Batches** from the [dashboard](../../accounting/dashboard.md) or [Deposit batches](../../accounting/deposit-batches.md). That posts the deposit and its matching [revenue allocation](../../accounting/revenue-allocation.md) together. If allocation fails, the deposit is rolled back too.
+3. For online card: [Payment Ledger / Payouts](../../accounting/online-payments-and-payouts.md) and [Reconciliation](../../accounting/reconciliation-and-disputes.md) (prefer VerifyOnly).
 
 Cashiers stop at apply + accept for ledger-tracked paths. Create & Post is finance. External Apply Payment never joins those batches.
 

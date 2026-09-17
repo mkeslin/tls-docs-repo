@@ -19,6 +19,7 @@ Authority: [Operate authority](../../policies/operate-authority.md)
 | [Publish product update](publish-product-update.md) | v0.1 | Product updates |
 | [Enable soft-launch RMS module](enable-soft-launch-rms-module.md) | v0.1 | Product updates / pilots |
 | [Master Merge — Exact Duplicates](master-merge-exact-duplicates.md) | v0.1 | Support / post-conversion cleanup |
+| [Create & Post — deposit and RA twins](deposit-revenue-create-post.md) | v0.1 | Support / accounting close-out |
 
 ## Still to improve
 

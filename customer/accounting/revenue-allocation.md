@@ -17,6 +17,8 @@ Same posting pattern as deposits: **one batch per agency per date** is the norma
 3. Review and select pending sets.
 4. Confirm **Create & Post Batches**.
 
+When you use the shared **Create & Post Batches** action (dashboard or either batch search), the deposit and this allocation post together. If allocation fails, the deposit is rolled back as well.
+
 Empty pending means there is nothing waiting to allocate — confirm deposits and fee setup first.
 
 ## Search and void
