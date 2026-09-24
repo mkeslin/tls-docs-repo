@@ -35,6 +35,10 @@ You may demonstrate this ordered story on a local/dev build at the tip above:
 | Hardship + Pay in full combined | Pay in full combined optional — **not shipped** (gap Soft OK) |
 | Extension + hardship | Not shipped — gap Soft OK |
 
+## OFF pitch (not live catalog on this tip)
+
+- **OFF pitch — unconfirmed DPS / catalog maps:** Do **not** pitch `3205E`, `LP-1`, or **stash fee codes** / other **unconfirmed DPS fee maps** as live issuance catalog on tip `64c4bd40a0`. This tip includes **`3667A` for plate-display only** — do not imply stash codes or unconfirmed fee maps are live.
+
 ## Not a product story
 
 | Topic | Guidance |
