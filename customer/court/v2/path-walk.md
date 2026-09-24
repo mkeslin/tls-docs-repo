@@ -24,7 +24,7 @@ At the [current demo ceiling](demoable-now.md), **Issuance PC cite** is on pitch
 
 For in-person counter work, clerk pairs a tablet through **`/public/counter-device`** until the UI shows **Tablet connected**, then continues packet assist on the shared V2 spine (same types as portal Clerk Assist).
 
-Verified for demos on tip `64c4bd40a0` (Matthew two-browser). See [Demoable now](demoable-now.md) for pitch boundaries.
+**ON pitch** at tip `64c4bd40a0` (parent `b8a7ffcd48`) — Matthew Soft OK two-browser verify. See [Demoable now](demoable-now.md) for the full ceiling.
 
 ## 3. Package read
 

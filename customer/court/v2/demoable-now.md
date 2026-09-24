@@ -2,7 +2,7 @@
 
 Sales-facing boundary for what you may **pitch** on the Court V2 packet path. This reflects the **current V2 demo ceiling**, not a go-live or Phase 5 cutover promise.
 
-**Ops note — demo tip ceiling:** `64c4bd40a0` (parent `b8a7ffcd48`; local unit green-up). **E2E is paused.** Demo unlock = **unit/API green + Court BA PASS** on that tip. Do **not** claim Playwright green as the demo gate while e2e is paused. Matthew **two-browser verified** clerk ↔ tablet handshake on this tip — Sales unlocked **Issuance PC cite** and **clerk ↔ tablet** for demos at this ceiling.
+**Ops note — demo tip ceiling:** `64c4bd40a0` (parent `b8a7ffcd48`; local unit green-up). **E2E is paused.** Demo unlock = **unit/API green + Court BA PASS** on that tip. Do **not** claim Playwright green as the demo gate while e2e is paused. Matthew **Soft OK’d** handshake **two-browser verify** on this tip — Sales unlocked **Issuance PC cite** and **clerk ↔ tablet** for demos at this ceiling.
 
 ## ON pitch (V2 path)
 
@@ -12,7 +12,7 @@ You may demonstrate this ordered story on a local/dev build at the tip above:
 |-------|----------------|
 | **Phase 1 typed dispositions** | Defendant-initiated packet types on the shared spine (portal + clerk assist + judge queue). Compliance dismissal stays on the **locked Phase 1** packet model — do not reopen CD hard-cut or rule-pack pitch. |
 | **Issuance PC cite** | Officer/clerk issuance quality: oath, PC narrative, catalog, court-record attachments on the citation/violation (not a separate print-out workflow). **On pitch** at tip `64c4bd40a0`. |
-| **Clerk ↔ tablet handshake** | Counter pairing through `/public/counter-device` until **Tablet connected**; same tip verified for demos. Use for in-person packet assist alongside portal. |
+| **Clerk ↔ tablet handshake** | **ON pitch** — counter pairing through `/public/counter-device` until **Tablet connected** (Matthew Soft OK two-browser verify on tip `64c4bd40a0`). In-person packet assist alongside portal. |
 | **Package read** | Clerk/judge read of the PC package before downstream judicial work. |
 | **FTA / CPF warrants** | Judge-only ordered warrant paths for FTA and CPF (not portal-issued warrants). |
 | **Portal read + ack** | Limited defendant portal: read FTA notice and CPF show-cause; **timestamped acknowledge**; **no upload**. |
