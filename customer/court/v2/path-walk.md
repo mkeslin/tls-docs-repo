@@ -18,6 +18,14 @@ On the law-enforcement / issuance side, the citation carries **issuance quality*
 
 Issuing officer corrections use **addendum-only** behavior; clerks and judges **read** the package later in court flow.
 
+At the [current demo ceiling](demoable-now.md), **Issuance PC cite** is on pitch together with **clerk ↔ tablet** counter flow.
+
+## 2b. Clerk ↔ tablet handshake
+
+For in-person counter work, clerk pairs a tablet through **`/public/counter-device`** until the UI shows **Tablet connected**, then continues packet assist on the shared V2 spine (same types as portal Clerk Assist).
+
+Verified for demos on tip `64c4bd40a0` (Matthew two-browser). See [Demoable now](demoable-now.md) for pitch boundaries.
+
 ## 3. Package read
 
 Clerk or judge opens the **PC package** for read/review before relying on it in downstream judicial steps (including warrant work). This is a read surface — not a new procedural state named “pending judge” on the case.
@@ -95,4 +103,4 @@ Judge **Approve**, **Reject**, and **NeedsInfo** are staff-only on the judge que
 
 ## End of current ceiling
 
-Steps above match the **on-pitch** list in [Demoable now](demoable-now.md). Clerk ↔ tablet **handshake** (`/public/counter-device`) and production **V1/V2 cutover** are explicitly **out** of this walk until called out there.
+Steps above match the **on-pitch** list in [Demoable now](demoable-now.md). Production **V1/V2 cutover** is **not** part of this walk — local dual-path remains Soft OK for demos only.
