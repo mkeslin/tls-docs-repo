@@ -12,11 +12,14 @@ Agency Admin must have DPS conviction reporting configured (location code and su
 
 1. Open **Import/Export** → **DPS Conviction Report**.
 2. **Create** — agency and **Report Week (Sun–Sat)**. Typical clerk workflow: generate on **Monday** for the prior week; the file is **due Tuesday**.
-3. Open the report → **Rebuild** if source data changed.
-4. **Download** the file and submit per DPS instructions.
-5. Use **View History** for prior periods.
+3. To file several missed weeks in one file, turn on **Catch up multiple weeks**, then choose **First week** and **Last week**. One file covers every Sun–Sat week in that span, up to **26** weeks. The due date is the Tuesday after the last Saturday. The week list goes back about a year while catch-up is on.
+4. Open the report → **Rebuild** if source data changed.
+5. **Download** the file and submit per DPS instructions.
+6. Use **View History** for prior periods.
 
-Court Violations → **Reporting Status** also shows whether the current DPS week is on track — see [Court — Reports](../court/reports.md). To inspect a week **without** creating a file, use the **DPS conviction** preview card on Court Violations → **Reports**.
+You cannot create a report whose dates overlap a report that already exists. Finish or cancel that report first. The message names the period that is already on file.
+
+Court Violations → **Reporting Status** also shows whether the current DPS week is on track — see [Court — Reports](../court/reports.md). A catch-up file counts for every week it includes. To inspect a week or a catch-up span **without** creating a file, use the **DPS conviction** preview card on Court Violations → **Reports** (the same **Catch up multiple weeks** control).
 
 ## Data quality
 

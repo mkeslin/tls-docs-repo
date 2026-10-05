@@ -52,7 +52,7 @@ Thin Line includes Texas-oriented reporting packs for municipal court operations
 | Report pack | Typical purpose |
 |-------------|-----------------|
 | **OCA** | Office of Court Administration style monthly court activity reporting |
-| **DPS conviction** | Weekly (Sun–Sat) conviction reporting to DPS. Generate on Monday for the prior week; due Tuesday |
+| **DPS conviction** | Weekly (Sun–Sat) conviction reporting to DPS. Generate on Monday for the prior week; due Tuesday. **Catch up multiple weeks** files one report for a run of weeks (up to 26). Reporting Status counts that file for each week it covers |
 | **State quarterly** | Quarterly state accounting / fee reporting |
 
 These reports are for authorized court staff. Many packs are also launched from left-rail [Import/Export](../import-export/README.md) (**DPS Conviction**, **OCA**, **State Quarterly**). Agree one path per filing so staff do not produce conflicting files. Agency identifiers are configured during implementation.

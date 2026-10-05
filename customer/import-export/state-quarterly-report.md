@@ -21,7 +21,7 @@ State Quarterly remittance depends on court fee kits and payments allocated to D
 
 1. Confirm remittance fee associations and payment allocation are correct on cases before rebuild.
 2. Set the remittance **sent** date when your agency has remitted for the quarter (required before some post/export paths).
-3. Use available **GL export** and **accountant report** downloads from the report when your finance process needs them.
+3. Use available **GL export** and **accountant report** downloads from the report when your finance process needs them. The city GL file name follows the shared pattern, with the quarter in place of a day: `GL_Export_StateQtr_{Id}_Q3-2026_{Amount}_{Tyler or CentralSquare}.txt`.
 
 ## Remittance allocation reconciliation
 

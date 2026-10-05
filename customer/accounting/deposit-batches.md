@@ -36,7 +36,7 @@ Typical row actions on posted batches:
 
 ## City GL export and handoff
 
-When your city uses **City GL** exports, download them from the batch row alongside Tyler ERP and CentralSquare. After importing into the city ledger, mark the export **complete** on the **GL Export Queue** so finance staff can see what still needs city-side import.
+When your city uses **City GL** exports, download them from the batch row alongside Tyler ERP and CentralSquare. The download name is `GL_Export_{Type}_{Id}_{Date}_{Amount}_{Tyler or CentralSquare}.txt` (for example `GL_Export_Deposit_1842_2026-09-15_1250.00_Tyler.txt`). Payouts, refunds, collections, remittance, and State Quarterly remittance use the same pattern. A combined pending bundle uses `Bundle` and, when the rows span more than one day, a `{first}_to_{last}` date. After importing into the city ledger, mark the export **complete** on the **GL Export Queue** so finance staff can see what still needs city-side import.
 
 On the same queue you can mark a handoff **reconciled** (or **unreconciled**) after the city bank/ledger match is confirmed, filter the list by bank-reconciliation status, and **print** the current filtered work list. Date filters include the entire last selected day in the agency’s time zone. From a queue row you can also open the matching **batch detail** PDF (payment/settlement report, refund, collections disbursement, remittance, or State Quarterly remittance, depending on the source).
 

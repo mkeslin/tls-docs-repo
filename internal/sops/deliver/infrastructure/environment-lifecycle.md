@@ -36,7 +36,7 @@ flowchart TD
 | **Training** | Customer enablement | CVE Training *(placeholder SOP)* |
 | **Go Live** | Exclusive / production use | Go-Live Readiness Assessment |
 | **Maintenance** | Support, small config, ops | Operate / support |
-| **Upgrade** | New VersionBranch deploy (pipelines); schema migrations as product requires | Deploy pipelines · release process |
+| **Upgrade** | New VersionBranch deploy (pipelines); schema migrations as product requires. The UI site must serve `.json` as `application/json` so the in-app version check can read `tls-build.json` (IIS: remove-then-map in `web.config`; a missing map is an empty 404.3 and the new-version prompt does not fire) | Deploy pipelines · release process |
 | **Retire** | Customer leaving or environment obsolete; data retention decisions | <mark style="color:red;">**TODO:**</mark> retention policy link |
 | **Destroy** | `teardown-client.ps1` — remove per-agency resources | Bootstrap SOP teardown · Inventory (shared stays) |
 
