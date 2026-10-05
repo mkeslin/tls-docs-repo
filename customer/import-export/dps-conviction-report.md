@@ -17,7 +17,7 @@ Agency Admin must have DPS conviction reporting configured (location code and su
 5. **Download** the file and submit per DPS instructions.
 6. Use **View History** for prior periods.
 
-You cannot create a report whose dates overlap a report that already exists. Finish or cancel that report first. The message names the period that is already on file.
+You can have only one unposted report open. Close that submission before creating another. A report you already completed for the same week does not block a new one.
 
 Court Violations → **Reporting Status** also shows whether the current DPS week is on track — see [Court — Reports](../court/reports.md). A catch-up file counts for every week it includes. To inspect a week or a catch-up span **without** creating a file, use the **DPS conviction** preview card on Court Violations → **Reports** (the same **Catch up multiple weeks** control).
 
