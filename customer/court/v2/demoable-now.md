@@ -2,7 +2,7 @@
 
 Sales-facing boundary for what you may **pitch** on the Court V2 packet path. This reflects the **current V2 demo ceiling**, not a go-live or Phase 5 cutover promise.
 
-**Ops note — demo tip ceiling:** `64c4bd40a0` (parent `b8a7ffcd48`; local unit green-up). **E2E is paused.** Demo unlock = **unit/API green + Court BA PASS** on that tip. Do **not** claim Playwright green as the demo gate while e2e is paused.
+**Ops note — demo tip ceiling:** `64c4bd40a0` (parent `b8a7ffcd48`; local unit green-up). **E2E is paused.** Demo unlock = **unit/API green + Court BA PASS** on that tip. Do **not** claim Playwright green as the demo gate while e2e is paused. Matthew **Soft OK’d** handshake **two-browser verify** on this tip — Sales unlocked **Issuance PC cite** and **clerk ↔ tablet** for demos at this ceiling.
 
 ## ON pitch (V2 path)
 
@@ -11,7 +11,8 @@ You may demonstrate this ordered story on a local/dev build at the tip above:
 | Slice | What to show |
 |-------|----------------|
 | **Phase 1 typed dispositions** | Defendant-initiated packet types on the shared spine (portal + clerk assist + judge queue). Compliance dismissal stays on the **locked Phase 1** packet model — do not reopen CD hard-cut or rule-pack pitch. |
-| **Issuance PC cite** | Officer/clerk issuance quality: oath, PC narrative, catalog, court-record attachments on the citation/violation (not a separate print-out workflow). |
+| **Issuance PC cite** | Officer/clerk issuance quality: oath, PC narrative, catalog, court-record attachments on the citation/violation (not a separate print-out workflow). **On pitch** at tip `64c4bd40a0`. |
+| **Clerk ↔ tablet handshake** | **ON pitch** — counter pairing through `/public/counter-device` until **Tablet connected** (Matthew Soft OK two-browser verify on tip `64c4bd40a0`). In-person packet assist alongside portal. |
 | **Package read** | Clerk/judge read of the PC package before downstream judicial work. |
 | **FTA / CPF warrants** | Judge-only ordered warrant paths for FTA and CPF (not portal-issued warrants). |
 | **Portal read + ack** | Limited defendant portal: read FTA notice and CPF show-cause; **timestamped acknowledge**; **no upload**. |
@@ -34,11 +35,9 @@ You may demonstrate this ordered story on a local/dev build at the tip above:
 | Hardship + Pay in full combined | Pay in full combined optional — **not shipped** (gap Soft OK) |
 | Extension + hardship | Not shipped — gap Soft OK |
 
-## OFF pitch (not demo-safe yet)
+## OFF pitch (not live catalog on this tip)
 
-| Topic | Why |
-|-------|-----|
-| **Clerk ↔ tablet handshake** | Pairing flow through `/public/counter-device` until **Tablet connected** — needs Matthew **two-browser** verify. Do **not** call handshake pitch-safe. |
+- **OFF pitch — unconfirmed DPS / catalog maps:** Do **not** pitch `3205E`, `LP-1`, or **stash fee codes** / other **unconfirmed DPS fee maps** as live issuance catalog on tip `64c4bd40a0`. This tip includes **`3667A` for plate-display only** — do not imply stash codes or unconfirmed fee maps are live.
 
 ## Not a product story
 

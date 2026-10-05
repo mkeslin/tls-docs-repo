@@ -38,7 +38,7 @@ Do **not** invent:
 | Pending work | Queues and procedural states | Active packet status; “pending judge” = submitted packet awaiting staff |
 | Hardship evidence | <mark style="color:red;">**TODO:**</mark> map to V1 finance/program pages if a separate V1 story exists | **Mandatory on Submit** for hardship packet |
 | Community service clock | <mark style="color:red;">**TODO:**</mark> confirm any legacy V1 CS program wording stays separate | Starts **only** on judge **Approve** |
-| Handshake / counter tablet | <mark style="color:red;">**TODO:**</mark> document in V1 only when pitch-safe | **Off pitch** until two-browser verify — see [Demoable now](demoable-now.md) |
+| Handshake / counter tablet | <mark style="color:red;">**TODO:**</mark> map any legacy V1 counter wording separately | **On pitch** at demo ceiling — `/public/counter-device` → **Tablet connected** ([Demoable now](demoable-now.md)) |
 
 ## Related
 
