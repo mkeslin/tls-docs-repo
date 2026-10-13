@@ -2,7 +2,7 @@
 
 Sales-facing boundary for what you may **pitch** on the Court V2 packet path. This reflects the **current V2 demo ceiling**, not a go-live or Phase 5 cutover promise.
 
-**Ops note — demo tip ceiling:** `64c4bd40a0` (parent `b8a7ffcd48`; local unit green-up). **E2E is paused.** Demo unlock = **unit/API green + Court BA PASS** on that tip. Do **not** claim Playwright green as the demo gate while e2e is paused. Matthew **approved for demos** handshake **two-browser verify** on this tip — Sales unlocked **Issuance PC cite** and **clerk ↔ tablet** for demos at this ceiling.
+**Ops note — demo tip ceiling:** **`6234e081ca`** — current **pushed tip** on branch `mkeslin/court-portal` (prior ceiling `64c4bd40a0`, parent `b8a7ffcd48`). **E2E is paused.** Demo unlock = **unit/API green + Court BA PASS** on that tip. Do **not** claim Playwright green as the demo gate while e2e is paused. **Playwright has not been re-run** on the full **tls-*** form-control migration at tip `6234e081ca`. Matthew **approved for demos** handshake **two-browser verify** on the prior ceiling; treat handshake and issuance as still on pitch unless Court BA moves them — see product pages under [Court V2](README.md) for court-portal behavior added since `64c4bd40a0`.
 
 ## ON pitch (V2 path)
 
@@ -11,8 +11,9 @@ You may demonstrate this ordered story on a local/dev build at the tip above:
 | Slice | What to show |
 |-------|----------------|
 | **Phase 1 typed dispositions** | Defendant-initiated packet types on the shared spine (portal + clerk assist + judge queue). Compliance dismissal stays on the **locked Phase 1** packet model — do not reopen CD hard-cut or rule-pack pitch. |
-| **Issuance PC cite** | Officer/clerk issuance quality: oath, PC narrative, catalog, court-record attachments on the citation/violation (not a separate print-out workflow). **On pitch** at tip `64c4bd40a0`. |
-| **Clerk ↔ tablet handshake** | **ON pitch** — counter pairing through `/public/counter-device` until **Tablet connected** (approved for demos — two-browser verify on tip `64c4bd40a0`). In-person packet assist alongside portal. |
+| **Issuance PC cite** | Officer/clerk issuance quality: oath, PC narrative, catalog, court-record attachments on the citation/violation (not a separate print-out workflow). **On pitch** at the demo ceiling unless Court BA narrows it. |
+| **Clerk ↔ tablet handshake** | **ON pitch** — counter pairing through `/public/counter-device` until **Tablet connected** (approved for demos — two-browser verify on prior ceiling). In-person packet assist alongside portal. |
+| **Court-portal slice (docs)** | Tier-1 DSC/deferred gates, portal outcome cards, **Court V2 Online Portal** link, NEW intake DOB/speed, not-guilty paths, youth diversion, DSC **Ask for more time**, and related panels — documented in [Resolution workspace](resolution-workspace-and-controls.md), [Portal and online options](portal-and-online-options.md), and [Court programs and eligibility](court-programs-eligibility.md). **Not** full Texas statutory compliance — see [Compliance gaps](compliance-gaps.md). |
 | **Package read** | Clerk/judge read of the PC package before downstream judicial work. |
 | **FTA / CPF warrants** | Judge-only ordered warrant paths for FTA and CPF (not portal-issued warrants). |
 | **Portal read + ack** | Limited defendant portal: read FTA notice and CPF show-cause; **timestamped acknowledge**; **no upload**. |
@@ -37,7 +38,7 @@ You may demonstrate this ordered story on a local/dev build at the tip above:
 
 ## OFF pitch (not live catalog on this tip)
 
-- **OFF pitch — unconfirmed DPS / catalog maps:** Do **not** pitch `3205E`, `LP-1`, or **stash fee codes** / other **unconfirmed DPS fee maps** as live issuance catalog on tip `64c4bd40a0`. This tip includes **`3667A` for plate-display only** — do not imply stash codes or unconfirmed fee maps are live.
+- **OFF pitch — unconfirmed DPS / catalog maps:** Do **not** pitch `3205E`, `LP-1`, or **stash fee codes** / other **unconfirmed DPS fee maps** as live issuance catalog on the demo ceiling. The branch includes **`3667A` for plate-display only** — do not imply stash codes or unconfirmed fee maps are live.
 
 ## Not a product story
 

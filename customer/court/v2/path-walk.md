@@ -24,7 +24,7 @@ At the [current demo ceiling](demoable-now.md), **Issuance PC cite** is on pitch
 
 For in-person counter work, clerk pairs a tablet through **`/public/counter-device`** until the UI shows **Tablet connected**, then continues packet assist on the shared V2 spine (same types as portal Clerk Assist).
 
-**ON pitch** at tip `64c4bd40a0` (parent `b8a7ffcd48`) — approved for demos (two-browser verify). See [Demoable now](demoable-now.md) for the full ceiling.
+**ON pitch** at the [current demo ceiling](demoable-now.md) — approved for demos (two-browser verify on prior ceiling). See [Demoable now](demoable-now.md) for the full boundary.
 
 ## 3. Package read
 
@@ -100,6 +100,20 @@ Defendant or clerk assist places **community service** in **draft**, then **subm
 | Clerk assist | `/module/court-violation/community-service-clerk-assist` |
 
 Judge **Approve**, **Reject**, and **NeedsInfo** are staff-only on the judge queue / panel for this packet type.
+
+## 9. Court-portal additions (same ceiling)
+
+After Phase 4 packets, the court-portal branch adds staff and portal behavior documented in dedicated pages (not a separate demo phase number):
+
+| Topic | Where to read |
+|-------|----------------|
+| **Payment Links** → **Court V2 Online Portal** (`/public/portal`) | [Resolution workspace and controls](resolution-workspace-and-controls.md) |
+| Portal **Start or resume** vs **Complete at counter** | [Portal and online options](portal-and-online-options.md) |
+| **Driving safety course** / **Deferred disposition** tier-1 denies (CDL, workers present, school bus, leave scene, under-25 DSC condition) | [Court programs and eligibility](court-programs-eligibility.md) |
+| **Enter a plea of not guilty** (clerk soft, online, paper) | [Resolution workspace and controls](resolution-workspace-and-controls.md) |
+| **Youth diversion** (ages 10–16 non-traffic) | [Court programs and eligibility](court-programs-eligibility.md) |
+| **Ask for more time** (DSC extension) | [Court programs and eligibility](court-programs-eligibility.md) |
+| Honesty on incomplete statutory coverage | [Compliance gaps](compliance-gaps.md) |
 
 ## End of current ceiling
 

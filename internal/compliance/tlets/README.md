@@ -22,7 +22,10 @@ Playbook for Thin Line staff applying to run **NCIC / TLETS queries from within 
 | [Cloud data storage disclosure](cloud-data-storage-disclosure-template.md) | Storage/backup/retention narrative; inventory + vendor tables by reference to the Excel workbook |
 | [SIEM monitoring and weekly review (SI-4)](si-4-siem-monitoring-and-weekly-review.md) | Thin Line Azure/Sentinel **addendum** to the agency SIEM program; weekly review log by reference |
 | [Direct-interface scope](direct-interface-scope.md) | Working scope statement for the packet |
-| [Direct LETS operations](direct-lets-operations.md) | Device auth, gateway, SecurityLog, staff switches (6.5 product) |
+| [Direct LETS operations](direct-lets-operations.md) | Device auth, gateway client config, SecurityLog, staff switches (6.5 product) |
+| [tls-lets gateway service](tls-lets-gateway.md) | **tls-lets** solution layout, pipeline, FoxTalk adapter, audit/redaction |
+| [End-to-end direct query round trip](end-to-end-direct-query.md) | UI → API → gateway → DPS → History (mermaid) |
+| [Azure hosting and agency inventory](azure-hosting-and-agency-inventory.md) | VM/systemd deploy, Gov cloud pipeline, networking pattern, per-agency inventories |
 | [Open decisions](open-decisions.md) | Blockers before locking Word-form answers |
 | [Agency guide (planned)](agency-guide-planned.md) | Future **customer** section — not published yet |
 

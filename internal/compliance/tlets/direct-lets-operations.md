@@ -68,6 +68,14 @@ Event IDs **9140–9231** (device lifecycle, agency enable/disable/settings, cla
 
 Staff **IP allowlist** and verification window endpoints trim and uppercase stored values. Device action reasons use `TrimUpperOrNull` for status/revoke reasons and SecurityLog **Reason**.
 
+## Gateway service (tls-lets)
+
+Thin Line API calls the separate **tls-lets** host (`LetsGateway` settings). Gateway auth, FoxTalk sessions, query store, and deploy topology are documented in:
+
+- [tls-lets gateway service](tls-lets-gateway.md)
+- [End-to-end direct query round trip](end-to-end-direct-query.md)
+- [Azure hosting and agency inventory](azure-hosting-and-agency-inventory.md)
+
 ## Related
 
 - [TLETS application home](README.md)
