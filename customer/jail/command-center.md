@@ -21,6 +21,7 @@ Day-to-day use of the **Jail Command Center** (header **JAIL**).
 | Left panel | **Passes** (Start Pass) and **Medications** (due / upcoming) |
 | Location rail | Destinations for moves + **Live Feed** at the bottom |
 | Episode drawer | Selected person — flags, alerts, location, meds, Move / Release / Transfer out |
+| In-booking checklist rail | When a booking is in progress, shows person name, booking status, **Open Booking**, and **Custody Timeline** quick actions |
 
 **Transfer Log** is not currently shown on the board in the shipping UI — use search/history paths your agency documents instead.
 

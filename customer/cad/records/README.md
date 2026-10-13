@@ -17,7 +17,8 @@ Requires CAD Records access (LETS Queries also needs LETS query access).
 | [Call sheets](call-sheets.md) | Call Sheets |
 | [Unit status and logs](unit-status-and-logs.md) | Unit Status & Duty Logs · Unit Logs |
 | [Dispatcher notes](dispatcher-notes.md) | Dispatcher Notes |
-| [Impound and LETS](impound-and-lets.md) | Impound Logs · LETS Queries |
+| [Impound and LETS](impound-and-lets.md) | Impound Logs · LETS Queries (history search) |
+| [Direct LETS queries](../direct-lets-queries.md) | LETS Query workspace (Query · Devices · History) |
 
 ## Related
 

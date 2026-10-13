@@ -160,6 +160,10 @@
     * [Cloud data storage disclosure](compliance/tlets/cloud-data-storage-disclosure-template.md)
     * [SIEM monitoring and weekly review](compliance/tlets/si-4-siem-monitoring-and-weekly-review.md)
     * [Direct-interface scope](compliance/tlets/direct-interface-scope.md)
+    * [Direct LETS operations](compliance/tlets/direct-lets-operations.md)
+    * [tls-lets gateway service](compliance/tlets/tls-lets-gateway.md)
+    * [End-to-end direct query round trip](compliance/tlets/end-to-end-direct-query.md)
+    * [Azure hosting and agency inventory](compliance/tlets/azure-hosting-and-agency-inventory.md)
     * [Open decisions](compliance/tlets/open-decisions.md)
     * [Agency guide (planned)](compliance/tlets/agency-guide-planned.md)
 

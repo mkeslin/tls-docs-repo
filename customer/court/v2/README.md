@@ -11,12 +11,16 @@ V2 does not replace the V1 topic pages. Clerks and judges still use V1 guides fo
 | [Demoable now](demoable-now.md) | Sales demo ceiling — what is on-pitch vs off-pitch |
 | [Path walk](path-walk.md) | Ordered customer-facing walk of the current V2 demo path |
 | [V1 vs V2](v1-vs-v2.md) | Side-by-side for local dual-path demo walks |
+| [Resolution workspace and controls](resolution-workspace-and-controls.md) | Payment Links → **Court V2 Online Portal**, tls-* controls, NEW intake DOB/speed, not-guilty paths |
+| [Portal and online options](portal-and-online-options.md) | Defendant portal outcome cards, DSC authorization wording, hardship and not-guilty online |
+| [Court programs and eligibility](court-programs-eligibility.md) | DSC/deferred tier-1 denies, youth diversion, statutory clocks, status panels |
+| [Compliance gaps](compliance-gaps.md) | What not to claim as full Texas compliance |
 
 ## Demo and verification gate
 
 Playwright end-to-end tests are **paused**. Demo unlock for the V2 ceiling is **unit/API green + Court BA PASS** on the claimed tip — not Playwright green.
 
-**Demo tip ceiling (ops):** `64c4bd40a0` (parent `b8a7ffcd48`; local unit green-up). Details and pitch boundaries are in [Demoable now](demoable-now.md).
+**Demo tip ceiling (ops):** `64c4bd40a0` (parent `b8a7ffcd48`; local unit green-up). Details and pitch boundaries are in [Demoable now](demoable-now.md). Later-tip behavior is documented in the pages linked from [Documented past the demo ceiling](demoable-now.md#documented-past-the-demo-ceiling-not-yet-approved-for-demos).
 
 ## Related
 
