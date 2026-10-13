@@ -29,6 +29,7 @@ A **booking** is the intake unit of work. After accept, a **custody episode** ap
 | [Getting around](getting-around.md) | JAIL vs Intake nav, permissions |
 | [Start a booking](start-a-booking.md) | Add Booking wizard, Delete booking |
 | [Complete intake steps](intake-steps.md) | Mark Complete, skip/defer |
+| [Custody episode charges and property](custody-episode-work.md) | Episode Charges tab, property seal/open |
 | [Accept into Custody](accept-into-custody.md) | Facility-only accept |
 | [Command Center basics](command-center.md) | Roster, Layout, Passes, Medications |
 | [Housing and moves](housing-and-moves.md) | Move dialogs, Unassigned |

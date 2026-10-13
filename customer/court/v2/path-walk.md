@@ -24,7 +24,7 @@ At the [current demo ceiling](demoable-now.md), **Issuance PC cite** is on pitch
 
 For in-person counter work, clerk pairs a tablet through **`/public/counter-device`** until the UI shows **Tablet connected**, then continues packet assist on the shared V2 spine (same types as portal Clerk Assist).
 
-**ON pitch** at tip `64c4bd40a0` (parent `b8a7ffcd48`) — Matthew Soft OK two-browser verify. See [Demoable now](demoable-now.md) for the full ceiling.
+**ON pitch** at tip `64c4bd40a0` (parent `b8a7ffcd48`) — approved for demos (two-browser verify). See [Demoable now](demoable-now.md) for the full ceiling.
 
 ## 3. Package read
 
@@ -56,7 +56,7 @@ Defendant or clerk assist drafts a **hardship** packet.
 | Approve | Judge applies approved terms via the packet spine (no auto-grant on submit). |
 | Reject / NeedsInfo | Staff-only; reject does not apply approved terms; needs info allows more evidence and resubmit without treating submit as approve. |
 
-**Payment plan combined** host is in scope Soft OK. **Pay in full combined** is a documented gap Soft OK — do not pitch as shipped.
+**Payment plan combined** host is approved for demos. **Pay in full combined** is a known gap, not shipped — do not pitch as shipped.
 
 Staff surfaces follow the same dual-channel pattern as other Phase 4 packets (portal + clerk assist + judge queue).
 
@@ -73,7 +73,7 @@ Defendant or clerk assist drafts an **extension** packet.
 | Approve | Applies proposed due date through the packet spine when proposed; empty proposed delta is a documented no-op (no auto-grant). |
 | Reject / NeedsInfo | Do not apply extension dates; needs info allows edit and resubmit. |
 
-**Payment plan combined** Soft OK. **Extension + hardship** combined is a documented gap Soft OK.
+**Payment plan combined** approved for demos. **Extension + hardship** combined is a known gap, not shipped.
 
 ## 8. Community service (Phase 4.3)
 
@@ -89,7 +89,7 @@ Defendant or clerk assist places **community service** in **draft**, then **subm
 | Evidence | **Not required** on CS (unlike hardship). |
 | Fee | No invented CS fee in this slice (`FeeAmount` null). |
 | Completion hours | **Not** tracked in this slice — do not demo completion-hour ledgers. |
-| Combined hosts | **Payment plan + CS** Soft OK. **Extension + CS** and **hardship + CS** are documented gaps Soft OK — do not pitch as shipped. |
+| Combined hosts | **Payment plan + CS** approved for demos. **Extension + CS** and **hardship + CS** are known gaps, not shipped — do not pitch as shipped. |
 
 ### Where to open community service
 
@@ -103,4 +103,4 @@ Judge **Approve**, **Reject**, and **NeedsInfo** are staff-only on the judge que
 
 ## End of current ceiling
 
-Steps above match the **on-pitch** list in [Demoable now](demoable-now.md). Production **V1/V2 cutover** is **not** part of this walk — local dual-path remains Soft OK for demos only.
+Steps above match the **on-pitch** list in [Demoable now](demoable-now.md). Production **V1/V2 cutover** is **not** part of this walk — local dual-path remains approved for demos only.

@@ -12,9 +12,9 @@ Use this page when you need to explain **two parallel stories** in the same loca
 | **Compliance dismissal** | V1 [court programs](../court-programs.md) and related flows | Phase 1 **ComplianceDismissal packet** on V2 — **locked**; do not reopen CD hard-cut or rule-pack changes in customer docs |
 | **Production cutover** | Live product documentation today | **No** Phase 5 cutover date or customer feature-flag setting documented here |
 
-## Local dual-path (Soft OK — not go-live)
+## Local dual-path (approved for demos — not go-live)
 
-On a **local** or **dev** build at the [current demo ceiling](demoable-now.md), teams may run **V1 procedural court** and **V2 packet** flows **side by side** to compare behavior. That dual-path mode is **Soft OK for demos only** — it is **not** Phase 5 production cutover and **not** a promise that every agency will operate both paths in production.
+On a **local** or **dev** build at the [current demo ceiling](demoable-now.md), teams may run **V1 procedural court** and **V2 packet** flows **side by side** to compare behavior. That dual-path mode is **approved for demos only** — it is **not** Phase 5 production cutover and **not** a promise that every agency will operate both paths in production.
 
 Do **not** invent:
 

@@ -21,8 +21,8 @@ Booking details show a **sidebar step list** and a panel for the selected step. 
 |------|------|-------|
 | **Person** | Required | Demographics, aliases, SMTs, mugshot-related work |
 | **Custody** | Required | Hold type, times, arresting context — complete before Accept; do not skip |
-| **Charges** | Required | Charges; hold-only when no new charge applies |
-| **Property** | Conditional | **Add Container**, seal/open; none-collected paths |
+| **Charges** | Required | **Add Charge / Hold** (primary); **Add Offense** from the split menu; per-row **Correct** when allowed |
+| **Property** | Conditional | **Add Container**, **Seal** / **Open** bags, item entry; optional fields are **clearable** (clearing saves empty) |
 | **Mental Health** | Conditional | Screening; defer usually needs a reason |
 | **Medical** | Conditional | Screening, meds, withdrawal notes |
 | **Classification** | Conditional | Factors and recommended custody level |
@@ -52,7 +52,12 @@ Incomplete **required** steps block **Accept into Custody**. Conditional steps m
 - Print step PDFs when your agency keeps paper packets ([Reports](reports.md)).
 - Coordinate if another user has the booking open (lock / supervisor takeover).
 
+## Layout notes
+
+The booking **sidebar** and each step **toolbar** stay in view while you scroll a long step.
+
 ## Related
 
+- [Custody episode charges and property](custody-episode-work.md)
 - [Start a booking](start-a-booking.md)
 - [Accept into Custody](accept-into-custody.md)

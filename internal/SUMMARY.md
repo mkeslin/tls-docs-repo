@@ -160,6 +160,7 @@
     * [Cloud data storage disclosure](compliance/tlets/cloud-data-storage-disclosure-template.md)
     * [SIEM monitoring and weekly review](compliance/tlets/si-4-siem-monitoring-and-weekly-review.md)
     * [Direct-interface scope](compliance/tlets/direct-interface-scope.md)
+    * [Direct LETS operations](compliance/tlets/direct-lets-operations.md)
     * [Open decisions](compliance/tlets/open-decisions.md)
     * [Agency guide (planned)](compliance/tlets/agency-guide-planned.md)
 

@@ -22,6 +22,7 @@ Playbook for Thin Line staff applying to run **NCIC / TLETS queries from within 
 | [Cloud data storage disclosure](cloud-data-storage-disclosure-template.md) | Storage/backup/retention narrative; inventory + vendor tables by reference to the Excel workbook |
 | [SIEM monitoring and weekly review (SI-4)](si-4-siem-monitoring-and-weekly-review.md) | Thin Line Azure/Sentinel **addendum** to the agency SIEM program; weekly review log by reference |
 | [Direct-interface scope](direct-interface-scope.md) | Working scope statement for the packet |
+| [Direct LETS operations](direct-lets-operations.md) | Device auth, gateway, SecurityLog, staff switches (6.5 product) |
 | [Open decisions](open-decisions.md) | Blockers before locking Word-form answers |
 | [Agency guide (planned)](agency-guide-planned.md) | Future **customer** section — not published yet |
 
@@ -63,13 +64,15 @@ Playbook for Thin Line staff applying to run **NCIC / TLETS queries from within 
 - [ ] Agency attestation / addendum / fingerprint evidence
 - [ ] Agency network diagram update: Thin Line query UI + interface connector + ORI
 
-### Engineering honesty (2026-07)
+### Engineering honesty
 
 | Item | Status |
 |------|--------|
-| Monorepo `LetsQuery` module | RMS **recordkeeping** — **not** a TLETS wire client |
-| XDAC / OFML / DMPP connector | <mark style="color:red;">**Not implemented**</mark> in ThinLineSoftware as of this writing |
-| In-app Help CJIS copy | Update when product ships queries |
+| Monorepo `LetsQuery` module | Historical search + audit rows; direct gateway path on **release/6.5.0** |
+| Direct LETS gateway + device enforcement | Implemented — see [Direct LETS operations](direct-lets-operations.md) |
+| XDAC / OFML production DPS path | Still subject to DPS approval and environment configuration |
+| Customer GitBook | [Direct LETS queries](../../customer/cad/direct-lets-queries.md) |
+| In-app Help CJIS copy | Update on product release that ships direct LETS to customers |
 
 ---
 

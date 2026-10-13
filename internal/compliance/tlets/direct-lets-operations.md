@@ -1,0 +1,75 @@
+# Direct LETS — operations and enforcement (internal)
+
+Product behavior shipped on the **release/6.5.0** line for **direct LETS** queries, device authorization, and agency controls. Customer-facing steps: [Direct LETS queries](../../customer/cad/direct-lets-queries.md).
+
+## Agency switch
+
+| Control | Who can change it | Notes |
+|---------|-------------------|--------|
+| **Enable Direct LETS Queries** (`EnableDirectLetsQueries` on agency) | **ThinLine.Full.Support** only | UI in **Admin → Agency → Law Enforcement Details**; readonly for agency admins. PUT `tlsapi/agencies/{id}` rejects a changed value from non-staff. CAD agency mapper never maps this field. |
+| **AgencyTletsSettings** row | Staff for verification window + IP allowlist | Missing row = defaults. `TletsEnabled` column removed — direct LETS uses the single agency switch above. |
+
+Staff helper copy lives in `adminTletsAgencySettings.ts` (support-only messaging).
+
+## Gateway configuration
+
+`appsettings.json` / Production token replacement:
+
+```json
+"LetsGateway": {
+  "BaseUrl": "",
+  "ApiKey": "",
+  "TimeoutSeconds": 20
+}
+```
+
+Unresolved or placeholder **BaseUrl** is treated as **not configured** (no call to a placeholder host). Gateway failures return a reason surfaced in the UI stored-response **error** field.
+
+## Device authorization model
+
+- **Enroll / verify** through method-specific `IDeviceVerifier` implementations.
+- **DevTestDeviceVerifier** — registered only outside Production when `TletsDevice:EnableDevTestVerifier` is true; startup fails if the flag is set in Production.
+- **DeviceVerifications** keyed by **TletsSessionKey** (`sr:{sub}|{rexp}` — Descope `sub` + refresh expiry; plain `nvarchar(200)`).
+- Verification window from **AgencyTletsSettings** (default **12** hours, allowed **1–24**).
+- **POST** `tlsapi/lets-queries/direct` runs `TletsDeviceAuthorizationFilter` (fail-closed: switch, user claims, active verification, device status/claims, verifier).
+- Every attempt writes a **LetsQueries** audit row (`Outcome`, `DenyReason`, `DeviceId`, `DeviceVerificationId`, `SessionId`, `ClientIp`, `CorrelationId`, `CompletedAt`).
+
+### Claims and support users
+
+- Claim keys: `Lets.Tlets.Query`, `Lets.Tlets.Chri`, `Lets.Tlets.DevicesApprove` (seeded).
+- **HasClaim** semantics: **ThinLine.Full.Support** passes user-claim checks for all TLETS claims; device verification and device claims still apply.
+
+### Admin APIs and UI
+
+| Surface | Route / location |
+|---------|------------------|
+| Device admin | `TletsDeviceAdminController` — list/approve/suspend/reactivate/revoke, claim grant/remove (agency-scoped, `DevicesApprove`) |
+| My devices | `GET tlsapi/tlets/devices/mine` — assigned devices + shared terminals this user enrolled |
+| User authorization display | `GET tlsapi/tlets/authorization/mine` |
+| Admin UI | **Admin → TLETS Devices** (`AdminTletsDevices`) |
+| Approve dialog | Confirms row permission checkboxes; API always grants TLETS query on approve; **CHRI** follows row checkbox state |
+
+DevTest enrollment: server-generated device ID (`TLETS-TEST-DEVICE-` + 12 chars), generated label `{USER NAME}-{TYPE}` with numeric suffix on collision.
+
+### SecurityLog events (filter names)
+
+Event IDs **9140–9231** (device lifecycle, agency enable/disable/settings, claim grant/remove) plus **9241** **TLETS Device Verification Failure**. Names are exposed on **Admin → Security Events** action filter (`AdminSecurityEventSearchOptions.vue`).
+
+## LETS Query UI (sandbox module)
+
+- **LETS Query** page: tabs **Query**, **Devices**, **History**.
+- **TletsAuthorizationCards** — user + device state on Query tab.
+- **TEST VERIFIER** badge and **Register this device** — DevTest only (`SandboxTletsDevice`, `SandboxTletsStepUpDialog`).
+- History: expandable row via `letsQueryHistoryDetails.ts`; columns include TLETS outcome and device id (internal troubleshooting).
+- Query validation: `letsDirectQueryRules.ts` (DQ/RQ required sets; **Requesting Officer** optional; gateway **UserId** = signed-in user).
+- Test reason code migration: `_QRC` test code (`AddTestLetsQueryReasonCode`).
+
+## IP allowlist and reasons
+
+Staff **IP allowlist** and verification window endpoints trim and uppercase stored values. Device action reasons use `TrimUpperOrNull` for status/revoke reasons and SecurityLog **Reason**.
+
+## Related
+
+- [TLETS application home](README.md)
+- [Direct-interface scope](direct-interface-scope.md)
+- [Open decisions](open-decisions.md)

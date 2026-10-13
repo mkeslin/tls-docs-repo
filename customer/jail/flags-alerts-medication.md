@@ -33,7 +33,7 @@ Changing a critical flag may require **Confirm Critical Flag Change**. Follow fa
 2. Open the due item → dialog **Log medication administration**.
 3. Set status **ADMINISTERED** or **UNABLE TO ADMINISTER**.
 4. Confirm **Administration date/time**.
-5. **Log administration**.
+5. Choose **Save** (the same label whether status is **ADMINISTERED** or **UNABLE TO ADMINISTER**).
 
 ## Medication Log (history)
 
