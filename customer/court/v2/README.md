@@ -20,7 +20,7 @@ V2 does not replace the V1 topic pages. Clerks and judges still use V1 guides fo
 
 Playwright end-to-end tests are **paused**. Demo unlock for the V2 ceiling is **unit/API green + Court BA PASS** on the claimed tip — not Playwright green.
 
-**Demo tip ceiling (ops):** `6234e081ca` (current pushed tip on `mkeslin/court-portal`; prior `64c4bd40a0`). Details and pitch boundaries are in [Demoable now](demoable-now.md).
+**Demo tip ceiling (ops):** `64c4bd40a0` (parent `b8a7ffcd48`; local unit green-up). Details and pitch boundaries are in [Demoable now](demoable-now.md). Later-tip behavior is documented in the pages linked from [Documented past the demo ceiling](demoable-now.md#documented-past-the-demo-ceiling-not-yet-approved-for-demos).
 
 ## Related
 

@@ -1,5 +1,7 @@
 # Portal and online options
 
+> **Past demo ceiling:** This page describes behavior at pushed tip `6234e081ca`, which is **past** the official demo ceiling `64c4bd40a0`. It is **not** approved for demos until Court BA scores that tip PASS and the tls-* Playwright suite is re-run. See [Demoable now](demoable-now.md).
+
 Defendant-facing **Court V2** flows start at **Court V2 Online Portal** (`/public/portal`) after citation lookup, or through links staff open from **Payment Links**.
 
 ## Outcome cards on the portal

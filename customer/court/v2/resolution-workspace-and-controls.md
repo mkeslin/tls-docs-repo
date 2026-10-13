@@ -1,6 +1,8 @@
 # Resolution workspace and form controls
 
-Court V2 **clerk resolution** work happens in the **Court Resolution** workspace (outcome cards, counter/tablet pairing, and judge-bound flows). This page covers workspace behavior and the shared **tls-*** form controls introduced on the court-portal branch.
+> **Past demo ceiling:** This page describes behavior at pushed tip `6234e081ca`, which is **past** the official demo ceiling `64c4bd40a0`. It is **not** approved for demos until Court BA scores that tip PASS and the tls-* Playwright suite is re-run. See [Demoable now](demoable-now.md).
+
+Court V2 **clerk resolution** work happens in the **Court Resolution** workspace (outcome cards, counter/tablet pairing, and judge-bound flows). This page covers workspace behavior and the shared **tls-*** form controls in the current Court V2 build.
 
 ## Payment Links → Online Portal
 
@@ -18,7 +20,7 @@ Staff use **Court V2 Online Portal** to preview or assist with the same online p
 
 Court and portal screens increasingly use Thin Line **tls-*** wrappers (for example `tls-text-field`, `tls-select`, `tls-date`, `tls-date-time`, `tls-checkbox`, `tls-numeric-input`, `tls-file-input`) instead of raw HTML inputs or legacy Vuetify fields. Behavior and validation should match the labeled control; test ids on critical flows are preserved for regression testing.
 
-**Verification note:** Playwright end-to-end walks have **not** been re-run on the full tls-* control migration at the current demo tip. Demo unlock remains **unit/API green + Court BA PASS** (see [Demoable now](demoable-now.md)).
+**Verification note:** Playwright end-to-end walks have **not** been re-run on the full tls-* control migration at tip `6234e081ca`. The official demo ceiling remains `64c4bd40a0` (see [Demoable now](demoable-now.md)).
 
 ## NEW intake: date of birth and speed
 

@@ -101,9 +101,9 @@ Defendant or clerk assist places **community service** in **draft**, then **subm
 
 Judge **Approve**, **Reject**, and **NeedsInfo** are staff-only on the judge queue / panel for this packet type.
 
-## 9. Court-portal additions (same ceiling)
+## 9. Documented past the demo ceiling (reference only)
 
-After Phase 4 packets, the court-portal branch adds staff and portal behavior documented in dedicated pages (not a separate demo phase number):
+After Phase 4 packets, the current Court V2 build adds staff and portal behavior that is **not** on the on-pitch walk at `64c4bd40a0`. See [Demoable now — Documented past the demo ceiling](demoable-now.md#documented-past-the-demo-ceiling-not-yet-approved-for-demos). Reference pages:
 
 | Topic | Where to read |
 |-------|----------------|
@@ -117,4 +117,4 @@ After Phase 4 packets, the court-portal branch adds staff and portal behavior do
 
 ## End of current ceiling
 
-Steps above match the **on-pitch** list in [Demoable now](demoable-now.md). Production **V1/V2 cutover** is **not** part of this walk — local dual-path remains approved for demos only.
+Steps **1–8** match the **on-pitch** list in [Demoable now](demoable-now.md). Step **9** is documentation only — not demo-approved. Production **V1/V2 cutover** is **not** part of this walk — local dual-path remains approved for demos only.

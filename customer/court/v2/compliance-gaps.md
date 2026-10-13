@@ -1,6 +1,8 @@
 # Compliance gaps (customer-facing honesty)
 
-Court V2 on the court-portal branch adds many statutory checks, but **Thin Line does not claim full Texas Code of Criminal Procedure compliance** for every offense and edge case. Use this page when sales, clerks, or judges ask whether “everything in the statute” is automated.
+> **Past demo ceiling:** This page describes behavior at pushed tip `6234e081ca`, which is **past** the official demo ceiling `64c4bd40a0`. It is **not** approved for demos until Court BA scores that tip PASS and the tls-* Playwright suite is re-run. See [Demoable now](demoable-now.md).
+
+Court V2 in the current Court V2 build adds many statutory checks, but **Thin Line does not claim full Texas Code of Criminal Procedure compliance** for every offense and edge case. Use this page when sales, clerks, or judges ask whether “everything in the statute” is automated.
 
 ## Not treated as fully supported in customer materials
 
@@ -11,7 +13,7 @@ The following items are **open in legal/audit review** or intentionally not pitc
 | **DSC speed deny** (CCP **45A.352(a)(5)** and related speed thresholds) | Speed facts are collected on NEW intake and health checks exist; **full speed-based DSC deny alignment is not documented as complete** for Texas compliance. |
 | **Youth diversion** parent consent, prior diversion, and prosecutor rules | UI collects parent/guardian signatures and clerk objection/prior fields; **full CCP 45.304 consent and prosecution rules are not documented as complete**. |
 | **Minors with two or more alcohol priors** | **Not documented as supported** in this release slice. |
-| **Playwright e2e on tls-* controls** | End-to-end UI automation has **not** been re-run on the tls-* migration at the current demo tip. |
+| **Playwright e2e on tls-* controls** | End-to-end UI automation has **not** been re-run on the tls-* migration at tip `6234e081ca` (past official ceiling `64c4bd40a0`). |
 
 ## What to say about online DSC
 

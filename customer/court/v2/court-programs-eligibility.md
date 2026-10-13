@@ -1,5 +1,7 @@
 # Court programs and eligibility
 
+> **Past demo ceiling:** This page describes behavior at pushed tip `6234e081ca`, which is **past** the official demo ceiling `64c4bd40a0`. It is **not** approved for demos until Court BA scores that tip PASS and the tls-* Playwright suite is re-run. See [Demoable now](demoable-now.md).
+
 Court V2 **court program** packets (driving safety course, deferred disposition, youth diversion, and related clerk/tablet flows) share one spine: defendant or clerk **submits**; a judge **Approve**, **Reject**, or **NeedsInfo** enrolls or denies the program.
 
 ## Statutory clocks (read-only in V2 UI)
@@ -9,7 +11,7 @@ Court V2 **court program** packets (driving safety course, deferred disposition,
 | **Driving safety course (DSC)** | **90** days |
 | **Deferred disposition** | **180** days (default/cap; over-max dates clamp server-side) |
 
-Copy appears on clerk program flows, portal program request, and online judge-packet stubs. Agency default day fields in admin are capped to the same statutory limits on the court-portal branch.
+Copy appears on clerk program flows, portal program request, and online judge-packet stubs. Agency default day fields in admin are capped to the same statutory limits in the current Court V2 build.
 
 ## Tier 1 eligibility (DSC and deferred)
 
