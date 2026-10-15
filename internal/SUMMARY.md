@@ -167,6 +167,11 @@
     * [Open decisions](compliance/tlets/open-decisions.md)
     * [Agency guide (planned)](compliance/tlets/agency-guide-planned.md)
 
+## Court
+
+* [Court](court/README.md)
+  * [Court V2 decisions log](court/v2/decisions-log.md)
+
 ## Backlog & design
 
 * [Backlog & design](backlog/README.md)
