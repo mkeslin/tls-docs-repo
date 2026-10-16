@@ -74,7 +74,11 @@ This is the authoritative list of Court V2 product decisions Matthew Keslin has 
 - **Fee amount (2026-10-15).** It follows the TMCEC chart. Fixed fees can't be edited. Where the chart says "up to" an amount, the fee defaults to the maximum and the clerk can lower it within the range, which is logged.
 - **Submit checks (2026-10-15).** Deadline met, signed, fee recorded, plus proof verified (paper) or at least one proof file (tablet).
 - **Judge approval (2026-10-15).** Approve generates the signed order and dismisses the case.
-- **Needs Info and denial (2026-10-15).** Needs Info returns the packet to the Clerk Queue. The clerk contacts the violator, updates it and resubmits, and the fee stays paid. A denial goes to the Clerk Queue as a follow-up so the violator can choose another outcome, and the fee is refunded.
+- **Needs Info and denial (2026-10-15).** Needs Info returns the packet to the Clerk Queue. The clerk contacts the violator, updates it and resubmits, and the fee stays paid. A denial goes to the Clerk Queue as a follow-up so the violator can choose another outcome. There's no automatic refund: a denied or cancelled packet with a posted fee is flagged in the Clerk Queue for the court administrator to resolve (2026-10-16).
+- **Fee booking (2026-10-16).** When the fee is posted, the case's fine lines are zeroed, the CD fee is added as its own line, and the payment credits it, all in one transaction.
+- **Fees (2026-10-15).** Every fee on the 2025 TMCEC chart is a 'not to exceed' amount, so none are fixed.
+- **Order (2026-10-15).** A one-page Motion to Dismiss for Compliance and Order. The judge draws a signature (the same dialog as other dismissals), and compliance dismissals are excluded from batch approve.
+- **Deadline (2026-10-15).** 'Expired at today's date' is only a warning. Submit is blocked only when the remedy date is after the deadline.
 - **Registration (502.407(b)).** Dismissal is discretionary. The violator must remedy it and pay the delinquent registration fee. The deadline is 20 working days after the offense or before the first appearance, whichever is later. The fee is optional, up to $20.
 
 ## Dismissals (prosecutor and judge)
