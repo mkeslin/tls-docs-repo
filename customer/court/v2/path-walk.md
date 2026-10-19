@@ -12,6 +12,10 @@ Defendant or clerk assist starts a **typed disposition packet** (for example pay
 - **One active packet** at a time for the spine rules in effect on your build.
 - Paid Phase 1 types: capture at submit; refund on reject — per locked Phase 1 money rules. Do not reopen compliance-dismissal hard-cut or rule-pack pitch in customer conversations.
 
+![Portal outcome cards for typed dispositions](images/court-v2-portal-resolve-options.png)
+
+*Defendants or clerks start typed disposition packets from portal outcome cards or the in-person outcomes hub.*
+
 ## 2. Issuance PC cite (Phase 2)
 
 On the law-enforcement / issuance side, the citation carries **issuance quality**: oath record, catalog-driven PC narrative, and **court-record attachments** on the violation (PDFs and similar — not a print-queue product story).
@@ -20,11 +24,27 @@ Issuing officer corrections use **addendum-only** behavior; clerks and judges **
 
 At the [current demo ceiling](demoable-now.md), **Issuance PC cite** is on pitch together with **clerk ↔ tablet** counter flow.
 
+![Officer Issuance PC offense selection](images/court-v2-officer-issuance-pc.png)
+
+*Officers build probable-cause and catalog quality on the Issuance PC workflow before the case reaches court.*
+
 ## 2b. Clerk ↔ tablet handshake
 
 For in-person counter work, clerk pairs a tablet through **`/public/counter-device`** until the UI shows **Tablet connected**, then continues packet assist on the shared V2 spine (same types as portal Clerk Assist).
 
 **ON pitch** at the [current demo ceiling](demoable-now.md) — approved for demos (two-browser verify on prior ceiling). See [Demoable now](demoable-now.md) for the full boundary.
+
+![Counter tablet pairing landing](images/court-v2-counter-device-landing.png)
+
+*The clerk opens the counter-device page to pair a tablet for in-person packet assist.*
+
+![Tablet connected — case menu on the tablet](images/court-v2-counter-device-tablet-connected.png)
+
+*After pairing, the tablet shows the connected session and case menu for the violator.*
+
+![Clerk workspace showing Tablet connected](images/court-v2-workspace-tablet-connected.png)
+
+*The clerk workspace confirms **Tablet connected** on the same case.*
 
 ## 3. Package read
 
@@ -59,6 +79,10 @@ Defendant or clerk assist drafts a **hardship** packet.
 **Payment plan combined** host is approved for demos. **Pay in full combined** is a known gap, not shipped — do not pitch as shipped.
 
 Staff surfaces follow the same dual-channel pattern as other Phase 4 packets (portal + clerk assist + judge queue).
+
+![Online hardship (ability to pay) packet](images/court-v2-portal-hardship.png)
+
+*Hardship packets can be started online when eligibility allows; evidence rules apply at submit.*
 
 ## 7. Extension (Phase 4.2)
 
@@ -100,6 +124,14 @@ Defendant or clerk assist places **community service** in **draft**, then **subm
 | Clerk assist | `/module/court-violation/community-service-clerk-assist` |
 
 Judge **Approve**, **Reject**, and **NeedsInfo** are staff-only on the judge queue / panel for this packet type.
+
+![Community service clerk assist](images/court-v2-module-community-service-clerk-assist.png)
+
+*Clerks open community service clerk assist from the module routes listed above.*
+
+![Judge Queue program or packet review](images/court-v2-judge-queue-program-card.png)
+
+*Judges approve, reject, or return **Needs Info** on submitted packets from the Judge Queue.*
 
 ## 9. Documented past the demo ceiling (reference only)
 

@@ -8,6 +8,14 @@ Sales-facing boundary for what you may **pitch** on the Court V2 packet path. Th
 
 You may demonstrate this ordered story on a local/dev build at the tip above:
 
+![Officer Issuance PC (demo slice)](images/court-v2-officer-issuance-pc.png)
+
+*Issuance PC cite covers oath, catalog, and court-record attachments on the citation.*
+
+![Clerk ↔ tablet handshake (demo slice)](images/court-v2-workspace-tablet-connected.png)
+
+*Counter pairing shows **Tablet connected** on the clerk workspace for in-person packet assist.*
+
 | Slice | What to show |
 |-------|----------------|
 | **Phase 1 typed dispositions** | Defendant-initiated packet types on the shared spine (portal + clerk assist + judge queue). Compliance dismissal stays on the **locked Phase 1** packet model — do not reopen CD hard-cut or rule-pack pitch. |
