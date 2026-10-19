@@ -66,6 +66,7 @@ This is the authoritative list of Court V2 product decisions Matthew Keslin has 
 - **Agency (2026-10-14).** Queues use the selected agency. There's no agency ID field.
 - **Permission labels (2026-10-14).** "View court queues", "Work Clerk Queue", "Work Judge Queue (rule on packets)", "Work Prosecutor Queue".
 - **Court V2 switch (2026-10-16).** The agency setting formerly labelled for the online portal is the single on-switch for all of Court V2 (portal, in-person workspace, paper, queues, dashboard card, V2 case panels). Label: 'Turn on Court V2 for this agency'.
+- **One-way switch (2026-10-19).** Courts only ever move onto Court V2; it's never turned off once enabled, so there's no handling for turning it off (for example, open portal sessions aren't cut off).
 - **Warrant and issuance pages (2026-10-19).** FTA/CPF/LPC warrant pages and officer IssuancePc stay available to every agency. Portal acknowledgment (PortalAckStaff) is gated by the V2 switch.
 
 ## Compliance dismissal
