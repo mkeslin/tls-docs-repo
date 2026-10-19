@@ -65,6 +65,8 @@ This is the authoritative list of Court V2 product decisions Matthew Keslin has 
 - **Documents (2026-10-14).** Queues show the judge the packet documents and all available case information.
 - **Agency (2026-10-14).** Queues use the selected agency. There's no agency ID field.
 - **Permission labels (2026-10-14).** "View court queues", "Work Clerk Queue", "Work Judge Queue (rule on packets)", "Work Prosecutor Queue".
+- **Court V2 switch (2026-10-16).** The agency setting formerly labelled for the online portal is the single on-switch for all of Court V2 (portal, in-person workspace, paper, queues, dashboard card, V2 case panels). Label: 'Turn on Court V2 for this agency'.
+- **Warrant and issuance pages (2026-10-19).** FTA/CPF/LPC warrant pages and officer IssuancePc stay available to every agency. Portal acknowledgment (PortalAckStaff) is gated by the V2 switch.
 
 ## Compliance dismissal
 - **Scope (2026-09-25).** Only rule packs on the 2025 TMCEC Compliance Dismissals Chart are offered. FMFR and display-DL are included. The judge signs every compliance dismissal, whether the chart says "shall" or "may".
