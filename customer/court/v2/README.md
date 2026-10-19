@@ -4,6 +4,10 @@ These pages describe the **Court V2** path: defendant-initiated **typed disposit
 
 V2 does not replace the V1 topic pages. Clerks and judges still use V1 guides for day-to-day procedural states, queues, payments, and documents unless you are explicitly walking the V2 packet overlay.
 
+![Court V2 Online Portal lookup](images/court-v2-portal-lookup.png)
+
+*Court V2 defendant flows begin at the online portal citation lookup, or through payment links staff open from a case.*
+
 ## Pages in this set
 
 | Page | Use when |

@@ -17,6 +17,10 @@ Copy appears on clerk program flows, portal program request, and online judge-pa
 
 The resolution hub and portal gate **Driving safety course** and **Deferred disposition** using shared statutory rules. Examples reflected in product behavior and demo fixtures:
 
+![Resolution hub with driving safety and deferred outcome cards](images/court-v2-workspace-outcomes-hub.png)
+
+*The resolution hub shows which court program outcomes are available or denied before the violator or clerk starts a packet.*
+
 | Situation | Typical hub/portal result |
 |-----------|---------------------------|
 | **CDL** (citation driver license class) | DSC denied; deferred denied on moving violations |
@@ -28,6 +32,10 @@ The resolution hub and portal gate **Driving safety course** and **Deferred disp
 | **Leave scene** offenses (TC **550.022** / **550.023**) | DSC **hard deny**; deferred may remain available with discretionary notes |
 
 Judge queue cards for court programs can show a blue **Statutory notes (informational)** box, optional forced-DSC line, and *Approve re-checks these rules against current case facts.*
+
+![Judge Queue program packet with statutory notes](images/court-v2-judge-queue-program-card.png)
+
+*A deferred disposition or driving safety course packet in the Judge Queue can show statutory notes before approve or reject.*
 
 ## DSC request details (portal and clerk)
 
@@ -49,6 +57,10 @@ While a driving safety course is **active**, defendants or staff can use **Ask f
 ## Youth diversion (ages 10–16, non-traffic)
 
 Youth diversion targets eligible minors (product rules: age **10–16**, **non-traffic**, offense type present). UI and server checks include:
+
+![Juvenile resolution hub with minor-plea panel](images/court-v2-workspace-outcomes-hub-juvenile.png)
+
+*Juvenile cases can show **Juvenile combined** on the hub plus minor-plea requirements on the status area.*
 
 | Area | Product behavior |
 |------|------------------|
@@ -74,6 +86,22 @@ These panels appear on the court violation **Status** area when rules apply:
 | **Ability to pay inquiry** | CCP **45A.252** / **45A.253** — judge records ability-to-pay answer before judgment. |
 | **Community service completed** | CCP **45A.254** — record completion hours and credit. |
 | **Chemical dependency deferral** | CCP **45A.402** — pre-judgment chemical dependency deferral on eligible cases. |
+
+![Minor plea — parent or guardian present panel](images/court-v2-status-minor-plea-parent-presence.png)
+
+*Records whether a parent or guardian was present for a minor plea under CCP 45.0215.*
+
+![Parent nonattendance dismissal panel](images/court-v2-status-parent-nonattendance.png)
+
+*Staff can start a parent nonattendance dismissal packet from the status area.*
+
+![Ability-to-pay inquiry panel](images/court-v2-status-ability-to-pay.png)
+
+*The judge records an ability-to-pay finding before judgment when required.*
+
+![Defer — chemical dependency dialog](images/court-v2-status-chemical-dependency.png)
+
+*Eligible cases can open the chemical dependency deferral workflow from the case status menu.*
 
 ## Related
 

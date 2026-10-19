@@ -16,6 +16,14 @@ On a court violation, expand **Payment Links** in the left navigation:
 
 Staff use **Court V2 Online Portal** to preview or assist with the same online paths defendants see after lookup.
 
+![Online citation payment (public link)](images/court-v2-payment-link-online.png)
+
+*The online payment link opens the public citation payment flow in a new tab.*
+
+![In-person desk payment (public link)](images/court-v2-payment-link-desk.png)
+
+*The in-person payment link opens the desk payment flow staff use at the counter.*
+
 ## tls-* controls (staff and portal)
 
 Court and portal screens increasingly use Thin Line **tls-*** wrappers (for example `tls-text-field`, `tls-select`, `tls-date`, `tls-date-time`, `tls-checkbox`, `tls-numeric-input`, `tls-file-input`) instead of raw HTML inputs or legacy Vuetify fields. Behavior and validation should match the labeled control; test ids on critical flows are preserved for regression testing.
@@ -33,6 +41,14 @@ Before **Proceed to Pre-Plea**, the workspace enforces person data on the case:
 
 Use the **NEW** intake panel on the resolution hub (desktop sidebar and mobile strip under the header).
 
+![Court Resolution workspace, NEW intake panel](images/court-v2-workspace-new-intake.png)
+
+*On a NEW case, the intake panel collects offense, appearance, fees, date of birth, and speed facts before proceed to pre-plea.*
+
+![Court Resolution outcomes hub (pre-plea)](images/court-v2-workspace-outcomes-hub.png)
+
+*The outcomes hub lists violator options and clerk actions for a case ready for resolution work.*
+
 ## Enter a plea of not guilty
 
 The dedicated **Enter a plea of not guilty** path replaces the generic enter-plea judge packet for not-guilty pleas:
@@ -49,6 +65,22 @@ Guilty and no contest remain on other online options (pay in full, driving safet
 
 - **Clerk ↔ tablet** pairing for outcome review is unchanged in purpose; see [Path walk](path-walk.md).
 - When a judge returns **NeedsInfo** on hardship, community service, or similar outcome packets, the counter can **resubmit** after the defendant updates the tablet draft (staff APIs expose review context including the judge note).
+
+![Clerk workspace with tablet connected](images/court-v2-workspace-tablet-connected.png)
+
+*After pairing, the workspace shows **Tablet connected** so the clerk and violator can continue on the shared outcome path.*
+
+![Clerk Queue, Needs Info section](images/court-v2-clerk-queue-needs-info.png)
+
+*Packets returned with **Needs Info** appear in the Clerk Queue for follow-up.*
+
+![Needs Info card with resubmit](images/court-v2-clerk-needs-info-resubmit-card.png)
+
+*The clerk can save edits and **Resubmit** after the violator updates the packet on the tablet.*
+
+![Workspace banner for an unapproved outcome (Needs Info)](images/court-v2-workspace-needs-info.png)
+
+*The outcomes hub can show an unapproved outcome with **Go back** or **Cancel** while judge review is pending.*
 
 ## Hub refresh after cancel
 
