@@ -43,6 +43,7 @@ This is the authoritative list of Court V2 product decisions Matthew Keslin has 
 - **Stacking order (2026-10-14).** To fix layering, lower the component's own z-index (the In-Person drawer). Don't raise the shared values. The person drawer must open on top.
 - **Legal basis card (2026-10-14).** It sits under Pair tablet, with statute links.
 - **Draft outcome alert (2026-10-14).** It offers "Go back to outcome" next to Cancel.
+- **Clerk Dismiss case removed (2026-10-19).** The clerk's direct Dismiss case action was removed. Dismissals go through the request flows. (BA call, Matthew informed; built locally, not pushed.)
 
 ## Paper path
 - **Flow (2026-10-06).** The clerk starts the outcome as Paper, prints the filled packet, the violator hand-signs, the clerk marks it signed and submits it for the judge as Paper, and the judge approves, rejects or returns it with the same case effects. The paper is the record.
@@ -50,6 +51,10 @@ This is the authoritative list of Court V2 product decisions Matthew Keslin has 
 - **Payment (2026-10-15).** The clerk enters the payment method and payment on their screen and can print a receipt.
 - **Packet printing (2026-10-14).** Every document in the packet is listed, based on the case's current state, with a Print button for each plus "Print all (one PDF)".
 - **First rollout (2026-10-15).** Testing and rollout start with in-person paper flows. The portal and tablet come later.
+- **Paper plea copy (2026-10-19).** On paper, the clerk copies the plea (guilty or no contest, no default) from the hand-signed form for payment plan, community service, DSC and Deferred. The hand-signed mark records the jury waiver. (BA call, Matthew informed; built locally, not pushed.)
+- **Paper proof is a clerk check (2026-10-19).** Paper proof is a clerk check, never an upload. It covers the prosecutor's signed motion (CCP 32.02), the school's proof (45A.403), DSC proof of insurance, and soon the youth diversion prosecutor objection. The server records who and when, a judge return clears the check, and the queue card shows the verified line. On a resubmit after a return, an upload already on file counts for DSC but not for school proof. (BA call, Matthew informed; built locally, not pushed.)
+- **Paper DSC military status (2026-10-19).** On paper DSC the clerk copies the military status from the signed form, with no default. License state comes from the person record. (BA call, Matthew informed; built locally, not pushed.)
+- **Tablet-started, paper-finished (2026-10-19).** A request started on the tablet and finished on paper is checked by the paper rules (printed plus hand-signed), not the tablet answers. (BA call, Matthew informed; built locally, not pushed.)
 
 ## Tablet path
 - **Controls (2026-10-14).** All tablet controls follow the tls-* rules.
@@ -68,6 +73,7 @@ This is the authoritative list of Court V2 product decisions Matthew Keslin has 
 - **Court V2 switch (2026-10-16).** The agency setting formerly labelled for the online portal is the single on-switch for all of Court V2 (portal, in-person workspace, paper, queues, dashboard card, V2 case panels). Label: 'Turn on Court V2 for this agency'.
 - **One-way switch (2026-10-19).** Courts only ever move onto Court V2; it's never turned off once enabled, so there's no handling for turning it off (for example, open portal sessions aren't cut off).
 - **Warrant and issuance pages (2026-10-19).** FTA/CPF/LPC warrant pages and officer IssuancePc stay available to every agency. Portal acknowledgment (PortalAckStaff) is gated by the V2 switch.
+- **Batch paper approve (2026-10-19).** The judge can batch-approve paper packets with the paper check. One unconfirmed paper packet refuses the whole batch, dismissal types are refused per packet, the server requires notes, and verify plus approve run as one transaction. (BA call, Matthew informed; built locally, not pushed.)
 
 ## Compliance dismissal
 - **Scope (2026-09-25).** Only rule packs on the 2025 TMCEC Compliance Dismissals Chart are offered. FMFR and display-DL are included. The judge signs every compliance dismissal, whether the chart says "shall" or "may".
@@ -83,6 +89,7 @@ This is the authoritative list of Court V2 product decisions Matthew Keslin has 
 - **Order (2026-10-15).** A one-page Motion to Dismiss for Compliance and Order. The judge draws a signature (the same dialog as other dismissals), and compliance dismissals are excluded from batch approve.
 - **Deadline (2026-10-15).** 'Expired at today's date' is only a warning. Submit is blocked only when the remedy date is after the deadline.
 - **Registration (502.407(b)).** Dismissal is discretionary. The violator must remedy it and pay the delinquent registration fee. The deadline is 20 working days after the offense or before the first appearance, whichever is later. The fee is optional, up to $20.
+- **Refund copy (2026-10-19).** The screen says "refunded", never "refunded by check". When pay in full is cancelled or rejected after payment posted, the payment is reversed as a refund. A compliance dismissal with a posted fee is not refunded automatically; it's flagged on the Clerk Queue. (BA call, Matthew informed; built locally, not pushed.)
 
 ## Dismissals (prosecutor and judge)
 - **Prosecutor role (2026-10-13).** Dismissals need a prosecutor role and a prosecutor queue.
@@ -99,8 +106,10 @@ This is the authoritative list of Court V2 product decisions Matthew Keslin has 
 - **Deferred (2026-10-06).** When Available, it's like DSC: the plea is folded into the packet.
 - **DSC and Deferred eligibility (2026-09-25).** Live eligibility is used at Available and at Submit, not just the case stage.
 - **Community service and payment plan (2026-09-25).** They can be requested without a Hardship packet, and approving one is the ability-to-pay finding. Payment plan approval signs the judgment and then activates the schedule.
+- **Community service with no judgment on file (2026-10-19).** Community service from pre-plea or post-plea with no judgment on file: approval stamps a guilty judgment and doesn't check the ability-to-pay answers, per the 9/25 decision. (BA call, Matthew informed; built locally, not pushed.)
 - **Hardship (2026-09-24).** It's its own outcome using the full TMCEC Indigent Application, and financial disclosure fields are required at submit.
 - **Pay in full (2026-10-05).** It's blocked online and by mail for FV and other deny-list offenses, so the violator must appear. Counter paths stay open.
+- **Pay in full and pleas (2026-10-19).** Pay in full keeps any plea already on the case, and the judge doesn't have to answer the ability-to-pay questions before approving it. (BA call, Matthew informed; built locally, not pushed.)
 - **Teen court (2026-10-12).** Hours are optional for the clerk to enter.
 - **Youth Diversion (2026-10-06 to 10-11).** Ages 10 to 16, non-traffic, fine-only, counter or paper only (blocked online). Records are confidential, visible to court staff only, with anonymous counts. Only a judge enters hearing orders, with a drawn signature.
 - **Juvenile Combined (2026-09-25).** A clerk and tablet outcome, blocked online.
