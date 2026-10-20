@@ -38,12 +38,14 @@ This is the authoritative list of Court V2 product decisions Matthew Keslin has 
 
 ## In-person workspace (clerk screen)
 - **Layout (2026-10-07).** Outcomes (violator options) on the left, Clerk actions in the middle, Tablet on the right. On narrow screens the actions collapse into a top menu.
-- **Middle column (2026-10-15).** "Case requests and orders" lives here. It holds the dismissal requests, parent nonattendance, ability to pay, fine waiver, commitment discharge and DSC more-time panels, each gated by case state and claim. The deprecated utility drawer no longer shows them.
+- **Middle column (2026-10-15).** "Case requests and orders" lives here. It holds the dismissal requests, parent nonattendance, ability to pay, fine waiver, commitment discharge and DSC more-time panels, each gated by case state and claim. The deprecated utility drawer no longer shows them. Superseded/refined by DSC more time after failure (2026-10-20).
+- **DSC more time after failure (2026-10-20).** DSC more time is allowed after a failure to complete, as a judge good-cause ruling (45A.355), until guilt is adjudicated. (Matthew approved BA default, 2026-10-20.)
 - **Person edits (2026-10-14).** Edits happen in the person detail drawer, not through an Edit button in the In-Person drawer. Saving refreshes the In-Person drawer.
 - **Stacking order (2026-10-14).** To fix layering, lower the component's own z-index (the In-Person drawer). Don't raise the shared values. The person drawer must open on top.
 - **Legal basis card (2026-10-14).** It sits under Pair tablet, with statute links.
 - **Draft outcome alert (2026-10-14).** It offers "Go back to outcome" next to Cancel.
-- **Clerk Dismiss case removed (2026-10-19).** The clerk's direct Dismiss case action was removed. Dismissals go through the request flows. (BA call, Matthew informed; built locally, not pushed.)
+- **Clerk Dismiss case removed (2026-10-19).** The clerk's direct Dismiss case action was removed. Dismissals go through the request flows. (BA call, Matthew informed; built locally, not pushed.) Superseded/refined by Submit for dismissal (2026-10-20).
+- **Submit for dismissal (2026-10-20).** In V2, the clerk drawer's Dismiss becomes Submit for dismissal, which routes to the judge. (Matthew approved BA default, 2026-10-20.)
 
 ## Paper path
 - **Flow (2026-10-06).** The clerk starts the outcome as Paper, prints the filled packet, the violator hand-signs, the clerk marks it signed and submits it for the judge as Paper, and the judge approves, rejects or returns it with the same case effects. The paper is the record.
@@ -55,6 +57,7 @@ This is the authoritative list of Court V2 product decisions Matthew Keslin has 
 - **Paper proof is a clerk check (2026-10-19).** Paper proof is a clerk check, never an upload. It covers the prosecutor's signed motion (CCP 32.02), the school's proof (45A.403), DSC proof of insurance, and soon the youth diversion prosecutor objection. The server records who and when, a judge return clears the check, and the queue card shows the verified line. On a resubmit after a return, an upload already on file counts for DSC but not for school proof. (BA call, Matthew informed; built locally, not pushed.)
 - **Paper DSC military status (2026-10-19).** On paper DSC the clerk copies the military status from the signed form, with no default. License state comes from the person record. (BA call, Matthew informed; built locally, not pushed.)
 - **Tablet-started, paper-finished (2026-10-19).** A request started on the tablet and finished on paper is checked by the paper rules (printed plus hand-signed), not the tablet answers. (BA call, Matthew informed; built locally, not pushed.)
+- **Paper hardship (2026-10-20).** Paper hardship uses a signed sworn financial form, and the software tracks its flags. (Matthew approved BA default, 2026-10-20.)
 
 ## Tablet path
 - **Controls (2026-10-14).** All tablet controls follow the tls-* rules.
@@ -74,6 +77,7 @@ This is the authoritative list of Court V2 product decisions Matthew Keslin has 
 - **One-way switch (2026-10-19).** Courts only ever move onto Court V2; it's never turned off once enabled, so there's no handling for turning it off (for example, open portal sessions aren't cut off).
 - **Warrant and issuance pages (2026-10-19).** FTA/CPF/LPC warrant pages and officer IssuancePc stay available to every agency. Portal acknowledgment (PortalAckStaff) is gated by the V2 switch.
 - **Batch paper approve (2026-10-19).** The judge can batch-approve paper packets with the paper check. One unconfirmed paper packet refuses the whole batch, dismissal types are refused per packet, the server requires notes, and verify plus approve run as one transaction. (BA call, Matthew informed; built locally, not pushed.)
+- **Support users and judge actions (2026-10-20).** Support users never approve or sign as the judge (AG Op. JM-373; 45A.051(h)). (Matthew approved BA default, 2026-10-20.)
 
 ## Compliance dismissal
 - **Scope (2026-09-25).** Only rule packs on the 2025 TMCEC Compliance Dismissals Chart are offered. FMFR and display-DL are included. The judge signs every compliance dismissal, whether the chart says "shall" or "may".
@@ -83,13 +87,15 @@ This is the authoritative list of Court V2 product decisions Matthew Keslin has 
 - **Fee amount (2026-10-15).** It follows the TMCEC chart. Fixed fees can't be edited. Where the chart says "up to" an amount, the fee defaults to the maximum and the clerk can lower it within the range, which is logged.
 - **Submit checks (2026-10-15).** Deadline met, signed, fee recorded, plus proof verified (paper) or at least one proof file (tablet).
 - **Judge approval (2026-10-15).** Approve generates the signed order and dismisses the case.
-- **Needs Info and denial (2026-10-15).** Needs Info returns the packet to the Clerk Queue. The clerk contacts the violator, updates it and resubmits, and the fee stays paid. A denial goes to the Clerk Queue as a follow-up so the violator can choose another outcome. There's no automatic refund: a denied or cancelled packet with a posted fee is flagged in the Clerk Queue for the court administrator to resolve (2026-10-16).
-- **Fee booking (2026-10-16).** When the fee is posted, the case's fine lines are zeroed, the CD fee is added as its own line, and the payment credits it, all in one transaction.
+- **Needs Info and denial (2026-10-15).** Needs Info returns the packet to the Clerk Queue. The clerk contacts the violator, updates it and resubmits, and the fee stays paid. A denial goes to the Clerk Queue as a follow-up so the violator can choose another outcome. There's no automatic refund: a denied or cancelled packet with a posted fee is flagged in the Clerk Queue for the court administrator to resolve (2026-10-16). Superseded/refined by Compliance dismissal fee with prior payments (2026-10-20).
+- **Fee booking (2026-10-16).** When the fee is posted, the case's fine lines are zeroed, the CD fee is added as its own line, and the payment credits it, all in one transaction. Superseded/refined by Compliance dismissal fee with prior payments (2026-10-20).
 - **Fees (2026-10-15).** Every fee on the 2025 TMCEC chart is a 'not to exceed' amount, so none are fixed.
 - **Order (2026-10-15).** A one-page Motion to Dismiss for Compliance and Order. The judge draws a signature (the same dialog as other dismissals), and compliance dismissals are excluded from batch approve.
-- **Deadline (2026-10-15).** 'Expired at today's date' is only a warning. Submit is blocked only when the remedy date is after the deadline.
+- **Deadline (2026-10-15).** 'Expired at today's date' is only a warning. Submit is blocked only when the remedy date is after the deadline. Superseded/refined by Extensions and teen court (2026-10-20).
 - **Registration (502.407(b)).** Dismissal is discretionary. The violator must remedy it and pay the delinquent registration fee. The deadline is 20 working days after the offense or before the first appearance, whichever is later. The fee is optional, up to $20.
-- **Refund copy (2026-10-19).** The screen says "refunded", never "refunded by check". When pay in full is cancelled or rejected after payment posted, the payment is reversed as a refund. A compliance dismissal with a posted fee is not refunded automatically; it's flagged on the Clerk Queue. (BA call, Matthew informed; built locally, not pushed.)
+- **Refund copy (2026-10-19).** The screen says "refunded", never "refunded by check". When pay in full is cancelled or rejected after payment posted, the payment is reversed as a refund. A compliance dismissal with a posted fee is not refunded automatically; it's flagged on the Clerk Queue. (BA call, Matthew informed; built locally, not pushed.) Superseded/refined by Compliance dismissal fee with prior payments (2026-10-20).
+- **Compliance dismissal fee with prior payments (2026-10-20).** When a compliance dismissal fee zeroes the case, prior cash payments apply to the fee and any excess is flagged to the clerk as a refund due. Jail and community service credits are voided with an audit note. A compliance dismissal is blocked if a payment-as-plea judgment already exists. (Matthew approved BA default, 2026-10-20).
+- **Extensions and teen court (2026-10-20).** Extensions are always judge rulings, and compliance dismissal deadlines set by statute can't be extended. Teen court on paper or the tablet takes only the request and the fee, then sets an open-court hearing with a parent present (45A.401). (Matthew approved BA default, 2026-10-20).
 
 ## Dismissals (prosecutor and judge)
 - **Prosecutor role (2026-10-13).** Dismissals need a prosecutor role and a prosecutor queue.
@@ -100,6 +106,7 @@ This is the authoritative list of Court V2 product decisions Matthew Keslin has 
   - a judge-ordered dismissal (judicial discretion, clerical error, other, or parent nonattendance under 45A.403), which goes to the Judge Queue.
 - **Self-initiated (2026-10-15).** A prosecutor can file their own motion, which goes straight to the judge. A judge can sign their own order. The judge signs through a signature pad plus a confirm, and the signed order PDF is generated. Prosecutors can never sign orders.
 - **Declined requests (2026-10-15).** A prosecutor decline on a clerk request shows up as a Clerk Queue follow-up.
+- **Non-V2 dismissal entry (2026-10-20).** Non-V2 courts record dismissal types 1-4 directly; V2 stays judge-packet only. (Matthew approved BA default, 2026-10-20.)
 
 ## Outcomes
 - **DSC (2026-10-10).** Hard deny at 95+ mph or 25+ over the limit (CCP 45A.352(a)(5)). School bus (TC 545.066) is a DSC hard deny. Deferred is discretionary for both. Drivers under 25 choosing Deferred are forced into DSC.
@@ -107,11 +114,16 @@ This is the authoritative list of Court V2 product decisions Matthew Keslin has 
 - **DSC and Deferred eligibility (2026-09-25).** Live eligibility is used at Available and at Submit, not just the case stage.
 - **Community service and payment plan (2026-09-25).** They can be requested without a Hardship packet, and approving one is the ability-to-pay finding. Payment plan approval signs the judgment and then activates the schedule.
 - **Community service with no judgment on file (2026-10-19).** Community service from pre-plea or post-plea with no judgment on file: approval stamps a guilty judgment and doesn't check the ability-to-pay answers, per the 9/25 decision. (BA call, Matthew informed; built locally, not pushed.)
-- **Hardship (2026-09-24).** It's its own outcome using the full TMCEC Indigent Application, and financial disclosure fields are required at submit.
+- **Hardship (2026-09-24).** It's its own outcome using the full TMCEC Indigent Application, and financial disclosure fields are required at submit. Superseded/refined by Paper hardship (2026-10-20).
 - **Pay in full (2026-10-05).** It's blocked online and by mail for FV and other deny-list offenses, so the violator must appear. Counter paths stay open.
-- **Pay in full and pleas (2026-10-19).** Pay in full keeps any plea already on the case, and the judge doesn't have to answer the ability-to-pay questions before approving it. (BA call, Matthew informed; built locally, not pushed.)
-- **Teen court (2026-10-12).** Hours are optional for the clerk to enter.
+- **Pay in full and pleas (2026-10-19).** Pay in full keeps any plea already on the case, and the judge doesn't have to answer the ability-to-pay questions before approving it. (BA call, Matthew informed; built locally, not pushed.) Superseded/refined by Pay in full over a not-guilty plea (2026-10-20).
+- **Pay in full over a not-guilty plea (2026-10-20).** Paying in full over a not-guilty plea counts as a no-contest plea and jury waiver (CCP 27.14(c)), except for juveniles (45A.452) and family violence (45A.151(d)). The defendant sees a warning first. (Matthew approved BA default, 2026-10-20).
+- **New trial on the OCA report (2026-10-20).** A granted new trial keeps the conviction line (7a1) on the OCA report and adds a line 4. (Matthew approved BA default, 2026-10-20).
+- **Plea change at trial (2026-10-20).** A plea change to guilty or no contest at trial requires the ability-to-pay inquiry first (45A.252(a)). (Matthew approved BA default, 2026-10-20).
+- **Pre-authorized standard payment plans (2026-10-20).** Standard payment plans at the counter or on paper that the judge has pre-authorized skip the ability-to-pay questions. A claimed inability to pay, or a request for community service, a waiver or a non-standard plan, goes to the judge. (Matthew approved BA default, 2026-10-20).
+- **Teen court (2026-10-12).** Hours are optional for the clerk to enter. Superseded/refined by Extensions and teen court (2026-10-20).
 - **Youth Diversion (2026-10-06 to 10-11).** Ages 10 to 16, non-traffic, fine-only, counter or paper only (blocked online). Records are confidential, visible to court staff only, with anonymous counts. Only a judge enters hearing orders, with a drawn signature.
+- **Youth Diversion vs juvenile deferred (2026-10-20).** Youth Diversion (Subchapter K, 45A.501-.513) and juvenile deferred disposition (45A.302) stay separate outcomes. (Matthew approved BA default, 2026-10-20).
 - **Juvenile Combined (2026-09-25).** A clerk and tablet outcome, blocked online.
 
 ## Online portal
