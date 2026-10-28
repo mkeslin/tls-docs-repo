@@ -171,6 +171,7 @@
 
 * [Court](court/README.md)
   * [Court V2 decisions log](court/v2/decisions-log.md)
+  * [Court V2 demo ceiling](court/v2/demo-ceiling.md)
 
 ## Backlog & design
 

@@ -1,46 +1,45 @@
-# Court V1 vs Court V2 (demo walks)
+# Court V1 vs Court V2
 
-Use this page when you need to explain **two parallel stories** in the same local environment: classic **Court Violations (V1)** guides vs the **V2 packet overlay**.
+Use this page to explain what changes when a court turns on Court V2. Court V1 is the original way of working cases, described in the [Court](../README.md) pages. Court V2 is the outcome-based workflow described in this section.
 
-| | **Court V1** | **Court V2 (packet path)** |
-|---|--------------|---------------------------|
-| **Customer docs** | [Court guides](../README.md) — procedural states, queues, payments, programs, FTA, documents | [Court V2](README.md) — typed packets, issuance read path, limited portal ack, Phase 4 packets |
-| **Primary mental model** | Case **procedural state** and clerk **actions** on the violation | **Packets** on a shared spine: defendant submit → judge **Approve / Reject / NeedsInfo** |
-| **Defendant online** | V1 portal flows as documented in legacy court topics | Limited portal ack + Phase 1 and Phase 4 packet surfaces on the V2 spine |
-| **Judge work** | Pleas, judgment, programs, warrants per V1 pages | Packet queue outcomes; warrant slices as in [Path walk](path-walk.md); CS clock **only on Approve** |
-| **Issuance / PC** | Citations and court import per [RMS citations](../../rms/citations/README.md) | Phase 2 **issuance quality** + **package read** on the V2 walk |
-| **Compliance dismissal** | V1 [court programs](../court-programs.md) and related flows | Phase 1 **ComplianceDismissal packet** on V2 — **locked**; do not reopen CD hard-cut or rule-pack changes in customer docs |
-| **Production cutover** | Live product documentation today | **No** Phase 5 cutover date or customer feature-flag setting documented here |
+## The main differences
 
-## Local dual-path (approved for demos — not go-live)
+| | **Court V1** | **Court V2** |
+|---|--------------|--------------|
+| **Guides** | [Court](../README.md): case states, queues, payments, programs, FTA and documents | [Court V2](README.md) |
+| **How work starts** | The clerk moves the case from state to state with case actions | The violator or clerk picks an outcome, and Thin Line puts together the steps that outcome needs |
+| **Who decides** | The clerk records pleas, judgments and programs | The judge approves, rejects or returns each request (**Approve**, **Reject** or **Needs Info**) and signs every judgment and dismissal |
+| **Signatures** | As described in the Court pages | Always the violator's own signature: online, on the counter tablet, or on printed paper. Never a name typed by the clerk. |
+| **Queues** | Work queues by case state | The Clerk Queue, Judge Queue and Prosecutor Queue, plus the same work queues |
+| **Dismissals** | Recorded on the case | Always a request that the judge signs. The clerk uses **Request dismissal**; there's no direct dismiss for clerks. |
+| **Online** | Online payment | The Court V2 online portal: outcomes, not guilty pleas, notices and requests, with some outcomes kept for the counter |
+| **Issuance** | Citations and court import as described in [RMS citations](../../rms/citations/README.md) | Adds the officer's probable cause record, which the clerk and judge read in court |
+| **Compliance dismissal** | [Court programs](../court-programs.md) | A request that follows the TMCEC chart. The fee is collected at the counter, and the judge signs the order. |
 
-On a **local** or **dev** build at the [current demo ceiling](demoable-now.md), teams may run **V1 procedural court** and **V2 packet** flows **side by side** to compare behavior. That dual-path mode is **approved for demos only** — it is **not** Phase 5 production cutover and **not** a promise that every agency will operate both paths in production.
+## Turning on Court V2
 
-Do **not** invent:
+An administrator turns on Court V2 at **Admin > Agency > General** with **Turn on Court V2 for this agency**. It's admin-only, off by default, and one-way: once a court is on Court V2, it stays on. The work queues, calendar and reports work the same either way.
 
-- A customer-visible **feature flag** name or admin toggle for V2 cutover.
-- A **cutover date** or “automatic migration” story.
+You may run Court V1 and Court V2 side by side in a local demo environment to compare them. That isn't a production setup, so don't promise a cutover date or a migration plan.
 
-<mark style="color:red;">**Decision needed:**</mark> When Phase 5 cutover is ready for customer-facing language, this page should gain an implementation-linked section — until then, keep cutover out of pitches.
-
-## Which guide to hand someone
+## Which guide to give someone
 
 | Audience | Start here |
 |----------|------------|
-| Clerk learning daily court work | [Court (V1)](../README.md) and [How-tos](../how-tos/README.md) |
-| Sales / solutions demoing the packet overlay | [Demoable now](demoable-now.md) → [Path walk](path-walk.md) |
-| BA or engineering alignment | Phase specs and BA PASS scores (not duplicated in this customer set) |
+| Clerk at a court that hasn't turned on Court V2 | [Court (V1)](../README.md) and [How-tos](../how-tos/README.md) |
+| Clerk, judge or prosecutor at a Court V2 court | [Court V2](README.md) |
+| Sales or solutions showing Court V2 | [Demoable now](demoable-now.md), then [Path walk](path-walk.md) |
 
-## Locked differences to keep straight
+## Details that differ
 
-| Topic | V1 docs | V2 packet path |
-|-------|---------|----------------|
-| Pending work | Queues and procedural states | Active packet status; “pending judge” = submitted packet awaiting staff |
-| Hardship evidence | <mark style="color:red;">**TODO:**</mark> map to V1 finance/program pages if a separate V1 story exists | **Mandatory on Submit** for hardship packet |
-| Community service clock | <mark style="color:red;">**TODO:**</mark> confirm any legacy V1 CS program wording stays separate | Starts **only** on judge **Approve** |
-| Handshake / counter tablet | <mark style="color:red;">**TODO:**</mark> map any legacy V1 counter wording separately | **On pitch** at demo ceiling — `/public/counter-device` → **Tablet connected** ([Demoable now](demoable-now.md)) |
+| Topic | Court V1 | Court V2 |
+|-------|----------|----------|
+| Waiting for the judge | Work queues and case states | A submitted request waits in the Judge Queue until the judge acts |
+| Hardship evidence | See [Court programs](../court-programs.md) and [Payment plans](../payment-plans.md) | Evidence is required to submit online or on the tablet |
+| When community service starts | See [Court programs](../court-programs.md) | Only when the judge approves the request |
+| Counter tablet | Not used | The clerk pairs a counter tablet from the workspace so the violator can review and sign |
 
 ## Related
 
-- [Court V2 index](README.md)
+- [Court V2](README.md)
 - [Court (V1)](../README.md)
