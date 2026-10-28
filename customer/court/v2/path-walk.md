@@ -90,6 +90,7 @@ The current build adds more. These features are documented for training and plan
 | What violators can do online and what they finish at the counter | [Portal and online options](portal-and-online-options.md) |
 | Driving safety course and deferred eligibility, program deadlines and more time | [Court programs and eligibility](court-programs-eligibility.md) |
 | Youth Diversion (counter or paper only) | [Court programs and eligibility](court-programs-eligibility.md#youth-diversion) |
+| Dismissal requests and the Prosecutor Queue | [Court V2 training](training/README.md) |
 | What isn't full Texas statutory coverage | [Compliance gaps](compliance-gaps.md) |
 
 ## End of the tour

@@ -18,6 +18,7 @@
 | 2 | Journey: [Court payment to accounting](../../getting-started/journeys/court-payment-to-accounting.md) — cashier portion | 30 min |
 | 3 | [Court clerk workshop](../court-clerk-workshop.md) | ~half day |
 | 4 | [Court finance workshop](../court-finance-workshop.md) — only if they post deposits / remittances | optional |
+| 5 | [Court V2 clerk guide](../../court/v2/training/clerk-guide.md) — only if the court has turned on Court V2 | ~half day |
 
 ## Claims to verify
 
@@ -35,4 +36,5 @@
 ## Related
 
 - [Court](../../court/README.md)
+- [Court V2 training](../../court/v2/training/README.md)
 - [Role: Court finance](court-finance.md)

@@ -2,7 +2,7 @@
 
 > **Not yet approved for demos.** This page describes the current Court V2 build, which is newer than the version approved for demos. Use it for training and planning. Check [Demoable now](demoable-now.md) before showing these screens to a customer.
 
-Clerks do in-person Court V2 work in the case workspace. This page covers the workspace layout, new-case intake, the tablet and paper channels, not guilty pleas, Needs Info, and how to cancel or revoke a request.
+Clerks do in-person Court V2 work in the case workspace. This page covers the workspace layout, new-case intake, the tablet and paper channels, not guilty pleas, Needs Info, and how to cancel or revoke a request. For step-by-step training, see the [Clerk guide](training/clerk-guide.md).
 
 ## Workspace layout
 
@@ -121,6 +121,7 @@ While a request waits for the judge, the other outcome cards are muted and show 
 
 ## Related
 
+- [Clerk guide](training/clerk-guide.md)
 - [Portal and online options](portal-and-online-options.md)
 - [Court programs and eligibility](court-programs-eligibility.md)
 - [Compliance gaps](compliance-gaps.md)

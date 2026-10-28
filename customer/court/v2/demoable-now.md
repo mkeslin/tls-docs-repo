@@ -57,6 +57,7 @@ The current Court V2 build is newer than the version approved for demos. These p
 - [Portal and online options](portal-and-online-options.md)
 - [Court programs and eligibility](court-programs-eligibility.md)
 - [Compliance gaps](compliance-gaps.md)
+- [Court V2 training](training/README.md)
 
 Don't show those screens to a customer until they're added to the approved list above.
 

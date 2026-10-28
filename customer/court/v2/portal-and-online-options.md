@@ -91,9 +91,10 @@ When a violator has an FTA notice or a CPF show cause notice, they can read it o
 
 ## What the clerk sees
 
-Portal requests and contact updates appear in the Clerk Queue under **Violator portal**. The clerk opens **Review request** and chooses **Approve** or **Needs info** (and **Deny** where it's offered).
+Portal requests and contact updates appear in the Clerk Queue under **Violator portal**. The clerk opens **Review request** and chooses **Approve** or **Needs info** (and **Deny** where it's offered). See the [Clerk guide](training/clerk-guide.md#violator-portal-requests).
 
 ## Related
 
 - [Clerk workspace](resolution-workspace-and-controls.md)
 - [Court programs and eligibility](court-programs-eligibility.md)
+- [Portal requests scenario](training/scenarios/portal-requests.md)

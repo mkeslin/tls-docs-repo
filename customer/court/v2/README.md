@@ -29,8 +29,10 @@ Only the features listed under [Demoable now](demoable-now.md) are approved for 
 | [Portal and online options](portal-and-online-options.md) | What violators can do online, and what they're told to complete at the counter |
 | [Court programs and eligibility](court-programs-eligibility.md) | Driving safety course and deferred eligibility, Youth Diversion (in person only), program deadlines, case requests and orders |
 | [Compliance gaps](compliance-gaps.md) | What not to claim as full Texas statutory coverage |
+| [Training by role](training/README.md) | Step-by-step guides for clerks, judges and prosecutors, plus scenario walkthroughs |
 
 ## Related
 
 - [Court (V1)](../README.md)
+- [Court V2 training](training/README.md)
 - [Court clerk workshop](../../training/court-clerk-workshop.md)
