@@ -1,110 +1,163 @@
 # Court programs and eligibility
 
-> **Past demo ceiling:** This page describes behavior at pushed tip `6234e081ca`, which is **past** the official demo ceiling `64c4bd40a0`. It is **not** approved for demos until Court BA scores that tip PASS and the tls-* Playwright suite is re-run. See [Demoable now](demoable-now.md).
+> **Not yet approved for demos.** This page describes the current Court V2 build, which is newer than the version approved for demos. Use it for training and planning. Check [Demoable now](demoable-now.md) before showing these screens to a customer.
 
-Court V2 **court program** packets (driving safety course, deferred disposition, youth diversion, and related clerk/tablet flows) share one spine: defendant or clerk **submits**; a judge **Approve**, **Reject**, or **NeedsInfo** enrolls or denies the program.
+This page covers driving safety course and deferred disposition eligibility, requests for more time, hardship, community service and payment plans, teen court, Youth Diversion, and the case requests and orders panels. Every program request goes to the judge. Submitting never enrolls the violator; the judge approves, rejects or returns the request with Needs Info.
 
-## Statutory clocks (read-only in V2 UI)
+## Program deadlines
 
-| Program | Default period shown in V2 |
-|---------|----------------------------|
-| **Driving safety course (DSC)** | **90** days |
-| **Deferred disposition** | **180** days (default/cap; over-max dates clamp server-side) |
+| Program | Period shown |
+|---------|--------------|
+| **Driving safety course** | **90 days** after the judge approves |
+| **Deferred disposition** | **180 days**. A longer period can't be set. |
 
-Copy appears on clerk program flows, portal program request, and online judge-packet stubs. Agency default day fields in admin are capped to the same statutory limits in the current Court V2 build.
+The deadline is shown read-only to the clerk, on the tablet and on the portal. The agency's default number of days can't be set above these limits.
 
-## Tier 1 eligibility (DSC and deferred)
+## Driving safety course and deferred eligibility
 
-The resolution hub and portal gate **Driving safety course** and **Deferred disposition** using shared statutory rules. Examples reflected in product behavior and demo fixtures:
+Thin Line checks eligibility when the outcome card is shown and again when the request is submitted, using the case as it stands at that moment. The judge's approval checks it once more.
 
-![Resolution hub with driving safety and deferred outcome cards](images/court-v2-workspace-outcomes-hub.png)
+| Situation | Result |
+|-----------|--------|
+| **Commercial driver license** on the citation | Driving safety course not available. Deferred not available on moving violations. This is a statutory eligibility denial. |
+| **Workers present** on the citation | Driving safety course and deferred not available. This is a statutory eligibility denial. |
+| **Leaving the scene** (Transportation Code 550.022 or 550.023) | Driving safety course not available. This is a statutory eligibility denial. Deferred may still be offered, at the judge's discretion. |
+| **School bus offense** (Transportation Code 545.066) | Driving safety course not available. Deferred may still be offered, at the judge's discretion. |
+| **95 mph or more, or 25 mph or more over the limit** (CCP 45A.352(a)(5)) | Driving safety course not available, with no override. Deferred may still be offered, at the judge's discretion. |
+| **Offense type missing** | Driving safety course not available, with the reason *Offense type missing*. |
+| **Date of birth missing** on a moving violation | Deferred blocked, with the reason *Date of birth required for Deferred on a moving violation*. |
+| **Under 25** on a moving violation | Deferred can go ahead, and a driving safety course is added as a condition of the same plan. |
 
-*The resolution hub shows which court program outcomes are available or denied before the violator or clerk starts a packet.*
+In the Judge Queue, a program request can show a **Statutory notes (informational)** box and the line *Approve re-checks these rules against current case facts.*
 
-| Situation | Typical hub/portal result |
-|-----------|---------------------------|
-| **CDL** (citation driver license class) | DSC denied; deferred denied on moving violations |
-| **Workers present** on citation | DSC and deferred denied |
-| **Offense type missing** (blank OCA) | DSC not available — *Offense type missing* |
-| **Date of birth missing** on moving deferred | Blocked — *Date of birth required for Deferred on a moving violation* |
-| **Under 25** on a moving violation | Deferred may proceed; a **DSC condition** is added on the same plan (judge queue shows informational statutory notes) |
-| **School bus** offense (TC **545.066**) | DSC **hard deny**; deferred may remain available with discretionary notes |
-| **Leave scene** offenses (TC **550.022** / **550.023**) | DSC **hard deny**; deferred may remain available with discretionary notes |
+## Driving safety course request details
 
-Judge queue cards for court programs can show a blue **Statutory notes (informational)** box, optional forced-DSC line, and *Approve re-checks these rules against current case facts.*
+![Driving safety course request at the counter](images/court-v2-dsc-outcome-open.png)
 
-![Judge Queue program packet with statutory notes](images/court-v2-judge-queue-program-card.png)
+*A driving safety course request at the counter. The violator answers on the tablet while the clerk fills in the rest.*
 
-*A deferred disposition or driving safety course packet in the Judge Queue can show statutory notes before approve or reject.*
+The request moves through four steps: **Plea and jury waiver**, **Violator answers on the tablet**, **Clerk review and submit**, and **Judge review**. Along with the plea and signature, it collects:
 
-## DSC request details (portal and clerk)
+- **Military status** (required).
+- **License state**, only when the person record has none.
+- **Last driving safety course completed**, from the driving record.
+- **Proof of insurance** (required) and the **driving record**.
 
-Beyond tier-1 gates, DSC packets can collect:
+**Submit for judge review** is blocked until the required answers and documents are in. On paper, the clerk copies the military status from the signed form, and checking **Proof verified by clerk** stands in for an insurance upload.
 
-- **Military status** (required on requests).
-- **License state**, **last DSC completed** (clerk-oriented fields when shown).
-- **Document uploads** (insurance and other coded document types).
+## More time to finish a driving safety course
 
-Submit is blocked when required DSC answers or documents are missing (portal shows the validation message from the rules).
+Under CCP 45A.355, the judge can give more time to finish a driving safety course for good cause.
 
-## DSC good-cause extension
+- **While the course is active,** the clerk uses the **DSC more time** panel under **Case requests and orders**. The judge sets the new due date.
+- **After the violator fails to complete the course,** the clerk uses the **DSC after failure** panel to send the request to the judge or to record the judge's paper ruling. This is allowed until guilt is adjudicated. Only the judge rules on it.
+- **Online,** the portal shows *Need more time to finish the driving safety course? You can ask the judge for more time.*
 
-While a driving safety course is **active**, defendants or staff can use **Ask for more time** (CCP **45A.355**):
+## Request for more time (extension)
 
-- Portal: **Need more time to finish the driving safety course? You can ask the judge for more time.**
-- Counter: **Dsc more time** panel on the violation status area; judge sets a new DSC due date.
+A general extension is a **Request for more time** in the workspace. On the portal it's labelled **Request an extension**.
 
-## Youth diversion (ages 10–16, non-traffic)
+- A case can have only one open extension request.
+- The violator can ask for a due date up to 30 days out.
+- No evidence is required.
+- Each extension is the judge's decision. When approving, the judge sees **Grant the extension** with the requested date filled in and can change it. The new due date must be after today.
+- When the judge rules on paper, the clerk records the paper ruling for that judge.
+- Deadlines set by statute for a compliance dismissal can't be extended.
 
-Youth diversion targets eligible minors (product rules: age **10–16**, **non-traffic**, offense type present). UI and server checks include:
+![Grant the extension](images/court-v2-judge-grant-extension.png)
 
-![Juvenile resolution hub with minor-plea panel](images/court-v2-workspace-outcomes-hub-juvenile.png)
+*The judge confirms or changes the new due date when approving an extension.*
 
-*Juvenile cases can show **Juvenile combined** on the hub plus minor-plea requirements on the status area.*
+## Hardship (ability to pay)
 
-| Area | Product behavior |
-|------|------------------|
-| **Parent/guardian** | **Parent or guardian name** and **Parent or guardian signed name** on tablet; paper path confirms parent hand signature. Tablet intro: *A parent or guardian must sign youth diversion next to the child.* |
-| **Youth condition** | Clerk/paper selects among conditions such as **COMMUNITY SERVICE**, **TOBACCO AWARENESS**, **CLASS ALCOHOL**. |
-| **Prosecutor objection** | Clerk fields can record prosecutor objection (hard deny when entered). |
-| **Other-court prior diversion** | Optional prior start date and outcome fields feed server eligibility. |
-| **Judge referral and orders** | Judge-only signed orders, dismissal, and ready-to-close paths on the disposition plan (**Youth diversion court** panel). |
-| **Confidentiality** | Public portal lookup and payment paths block confidential youth-diversion records; staff with access can work the case. |
+Hardship is its own request using the full TMCEC indigent application. The financial disclosure fields are required to submit.
 
-**Youth diversion agreement** replaces the shared deferred form for youth packets.
+- **On the tablet and online,** the violator must upload at least one piece of evidence.
+- **On paper,** the violator signs a sworn financial form, and Thin Line tracks the answers. **Not yet approved for demos:** paper hardship is still being aligned with the evidence step in the current build.
 
-DSC pre-judgment plans are **not** applied to youth diversion plans (statutory separation in code).
+The hardship form's **Community service** and **Extend to a later date** checkboxes only tell the judge what the violator is asking for. They never create a community service order or an extension, and hardship is never a combined request.
 
-## Other status panels (V1/V2 shared case record)
+## Community service and payment plans
 
-These panels appear on the court violation **Status** area when rules apply:
+Community service and payment plans can be requested without a hardship request. When the judge approves one, that approval is the ability-to-pay finding.
 
-| Panel | Purpose |
-|-------|---------|
-| **Minor plea — parent or guardian present** | CCP **45.0215** — minor plea requires parent present; online/mail deny when required. |
-| **Parent nonattendance dismissal** | CCP **45A.403** parent contributing-to-nonattendance dismissal packet. |
-| **Ability to pay inquiry** | CCP **45A.252** / **45A.253** — judge records ability-to-pay answer before judgment. |
-| **Community service completed** | CCP **45A.254** — record completion hours and credit. |
-| **Chemical dependency deferral** | CCP **45A.402** — pre-judgment chemical dependency deferral on eligible cases. |
+**Community service:**
 
-![Minor plea — parent or guardian present panel](images/court-v2-status-minor-plea-parent-presence.png)
+- Starts only when the judge approves it. Submitting, rejecting or returning it with Needs Info never starts it.
+- The violator proposes hours or an amount. The screen explains the terms: each 8 hours discharges at least $150, and no more than 16 hours a week unless the court finds more wouldn't be a hardship. The judge can edit the terms.
+- No evidence is required, and there's no community service fee.
+- If there's no judgment on the case yet, approving community service enters a guilty judgment.
 
-*Records whether a parent or guardian was present for a minor plea under CCP 45.0215.*
+![Community service request at the counter](images/court-v2-community-service-open.png)
 
-![Parent nonattendance dismissal panel](images/court-v2-status-parent-nonattendance.png)
+*A community service request at the counter, with the terms the judge can edit.*
 
-*Staff can start a parent nonattendance dismissal packet from the status area.*
+**Payment plans:** when the judge approves a payment plan, the judgment is signed and then the schedule starts. A standard payment plan the judge has pre-authorized, taken at the counter or on paper, skips the ability-to-pay questions. A claimed inability to pay, or a request for community service, a waiver or a non-standard plan, goes to the judge.
 
-![Ability-to-pay inquiry panel](images/court-v2-status-ability-to-pay.png)
+## Compliance dismissal
 
-*The judge records an ability-to-pay finding before judgment when required.*
+A compliance dismissal is for offenses the law lets the court dismiss once the violator fixes the problem, such as an expired registration or license, defective equipment, an inspection, or insurance in effect on the offense date. It's a **Pre-plea** outcome card when the offense qualifies. The judge signs every dismissal.
 
-![Defer — chemical dependency dialog](images/court-v2-status-chemical-dependency.png)
+![Compliance dismissal facts](images/court-v2-cd-facts.png)
 
-*Eligible cases can open the chemical dependency deferral workflow from the case status menu.*
+*The clerk records what was fixed and when, and the legal basis is shown alongside.*
+
+- **Fee.** The dismissal fee follows the TMCEC chart and is "not to exceed" the chart amount. It defaults to the maximum. A lower amount is logged with the clerk's name and the time. The fee is collected at the counter before the judge rules.
+- **Paper.** The clerk prints the packet (**Print all (one PDF)** or each form), the violator hand-signs, and the clerk confirms the hand signature. Checking **Proof verified by clerk** records that the clerk saw the proof. Attaching a scan of the signed paper later is optional and is evidence only. The signed paper goes in the physical packet.
+- **Submit.** The clerk uses **Submit for judge (paper)** or, on the tablet path, **Submit for judge review**.
+- **Needs Info** keeps the fee paid.
+- **Denied or cancelled.** The fee stays posted and is flagged for the court administrator, and a follow-up appears in the Clerk Queue. There's no automatic refund.
+- **Already paid.** Cash paid earlier beyond what's owed is flagged as a refund due. A compliance dismissal is blocked when a payment has already been entered as a plea and judgment.
+- A judge can also dismiss a compliance case directly.
+
+![Compliance dismissal paper packet ready to submit](images/court-v2-cd-paper-ready.png)
+
+*The paper path: print, hand-sign, confirm, check Proof verified by clerk, then submit for the judge.*
+
+## Teen court
+
+On paper or the tablet, teen court takes only the request and the fee. It then sets an open-court hearing with a parent present (CCP 45A.401).
+
+## Youth Diversion
+
+Youth Diversion is for children ages 10 to 16 on non-traffic, fine-only offenses. It's handled at the counter or on paper only, never online. On the portal, the violator is told: *Juvenile combined is not available online. Complete at counter.*
+
+![Youth Diversion panels on the clerk workspace](images/court-v2-workspace-youth-diversion.png)
+
+*A case for a child under 17: the parent presence panel, dismissal panels and Record youth diversion decision.*
+
+| Area | How it works |
+|------|--------------|
+| **Parent or guardian** | Before any plea, the clerk records the parent or guardian present (CCP 45.0215). A parent or guardian signs next to the child, on the tablet or on paper. |
+| **Conditions** | The clerk or paper form selects the conditions, such as community service, tobacco awareness or an alcohol class. |
+| **Prosecutor objection** | Youth Diversion isn't granted when the prosecutor objects (CCP 45A.504(d)). The prosecutor objects in the Prosecutor Queue, or the clerk records a paper objection. |
+| **Youth Diversion decision** | A clerk or a judge records the decision with **Record youth diversion decision**: declined, or not eligible (CCP 45A.504(b)). It's recorded on the case timeline. A prosecutor can't record it. |
+| **Hearing orders** | Only a judge enters hearing orders, with a drawn signature. |
+| **Confidentiality** | Youth Diversion records are visible to court staff only. Public lookup and payment pages don't show them. |
+
+Youth Diversion and juvenile deferred disposition are separate outcomes. Driving safety course plans never apply to Youth Diversion.
+
+## Case requests and orders
+
+These panels appear in the middle column of the clerk workspace when the case state allows them.
+
+| Panel | Who | Purpose |
+|-------|-----|---------|
+| **Parent presence before plea** | Clerk | CCP 45.0215: records the parent or guardian present before a minor's plea. Online and mail pleas and payments aren't available when it's required. |
+| **Parent nonattendance dismissal** | Clerk starts, judge signs | CCP 45A.403: dismissal for a parent's part in a child's nonattendance. The school's proof is a clerk check on paper. |
+| **DSC more time** and **DSC after failure** | Clerk starts, judge rules | See [More time to finish a driving safety course](#more-time-to-finish-a-driving-safety-course). |
+| **Ability to pay inquiry** | Judge | CCP 45A.252 and 45A.253: the judge records the ability-to-pay answer before judgment. A plea change to guilty or no contest at trial needs this first. |
+| **Fine or cost waiver** | Judge | Needs a judgment on the case. |
+| **Commitment discharge** | Clerk records, judge sets terms | Records a commitment discharge. |
+
+**Chemical dependency deferral** (CCP 45A.402) is on the case action menu for eligible cases.
+
+![Chemical dependency deferral](images/court-v2-status-chemical-dependency.png)
+
+*Eligible cases can open chemical dependency deferral from the case action menu.*
 
 ## Related
 
 - [Portal and online options](portal-and-online-options.md)
-- [Compliance gaps (not full Texas statutory coverage)](compliance-gaps.md)
+- [Compliance gaps](compliance-gaps.md)
 - [Path walk](path-walk.md)

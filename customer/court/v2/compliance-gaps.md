@@ -1,23 +1,30 @@
-# Compliance gaps (customer-facing honesty)
+# Compliance gaps
 
-> **Past demo ceiling:** This page describes behavior at pushed tip `6234e081ca`, which is **past** the official demo ceiling `64c4bd40a0`. It is **not** approved for demos until Court BA scores that tip PASS and the tls-* Playwright suite is re-run. See [Demoable now](demoable-now.md).
+> **Not yet approved for demos.** This page describes the current Court V2 build, which is newer than the version approved for demos. Use it for training and planning. Check [Demoable now](demoable-now.md) before showing these screens to a customer.
 
-Court V2 in the current Court V2 build adds many statutory checks, but **Thin Line does not claim full Texas Code of Criminal Procedure compliance** for every offense and edge case. Use this page when sales, clerks, or judges ask whether “everything in the statute” is automated.
+Court V2 adds many statutory checks, but **Thin Line doesn't claim full Texas Code of Criminal Procedure compliance** for every offense and edge case. Use this page when sales staff, clerks or judges ask whether "everything in the statute" is automated.
 
-## Not treated as fully supported in customer materials
+## Not supported yet
 
-The following items are **open in legal/audit review** or intentionally not pitched as complete compliance. Product behavior may partially overlap; do not promise full statutory coverage.
+The items below are planned or under review. Some product behavior may overlap, but don't promise full statutory coverage for them.
 
 | Topic | Customer guidance |
 |-------|-------------------|
-| **DSC speed deny** (CCP **45A.352(a)(5)** and related speed thresholds) | Speed facts are collected on NEW intake and health checks exist; **full speed-based DSC deny alignment is not documented as complete** for Texas compliance. |
-| **Youth diversion** parent consent, prior diversion, and prosecutor rules | UI collects parent/guardian signatures and clerk objection/prior fields; **full CCP 45.304 consent and prosecution rules are not documented as complete**. |
-| **Minors with two or more alcohol priors** | **Not documented as supported** in this release slice. |
-| **Playwright e2e on tls-* controls** | End-to-end UI automation has **not** been re-run on the tls-* migration at tip `6234e081ca` (past official ceiling `64c4bd40a0`). |
+| **Youth Diversion** (CCP 45A.501–.513) | Parent consent is collected, and the 12-month rule about diversions in other courts is recorded. Not built yet: expunction at 18, and the parent relationship field on Youth Diversion. |
+| **Minors with two or more alcohol priors** | Not supported in this release. |
+| **More driving safety course denial rules** | The denials listed on [Court programs and eligibility](court-programs-eligibility.md#driving-safety-course-and-deferred-eligibility) are enforced. Further offense-specific denial rules aren't built yet. |
+| **Child community service and tutoring election**, and the foster-care community-service-only rule (CCP 45A.253(b)–(d)) | Not built yet. |
+| **Deferred disposition community service location rules** (CCP 45A.255) | Not built yet. |
+| **Denied compliance dismissal fee** | The fee stays posted and is flagged for the court administrator. Applying it to a new balance isn't built yet. |
+| **Phone and video appearance tracking** | Not built yet. |
+| **A juvenile who has since turned adult** | Special handling isn't built yet. |
+| **Public receipt page** | Not available yet. |
 
-## What to say about online DSC
+See [Demoable now](demoable-now.md#known-gaps-not-shipped) for the request combinations that aren't shipped yet.
 
-State law allows a court to **authorize** online driving safety course requests through the portal. Thin Line implements portal DSC **only when** product eligibility allows the request. Do **not** tell agencies that every defendant can always request DSC online without court configuration and offense-level denies.
+## What to say about online driving safety course requests
+
+State law lets a court **authorize** online driving safety course requests through the portal. Thin Line offers the online request **only when** the case is eligible. Don't tell agencies that every defendant can always request a driving safety course online regardless of the court's setup and offense-level denials.
 
 ## Related
 

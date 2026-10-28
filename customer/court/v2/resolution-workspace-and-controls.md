@@ -1,94 +1,126 @@
-# Resolution workspace and form controls
+# Clerk workspace
 
-> **Past demo ceiling:** This page describes behavior at pushed tip `6234e081ca`, which is **past** the official demo ceiling `64c4bd40a0`. It is **not** approved for demos until Court BA scores that tip PASS and the tls-* Playwright suite is re-run. See [Demoable now](demoable-now.md).
+> **Not yet approved for demos.** This page describes the current Court V2 build, which is newer than the version approved for demos. Use it for training and planning. Check [Demoable now](demoable-now.md) before showing these screens to a customer.
 
-Court V2 **clerk resolution** work happens in the **Court Resolution** workspace (outcome cards, counter/tablet pairing, and judge-bound flows). This page covers workspace behavior and the shared **tls-*** form controls in the current Court V2 build.
+Clerks do in-person Court V2 work in the case workspace. This page covers the workspace layout, new-case intake, the tablet and paper channels, not guilty pleas, Needs Info, and how to cancel or revoke a request.
 
-## Payment Links → Online Portal
+## Workspace layout
 
-On a court violation, expand **Payment Links** in the left navigation:
+![Clerk workspace with outcomes, clerk actions and the tablet column](images/court-v2-workspace-outcomes-hub.png)
+
+*Outcomes on the left, clerk actions in the middle, and signature, tablet and contact details on the right.*
+
+| Column | What's there |
+|--------|--------------|
+| **Outcomes** (left) | The violator's options, grouped as **Pre-plea** (pay in full, **Enter a plea of not guilty**, and compliance dismissal when the offense qualifies), **Diversions** (driving safety course, deferred disposition, Youth Diversion) and **Financial relief** (payment plan, extension, community service, hardship). Each card shows whether it's available for this case. |
+| **Clerk actions** (middle) | Date changes (for example **Modify appearance date**), **Enter follow-up date**, **Transfer to another court** and **Void citation**, plus **Case requests and orders** with **Request dismissal**, **Request for more time** and the other case panels the case state allows. Actions that don't apply show **Unavailable**. |
+| **Signature and tablet** (right) | The **Violator signature** choice (tablet or **Paper**), **Pair tablet**, the violator's contact details, and **Case at a glance**. |
+
+On narrow screens, the clerk actions collapse into a menu at the top.
+
+## Payment links and the online portal
+
+On a case, expand **Payment Links** in the left navigation:
 
 | Link | Opens |
-|------|--------|
-| **Online Payment** | Public citation payment (`/public/payment/citation`) |
-| **In-Person Payment** | Desk payment (`/public/payment/citation/desk`) |
-| **Court V2 Online Portal** | Violator portal lookup (`/public/portal`) in a new tab |
+|------|-------|
+| **Online Payment** | The public citation payment page |
+| **In-Person Payment** | The desk payment page used at the counter |
+| **Court V2 Online Portal** | The violator portal lookup, in a new tab |
 
-Staff use **Court V2 Online Portal** to preview or assist with the same online paths defendants see after lookup.
+Use **Court V2 Online Portal** to see what the violator sees online.
 
-![Online citation payment (public link)](images/court-v2-payment-link-online.png)
+![Online citation payment](images/court-v2-payment-link-online.png)
 
-*The online payment link opens the public citation payment flow in a new tab.*
+*The online payment link opens the public citation payment page in a new tab.*
 
-![In-person desk payment (public link)](images/court-v2-payment-link-desk.png)
+![In-person desk payment](images/court-v2-payment-link-desk.png)
 
-*The in-person payment link opens the desk payment flow staff use at the counter.*
+*The in-person payment link opens the desk payment page.*
 
-## tls-* controls (staff and portal)
+## New cases: intake before pre-plea
 
-Court and portal screens increasingly use Thin Line **tls-*** wrappers (for example `tls-text-field`, `tls-select`, `tls-date`, `tls-date-time`, `tls-checkbox`, `tls-numeric-input`, `tls-file-input`) instead of raw HTML inputs or legacy Vuetify fields. Behavior and validation should match the labeled control; test ids on critical flows are preserved for regression testing.
+A new case can't take outcomes or pair a tablet until the clerk finishes intake and chooses **Proceed to Pre-Plea**. Online, the portal tells the violator the case is still processing.
 
-**Verification note:** Playwright end-to-end walks have **not** been re-run on the full tls-* control migration at tip `6234e081ca`. The official demo ceiling remains `64c4bd40a0` (see [Demoable now](demoable-now.md)).
+| Requirement | What happens |
+|-------------|--------------|
+| **Date of birth** | Required before **Proceed to Pre-Plea**. If the citation has no date of birth, the person record's date of birth fills in. The message is *Date of birth is required before Proceed to Pre-Plea*. |
+| **Actual speed and posted limit** | Required on speeding offenses. Speed comes from the citation and can't be edited in the workspace. If either value is missing, a note says the citation must be corrected before the case can proceed. |
 
-## NEW intake: date of birth and speed
+Other new-case actions are intake (offense, appearance date, fees, date of birth), **Transfer to another court**, **Void citation** and **Enter follow-up date**.
 
-Before **Proceed to Pre-Plea**, the workspace enforces person data on the case:
+![New-case intake panel](images/court-v2-workspace-new-intake.png)
 
-| Requirement | When it applies |
-|-------------|-----------------|
-| **Date of birth** | Required on **NEW** intake before proceed; message: *Date of birth is required before Proceed to Pre-Plea*. Deferred eligibility for moving violations also uses the reference person DOB when age at offense is missing. |
-| **Actual speed** and **posted speed limit** | Required on the **NEW** intake speed card when the offense mapping uses a speeding range. Copy: *Actual speed and posted speed limit are required for a speeding offense*. Missing values can block proceed and DSC-related checks tied to speed facts. |
+*The intake panel on a new case.*
 
-Use the **NEW** intake panel on the resolution hub (desktop sidebar and mobile strip under the header).
+## Tablet or paper
 
-![Court Resolution workspace, NEW intake panel](images/court-v2-workspace-new-intake.png)
+Every Court V2 signature comes from the violator. The clerk never types the violator's name as a signature.
 
-*On a NEW case, the intake panel collects offense, appearance, fees, date of birth, and speed facts before proceed to pre-plea.*
+- **Tablet.** Choose **Pair tablet** and pair the counter tablet. When the workspace shows **Tablet connected**, the violator previews the documents, checks **I have reviewed these documents**, uploads any required proof, signs, and chooses how to pay. Cash or check goes to the clerk; a card is entered on the tablet. The tablet checks the signature itself.
+- **Paper.** Turn on **Paper** under **Violator signature**. Print the packet (each document has a **Print** button, plus **Print all (one PDF)**), have the violator hand-sign, and mark it hand-signed. Thin Line records your name and the time, and the judge checks the paper when approving. Uploads are never required on paper; photocopied proof goes in the physical folder for the judge.
 
-![Court Resolution outcomes hub (pre-plea)](images/court-v2-workspace-outcomes-hub.png)
+![Pair a tablet](images/court-v2-pair-tablet-card.png)
 
-*The outcomes hub lists violator options and clerk actions for a case ready for resolution work.*
+*Pair tablet on the clerk workspace.*
 
-## Enter a plea of not guilty
+![Tablet connected](images/court-v2-tablet-connected-card.png)
 
-The dedicated **Enter a plea of not guilty** path replaces the generic enter-plea judge packet for not-guilty pleas:
+*The workspace after pairing.*
 
-| Channel | Behavior |
-|---------|----------|
-| **Clerk soft path** | Workflow enters **NOT GUILTY** and moves the case toward **PRE_TRIAL** without a judge outcome packet. |
-| **Online** | Portal option **Enter a plea of not guilty** when `canEnterPleaOnline` allows; submission is **not** the same as a court-entered plea until staff process it. Portal copy: *Your not-guilty plea was submitted… Submission is not yet an entered plea.* |
-| **Paper** | **Paper soft path for not guilty** — print the plea form, confirm hand signature, set **Pre-trial date**, then enter not guilty (no tablet pairing, no clerk typed-name signature, no judge packet). |
+## Not guilty pleas
 
-Guilty and no contest remain on other online options (pay in full, driving safety course, deferred disposition, and related packets).
+A not guilty plea isn't a request to the judge. How it's entered depends on the channel:
 
-## Counter tablet and NeedsInfo
+| Channel | What happens |
+|---------|--------------|
+| **Tablet** | The violator chooses not guilty and signs on the tablet. The tablet verifies the signature, and the plea is entered. |
+| **Paper** | Print the plea form, have the violator hand-sign it, mark it hand-signed, set the **Pre-trial date**, and enter the plea. |
+| **Online** | The violator chooses **Enter a plea of not guilty** on the portal. The portal tells them the submission isn't yet an entered plea. The request appears in the Clerk Queue under **Violator portal**. The plea is entered only when a clerk approves it there. |
 
-- **Clerk ↔ tablet** pairing for outcome review is unchanged in purpose; see [Path walk](path-walk.md).
-- When a judge returns **NeedsInfo** on hardship, community service, or similar outcome packets, the counter can **resubmit** after the defendant updates the tablet draft (staff APIs expose review context including the judge note).
+After the plea, the case moves to pre-trial, and the pre-trial and trial dates drive the calendar. Family-violence not guilty pleas are taken at the counter or on paper only.
 
-![Clerk workspace with tablet connected](images/court-v2-workspace-tablet-connected.png)
+There's no separate guilty or no contest request. A guilty or no contest plea is a step inside another outcome, such as pay in full, a payment plan, a driving safety course or deferred disposition.
 
-*After pairing, the workspace shows **Tablet connected** so the clerk and violator can continue on the shared outcome path.*
+![Not guilty plea on the tablet](images/court-v2-tablet-ng-plea.png)
 
-![Clerk Queue, Needs Info section](images/court-v2-clerk-queue-needs-info.png)
+*The violator enters a not guilty plea on the counter tablet.*
 
-*Packets returned with **Needs Info** appear in the Clerk Queue for follow-up.*
+### Paying in full after a not guilty plea
 
-![Needs Info card with resubmit](images/court-v2-clerk-needs-info-resubmit-card.png)
+A violator who has pleaded not guilty can still choose pay in full. Paying in full then counts as a plea of no contest and a waiver of a jury trial, and the violator sees a warning first. This doesn't apply to juveniles or to family-violence cases.
 
-*The clerk can save edits and **Resubmit** after the violator updates the packet on the tablet.*
+![Pay in full at the counter](images/court-v2-pay-in-full-counter.png)
 
-![Workspace banner for an unapproved outcome (Needs Info)](images/court-v2-workspace-needs-info.png)
+*Pay in full at the counter on a case in pre-trial.*
 
-*The outcomes hub can show an unapproved outcome with **Go back** or **Cancel** while judge review is pending.*
+## Needs Info
 
-## Hub refresh after cancel
+When the judge returns a request with **Needs Info**, it moves to the **Needs info** section of the Clerk Queue with the judge's note. Choose **Review case and documents**, update the request with the violator (on the tablet or on paper), choose **Save edit**, then **Resubmit**. The request goes back to the Judge Queue. A fee that was already paid stays paid.
 
-If staff **Cancel** an unapproved outcome packet on the hub (for example a submitted pay-in-full that reversed tender), the outcome card grid **reloads** eligibility so muted paths (DSC, deferred, pay) reflect the restored balance.
+![Needs Info card with Resubmit](images/court-v2-clerk-needs-info-resubmit-card.png)
+
+*Save edits and resubmit a returned request.*
+
+## Cancel, revoke, then start another
+
+A case has one open request at a time. A second request can start after the judge decides the first, or after it's revoked or cancelled.
+
+| Action | When | What it does |
+|--------|------|--------------|
+| **Cancel outcome** | The request is still a draft | Confirm with **Cancel outcome** (or **Keep outcome** to stay). The draft is cleared, and the tablet clears too. |
+| **Revoke** | The request was submitted or returned with Needs Info, and the judge hasn't approved or rejected it | A clerk or a judge can revoke. Money held for a pay in full request is refunded by check. Revoking doesn't enter a plea and doesn't change the case state. |
+
+After the judge approves or rejects a request, **Revoke** isn't offered.
+
+While a request waits for the judge, the other outcome cards are muted and show **Not available**, with a note such as *Extension is waiting for the judge. Revoke it to choose a different outcome.* After a cancel or revoke, the outcome cards reload so they reflect the case as it stands.
+
+![Outcomes muted while a request waits for the judge](images/court-v2-workspace-pending-revoke.png)
+
+*An extension is waiting for the judge, so the other outcomes are muted until it's decided or revoked.*
 
 ## Related
 
 - [Portal and online options](portal-and-online-options.md)
 - [Court programs and eligibility](court-programs-eligibility.md)
-- [Path walk](path-walk.md)
-- [Compliance gaps (not full Texas statutory coverage)](compliance-gaps.md)
+- [Compliance gaps](compliance-gaps.md)

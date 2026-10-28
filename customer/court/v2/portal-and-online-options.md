@@ -1,77 +1,99 @@
 # Portal and online options
 
-> **Past demo ceiling:** This page describes behavior at pushed tip `6234e081ca`, which is **past** the official demo ceiling `64c4bd40a0`. It is **not** approved for demos until Court BA scores that tip PASS and the tls-* Playwright suite is re-run. See [Demoable now](demoable-now.md).
+> **Not yet approved for demos.** This page describes the current Court V2 build, which is newer than the version approved for demos. Use it for training and planning. Check [Demoable now](demoable-now.md) before showing these screens to a customer.
 
-Defendant-facing **Court V2** flows start at **Court V2 Online Portal** (`/public/portal`) after citation lookup, or through links staff open from **Payment Links**.
+Violators use the Court V2 online portal to see their case, pay, and request outcomes. Staff can open the same portal from a case through **Payment Links > Court V2 Online Portal**.
 
-![Court V2 Online Portal citation lookup](images/court-v2-portal-lookup.png)
+The portal has more limits than the counter. When an outcome can't be done online, the portal says so and asks the violator to complete it at the counter.
 
-*Violators enter a citation number and date of birth to open their case in the online portal.*
+![Court V2 online portal lookup](images/court-v2-portal-lookup.png)
 
-## Outcome cards on the portal
+*Violators enter their citation number and date of birth to open their case.*
 
-The portal **resolve** hub shows outcome cards (pay in full, plea, driving safety course, deferred disposition, hardship, extension, community service, compliance dismissal, youth diversion, and related types). Each card has an availability state:
+## Before the violator can act
 
-| UI behavior | Meaning |
-|-------------|---------|
-| **Start or resume** | Online path is available for that outcome. |
-| **Complete at counter** | Online or mail path is blocked; staff must help at the counter. The card shows a reason when the rules supply one. |
+- **New cases.** While a case is still new, the portal shows no outcomes. It tells the violator the case is still processing and to check back later.
+- **One-time code.** Most online actions ask the violator to confirm a one-time code first. Paying online and exploring options don't.
 
-Family-violence offenses block **Pay in full** and **Plea** online and by mail; those outcomes show **Complete at counter** with family-violence messaging.
+![Identity check before a request](images/court-v2-portal-identity-gate.png)
 
-![Portal citation dashboard after lookup](images/court-v2-portal-citation-dashboard.png)
+*The portal asks for a one-time code before most requests.*
 
-*After lookup, the citation dashboard summarizes balance, compliance-dismissal hints, and links into pay or resolve flows.*
+## The citation dashboard and outcome cards
 
-![Pay or resolve hub](images/court-v2-portal-resolve.png)
+After lookup, the citation dashboard shows the balance and links to pay or resolve the case. The resolve page lists outcome cards, such as pay in full, not guilty plea, driving safety course, deferred disposition, payment plan, community service, hardship and compliance dismissal, depending on the case.
 
-*The pay or resolve step routes the violator toward payment or outcome selection.*
+| Card shows | Meaning |
+|------------|---------|
+| **Start or resume** | The violator can do this online. |
+| **Complete at counter** | This outcome isn't available online. The violator must come to the counter. The card shows the reason when there is one. |
 
-![Outcome cards on the resolve hub](images/court-v2-portal-resolve-options.png)
+![Citation dashboard](images/court-v2-portal-citation-dashboard.png)
 
-*Outcome cards show **Start or resume** or **Complete at counter**, including pay in full, plea, driving safety course, deferred disposition, payment plan, community service, and hardship when rules allow.*
+*The citation dashboard after lookup.*
 
-## Driving safety course and deferred disposition (portal)
+![Pay or resolve](images/court-v2-portal-resolve.png)
 
-Program requests use **Driving safety course (DSC)** or **Deferred disposition** labels. The portal shows a **read-only statutory clock** (DSC **90** days; deferred **180** days) and copy that **approval is required before the program becomes active — submission does not enroll the program**.
+*The violator chooses to pay or to look at other outcomes.*
 
-### Online DSC requests and court authorization
+![Outcome cards](images/court-v2-portal-resolve-options.png)
 
-Texas law allows a court to **accept driving safety course requests through the online portal when the court authorizes that channel**. Thin Line exposes portal DSC request fields (military status, required uploads, and related answers) only when the product rules allow the request. **Online DSC is not automatically available** for every agency or offense; denied or counter-only paths show **Complete at counter**.
+*Each outcome card shows Start or resume or Complete at counter.*
 
-DSC packet fields include:
+### Family violence
 
-| Field | Notes |
-|-------|--------|
-| **Military status** | Required for DSC requests; helper text explains out-of-state license and active-duty military member, spouse, or dependent child. |
-| **Document uploads** | Insurance and other required document types per the DSC packet rules. |
+For family-violence offenses, pay in full and pleas aren't available online or by mail. Those cards show **Complete at counter** with a family-violence message, and the violator must appear in person. A family-violence not guilty plea is taken at the counter or on paper only.
 
-![Identity verification before program or plea requests](images/court-v2-portal-identity-gate.png)
+![Family-violence outcomes kept for the counter](images/court-v2-portal-fv-online-denied.png)
 
-*Some online program and plea paths require identity verification before the violator can continue.*
-
-## Hardship (ability to pay) online
-
-The portal **hardship / ability-to-pay** flow uses the full TMCEC **XIII-B** style application and evidence upload on the V2 path, aligned with clerk/tablet hardship packets.
-
-![Hardship (ability to pay) application online](images/court-v2-portal-hardship.png)
-
-*The online hardship flow collects the TMCEC-style financial application; sign-in may be required before submit.*
+*On a family-violence case, the portal explains that an in-person appearance is required and sends the violator to the counter.*
 
 ## Not guilty online
 
-When eligible, defendants choose **Enter a plea of not guilty** (subtitle explains guilty/no contest live under other options). Plea type displays as **NOT GUILTY** on the online form.
+When the case allows it, the violator can choose **Enter a plea of not guilty**. The portal tells them their submission isn't yet an entered plea. The request goes to the Clerk Queue under **Violator portal**, and the plea is entered only when a clerk approves it. The case then moves to pre-trial.
 
-## Youth diversion on the portal
+There's no online guilty or no contest request on its own. A guilty or no contest plea is part of another outcome, such as pay in full, a driving safety course or deferred disposition.
 
-Youth diversion online follows the same packet spine as clerk assist. Parent/guardian participation is required on tablet and paper channels (see [Court programs and eligibility](court-programs-eligibility.md)).
+## Driving safety course and deferred disposition
 
-![Juvenile outcome cards on the portal](images/court-v2-portal-resolve-options-juvenile.png)
+The portal shows the program's deadline as read-only: **90 days** for a driving safety course and **180 days** for deferred disposition. The portal also explains that the judge must approve the request before the program starts. Submitting doesn't enroll the violator.
 
-*For eligible juvenile cases, online outcomes may show **Juvenile combined** and **Complete at counter** when the portal path is blocked.*
+### Online driving safety course requests
+
+Texas law lets a court accept driving safety course requests through the online portal when the court allows it. Thin Line shows the online request only when the case qualifies. Online driving safety course requests aren't available for every offense, and cases that don't qualify show **Complete at counter**.
+
+| Field | Notes |
+|-------|-------|
+| **Military status** | Required. Help text explains the out-of-state license and active-duty military member, spouse or dependent child options. |
+| **Document uploads** | Proof of insurance and the other documents the request needs. |
+
+## Hardship (ability to pay)
+
+Online hardship uses the full TMCEC indigent application. The violator must upload at least one piece of evidence to submit. The judge approves, rejects or returns the request with Needs Info.
+
+The hardship form includes **Community service** and **Extend to a later date** checkboxes. They only tell the judge what the violator is asking for. They never create a community service order or an extension, and hardship is never a combined request.
+
+![Online hardship application](images/court-v2-portal-hardship.png)
+
+*The online hardship application.*
+
+## Youth Diversion isn't offered online
+
+Youth Diversion is handled at the counter or on paper only. On a Youth Diversion case, the portal shows: *Juvenile combined is not available online. Complete at counter.*
+
+![Youth Diversion sent to the counter](images/court-v2-portal-juvenile-not-online.png)
+
+*The portal directs Youth Diversion cases to the counter.*
+
+## FTA and CPF notices
+
+When a violator has an FTA notice or a CPF show cause notice, they can read it online, open any attached documents, and acknowledge receipt. The acknowledgment is time-stamped. There's no upload, and acknowledging doesn't clear or issue a warrant.
+
+## What the clerk sees
+
+Portal requests and contact updates appear in the Clerk Queue under **Violator portal**. The clerk opens **Review request** and chooses **Approve** or **Needs info** (and **Deny** where it's offered).
 
 ## Related
 
-- [Resolution workspace and controls](resolution-workspace-and-controls.md)
+- [Clerk workspace](resolution-workspace-and-controls.md)
 - [Court programs and eligibility](court-programs-eligibility.md)
-- [Path walk](path-walk.md)
