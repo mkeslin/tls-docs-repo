@@ -6,7 +6,7 @@ Use this page to explain what changes when a court turns on Court V2. Court V1 i
 
 | | **Court V1** | **Court V2** |
 |---|--------------|--------------|
-| **Guides** | [Court](../README.md): case states, queues, payments, programs, FTA and documents | [Court V2](README.md) |
+| **Guides** | [Court](../README.md): case states, queues, payments, programs, FTA and documents | [Court V2](README.md) and [Court V2 training](training/README.md) |
 | **How work starts** | The clerk moves the case from state to state with case actions | The violator or clerk picks an outcome, and Thin Line puts together the steps that outcome needs |
 | **Who decides** | The clerk records pleas, judgments and programs | The judge approves, rejects or returns each request (**Approve**, **Reject** or **Needs Info**) and signs every judgment and dismissal |
 | **Signatures** | As described in the Court pages | Always the violator's own signature: online, on the counter tablet, or on printed paper. Never a name typed by the clerk. |
@@ -27,7 +27,7 @@ You may run Court V1 and Court V2 side by side in a local demo environment to co
 | Audience | Start here |
 |----------|------------|
 | Clerk at a court that hasn't turned on Court V2 | [Court (V1)](../README.md) and [How-tos](../how-tos/README.md) |
-| Clerk, judge or prosecutor at a Court V2 court | [Court V2](README.md) |
+| Clerk, judge or prosecutor at a Court V2 court | [Court V2 training](training/README.md) |
 | Sales or solutions showing Court V2 | [Demoable now](demoable-now.md), then [Path walk](path-walk.md) |
 
 ## Details that differ

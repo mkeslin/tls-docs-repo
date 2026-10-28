@@ -161,3 +161,4 @@ These panels appear in the middle column of the clerk workspace when the case st
 - [Portal and online options](portal-and-online-options.md)
 - [Compliance gaps](compliance-gaps.md)
 - [Path walk](path-walk.md)
+- [Court V2 training](training/README.md)
