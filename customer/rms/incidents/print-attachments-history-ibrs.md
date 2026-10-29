@@ -12,7 +12,7 @@ There is typically **no** Incidents drawer **Reports** item — printing is from
 
 ## Attachments
 
-Use the **Attachments** tab for supporting files allowed by policy (photos, scans, external documents). Attachments remain with the incident for later review.
+Use the **Attachments** tab for supporting files allowed by policy (photos, scans, external documents). Attachments remain with the incident for later review. A deleted file leaves the tab and printed images. If that file was the portrait, the incident still opens and the portrait stays blank.
 
 ## History
 

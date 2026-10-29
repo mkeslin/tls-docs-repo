@@ -18,7 +18,7 @@ Search-grid print is covered in [Search citations](search.md).
 
 ## Attachments
 
-Use the **Attachments** tab to add supporting files (scans, photos, related documents) allowed by your agency. Attachments stay with the citation record for later review and court packet support as configured.
+Use the **Attachments** tab to add supporting files (scans, photos, related documents) allowed by your agency. Attachments stay with the citation record for later review and court packet support as configured. A deleted file leaves the tab and printed images.
 
 ## History
 
