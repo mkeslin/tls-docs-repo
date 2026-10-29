@@ -1,0 +1,29 @@
+# GitBook sync settings for the customer docs space.
+# Assumes the GitBook space syncs from the customer/ folder.
+# If the sync root moves to the repository root, move this file there and
+# prefix every target below with customer/.
+root: ./
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+
+# Court V2 moved under Court (old URLs /products/v2/...).
+# Confirm the old URL paths in the published site before merging.
+redirects:
+  v2: court/v2/README.md
+  v2/demoable-now: court/v2/demoable-now.md
+  v2/path-walk: court/v2/path-walk.md
+  v2/v1-vs-v2: court/v2/v1-vs-v2.md
+  v2/resolution-workspace-and-controls: court/v2/resolution-workspace-and-controls.md
+  v2/portal-and-online-options: court/v2/portal-and-online-options.md
+  v2/court-programs-eligibility: court/v2/court-programs-eligibility.md
+  v2/compliance-gaps: court/v2/compliance-gaps.md
+  products/v2: court/v2/README.md
+  products/v2/demoable-now: court/v2/demoable-now.md
+  products/v2/path-walk: court/v2/path-walk.md
+  products/v2/v1-vs-v2: court/v2/v1-vs-v2.md
+  products/v2/resolution-workspace-and-controls: court/v2/resolution-workspace-and-controls.md
+  products/v2/portal-and-online-options: court/v2/portal-and-online-options.md
+  products/v2/court-programs-eligibility: court/v2/court-programs-eligibility.md
+  products/v2/compliance-gaps: court/v2/compliance-gaps.md

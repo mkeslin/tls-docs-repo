@@ -59,6 +59,10 @@ When authorized, clerks may **Apply Jail Credit** (separate from Apply Payment) 
 
 Accepted payments flow into broader accounting processes (deposits, settlements, payouts) outside the individual case screen. Cashiers generally stop at apply + acceptance; finance staff use [Accounting](../accounting/README.md) for deposit batches and reconciliation. Referred balances may also appear in [Collections](../collections/README.md).
 
+## Court V2 Online Portal (public lookup)
+
+On builds with Court V2, staff can open **Court V2 Online Portal** from the violation **Payment Links** section (alongside **Online Payment** and **In-Person Payment**). That link opens `/public/portal` so clerks can preview the same defendant lookup and online outcome paths documented in [Court V2 — Portal and online options](v2/portal-and-online-options.md). Portal flows are separate from clerk **apply** and **accept** on the violation accounting dialog.
+
 ## Related
 
 - [How-to: Take and accept a payment](how-tos/take-and-accept-a-payment.md)

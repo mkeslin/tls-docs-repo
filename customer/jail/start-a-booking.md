@@ -41,6 +41,7 @@ The booking stays in **In Booking Process** until accepted or removed.
 If a booking should not proceed **before** accept, use **Delete booking** (not labeled “void” in the product). Success feedback is typically that the booking was removed.
 
 - Only delete when policy allows.
+- When **Delete booking** removes the last live booking on a custody episode, the system **soft-deletes** that custody episode and related intake children per server rules — do not use delete as a substitute for [Release](release.md).
 - Do **not** delete to “fix” an accepted custody episode — use [Release](release.md) or supervisor procedures.
 
 ## Related

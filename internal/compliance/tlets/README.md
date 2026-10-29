@@ -22,6 +22,10 @@ Playbook for Thin Line staff applying to run **NCIC / TLETS queries from within 
 | [Cloud data storage disclosure](cloud-data-storage-disclosure-template.md) | Storage/backup/retention narrative; inventory + vendor tables by reference to the Excel workbook |
 | [SIEM monitoring and weekly review (SI-4)](si-4-siem-monitoring-and-weekly-review.md) | Thin Line Azure/Sentinel **addendum** to the agency SIEM program; weekly review log by reference |
 | [Direct-interface scope](direct-interface-scope.md) | Working scope statement for the packet |
+| [Direct LETS operations](direct-lets-operations.md) | Device auth, gateway client config, SecurityLog, staff switches (6.5 product) |
+| [tls-lets gateway service](tls-lets-gateway.md) | **tls-lets** solution layout, pipeline, FoxTalk adapter, audit/redaction |
+| [End-to-end direct query round trip](end-to-end-direct-query.md) | UI → API → gateway → DPS → History (mermaid) |
+| [Azure hosting and agency inventory](azure-hosting-and-agency-inventory.md) | VM/systemd deploy, Gov cloud pipeline, networking pattern, per-agency inventories |
 | [Open decisions](open-decisions.md) | Blockers before locking Word-form answers |
 | [Agency guide (planned)](agency-guide-planned.md) | Future **customer** section — not published yet |
 
@@ -63,13 +67,15 @@ Playbook for Thin Line staff applying to run **NCIC / TLETS queries from within 
 - [ ] Agency attestation / addendum / fingerprint evidence
 - [ ] Agency network diagram update: Thin Line query UI + interface connector + ORI
 
-### Engineering honesty (2026-07)
+### Engineering honesty
 
 | Item | Status |
 |------|--------|
-| Monorepo `LetsQuery` module | RMS **recordkeeping**. 6.4.21 adds a direct query path that stays off until **Enable Direct LETS Queries**, an ORI, and a configured gateway are all present. Sandbox can run driver-license (`DQ`) and registration (`RQ`) queries and store `GatewayMode`. |
-| XDAC / OFML / DMPP connector | <mark style="color:red;">**Not implemented**</mark> in ThinLineSoftware as of this writing. Direct LETS is not a customer TLETS go-live. |
-| In-app Help CJIS copy | Update when product ships queries |
+| Monorepo `LetsQuery` module | RMS **recordkeeping** plus an off-by-default direct query path. **6.4.21** keeps that path off until **Enable Direct LETS Queries**, an ORI, and a configured gateway are all present. Sandbox can run driver-license (`DQ`) and registration (`RQ`) queries and store `GatewayMode`. The fuller direct gateway path and device enforcement ship on **release/6.5.0**. |
+| Direct LETS gateway + device enforcement | Implemented on **release/6.5.0** — see [Direct LETS operations](direct-lets-operations.md). Stays off for an agency until the staff switch, ORI, and gateway are configured. |
+| XDAC / OFML / DMPP connector | <mark style="color:red;">**Not implemented**</mark> in ThinLineSoftware as of this writing. Direct LETS is not a customer TLETS go-live. The production DPS path still needs DPS approval and environment configuration. |
+| Customer GitBook | [Direct LETS queries](../../customer/cad/direct-lets-queries.md) |
+| In-app Help CJIS copy | Update on the product release that ships direct LETS queries to customers |
 
 ---
 
