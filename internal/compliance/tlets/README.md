@@ -67,8 +67,8 @@ Playbook for Thin Line staff applying to run **NCIC / TLETS queries from within 
 
 | Item | Status |
 |------|--------|
-| Monorepo `LetsQuery` module | RMS **recordkeeping** — **not** a TLETS wire client |
-| XDAC / OFML / DMPP connector | <mark style="color:red;">**Not implemented**</mark> in ThinLineSoftware as of this writing |
+| Monorepo `LetsQuery` module | RMS **recordkeeping**. 6.4.21 adds a direct query path that stays off until **Enable Direct LETS Queries**, an ORI, and a configured gateway are all present. Sandbox can run driver-license (`DQ`) and registration (`RQ`) queries and store `GatewayMode`. |
+| XDAC / OFML / DMPP connector | <mark style="color:red;">**Not implemented**</mark> in ThinLineSoftware as of this writing. Direct LETS is not a customer TLETS go-live. |
 | In-app Help CJIS copy | Update when product ships queries |
 
 ---

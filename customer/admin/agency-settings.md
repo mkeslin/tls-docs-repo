@@ -15,7 +15,7 @@ Requires the agency-administration claim.
 
 | Tab | What agencies typically change |
 |-----|--------------------------------|
-| **General** | Agency display name and related identity; court / import options your claim allows, including **virtual appearance** join details and **continuance notice hours** for court setting notices |
+| **General** | Agency display name and related identity; court / import options your claim allows, including **virtual appearance** join details, **continuance notice hours**, **Show Cause Hearing Text**, and **Pretrial Hearing Text** for court setting notices |
 | **Modules** | View which modules are enabled and numbering patterns — **usually view-only**; contact Thin Line Support to change enablement |
 | **Notifications & Workflow** | Dashboard / task-board notification preferences |
 | **Reports** | Names and addresses that appear on report output |
@@ -35,6 +35,8 @@ Some fields on **General** are maintained by Thin Line Support only. If a contro
 ### Court virtual appearance (court agencies)
 
 On **General**, court agencies can enable standing virtual-appearance details for setting notices (provider label such as ZOOM, join URL, meeting ID, dial-in) and set **continuance notice hours** (default 48). Leave the join URL as entered — it is case-sensitive. Print a setting notice or **Order Setting Pretrial Hearing** from a training case to confirm the block appears only when enabled.
+
+**Show Cause Hearing Text** replaces the citation business-hours line on show-cause letters when it is filled in. Clear it to fall back to the citation hours. **Pretrial Hearing Text** is used on a pretrial order when the case has no time; a time on the case prints instead. **Enable Direct LETS Queries** stays off unless Thin Line Support has configured a gateway and ORI for that agency.
 
 ### Adjust notifications
 

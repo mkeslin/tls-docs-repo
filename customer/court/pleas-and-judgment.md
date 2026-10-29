@@ -36,6 +36,8 @@ After a guilty or no contest plea (or after a guilty verdict):
 2. Complete judgment details required by the dialog.
 3. The case typically moves to **Convicted**, where fines, compliance orders, and payment plans are handled.
 
+The printed judgment, including the e-sign copy, keeps the fine and costs that were assessed after a later payment. The e-sign remaining balance is what is still owed.
+
 From post-plea, the court may instead **grant a court program** rather than entering judgment immediately — see [Court programs](court-programs.md).
 
 ## Trial track (summary)

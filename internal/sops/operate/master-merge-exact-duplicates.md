@@ -60,6 +60,7 @@ Unknown-name person and organization groups are gated in the procedure so they d
 ## Follow-up
 
 - Spot-check the survivor on Masters search and a recent incident / citation / court case.
+- Person merges collapse a shared phone, alias, or email to one row on the survivor. The same cleanup runs for duplicates already copied onto a snapshot.
 - Large person runs: use the simulation script under `Scripts/` before production if volume is high.
 - <mark style="color:red;">**TODO:**</mark> Record default owner and a review date after the first production use of exclusions.
 

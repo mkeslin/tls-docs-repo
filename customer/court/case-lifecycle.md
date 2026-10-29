@@ -17,7 +17,7 @@ Clerks mostly work from **actions** on the case. Choosing an action (Enter plea,
 
 | State | Plain-language meaning |
 |-------|------------------------|
-| **New** | Created; not yet activated into active court flow |
+| **New** | Created; not yet activated into active court flow. A citation that creates a case lands here, including when it has an appearance date. Automatic move to Pre-Plea is off unless Thin Line Support turns it on for the agency, and that move still requires an appearance date |
 | **Pre-plea** | Awaiting plea / first appearance work |
 | **Post-plea, pre-judgment** | Plea recorded; judgment or court program not yet final |
 | **Pre-trial / Trial / Verdict returned** | Not-guilty track through trial |

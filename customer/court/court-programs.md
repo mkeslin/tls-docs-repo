@@ -23,6 +23,10 @@ Typical path:
 
 While the program is active, use **View/modify court program** to update conditions without changing state when you only need to edit the plan.
 
+A condition hides **Certificate #** until **Evidence required** is on. Satisfying that condition then requires a certificate number.
+
+Community service on a convicted case can be completed when the hours do not pay the fine. The case stays in compliance with the remaining balance. A compliance due date that is today or already past moves forward about five business days. A later date a clerk already set stays.
+
 ## Successful completion
 
 When the defendant meets program requirements:

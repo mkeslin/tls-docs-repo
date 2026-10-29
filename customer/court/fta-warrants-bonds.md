@@ -12,7 +12,7 @@ When a defendant misses a required appearance:
 
 1. Open the court violation (often from the calendar or an FTA queue).
 2. Choose **Mark failure to appear** (or the equivalent enabled action).
-3. Set or confirm **show-cause** information when prompted.
+3. Set or confirm **show-cause** information when prompted. **Mark failure to appear** keeps the show-cause date you enter. **Clear FTA** still applies the agency default date.
 4. The case moves onto the **FTA** track (workflow often treats this as an inactive / enforcement bucket until resolved).
 
 From FTA, common next steps include issuing an **FTA warrant**, scheduling or updating show cause, or returning the case when the defendant appears / bond is resolved — according to the actions enabled for that state.

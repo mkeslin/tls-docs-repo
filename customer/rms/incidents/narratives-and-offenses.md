@@ -11,6 +11,7 @@ Open the **Narratives** tab to add or edit narrative sections your agency uses (
 - Write clearly; supplements may lock prior narrative versions when workflow advances.
 - Use the voice and structure your agency’s policy requires (first person, chronological, etc.).
 - Save as you go — do not rely on a single save at the end of a long session.
+- When the call has units from more than one agency, the required-narrative list includes only units from the incident’s agency.
 
 ## Offenses
 
@@ -22,6 +23,8 @@ Open the **Offenses** tab to add offense lines for the case.
 | **Report to IBRS** | Include this offense in IBRS / state reporting when applicable |
 
 Offense choices drive involved-person relationships, property rules, and IBRS validation. Add all reportable offenses before submitting for approval when possible.
+
+If you delete an offense while a person, vehicle, or property form is still open, save that form without checking the deleted offense again. **Related IBRS Offenses** does not put the deleted offense back.
 
 ## Tips
 
