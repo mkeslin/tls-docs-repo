@@ -71,7 +71,7 @@ Playbook for Thin Line staff applying to run **NCIC / TLETS queries from within 
 
 | Item | Status |
 |------|--------|
-| Monorepo `LetsQuery` module | RMS **recordkeeping** plus an off-by-default direct query path. **6.4.21** keeps that path off until **Enable Direct LETS Queries**, an ORI, and a configured gateway are all present. Sandbox can run driver-license (`DQ`) and registration (`RQ`) queries and store `GatewayMode`. The fuller direct gateway path and device enforcement ship on **release/6.5.0**. |
+| Monorepo `LetsQuery` module | RMS **recordkeeping** plus an off-by-default direct query path. **6.4.21** keeps that path off until **Enable Direct LETS Queries**, an ORI, and a configured gateway are all present. On **6.5.2** the form is **DRIVER** / **VEHICLE**, and the server chooses **CPL**, **DQ**, **REG**, or **RQ**. **KQ** is a follow-up on one out-of-state license record. The fuller direct gateway path and device enforcement ship on **release/6.5.0**. |
 | Direct LETS gateway + device enforcement | Implemented on **release/6.5.0** — see [Direct LETS operations](direct-lets-operations.md). Stays off for an agency until the staff switch, ORI, and gateway are configured. |
 | XDAC / OFML / DMPP connector | <mark style="color:red;">**Not implemented**</mark> in ThinLineSoftware as of this writing. Direct LETS is not a customer TLETS go-live. The production DPS path still needs DPS approval and environment configuration. |
 | Customer GitBook | [Direct LETS queries](../../customer/cad/direct-lets-queries.md) |

@@ -50,32 +50,23 @@ Shared terminals may be enrolled without a single assigned user; policy still re
 
 | Field | Notes |
 |-------|--------|
-| **Query Type** | **DQ - DRIVER LICENSE** or **RQ - VEHICLE REGISTRATION** |
+| **Driver / Vehicle** | Chooses which fields are on the form. Thin Line selects the Texas or out-of-state inquiry from those fields and the state |
 | **Query Reason** | Agency query-reason code list (clearable when optional) |
-| **Requesting Officer** | **Optional** — use when the inquiry is on behalf of an officer; dispatchers may leave it blank |
-| **Note** | Optional free text |
+| **Requesting Officer** | Use when the inquiry is on behalf of an officer; dispatchers may leave it blank |
+| **Note** | Free text on the **LETS Query** page. The slideout does not collect a note |
 
-The signed-in user is always recorded as the operator running the query.
+The signed-in user is always recorded as the operator running the query. A blank state uses your agency’s state. Required fields show **\***. **Run Query** applies the same required-field rules as the server. Enter a license number, or a last name and first name. Enter a plate, or a VIN.
 
-Field labels show **\*** for required values and **(optional)** for optional values. **Run Query** applies the same required-field rules as the server.
+### Driver
 
-### Driver license (DQ)
+- **Texas** returns the complete driver record, including history when the record has it.
+- **Another state** returns the current license record. On the slideout, one returned record has **Driver History**, which requests that person’s history from the same state. A list of possible people does not. The history request uses the license number when the record has one. Otherwise it uses the name, date of birth, and sex.
+- A name search for another state needs **Date of Birth** and **Sex**. A license-number search does not ask for sex.
 
-Provide **one** of:
+### Vehicle
 
-- **License Number**, or
-- **Last Name**, **First Name**, and **Date of Birth** together
-
-**Sex** is optional. A caption under the driver-license fields describes the search options.
-
-### Vehicle registration (RQ)
-
-Provide **one** of:
-
-- **Plate** and **Plate State**, or
-- **VIN**
-
-**Plate Year** and **Plate Type** are optional. **Plate Type** uses NCIC license plate types. A caption under the registration fields describes the search options.
+- **Texas** accepts a plate or a VIN. Enter **Plate Year** when you have it. Texas registration does not use **Plate Type**.
+- **Another state** accepts a plate with **Plate Year** and **Plate Type**, or a VIN. **Plate Type** uses NCIC license plate types.
 
 ### After Run Query
 

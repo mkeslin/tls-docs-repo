@@ -23,7 +23,7 @@ This page traces a **direct LETS** query from the signed-in user in Thin Line th
 1. **Agency gate** — `Enable Direct LETS Queries` must be on (staff-only toggle). See [Direct LETS operations](direct-lets-operations.md).
 2. **User claims** — `Lets.Tlets.Query` (and CHRI when applicable); support users bypass user-claim checks but not device verification.
 3. **Device verification** — Active enrollment for the session; device status and row-level permissions; optional staff IP allowlist on agency TLETS settings.
-4. **Validation** — `letsDirectQueryRules.ts` / server rules (DQ/RQ fields, query type, reason code).
+4. **Validation** — `LetsDirectQueryRules` infers **CPL**, **DQ**, **REG**, or **RQ**. **KQ** is sent only when `requestDriverHistory` is set on a non-Texas driver inquiry. The client query-type code is stored after that decision, not trusted as the officer’s choice.
 5. **Gateway call** — `LetsGatewayClient` POST to configured `LetsGateway:BaseUrl` with API key and timeout. Unconfigured base URL → readiness failure without calling a placeholder host.
 6. **Audit** — Every attempt writes a **LetsQueries** row (outcome, deny reason, device ids, correlation id, client IP).
 

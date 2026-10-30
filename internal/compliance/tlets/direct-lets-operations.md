@@ -61,9 +61,10 @@ Event IDs **9140–9231** (device lifecycle, agency enable/disable/settings, cla
 - **TletsAuthorizationCards** — user + device state on Query tab.
 - **TEST VERIFIER** badge and **Register this device** — DevTest only (`SandboxTletsDevice`, `SandboxTletsStepUpDialog`).
 - History: expandable row via `letsQueryHistoryDetails.ts`; columns include TLETS outcome and device id (internal troubleshooting).
-- Query validation: `letsDirectQueryRules.ts` (DQ/RQ required sets; **Requesting Officer** optional; gateway **UserId** = signed-in user).
+- Query validation: `LetsDirectQueryRules` is the source of truth and ignores a client-chosen key. The form’s **DRIVER** / **VEHICLE** control only decides which fields are posted. Blank state is the agency state. Texas driver is **CPL**. Another state’s driver is **DQ**. Texas registration is **REG** with registration type **EC** (inferred; the 2026 form requires the type and does not print the code). Another state’s registration is **RQ**. One identifier per inquiry. An out-of-state name search requires date of birth and sex. **Requesting Officer** stays optional. The gateway user id is the stored DPS user id, not the internal user id.
+- A single **DQ** record can request **KQ** through `requestDriverHistory`. The same fields without that flag stay **DQ**. Texas or a vehicle plus the flag is refused. The slideout shows **Driver History** on that one record and on an expanded row in the last 24 hours.
 - Test reason code migration: `_QRC` test code (`AddTestLetsQueryReasonCode`).
-- **Plate Type** on registration queries uses NCIC license plate type codes (`AddLicensePlateTypeCodes`).
+- **Plate Type** is sent on an out-of-state plate search and uses NCIC license plate type codes (`AddLicensePlateTypeCodes`). Texas **REG** does not send it. Plate year is sent when entered and is required for an out-of-state plate.
 
 The same Query / Devices / History workspace also opens from the right-edge **TLETS** button (`TletsRailButton` → `TletsQueryDrawer`) when `directLetsQueriesEnabled` and `canModifyLetsQueries` are both true. The drawer follows the agency direct-query switch on its own. Ready authorization collapses to labeled header buttons. The current switch response stays under the form and is separate from the last 24 hours of saved queries. Unverified device attempts are omitted from that recent list. A direct query requires a stored DPS user id for the signed-in user at this agency.
 
