@@ -2,9 +2,19 @@
 
 Run **driver license** and **vehicle registration** inquiries when your agency is configured for **direct LETS** through Thin Line.
 
+## Where to open TLETS
+
+| Place | Who sees it | What it does |
+|-------|-------------|--------------|
+| **LETS Query** page | Users with LETS query access | Full workspace: Query, Devices, and History |
+| Right-edge **TLETS** button | Your agency has direct queries on, and you can run a query | Same Query, Devices, and History workspace in a slideout |
+| CAD notes **TLETS** button | Direct queries are on for the environment and at least one agency, and you can view LETS queries | Bottom sheet of this agency’s queries from the **last 24 hours**, from every user |
+
+The CAD sheet is a monitor. It does not replace the query form. Expand a row to read the switch response. Attempts that failed device verification are left off that list. Refresh reloads the last 24 hours.
+
 ## Open the LETS Query workspace
 
-The screen title is **LETS Query**. It has three tabs:
+The screen title is **TLETS** on the slideout and **LETS Query** on the page. It has three tabs:
 
 | Tab | Purpose |
 |-----|---------|
@@ -65,7 +75,7 @@ Provide **one** of:
 - **Plate** and **Plate State**, or
 - **VIN**
 
-**Plate Year** and **Plate Type** are optional. A caption under the registration fields describes the search options.
+**Plate Year** and **Plate Type** are optional. **Plate Type** uses NCIC license plate types. A caption under the registration fields describes the search options.
 
 ### After Run Query
 
@@ -83,7 +93,15 @@ The history grid lists date, type, reason, officer, note, and TLETS outcome colu
 
 ## Agency enablement
 
-**Enable Direct LETS Queries** on the agency (Law Enforcement Details) turns on direct LETS for that agency. Only Thin Line support can change that switch; agency admins see it as read-only. The agency also needs a valid **9-character ORI** and remaining gateway configuration before the readiness check passes.
+**Enable Direct LETS Queries** on the agency (Law Enforcement Details) turns on direct LETS for that agency. Only Thin Line support can change that switch; agency admins see it as read-only. The environment also has its own direct-query switch. The agency also needs a valid **9-character ORI** and remaining gateway configuration before the readiness check passes.
+
+## DPS user id
+
+**Admin → TLETS → Operators** stores the **DPS user id** for each person at this agency. A direct query sends that id. Leave the field empty to remove it. A query cannot run until the signed-in user has an id stored for this agency.
+
+## TLETS mailbox
+
+**Admin → TLETS Mailbox** lists messages the switch delivered to this agency’s terminal. View a message, then **Dismiss** or **Restore**. Dismissed messages stay in the record. Turn on **Show Dismissed** to see them. A search result stays on the query; it is not moved into the mailbox. Thin Line Support marks which agency **Operates the TLETS Terminal** and which **Terminal Device** receives that mail.
 
 ## Tips
 

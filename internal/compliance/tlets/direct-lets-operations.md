@@ -28,7 +28,7 @@ Unresolved or placeholder **BaseUrl** is treated as **not configured** (no call 
 ## Device authorization model
 
 - **Enroll / verify** through method-specific `IDeviceVerifier` implementations.
-- **DevTestDeviceVerifier** — registered only outside Production when `TletsDevice:EnableDevTestVerifier` is true; startup fails if the flag is set in Production.
+- **DevTestDeviceVerifier** — registered when `TletsDevice:EnableDevTestVerifier` is true, including Production. Leave the flag off in Production unless a controlled test verifier is intended. The API starts with the flag off.
 - **DeviceVerifications** keyed by **TletsSessionKey** (`sr:{sub}|{rexp}` — Descope `sub` + refresh expiry; plain `nvarchar(200)`).
 - Verification window from **AgencyTletsSettings** (default **12** hours, allowed **1–24**).
 - **POST** `tlsapi/lets-queries/direct` runs `TletsDeviceAuthorizationFilter` (fail-closed: switch, user claims, active verification, device status/claims, verifier).
@@ -46,7 +46,7 @@ Unresolved or placeholder **BaseUrl** is treated as **not configured** (no call 
 | Device admin | `TletsDeviceAdminController` — list/approve/suspend/reactivate/revoke, claim grant/remove (agency-scoped, `DevicesApprove`) |
 | My devices | `GET tlsapi/tlets/devices/mine` — assigned devices + shared terminals this user enrolled |
 | User authorization display | `GET tlsapi/tlets/authorization/mine` |
-| Admin UI | **Admin → TLETS Devices** (`AdminTletsDevices`) |
+| Admin UI | **Admin → TLETS** — Devices and Operators (`AdminTlets`) |
 | Approve dialog | Confirms row permission checkboxes; API always grants TLETS query on approve; **CHRI** follows row checkbox state |
 
 DevTest enrollment: server-generated device ID (`TLETS-TEST-DEVICE-` + 12 chars), generated label `{USER NAME}-{TYPE}` with numeric suffix on collision.
@@ -63,6 +63,23 @@ Event IDs **9140–9231** (device lifecycle, agency enable/disable/settings, cla
 - History: expandable row via `letsQueryHistoryDetails.ts`; columns include TLETS outcome and device id (internal troubleshooting).
 - Query validation: `letsDirectQueryRules.ts` (DQ/RQ required sets; **Requesting Officer** optional; gateway **UserId** = signed-in user).
 - Test reason code migration: `_QRC` test code (`AddTestLetsQueryReasonCode`).
+- **Plate Type** on registration queries uses NCIC license plate type codes (`AddLicensePlateTypeCodes`).
+
+The same Query / Devices / History workspace also opens from the right-edge **TLETS** button (`TletsRailButton` → `TletsQueryDrawer`) when `directLetsQueriesEnabled` and `canModifyLetsQueries` are both true. The drawer follows the agency direct-query switch on its own. Ready authorization collapses to labeled header buttons. The current switch response stays under the form and is separate from the last 24 hours of saved queries. Unverified device attempts are omitted from that recent list. A direct query requires a stored DPS user id for the signed-in user at this agency.
+
+## CAD query monitor
+
+`CadTletsQueryDrawer` is the notes-area button on CAD. It opens a bottom sheet titled **TLETS** / **Last 24 hours**.
+
+`CadTletsQueryMonitor.IsEnabled` is true only when the **system** `EnableDirectLetsQueries` setting is on and at least one agency allows direct queries. The button also requires `canAccessLetsQueries`. The list is the signed-in agency’s queries from every user, newest first, and it drops device-not-verified audit rows.
+
+## Admin TLETS
+
+**Admin → TLETS** has **Devices** and **Operators**. Operators stores the **DPS user id** per user for the current agency (`AuthUserTletsOperators`). A query sends that id; an empty value removes it.
+
+**Admin → TLETS Mailbox** (`canManageTletsMailbox`) lists messages the switch delivered to this agency’s terminal. Dismiss and restore keep the row. Search results stay on the query. **Operates the TLETS Terminal** and **Terminal Device** are full-support agency settings.
+
+Claim `Lets.Tlets.Mailbox`: can read and dismiss messages delivered to the agency TLETS terminal.
 
 ## IP allowlist and reasons
 

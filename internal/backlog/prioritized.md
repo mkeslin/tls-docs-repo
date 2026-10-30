@@ -43,6 +43,7 @@ Each work item has a stable **`BL-###`** identifier (zero-padded three digits). 
 | **BL-029** | CAD | Map-first dispatch + location intelligence ([`plans/BL-029-cad-map-dispatch-location-intel.md`](plans/BL-029-cad-map-dispatch-location-intel.md)) |
 | **BL-030** | Patrol / CAD | Levelland fit — finish Patrol as field experience + shared CAD reality ([`design/levelland-patrol-cad-2026-roadmap.md`](design/levelland-patrol-cad-2026-roadmap.md)) |
 | **BL-031** | UI | Search shell — columns, multi-select filters, row highlight, print-follows-grid, CSV/Excel ([`plans/BL-031-search-shell-improvements.md`](plans/BL-031-search-shell-improvements.md)) |
+| **BL-032** | API | Soft-delete query filters left off or inverted (record groups, IBRS/NERIS/OCA/DPS/State Quarterly, LETS) |
 
 ---
 
@@ -100,6 +101,7 @@ Each work item has a stable **`BL-###`** identifier (zero-padded three digits). 
 | BL-026 | API / UI | Align multi-value GET query params | Prefer repeated keys + `List`/`T[]` over comma-separated `string` + `Split`. Inventory in plan. **→ Plan:** [`plans/BL-026-align-multivalue-get-query-params.md`](plans/BL-026-align-multivalue-get-query-params.md) |
 | BL-028 | Accounting | Cleanup unused collections chart accounts | Soft-delete / retire `COLLECTIONS_EXPENSE` (unused on all 4 court prod DBs) and handle `LOCAL_FEE_COLLECTIONS_FUND` carefully — Slaton has **9 posted RAL TPC lines** on that account; live TPC maps to `DUE_TO_COLLECTIONS_AGENCY`. Do not hard-delete fund account without history plan. Lane: **cleanup**. |
 | **BL-031** | **UI** | **Search shell improvements** | Hide/show + arrange columns; multi-select filters (after **BL-026**); shared last-opened row highlight; grid print (then CSV/Excel) follows the visible grid. **→ Plan:** [`plans/BL-031-search-shell-improvements.md`](plans/BL-031-search-shell-improvements.md) |
+| BL-032 | API | Soft-delete query filters left off or inverted | Deferred from 6.4.21. No customer path hits these today. Lane: **bug**. (1) **Record groups** — `ModuleRecordGroup` filter is fully commented out; member filter keeps the agency check and comments out `!IsDeleted`. A delete sets `IsDeleted` and the next load still returns the row. The screen has no remove action. (2) **IBRS, NERIS, OCA, DPS conviction, State Quarterly** — header/record filters comment out `!IsDeleted`. `DeleteRecord` exists and nothing calls it. OCA already notes that a child filter can drop new rows saved with a new header; confirm a new line still saves before enabling `!IsDeleted`. (3) **LETS** — `LetsQuery` filter is `e => e.IsDeleted`, so a direct query returns only deleted rows. Search uses the search view. Master merge reads `LetsQueries` and would only see deleted queries. Direct LETS is not a customer go-live. |
 
 ---
 
@@ -147,6 +149,7 @@ Sorted by **Priority** (asc), then **Module**, **Name**.
 | BL-026 | 9 | API / UI | Align multi-value GET query params | Comma-CSV `string` + `Split` → repeated keys + collections. Evidence print bugfix landed; alignment remaining. | |
 | BL-028 | 12 | Accounting | Cleanup unused collections chart accounts | `COLLECTIONS_EXPENSE` unused (4 court prod); `LOCAL_FEE_COLLECTIONS_FUND` has Slaton historical RAL TPC lines — soft-delete/remap carefully. | Court agencies |
 | BL-031 | 13 | UI | Search shell improvements | Column visibility/order, multi-select filters, shared row highlight, print-follows-grid, later CSV/Excel. Platform epic; park until prioritized. | |
+| BL-032 | 14 | API | Soft-delete query filters left off or inverted | Record groups, IBRS/NERIS/OCA/DPS/State Quarterly, and LETS. Left out of 6.4.21. Confirm child-save and merge behavior before enabling `!IsDeleted`. | |
 
 ---
 
@@ -198,3 +201,4 @@ Sorted by **Priority** (asc), then **Module**, **Name**.
 | 2026-08-11 | — | **BL-030** added — Levelland fit / Patrol as field experience + CAD shared reality; design [`design/levelland-patrol-cad-2026-roadmap.md`](design/levelland-patrol-cad-2026-roadmap.md). |
 | 2026-08-11 | — | **BL-030 / P0.0 confirmed** — Patrol is the sold field experience for 25–50 officer agencies (initiative goal; P0.1–P0.8 execute against it). |
 | 2026-08-13 | — | **BL-031** added — search shell improvements (columns, multi-select filters, row highlight, print-follows-grid, CSV/Excel); plan [`plans/BL-031-search-shell-improvements.md`](plans/BL-031-search-shell-improvements.md). Parked at P3 until prioritized. |
+| 2026-10-29 | — | **BL-032** added — soft-delete query filters left off or inverted (record groups, IBRS/NERIS/OCA/DPS/State Quarterly, LETS). Parked at P3; left out of 6.4.21. |

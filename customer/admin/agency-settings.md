@@ -36,7 +36,11 @@ Some fields on **General** are maintained by Thin Line Support only. If a contro
 
 On **General**, court agencies can enable standing virtual-appearance details for setting notices (provider label such as ZOOM, join URL, meeting ID, dial-in) and set **continuance notice hours** (default 48). Leave the join URL as entered — it is case-sensitive. Print a setting notice or **Order Setting Pretrial Hearing** from a training case to confirm the block appears only when enabled.
 
-**Show Cause Hearing Text** replaces the citation business-hours line on show-cause letters when it is filled in. Clear it to fall back to the citation hours. **Pretrial Hearing Text** is used on a pretrial order when the case has no time; a time on the case prints instead. **Enable Direct LETS Queries** stays off unless Thin Line Support has configured a gateway and ORI for that agency.
+**Show Cause Hearing Text** replaces the citation business-hours line on show-cause letters when it is filled in. Clear it to fall back to the citation hours. **Pretrial Hearing Text** is used on a pretrial order when the case has no time; a time on the case prints instead.
+
+### Direct LETS
+
+**Enable Direct LETS Queries** stays off unless Thin Line Support has configured a gateway and ORI for that agency. Agency admins see the switch as read-only. **Admin → TLETS → Operators** is where each person gets the **DPS user id** this agency sends on a query. Steps for running a query, approving devices, and reading the terminal mailbox are in [Direct LETS queries](../cad/direct-lets-queries.md).
 
 ### Adjust notifications
 
