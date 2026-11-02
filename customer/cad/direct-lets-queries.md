@@ -55,12 +55,12 @@ Shared terminals may be enrolled without a single assigned user; policy still re
 | **Requesting Officer** | Use when the inquiry is on behalf of an officer; dispatchers may leave it blank |
 | **Note** | Free text on the **LETS Query** page. The slideout does not collect a note |
 
-The signed-in user is always recorded as the operator running the query. A blank state uses your agency’s state. Required fields show **\***. **Run Query** applies the same required-field rules as the server. Enter a license number, or a last name and first name. Enter a plate, or a VIN.
+The signed-in user is always recorded as the operator running the query. A blank state uses your agency’s state. Required fields show **\***. **Run Query** applies the same required-field rules as the server. Enter a license number, or a last name and first name. **Middle Name** is optional. A Texas name search does not use it to narrow the results. Enter a plate, or a VIN.
 
 ### Driver
 
 - **Texas** returns the complete driver record, including history when the record has it.
-- **Another state** returns the current license record. On the slideout, one returned record has **Driver History**, which requests that person’s history from the same state. A list of possible people does not. The history request uses the license number when the record has one. Otherwise it uses the name, date of birth, and sex.
+- **Another state** returns the current license record. On the slideout, one returned record has **Driver History**, which requests that person’s history from the same state. A list of possible people does not. The history request uses the license number when the record has one. Otherwise it uses the name, including a middle name when one was entered, date of birth, and sex.
 - A name search for another state needs **Date of Birth** and **Sex**. A license-number search does not ask for sex.
 
 ### Vehicle
