@@ -19,11 +19,11 @@ Staff helper copy lives in `adminTletsAgencySettings.ts` (support-only messaging
 "LetsGateway": {
   "BaseUrl": "",
   "ApiKey": "",
-  "TimeoutSeconds": 20
+  "TimeoutSeconds": 90
 }
 ```
 
-Unresolved or placeholder **BaseUrl** is treated as **not configured** (no call to a placeholder host). Gateway failures return a reason surfaced in the UI stored-response **error** field.
+Unresolved or placeholder **BaseUrl** is treated as **not configured** (no call to a placeholder host). Gateway failures return a reason surfaced in the UI stored-response **error** field. **TimeoutSeconds** 90 covers the gateway connect, the wait for the first part, and the quiet listen after that part.
 
 ## Device authorization model
 
@@ -63,6 +63,7 @@ Event IDs **9140–9231** (device lifecycle, agency enable/disable/settings, cla
 - History: expandable row via `letsQueryHistoryDetails.ts`; columns include TLETS outcome and device id (internal troubleshooting).
 - Query validation: `LetsDirectQueryRules` is the source of truth and ignores a client-chosen key. The form’s **DRIVER** / **VEHICLE** control only decides which fields are posted. Blank state is the agency state. Texas driver is **CPL**. Another state’s driver is **DQ**. Texas registration is **REG** with no registration type. The 2026 form requires **RGT** and does not print the code. The switch rejected **EC**, so the type stays off until an accepted code is known. Another state’s registration is **RQ**. One identifier per inquiry. A name may include a middle name (`LAST,FIRST,MIDDLE`). Texas does not use the middle name to narrow the search. An out-of-state name search requires date of birth and sex. **Requesting Officer** stays optional. The gateway user id is the stored DPS user id, not the internal user id.
 - A single **DQ** record can request **KQ** through `requestDriverHistory`. The same fields without that flag stay **DQ**. Texas or a vehicle plus the flag is refused. The slideout shows **Driver History** on that one record and on an expanded row in the last 24 hours.
+- One inquiry can hold more than one switch message. Each message is its own block. The history row shows the count when more than one has arrived. The API returns when a part is already stored and `GET tlsapi/lets-queries/{id}/direct` reads that same row until the gateway marks the inquiry finished. On the local mock, a whole license, name, plate, or VIN equal to **MULTI** returns a second sample about two seconds later.
 - Test reason code migration: `_QRC` test code (`AddTestLetsQueryReasonCode`).
 - **Plate Type** is sent on an out-of-state plate search and uses NCIC license plate type codes (`AddLicensePlateTypeCodes`). Texas **REG** does not send it. Plate year is sent when entered and is required for an out-of-state plate.
 

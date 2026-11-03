@@ -10,7 +10,7 @@ Run **driver license** and **vehicle registration** inquiries when your agency i
 | Right-edge **TLETS** button | Your agency has direct queries on, and you can run a query | Same Query, Devices, and History workspace in a slideout |
 | CAD notes **TLETS** button | Direct queries are on for the environment and at least one agency, and you can view LETS queries | Bottom sheet of this agency’s queries from the **last 24 hours**, from every user |
 
-The CAD sheet is a monitor. It does not replace the query form. Expand a row to read the switch response. Attempts that failed device verification are left off that list. Refresh reloads the last 24 hours.
+The CAD sheet is a monitor. It does not replace the query form. Expand a row to read the switch response. When that inquiry has more than one switch message, the row shows how many have arrived. Attempts that failed device verification are left off that list. Refresh reloads the last 24 hours.
 
 ## Open the LETS Query workspace
 
@@ -71,6 +71,7 @@ The signed-in user is always recorded as the operator running the query. A blank
 ### After Run Query
 
 - **Stored response** shows validation messages, mode, status, and formatted result JSON when present.
+- When the switch returns more than one message for the same inquiry, each message is its own block. A later message is added to that inquiry, and the history row shows how many have arrived.
 - When the gateway returns a failure reason, it appears in the stored response (alongside status) so you can see why the inquiry did not complete.
 - A denied query shows an error alert with the message returned by the system.
 

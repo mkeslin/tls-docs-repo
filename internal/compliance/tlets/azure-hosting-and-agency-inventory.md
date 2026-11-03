@@ -82,11 +82,11 @@ On the **RMS/CAD** side (not on the gateway VM):
 "LetsGateway": {
   "BaseUrl": "",
   "ApiKey": "",
-  "TimeoutSeconds": 20
+  "TimeoutSeconds": 90
 }
 ```
 
-Unresolved **BaseUrl** = direct LETS not configured. Failures return reasons shown in the UI error field.
+Unresolved **BaseUrl** = direct LETS not configured. Failures return reasons shown in the UI error field. **TimeoutSeconds** 90 covers the gateway connect, the wait for the first part, and the quiet listen after that part.
 
 ---
 

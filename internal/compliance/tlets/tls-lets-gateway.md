@@ -63,7 +63,8 @@ Outcomes map to **Completed**, **Timeout**, **Failed**, or **Cancelled**. `Audit
 
 | Concern | Behavior |
 |---------|----------|
-| **FoxTalk** | Length-prefixed frames over TCP; session negotiation with server/device mnemonics |
+| **FoxTalk** | Length-prefixed frames over TCP; session negotiation with server/device mnemonics. One TCP session per device. More than one inquiry can be open on that session |
+| **Quiet listen** | `QuietAfterResponseSeconds` defaults to 30. Another part for the same reference starts that wait over. The next inquiry can be sent during the wait |
 | **Test switch** | When test mode and test host/port are configured, queries use a dedicated test identity and an unencrypted FoxTalk session to the **TLETS test switch** |
 | **Production** | Circuit map routes **requesting ORI** to a **terminal circuit** (host/port per route). Recent behavior: production sends can share the **same FoxTalk TCP session** as the test-switch path where configured (agency ORI and user remain on the inquiry; production device mnemonic stamped per route) |
 | **Encryption flag** | `EncryptionEnabled` — test bed starts unencrypted; gateway refuses encrypted mode until implemented |

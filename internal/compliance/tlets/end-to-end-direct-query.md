@@ -70,6 +70,7 @@ Environment selection is **configuration on the gateway VM**, not a defendant-vi
 | API key / IP deny at gateway | 401/403 at gateway; API maps to failure reason |
 | TCP connect failure | Logged; adapter may backoff (e.g. test switch retry window) |
 | Receive timeout | **Timeout** status; error message in stored response |
+| Later switch message | A stored part is enough for the inquiry to show. The screen reads that same inquiry until the gateway marks it finished. The adapter waits 30 seconds after the last part for that reference, then returns the parts it collected |
 | Max retries exceeded | **Failed** with adapter error text |
 | Unsupported state code | **Failed** at pipeline (no adapter) |
 
