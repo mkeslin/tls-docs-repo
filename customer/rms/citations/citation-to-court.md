@@ -35,7 +35,7 @@ Your implementation team documents which path your agency uses. Day-to-day, offi
 Before handoff, LE side should have:
 
 - Correct person and vehicle
-- Offenses (warning vs charge set correctly)
+- Offenses (warning vs charge set correctly), using the specific statute rather than a generic Class C category code
 - Court / appearance information when used
 - **ISSUED** status when your court path requires it
 
