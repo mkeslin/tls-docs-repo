@@ -50,6 +50,8 @@ If the defendant does not comply:
 
 **Revoke court program** returns the case toward **Post-plea, pre-judgment** when the program should end without completing the failure-to-comply show-cause sequence. Use the path that matches the court’s order.
 
+**Clear FTC** can return a convicted case to **Convicted** while the post-judgment compliance order is still open. That open order does not block the return.
+
 ## Tips
 
 - Watch **Program Failures — Show Cause Required** and **Program Show Cause — Court Action Required** for missed deadlines and unresolved show-cause.

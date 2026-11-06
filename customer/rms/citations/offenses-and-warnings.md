@@ -33,6 +33,7 @@ Multi-offense citations can produce **multiple** court violations — one per ch
 ## Tips
 
 - Choose the specific statute. Generic category codes such as THEFT CLASS C and ASSAULT CLASS C are retired and do not create a court charge. Citations dated after the start of November 5, 2026 no longer offer those codes.
+- CITY ORDINANCE VIOLATION is a placeholder, not an ordinance. Citations dated after the start of November 6, 2026 no longer offer it. A citation that already uses it keeps that link until you select the real ordinance.
 - Add all offenses for the stop before issuing so court import sees a complete set.
 - Primary path is the **Offenses** tab on the citation; use Offense Search from the header only when looking up codes outside the module — see [Header and user menu](../../getting-started/header-and-user-menu.md).
 - Voiding a **court case** later is a Court action, not an Offenses-tab “void citation” — see [Citation to court](citation-to-court.md).
