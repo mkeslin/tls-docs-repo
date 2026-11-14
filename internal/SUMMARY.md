@@ -166,6 +166,20 @@
     * [Azure hosting and agency inventory](compliance/tlets/azure-hosting-and-agency-inventory.md)
     * [Open decisions](compliance/tlets/open-decisions.md)
     * [Agency guide (planned)](compliance/tlets/agency-guide-planned.md)
+    * [Architecture and data flow](compliance/tlets/architecture-and-data-flow.md)
+    * [Vendor security program](compliance/tlets/vendor-security-program.md)
+    * [Azure Government FIPS guidance](compliance/tlets/azure-government-fips-guidance.md)
+    * [Requirements checklist](compliance/tlets/requirements-checklist.md)
+    * [DPS process (Feb 2026)](compliance/tlets/process-dps-2026-02.md)
+    * [Open questions](compliance/tlets/questions-open.md)
+    * [Vendor internal checklist](compliance/tlets/vendor-internal-checklist.md)
+    * [Vendor Q&A round 2 (partial)](compliance/tlets/correspondence/vendor-qna-round2-partial.md)
+    * [Vendor Q&A round 3 (partial)](compliance/tlets/correspondence/vendor-qna-round3-partial.md)
+    * [Agency Azure inventory: Crosby County SO](compliance/tlets/agency-inventories/crosby-county-so.md)
+    * [Agency Azure inventory: Crystal City PD](compliance/tlets/agency-inventories/crystal-city-pd.md)
+    * [Agency Azure inventory: Levelland PD](compliance/tlets/agency-inventories/levelland-pd.md)
+    * [Agency Azure inventory: Littlefield PD](compliance/tlets/agency-inventories/littlefield-pd.md)
+    * [Agency Azure inventory: Slaton PD](compliance/tlets/agency-inventories/slaton-pd.md)
 
 ## Court
 
