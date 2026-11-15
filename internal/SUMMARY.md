@@ -186,6 +186,9 @@
 * [Court](court/README.md)
   * [Court V2 decisions log](court/v2/decisions-log.md)
   * [Court V2 demo ceiling](court/v2/demo-ceiling.md)
+  * [Accounting dashboard — batches and export](court/accounting-dashboard-batches-and-export.md)
+  * [CentralSquare (Asyst) JE import](court/integrations/centralsquare-je-import.md)
+  * [PBFCM / Perdue Brandon outbound runbook](court/integrations/pbfcm-vendor-outbound-runbook.md)
 
 ## Backlog & design
 
