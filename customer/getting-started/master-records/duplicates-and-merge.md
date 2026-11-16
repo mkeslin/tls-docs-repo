@@ -33,11 +33,12 @@ You generally **cannot merge** two property masters that are tied to the **same 
 | Merge from right-rail Masters search | Users with the appropriate **Master … Merge** claims |
 | Bulk / scored duplicate tools inside Thin Line Admin | Thin Line Support only — not an agency Admin menu item |
 
-Agency administrators do **not** rely on **Admin → Master Merge** for day-to-day cleanup. That bulk tool is for Thin Line staff (including **Exact Duplicates** merge and exclusions). Your path is Masters search → select duplicates → **Merge**.
+Agency administrators do **not** rely on **Admin → Master Merge** for day-to-day cleanup. That bulk tool is for Thin Line staff (including **Exact Duplicates** merge and exclusions). On the scored list, **Safe to merge** shows clusters that only fill blank fields, so support does not have to choose between two values. Your path is Masters search → select duplicates → **Merge**.
 
 ## Tips
 
 - Agree which record is primary before merging (best identifiers, most attachments, correct DOB).
+- The merge dialog shows a location category by its name. When a code has no description, it shows the stored code. A difference that is only spaces or letter case is not a conflict.
 - After merge, spot-check a few [Records](persons.md) links and open a recent incident/citation.
 - If you lack merge rights, report duplicates to your administrator — do not keep using both files.
 - Large conversion cleanup may be coordinated with Thin Line Support during implementation.

@@ -24,6 +24,8 @@ Agency day-to-day merge stays on Masters search → **Merge**.
 
 Do **not** use Exact Duplicates for “looks similar” clusters — that is the **Scored** tab (see backlog **BL-025**).
 
+On **Scored**, **Safe to merge** lists clusters where no field has two different filled values. A blank next to a value is included. Use that filter when the merge does not require choosing between two values. A cluster that disagrees on a filled field stays off the filter. Names and addresses that differ only by spaces or letter case are the same value.
+
 ---
 
 ## Preconditions
