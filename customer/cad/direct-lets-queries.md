@@ -30,7 +30,7 @@ Before **Run Query**, two cards summarize whether you are allowed to run a direc
 
 | Card | What it reflects |
 |------|------------------|
-| **User authorization** | Your TLETS query permissions, whether **CHRI** queries are allowed for you, and whether **direct LETS queries** are enabled for the agency |
+| **User authorization** | Whether your TLETS user id is set, whether you can run TLETS queries, and whether **direct LETS queries** are enabled for the agency. Each line passes or fails on its own |
 | **Device authorization** | This browser’s registered device — approved, pending, suspended, revoked, or not registered |
 
 Each card is **green** when that side is ready, **amber** when something is pending or needs attention, and **red** when the query will be blocked. Fix what the card describes before retrying.
@@ -41,7 +41,7 @@ Thin Line **full-support** staff inherit TLETS query permissions for troubleshoo
 
 1. On **LETS Query** → **Devices**, register this browser when prompted (choose device type; the system assigns the device label and ID).
 2. An agency admin approves the device on **Admin** → **TLETS Devices** (administrators with device-approval rights only).
-3. On **Approve**, the dialog lists the **permissions** that approval will grant — the same permission checkboxes shown on that device’s row (TLETS queries are always included on approval). Adjust the row’s checkboxes before approving if CHRI or other permissions should differ.
+3. On **Approve**, the dialog lists the **TLETS queries** permission that approval will grant. That permission is always included on approval.
 4. Each signed-in session must **verify the device once** before the first direct query in that session. If verification is required, follow the step-up prompt for this browser’s device.
 
 Shared terminals may be enrolled without a single assigned user; policy still requires an approved device and valid user permissions.
@@ -93,7 +93,7 @@ The history grid lists date, type, reason, officer, note, and TLETS outcome colu
 
 ## TLETS mailbox
 
-**Admin → TLETS Mailbox** lists messages the switch delivered to this agency’s terminal. View a message, then **Dismiss** or **Restore**. Dismissed messages stay in the record. Turn on **Show Dismissed** to see them. A search result stays on the query; it is not moved into the mailbox. Thin Line Support marks which agency **Operates the TLETS Terminal** and which **Terminal Device** receives that mail.
+The terminal mailbox is not in this release. A search result stays on the query. **Admin → TLETS** shows **Devices** and **Operators** when direct queries are enabled for the environment and for this agency.
 
 ## Tips
 

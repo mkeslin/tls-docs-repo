@@ -35,6 +35,8 @@ Customer guides for Thin Line **CAD** — the live dispatch console — plus **s
 | [Multi-agency CAD and related records](multi-agency-and-related-records.md) | Shared boards, units by agency, Create/Link rules |
 | [Self-dispatch](self-dispatch.md) | Dashboard officer path |
 | [Dispatcher notes](dispatcher-notes.md) | Agency-wide notes (not call notes) |
+| [Officer Command Center](officer-command-center.md) | Header **PATROL** for Thin Line full support |
+| [Direct LETS queries](direct-lets-queries.md) | Driver and registration inquiries |
 | [CAD Records](records/README.md) | Historical search after the call is over |
 
 ## Journeys and agency context

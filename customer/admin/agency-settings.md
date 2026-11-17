@@ -40,7 +40,7 @@ On **General**, court agencies can enable standing virtual-appearance details fo
 
 ### Direct LETS
 
-**Enable Direct LETS Queries** stays off unless Thin Line Support has configured a gateway and ORI for that agency. Agency admins see the switch as read-only. **Admin → TLETS → Operators** is where each person gets the **DPS user id** this agency sends on a query. Steps for running a query, approving devices, and reading the terminal mailbox are in [Direct LETS queries](../cad/direct-lets-queries.md).
+**Enable Direct LETS Queries** stays off unless Thin Line Support has configured a gateway and ORI for that agency. Agency admins see the switch as read-only. **Admin → TLETS** appears when that switch is on for the environment and for this agency. **Operators** is where each person gets the **DPS user id** this agency sends on a query. Steps for running a query and approving devices are in [Direct LETS queries](../cad/direct-lets-queries.md).
 
 ### Adjust notifications
 

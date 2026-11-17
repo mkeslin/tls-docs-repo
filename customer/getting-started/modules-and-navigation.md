@@ -50,15 +50,16 @@ These may appear for some users but are **not** documented here as production tr
 
 | Module | Reason |
 |--------|--------|
-| **Criminal Trespass** | Not presented as product-ready in agency Admin Modules |
+| **Criminal Trespass** | **Trespass** on Admin → Modules. Turn it on, then users with the claim see the module. <mark style="color:red;">**TODO:**</mark> step-by-step guide |
 | **Equipment** / **Fleet** | Hidden from agency Admin Modules until product-ready |
-| Support-only dashboards (Patrol, Investigation, Supervisor, Chief, Data Integrity, Security) | Thin Line / prototype surfaces — not agency training topics |
+| Support-only dashboards (Investigation, Supervisor, Chief, Data Integrity, Security) | Thin Line / prototype surfaces — not agency training topics |
 
 ## CAD and JAIL vs CAD Records
 
 | Destination | What it is |
 |-------------|------------|
 | Header **CAD** | Live dispatch console — [CAD](../cad/README.md) |
+| Header **PATROL** | Officer Command Center for Thin Line full support — [Officer Command Center](../cad/officer-command-center.md) |
 | Left-rail **CAD Records** | Search historical CAD data — [CAD Records](../cad/records/README.md) |
 | Header **JAIL** | Jail Command Center / jail ops shell — [Jail](../jail/README.md) |
 | Left-rail **Jail Intake** | Booking search and intake steps |

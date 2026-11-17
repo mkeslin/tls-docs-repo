@@ -46,8 +46,8 @@ Unresolved or placeholder **BaseUrl** is treated as **not configured** (no call 
 | Device admin | `TletsDeviceAdminController` — list/approve/suspend/reactivate/revoke, claim grant/remove (agency-scoped, `DevicesApprove`) |
 | My devices | `GET tlsapi/tlets/devices/mine` — assigned devices + shared terminals this user enrolled |
 | User authorization display | `GET tlsapi/tlets/authorization/mine` |
-| Admin UI | **Admin → TLETS** — Devices and Operators (`AdminTlets`) |
-| Approve dialog | Confirms row permission checkboxes; API always grants TLETS query on approve; **CHRI** follows row checkbox state |
+| Admin UI | **Admin → TLETS** — Devices and Operators (`AdminTlets`). The menu item is hidden unless `directLetsQueriesEnabled` is true (environment switch and agency switch). |
+| Approve dialog | Confirms the TLETS queries permission. The CHRI checkbox is hidden in this release (`showTletsChriInUi` is false). Approval still sends the device’s stored CHRI flag. The API always grants TLETS query on approve. |
 
 DevTest enrollment: server-generated device ID (`TLETS-TEST-DEVICE-` + 12 chars), generated label `{USER NAME}-{TYPE}` with numeric suffix on collision.
 
@@ -77,11 +77,15 @@ The same Query / Devices / History workspace also opens from the right-edge **TL
 
 ## Admin TLETS
 
-**Admin → TLETS** has **Devices** and **Operators**. Operators stores the **DPS user id** per user for the current agency (`AuthUserTletsOperators`). A query sends that id; an empty value removes it.
+**Admin → TLETS** has **Devices** and **Operators**. The Mailbox tab is hidden (`showMailboxTab` is false) until a later release. The mailbox API and `Lets.Tlets.Mailbox` claim remain. Operators stores the **DPS user id** per user for the current agency (`AuthUserTletsOperators`). A query sends that id; an empty value removes it.
 
-**Admin → TLETS Mailbox** (`canManageTletsMailbox`) lists messages the switch delivered to this agency’s terminal. Dismiss and restore keep the row. Search results stay on the query. **Operates the TLETS Terminal** and **Terminal Device** are full-support agency settings.
+The user authorization card lists each check on its own row. A failed check does not recolor a passing row. The CHRI row is hidden with the same flag as the device checkbox. The reason list is `Missing` from `GET tlsapi/tlets/authorization/mine`, and it is empty when `CanQuery` is true.
 
-Claim `Lets.Tlets.Mailbox`: can read and dismiss messages delivered to the agency TLETS terminal.
+**Operates the TLETS Terminal** and **Terminal Device** are full-support agency settings. The mailbox screen that uses them is not shown.
+
+Claim `Lets.Tlets.Mailbox`: can read and dismiss messages delivered to the agency TLETS terminal. The admin tab that uses this claim is hidden.
+
+The agency **TLETS-only** flag (`AddAgencyTletsOnly`) shows **Dashboard** on the TLETS slideout when the flag and both direct-query switches are on. It does not hide other modules, and sign-in still opens the normal dashboard.
 
 ## IP allowlist and reasons
 
