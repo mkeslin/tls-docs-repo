@@ -19,6 +19,8 @@ To inspect OCA misdemeanor matrix totals **without** creating a filing, use the 
 
 **Appealed** cases are closed for workflow / pending inventory (they do not stay in Active or Inactive pending counts). After a case is reopened (vacated or remanded), a new disposition in that spell can be counted without stacking on the prior month’s conviction.
 
+Juvenile lines that count failure to attend school use Education Code offenses only (statute abbreviation EDC, section 25.093). An Election Code offense is not counted on those lines.
+
 ## Related
 
 - [DPS Conviction Report](dps-conviction-report.md)

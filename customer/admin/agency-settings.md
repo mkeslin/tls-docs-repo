@@ -32,6 +32,10 @@ Some fields on **General** are maintained by Thin Line Support only. If a contro
 3. Save.
 4. Run a sample report or print from a training record to verify layout.
 
+### Default court (code enforcement)
+
+Code enforcement agencies show **Default Court** on **General**. Thin Line full support sets it. New citations from that agency copy that court. Law enforcement agencies still set Default Court on the law enforcement card.
+
 ### Court virtual appearance (court agencies)
 
 On **General**, court agencies can enable standing virtual-appearance details for setting notices (provider label such as ZOOM, join URL, meeting ID, dial-in) and set **continuance notice hours** (default 48). Leave the join URL as entered — it is case-sensitive. Print a setting notice or **Order Setting Pretrial Hearing** from a training case to confirm the block appears only when enabled.

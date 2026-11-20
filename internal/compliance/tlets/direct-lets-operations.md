@@ -23,7 +23,7 @@ Staff helper copy lives in `adminTletsAgencySettings.ts` (support-only messaging
 }
 ```
 
-Unresolved or placeholder **BaseUrl** is treated as **not configured** (no call to a placeholder host). Gateway failures return a reason surfaced in the UI stored-response **error** field. **TimeoutSeconds** 90 covers the gateway connect, the wait for the first part, and the quiet listen after that part.
+Unresolved or placeholder **BaseUrl** is treated as **not configured** (no call to a placeholder host). Gateway failures return a reason surfaced in the UI stored-response **error** field. **TimeoutSeconds** 90 covers the gateway connect (30 seconds), the wait for the first part (30 seconds), and the quiet listen after that part (30 seconds). A connect that reaches the gateway limit is stored as a failed query. Production leaves `TletsDevice:EnableDevTestVerifier` off so the API can start.
 
 ## Device authorization model
 

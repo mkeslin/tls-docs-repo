@@ -202,17 +202,17 @@ Do **not** represent Thin Line RMS or an Azure cloud service itself as FIPS 140 
 
 ---
 
-## §7.g — Technical stack dossier _(repo snapshot 2026‑05‑12)_
+## §7.g — Technical stack dossier _(runtime corrected for 6.6.0 on 2026‑11‑20; UI rows below are the prior snapshot)_
 
-Pinned versions originate from [`ThinLine.API/global.json`](../../../../ThinLine.API/global.json) (**SDK 10.0.100**), [`ThinLine.API/ThinLine.RMS.WebAPI/ThinLine.RMS.WebAPI.csproj`](../../../../ThinLine.API/ThinLine.RMS.WebAPI/ThinLine.RMS.WebAPI.csproj) (**`net10.0`**), [`ThinLine.API/Directory.Packages.props`](../../../../ThinLine.API/Directory.Packages.props), and [`ThinLine.UI/package.json`](../../../../ThinLine.UI/package.json). **⚠ REPLACE** deployed build hashes per release tagging.
+Pinned versions originate from [`ThinLine.API/global.json`](../../../../ThinLine.API/global.json) (**SDK 11.0.100**), [`ThinLine.API/ThinLine.RMS.WebAPI/ThinLine.RMS.WebAPI.csproj`](../../../../ThinLine.API/ThinLine.RMS.WebAPI/ThinLine.RMS.WebAPI.csproj) (**`net11.0`**), [`ThinLine.API/Directory.Packages.props`](../../../../ThinLine.API/Directory.Packages.props), and [`ThinLine.UI/package.json`](../../../../ThinLine.UI/package.json). **⚠ REPLACE** deployed build hashes per release tagging.
 
 ### Application versions
 
 | Component | Source | Repo-pinned approximation |
 |-----------|--------|---------------------------|
-| Runtime SDK | [`global.json`](../../../../ThinLine.API/global.json) | `10.0.100` (roll‑forward documented) |
-| Web API TF | `.csproj` | `net10.0` |
-| ASP.NET Core / EF packages | `Directory.Packages.props` | **`10.0.7`** (central versions) |
+| Runtime SDK | [`global.json`](../../../../ThinLine.API/global.json) | `11.0.100` (roll‑forward `latestFeature`) |
+| Web API TF | `.csproj` | `net11.0` |
+| ASP.NET Core / EF packages | `Directory.Packages.props` | **`11.0.0`** (central versions) |
 | Vue | [`package.json`](../../../../ThinLine.UI/package.json) | `^3.5.33` |
 | Vite | [`package.json`](../../../../ThinLine.UI/package.json) | `^8.0.10` |
 | TypeScript | [`package.json`](../../../../ThinLine.UI/package.json) | `^5.9.3` |
