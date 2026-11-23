@@ -7,7 +7,7 @@ Two different “reports” surfaces in Court:
 1. **Operational rosters** — Court Violations → **Reports** (clerk lists you can filter and print)
 2. **Regulatory / state packs** — OCA, DPS conviction, and State Quarterly (filed with the state)
 
-**Reporting Status** (Court Violations navigation) shows whether current OCA, DPS, and State Quarterly periods are on track or need attention.
+**Reporting Status** (Court Violations navigation) shows whether current OCA, DPS, State Quarterly, and Child Safety Seat and Seat Belt Fines periods are on track or need attention. Each period is upcoming, due, past due, failed, or complete. A finished period stays complete after its due date. A state quarterly report stays open until the remittance is posted.
 
 For the full list of case PDFs (notices, judgments, warrants, program letters, labels) and **where each is printed**, see [Documents and forms](documents.md).
 
@@ -54,6 +54,7 @@ Thin Line includes Texas-oriented reporting packs for municipal court operations
 | **OCA** | Office of Court Administration style monthly court activity reporting |
 | **DPS conviction** | Weekly (Sun–Sat) conviction reporting to DPS. Generate on Monday for the prior week; due Tuesday. **Catch up multiple weeks** files one report for a run of weeks (up to 26). Reporting Status counts that file for each week it covers |
 | **State quarterly** | Quarterly state accounting / fee reporting |
+| **Child safety seat and seat belt fines** | Comptroller form 40-138. Half of the base fines collected on Transportation Code 545.412 and 545.413(b). Filed from [Import/Export](../import-export/seat-belt-fine-report.md) |
 
 These reports are for authorized court staff. Many packs are also launched from left-rail [Import/Export](../import-export/README.md) (**DPS Conviction**, **OCA**, **State Quarterly**). Agree one path per filing so staff do not produce conflicting files. Agency identifiers are configured during implementation.
 

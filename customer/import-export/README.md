@@ -15,6 +15,7 @@ Left-rail **Import/Export** is for authorized users who produce **compliance fil
 | [DPS Conviction Report](dps-conviction-report.md) | Court |
 | [OCA Report](oca-report.md) | Court |
 | [State Quarterly Report](state-quarterly-report.md) | Court |
+| [Child Safety Seat and Seat Belt Fines](seat-belt-fine-report.md) | Court |
 
 Court also has in-module [Reports](../court/reports.md), including **preview** of OCA / DPS / State Quarterly totals without creating a filing. Agree one path per pack so staff do not generate conflicting files.
 
@@ -28,6 +29,7 @@ Court also has in-module [Reports](../court/reports.md), including **preview** o
 | [DPS Conviction Report](dps-conviction-report.md) | Weekly DPS file (Sun–Sat) |
 | [OCA Report](oca-report.md) | Monthly OCA pack |
 | [State Quarterly Report](state-quarterly-report.md) | Quarterly court stats |
+| [Child Safety Seat and Seat Belt Fines](seat-belt-fine-report.md) | Annual Comptroller form 40-138 |
 | [Data quality checklist](data-quality-checklist.md) | Fix source records before export |
 
 ## Related

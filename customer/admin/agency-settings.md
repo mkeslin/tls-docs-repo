@@ -36,6 +36,10 @@ Some fields on **General** are maintained by Thin Line Support only. If a contro
 
 Code enforcement agencies show **Default Court** on **General**. Thin Line full support sets it. New citations from that agency copy that court. Law enforcement agencies still set Default Court on the law enforcement card.
 
+### Fiscal year (court agencies)
+
+On **General**, a court agency sets **Fiscal Year Start Month** (1 through 12). October (10) is the default. Comptroller form 40-138 uses that year. See [Child Safety Seat and Seat Belt Fines](../import-export/seat-belt-fine-report.md).
+
 ### Court virtual appearance (court agencies)
 
 On **General**, court agencies can enable standing virtual-appearance details for setting notices (provider label such as ZOOM, join URL, meeting ID, dial-in) and set **continuance notice hours** (default 48). Leave the join URL as entered — it is case-sensitive. Print a setting notice or **Order Setting Pretrial Hearing** from a training case to confirm the block appears only when enabled.

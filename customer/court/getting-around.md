@@ -17,7 +17,7 @@ For click-path training tasks, start with [How-tos](how-tos/README.md).
 | Area | What it is for |
 |------|----------------|
 | **Dashboard** | Today’s agenda and links into work areas / queues |
-| **Reporting Status** | Whether OCA, DPS conviction, and State Quarterly periods are on track or past due |
+| **Reporting Status** | Whether OCA, DPS conviction, State Quarterly, and Child Safety Seat and Seat Belt Fines periods are upcoming, due, past due, failed, or complete |
 | **Violation search** | Find cases by violation number, name, citation, filters |
 | **Citation search** | Find source citations when you need to create or locate related court work |
 | **Calendar** | Scheduled appearances, show-cause, pre-trial, and trial dates |
@@ -25,7 +25,7 @@ For click-path training tasks, start with [How-tos](how-tos/README.md).
 | **Work queues** | Exception-driven lists (missed appearance, pending payment acceptance, collections eligible, and more) |
 | **Reports** | Clerk operational rosters (**Open Violations**, **Appeals**, **Pre-Trials**, Court Programs, Disposed, Payment Summary, New Cases, Payment Plans, **Bonds**) plus **preview** cards for OCA, DPS, and State Quarterly. Official filings stay under [Import/Export](../import-export/README.md). Case PDFs are listed under [Documents and forms](documents.md). Report preview screens load OCA / DPS identifiers from **court report settings** without opening full agency admin. |
 
-Admin and setup areas (when your role includes them) may also include offense-to-fine mapping, speeding fine tables, OmniBase submissions, and health checks.
+Admin and setup areas (when your role includes them) may also include offense-to-fine mapping, speeding fine tables, OmniBase submissions, and health checks. A new mapping keeps the offense's existing DPS code. A retired mapping can still supply the fine for a citation that was already filed.
 
 ## Violation search results
 

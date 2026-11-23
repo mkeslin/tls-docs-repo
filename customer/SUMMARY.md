@@ -145,6 +145,7 @@
   * [DPS Conviction Report](import-export/dps-conviction-report.md)
   * [OCA Report](import-export/oca-report.md)
   * [State Quarterly Report](import-export/state-quarterly-report.md)
+  * [Child Safety Seat and Seat Belt Fines](import-export/seat-belt-fine-report.md)
   * [Data quality checklist](import-export/data-quality-checklist.md)
 * [CAD](cad/README.md)
   * [Live CAD overview](cad/live-cad-overview.md)
